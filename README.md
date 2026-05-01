@@ -24,8 +24,8 @@ Sample outputs can be viewed from this folder:
 ### Installation
 
 ```bash
-conda create -n ref-agent python=3.10
-conda activate ref-agent
+conda create -n pivot python=3.10
+conda activate pivot
 pip install -r requirements.txt
 ```
 
@@ -58,13 +58,17 @@ python tools/build_section_wise_indices.py
 python tools/rebuild_global_index.py
 ```
 
-#### Presentation Generation
+---
+
+### Presentation video Generation
 
 ```bash
 python run.py "dataset/attention.pdf" --output_dir "output/"
 ```
 
-### Execution Flow (`run.py`)
+---
+
+#### Execution Flow of `run.py`
 
 #### 0. Offline Knowledge Prep (usually done before `run.py`)
 
@@ -164,7 +168,7 @@ Output: final animation + timing plan JSON for that scene.
 
 ### Important
 
-You should be having Gemini key and free alibaba key to run the script. If you are based in china you the china server, or else stick with Singapore server for international version.
+You should be having Gemini key and free alibaba key to run the script. If you are based in china use the china server, or else stick with Singapore server for international access.
 
 ## Acknowledgement
 
