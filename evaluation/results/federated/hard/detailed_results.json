@@ -1,0 +1,344 @@
+{
+  "results": [
+    {
+      "id": 2,
+      "category": "core_contribution",
+      "difficulty": "hard",
+      "question": "How does BlindFed resolve the conflict between the Learning Service Provider's (LSP) need for model intellectual property and the clients' need for data privacy during the adaptation of foundation models?",
+      "ground_truth_answer": "BlindFed introduces a 'double-blind' framework using Fully Homomorphic Encryption (FHE) and Secure Multi-Party Computation (MPC). It ensures model privacy by keeping the Foundation Model (FM) on the LSP's server, where it is modified into an FHE-friendly architecture that clients cannot access. It ensures data privacy by having clients encrypt their data using FHE before sending it to the server; the server performs inference on encrypted tensors without ever seeing the raw data. The 'double-blind' nature is further reinforced by a two-stage split learning approach where the client only trains a lightweight local adapter and classification head, while the core FM remains a black box to them.",
+      "student_answer": "BlindFed resolves the conflict between the Learning Service Provider's (LSP) model intellectual property and clients' data privacy through a \"double-blind\" framework using the following mechanisms:\n\n*   **Model Privacy (LSP IP Protection):**\n    *   **Proprietary Weight Retention:** The LSP retains full ownership and does not share the Foundation Model (FM) weights with clients.\n    *   **Extraction Mitigation:** To prevent clients from reconstructing the model using intermediate representations, BlindFed employs **sample-level permutations** (shuffling batches to hide input-output mappings) and **Stochastic Block Sampling (SBS)** (skipping layers to neutralize similarity-based extraction attacks).\n    *   **Parallel Adapters:** By using parallel adapters instead of sequential ones (like LoRA), the framework eliminates the need for clients to perform backpropagation through the proprietary FM backbone.\n\n*   **Data Privacy (Client Protection):**\n    *   **Fully Homomorphic Encryption (FHE):** Clients' sensitive data is encrypted using FHE, allowing the server to perform inference and compute batch loss entirely in the encrypted domain without ever seeing plaintext data.\n    *   **Split Learning with Noise Reset:** Clients interact with the server block-by-block, decrypting and re-encrypting intermediate outputs to manage FHE multiplicative depth while keeping the server \"blind\" to the underlying data.\n    *   **Secure Aggregation:** Local updates to parallel adapters are aggregated via **Secure Multi-Party Computation (MPC)**, ensuring the server only sees the global average and never individual client updates.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "overall_score": 10,
+        "reasoning": "The student's answer is exceptionally accurate and complete. It covers all the key points from the ground truth (FHE, MPC, double-blind framework, model privacy, and data privacy) and provides even more specific technical details about the BlindFed architecture (such as SBS and parallel adapters) that align perfectly with the research paper. It captures the essence of the 'double-blind' nature and the split learning approach perfectly.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 3,
+      "category": "core_contribution",
+      "difficulty": "hard",
+      "question": "What specific architectural paradigm shift does BlindFed employ to enable adaptation without requiring the client to perform backpropagation through the foundation model's backbone?",
+      "ground_truth_answer": "BlindFed shifts from sequential adaptation (like standard LoRA) to a parallel adapter (LoSA) and classification head approach. In this paradigm, the FM acts as a frozen feature extractor that processes encrypted data. Because the parallel adapter only requires the intermediate representations (IRs) from the FM's blocks as inputs, the client can update the adapter parameters locally in the plaintext domain after decrypting the IRs. This eliminates the need for the client to compute or receive gradients for the massive FM backbone, which would be computationally and cryptographically prohibitive.",
+      "student_answer": "BlindFed employs a shift from sequential adapters (like LoRA) to **parallel adapters** (also referred to as **LoSA**). This architectural modification allows clients to train low-rank adapters using intermediate representations received from the foundation model (FM) without requiring backpropagation through the FM's backbone, which would be computationally infeasible in an encrypted domain.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 9,
+        "relevance": 10,
+        "overall_score": 9.5,
+        "reasoning": "The student's answer is highly accurate and captures the core technical contribution: the shift from sequential to parallel adapters (LoSA) to avoid backpropagation through the frozen FM backbone. It misses the specific mention of the classification head and the explicit step of decrypting intermediate representations, but the fundamental mechanism is correctly described.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 4,
+      "category": "core_contribution",
+      "difficulty": "hard",
+      "question": "In the context of the 'double-blind' constraint, how does the framework's use of an auxiliary dataset (Daux) differ in purpose from the clients' local datasets (Dk)?",
+      "ground_truth_answer": "The auxiliary dataset (Daux) is used exclusively by the LSP in the 'Offline Distillation' stage to pre-train the FHE-friendly version of the FM (the student) to mimic the original FM (the teacher). This dataset does not need to be task-specific or private. In contrast, the clients' local datasets (Dk) are the sensitive, task-specific data used in the 'Online Adaptation' stage to fine-tune the parallel adapters and classification heads. Daux enables the structural transformation of the model, while Dk enables the functional adaptation to the downstream task.",
+      "student_answer": "In the context of the 'double-blind' constraint, the purposes of the auxiliary dataset ($D_{aux}$) and the clients' local datasets ($D_k$) differ as follows:\n\n*   **Auxiliary Dataset ($D_{aux}$):** This independent dataset is used by the Learning Service Provider (LSP) for **offline knowledge distillation**. Its purpose is to train an FHE-friendly \"student\" model that approximates the original foundation model (the \"teacher\") by matching internal features and logits. This ensures the redesigned model retains the original's representational power and accuracy before any client collaboration begins.\n*   **Clients' Local Datasets ($D_k$):** These are sensitive, proprietary datasets used for **online adaptation**. Their purpose is to train task-specific local parallel adapters and classification heads for out-of-domain tasks (e.g., medical imagery). This allows the model to adapt to specific client needs without the LSP ever accessing the raw, sensitive data, thereby maintaining data privacy.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "overall_score": 10,
+        "reasoning": "The student's answer is exceptionally clear and covers all the key points from the ground truth. It correctly identifies the roles of both datasets, the specific stages of the process (offline distillation vs. online adaptation), and the purpose of each (structural transformation vs. functional adaptation).",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 5,
+      "category": "core_contribution",
+      "difficulty": "hard",
+      "question": "Why is the modularity of the Foundation Model (FM) a fundamental assumption for the feasibility of the BlindFed framework, particularly regarding FHE constraints?",
+      "ground_truth_answer": "FHE schemes like CKKS have a limited multiplicative depth, meaning they cannot process a deep neural network in a single pass without significant error accumulation or the need for expensive 'bootstrapping' operations. By assuming a modular architecture (like Transformer blocks), BlindFed can perform 'split' encrypted inference. The server processes one block at a time and sends the result to the client for decryption and re-encryption (refreshing the noise/depth). Without this modularity, the thin-client assumption would be violated as the client would need to handle much more complex cryptographic management.",
+      "student_answer": "The modularity of the Foundation Model (FM) is fundamental to the BlindFed framework because it allows for **block-by-block encrypted inference**, which is necessary to overcome the **multiplicative depth constraints** of current Fully Homomorphic Encryption (FHE) schemes.\n\nAccording to the provided information, the feasibility of the framework relies on this modularity for the following reasons:\n\n*   **Managing Multiplicative Depth:** The high multiplicative depth of Foundation Models exceeds the limits of current FHE schemes. By processing the model one transformer block at a time, the framework can manage this depth.\n*   **Resetting Noise and Depth:** During the block-by-block process, clients decrypt and then re-encrypt intermediate outputs. This action resets the multiplicative depth and noise, allowing the server to continue computing the next block in the encrypted domain.\n*   **Enabling Interactive Protocol:** This modular structure facilitates an interactive protocol where the server computes encrypted outputs for individual blocks, and the client performs the necessary decryption/re-encryption steps to ensure the server never accesses plaintext data while keeping the total computation within FHE limits.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "overall_score": 10,
+        "reasoning": "The student's answer is excellent and covers all the key points from the ground truth. It correctly identifies the multiplicative depth constraints of FHE, the block-by-block processing enabled by modularity, and the role of the client in resetting noise/depth through decryption and re-encryption.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 6,
+      "category": "methodology",
+      "difficulty": "hard",
+      "question": "Explain the mathematical rationale behind using Goldschmidt\u2019s algorithm within the BlindFed framework and identify which specific transformer operations necessitate its inclusion.",
+      "ground_truth_answer": "Goldschmidt\u2019s algorithm is used to implement the division operation in the encrypted domain, as FHE natively only supports addition and multiplication (polynomial operations). Division is required for the normalization steps in both LayerNorm and Softmax. The algorithm approximates the reciprocal (1/x) using a series of multiplications (iterative product of (1 + (1-x)^{2^i})), which allows the server to perform these non-linear normalization steps on encrypted tensors without decrypting them.",
+      "student_answer": "Within the BlindFed framework, Goldschmidt\u2019s algorithm is used to enable **FHE-compatible division**. The mathematical rationale for its inclusion is that Fully Homomorphic Encryption (FHE) schemes, such as CKKS, only natively support polynomial operations (addition and multiplication). Since division is a non-linear, non-polynomial operation, it must be approximated using polynomial-based methods to function within the encrypted domain.\n\nThe specific transformer operations that necessitate the use of Goldschmidt\u2019s algorithm are:\n*   **LayerNorm:** To implement the division steps required for normalization.\n*   **Softmax:** To implement the division steps required for the operation.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 9,
+        "relevance": 10,
+        "overall_score": 9.7,
+        "reasoning": "The student's answer is highly accurate and covers all the main points of the ground truth. It correctly identifies why the algorithm is needed (FHE limitations), what it does (approximates division), and which operations require it (LayerNorm and Softmax). The only minor detail omitted is the specific iterative formula for the reciprocal, but the student correctly notes it is a polynomial-based approximation.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 7,
+      "category": "methodology",
+      "difficulty": "hard",
+      "question": "Describe the iterative process of 'encrypted inference' between the server and client. Why is a simple end-to-end homomorphic evaluation of the entire FM considered impractical in this setting?",
+      "ground_truth_answer": "In BlindFed, the server applies an FHE-friendly block to encrypted data and sends the result to the client. The client decrypts it, re-encrypts it, and sends it back for the next block. An end-to-end evaluation is impractical because the multiplicative depth of a full FM (e.g., 12+ layers of ViT) exceeds the capacity of standard FHE parameters. To maintain accuracy without decryption, one would need 'bootstrapping,' which is computationally too slow for a 'powerful server' to handle efficiently for many clients, and the approximation errors from polynomial replacements of GELU/Softmax would compound to an unusable level.",
+      "student_answer": "The iterative process of 'encrypted inference' in BlindFed is a block-by-block interactive protocol between the server and the client:\n\n1.  **Block-wise Computation:** The server performs an encrypted forward pass for a single transformer block.\n2.  **Client Interaction:** The server sends the encrypted output of that block to the client.\n3.  **Noise Resetting:** The client decrypts the intermediate output and immediately re-encrypts it. This process resets the multiplicative depth and noise associated with the Fully Homomorphic Encryption (FHE) scheme.\n4.  **Iteration:** The client returns the freshly encrypted representation to the server, which then proceeds to compute the next transformer block.\n5.  **Finalization:** After the final block, the client uses the decrypted representations to train local parallel adapters and classification heads.\n\nA simple end-to-end homomorphic evaluation of the entire foundation model (FM) is considered impractical because FMs have a **high multiplicative depth** that exceeds the limits of current FHE schemes. Evaluating the entire network at once would accumulate too much noise for successful decryption; the block-by-block approach allows the client to \"reset\" this depth at each stage.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 7,
+        "relevance": 10,
+        "overall_score": 9.0,
+        "reasoning": "The student provides an excellent and accurate description of the block-by-block iterative process and correctly identifies that high multiplicative depth makes end-to-end evaluation impractical. However, it misses two specific points from the ground truth regarding why end-to-end is impractical: the computational slowness of bootstrapping and the compounding approximation errors from polynomial replacements of GELU/Softmax.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 8,
+      "category": "methodology",
+      "difficulty": "hard",
+      "question": "How does the framework utilize the relationship between the permutation matrices \u03a0_\u2113 and \u03a0_{\u2113-1} to maintain the functional integrity of the parallel adapter while obscuring sample identities?",
+      "ground_truth_answer": "To prevent model extraction, the server permutes the batch of samples at each block \u2113 using a matrix \u03a0_\u2113. However, the parallel adapter requires the output of the current block (B_\u2113) and the previous adapter state (H_{\u2113-1}) to be aligned. To fix this without revealing the absolute permutations, the server provides the client with the relative permutation matrix (\u03a0^{-1}_{\u2113-1} \u00b7 \u03a0_\u2113). This allows the client to re-align the previous state to the current permuted batch's order, enabling correct computation of the adapter function g_\u2113 while ensuring the client never knows the original index of any specific sample.",
+      "student_answer": "To maintain the functional integrity of the parallel adapters while obscuring sample identities, the BlindFed framework utilizes the relationship between permutation matrices as follows:\n\n*   **Revealing Relative Permutations:** The server reveals the **relative permutations** between consecutive blocks (e.g., the mapping between $\\Pi_{\\ell-1}$ and $\\Pi_\\ell$) to the client.\n*   **Maintaining Functional Integrity:** These relative permutations allow the client to align the current block's intermediate representations ($\\mathbf{B}_\\ell$) with the previous adapter's output ($\\mathbf{H}_{\\ell-1}$). This alignment is necessary to correctly compute the input for the current parallel adapter ($\\mathbf{B}_\\ell + \\mathbf{H}_{\\ell-1}$) sample-wise within the shuffled batch.\n*   **Obscuring Sample Identities:** While the relative mapping is known, the absolute permutations ($\\Pi_\\ell$) remain secret. According to **Proposition 1**, uniquely recovering the individual permutation matrices from these relative mappings is computationally infeasible (requiring $n!$ trials), thereby preventing the client from linking specific inputs to outputs and protecting sample privacy.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "overall_score": 10,
+        "reasoning": "The student's answer is exceptionally clear and covers all the key points from the ground truth. It correctly identifies the use of relative permutations to align the current block's output with the previous adapter state, explains why this is necessary for the parallel adapter's computation, and highlights that the absolute permutations remain secret to protect sample privacy. It even provides additional context regarding the computational difficulty of reversing the permutations.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 9,
+      "category": "methodology",
+      "difficulty": "hard",
+      "question": "What is the specific logic behind the Stochastic Block Sampling (SBS) transition probabilities, and how does this address the vulnerability of feature similarity across layers?",
+      "ground_truth_answer": "SBS addresses the risk that a client might use the similarity between intermediate representations of the same sample in consecutive blocks to reverse-engineer the permutation matrices (model extraction). The logic is: if block \u2113 is sampled, block \u2113+1 is never sampled (prob=0); if block \u2113 is not sampled, \u2113+1 is sampled with prob=0.5. This ensures that the client never receives representations from two consecutive blocks for the same batch, as feature similarity is only high between adjacent layers and drops significantly when layers are skipped, making similarity-based attacks computationally infeasible.",
+      "student_answer": "Based on the provided information, the logic behind Stochastic Block Sampling (SBS) is as follows:\n\n*   **Transition Logic:** SBS follows a structured rule where if a block $\\ell$ is sampled (represented as state 1 in Figure 5), the subsequent block $\\ell+1$ is deterministically skipped (transitioning back to state 0 with a probability of 1.0). If a block is skipped (state 0), the next block has a 0.5 probability of being sampled and a 0.5 probability of being skipped.\n*   **Addressing Feature Similarity:** This strategy ensures that no two consecutive blocks are ever sampled, meaning any two representations seen by the client are separated by at least one layer.\n*   **Vulnerability Mitigation:** By enforcing this separation, SBS significantly reduces feature similarity between the exposed intermediate representations. This breaks the diagonal alignment required for similarity-based model extraction attacks, thereby neutralizing them with minimal impact on model accuracy.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "overall_score": 10,
+        "reasoning": "The student's answer is exceptionally accurate and covers all key points from the ground truth. It correctly explains the transition probabilities, the mechanism of ensuring no consecutive blocks are sampled, and the underlying reason (reducing feature similarity to prevent model extraction attacks).",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 10,
+      "category": "experimental_results",
+      "difficulty": "hard",
+      "question": "Analyze the performance of BlindFed on the SVHN dataset compared to linear probing. What does this disparity suggest about the necessity of the parallel adapter in out-of-domain tasks?",
+      "ground_truth_answer": "On the SVHN dataset (digit recognition), linear probing performs poorly (approx. 0.59 accuracy) because the pre-trained ViT (on ImageNet) features are not well-aligned with house number digits. BlindFed achieves significantly higher accuracy (approx. 0.92). This disparity suggests that for out-of-domain tasks, simply training a new classification head (linear probing) is insufficient; the internal features of the model must be adapted. BlindFed's parallel adapters successfully provide this internal adaptation without needing to modify the backbone weights directly.",
+      "student_answer": "On the SVHN dataset, BlindFed achieves an accuracy of **92.32%**, significantly outperforming linear probing, which only reaches **59.38%**.\n\nThis substantial performance disparity suggests that for out-of-domain tasks, simply training a classification head (linear probing) is insufficient. The parallel adapter is necessary because it enables **task-specific adaptation** of the foundation model's internal representations. This allows the model to achieve high accuracy on challenging out-of-domain data while bypassing the need for computationally expensive backpropagation through the frozen foundation model backbone.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "overall_score": 10,
+        "reasoning": "The student's answer is excellent. it provides precise accuracy figures that align with the ground truth, correctly identifies the reason for the performance gap (out-of-domain tasks requiring internal feature adaptation), and explains how BlindFed's parallel adapters address this issue.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 11,
+      "category": "experimental_results",
+      "difficulty": "hard",
+      "question": "Based on the Fed-ISIC2019 results, evaluate the impact of using an out-of-distribution (OOD) auxiliary dataset (Tiny-ImageNet) versus an in-distribution (InD) one for the offline distillation stage.",
+      "ground_truth_answer": "The results show that using Tiny-ImageNet (OOD) for distillation yields performance (0.7051 centralized) very close to using the in-distribution Fed-ISIC2019 center-0 data (0.7090 centralized). This indicates that the FHE-friendly architecture redesign is robust; the student model learns the general behavior and non-linear approximations of the teacher FM effectively regardless of whether the distillation data matches the final downstream task. This is a crucial finding for the LSP, as it means they can prepare the FHE-friendly model once using any public dataset.",
+      "student_answer": "Based on the provided information, the impact of using an out-of-distribution (OOD) auxiliary dataset (Tiny-ImageNet) versus an in-distribution (InD) one (Fed-ISIC2019 center=0) for offline distillation is as follows:\n\n*   **Robustness:** The framework demonstrates **robustness** to the choice of auxiliary dataset. According to the context for Table 2, BlindFed maintains its effectiveness on medical imaging tasks (Fed-ISIC2019) regardless of whether the auxiliary data used for distillation is in-distribution or out-of-distribution.\n*   **Effectiveness:** The two-stage distillation process ensures the redesigned \"student\" model retains the representational power and accuracy of the original foundation model before client collaboration, even when trained on an OOD dataset like Tiny-ImageNet.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 7,
+        "relevance": 10,
+        "overall_score": 9.0,
+        "reasoning": "The student's answer is accurate and highly relevant. It correctly identifies the robustness of the framework and the effectiveness of the distillation process regardless of whether the data is OOD or InD. It misses the specific numerical comparison (0.7051 vs 0.7090) and the specific practical implication for the LSP (preparing the model once using any public dataset) mentioned in the ground truth.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 12,
+      "category": "experimental_results",
+      "difficulty": "hard",
+      "question": "How does the scalability of BlindFed, as demonstrated in the experiments with up to 50 clients, compare to full fine-tuning in terms of hardware constraints (specifically GPU memory)?",
+      "ground_truth_answer": "BlindFed is significantly more scalable than full fine-tuning. In the experiments, full fine-tuning became 'N/A' (infeasible) for 50 clients on a single 40GB GPU because it requires storing gradients and optimizer states for the entire 86M+ parameter backbone for every client. BlindFed, by only requiring updates for the small parallel adapters (0.25M parameters) and using the FM as a frozen extractor, maintains a much lower memory footprint, allowing it to handle 50 clients on the same hardware where full fine-tuning failed.",
+      "student_answer": "Based on the provided information, BlindFed's scalability to 50 clients compares to full fine-tuning as follows:\n\n*   **GPU Memory Efficiency:** BlindFed requires **significantly less GPU memory** than full fine-tuning. Its memory footprint is described as being **comparable to linear probing**, which is the most memory-efficient baseline shown.\n*   **Hardware Feasibility:** Because of its lower memory requirements, BlindFed is practical for \"thin clients\" and adapting large models with limited local data, whereas full fine-tuning is more computationally expensive and has a much higher memory overhead.\n*   **Performance at Scale:** In experiments with up to 50 clients and varying data heterogeneity, BlindFed consistently outperformed linear probing while maintaining its efficiency advantages over full fine-tuning.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 7,
+        "relevance": 10,
+        "overall_score": 8.5,
+        "reasoning": "The student's answer is accurate and highly relevant. It correctly identifies that BlindFed is more scalable due to lower memory requirements and the use of adapters. However, it misses the specific experimental detail that full fine-tuning became 'N/A' (infeasible) at the 50-client mark on a 40GB GPU, and it does not mention the specific parameter counts (86M vs 0.25M) provided in the ground truth.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 13,
+      "category": "experimental_results",
+      "difficulty": "hard",
+      "question": "What counter-intuitive effect did Stochastic Block Sampling (SBS) have on model performance in some experimental cases, and what is the hypothesized reason for this?",
+      "ground_truth_answer": "In several cases (e.g., CIFAR-10 and SVHN), BlindFed + SBS achieved slightly higher accuracy than BlindFed without SBS. The authors hypothesize that the missing intermediate representations caused by SBS act as a form of regularization or 'dropout-like' noise. This forces the parallel adapters to learn more robust features from a subset of the FM's blocks, leading to marginally better generalization on the test sets.",
+      "student_answer": "INSUFFICIENT_INFORMATION",
+      "answered": false,
+      "judgment": {
+        "accuracy": 0,
+        "completeness": 0,
+        "relevance": 0,
+        "overall_score": 0,
+        "reasoning": "The student provided 'INSUFFICIENT_INFORMATION', which indicates they failed to provide the answer found in the ground truth.",
+        "info_missing": true
+      }
+    },
+    {
+      "id": 14,
+      "category": "limitations",
+      "difficulty": "hard",
+      "question": "Discuss the communication trade-off inherent in the block-by-block encrypted inference approach. Under what specific conditions does BlindFed's communication overhead become comparable to standard Federated Learning?",
+      "ground_truth_answer": "BlindFed's communication cost is O(Nk * L * C), where Nk is the dataset size, L is the number of blocks, and C is the size of the encrypted tensor. This is much higher than standard FL (FedAvg) for small models because it requires multiple exchanges per sample per round. However, as the Foundation Model size grows (e.g., to 22B parameters), the cost of transmitting the model in FedAvg (approx. 88GB) becomes so massive that BlindFed's overhead becomes comparable or even favorable, especially when the local datasets (Nk) are small, which is common in specialized downstream tasks.",
+      "student_answer": "The block-by-block encrypted inference approach in BlindFed involves a significant communication trade-off:\n\n*   **Trade-off:** To manage the high multiplicative depth of Foundation Models (FMs) which exceeds the limits of current Fully Homomorphic Encryption (FHE) schemes, BlindFed performs encrypted inference one transformer block at a time. This requires an interactive protocol where the server computes an encrypted output, and the client must decrypt and re-encrypt it before returning it to the server for the next block. This process introduces a **high communication cost** (e.g., 17.33 MB per encrypted intermediate representation) and increased computational complexity for the server.\n\n*   **Specific Conditions for Comparable Overhead:** INSUFFICIENT_INFORMATION. While the provided text states that BlindFed's **latency** is minimal (only 4% higher than linear probing in the CIFAR-10/SVHN setting) and its **memory footprint** is comparable to linear probing, it does not explicitly state the specific conditions under which its **communication overhead** becomes comparable to standard Federated Learning. It only notes that the framework remains practical for adapting large models with limited local data despite the high communication costs of FHE.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 0,
+        "completeness": 0,
+        "relevance": 0,
+        "overall_score": 0,
+        "reasoning": "The student explicitly stated 'INSUFFICIENT_INFORMATION' for the specific conditions under which BlindFed's communication overhead becomes comparable to standard FL, which is the key information provided in the ground truth. According to the special instructions, answering 'INSUFFICIENT_INFORMATION' results in a score of 0.",
+        "info_missing": true
+      }
+    },
+    {
+      "id": 15,
+      "category": "limitations",
+      "difficulty": "hard",
+      "question": "The paper assumes a 'semi-honest' threat model. What specific risks remain if a client or server deviates from this assumption, particularly regarding the 'double-blind' nature of the protocol?",
+      "ground_truth_answer": "If the server is malicious (not semi-honest), it could potentially use malformed ciphertexts to probe the client's data or ignore the permutation/SBS protocols to facilitate model extraction. If a client is malicious, they could attempt to submit poisoned updates during the MPC aggregation to degrade the global model or use the decrypted intermediate representations (despite SBS and permutations) to launch more sophisticated model extraction attacks. The current framework does not include active verification or zero-knowledge proofs to thwart such 'malicious' (as opposed to semi-honest) behaviors.",
+      "student_answer": "INSUFFICIENT_INFORMATION",
+      "answered": false,
+      "judgment": {
+        "accuracy": 0,
+        "completeness": 0,
+        "relevance": 0,
+        "overall_score": 0,
+        "reasoning": "The student provided 'INSUFFICIENT_INFORMATION', which fails to address the question or provide any of the key points from the ground truth.",
+        "info_missing": true
+      }
+    },
+    {
+      "id": 16,
+      "category": "limitations",
+      "difficulty": "hard",
+      "question": "Identify the primary computational bottleneck for the Learning Service Provider (LSP) when scaling the number of clients or the complexity of the Foundation Model.",
+      "ground_truth_answer": "The primary bottleneck is the computational complexity of performing homomorphic operations (encrypted inference) on the server. Even with a 'powerful server,' FHE operations (especially polynomial approximations of Softmax and GELU) are orders of magnitude slower than plaintext operations. As the FM complexity (number of layers/hidden dimension) or the number of clients increases, the server must perform a linear increase in these expensive encrypted multiplications and additions, leading to high latency and high energy costs.",
+      "student_answer": "Based on the provided information, the primary computational bottleneck for the Learning Service Provider (LSP) is the **computational complexity introduced by Fully Homomorphic Encryption (FHE)**.\n\nSpecifically:\n*   **FHE Complexity:** The use of FHE for encrypted inference introduces significant computational complexity for the server (Scene 9, Figure 10).\n*   **Encrypted Backpropagation:** Standard backpropagation through the Foundation Model (FM) is considered \"computationally infeasible\" when data remains encrypted, which is why the framework switches to parallel adapters to avoid it (Scene 3).\n*   **Communication Overhead:** While not a computational bottleneck, FHE also introduces a high communication cost, such as 17.33 MB per encrypted intermediate representation (Scene 9, Figure 10).",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 8,
+        "relevance": 10,
+        "overall_score": 9.3,
+        "reasoning": "The student correctly identifies the primary bottleneck as the computational complexity of FHE. It accurately explains why backpropagation is avoided and mentions the high communication costs. It misses the specific mention of polynomial approximations for Softmax and GELU, as well as the explicit detail about how complexity scales linearly with model size and client numbers.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 17,
+      "category": "limitations",
+      "difficulty": "hard",
+      "question": "Why is the current implementation of BlindFed restricted to 'thin clients' only in terms of model storage, but not in terms of cryptographic computation?",
+      "ground_truth_answer": "The 'thin client' assumption in BlindFed means the client doesn't need to store the massive FM or perform the heavy lifting of encrypted inference. However, the client is still required to perform FHE encryption and decryption for every block in every round. While this is less intensive than the server's work, it still requires significant computational resources for a truly 'thin' device (like a mobile phone or IoT sensor), as FHE key management and decryption are still non-trivial tasks compared to standard plaintext inference.",
+      "student_answer": "Based on the provided information, the current implementation of BlindFed is restricted to \"thin clients\" for model storage but requires active cryptographic computation for the following reasons:\n\n*   **Model Storage:** Clients are considered \"thin\" because they do not store the large, proprietary Foundation Model (FM) weights, which are retained by the Learning Service Provider (LSP) (Scene 1, 2). Instead, clients only store and train small, low-rank parallel adapters and classification heads (Scene 6, 9).\n*   **Cryptographic Computation:** Clients are not \"thin\" in terms of computation because they must perform decryption and re-encryption of intermediate representations after each transformer block (Scene 5). This interactive process is necessary to **reset the multiplicative depth** (or noise) of the Fully Homomorphic Encryption (FHE), as the depth of Foundation Models exceeds the limits of current FHE schemes (Scene 5). This also ensures the server never accesses the client's private key or plaintext data (Scene 5).",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "overall_score": 10,
+        "reasoning": "The student's answer is exceptionally thorough and accurate. it correctly identifies the 'thin' aspect (storage of FM weights) and the 'not thin' aspect (computational burden of FHE encryption/decryption). It even provides additional technical context (resetting multiplicative depth) that explains the necessity of the client's involvement, which aligns perfectly with the ground truth.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 18,
+      "category": "negative_traps",
+      "difficulty": "hard",
+      "question": "Does the BlindFed framework require the client to compute gradients for the Foundation Model's (FM) internal weights during the online adaptation phase? Explain why or why not.",
+      "ground_truth_answer": "No. BlindFed specifically avoids this. The FM backbone is frozen and treated as a black-box feature extractor. The client only computes gradients for the lightweight parallel adapters and the classification head in the plaintext domain. Backpropagating through the FM would require the client to have access to the FM's weights (violating model privacy) and would be cryptographically impossible to perform efficiently on encrypted data.",
+      "student_answer": "No, the BlindFed framework does not require the client to compute gradients for the Foundation Model's (FM) internal weights.\n\nAccording to the provided information, the framework is specifically designed to avoid this for the following reasons:\n\n*   **Parallel Adapter Design:** BlindFed utilizes low-rank parallel adapters (LoSA) instead of sequential ones. This architectural choice allows clients to train local adapters and classification heads using intermediate representations without needing to perform backpropagation through the FM backbone.\n*   **Computational Feasibility:** The transcript and figure descriptions state that backpropagation through the FM is bypassed because it would be computationally infeasible when data remains encrypted and would violate the \"double-blind\" privacy constraint where clients cannot access proprietary model weights.\n*   **Local Learning:** Clients receive intermediate representations in plaintext after each transformer block and use them to update only the local parallel adapters and classification heads, effectively bypassing the need to calculate gradients for the original FM weights.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "overall_score": 10,
+        "reasoning": "The student's answer is exceptionally accurate and complete. it correctly identifies that the FM is frozen, explains the role of parallel adapters, and highlights both the privacy (double-blind constraint) and computational (encrypted data) reasons why backpropagation through the FM is avoided.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 19,
+      "category": "negative_traps",
+      "difficulty": "hard",
+      "question": "To what extent does the server gain access to the plaintext local updates of the parallel adapters or classification heads during the aggregation process?",
+      "ground_truth_answer": "The server gains zero access to the plaintext local updates. BlindFed utilizes Secure Multi-Party Computation (MPC) for the aggregation step. This ensures that the server only receives the final aggregated global model (the average of the updates) and never sees the individual, potentially sensitive updates from any specific client.",
+      "student_answer": "The server does not gain any access to the individual plaintext local updates of the parallel adapters or classification heads. \n\nAccording to the provided information, BlindFed employs **Secure Multi-Party Computation (MPC)** for secure aggregation. This mechanism allows the server to compute the average of client updates (via FedAvg) to form the global model without ever seeing the individual local updates from the data owners.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "overall_score": 10,
+        "reasoning": "The student's answer perfectly captures all key points from the ground truth: the server's lack of access to plaintext updates, the use of Secure Multi-Party Computation (MPC), and the fact that the server only sees the final aggregated global model.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 20,
+      "category": "negative_traps",
+      "difficulty": "hard",
+      "question": "Is the use of sequential adapters, such as standard LoRA, a component of the online adaptation stage in BlindFed? Why is this distinction important?",
+      "ground_truth_answer": "No, sequential adapters like LoRA are NOT used in the online adaptation stage; BlindFed uses parallel adapters (LoSA). This distinction is critical because sequential adapters require the input to pass through the adapter and then back into the backbone (or vice versa), which necessitates backpropagation through the backbone to update the adapter. Parallel adapters operate alongside the backbone, allowing them to be updated using only the backbone's intermediate outputs, which is the only way to keep the backbone 'blind' and frozen.",
+      "student_answer": "No, sequential adapters like standard LoRA are not used in the online adaptation stage of BlindFed. Instead, the framework utilizes **parallel adapters** (referred to as LoSA).\n\nThis distinction is important because:\n*   **Elimination of Backpropagation:** Sequential adapters (LoRA) require backpropagation through the Foundation Model (FM) backbone.\n*   **Computational Feasibility:** Backpropagation through the FM is computationally infeasible when data remains encrypted under Fully Homomorphic Encryption (FHE).\n*   **Local Learning:** Parallel adapters allow clients to perform local updates using plaintext intermediate representations without needing to backpropagate through the proprietary FM, which is essential for maintaining both model and data privacy.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "overall_score": 10,
+        "reasoning": "The student's answer is highly accurate and covers all the key points from the ground truth. It correctly identifies that sequential adapters are not used, that parallel adapters (LoSA) are used instead, and provides the correct technical reasoning regarding backpropagation through the backbone.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 21,
+      "category": "negative_traps",
+      "difficulty": "hard",
+      "question": "Does the framework claim to provide a solution that is more communication-efficient than standard FedAvg for small-scale foundation models?",
+      "ground_truth_answer": "No. The paper explicitly acknowledges that BlindFed incurs a 'high communication cost' compared to standard methods. It only argues that the communication overhead becomes 'comparable' to standard Federated Learning when the foundation models are extremely large (e.g., billions of parameters), where the cost of sending the model itself (in FedAvg) starts to outweigh the cost of sending encrypted intermediate representations (in BlindFed).",
+      "student_answer": "Based on the provided information, the framework does not claim to be more communication-efficient than standard FedAvg. In fact, the documentation explicitly states that the use of Fully Homomorphic Encryption (FHE) introduces a **\"high communication cost\"** (e.g., 17.33 MB per encrypted intermediate representation). \n\nFurthermore, there is no mention of \"small-scale foundation models\" in the provided text; the framework is discussed in the context of adapting large foundation models.\n\n**INSUFFICIENT_INFORMATION**",
+      "answered": true,
+      "judgment": {
+        "accuracy": 0,
+        "completeness": 0,
+        "relevance": 0,
+        "overall_score": 0,
+        "reasoning": "The student's answer included the phrase 'INSUFFICIENT_INFORMATION', which triggers the special case rule to score 0 on all criteria and mark 'info_missing' as true.",
+        "info_missing": true
+      }
+    }
+  ]
+}

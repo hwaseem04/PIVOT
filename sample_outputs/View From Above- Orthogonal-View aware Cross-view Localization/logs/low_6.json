@@ -1,0 +1,21 @@
+{
+    "title": "Robust Continual Pose Estimation",
+    "audio_content": "The system maintains stable navigation over three-point-six kilometers from just one initial pose. It resists drifts from moving vehicles and uses a rapid recovery mechanism to self-correct at landmarks, ensuring reliable performance for GPS-denied autonomous driving.",
+    "duration_sec": 14.4,
+    "bullets": [
+        "Maintains stability over 3.6km routes from a single initial pose",
+        "Resists significant drifts caused by dynamic objects and moving vehicles",
+        "Rapidly recovers and self-corrects upon encountering distinct landmarks"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 7",
+        "caption": "Accumulated pose estimation performance showing stable trajectory and rapid recovery compared to baselines."
+    },
+    "source": [
+        "Section 5.4",
+        "Figure 7",
+        "Table 3"
+    ],
+    "prompt": "A slide showing a 2x2 grid of trajectory plots from Figure 7, comparing the stable blue line of the proposed method against the drifting green and cyan lines of baselines. Callouts highlight the 'rapid recovery' points and the system's immunity to moving vehicles."
+}

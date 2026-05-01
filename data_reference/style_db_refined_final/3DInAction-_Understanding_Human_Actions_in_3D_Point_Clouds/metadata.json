@@ -1,0 +1,599 @@
+{
+  "video_id": "3DInAction- Understanding Human Actions in 3D Point Clouds",
+  "duration": 289.22,
+  "fps_sampled": 1.0,
+  "total_slides": 28,
+  "slides_with_builds": 3,
+  "total_build_steps": 38,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 8.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "3DinAction",
+        "layout_description": "This is a title slide with a centered, hierarchical layout on a plain white background. At the very top, three institutional logos are arranged horizontally: the Technion logo on the left, the Marie Curie Actions logo in the center, and the Australian National University logo on the right. The main title, '3DinAction', is prominently displayed in a large, bold, black font in the center. Below it, a subtitle 'Understanding Human Actions in 3D Point Clouds' appears in a smaller black font. Underneath the subtitle, the names of the three authors are listed in a single line in a reddish-brown color. At the bottom of the slide, three circular headshots are positioned side-by-side; the outer two contain photographs of the authors, while the center one is a gray silhouette placeholder. The slide has a light text density and a clean, professional aesthetic."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 8.0,
+      "t_end": 15.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 8.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figure",
+        "title_text": "Can YOU recognize the action?",
+        "layout_description": "The slide follows a simple, centered layout on a plain white background. At the top, a large, bold, black title poses a question to the viewer. Below the title, a large 3D representation of a human figure is centered. The figure is constructed from a dense collection of small spheres, resembling a point cloud or voxel-based model. Specific body parts are color-coded for emphasis: the stomach area is pink, the right hand is purple, the left hand is magenta, the right foot is light green, and the left foot is cyan, while the rest of the body is light brown. The slide contains no other text, bullet points, or graphical elements, resulting in a very light text density and a focus on the central visual."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 15.0,
+      "t_end": 29.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Can YOU recognize the action?",
+        "layout_description": "The slide follows a minimalist layout with a large, bold, black title centered at the top. Below the title, a single large figure is centered on a plain white background. The figure depicts a human body represented as a 3D point cloud made of small spheres. Different segments of the body are highlighted in distinct colors: the torso and limbs are tan, the abdominal area is light pink, the hands are purple and magenta, and the feet are lime green and cyan. There are no bullet points, columns, equations, or other decorative elements, resulting in a very light text density focused on a single visual prompt."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "results",
+      "t_start": 29.0,
+      "t_end": 30.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 29.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure",
+        "title_text": "None",
+        "layout_description": "The slide consists of a single, large 3D figure centered on a plain white background. There is no title, heading, or any text present on the slide. The figure is a point-cloud or voxel-based representation of a human body, constructed from many small spheres. The model is color-coded to show different segments: the head, torso, and limbs are primarily a tan/brown color. Specific parts are highlighted with distinct colors: a circular area on the abdomen is light pink, the right hand is purple, the left hand is magenta, the right foot is mint green, and the left foot is cyan. The layout is extremely minimalist with zero text density, focusing entirely on the visual data representation."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "results",
+      "t_start": 30.0,
+      "t_end": 50.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 30.0,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure",
+        "title_text": "",
+        "layout_description": "The slide features a single, large 3D human figure centered on a plain white background. The figure is constructed from numerous small spheres, giving it a textured, point-cloud-like appearance. The model is segmented into distinct color-coded regions: the majority of the body (head, torso, arms, and legs) is a tan or light brown color. Specific parts are highlighted in different colors: a circular patch on the abdomen is light pink, the right hand is dark blue, the left hand is magenta, the right foot is bright green, and the left foot is cyan. There is no text, title, page number, or any other graphical element on the slide, resulting in a zero text density and a purely visual presentation."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "introduction",
+      "t_start": 50.0,
+      "t_end": 57.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 50.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central figure",
+        "title_text": "Problem statement: 3D Action Reconstruction",
+        "layout_description": "The slide features a large, bold title centered at the top. Below the title, a sequence of four 3D human point cloud models is arranged horizontally, representing a temporal sequence from time t1 to tT. Each model is segmented with different colors for body parts like hands, feet, and torso to show movement. To the right of this sequence, a black arrow points toward the text 'Action prediction' followed by 'Jumping jacks', indicating the classification goal. Mathematical notation defining the set of point clouds S is centered below the figures, with a further definition of a single point cloud St positioned at the bottom right. A thin horizontal line separates the main content from a footer at the bottom left, which contains the paper title '3DinAction, CVPR 2024 Highlight' and the author's name. The overall text density is light, set against a clean white background."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 57.0,
+      "t_end": 60.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 57.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central diagram",
+        "title_text": "Key idea\nTemporal local patches (t-patches)",
+        "layout_description": "The slide has a minimalist design with a white background. At the top center, there is a two-line title: 'Key idea' in a regular font, followed by a larger, bolded 'Temporal local patches (t-patches)'. The main body of the slide consists of a large, horizontally-oriented diagram. On the left, a sequence of four 3D human models is shown at different time steps labeled t1, ti, and tT, with ellipses indicating intermediate frames. These models have specific body parts (hands, feet, torso) highlighted in distinct colors like purple, pink, green, and cyan. An arrow points from this sequence to the right, where 't-patches' are displayed; these are the isolated temporal trajectories of the color-coded body parts. A final arrow on the far right points to the text 'Action prediction' and the specific result 'Jumping jacks'. The overall text density is light, relying heavily on the visual flow of the diagram to explain the core concept."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 60.0,
+      "t_end": 71.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 60.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and process diagram",
+        "title_text": "Key idea Temporal local patches (t-patches)",
+        "layout_description": "The slide has a clean, white background with a centered title 'Key idea' at the top, followed by a larger, bolded heading 'Temporal local patches (t-patches)'. The central content is a horizontal flow diagram illustrating a methodology. On the left, a sequence of four 3D human point-cloud models is shown at different time steps (labeled t1, ..., ti, ..., tT), with specific body parts like hands, feet, and torso highlighted in distinct colors (purple, pink, green, cyan). An arrow points from this sequence to a group of 't-patches' in the center-right, which represent the isolated temporal trajectories of those colored segments. A final arrow on the far right leads to the text 'Action prediction' and the specific result 'Jumping jacks'. The overall text density is light, relying on visual representation to explain the core concept."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 71.0,
+      "t_end": 75.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 71.0,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Approach \u2013 t-patches",
+        "layout_description": "The slide follows a clean, single-column structure starting with a large, left-aligned title at the top, underlined by a thin horizontal black line. Below the line, the content begins with a 'Definition' section where the term 't-patch' is highlighted in green within a short paragraph of text. Centered in the middle of the slide are two mathematical equations that formally define the t-patch and its temporal mapping function. Following the equations, there is a list of three variable definitions aligned to the left, providing clear explanations for the symbols used in the math. The bottom-left corner contains a footer with the conference information '3DinAction, CVPR 2024 Highlight' and the author's name. The slide has a light text density and uses a minimalist white background to emphasize the mathematical definitions."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 75.0,
+      "t_end": 104.0,
+      "num_builds": 5,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 75.0,
+          "image": "slide_10_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 78.0,
+          "image": "slide_10_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 81.0,
+          "image": "slide_10_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 84.0,
+          "image": "slide_10_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 89.0,
+          "image": "slide_10_build_4.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered equations",
+        "title_text": "Approach \u2013 t-patches",
+        "layout_description": "The slide follows a clean, single-column structure on a white background. At the top, a large bold title is left-aligned and separated from the main content by a thin horizontal black line. Below this line, a 'Definition' paragraph introduces the concept, with the term 't-patch' highlighted in green. The central part of the slide is occupied by two large, centered mathematical equations. Red circles are used as visual callouts to highlight the symbol '\u03a6' within the introductory text and the second equation. In the bottom-left quadrant, a list of three variable definitions provides context for the symbols used in the equations. The slide concludes with a two-line footer at the bottom-left containing the paper title, conference name, and author's name. The overall text density is moderate, with significant white space around the central equations."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 104.0,
+      "t_end": 105.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 104.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with centered title and diagram",
+        "title_text": "t-patch construction",
+        "layout_description": "The slide features a large, centered title 't-patch construction' at the top in a plain black font. The main body of the slide is a diagram showing five vertical columns of black dots, each enclosed within a light gray dashed rectangular box. Below each box is a numerical label for 't', ranging from 0 to 4. To the left of the first column (t=0), there is a mathematical label 'x_q^0'. At the very bottom, a horizontal legend explains the symbols used: a black dot represents 'x^t Non-t-patch points', a light green dot represents 'x_q^0 T-Patch origin', and a light orange dot represents '\u03c8_q^t Nearest neighbor set'. The overall layout is clean and minimalist, with a white background and light text density, focusing on the visual explanation of a data construction process."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "method",
+      "t_start": 105.0,
+      "t_end": 131.0,
+      "num_builds": 5,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 105.0,
+          "image": "slide_12_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 108.0,
+          "image": "slide_12_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 109.0,
+          "image": "slide_12_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 116.0,
+          "image": "slide_12_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 117.0,
+          "image": "slide_12_build_4.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with centered title and diagram",
+        "title_text": "t-patch construction",
+        "layout_description": "The slide features a large, centered title at the top in a clean sans-serif font. The main body of the slide is occupied by a large diagram illustrating a 't-patch construction' process. This diagram consists of five vertical columns, each outlined by a dashed gray rectangular border and labeled with a time index 't' from 0 to 4 at the bottom. Each column contains several black dots representing data points. In the first column (t=0), a specific point is highlighted as a green dot labeled 'x_q^0' (T-Patch origin), and a subset of three tan dots is enclosed in a light blue box labeled 'psi_q^0' (Nearest neighbor set). A light blue shaded trapezoidal region extends from the box in column 0 to a corresponding box in column 1, which also contains three tan dots. At the bottom of the slide, a horizontal legend provides definitions for the visual symbols: a black dot for 'x^t Non-t-patch points', a green dot for 'x_q^0 T-Patch origin', and a tan dot with a blue box for 'psi_q^t Nearest neighbor set'. The background is plain white, and the overall text density is light, focusing on the visual representation of the method."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "method",
+      "t_start": 131.0,
+      "t_end": 135.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 131.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and horizontal figures",
+        "title_text": "Example t-patches 3D",
+        "layout_description": "The slide features a large, black, sans-serif title 'Example t-patches 3D' positioned at the top-left. The main content consists of three 3D human models arranged horizontally across the center of the slide. Each model is constructed from numerous small brown spheres, resembling a point cloud. Specific clusters of these spheres are highlighted in various bright colors (such as pink, cyan, purple, and green) to illustrate 't-patches' on different body parts. The leftmost model is a female figure with patches on the abdomen, hands, and feet. The middle model is a male figure with arms raised, showing patches on the hands, forearms, and thighs. The rightmost model is a male figure with patches on the arm, hip, and thigh. In the bottom-right corner, a small text caption states 'Here, k=64 neighbors'. The background is plain white, and the overall text density is very light, prioritizing visual examples over textual explanation."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "method",
+      "t_start": 135.0,
+      "t_end": 146.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 135.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and horizontal figures",
+        "title_text": "Example t-patches 3D",
+        "layout_description": "The slide features a large, bold title 'Example t-patches 3D' positioned at the top-left. Below the title, three 3D human models are arranged in a single horizontal row, centered across the width of the slide. Each model is composed of small tan-colored spheres, representing a point cloud or voxelized surface. Specific regions on these models are highlighted in various bright colors (such as blue, pink, green, and cyan) to illustrate 't-patches'. The first model on the left shows patches on the hand, stomach, and feet. The middle model has patches on the hand, wrist, and thighs. The rightmost model shows patches on the chest, hip, thigh, and wrist. At the bottom-right corner, there is a small line of text that reads 'Here, k=64 neighbors'. The overall background is plain white, and the text density is very light, focusing primarily on the visual examples."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "introduction",
+      "t_start": 146.0,
+      "t_end": 150.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 146.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "How to learn a temporal point cloud representation?",
+        "layout_description": "The slide follows a minimalist, single-element layout. It features a single line of text centered both horizontally and vertically on a plain white background. The text is a question, 'How to learn a temporal point cloud representation?', rendered in a large, bold, black sans-serif typeface. There are no other visual elements, such as headers, footers, logos, page numbers, or graphics. The text density is extremely light, focusing the viewer's attention entirely on the central question, which likely serves as a transition or a core problem statement for the presentation."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "introduction",
+      "t_start": 150.0,
+      "t_end": 153.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 150.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "How to learn a temporal point cloud representation?",
+        "layout_description": "The slide follows a minimalist, centered layout. It consists of a single line of text, 'How to learn a temporal point cloud representation?', positioned in the center of the frame both horizontally and vertically. The text is rendered in a large, bold, black sans-serif font against a plain white background. There are no other visual elements, such as headers, footers, logos, page numbers, or graphics. The text density is very light, focusing the viewer's attention entirely on the central question which serves as a problem statement or a transition to a new section."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "method",
+      "t_start": 153.0,
+      "t_end": 165.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 153.0,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen diagram with explanatory text",
+        "title_text": "none",
+        "layout_description": "The slide presents a technical diagram of a neural network architecture for action prediction. The top half features a horizontal flowchart starting from the left with a vertical sequence of 3D human mesh models (labeled S0 to ST) enclosed in a dashed gray box. A series of arrows connects three green 't-patch Module' blocks in a sequence, with mathematical labels above the arrows indicating subsampled sets and feature functions. To the right of the modules, a pooling operation leads to a stack of brown rectangles representing a T x C feature map, which then feeds into a light blue 'FC' (Fully Connected) block. The final output on the far right is labeled 'Action prediction (per frame)'. Below this main diagram, there are two lines of explanatory text: the first line, in green, describes a 'Subsample' process using farthest point sampling (FPS) with a corresponding mathematical equation; the second line, in black, describes the hierarchical computation of a 'high-dimensional representation' denoted as fl. The overall layout is clean with a white background and moderate text density focused on explaining the model's components."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "method",
+      "t_start": 165.0,
+      "t_end": 204.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 165.0,
+          "image": "slide_18_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 176.0,
+          "image": "slide_18_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 193.0,
+          "image": "slide_18_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure",
+        "title_text": "none",
+        "layout_description": "The slide presents a detailed architecture diagram for a neural network model. On the far left, a vertical dashed box contains a sequence of 3D human mesh models labeled from S^0 to S^T, representing temporal frames. The top half of the slide shows a sequential pipeline where data flows through three green 't-patch Module' blocks. The output of the final module passes through a pooling layer and a set of feature maps to a blue 'FC' (Fully Connected) block, which generates an 'Action prediction (per frame)'. Below this main pipeline, a large light-green box provides a detailed 'zoom-in' view of a single 't-patch Module'. Inside this detailed view, a pink 't-patch Extractor' processes inputs to identify various 3D temporal patches shown in a dashed box. These patches are then fed into multiple orange 't-patch Net' blocks with shared weights, producing feature maps of size T x C. The diagram uses a variety of colors (green, pink, orange, blue) to distinguish different components and includes mathematical notation for data dimensions and feature labels throughout."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "results",
+      "t_start": 204.0,
+      "t_end": 210.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 204.0,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Results - DFAUST",
+        "layout_description": "The slide features a large, bold title 'Results - DFAUST' positioned at the top-left, separated from the main content by a thin horizontal line that spans the entire width. The main body is organized into two columns. The left column contains a large, formal academic table listing various methods and their performance metrics, including 'Frame acc. top 1', 'top 3', and 'mAP'. The bottom rows of the table highlight the 'Ours' method with bold and underlined values to indicate superior performance. The right column contains a stacked bar chart showing the distribution of data frames across different action categories. The bars are color-coded with a legend in the top-right corner indicating 'train' (blue) and 'test' (orange) sets. The x-axis labels for the action names are rotated diagonally to fit. At the bottom-left corner of the slide, there is a footer with the text '3DinAction, CVPR 2024 Highlight' and the author's name 'Yizhak Ben-Shabat (Itzik)'. The overall design is clean with a white background and moderate text density."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "results",
+      "t_start": 210.0,
+      "t_end": 214.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 210.0,
+          "image": "slide_20_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Results - DFAUST",
+        "layout_description": "The slide features a large, bold title 'Results - DFAUST' positioned at the top-left, separated from the main content by a thin horizontal line. The main body is organized into two columns. The left column contains a large table comparing various methods, such as PointNet and Set Transformer, against the proposed 'Ours' method. The table includes columns for 'Method', 'Frame acc. (top 1 and top 3)', and 'mAP', with the best results highlighted in bold and underlined. The right column contains a stacked bar chart showing the distribution of frames across different action categories (e.g., 'hips', 'knees', 'punching'). The chart uses a blue and orange color scheme to distinguish between 'train' and 'test' datasets. A footer at the bottom left provides the presentation context, including the event 'CVPR 2024 Highlight' and the presenter's name. The slide has a clean white background and moderate text density."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "results",
+      "t_start": 214.0,
+      "t_end": 225.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 214.0,
+          "image": "slide_21_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Results \u2013 IKEA ASM",
+        "layout_description": "The slide follows a two-column structure beneath a large, bold title at the top left, which is separated from the main content by a full-width horizontal line. The left column is occupied by a large 3D point cloud visualization showing a person in a blue jacket assembling a white table in a room with a sofa and a patterned rug. The right column contains a quantitative results table. This table lists various methods in the first column and their performance across metrics like 'Frame acc.' (subdivided into top 1, top 3, and macro) and 'mAP'. The table uses horizontal rules to separate the header, baseline methods, and the proposed 'Ours' methods, with the best results highlighted in bold. A footer at the bottom left provides the paper's highlight status at CVPR 2024 and the author's name. The slide has a clean white background and moderate text density."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "results",
+      "t_start": 225.0,
+      "t_end": 231.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 225.0,
+          "image": "slide_22_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Results \u2013 IKEA ASM",
+        "layout_description": "The slide follows a two-column structure beneath a large, bold title positioned at the top-left, which is separated from the main content by a full-width horizontal line. The left column features a large 3D point cloud visualization depicting a person assembling furniture in a room with a sofa, table, and rug. The right column contains a quantitative results table comparing several baseline methods (PointNet, PointNet++, Set Transformer, PSTNet, and variants with '+ TS') against the proposed method ('Ours' and 'Ours without BD'). The table includes columns for 'Method', 'Frame acc.' (subdivided into 'top 1', 'top 3', and 'macro'), and 'mAP'. The best-performing values in the table are highlighted in bold. A footer at the bottom-left provides the paper's context ('3DinAction, CVPR 2024 Highlight') and the author's name ('Yizhak Ben-Shabat (Itzik)'). The slide has a white background and moderate text density."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "results",
+      "t_start": 231.0,
+      "t_end": 240.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 231.0,
+          "image": "slide_23_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Results \u2013 DFAUST GradCAM",
+        "layout_description": "The slide has a clean, minimalist design with a white background. A large, black, sans-serif title is positioned at the top-left. The main body of the slide consists of three side-by-side figures, each representing a qualitative result. Each figure is topped with a centered bold label: 'Jumping jacks' on the left, 'Knee' in the center, and 'Hips' on the right. Below each label is a 3D human body model composed of small spheres, colored with a GradCAM heatmap. The heatmaps use a color scale from blue (low activation) to red (high activation) to highlight specific regions of interest for each action: the hands/arms for jumping jacks, the right leg/knee for the knee action, and the pelvic area for hips. There are no bullet points, equations, or decorative elements, resulting in a light text density focused entirely on visual data visualization."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "results",
+      "t_start": 240.0,
+      "t_end": 253.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 240.0,
+          "image": "slide_24_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Results \u2013 DFAUST GradCAM",
+        "layout_description": "The slide features a large, bold title positioned at the top-left against a plain white background. Below the title, the main content is organized into three side-by-side columns, each containing a 3D visualization of a human body model. Each model is labeled with a centered heading directly above it: 'Jumping jacks' on the left, 'Knee' in the center, and 'Hips' on the right. The human figures are represented as point clouds or sphere-based meshes, colored with a GradCAM heatmap where red indicates high activation and blue indicates low activation. The 'Jumping jacks' figure shows red highlights on the hands; the 'Knee' figure shows a red highlight on a raised knee; and the 'Hips' figure shows red highlights around the pelvic region. The overall text density is light, prioritizing visual qualitative results over textual explanation."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "introduction",
+      "t_start": 253.0,
+      "t_end": 255.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 253.0,
+          "image": "slide_25_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Contributions",
+        "layout_description": "The slide follows a clean, minimalist single-column layout on a plain white background. At the top-left, the title 'Contributions' is displayed in a large, black sans-serif font, separated from the body by a thin horizontal line that spans the entire width. The main content consists of two bullet points with moderate spacing between them. Each bullet point features key technical terms highlighted in a bold green color ('novel representation' and 'hierarchical architecture') to draw attention. The text is left-aligned with a wide margin on the right, creating a light text density. A second horizontal line at the bottom of the slide creates a footer area, which contains two lines of small black text in the bottom-left corner: the paper's venue ('3DinAction, CVPR 2024 Highlight') and the presenter's name ('Yizhak Ben-Shabat (Itzik)')."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "introduction",
+      "t_start": 255.0,
+      "t_end": 281.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 255.0,
+          "image": "slide_26_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Contributions",
+        "layout_description": "The slide follows a clean, minimalist single-column layout on a plain white background. The title 'Contributions' is located at the top-left in a large, black font, separated from the main body by a thin, full-width horizontal line. The central content consists of two bullet points with moderate spacing between them. Each bullet point uses a combination of standard black text and bold green text to emphasize key terms: 'novel representation' in the first bullet and 'hierarchical architecture' in the second. The text density is light, ensuring high readability. A small footer at the bottom-left provides context, including the project name '3DinAction', the venue 'CVPR 2024 Highlight', and the presenter's name 'Yizhak Ben-Shabat (Itzik)'."
+      }
+    },
+    {
+      "slide_id": 27,
+      "slide_section": "title",
+      "t_start": 281.0,
+      "t_end": 285.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 281.0,
+          "image": "slide_27_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide with central figure",
+        "title_text": "3DinAction Understanding Human Actions in 3D Point Clouds",
+        "layout_description": "The slide features a clean, white background with a structured layout. At the top, three institutional logos are horizontally aligned: Technion on the left, Marie Curie Actions in the center, and Australian National University on the right. Below these, the main title '3DinAction' is displayed in a large, bold, black font, followed by the subtitle 'Understanding Human Actions in 3D Point Clouds' in a smaller, standard weight font. The central portion of the slide is dominated by a detailed technical diagram illustrating the model's architecture, featuring 't-patch Modules' and mathematical notations like 'f_l(P^l | \u03b8_l)'. This diagram is flanked by two 3D human point cloud visualizations: one on the left showing segmented body parts in different colors, and one on the right showing a heatmap-like color gradient. At the bottom, a GitHub logo is centered above a project URL, while a QR code is placed in the bottom-right corner. The text density is moderate, primarily concentrated within the technical diagram and titles."
+      }
+    },
+    {
+      "slide_id": 28,
+      "slide_section": "title",
+      "t_start": 285.0,
+      "t_end": 289.22,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 285.0,
+          "image": "slide_28_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide with central diagram",
+        "title_text": "3DinAction Understanding Human Actions in 3D Point Clouds",
+        "layout_description": "The slide follows a title slide layout with a clean white background. At the top, three institutional logos are horizontally aligned: Technion (left), Marie Curie Actions (center), and Australian National University (right). The main title '3DinAction' is prominently centered in a large, bold black font, with the subtitle 'Understanding Human Actions in 3D Point Clouds' positioned directly underneath. The central portion of the slide is dominated by a complex architectural flowchart illustrating the 't-patch Module' and its data flow, featuring green and orange boxes, arrows, and mathematical notations. This central diagram is flanked by two 3D human point cloud visualizations: a segmented model on the left and a heatmap-colored model on the right. The bottom of the slide contains a GitHub icon centered above a project URL, with a large QR code placed in the bottom right corner. The overall text density is moderate, balancing large headings with a detailed technical diagram."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 20,
+    "gemini_layout_calls": 28,
+    "total_gemini_calls": 48,
+    "total_frames_sampled": 290,
+    "batch_size": 15
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "video_id": "NeurIPS_NeurIPS-2024_LVD-2M-A-Long-take-Video-Dataset-with-Temporally-De__NeurIPS-2024-Paper-LVD-2M-A-Long-take",
+  "duration": 135.2,
+  "fps_sampled": 1.0,
+  "total_slides": 17,
+  "slides_with_builds": 10,
+  "total_build_steps": 54,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "other",
+      "t_start": 1.0,
+      "t_end": 8.0,
+      "num_builds": 5,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 1.0,
+          "image": "slide_1_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 2.0,
+          "image": "slide_1_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 3.0,
+          "image": "slide_1_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 4.0,
+          "image": "slide_1_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 5.0,
+          "image": "slide_1_build_4.jpg"
+        }
+      ],
+      "layout_structure": {}
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "results",
+      "t_start": 8.0,
+      "t_end": 15.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 8.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "none",
+        "layout_description": "The slide consists of a 3x3 grid of nine distinct images, likely representing video frames from a dataset or qualitative results. There is no title, heading, or body text present. The top row features a scene with two people in an indoor setting, two individuals wrestling on a blue mat, and a street-level view of an outdoor market. The middle row displays a first-person view of mountain biking, a snowboarder on a snowy slope, and a baby sitting on a bed. The bottom row shows a figure skater on an ice rink, a person with a bicycle at a skate park at dusk, and an underwater shot of a diver with a shark. The layout is purely visual with no margins between the images, resulting in a high-density image collage."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "experiments",
+      "t_start": 15.0,
+      "t_end": 26.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "none",
+        "layout_description": "The slide consists of a full-screen 3x3 grid layout containing nine distinct images, with no title, text, or headers. The top row features a cinematic scene of a man and woman, two men practicing martial arts on a blue mat, and a busy outdoor market street. The middle row shows a first-person view of mountain biking, a snowboarder performing a trick on a rail in a snowy mountain setting, and a baby looking over the side of a crib. The bottom row depicts a figure skater on an ice rink, a BMX rider in a skate park at night, and an underwater shot of a diver with a large fish. The images are arranged edge-to-edge with no spacing or borders, creating a high-density visual display likely intended to showcase examples from a video or image dataset."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "results",
+      "t_start": 26.0,
+      "t_end": 30.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 26.0,
+          "image": "slide_4_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 27.0,
+          "image": "slide_4_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 28.0,
+          "image": "slide_4_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 29.0,
+          "image": "slide_4_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and large figure",
+        "title_text": "LVD-2M Caption",
+        "layout_description": "The slide follows a simple vertical layout on a white background. At the top center, the title 'LVD-2M Caption' is displayed in a clean sans-serif font, accompanied by a small blue circular logo with a film slate icon to its left. The middle section is dominated by a large, wide-aspect-ratio image showing a first-person point-of-view of a mountain biker navigating a green, mountainous trail. Below this image, a block of descriptive text is centered, acting as a caption for the visual content. The first two sentences of the caption are in black text, while the final sentence is rendered in a lighter gray color, creating a subtle visual hierarchy. There are no bullet points, tables, or equations, resulting in a light to moderate text density focused on a qualitative example."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "results",
+      "t_start": 30.0,
+      "t_end": 38.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 30.0,
+          "image": "slide_5_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 31.0,
+          "image": "slide_5_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "LVD-2M Caption",
+        "layout_description": "The slide features a centered, single-column layout on a plain white background. At the top center, the title 'LVD-2M Caption' is displayed in a clean sans-serif font, accompanied by a small blue circular logo with a film slate icon to its left. The middle section of the slide is dominated by a large, high-resolution image showing a first-person perspective of a mountain biker descending a green, rocky mountain trail. Below this image, a single paragraph of black text provides a detailed caption describing the scene depicted in the video frame. The text density is moderate, and the overall design is minimalist, focusing on the visual example and its corresponding textual description without the use of bullet points, tables, or complex diagrams."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "results",
+      "t_start": 38.0,
+      "t_end": 45.0,
+      "num_builds": 6,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 38.0,
+          "image": "slide_6_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 39.0,
+          "image": "slide_6_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 40.0,
+          "image": "slide_6_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 41.0,
+          "image": "slide_6_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 42.0,
+          "image": "slide_6_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 43.0,
+          "image": "slide_6_build_5.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title, image, and caption",
+        "title_text": "LVD-2M Caption",
+        "layout_description": "The slide follows a vertical, single-column structure on a plain white background. At the top center, the title 'LVD-2M Caption' is displayed in a black sans-serif font, accompanied by a small blue circular logo featuring a film shutter icon to its left. The middle section of the slide is dominated by a large, centered rectangular image showing two people on a snowboard at an indoor facility with a mountain-themed backdrop. Below this image, a single paragraph of black text serves as a detailed caption, describing the actions and progress of the individuals in the video. The text is left-aligned and spans the width of the slide, creating a clear top-to-bottom flow from title to visual evidence to descriptive analysis."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "results",
+      "t_start": 45.0,
+      "t_end": 63.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 45.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "LVD-2M Caption",
+        "layout_description": "The slide features a centered, single-column layout on a plain white background. At the top center, the title 'LVD-2M Caption' is displayed in a bold, sans-serif font, accompanied by a blue circular logo with a film slate icon to its left. The middle section is dominated by a large, horizontally-oriented image showing a still from a video of two people snowboarding in an indoor arena with a mountain-themed mural in the background. Below this image, a block of text spans the width of the slide, providing a detailed narrative description of the video's content. The text is presented as a single paragraph with moderate density, explaining the actions and progress of the individuals shown in the figure. There are no bullet points, tables, or equations, creating a clean focus on the qualitative example."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "results",
+      "t_start": 63.0,
+      "t_end": 75.0,
+      "num_builds": 6,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 63.0,
+          "image": "slide_8_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 64.0,
+          "image": "slide_8_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 65.0,
+          "image": "slide_8_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 66.0,
+          "image": "slide_8_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 67.0,
+          "image": "slide_8_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 68.0,
+          "image": "slide_8_build_5.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "LVD-2M Caption",
+        "layout_description": "The slide features a clean, centered vertical layout on a plain white background. At the top center, the title 'LVD-2M Caption' is displayed in a black sans-serif font, accompanied by a small blue circular logo containing a film slate icon to its left. The central portion of the slide is dominated by a large, high-resolution rectangular image showing a baby in a white onesie on a bed, gripping a white safety rail. Below this image, a single paragraph of descriptive text is positioned at the bottom, spanning the width of the slide. This text provides a detailed qualitative caption for the visual content shown above. The overall text density is moderate, and the layout focuses on presenting a qualitative example from a dataset or model output."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "results",
+      "t_start": 75.0,
+      "t_end": 77.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 75.0,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "LVD-2M Caption",
+        "layout_description": "The slide follows a clean, centered vertical layout. At the top, the title 'LVD-2M Caption' is centered and accompanied by a small blue circular icon featuring a film slate graphic to its left. Below the title, a large, high-resolution image is centered, depicting a baby in a white onesie on a bed interacting with a white rail. Beneath this image, a single paragraph of descriptive text is provided, explaining the contents and mood of the video from which the frame is taken. The text is left-aligned and spans the width of the image above it. The background is a solid white, and there are no other decorative elements, logos, or page numbers, resulting in a moderate text density focused on qualitative analysis."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "results",
+      "t_start": 77.0,
+      "t_end": 90.0,
+      "num_builds": 6,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 77.0,
+          "image": "slide_10_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 78.0,
+          "image": "slide_10_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 79.0,
+          "image": "slide_10_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 80.0,
+          "image": "slide_10_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 81.0,
+          "image": "slide_10_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 82.0,
+          "image": "slide_10_build_5.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "LVD-2M Caption",
+        "layout_description": "The slide features a centered, single-column layout on a plain white background. At the top center, the title 'LVD-2M Caption' is displayed in a clean sans-serif font, accompanied by a small blue circular logo containing a film slate icon to its left. The middle section of the slide is dominated by a large, rectangular photograph showing an indoor basketball court with players in action. Below this central image, a single paragraph of descriptive text serves as a caption, spanning nearly the full width of the slide. The text density is moderate, and the overall design is minimalist, focusing on the visual example and its corresponding textual description. There are no bullet points, tables, or mathematical equations present."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "results",
+      "t_start": 90.0,
+      "t_end": 95.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 90.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "LVD-2M Caption",
+        "layout_description": "The slide features a centered, single-column layout on a plain white background. At the top center, the title 'LVD-2M Caption' is displayed, accompanied by a small blue circular logo containing a film reel icon to its left. The middle section of the slide is dominated by a large, centered rectangular photograph showing an indoor basketball court with players, hoops, and distinctive purple and orange markings. Below this image, there is a single paragraph of descriptive text that acts as a caption, explaining the scene's details such as the players' actions and the court's features. The text is centered and spans nearly the full width of the image above it. The slide has a moderate text density and focuses on presenting a qualitative example."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "experiments",
+      "t_start": 95.0,
+      "t_end": 105.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 95.0,
+          "image": "slide_12_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 96.0,
+          "image": "slide_12_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 97.0,
+          "image": "slide_12_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 98.0,
+          "image": "slide_12_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "LVD-2M Caption",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. At the top center, the title 'LVD-2M Caption' is displayed in a standard black font, accompanied by a small blue circular logo featuring a film slate icon to its left. The middle section of the slide is dominated by a large, centered rectangular image showing a first-person point-of-view shot from a motorcycle on a desert road. Directly beneath this image is a block of descriptive text that serves as a caption, explaining the contents of the video frame. The text is left-aligned and matches the width of the image above. The overall text density is light, prioritizing the visual example and its corresponding description."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "results",
+      "t_start": 105.0,
+      "t_end": 115.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 105.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "LVD-2M Caption",
+        "layout_description": "The slide follows a simple, centered vertical layout on a plain white background. At the top center, the title 'LVD-2M Caption' is displayed in a standard black font, accompanied by a small blue circular logo to its left that features a film slate icon. The middle section of the slide is dominated by a large, horizontally-oriented image showing a first-person point-of-view from a motorcycle riding on a desert road. Below this image, a single paragraph of black text provides a detailed caption describing the visual content of the scene. The text is left-aligned but centered as a block relative to the image above it. The slide has a light text density and focuses on presenting a qualitative example."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "experiments",
+      "t_start": 115.0,
+      "t_end": 120.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 115.0,
+          "image": "slide_14_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 117.0,
+          "image": "slide_14_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 118.0,
+          "image": "slide_14_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 119.0,
+          "image": "slide_14_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "LVD-2M Statistics",
+        "layout_description": "The slide features a centered main title at the top, 'LVD-2M Statistics', accompanied by a blue circular logo with a film slate icon to its left. Below the title, the content is organized into two columns defined by subheadings. The left column, titled 'Video Duration', contains a vertical bar chart with blue bars showing the percentage distribution of video lengths across five time intervals: 10~15s, 15~20s, 20~30s, 30~50s, and >50s. The y-axis for this chart is labeled in percentages from 0% to 50%. The right column has a heading 'Caption Word Count' but remains empty, serving as a placeholder. The slide uses a clean white background with light text density and a simple blue-and-black color scheme."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "experiments",
+      "t_start": 120.0,
+      "t_end": 131.0,
+      "num_builds": 8,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 120.0,
+          "image": "slide_15_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 121.0,
+          "image": "slide_15_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 122.0,
+          "image": "slide_15_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 123.0,
+          "image": "slide_15_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 124.0,
+          "image": "slide_15_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 125.0,
+          "image": "slide_15_build_5.jpg"
+        },
+        {
+          "build_id": 6,
+          "timestamp": 126.0,
+          "image": "slide_15_build_6.jpg"
+        },
+        {
+          "build_id": 7,
+          "timestamp": 127.0,
+          "image": "slide_15_build_7.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "three-column layout with title",
+        "title_text": "LVD-2M Statistics",
+        "layout_description": "The slide features a centered main title 'LVD-2M Statistics' at the top, accompanied by a blue circular logo with a film slate icon to its left. The main content is organized into three side-by-side columns, each containing a specific data visualization with a sub-heading. The left column shows a blue vertical bar chart titled 'Video Duration' with five categories on the x-axis representing time intervals. The middle column displays an orange vertical bar chart titled 'Caption Word Count' with five categories representing word count ranges. The right column contains a multi-colored pie chart titled 'Video Categories' showing the distribution of eight different content types, with a color-coded legend positioned to its right. The slide has a clean white background and a light text density, relying primarily on charts to convey information."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "title",
+      "t_start": 131.0,
+      "t_end": 135.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 131.0,
+          "image": "slide_16_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 133.0,
+          "image": "slide_16_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "LVD-2M",
+        "layout_description": "The slide features a minimalist title layout on a plain white background. Centered horizontally and vertically is the main title 'LVD-2M' in a large, bold black font. To the left of this title is a circular blue logo that depicts a camera lens aperture with a clapperboard icon inside. Below the central title and logo, there is a single line of smaller, plain black text that provides the project's website link: 'Project Page: https://silentview.github.io/LVD-2M/'. The slide has a very light text density and uses a simple blue and black color scheme on white."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "title",
+      "t_start": 135.0,
+      "t_end": 135.2,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 135.0,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "LVD-2M",
+        "layout_description": "The slide features a minimalist title layout on a plain white background. Centered horizontally and vertically is the main title 'LVD-2M' in a large, bold black font. To the left of this title is a circular blue logo that depicts a camera lens aperture with a clapperboard icon inside. Below the central title and logo, there is a single line of smaller, plain black text that provides the project's website link: 'Project Page: https://silentview.github.io/LVD-2M/'. The slide has a very light text density and uses a simple blue and black color scheme on white."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 178,
+    "gemini_layout_calls": 156,
+    "total_gemini_calls": 334,
+    "total_frames_sampled": 136,
+    "batch_size": 15
+  }
+}

@@ -1,0 +1,657 @@
+{
+  "video_id": "GigaTok- Scaling Visual Tokenizers to 3 Billion Parameters for Autoregressive Image Generation",
+  "duration": 605.83,
+  "fps_sampled": 1.0,
+  "total_slides": 30,
+  "slides_with_builds": 8,
+  "total_build_steps": 44,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 13.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "GigaTok: Scaling Visual Tokenizers to 3 Billion Parameters for Autoregressive Image Generation",
+        "layout_description": "This is a title slide with a clean, centered layout on a white background. At the top left, the logos for The University of Hong Kong and ByteDance | Seed are positioned side-by-side. In the top right corner, there is a prominent logo for the ICCV 2025 conference in Honolulu, Hawaii, which includes a red hibiscus flower icon. The main title is centered in the middle of the slide, set in a large, bold, black font. Directly below the title, the authors' names are listed in a smaller font, followed by their respective institutional affiliations. At the bottom of the slide, a project page URL is centered. The overall text density is light, and the visual hierarchy clearly emphasizes the paper's title and the associated institutions."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 13.0,
+      "t_end": 15.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 13.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Why do tokenizers need to be scaled up?",
+        "layout_description": "The slide features a clean, white background with a single-column layout. At the top left, there is a large, black title. Below the title, there are two primary bullet points that provide the motivation for the slide's topic. Centered in the lower half of the slide is a data table with three columns and five rows. The table has a dark blue header row with white text and alternating light blue and white rows for the data entries. The columns compare 'Tokenizer Params' and 'Generator Params' for four different models listed in the first column (VAR, LlamaGen, Emu3, Cosmos-DV). At the very bottom of the slide, a small-font citation is left-aligned, referencing a paper from ICCV 2025. The overall text density is light, focusing on a clear comparison between tokenizer and generator sizes."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 15.0,
+      "t_end": 83.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 46.0,
+          "image": "slide_3_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 58.0,
+          "image": "slide_3_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "mixed content layout with title, bullets, table, and images",
+        "title_text": "Why do tokenizers need to be scaled up?",
+        "layout_description": "The slide follows a top-down structure starting with a large, centered title. Directly below the title are two bullet points that provide the core motivation for the slide's topic. The middle section is split into two columns: the left column features a data table with a blue header and light blue alternating row colors, comparing tokenizer and generator parameters for four different models (VAR, LlamaGen, Emu3, and Cosmos-DV). The right column presents a qualitative comparison with two side-by-side images of a man in a suit, labeled as 'Original Image' and 'Reconstructed Image (LlamaGen, 72M)'. A small caption '50x Data Scaling' is placed under the reconstructed image. The bottom of the slide contains a full-width citation for a paper from ICCV 2025. The background is white, and the text density is moderate, balancing data, text, and visual examples."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 83.0,
+      "t_end": 90.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 83.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title, bullets, and image grid",
+        "title_text": "GigaTok",
+        "layout_description": "The slide features a clean, minimalist layout on a plain white background. At the top-left, the title 'GigaTok' is presented in a large, bold, black sans-serif font. Below the title, there are two primary bullet points that outline the paper's main contributions, highlighting '3B parameters' in bold text. The central and lower portion of the slide is dominated by a large grid of twelve square images, organized into two rows of six. These images showcase high-quality qualitative results, featuring various subjects like animals (parrot, eagle, tiger, red panda, fox, husky, dog), nature (flowers, butterfly, jellyfish, sea anemone), and a car. A centered caption is positioned immediately below this image grid, providing context for the generation task. At the very bottom of the slide, a full-width citation line identifies the authors and the conference (ICCV 2025). The text density is light, prioritizing visual evidence of the model's performance."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "introduction",
+      "t_start": 90.0,
+      "t_end": 111.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 90.0,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "GigaTok",
+        "layout_description": "The slide features a clean, single-column layout on a plain white background. At the top-left, the title 'GigaTok' is displayed in a large, sans-serif font. Below the title, there are two bullet points that outline the primary contributions of the research, with the '3B' parameter count highlighted in bold. The central and lower portion of the slide is occupied by a large 2x6 grid of twelve high-resolution images showcasing qualitative generation results (e.g., parrots, tigers, flowers, a car, and dogs). A small, centered caption explaining the image generation setup is placed directly beneath the grid. Finally, a full academic citation for the paper is positioned at the very bottom of the slide, spanning the entire width. The text density is light, prioritizing visual impact through the image grid."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "introduction",
+      "t_start": 111.0,
+      "t_end": 120.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 111.0,
+          "image": "slide_6_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 119.0,
+          "image": "slide_6_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and horizontal figure row",
+        "title_text": "Why are Tokenizers Difficult to Scale?",
+        "layout_description": "The slide follows a clean, top-down structure starting with a large, left-aligned title. Directly below the title is a single, bolded bullet point that provides a high-level summary of the slide's message. The middle section of the slide is occupied by three side-by-side line charts arranged in a single row. Each chart features red data points and lines on a white background with light gray grid lines. All three charts share the same x-axis label, 'Tok. Params (M)', while their y-axes represent different performance metrics: 'Tokenizer: rFID \u2193', 'AR Probing: Validation Loss \u2193', and 'AR Probing: gFID \u2193', where the downward arrows signify that lower values are better. At the bottom of the slide, a single line of text provides a full academic citation for the source paper. The overall text density is light, focusing primarily on the visual data presented in the charts."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "introduction",
+      "t_start": 120.0,
+      "t_end": 170.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 120.0,
+          "image": "slide_7_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 128.0,
+          "image": "slide_7_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 133.0,
+          "image": "slide_7_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and three-chart row",
+        "title_text": "Why are Tokenizers Difficult to Scale?",
+        "layout_description": "The slide follows a clean, top-down structure starting with a large, left-aligned title. Below the title, a single bolded bullet point provides a key takeaway. The central part of the slide contains three side-by-side line charts that illustrate the relationship between tokenizer parameters and various performance metrics. Above the leftmost and rightmost charts, red text annotations provide qualitative interpretations of the metrics ('better reconstruction' and 'worse generation'). Each chart is individually titled with its respective metric (rFID, Validation Loss, gFID) and includes a downward arrow indicating that lower values are preferable. The charts use red lines and markers on a white background with light gray grid lines. All three charts share a common x-axis labeled 'Tok. Params (M)'. At the bottom of the slide, a full-width citation for the source paper is provided in a smaller font. The text density is moderate, with a clear focus on the visual data trends."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "introduction",
+      "t_start": 170.0,
+      "t_end": 180.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 170.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and footer",
+        "title_text": "How to Scale Visual Tokenizers?",
+        "layout_description": "The slide has a minimalist, clean layout with a plain white background. The title, 'How to Scale Visual Tokenizers?', is located at the top left in a standard black sans-serif font. The entire middle section of the slide is empty, creating a large amount of white space. At the bottom left corner, there is a single line of smaller text providing a full citation for the research paper: 'Xiong et al., GigaTok: Scaling Visual Tokenizers to 3 Billion Parameters for Autoregressive Image Generation, ICCV 2025.' There are no other visual elements, figures, or bullet points, resulting in a very light text density."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 180.0,
+      "t_end": 218.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 180.0,
+          "image": "slide_9_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 186.0,
+          "image": "slide_9_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "How to Scale Visual Tokenizers?",
+        "layout_description": "The slide follows a minimalist single-column layout with a plain white background. The title is positioned at the top-left in a large, black font. Below the title, there is a single bullet point that introduces the topic of designing easy-to-scale architectures, specifically questioning the use of CNNs versus Transformers. The central area of the slide is largely empty, leading to a very light text density. At the bottom-left corner, a small-font citation provides the source information for the paper 'GigaTok' presented at ICCV 2025. There are no visual elements like images, charts, or decorative graphics."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 218.0,
+      "t_end": 225.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 218.0,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central diagram",
+        "title_text": "GigaTok: Architecture",
+        "layout_description": "The slide features a large bold title positioned at the top-left. The central portion of the slide is occupied by a horizontal architectural diagram that illustrates the data flow from an 'Input Image' of a dog on the left to a 'Reconstructed Image' on the right. The diagram includes several sequential components: a CNN Encoder, a Transformer Encoder, a Quantizer, a Transformer Decoder (showing internal layers l and l+1), and a CNN Decoder. Yellow outlines highlight the Transformer Encoder and the Transformer Decoder blocks. To the bottom-right of the diagram, a legend explains that these yellow-outlined boxes represent 'Modules to be scaled'. Below the main diagram on the left, there are two bullet-like text statements: 'CNN + Transformer architecture' and 'Only scale Transformer blocks'. A full bibliographic citation is located at the very bottom of the slide. The layout is clean with a white background and light text density, focusing primarily on the visual representation of the model architecture."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 225.0,
+      "t_end": 237.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 225.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central diagram",
+        "title_text": "GigaTok: Architecture",
+        "layout_description": "The slide follows a clean, single-column layout with a large title 'GigaTok: Architecture' at the top-left. The center of the slide is dominated by a horizontal architectural flowchart. This diagram depicts a process starting from an 'Input Image' on the left, passing through a 'CNN Encoder', a 'Transformer Encoder', and a 'Quantizer'. The quantized tokens then feed into a 'Transformer Decoder' block containing multiple layers (labeled 'Layer l' and 'Layer l + 1'), followed by a 'CNN Decoder' that produces a 'Reconstructed Image' on the right. Both the Transformer Encoder and Transformer Decoder are highlighted with yellow-bordered boxes. Below the diagram on the left side, there are two descriptive text points: 'CNN + Transformer architecture' and 'Only scale Transformer blocks'. A small legend at the bottom right of the diagram explains that the yellow-outlined boxes represent 'Modules to be scaled'. A formal citation for the paper is located at the very bottom of the slide. The text density is light, and the background is a plain white."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "method",
+      "t_start": 237.0,
+      "t_end": 240.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 237.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column comparison layout",
+        "title_text": "Architecture for 1D and 2D Variants",
+        "layout_description": "The slide uses a clean, two-column comparison layout on a white background. A large, centered title is positioned at the top. The main content area is split into two halves by a vertical dashed line. The left half, titled '1D Tokenizer with Q-Former', features a detailed architectural diagram showing a pipeline from an 'Input Image' to a 'Reconstructed Image' through components like a CNN Encoder, Q-Former Encoder, Quantizer, and their corresponding decoders. It includes supplementary boxes at the bottom for '1D queries' and '2D queries' and a green checkmark icon. The right half, titled '2D Tokenizer with ViT', shows a parallel pipeline using a ViT Encoder and ViT Decoder, with a central grid representing '2D Tokens'. Both diagrams use consistent visual language with trapezoidal shapes for encoders/decoders and rectangular blocks for intermediate layers. A single line of citation text is placed at the very bottom of the slide. The text density is moderate, primarily consisting of labels for the diagram components."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "method",
+      "t_start": 240.0,
+      "t_end": 284.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 240.0,
+          "image": "slide_13_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 265.0,
+          "image": "slide_13_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central diagram",
+        "title_text": "GigaTok: Semantic Regularization",
+        "layout_description": "The slide features a large, centered architectural diagram on a plain white background. At the top left, there is a large, black title. The main diagram illustrates a neural network pipeline starting from an 'Input Image' of a dog on the left, passing through a 'CNN Encoder', 'Transformer Encoder', 'Quantizer', 'Transformer Decoder', and 'CNN Decoder' to produce a 'Reconstructed Image' on the right. Below the main pipeline, a dashed light-green box highlights the 'Semantic Regularization' component, which connects a frozen 'Pre-trained DINOv2' model (indicated by a snowflake icon) and an 'MLP' to the Transformer Decoder. A citation in a smaller font is placed at the very bottom of the slide. The overall text density is light, focusing on the visual representation of the model architecture using boxes, arrows, and sample images."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "method",
+      "t_start": 284.0,
+      "t_end": 285.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 284.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Entropy Loss Matters for Large Tokenizers",
+        "layout_description": "The slide has a minimalist, single-column layout on a plain white background. A large, black, left-aligned title is at the top. Below the title, the content is organized into two main horizontal blocks. The first block contains a line of text introducing a statistical view for quantization, followed by a mathematical expression involving a softmax function. The second block, labeled 'Entropy Loss:', features a centered equation defining the loss function as the difference between conditional and marginal entropy. A small-font citation is placed at the bottom left of the slide, referencing a paper from ICCV 2025. The text density is light, with a focus on mathematical notation and clear spacing."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "results",
+      "t_start": 285.0,
+      "t_end": 387.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 285.0,
+          "image": "slide_15_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 366.0,
+          "image": "slide_15_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "mixed single and two-column layout",
+        "title_text": "Entropy Loss Matters for Large Tokenizers",
+        "layout_description": "The slide features a large, bold title at the top left. Below the title, the upper half of the slide contains two lines of text and mathematical equations: the first line provides a statistical view for quantization, and the second line defines the 'Entropy Loss' formula, which is centered. In the middle of the slide, a legend box is centered, distinguishing between 'w/o Entropy Loss' (red line) and 'w/ Entropy Loss' (blue line). The bottom half of the slide consists of two side-by-side line charts. The left chart plots 'Perceptual Loss' against 'Tok. Training Iters (k)', showing a significant drop for the blue line compared to the red line. The right chart plots 'Codebook Usage' against the same x-axis, showing the blue line reaching near-maximum usage while the red line remains low. A small caption, '3B Tokenizer training loss curve', is centered below the charts, and a full academic citation is placed at the very bottom of the slide. The overall text density is moderate, set against a clean white background."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "results",
+      "t_start": 387.0,
+      "t_end": 390.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 387.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with centered title and row of charts",
+        "title_text": "Tokenizer Scaling with Semantic Regularization",
+        "layout_description": "The slide follows a clean, single-column layout centered around a row of data visualizations. At the top, the main title is centered in a large, black, sans-serif font. Below the title, a horizontal row of five line charts is presented, each showing the relationship between 'Tok. Params (M)' on the x-axis and various performance metrics on the y-axis. A shared legend is placed centrally above the charts, indicating that red lines represent 'w/o semantic regularization' and blue lines represent 'w/ semantic regularization'. The metrics displayed from left to right are: Tokenizer: rFID, Tokenizer: LPIPS, AR Probing: Validation Loss, AR Probing: gFID, and AR Probing: Lin Acc. A brief summary sentence, 'Scaling tokenizer works with semantic regularization.', is centered directly below the charts. The bottom of the slide contains a full bibliographic citation for the paper 'GigaTok' by Xiong et al., presented at ICCV 2025. The overall text density is moderate, with a white background and a clear focus on the comparative charts."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "results",
+      "t_start": 390.0,
+      "t_end": 436.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 390.0,
+          "image": "slide_17_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 407.0,
+          "image": "slide_17_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 416.0,
+          "image": "slide_17_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 419.0,
+          "image": "slide_17_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with centered title and horizontal grid of charts",
+        "title_text": "Tokenizer Scaling with Semantic Regularization",
+        "layout_description": "The slide features a large, centered black title at the top. Below the title, five line charts are arranged in a single horizontal row. Each chart is topped with a red heading that summarizes a specific benefit of semantic regularization, such as 'Better rFID with Sem. Reg.' or 'Ascending Acc. with Sem. Reg.'. A legend is placed above the second and third charts, indicating that red lines represent results 'w/o semantic regularization' and blue lines represent results 'w/ semantic regularization'. The x-axis for all charts is 'Tok. Params (M)', while the y-axes show different metrics like rFID, LPIPS, Validation Loss, gFID, and Lin Acc. Below the charts, a single summary sentence is centered: 'Scaling tokenizer works with semantic regularization.' At the very bottom of the slide, a full citation for the paper is provided in a smaller font. The layout is clean with a white background and moderate text density, prioritizing the visual comparison of data trends."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "results",
+      "t_start": 436.0,
+      "t_end": 450.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 436.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Visualization of tokenizer features",
+        "layout_description": "The slide features a minimalist single-column layout on a plain white background. The title, 'Visualization of tokenizer features', is located at the top-left in a standard black sans-serif font. Below the title, there is a single line of text that starts with a thinking face emoji (\ud83e\udd14) and poses the question: 'Why can semantic regularization reduce latent space complexity?'. The central and lower portions of the slide are entirely empty, resulting in a very light text density and a focus on the single question. At the bottom edge of the slide, a full citation for the paper 'GigaTok' by Xiong et al., published in ICCV 2025, is written in a smaller font size."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "results",
+      "t_start": 450.0,
+      "t_end": 478.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 450.0,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison grid layout",
+        "title_text": "Visualization of tokenizer features",
+        "layout_description": "The slide features a clean white background with a large, left-aligned title at the top. Directly below the title is a motivational question starting with a thinking emoji. The central content consists of two side-by-side blocks of images, each arranged in a 2x3 grid. Each block compares three states: 'w/o sem. reg.' (labeled in red), the 'original' image (labeled in black), and 'w/ sem. reg.' (labeled in blue). The 'original' columns display photographs of golden retrievers, while the surrounding columns show corresponding feature heatmaps in various colors. Below the image grids, a centered caption explains that semantic regularization brings 'semantic consistency' in latent space, with the key term in bold. A full citation for the paper is located at the very bottom of the slide in a smaller font."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "results",
+      "t_start": 478.0,
+      "t_end": 480.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 478.0,
+          "image": "slide_20_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Asymmetric 1D Tokenizer is More Scalable",
+        "layout_description": "The slide follows a clean, centered layout on a plain white background. At the top, a large centered title is followed by a smaller centered subtitle, 'Asymmetric Design'. The central focus of the slide is a data table that compares different encoder/decoder size combinations (B-S, S-B, S-L, B-L) across four metrics: rFID, LPIPS, gFID, and Lin Acc. The table uses horizontal lines to separate the header and different data groups. Below the table, there are two bullet points that provide a qualitative analysis of the quantitative results shown in the table. A small-font citation is placed at the bottom left corner, identifying the source as a paper by Xiong et al. from ICCV 2025. The text density is moderate, with a clear hierarchical structure from title to data to analysis."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "results",
+      "t_start": 480.0,
+      "t_end": 506.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 480.0,
+          "image": "slide_21_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Asymmetric 1D Tokenizer is More Scalable",
+        "layout_description": "The slide follows a clean, centered layout on a plain white background. At the top, a large centered title is followed by a smaller centered subtitle, 'Asymmetric Design'. The central focus of the slide is a data table that compares different encoder/decoder size combinations (B-S, S-B, S-L, B-L) across four metrics: rFID, LPIPS, gFID, and Lin Acc. The table uses horizontal lines to separate the header and different data groups. Below the table, there are two bullet points that provide a qualitative analysis of the quantitative results shown in the table. A small-font citation is placed at the bottom left corner, identifying the source as a paper by Xiong et al. from ICCV 2025. The text density is moderate, with a clear hierarchical structure from title to data to analysis."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "results",
+      "t_start": 506.0,
+      "t_end": 510.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 506.0,
+          "image": "slide_22_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with centered title and figures",
+        "title_text": "Asymmetric 1D Tokenizer is More Scalable",
+        "layout_description": "The slide features a large, centered title at the top, followed by a smaller centered subtitle '1D vs. 2D Tokenizer'. The middle section contains three side-by-side line charts that compare 1D and 2D tokenizers across different metrics: 'Tokenizer: rFID', 'AR Probing: gFID', and 'AR Probing: Lin Acc.'. A shared legend is positioned above the central chart, using red for 2D Tokenizers and blue for 1D Tokenizers. Below the charts, there are two bullet points that summarize the key takeaways from the data. At the very bottom of the slide, a single-line citation provides the source of the information. The overall text density is moderate, and the layout uses a clean white background with standard black text and colored data lines."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "results",
+      "t_start": 510.0,
+      "t_end": 532.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 510.0,
+          "image": "slide_23_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and side-by-side charts",
+        "title_text": "Asymmetric 1D Tokenizer is More Scalable",
+        "layout_description": "The slide follows a top-down structure starting with a large, centered title. Below the title is a smaller centered sub-heading '1D vs. 2D Tokenizer'. The middle section of the slide features three line charts arranged side-by-side in a single row, each plotting a different metric (rFID, gFID, and Lin Acc.) against 'Tok. Params (M)'. A shared legend for the charts, distinguishing between '2D Tok.' (red) and '1D Tok.' (blue), is positioned above the central chart. Beneath the charts, there are two bullet points that summarize the key takeaways from the data. Finally, a small citation for the paper 'GigaTok' is placed at the bottom left corner. The background is plain white, and the text density is moderate, prioritizing the graphical data."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "results",
+      "t_start": 532.0,
+      "t_end": 540.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 532.0,
+          "image": "slide_24_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title, table, and bullets",
+        "title_text": "System-Level Comparison",
+        "layout_description": "The slide features a clean, academic layout with a white background and black text. The title 'System-Level Comparison' is positioned at the top-left in a large, sans-serif font. Below the title, a wide, complex table dominates the center of the slide, comparing various models across several metrics. The table is organized into two primary horizontal sections: 'Continuous token modeling' and 'Discrete token modeling', with columns for tokenizer details, token counts, rFID, generator model parameters, type, gFID, and accuracy. Footnotes for the table are placed immediately below it. Following the table, there are three left-aligned bullet points that summarize the key takeaways from the data. Finally, a single-line citation is located at the bottom-left of the slide, identifying the source as 'Xiong et al., GigaTok... ICCV 2025'. The text density is moderate, with the table being the most information-dense element."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "results",
+      "t_start": 540.0,
+      "t_end": 565.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 540.0,
+          "image": "slide_25_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "System-Level Comparison",
+        "layout_description": "The slide features a clean, white background with a large title, 'System-Level Comparison', positioned at the top-left. Below the title, a wide, detailed table occupies the upper half of the slide, comparing various models across several metrics. The table is organized into two main horizontal sections: 'Continuous token modeling' and 'Discrete token modeling', separated by horizontal lines. Columns in the table include Tokenizer details, token counts, rFID, Generator Model details, Type, gFID, and Accuracy. Directly beneath the table are two lines of small-text footnotes explaining specific symbols used within the data. The bottom third of the slide contains three bullet points that summarize the key takeaways from the experimental results. Finally, a full academic citation for the paper 'GigaTok' is placed at the very bottom of the slide in a smaller font. The text density is moderate, with the table being the primary focus of information."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "title",
+      "t_start": 565.0,
+      "t_end": 570.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 565.0,
+          "image": "slide_26_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Lessons for Scaling Visual Tokenizers",
+        "layout_description": "The slide follows a minimalist title slide layout with a clean white background. A large, black, sans-serif title is aligned to the top-left. The vast majority of the slide's center is empty white space. At the bottom-left corner, there is a single line of smaller text containing a full academic citation for the paper 'GigaTok', including the authors, full paper title, and the conference 'ICCV 2025'. The text density is very light, focusing entirely on the main topic and its source."
+      }
+    },
+    {
+      "slide_id": 27,
+      "slide_section": "conclusion",
+      "t_start": 570.0,
+      "t_end": 598.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 570.0,
+          "image": "slide_27_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 573.0,
+          "image": "slide_27_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 577.0,
+          "image": "slide_27_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 581.0,
+          "image": "slide_27_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Lessons for Scaling Visual Tokenizers",
+        "layout_description": "The slide follows a simple, minimalist layout with a plain white background and black text. A large, left-aligned title is situated at the top. The main content area consists of a single column containing three bullet points that summarize key findings. These points are left-aligned and use a standard circular bullet style. The bottom of the slide contains a single line of text in a smaller font size, serving as a citation for the research paper. The overall text density is very light, with a large amount of empty white space in the middle and bottom sections of the slide. There are no decorative elements, logos, or figures."
+      }
+    },
+    {
+      "slide_id": 28,
+      "slide_section": "other",
+      "t_start": 598.0,
+      "t_end": 600.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 598.0,
+          "image": "slide_28_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Reference",
+        "layout_description": "The slide follows a minimalist single-column layout on a plain white background. A large, black title 'Reference' is positioned in the top-left corner. The main body of the slide contains a numbered list of seven academic citations, labeled [1] through [7]. This list is left-aligned and occupies the central and lower-left regions of the slide, leaving a large amount of empty white space on the right side. Each entry follows a standard citation format including author names, paper titles in bold or plain text, and publication venues with years. There are no visual elements such as images, icons, logos, or page numbers, resulting in a moderate text density focused entirely on bibliographic information."
+      }
+    },
+    {
+      "slide_id": 29,
+      "slide_section": "other",
+      "t_start": 600.0,
+      "t_end": 604.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 600.0,
+          "image": "slide_29_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Reference",
+        "layout_description": "The slide follows a minimalist, single-column layout on a plain white background. A large, non-bold title 'Reference' is positioned in the top-left corner. The main body of the slide consists of a numbered list containing seven bibliographic entries, aligned to the left with a standard margin. Each entry includes author names, paper titles, and publication venues (such as ICCV, NeurIPS, CVPR, ICLR, and ArXiv) with corresponding years ranging from 2022 to 2025. The text is uniform in color and font style throughout the list. There are no visual elements like images, tables, equations, or logos, resulting in a moderate text density focused purely on citation information."
+      }
+    },
+    {
+      "slide_id": 30,
+      "slide_section": "other",
+      "t_start": 604.0,
+      "t_end": 605.83,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 604.0,
+          "image": "slide_30_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered text layout",
+        "title_text": "Thank you!",
+        "layout_description": "The slide features a minimalist design with a single line of text, 'Thank you!', positioned exactly in the center of the frame. The background is a solid, plain white color with no decorative elements, borders, logos, or page numbers. The text is rendered in a simple, black sans-serif font. The overall text density is extremely light, creating a clean and focused visual typically used to conclude a presentation."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 970,
+    "gemini_layout_calls": 944,
+    "total_gemini_calls": 1914,
+    "total_frames_sampled": 606,
+    "batch_size": 15
+  }
+}

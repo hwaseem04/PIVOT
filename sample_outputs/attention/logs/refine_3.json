@@ -1,0 +1,93 @@
+{
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "Scaled Dot-Product and Multi-Head Attention",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 2",
+            "caption": "Architectures of Scaled Dot-Product Attention (left) and Multi-Head Attention (right)."
+        },
+        "equations": [
+            "Eq. 1: \\mathrm{Attention}(Q, K, V) = \\mathrm{softmax}(\\frac{QK^T}{\\sqrt{d_k}})V",
+            "Eq. 2: \\mathrm{MultiHead}(Q, K, V) = \\mathrm{Concat}(\\mathrm{head}_1, ..., \\mathrm{head}_h)W^O"
+        ],
+        "bullets": [
+            "Maps queries and key-value pairs to weighted outputs",
+            "Scaling by 1/sqrt(d_k) maintains stable softmax gradients",
+            "Multi-head attention runs eight parallel attention layers",
+            "Jointly attends to information from different representation subspaces"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                },
+                {
+                    "type": "show",
+                    "target": "equation"
+                }
+            ],
+            "audio_segment": "Scaled Dot-Product Attention",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.28,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "maps queries and key-value pairs to a weighted output.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 6.56,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "We scale scores by the inverse square root of the key dimension for stability.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 9.84,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "Multi-head attention runs eight parallel heads",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 13.12,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "to attend to different representation subspaces simultaneously.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 16.4
+}

@@ -1,0 +1,365 @@
+{
+  "video_id": "ICLR_ICLR-2025-paper_Block-Diffusion-Interpolating-Between-Autoregres__Block-Diffusion-Interpolating-Between",
+  "duration": 653.9,
+  "fps_sampled": 1.0,
+  "total_slides": 17,
+  "slides_with_builds": 3,
+  "total_build_steps": 22,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 55.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with sidebar",
+        "title_text": "BLOCK DIFFUSION: INTERPOLATING BETWEEN AUTOREGRESSIVE AND DIFFUSION LANGUAGE MODELS",
+        "layout_description": "The slide uses a two-column layout where the left side is a dark-themed sidebar containing a detailed, hierarchical table of contents. This outline uses color-coded text (green for main sections, orange and blue for subsections) and multiple levels of indentation. The right column has a white background and contains the main title at the top in a bold, all-caps serif font, followed by two rows of author names. Below the authors, a large, high-quality 3D-rendered image of a fluffy grey cat wearing a chef's hat at a sushi bar dominates the space. A small green frog icon is located in the bottom right corner as a logo. The text density is moderate, balanced between the structured list on the left and the large visual element on the right."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 55.0,
+      "t_end": 60.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 55.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "BLOCK DIFFUSION: INTERPOLATING BETWEEN AUTOREGRESSIVE AND DIFFUSION LANGUAGE MODELS",
+        "layout_description": "The slide uses a two-column design with a dark-themed sidebar on the left and a light-themed document view on the right. The left column serves as a table of contents, featuring hierarchical bullet points with two levels of indentation and color-coded text (orange for sub-points, green for main sections, and blue for sub-sections). A vertical text string containing an arXiv identifier and date acts as a divider between the columns. The right column replicates the first page of an academic paper, with the title centered at the top in bold, all-caps font, followed by author names and affiliations. Below this, the text is organized into a centered abstract and a single-column introduction section. Specific parts of the text are highlighted in green, with small green text boxes in the right margin providing summary annotations. A small green frog icon is positioned in the bottom right corner. The slide is text-dense, providing both a high-level outline and detailed introductory content."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 60.0,
+      "t_end": 199.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 60.0,
+          "image": "slide_3_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 136.0,
+          "image": "slide_3_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 137.0,
+          "image": "slide_3_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with sidebar",
+        "title_text": "Introduction",
+        "layout_description": "The slide is organized into two main vertical sections. On the left, a dark-colored sidebar serves as a navigation menu or table of contents, featuring a multi-level hierarchical list of topics in various colors (green, blue, orange, and white) starting with 'Introduction'. The right section, which occupies the majority of the slide, displays a page from a research paper on a white background. This page begins with a comparison figure (Figure 1) that uses a grid of icons (green checkmarks and red crosses) to contrast 'Autoregression', 'Diffusion', and 'Block Diffusion (Ours)' across four performance metrics. Below the figure, there are several paragraphs of dense academic text, including a bulleted list of four key contributions. Specific phrases within the text are highlighted with a green background. The bottom of the right section introduces 'Section 2: BACKGROUND' with mathematical notation for discrete random variables. A small, green pixel-art frog icon is positioned in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "method",
+      "t_start": 199.0,
+      "t_end": 200.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 199.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with sidebar",
+        "title_text": "2 BACKGROUND: LANGUAGE MODELING PARADIGMS",
+        "layout_description": "The slide uses a two-column layout where the left side is a dark-themed sidebar and the right side is a light-themed main content area. The left sidebar serves as a navigation menu or table of contents, featuring a hierarchical list of topics with multiple levels of indentation and color-coded text (green for main sections, blue for subsections, and orange/white for sub-subsections). The right column contains dense academic content formatted like a paper, including a main section title at the top, followed by numbered subsections '2.1 AUTOREGRESSIVE MODELS' and '2.2 DISCRETE DENOISING DIFFUSION PROBABILISTIC MODELS'. The text is organized into paragraphs with several centered, numbered mathematical equations interspersed throughout. In the bottom right corner, there is a small pixel-art frog icon and a text label 'Introduction to BD3-LMs'. The overall text density is high, typical of a technical background or methodology slide."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "method",
+      "t_start": 200.0,
+      "t_end": 210.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 200.0,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Introduction",
+        "layout_description": "The slide uses a split-screen, two-column layout with contrasting backgrounds. The left column has a dark background and functions as a detailed table of contents or navigation pane, featuring hierarchical bullet points with three levels of indentation and color-coded text (green for main sections, blue for sub-sections, and orange or white for specific points). The right column has a white background and displays a full page of technical text formatted like an academic paper. This right-hand section includes numbered section headings (2.1, 2.2, 3), dense paragraphs, and three centered, numbered mathematical equations. In the bottom section of the right column, specific sentences are highlighted in bright green, accompanied by corresponding light green margin notes. A small green pixel-art icon is located in the bottom right corner of the slide. The overall text density is very high, combining a structured outline with detailed technical methodology."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 210.0,
+      "t_end": 357.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 210.0,
+          "image": "slide_6_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 252.0,
+          "image": "slide_6_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 253.0,
+          "image": "slide_6_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with sidebar",
+        "title_text": "Introduction",
+        "layout_description": "The slide is divided into two distinct vertical sections. The left section is a narrow sidebar with a dark background, displaying a hierarchical outline of the presentation. Main headings like 'Introduction', 'Background', and 'Block Diffusion Language Modeling' are in light green, while sub-points are indented with dashes and colored in a light tan. The right section is a wide, white-background area containing dense academic text and mathematical formulas. This main content area includes several centered equations numbered (4) through (7). A specific paragraph titled 'Model Architecture' is highlighted with a light green box. The text is organized into sections with bolded subheadings such as '3.2 EFFICIENT TRAINING AND SAMPLING ALGORITHMS'. A small, green pixel-art frog icon is positioned in the bottom right corner. The overall text density is very high, giving it the appearance of a research paper page placed alongside a navigation menu."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "results",
+      "t_start": 357.0,
+      "t_end": 360.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 357.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with sidebar",
+        "title_text": "Likelihood Gap Between Diffusion & AR Models",
+        "layout_description": "The slide uses a two-column structure. The left column is a dark-background sidebar containing a detailed, hierarchical outline of the presentation with multiple levels of indentation and color-coded headings (green, blue, orange). The right column is a larger, white-background content area that mimics the layout of a research paper. This main area starts with a centered mathematical equation at the top. Below the equation is a section titled '4.2 CASE STUDY: SINGLE TOKEN GENERATION' containing text with several green-highlighted passages. To the right of this text is a small table (Table 1) comparing perplexity scores. Centered in the middle of the right column is a line chart (Figure 2) showing training NLL curves for various models, followed by a descriptive caption. The bottom of the slide begins section '4.3 DIFFUSION GAP FROM HIGH VARIANCE TRAINING'. A small green pixel-art dinosaur icon is placed in the bottom right corner. The slide is text-dense, integrating technical prose, equations, a table, and a complex data plot."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 360.0,
+      "t_end": 404.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 360.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with sidebar",
+        "title_text": "Likelihood Gap Between Diffusion & AR Models",
+        "layout_description": "The slide uses a two-column structure with a dark-background sidebar on the left and a white-background main content area on the right. The left sidebar functions as a hierarchical table of contents, featuring multi-colored text (green, blue, orange, and white) with two levels of indentation to outline the presentation's structure. The right column contains the primary content, starting with a multi-line chart at the top labeled 'Figure 2' that displays training NLL metrics. Below the chart is a dense section of academic text with several sentences highlighted in green. Two numbered mathematical equations are centered within the text flow towards the bottom of the page. A small frog-themed logo and the website 'RibbitRibbit.co' are positioned in the top-right and bottom-right corners. The overall text density is high, integrating visual data, descriptive analysis, and formal mathematical derivations."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 404.0,
+      "t_end": 405.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 404.0,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with sidebar",
+        "title_text": "Likelihood Gap Between Diffusion & AR Models",
+        "layout_description": "The slide uses a two-column layout where the left side is a dark-background sidebar containing a detailed, hierarchical table of contents. This outline uses multiple levels of indentation and color-coded text (white, green, and orange) to organize topics from 'Background' to 'Experimental Evaluations'. The right column, which takes up most of the slide, displays a page from a research paper. It starts with a line chart (Figure 2) at the top, followed by dense academic text organized into sections with bold headings. Centered within the text are two numbered mathematical equations. Certain sentences in the text are highlighted in green, and small grey explanatory notes appear in the right margin. A small pixel-art frog icon is positioned in the bottom right corner of the entire slide."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 405.0,
+      "t_end": 457.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 405.0,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with sidebar",
+        "title_text": "Noise Schedules & Clipping",
+        "layout_description": "The slide uses a two-column layout. The left column is a dark-background sidebar that serves as a hierarchical table of contents, with various sections listed in green, blue, and orange text; the 'Noise Schedules & Clipping' section is highlighted in orange. The right column is a wide, white-background area containing dense academic text, equations, and tables. This main area is divided into three sections: '5.2 CLIPPED SCHEDULES FOR LOW-VARIANCE GRADIENTS', which features a green-highlighted sentence; '5.3 DATA-DRIVEN CLIPPED SCHEDULES ACROSS BLOCK SIZES', which includes a wide data table (Table 2); and '6 EXPERIMENTS', which contains a paragraph of text and a smaller comparison table (Table 3) positioned to its right. Mathematical formulas are integrated into the text blocks. A small green pixel-art computer icon is visible in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "results",
+      "t_start": 457.0,
+      "t_end": 465.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 457.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with sidebar",
+        "title_text": "Experimental Evaluations",
+        "layout_description": "The slide features a two-column layout. The left column is a dark-themed sidebar that serves as a hierarchical table of contents, using colored text (blue, green, and orange) and two levels of dashed bullet point indentation to outline the presentation's structure. The right column is a light-themed area that displays a page from an academic paper, containing dense text and quantitative data. This right section is organized into two main sub-sections: '6.1 LIKELIHOOD EVALUATION' and '6.2 SAMPLE QUALITY AND VARIABLE-LENGTH SEQUENCE GENERATION'. It includes three tables (Table 4, Table 5, and Table 6) showing experimental results, with some specific findings in the text highlighted in green. A small mathematical formula is visible at the top of the right column. A decorative pixel-art frog icon is located in the bottom right corner of the slide."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "results",
+      "t_start": 465.0,
+      "t_end": 509.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 465.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Experimental Evaluations",
+        "layout_description": "The slide uses a two-column design with a dark-themed sidebar on the left and a light-themed main content area on the right. The left sidebar contains a hierarchical outline of the presentation, with main sections in blue, sub-sections in white, and specific sub-points in orange; the 'Experimental Evaluations' section is the current focus. The right side displays dense content directly from an academic paper, featuring two main sections: '6.1 LIKELIHOOD EVALUATION' and '6.2 SAMPLE QUALITY AND VARIABLE-LENGTH SEQUENCE GENERATION'. This area includes three tables (Table 4, 5, and 6) interspersed with paragraphs of text. Certain key findings in the text are highlighted with a green background. A mathematical formula is present at the top of the right column. Branding elements include a 'RibbitRibbit.co' logo with a rabbit icon in the top right corner and a pixelated green frog icon in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "results",
+      "t_start": 509.0,
+      "t_end": 510.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 509.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with sidebar",
+        "title_text": "Block Diffusion Language Modeling",
+        "layout_description": "The slide uses a two-column layout. The left column is a narrow sidebar with a dark background, containing a hierarchical outline of the presentation under the title 'Block Diffusion Language Modeling'. The outline uses white text with some items highlighted in orange to indicate the current focus, such as 'Perplexity and Generalization' and 'Sequence length generation'. The right column is much wider and contains a screenshot of a research paper page with a white background. This main content area is very text-dense, featuring two columns of academic text, three data tables (Table 4, Table 5, and Table 6), and a small mathematical expression at the top. Specific findings in the text are highlighted with a bright green background. A small, green pixel-art frog icon is positioned in the bottom right corner of the entire slide."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "results",
+      "t_start": 510.0,
+      "t_end": 517.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 510.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Block Diffusion Language Modeling",
+        "layout_description": "The slide uses a two-column layout with a distinct color contrast between the left and right sides. The left column has a dark background and functions as a navigation menu or table of contents, featuring the main title 'Block Diffusion Language Modeling' at the top. Below the title is a dense, hierarchical list of bullet points with two levels of indentation, organized under headings like 'Model Design', 'Training and Sampling', and 'Experimental Evaluations'. Some text in this column is highlighted in orange to indicate the current section. The right column has a white background and contains content that looks like a page from an academic paper. It includes section headers '6.1 LIKELIHOOD EVALUATION' and '6.2 SAMPLE QUALITY AND VARIABLE-LENGTH SEQUENCE GENERATION'. This side is text-heavy, featuring several paragraphs, mathematical expressions, and three data tables (Table 4, Table 5, and Table 6). Certain key findings in the text are highlighted with a light green background. A small pixel-art dinosaur icon is positioned in the bottom right corner of the slide."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "results",
+      "t_start": 517.0,
+      "t_end": 525.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 517.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with sidebar",
+        "title_text": "Block Diffusion Language Modeling",
+        "layout_description": "The slide features a two-column layout with a dark-themed sidebar on the left and a light-themed main content area on the right. The left sidebar serves as a detailed outline or table of contents, using hierarchical bullet points with two levels of indentation; main headings are in light blue, while sub-bullets are in white or orange. The right column contains dense academic text, resembling a research paper page, organized into sections like '6.3 ABLATIONS'. It includes two tables: Table 7 is centered in the upper half, showing generative perplexity and NFEs for various models, and Table 8 is positioned in the bottom right, detailing the effect of noise schedules. A specific sentence in the main text is highlighted in green. A small green frog icon is located in the bottom right corner of the slide. The overall text density is high, combining a structured outline with detailed technical analysis and data tables."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "results",
+      "t_start": 525.0,
+      "t_end": 651.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 525.0,
+          "image": "slide_16_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 569.0,
+          "image": "slide_16_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with sidebar",
+        "title_text": "Block Diffusion Language Modeling",
+        "layout_description": "The slide uses a two-column layout with a distinct dark sidebar on the left and a light main content area on the right. The left sidebar serves as a detailed table of contents or outline, featuring hierarchical bullet points with two levels of indentation. The text in the sidebar uses a color-coded scheme with green for main sections, blue for sub-sections, and orange for specific comparisons. The right main content area has a white background and contains dense academic text organized into three main sections with bolded headings. At the top right, there is a small table (Table 8) titled 'Effect of the noise schedule on likelihood estimation,' which presents quantitative data across several columns. Below the table and its accompanying text, the section '7 DISCUSSION AND PRIOR WORK' begins, consisting of several paragraphs of text. A small green pixel-art icon is positioned in the bottom right corner of the slide. The overall text density is high, typical of a technical paper or detailed presentation."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "title",
+      "t_start": 651.0,
+      "t_end": 653.9,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 651.0,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "RibbitRibbit.co",
+        "layout_description": "The slide features a minimalist, centered layout on a solid dark charcoal background. At the top center is a small, green pixel-art frog icon. Directly below the icon is the main title 'RibbitRibbit.co' in a large, bold, white sans-serif font. Underneath the title is a smaller subtitle in white text that reads 'Discover Research the Fun Way'. At the bottom of the central cluster, there is a horizontal row of four colorful app icons: the Apple App Store, Google Play, Spotify, and Apple Podcasts. The overall text density is very light, focusing on branding and platform availability."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 546,
+    "gemini_layout_calls": 505,
+    "total_gemini_calls": 1051,
+    "total_frames_sampled": 654,
+    "batch_size": 15
+  }
+}

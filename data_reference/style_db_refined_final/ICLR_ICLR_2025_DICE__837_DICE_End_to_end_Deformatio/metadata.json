@@ -1,0 +1,361 @@
+{
+  "video_id": "ICLR_ICLR 2025_DICE__837_DICE_End_to_end_Deformatio",
+  "duration": 231.46,
+  "fps_sampled": 1.0,
+  "total_slides": 16,
+  "slides_with_builds": 6,
+  "total_build_steps": 24,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 9.68,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "DICE: End-to-end Deformation Capture of Hand-Face Interactions from a Single Image",
+        "layout_description": "The slide follows a centered title slide layout on a plain white background. The main title is positioned in the upper-middle section, rendered in a large, bold, black sans-serif font across three lines. Directly below the title is a centered block of text listing the fourteen contributing authors in a smaller, standard font. In the top-right corner, the ICLR conference logo is visible, accompanied by the event dates 'Apr 24 \u2013 28, 2025'. The bottom of the slide is occupied by a horizontal row of six institutional logos representing the authors' affiliations, including Penn, the University of Hong Kong, UIUC, Max Planck Institut Informatik, the University of Cambridge, and Texas A&M University. The text density is light, with a clear focus on the title and the collaborative team."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 9.68,
+      "t_end": 14.51,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 9.68,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with title",
+        "title_text": "Introduction and Motivation",
+        "layout_description": "The slide features a clean, white background with a large, bold title 'Introduction and Motivation' positioned at the top-left. In the top-right corner, there is a logo for ICLR along with the conference dates 'Apr 24 \u2013 28, 2025'. The central content is a 2x3 grid of six rectangular images, which appear to be stills from popular memes or GIFs. These images all depict individuals touching their faces or heads in various expressions of stress, thought, or frustration. One image in the top row contains the yellow text overlay 'YOU STOP TOUCHING YOUR FACE!'. At the bottom-left of the slide, a small text line provides image credits to 'Tenor, Giphy, Gifer'. The slide has a very light text density, relying almost entirely on the visual grid to convey its message."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 14.51,
+      "t_end": 16.45,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 14.51,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with title",
+        "title_text": "Introduction and Motivation",
+        "layout_description": "The slide features a large, black title 'Introduction and Motivation' positioned at the top-left. In the top-right corner, there is a logo for ICLR with the dates 'Apr 24 \u2013 28, 2025' underneath it. The central content consists of a 2x3 grid of six images, which are stills from various popular memes and GIFs. These images show different people in various states of touching their faces or reacting with frustration; one image specifically includes the yellow text overlay 'YOU STOP TOUCHING YOUR FACE!'. At the very bottom-left, there is a small credit line reading 'Credit: Tenor, Giphy, Gifer'. The background is plain white, and the slide has a very light text density, relying almost entirely on the visual grid of images to convey its message."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 16.45,
+      "t_end": 29.03,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 16.45,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "three-column grid layout",
+        "title_text": "Introduction and Motivation",
+        "layout_description": "The slide uses a clean three-column grid layout on a white background. The title 'Introduction and Motivation' is placed at the top-left in a large, black, sans-serif font. In the top-right corner, the ICLR logo is visible alongside the conference dates 'Apr 24 \u2013 28, 2025'. The main body of the slide consists of three vertical columns, each featuring two stacked images or diagrams with a descriptive label centered at the bottom. The left column, labeled 'Virtual Reality', contains two photographs of people wearing VR headsets. The middle column, labeled 'Character Animation', shows two 3D-style animated character busts. The right column, labeled 'Human Behavior Analysis', features a photo of a child playing with blocks above a technical diagram showing human spatial positioning and interaction vectors. A small credit line is positioned at the very bottom-left of the slide. The overall text density is light, relying heavily on visual examples to convey the application domains."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "introduction",
+      "t_start": 29.03,
+      "t_end": 51.28,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 29.03,
+          "image": "slide_5_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 30.0,
+          "image": "slide_5_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "Introduction and Motivation",
+        "layout_description": "The slide features a large, bold title 'Introduction and Motivation' positioned at the top-left. In the top-right corner, there is a logo for ICLR along with the conference dates 'Apr 24 \u2013 28, 2025'. The main body of the slide consists of a large grid of images organized into three rows, labeled (a), (b), and (c) on the left margin. The grid is split into two identical side-by-side blocks. Each block contains three columns with the headers 'Input Image', 'Front View', and 'Side View'. The 'Input Image' columns show photographs of different individuals with their hands touching or near their faces. The 'Front View' and 'Side View' columns display corresponding 3D mesh reconstructions of the head and hand from different perspectives. The layout is clean with a white background and light text density, primarily using visual examples to motivate the research problem."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 51.28,
+      "t_end": 58.06,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 51.28,
+          "image": "slide_6_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 55.16,
+          "image": "slide_6_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Related Works",
+        "layout_description": "The slide features a large, bold title 'Related Works' positioned at the top-left. In the top-right corner, the ICLR logo is displayed along with the conference dates 'Apr 24 \u2013 28, 2025'. The main body of the slide is divided into two columns under bold subheadings. The left column, titled 'Hand or Face-only methods', contains two rows of figures: the top row shows facial mesh fitting and error maps (Li et al., 2017), and the bottom row shows hand pose estimation from images (Zhou et al., 2020). The right column, titled 'Whole-body methods', also contains two rows: the top row displays 3D body mesh fitting on human figures (M\u00fcller et al., 2021), and the bottom row shows a sign language speaker next to a 3D body model with a simple encoder-decoder diagram between them (Lin et al., 2023). Each figure group is followed by its respective citation in a centered text block. The background is plain white with a thin grey horizontal line at the bottom."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 58.06,
+      "t_end": 102.57,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 58.06,
+          "image": "slide_7_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 62.9,
+          "image": "slide_7_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "three-column layout with title",
+        "title_text": "Related Works",
+        "layout_description": "The slide is organized into a three-column structure under a large, bold title 'Related Works' positioned at the top-left. In the top-right corner, there is an ICLR logo with the dates 'Apr 24 \u2013 28, 2025'. Each column has its own bold sub-heading. The left column, 'Hand or Face-only methods', contains two sets of figures: one showing face reconstruction (Li et al., 2017) and another showing hand mesh overlays (Zhou et al., 2020). The middle column, 'Whole-body methods', features two sets of figures: one depicting full-body mesh fitting (M\u00fcller et al., 2021) and another showing a person signing next to a mesh model (Lin et al., 2023). The right column, 'Optimization-based method for hand-face interaction', presents a grid of images showing real-world hand-face contact paired with 3D reconstructions from multiple views (Shimada et al., 2023). The layout is visually driven, using images to represent different research papers, with citations placed directly below each corresponding figure set. The background is plain white, and the text density is moderate."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "results",
+      "t_start": 102.57,
+      "t_end": 116.12,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 102.57,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison grid layout",
+        "title_text": "Comparison\non studio-recorded images",
+        "layout_description": "The slide uses a clean, white background with a large, bold title 'Comparison' positioned at the top-left, followed by a smaller subtitle 'on studio-recorded images'. In the top-right corner, there is a logo for the ICLR conference featuring a pixelated head icon and the dates 'Apr 24 \u2013 28, 2025'. The main body of the slide consists of a 2x5 grid of images for qualitative comparison. The grid is organized into five columns with headers: 'Input Image', 'Ours', 'Decaf', 'PIXIE', and 'METRO'. The 'Input Image' column contains two rows of photographs showing individuals in a studio with a green screen background, performing a hand-to-face gesture with an open mouth. The subsequent four columns display 3D mesh reconstructions corresponding to each input image, allowing for a direct visual comparison of how different methods handle facial expressions and hand-face interactions. The text density is light, prioritizing visual evidence over descriptive text."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "results",
+      "t_start": 116.12,
+      "t_end": 151.92,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 116.12,
+          "image": "slide_9_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 124.82,
+          "image": "slide_9_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 129.66,
+          "image": "slide_9_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison grid layout",
+        "title_text": "Comparison on studio-recorded images",
+        "layout_description": "The slide uses a clean, white-background comparison layout. At the top-left, there is a large bold title 'Comparison' with a subtitle 'on studio-recorded images' directly underneath. The top-right corner features the ICLR logo and the dates 'Apr 24 \u2013 28, 2025'. The central content is a 2x5 grid of images. The columns are labeled 'Input Image', 'Ours', 'Decaf', 'PIXIE', and 'METRO'. The first column displays two original studio-recorded photographs of individuals against a green screen. The remaining four columns show 3D mesh reconstructions of the faces and hands from those photos, representing different computational methods. In the final column labeled 'METRO', red rectangular boxes are used to highlight specific areas of the hand reconstruction, likely indicating errors or points of comparison. The text density is light, with the focus entirely on the visual qualitative comparison between the proposed method ('Ours') and existing baselines."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "results",
+      "t_start": 151.92,
+      "t_end": 159.66,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 151.92,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Comparison on in-the-wild images",
+        "layout_description": "The slide features a clean, white background with a comparison grid layout. The title is positioned in the top-left corner, with 'Comparison' in a large, bold font and 'on in-the-wild images' in a smaller font directly underneath. In the top-right corner, there is an ICLR logo accompanied by the dates 'Apr 24 \u2013 28, 2025'. The main content consists of a 2x5 grid of images. The columns are labeled with headers: 'Input Image', 'Ours', 'Decaf', 'PIXIE', and 'METRO'. The first column contains two real-world photographs of people with their hands near their faces. The subsequent four columns display 3D mesh reconstructions of the head and hand for each input image, allowing for a qualitative comparison between the proposed method ('Ours') and three baseline methods. The text density is light, focusing primarily on visual qualitative results."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "results",
+      "t_start": 159.66,
+      "t_end": 192.56,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 159.66,
+          "image": "slide_11_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 165.47,
+          "image": "slide_11_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 172.24,
+          "image": "slide_11_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison grid layout",
+        "title_text": "Comparison on in-the-wild images",
+        "layout_description": "The slide uses a clean, white background with a large, bold title 'Comparison' and a smaller subtitle 'on in-the-wild images' in the top-left corner. In the top-right corner, there is an ICLR logo accompanied by the dates 'Apr 24 \u2013 28, 2025'. The main body of the slide consists of a 2x5 grid of images organized into five columns. The first column, labeled 'Input Image', shows two real-world photographs of men with their hands near their faces (one covering eyes, one touching a hard hat). The following four columns, labeled 'Ours', 'Decaf', 'PIXIE', and 'METRO', display 3D mesh reconstructions of the head and hand for each input image. Red bounding boxes are used in the 'PIXIE' and 'METRO' columns to highlight specific areas of reconstruction failure or misalignment. The text density is light, with the focus being on the qualitative visual comparison between the proposed method ('Ours') and existing baselines."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "results",
+      "t_start": 192.56,
+      "t_end": 203.2,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 192.56,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Comparison inference speed",
+        "layout_description": "The slide follows a clean, professional layout with a white background. The title is positioned at the top-left, featuring 'Comparison' in a large, bold black font and 'inference speed' in a smaller, regular black font directly underneath. In the top-right corner, the ICLR logo is visible along with the conference dates 'Apr 24 \u2013 28, 2025'. The main body of the slide is occupied by a large, horizontally centered table. This table has a dark teal header row with white text and four data rows with alternating light gray and white backgrounds. The table columns are 'Method', 'Runtime (per image; seconds)', and 'Frames per second'. The bottom row, representing the proposed method ('Ours'), is emphasized with bold text. A small, single-line footnote at the bottom-left provides technical context: 'Runtimes are measured on a single A6000 GPU.' The slide has a light text density, focusing primarily on the quantitative comparison presented in the table."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "results",
+      "t_start": 203.2,
+      "t_end": 209.98,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 203.2,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Comparison inference speed",
+        "layout_description": "The slide follows a clean, professional layout with a large, bold title 'Comparison' and a smaller subtitle 'inference speed' aligned to the top-left. In the top-right corner, there is a colorful ICLR logo accompanied by the conference dates 'Apr 24 \u2013 28, 2025'. The main content is a large, horizontally centered table that compares different methods. The table features a dark teal header row with white text and alternating light gray and white rows for the data. It consists of three columns: 'Method', 'Runtime (per image; seconds)', and 'Frames per second'. Four rows of data are presented, with the final row labeled 'Ours' in bold to highlight the proposed method's performance. A small footer note at the bottom-left specifies that 'Runtimes are measured on a single A6000 GPU.' The background is plain white, and the text density is light, focusing on the quantitative comparison."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "method",
+      "t_start": 209.98,
+      "t_end": 217.72,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 209.98,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Our Method\nperformance on monocular video",
+        "layout_description": "The slide uses a clean, two-column comparison layout on a plain white background. The title 'Our Method' is placed in the top-left corner in a large, bold font, with a subtitle 'performance on monocular video' directly underneath it in a smaller, regular font. In the top-right corner, the ICLR logo is visible along with the conference dates 'Apr 24 \u2013 28, 2025'. The central content consists of two side-by-side figures: on the left is a real-world photograph of a person touching their face, and on the right is a corresponding 3D mesh reconstruction of the same head and hand pose. The text density is light, prioritizing visual demonstration over textual explanation."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "method",
+      "t_start": 217.72,
+      "t_end": 228.36,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 217.72,
+          "image": "slide_15_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 222.56,
+          "image": "slide_15_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Our Method",
+        "layout_description": "The slide uses a clean, minimalist design with a white background. At the top-left, the main title 'Our Method' is displayed in a large, bold sans-serif font, with a subtitle 'performance on monocular video' positioned directly below it in a smaller, regular font. The top-right corner contains the ICLR conference logo, which includes a green and black stylized brain icon and the text 'ICLR Apr 24 \u2013 28, 2025'. The central part of the slide features two side-by-side images for qualitative comparison. The left image is a real-world photograph of a person touching their face, while the right image shows a corresponding 3D gray-scale mesh reconstruction of the head and hand in the same pose. There are no bullet points or equations, resulting in a very light text density that emphasizes the visual results."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "other",
+      "t_start": 228.36,
+      "t_end": 231.46,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 228.36,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid comparison layout",
+        "title_text": "Thank You!",
+        "layout_description": "The slide has a minimalist design with a white background. A large, bold title 'Thank You!' is located in the top-left corner. In the top-right corner, there is a logo for the ICLR conference, including a stylized brain icon and the text 'ICLR Apr 24 \u2013 28, 2025'. The central content is organized into a grid of six images arranged in two rows and three columns. The leftmost column contains two original color photographs of individuals with their hands on their faces. The middle column shows 3D mesh reconstructions of these same scenes, including the hands. The rightmost column presents the 3D mesh reconstructions of the faces with the hands digitally removed or inpainted. There are no bullet points or equations, resulting in a very light text density focused on visual qualitative results."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 850,
+    "gemini_layout_calls": 824,
+    "total_gemini_calls": 1674,
+    "total_frames_sampled": 240,
+    "batch_size": 15
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "extracted_content": "The IKEA Ego 3D dataset comprises 174 unique assembly sequences across four furniture types: LACK side table, LACK TV bench, KALLAX drawer, and BEKVAM stool. Data was captured using a Microsoft HoloLens 2, specifically utilizing the long-throw depth sensor (~5 FPS) and RGB camera (~30 FPS). To ensure data quality, a hologram was projected to guide participants to keep the assembly within the sensor's frustum. In post-processing, RGB and depth streams were synchronized and projected to generate oriented 3D point clouds containing spatial coordinates, color, and normal vectors $(x, y, z, R, G, B, N_x, N_y, N_z)$. The dataset contains 493,568 frames annotated with 56 atomic action classes. These actions are structured as hierarchical (verb, noun) pairs, involving 12 verb classes (e.g., align, attach, spin) and 22 noun classes (e.g., coffee table shelf, screw, leg). The dataset is split into 121 training and 53 testing sequences, further subdivided into 32-frame clips (10,689 training and 4,566 testing clips). Key challenges include significant class imbalance, ego-view camera motion, and the presence of fine-grained actions involving visually similar small components like different screw types.",
+    "key_figures": [
+        {
+            "ref": "Figure 2",
+            "caption": "IKEA Ego3D Furniture. The assemblies in the IKEA Ego3D dataset include the (a) LACK Side table, (b) LACK TV bench, (c) KALLAX Drawer, and BEKVAM (d) Stepping stool.",
+            "relevance": "Identifies the specific furniture items that define the scope of the assembly tasks in the dataset."
+        },
+        {
+            "ref": "Figure 3",
+            "caption": "IKEA Ego 3D Dataset actions. Visualizing the RGB image (top), 3D point cloud (middle), and action label (bottom) for the Drawer (a-d) and Stool (e-h) assemblies.",
+            "relevance": "Provides a visual representation of the synchronized multi-modal data and the fine-grained action labels like 'spin screwdriver' or 'attach side panel'."
+        },
+        {
+            "ref": "Figure 4",
+            "caption": "IKEA Ego 3D dataset action occurrence. A highly imbalanced dataset provides a challenge for learning-based algorithms. Note the y-axis is log scaled, therefore a small gap in this axis reflects a significant gap in proportions.",
+            "relevance": "Highlights the significant class imbalance within the 56 action classes, which is a major technical challenge for models trained on this data."
+        },
+        {
+            "ref": "Figure 5",
+            "caption": "Duration statistics. Sequence (a) and action (b) duration distributions in the IKEA Ego 3D dataset.",
+            "relevance": "Shows the distribution of sequence and action lengths, illustrating the temporal variety in the dataset."
+        }
+    ],
+    "key_tables": [],
+    "key_equations": [],
+    "section_refs": [
+        "Section 3.1",
+        "Section 3.2",
+        "Section 3.3",
+        "Section 3.4",
+        "Section 3.5"
+    ]
+}

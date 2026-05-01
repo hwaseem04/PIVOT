@@ -1,0 +1,351 @@
+{
+  "video_id": "Joint Optimization of Neural Radiance Fields and Continuous Camera Motion from a Monocular Video",
+  "duration": 297.13,
+  "fps_sampled": 1.0,
+  "total_slides": 16,
+  "slides_with_builds": 4,
+  "total_build_steps": 22,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 16.45,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Joint Optimization of Neural Radiance Fields and Continuous Camera Motion from a Monocular Video",
+        "layout_description": "The slide follows a classic title slide layout with a clean white background. At the top, three logos are horizontally aligned: the CVPR Nashville 2025 logo (featuring a blue guitar graphic) on the left, the Australian National University crest and wordmark in the center, and the NVIDIA logo on the right. The main title is positioned in the center of the slide, rendered in a large, bold, black sans-serif font across two lines. Directly below the title, the authors' names are listed in a single line with superscript numbers for affiliations. Underneath the authors, the corresponding affiliations ('Australian National University' and 'NVIDIA') are centered. Finally, the conference name and year, 'CVPR 2025', are placed at the bottom center. The overall text density is light, with generous white space focusing attention on the central title and author information."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "method",
+      "t_start": 16.45,
+      "t_end": 29.03,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 16.45,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "process flow layout",
+        "title_text": "Joint optimization of NeRF and camera poses from a monocular video",
+        "layout_description": "The slide features a clean, minimalist design on a plain white background. A large, black title is positioned at the top-left. The main content is organized horizontally to show a process flow from left to right. On the left, there is a photograph of a stone bench on a lawn, labeled below as 'Input: Monocular video'. A large blue arrow in the center points toward the right side of the slide. On the right, there is a 3D visualization showing a point cloud of the same bench surrounded by a ring of blue camera frustums, representing camera poses. Below this visualization is the text 'Output: Scene geometry and camera poses. The scene geometry is represented via NeRF.' The text density is light, focusing primarily on the visual representation of the input and output of the proposed system."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 29.03,
+      "t_end": 36.77,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 29.03,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "process flow layout",
+        "title_text": "Joint optimization of NeRF and camera poses from a monocular video",
+        "layout_description": "The slide uses a clean, white background with a large, left-aligned title at the top. The central content is a horizontal process flow diagram. On the left side, there is a photographic image of a park bench, captioned 'Input: Monocular video'. A thick blue arrow in the center points from this input image toward the right side of the slide. On the right, there is a 3D visualization showing a point cloud reconstruction of the bench surrounded by a circular path of blue wireframe camera frustums. This right-side element is captioned 'Output: Scene geometry and camera poses. The scene geometry is represented via NeRF.' The overall text density is light, emphasizing the visual representation of the system's input and output."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "method",
+      "t_start": 36.77,
+      "t_end": 43.54,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 36.77,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Related Works",
+        "layout_description": "The slide follows a two-column layout with a large, bold title 'Related Works' positioned at the top-left. The left column contains a hierarchical bulleted list with two levels of indentation. The first level introduces prior methods, while the second level specifies their optimization targets, with 'global scene geometry' and 'Camera-to-world' highlighted in red. A summary statement with a right-pointing arrow is placed below the list. The right column contains two stacked figures representing specific prior works. The top figure displays three diagrams (a, b, c) showing camera calibration processes, labeled 'SCNeRF (ICCV21)'. The bottom figure is a complex multi-part diagram showing 'Key Components', a 'Training Pipeline', and a detailed 'Legend' on the right, labeled 'NoPe-NeRF (CVPR2024)'. The slide uses a clean white background with a moderate text density, effectively balancing textual critique with visual examples of existing methodologies."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "method",
+      "t_start": 43.54,
+      "t_end": 89.99,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 43.54,
+          "image": "slide_5_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 62.9,
+          "image": "slide_5_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 83.22,
+          "image": "slide_5_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Related Works",
+        "layout_description": "The slide uses a two-column layout with a large, black title 'Related Works' positioned at the top-left. The left column is dedicated to text, featuring hierarchical bullet points that contrast prior methods with the current work's contributions. Specific technical terms are emphasized using red and green text. A right-pointing arrow highlights a limitation of previous work. The right column contains two distinct visual blocks. The upper block shows three diagrams labeled (a), (b), and (c) under the heading 'SCNeRF (ICCV21)', illustrating camera calibration. The lower, larger block is labeled 'NoPe-NeRF (CVPR2024)' and includes a 'Key Components' section with 3D point clouds and images, a 'Training Pipeline' flowchart with color-coded arrows, and a detailed 'Legend' box on the right side. The slide has a moderate text density and a clean white background."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 89.99,
+      "t_end": 101.6,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 89.99,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Method",
+        "layout_description": "The slide uses a clean two-column layout on a plain white background. A large, black title 'Method' is located at the top-left. The left column contains a brief hierarchical bulleted list with two levels of indentation, describing the 'Time-dependent NeRF' and its functions. The right column features a conceptual diagram illustrating the method. This diagram consists of a central horizontal yellow bar labeled 'Time-dependent NeRF'. Below the bar, a dotted line representing a trajectory has several black dots labeled with time markers like t1, t2, and t3. Arrows point from these points up to the bar, accompanied by the mathematical notation (x, t). Above the bar, three corresponding arrows point to small thumbnail images of a 3D scene, each labeled with the notation (s, c). The slide has a light text density, prioritizing visual representation of the proposed architecture."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 101.6,
+      "t_end": 149.02,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 101.6,
+          "image": "slide_7_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 115.15,
+          "image": "slide_7_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Method",
+        "layout_description": "The slide uses a two-column layout on a clean white background. The title 'Method' is placed at the top-left in a large, black, sans-serif font. The left column contains two main hierarchical bulleted lists. The first list, titled 'Time-dependent NeRF:', includes two sub-bullets describing its function in representing local scenes and estimating camera motion. The second list, titled 'Continous camera motion modelling:', includes two sub-bullets about representing motion as angular and linear velocity to avoid direct optimization of large motions. The right column features a complex architectural diagram. This diagram consists of three thumbnail images at the top, followed by a light yellow rectangular block labeled 'Time-dependent NeRF'. Below this is a dotted trajectory line with black nodes, which connects via arrows to a light blue rectangular block labeled 'Motion network'. At the very bottom, another dotted line represents camera poses with mathematical notations for angular and linear velocity (e.g., w_t, v_t). Arrows indicate the flow of data between these components, with labels like (s, c) and (x, t) representing specific variables. The text density is moderate, balancing descriptive points with a visual representation of the proposed system architecture."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 149.02,
+      "t_end": 159.66,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 149.02,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Training Pipeline",
+        "layout_description": "The slide uses a two-column layout on a plain white background. A large, black title 'Training Pipeline' is positioned at the top-left. The left column contains a small block of text with hierarchical bullet points under the heading 'Early training:', outlining the goals and optimization strategy. The right column features a complex, multi-colored flowchart diagram that illustrates the data flow and loss functions of the training process. The diagram starts at the top with a yellow 'Time-dependent NeRF' block and at the bottom with a blue 'Motion network' block. Between these, various components are connected by colored arrows (yellow, purple, blue, and red). The diagram includes four small thumbnail images showing depth maps, rendered colors, warped images, and ground-truth colors. Several mathematical symbols for loss functions, such as L_rgb, L_p, L_sdf, and L_flow, are placed next to red double-headed arrows to indicate optimization targets. The overall text density is moderate, with the diagram being the primary focus."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 159.66,
+      "t_end": 242.88,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 159.66,
+          "image": "slide_9_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 180.95,
+          "image": "slide_9_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 231.26,
+          "image": "slide_9_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Training Pipeline",
+        "layout_description": "The slide uses a two-column layout on a clean white background. A large, black title 'Training Pipeline' is located at the top-left. The left column consists of hierarchical bullet points with two levels of indentation, detailing the 'Early training' and 'Later training' phases, followed by a final note that the system is 'End-to-end trainable'. The right column contains a complex technical flowchart illustrating the data flow and loss functions. At the top of the diagram, a yellow box represents the 'Time-dependent NeRF' model, which branches into 'Surface points', 'Rendered colors', and 'Predicted signed distance'. Below these, small thumbnail images show rendered scenes and depth maps. At the bottom, a blue box for the 'Motion network' processes timesteps to produce camera poses (green boxes) and motion vectors. Red double-headed arrows labeled with mathematical loss symbols (e.g., L_rgb, L_p, L_sdf, L_flow) connect various nodes to indicate optimization objectives. The diagram uses a consistent color-coding scheme: yellow for the NeRF model, green for pose-related elements, and blue for the motion network."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "results",
+      "t_start": 242.88,
+      "t_end": 246.75,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 242.88,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Results",
+        "layout_description": "The slide features a minimalist layout with a large, plain-text title 'Results' located at the top-left. The primary content is a large, detailed table that spans the width of the slide, centered vertically below the title. The table is organized into two main horizontal sections corresponding to the datasets 'Scannet' and 'Co3D', labeled on the left. Vertically, the table is divided into three major evaluation categories: 'Novel-View Synthesis', 'Depth Estimation', and 'Pose Estimation', each containing several sub-metrics such as PSNR, SSIM, LPIPS, AbRel, SqRel, delta_1, RPE_t, RPE_r, and ATE. Four methods\u2014NeRFmm, NoPe-NeRF, CF3DGS, and 'Ours'\u2014are listed in the first column for comparison. Performance indicators like arrows (up for higher is better, down for lower is better) are included in the headers. Within the data cells, the best results are highlighted in bold and the second-best are underlined. The slide uses a simple black-on-white color scheme with moderate text density focused on quantitative data."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "results",
+      "t_start": 246.75,
+      "t_end": 258.36,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 246.75,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Results",
+        "layout_description": "The slide follows a clean, minimalist layout featuring a large, plain-text title 'Results' at the top-left. The main body of the slide is occupied by a single, wide table that presents quantitative performance metrics. This table is organized into two primary sections based on datasets: 'Scannet' and 'Co3D', listed vertically on the left. For each dataset, four methods are compared: 'NeRFmm', 'NoPe-NeRF', 'CF3DGS', and 'Ours'. The table headers are divided into three main evaluation categories: 'Novel-View Synthesis' (with PSNR, SSIM, and LPIPS metrics), 'Depth Estimation' (with AbRel, SqRel, and delta_1 metrics), and 'Pose Estimation' (with RPE_t, RPE_r, and ATE metrics). Arrows next to metric names indicate whether higher or lower values are better. Within the table, the best results are highlighted in bold, and the second-best results are underlined. The overall design uses a white background with black text and horizontal lines to separate table sections, resulting in a moderate to high text density focused entirely on data comparison."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "results",
+      "t_start": 258.36,
+      "t_end": 261.26,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 258.36,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid comparison layout",
+        "title_text": "Ground-truth Ours NeRFmm [31] NoPe-NeRF [2] CF3DGS [6]",
+        "layout_description": "The slide uses a grid layout to provide a qualitative comparison between five different approaches, with column headers at the top: 'Ground-truth', 'Ours', 'NeRFmm [31]', 'NoPe-NeRF [2]', and 'CF3DGS [6]'. The content is divided into four rows of images. The first two rows show two distinct scenes (a fire hydrant and a panda toy), where each method's output is presented as a pair of images: an RGB render and a corresponding depth map visualized as a heat map. Red bounding boxes are used to highlight specific details in the RGB images. A horizontal dashed line separates the top two rows from the bottom two. The bottom section focuses on a third scene (an office printer), where the third row displays RGB images with zoomed-in insets in the top-right corners, and the fourth row shows the corresponding full-sized depth maps. The background is plain white, and the text density is light, consisting only of the column labels and citations."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "results",
+      "t_start": 261.26,
+      "t_end": 268.03,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 261.26,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison grid layout",
+        "title_text": "Ground-truth Ours NeRFmm [31] NoPe-NeRF [2] CF3DGS [6]",
+        "layout_description": "The slide uses a five-column grid layout to qualitatively compare different computer vision methods. The columns are labeled at the top with 'Ground-truth', 'Ours', and three baseline methods: 'NeRFmm [31]', 'NoPe-NeRF [2]', and 'CF3DGS [6]'. The content is organized into three main horizontal rows, each representing a different scene (a fire hydrant, a panda toy, and an office copier). Within each scene row, there are two sub-rows: the top sub-row displays rendered RGB images, and the bottom sub-row displays corresponding depth maps visualized with a purple-to-yellow color gradient. Red bounding boxes are used across the RGB images to highlight specific areas for detailed comparison. In the bottom-most scene (the copier), zoomed-in insets are provided in the top-right corner of each RGB image to further emphasize reconstruction quality. A dashed horizontal line separates the top two scene examples from the bottom one. The text density is light, consisting only of column headers and reference numbers."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "results",
+      "t_start": 268.03,
+      "t_end": 275.78,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 268.03,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison grid layout",
+        "title_text": "Learned poses, rendered images and rendered depth maps for the train set",
+        "layout_description": "The slide uses a structured grid layout to compare four different approaches across three types of data. A centered title at the top is separated from the content by a horizontal dashed line. Below this, four columns are clearly labeled: 'Ground-truth', 'Ours', 'NoPe-NeRF', and 'CF3DGS'. The content is organized into three distinct rows. The top row displays rendered RGB images of a stone bench. The middle row shows corresponding depth maps for each method, using a heatmap color scale where lighter colors represent closer objects. The bottom row features 3D coordinate grid plots showing camera trajectories, with legends in each plot comparing the 'Ground-truth' (solid blue line) to the method's 'Ours', 'NoPe-NeRF', or 'CF3DGS' (dashed red line). The background is plain white, and the text density is light, prioritizing visual qualitative analysis."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "results",
+      "t_start": 275.78,
+      "t_end": 292.23,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 275.78,
+          "image": "slide_15_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 284.48,
+          "image": "slide_15_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison grid layout",
+        "title_text": "Learned poses, rendered images and rendered depth maps for the train set",
+        "layout_description": "The slide uses a structured grid layout to compare four different methods across three types of visual data. A centered title at the top is underlined by a horizontal dashed line. Below this, the content is organized into four columns, each labeled with a method name: 'Ground-truth', 'Ours', 'NoPe-NeRF', and 'CF3DGS'. The first row displays rendered RGB images of a fingerboard on a wooden surface. The second row shows corresponding rendered depth maps, utilizing a heat-map color scale (dark purple to bright yellow). The third row contains 3D coordinate grids that plot camera trajectories; each grid includes a small legend at its top right, comparing the 'Ground-truth' (solid blue line) with the method's predicted poses (dashed red line). The background is white, and the text density is light, prioritizing qualitative visual comparison."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "other",
+      "t_start": 292.23,
+      "t_end": 297.13,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 292.23,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Thanks for watching",
+        "layout_description": "The slide uses a minimalist two-column layout on a plain white background. A large, centered title 'Thanks for watching' is positioned at the top. The main content area below the title is split: the left side contains three lines of left-aligned text providing session details ('Morning session, Saturday June 14') and a poster number ('Poster #79'), while the right side features a large QR code. Below the QR code, there is a small centered caption that reads 'Github page'. The text density is light, and the slide serves as a concluding call-to-action for conference attendees."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 871,
+    "gemini_layout_calls": 840,
+    "total_gemini_calls": 1711,
+    "total_frames_sampled": 308,
+    "batch_size": 15
+  }
+}

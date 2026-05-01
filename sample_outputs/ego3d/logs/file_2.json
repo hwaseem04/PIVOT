@@ -1,0 +1,128 @@
+{
+    "scene_id": 2,
+    "title": "IKEA Ego 3D Dataset Overview",
+    "summary": "Introduces the IKEA Ego 3D dataset, featuring 174 assembly sequences and approximately 493k frames of humans performing intricate furniture assembly actions captured from an ego-view.",
+    "paper_section": "3. The IKEA Ego3D dataset",
+    "narrative_role": "method",
+    "duration_stat": {
+        "min": 7.0,
+        "max": 12.0,
+        "avg": 9.0
+    },
+    "extracted_content": "The IKEA Ego 3D dataset comprises 174 unique assembly sequences across four furniture types: LACK side table, LACK TV bench, KALLAX drawer, and BEKVAM stool. Data was captured using a Microsoft HoloLens 2, specifically utilizing the long-throw depth sensor (~5 FPS) and RGB camera (~30 FPS). To ensure data quality, a hologram was projected to guide participants to keep the assembly within the sensor's frustum. In post-processing, RGB and depth streams were synchronized and projected to generate oriented 3D point clouds containing spatial coordinates, color, and normal vectors $(x, y, z, R, G, B, N_x, N_y, N_z)$. The dataset contains 493,568 frames annotated with 56 atomic action classes. These actions are structured as hierarchical (verb, noun) pairs, involving 12 verb classes (e.g., align, attach, spin) and 22 noun classes (e.g., coffee table shelf, screw, leg). The dataset is split into 121 training and 53 testing sequences, further subdivided into 32-frame clips (10,689 training and 4,566 testing clips). Key challenges include significant class imbalance, ego-view camera motion, and the presence of fine-grained actions involving visually similar small components like different screw types.",
+    "layout": {
+        "template": "two_col_fig_left",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.9,
+                "h": 0.1
+            },
+            "figure": {
+                "x": 0.05,
+                "y": 0.2,
+                "w": 0.45,
+                "h": 0.7
+            },
+            "bullets": {
+                "x": 0.55,
+                "y": 0.2,
+                "w": 0.4,
+                "h": 0.7
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "IKEA Ego 3D Dataset Overview",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 3",
+            "caption": "Visualization of synchronized RGB, 3D point clouds, and action labels for assembly tasks."
+        },
+        "bullets": [
+            "174 sequences and ~493k frames across four furniture types",
+            "Synchronized RGB and oriented 3D point clouds from HoloLens 2",
+            "56 atomic action classes using a hierarchical (verb, noun) structure",
+            "Focuses on fine-grained interactions with small assembly components"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "The IKEA Ego 3D dataset provides a comprehensive look at furniture assembly from an ego-view perspective.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.84,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "It contains 174 assembly sequences and nearly 500,000 frames captured via HoloLens 2 across four furniture types.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 7.68,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "The dataset synchronizes RGB and depth streams into oriented 3D point clouds, providing a rich multi-modal representation.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 11.52,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "Data is annotated with 56 hierarchical action classes, using a verb-noun structure to categorize assembly steps.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 15.36,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "This detailed structure enables the recognition of fine-grained tasks involving small components like screws and tools.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 19.2,
+    "source": [
+        "Figure 3",
+        "Section 3.1",
+        "Section 3.2",
+        "Section 3.3"
+    ],
+    "audio_content": "The IKEA Ego 3D dataset contains 174 assembly sequences and nearly 500,000 frames captured via HoloLens 2. It synchronizes RGB and depth into oriented 3D point clouds, annotated with 56 hierarchical action classes. This structure enables the recognition of fine-grained tasks involving small components like screws and tools.",
+    "prompt": "A slide showing a multi-modal dataset visualization on the left, featuring side-by-side comparisons of RGB video frames, their corresponding 3D point clouds, and the associated action labels like 'spin screwdriver' or 'attach side panel'. On the right, bullet points detail the dataset's scale, the use of HoloLens 2 for capture, and the hierarchical verb-noun annotation structure."
+}

@@ -1,0 +1,26 @@
+{
+    "layout_template": "two_col_fig_right",
+    "background_color": "#FFFFFF",
+    "layout_regions": {
+        "title": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.9,
+            "h": 0.1
+        },
+        "bullets": {
+            "x": 0.05,
+            "y": 0.2,
+            "w": 0.4,
+            "h": 0.7
+        },
+        "figure": {
+            "x": 0.5,
+            "y": 0.2,
+            "w": 0.45,
+            "h": 0.7
+        }
+    },
+    "has_figure": true,
+    "style_rationale": "A two-column layout with bullets on the left and a figure on the right is a classic motivational structure. The bullets outline the need for 3D ego-view data (RGB degradation, safety), while Figure 1 provides visual context of the head-mounted capture process and the resulting data streams."
+}

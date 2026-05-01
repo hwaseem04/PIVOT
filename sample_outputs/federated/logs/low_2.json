@@ -1,0 +1,21 @@
+{
+    "title": "The BlindFed Framework",
+    "audio_content": "BlindFed redesigns models with FHE-friendly polynomial approximations, enabling encrypted inference. It uses two-stage split learning to train local adapters without backpropagation through the backbone. Finally, privacy-boosting schemes like stochastic block sampling protect the model from extraction attacks while maintaining adaptation performance.",
+    "duration_sec": 16.4,
+    "bullets": [
+        "Redesigns models with FHE-friendly polynomial approximations for non-linear layers",
+        "Uses two-stage split learning to train adapters via encrypted inference",
+        "Mitigates model extraction attacks through Stochastic Block Sampling (SBS)"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 2",
+        "caption": "Overview of the BlindFed framework: architecture redesign, offline distillation, and online adaptation."
+    },
+    "source": [
+        "Section 4",
+        "Figure 2",
+        "Section 4.3.2"
+    ],
+    "prompt": "A wide horizontal diagram showing the three-stage workflow of BlindFed: starting with the original FM, moving to FHE-friendly redesign, then offline distillation on the server, and finally online adaptation with encrypted communication between server and client."
+}

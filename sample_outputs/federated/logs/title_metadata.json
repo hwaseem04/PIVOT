@@ -1,0 +1,26 @@
+{
+    "paper_title": "A Framework for Double-Blind Federated Adaptation of Foundation Models",
+    "authors": [
+        {
+            "name": "Nurbek Tastan",
+            "affiliation_id": 1
+        },
+        {
+            "name": "Karthik Nandakumar",
+            "affiliation_id": 2
+        }
+    ],
+    "affiliations": [
+        {
+            "id": 1,
+            "name": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), UAE",
+            "email_domain": "mbzuai.ac.ae"
+        },
+        {
+            "id": 2,
+            "name": "Michigan State University (MSU), USA",
+            "email_domain": "msu.edu"
+        }
+    ],
+    "venue": ""
+}

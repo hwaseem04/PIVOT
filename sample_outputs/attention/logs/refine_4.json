@@ -1,0 +1,79 @@
+{
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "Position-wise Feed-Forward Networks",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 1",
+            "caption": "The Transformer architecture highlighting the Feed Forward sub-layers."
+        },
+        "equations": [
+            "Eq. 2: \\mathrm{FFN}(x) = \\max(0, xW_1 + b_1)W_2 + b_2"
+        ],
+        "bullets": [
+            "Applied to each position independently and identically",
+            "Two linear transformations with a ReLU activation",
+            "Inner-layer dimensionality expands to 2048"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                },
+                {
+                    "type": "show",
+                    "target": "equation"
+                }
+            ],
+            "audio_segment": "Each layer includes a position-wise feed-forward network.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 2.6,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "It is applied to every position independently and identically,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 5.2,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "using two linear transformations with a ReLU activation,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 7.8,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "expanding the inner dimensionality to 2048.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 10.4
+}

@@ -1,0 +1,56 @@
+{
+    "scene_id": 0,
+    "title": "A Framework for Double-Blind Federated Adaptation of Foundation Models",
+    "summary": "Title page for: A Framework for Double-Blind Federated Adaptation of Foundation Models",
+    "paper_section": "Title",
+    "narrative_role": "title",
+    "time_allocation_sec": 5,
+    "style": "Slides",
+    "layout": {
+        "template": "title_page",
+        "background_color": "#F8F9FA",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.2,
+                "w": 0.9,
+                "h": 0.3
+            },
+            "authors": {
+                "x": 0.1,
+                "y": 0.55,
+                "w": 0.8,
+                "h": 0.1
+            },
+            "affiliations": {
+                "x": 0.1,
+                "y": 0.68,
+                "w": 0.8,
+                "h": 0.15
+            }
+        }
+    },
+    "elements": {
+        "title": "A Framework for Double-Blind Federated Adaptation of Foundation Models",
+        "authors": "Nurbek Tastan\u00b9, Karthik Nandakumar\u00b2",
+        "affiliations": "\u00b9Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), UAE  \u00b2Michigan State University (MSU), USA",
+        "venue": ""
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "all"
+                }
+            ],
+            "audio_segment": "This paper, titled A Framework for Double-Blind Federated Adaptation of Foundation Models, is by Nurbek Tastan and colleagues."
+        }
+    ],
+    "expected_build_steps": 1,
+    "time_cost": "5",
+    "audio_content": "This paper, titled A Framework for Double-Blind Federated Adaptation of Foundation Models, is by Nurbek Tastan and colleagues.",
+    "prompt": "Title page showing paper title, authors, and logos for: A Framework for Double-Blind Federated Adaptation of Foundation Models"
+}

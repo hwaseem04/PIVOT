@@ -1,0 +1,71 @@
+{
+    "version": 1,
+    "layout_type": "two-column layout: figure left, bullets and equations right",
+    "layout_tags": [
+        "two_col",
+        "figure_left",
+        "method",
+        "equations"
+    ],
+    "layout_signature": "T|F-B",
+    "background_color": "#FFFFFF",
+    "elements": [
+        {
+            "id": "title",
+            "type": "T",
+            "content_ref": "elements.title",
+            "box": {
+                "tl": "B01",
+                "br": "U03"
+            },
+            "style": {
+                "font_size": 40,
+                "bold": true,
+                "align": "left"
+            }
+        },
+        {
+            "id": "figure",
+            "type": "F",
+            "content_ref": "elements.figure",
+            "box": {
+                "tl": "B04",
+                "br": "L19"
+            },
+            "constraints": {
+                "keep_aspect": true
+            }
+        },
+        {
+            "id": "bullets",
+            "type": "B",
+            "content_ref": "elements.bullets",
+            "box": {
+                "tl": "M04",
+                "br": "T11"
+            },
+            "style": {
+                "font_size": 22,
+                "min_font_size": 16
+            }
+        },
+        {
+            "id": "equations",
+            "type": "EQ",
+            "content_ref": "elements.equations",
+            "box": {
+                "tl": "M12",
+                "br": "T19"
+            },
+            "style": {
+                "font_size": 20,
+                "align": "center"
+            }
+        }
+    ],
+    "global_constraints": {
+        "no_overlap": true,
+        "no_overflow": true,
+        "min_font_size": 14
+    }
+}

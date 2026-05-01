@@ -1,0 +1,205 @@
+{
+    "scene_id": 1,
+    "title": "The Shift from Recurrence to Attention",
+    "summary": "The paper introduces the Transformer, a model architecture that departs from traditional recurrent and convolutional neural networks. It addresses the fundamental constraint of sequential computation in RNNs, which limits parallelization, by relying entirely on attention mechanisms to draw global dependencies between input and output.",
+    "paper_section": "Introduction",
+    "narrative_role": "introduction",
+    "asset_video": null,
+    "duration_stat": {
+        "min": 8.0,
+        "max": 12.0,
+        "avg": 10.0
+    },
+    "extracted_content": "Traditional sequence transduction models, such as RNNs, LSTMs, and gated recurrent neural networks, are fundamentally constrained by sequential computation. They process sequences step-by-step, which prevents parallelization within training examples and becomes a major bottleneck for long sequences. The Transformer is introduced as a novel architecture that eschews recurrence and convolutions entirely, relying instead on attention mechanisms to draw global dependencies between input and output. This design allows for significantly more parallelization during training. Empirical results show that the Transformer achieves superior quality; for example, it reached a state-of-the-art 28.4 BLEU on the WMT 2014 English-to-German translation task and 41.8 BLEU on the English-to-French task. Furthermore, the base model can be trained in as little as twelve hours on eight P100 GPUs, a fraction of the time required by previous leading models.",
+    "layout": {
+        "template": "two-column layout: architecture diagram left, bullets right",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.95,
+                "h": 0.1
+            },
+            "subtitle": {
+                "x": 0.05,
+                "y": 0.15,
+                "w": 0.95,
+                "h": 0.05
+            },
+            "architecture_diagram": {
+                "x": 0.05,
+                "y": 0.25,
+                "w": 0.55,
+                "h": 0.7
+            },
+            "key_points": {
+                "x": 0.65,
+                "y": 0.25,
+                "w": 0.3,
+                "h": 0.7
+            }
+        },
+        "spec": {
+            "version": 1,
+            "layout_type": "two-column layout: architecture diagram left, bullets right",
+            "layout_tags": [
+                "introduction",
+                "two_col",
+                "architecture",
+                "comparison"
+            ],
+            "layout_signature": "T|ST|D-B",
+            "background_color": "#FFFFFF",
+            "elements": [
+                {
+                    "id": "title",
+                    "type": "T",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.05,
+                        "w": 0.95,
+                        "h": 0.1
+                    },
+                    "content_ref": "elements.title",
+                    "style": {
+                        "font_size": 40,
+                        "bold": true,
+                        "align": "left"
+                    }
+                },
+                {
+                    "id": "subtitle",
+                    "type": "ST",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.15,
+                        "w": 0.95,
+                        "h": 0.05
+                    },
+                    "content_ref": "elements.subtitle",
+                    "style": {
+                        "font_size": 28,
+                        "italic": true,
+                        "align": "left"
+                    }
+                },
+                {
+                    "id": "architecture_diagram",
+                    "type": "D",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.25,
+                        "w": 0.55,
+                        "h": 0.7
+                    },
+                    "content_ref": "elements.figure",
+                    "constraints": {
+                        "keep_aspect": true
+                    }
+                },
+                {
+                    "id": "key_points",
+                    "type": "B",
+                    "box": {
+                        "x": 0.65,
+                        "y": 0.25,
+                        "w": 0.3,
+                        "h": 0.7
+                    },
+                    "content_ref": "elements.bullets",
+                    "style": {
+                        "font_size": 24,
+                        "min_font_size": 16
+                    }
+                }
+            ],
+            "global_constraints": {
+                "no_overlap": true,
+                "no_overflow": true,
+                "min_font_size": 14
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "The Shift from Recurrence to Attention",
+        "subtitle": "Replacing Recurrence with Attention Mechanisms",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 1",
+            "caption": "The Transformer model architecture"
+        },
+        "bullets": [
+            "RNNs are limited by sequential computation bottlenecks.",
+            "Transformers rely entirely on attention for global dependencies.",
+            "Architecture enables massive parallelization and faster training."
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "subtitle"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "Traditional RNNs are limited by sequential computation.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.1,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "RNNs are limited by sequential computation bottlenecks.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 6.2,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "The Transformer replaces recurrence with attention, enabling massive parallelization. Transformers rely entirely on attention for global dependencies.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 9.3,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "This architecture achieves state-of-the-art translation quality while training in a fraction of the time. Architecture enables massive parallelization and faster training.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 12.4,
+    "source": [
+        "Figure 1",
+        "Section 1"
+    ],
+    "audio_content": "Traditional RNNs are limited by sequential computation. The Transformer replaces recurrence with attention, enabling massive parallelization. This architecture achieves state-of-the-art translation quality while training in a fraction of the time.",
+    "prompt": "A slide showing the Transformer architecture diagram on the left and key points about the shift from recurrence to attention on the right."
+}

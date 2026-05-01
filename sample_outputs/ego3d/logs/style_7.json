@@ -1,0 +1,26 @@
+{
+    "layout_template": "two_col_fig_left",
+    "background_color": "#FFFFFF",
+    "layout_regions": {
+        "title": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.9,
+            "h": 0.1
+        },
+        "figure": {
+            "x": 0.05,
+            "y": 0.2,
+            "w": 0.5,
+            "h": 0.7
+        },
+        "bullets": {
+            "x": 0.6,
+            "y": 0.2,
+            "w": 0.35,
+            "h": 0.7
+        }
+    },
+    "has_figure": true,
+    "style_rationale": "A two-column layout is chosen to present the quantitative benchmark results (Table 2) on the left, allowing the viewer to see the data while reading the key analytical takeaways on the right. This follows the 'results' section style of providing a clear data-to-interpretation mapping."
+}

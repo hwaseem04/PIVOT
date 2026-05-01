@@ -1,0 +1,127 @@
+{
+    "scene_id": 1,
+    "title": "Challenges in Foundation Model Adaptation",
+    "summary": "Adapting Foundation Models (FMs) for downstream tasks faces two major hurdles: data owners cannot share sensitive data due to privacy regulations, and service providers cannot share proprietary FMs due to intellectual property restrictions.",
+    "paper_section": "Introduction",
+    "narrative_role": "introduction",
+    "asset_video": null,
+    "duration_stat": {
+        "min": 8.0,
+        "max": 12.0,
+        "avg": 10.0
+    },
+    "extracted_content": "Foundation models (FMs) like GPT, CLIP, and ViT demonstrate exceptional zero-shot performance but often require task-specific adaptation for challenging out-of-domain tasks such as medical or satellite imagery. This adaptation process faces two primary hurdles: first, data owners (clients) are restricted by privacy regulations from sharing sensitive datasets with the Learning Service Provider (LSP) or other clients. Second, the LSP must protect the intellectual property of its proprietary FM, preventing it from being shared with clients. These conflicting requirements necessitate a 'double-blind' privacy approach where the LSP never sees the task data and clients never access the FM. Furthermore, traditional adaptation techniques like full fine-tuning or standard adapters (e.g., LoRA) are often impractical because they require computationally expensive backpropagation through the massive FM backbone, which is infeasible when the model is kept private by the server.",
+    "layout": {
+        "template": "two_col_fig_right",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.9,
+                "h": 0.1
+            },
+            "bullets": {
+                "x": 0.05,
+                "y": 0.2,
+                "w": 0.4,
+                "h": 0.7
+            },
+            "figure": {
+                "x": 0.5,
+                "y": 0.2,
+                "w": 0.45,
+                "h": 0.7
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "Adapting Foundation Models: The Privacy Paradox",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 1",
+            "caption": "Conceptual illustration of the double-blind adaptation challenge."
+        },
+        "bullets": [
+            "FMs require task-specific adaptation for specialized domains",
+            "Data owners must protect sensitive datasets from exposure",
+            "Service providers must safeguard proprietary model weights",
+            "Traditional fine-tuning is infeasible under 'double-blind' constraints"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "Adapting foundation models for specialized tasks",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 2.56,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "creates a privacy paradox.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 5.12,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "Data owners cannot share sensitive data,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 7.68,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "while providers must protect proprietary models.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 10.24,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "This 'double-blind' challenge makes traditional adaptation techniques practically infeasible.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 12.8,
+    "source": [
+        "Figure 1",
+        "Section 1"
+    ],
+    "audio_content": "Adapting foundation models for specialized tasks creates a privacy paradox. Data owners cannot share sensitive data, while providers must protect proprietary models. This 'double-blind' challenge makes traditional adaptation techniques practically infeasible.",
+    "prompt": "A slide showing the challenges of foundation model adaptation. On the left, bullet points describe the conflict between data privacy and model intellectual property. On the right, a conceptual diagram shows a server with a foundation model separated from multiple clients with private datasets."
+}

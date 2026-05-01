@@ -1,0 +1,90 @@
+{
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "Visualizing Attention and Final Conclusions",
+        "subtitle": "Interpreting how the Transformer understands language",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 4",
+            "caption": "Attention heads involved in anaphora resolution"
+        },
+        "bullets": [
+            "Heads learn specific syntactic and semantic tasks.",
+            "Resolves anaphora and captures long-distance dependencies.",
+            "First model relying entirely on self-attention.",
+            "Enables massive parallelization and faster training."
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "subtitle"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "Attention heads learn specific tasks like anaphora resolution and long-distance dependencies.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.04,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "Heads learn specific syntactic and semantic tasks.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 6.08,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "They resolve anaphora and capture long-distance dependencies.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 9.12,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "The Transformer is the first model to replace recurrence with self-attention.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 12.16,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "This enables massive parallelization and faster training, while achieving superior quality and generalizing to other modalities like images and audio.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 15.2
+}

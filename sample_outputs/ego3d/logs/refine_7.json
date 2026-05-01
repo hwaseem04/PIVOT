@@ -1,0 +1,85 @@
+{
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "Performance Analysis & Temporal Smoothing",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Table 2",
+            "caption": "Action recognition results comparing state-of-the-art methods on the IKEA Ego 3D dataset."
+        },
+        "bullets": [
+            "Temporal smoothing (+TS) significantly boosts performance across all architectures",
+            "PointNet++ with smoothing achieves the highest top-1 accuracy",
+            "PSTNet outperforms 3DinAction on ego-view sensor motion challenges",
+            "Results suggest a need for improved global representations in dynamic 3D scenes"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "Benchmark results show that",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.12,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "temporal smoothing significantly boosts performance,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 6.24,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "with PointNet plus plus emerging as a surprisingly strong baseline.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 9.36,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "While PSTNet performs well, 3DinAction struggles with the head motion inherent in ego-view data.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 12.48,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "This highlights the need for models that better handle dynamic, ego-centric perspectives.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 15.6
+}

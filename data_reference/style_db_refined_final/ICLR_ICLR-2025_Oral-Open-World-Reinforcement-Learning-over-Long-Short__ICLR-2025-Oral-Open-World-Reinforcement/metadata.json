@@ -1,0 +1,626 @@
+{
+  "video_id": "ICLR_ICLR-2025_Oral-Open-World-Reinforcement-Learning-over-Long-Short__ICLR-2025-Oral-Open-World-Reinforcement",
+  "duration": 299.13,
+  "fps_sampled": 1.0,
+  "total_slides": 26,
+  "slides_with_builds": 5,
+  "total_build_steps": 49,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 4.8,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Open-World Reinforcement Learning over Long Short-Term Imagination",
+        "layout_description": "This is a title slide with a clean, white background. At the very top, there is a horizontal row of logos and affiliations, including 'ICLR Oral' on the far left, followed by Shanghai Jiao Tong University, EIAS (Eastern Institute for Advanced Study), and East China Normal University. The main title is centered in the middle of the slide, written in a large, bold, dark red font across two lines. To the left of the first line of the title, there is a small pixelated Minecraft character icon. Below the title, the names of eight authors are listed in a smaller black font, centered. Further down, a small note clarifies author contributions with symbols. In the bottom right corner, there is a large QR code with a small dinosaur icon at its center. The overall text density is light, focusing on the title and authorship information."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 4.8,
+      "t_end": 14.39,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 4.8,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and image grid",
+        "title_text": "Motivation",
+        "layout_description": "The slide follows a clean, structured layout with a white background and red accents. The main title 'Motivation' is positioned at the top-left in a large, bold red font, separated from the content by a thin horizontal line. Below this, a sub-heading 'Open-World RL Challenges' appears in bold black. The upper half of the slide contains three bullet points with red markers, where specific technical terms like 'vast state spaces', 'highly flexible', and 'uncertainty' are highlighted in red text for emphasis. The lower half of the slide features a 2x4 grid of eight Minecraft screenshots, showcasing diverse in-game environments and first-person perspectives. A solid red footer bar spans the bottom of the slide, displaying 'ICLR 2025 Oral' on the left, the paper title 'Open-World Reinforcement Learning over Long Short-Term Imagination' in the center, and the page number '2' on the right."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 14.39,
+      "t_end": 26.86,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 14.39,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and image grid",
+        "title_text": "Motivation",
+        "layout_description": "The slide follows a top-down structure starting with a large, dark red title 'Motivation' at the top-left, separated from the content by a thin horizontal line. Below the title, a bold sub-heading 'Open-World RL Challenges' introduces three bullet points. These bullets use red markers and highlight key technical terms in red text, such as 'vast state spaces', 'highly flexible', and 'uncertainty'. The bottom half of the slide is occupied by a 2x4 grid of eight Minecraft screenshots, showcasing diverse in-game scenarios like desert biomes, boss fights, farming, and lava pools. A solid red footer bar runs across the bottom, displaying 'ICLR 2025 Oral' on the left, the full paper title 'Open-World Reinforcement Learning over Long Short-Term Imagination' in the center, and the page number '2' on the right. The layout is clean with moderate text density, using visual examples to ground the theoretical challenges listed."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 26.86,
+      "t_end": 28.78,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 26.86,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "Motivation",
+        "layout_description": "The slide follows a clean, structured layout with a large bold red title 'Motivation' at the top-left, separated from the content by a thin horizontal line. Below the title is a sub-heading 'Limitations of Existing Methods' in bold black. The main body contains three bullet points marked with red dots, where key terms and limitations are highlighted in red text for emphasis. Below the text, a large comparison figure is centered, consisting of two rows of images labeled 'True' and 'Model'. The figure is divided into two sections: 'Context Input' (first two columns) and 'Open Loop Prediction' (remaining ten columns), showing a sequence of Minecraft-like environment frames. At the bottom left, three numbered academic references are listed in a small font. A solid red footer bar spans the bottom of the slide, displaying 'ICLR 2025 Oral' on the left, the presentation title in the center, and the slide number '3' on the right."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "introduction",
+      "t_start": 28.78,
+      "t_end": 56.6,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 28.78,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "Motivation",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold, dark red title 'Motivation' at the top-left, followed by a thin horizontal separator line. Below the line is a sub-heading 'Limitations of Existing Methods' in bold black. The central content consists of three red bullet points that describe the shortcomings of current research methods, with specific keywords highlighted in dark red for emphasis. Beneath the text is a large visual comparison figure showing two rows of image sequences from a Minecraft-like environment. The top row is labeled 'True' and the bottom 'Model', with the sequence divided into 'Context Input' and 'Open Loop Prediction' sections. Three small-font bibliographic references are listed at the bottom left. The slide is anchored by a dark red footer bar containing 'ICLR 2025 Oral' on the left, the full presentation title in the center, and the page number '3' on the right."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 56.6,
+      "t_end": 57.56,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 56.6,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with figure and bullets",
+        "title_text": "Long Short-Term Imagination (LS-Imagine)",
+        "layout_description": "The slide follows a clean, professional layout with a white background. A large, dark red title is positioned at the top-left, underlined by a thin horizontal line that spans the width of the slide. Below the title on the left, there is a diagram contained within a light yellow rounded box, depicting a reinforcement learning loop between an 'environment' and a blue robot icon. The diagram includes visual icons like a Minecraft screenshot for observations (o_t) and a pickaxe for actions (a_t). Below this figure, the slide contains two main bullet points with red markers. The text is moderately dense, with key technical terms highlighted in dark red bold font to emphasize the core concepts of the proposed method. A solid dark red footer bar at the bottom contains white text indicating the conference 'ICLR 2025 Oral' on the left, the full paper title in the center, and the slide number '4' on the right."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 57.56,
+      "t_end": 85.38,
+      "num_builds": 9,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 57.56,
+          "image": "slide_7_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 64.27,
+          "image": "slide_7_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 65.23,
+          "image": "slide_7_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 66.19,
+          "image": "slide_7_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 67.15,
+          "image": "slide_7_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 68.11,
+          "image": "slide_7_build_5.jpg"
+        },
+        {
+          "build_id": 6,
+          "timestamp": 69.07,
+          "image": "slide_7_build_6.jpg"
+        },
+        {
+          "build_id": 7,
+          "timestamp": 70.03,
+          "image": "slide_7_build_7.jpg"
+        },
+        {
+          "build_id": 8,
+          "timestamp": 70.99,
+          "image": "slide_7_build_8.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Long Short-Term Imagination (LS-Imagine)",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold, dark red title at the top left, underlined by a thin horizontal separator. The middle section contains a large diagram split into two parts. On the left, a light yellow box shows a standard RL loop between an 'environment' and a robot agent, using icons for a pickaxe (action $a_t$) and a Minecraft-style scene (observation $o_t$). To its right, a light blue dashed box illustrates the imagination mechanism, showing transitions between states ($s_t, s_{t+1}$) and memory/latent states ($M_t, M_{t+1}$) influenced by a 'Cut a tree' action. A legend within this box uses blue and red arrows to distinguish between short-term and long-term imagination. The bottom third of the slide contains two bullet points that explain the model's functionality, with key technical terms highlighted in dark red. A dark red footer bar runs across the bottom, displaying 'ICLR 2025 Oral' on the left, the paper's full title in the center, and the slide number '4' on the right."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "introduction",
+      "t_start": 85.38,
+      "t_end": 86.34,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 85.38,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title-diagram-text layout",
+        "title_text": "\"Chicken-and-Egg\" Dilemma",
+        "layout_description": "The slide features a large, bold, dark red title at the top left, underlined by a thin horizontal red line that spans the width of the slide. The central area contains two main diagrams side-by-side. The left diagram, enclosed in a light yellow rounded box, shows a reinforcement learning loop with a robot icon, an environment box, and icons for actions (an axe) and observations (a Minecraft-style landscape). The right diagram, within a light blue dashed box, illustrates a sequence of state transitions ($s_t$ to $s_{t+H}$) and corresponding maps ($M_t$). It uses blue arrows to denote 'Short-Term Imagination' and red arrows for 'Long-Term Imagination', leading to a goal state with a trophy icon. Below these diagrams is a single bullet point with text that poses a central research question; key phrases are highlighted in red. A small cartoon illustration of a chicken and an egg is positioned in the bottom right corner. The slide is finished with a dark red footer bar containing the conference name 'ICLR 2025 Oral' on the left, the paper title in the center, and the slide number '5' on the right."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "introduction",
+      "t_start": 86.34,
+      "t_end": 98.81,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 86.34,
+          "image": "slide_9_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 89.21,
+          "image": "slide_9_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "mixed diagram and text layout",
+        "title_text": "\u201cChicken-and-Egg\u201d Dilemma",
+        "layout_description": "The slide features a large, bold dark red title at the top left, underlined by a thin red horizontal line that spans the width of the slide. Below the title, the content is organized into two main horizontal areas. The top area contains two side-by-side diagrams: the left one shows a standard reinforcement learning loop (agent, environment, observation, action) inside a light yellow rounded box; the right one is a more complex sequence diagram inside a dashed blue box, illustrating 'Short-Term Imagination' (blue arrows) and 'Long-Term Imagination' (red arrows) using Minecraft-style screenshots and heatmaps. The bottom area contains a single bullet point with text that poses a central research question, with key phrases like 'simulate jumpy transitions' and 'from current states to pivotal future states' highlighted in dark red. To the right of the text is a decorative cartoon illustration of a chicken and an egg with a question mark. A dark red footer bar at the very bottom displays 'ICLR 2025 Oral' on the left, the full paper title in the center, and the slide number '5' on the right."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 98.81,
+      "t_end": 100.73,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 98.81,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Affordance Map\u2074 Generation",
+        "layout_description": "The slide uses a two-column layout with a large, bold, dark red title at the top left, followed by a thin horizontal separator line. The left column features a visual diagram illustrating the affordance map generation process using Minecraft-style imagery. It shows an input image labeled 'o_t' and a text goal 'Cut a tree' labeled 'I'. A red bounding box on the main image is linked via a camera icon to a zoomed-in view of a tree. The right column contains four bullet points in a light gray font that describe the methodology: using a sliding bounding box, performing continuous zoom-ins, assessing relevance with a MineCLIP model, and fusing values into a comprehensive map. The bottom of the slide includes two small-text footnotes on the left and a solid dark red footer bar containing the conference name 'ICLR 2025 Oral', the paper title, and the slide number '6'."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 100.73,
+      "t_end": 134.3,
+      "num_builds": 9,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 100.73,
+          "image": "slide_11_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 108.4,
+          "image": "slide_11_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 113.2,
+          "image": "slide_11_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 114.16,
+          "image": "slide_11_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 118.95,
+          "image": "slide_11_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 119.91,
+          "image": "slide_11_build_5.jpg"
+        },
+        {
+          "build_id": 6,
+          "timestamp": 120.87,
+          "image": "slide_11_build_6.jpg"
+        },
+        {
+          "build_id": 7,
+          "timestamp": 122.79,
+          "image": "slide_11_build_7.jpg"
+        },
+        {
+          "build_id": 8,
+          "timestamp": 128.55,
+          "image": "slide_11_build_8.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Affordance Map\u2074 Generation",
+        "layout_description": "The slide uses a two-column layout with a prominent title in bold dark red at the top left, separated from the content by a thin horizontal line. The left column is occupied by a complex technical diagram illustrating a multi-step process. It begins with a text prompt 'Cut a tree' and a Minecraft screenshot, showing a sliding bounding box and a zoom-in effect that produces a sequence of 16 frames. These frames are fed into a 'MineCLIP' model, which generates correlation scores (e.g., 0.60, 0.90, 0.15) for different image regions. These scores are then fused into a final heatmap labeled as an affordance map. The right column contains four bullet points in red text that explain the steps shown in the diagram: employing a sliding bounding box, executing continuous zoom-ins, assessing relevance using MineCLIP, and fusing values to generate the map. The bottom of the slide includes small-text citations on the left and a solid dark red footer bar containing the conference name 'ICLR 2025 Oral', the presentation title, and the page number '6'."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "method",
+      "t_start": 134.3,
+      "t_end": 143.89,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 134.3,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Rapid Affordance Map Generation",
+        "layout_description": "The slide features a large, bold, dark red title at the top left, underlined by a thin horizontal line. The main body is divided into two columns containing complex technical diagrams. The left column illustrates a pipeline for generating affordance maps from Minecraft video frames, involving a 'MineCLIP' module, correlation calculations, and a final heatmap fusion. The right column displays a temporal flowchart showing the interaction between an 'env' (environment, in green) and an 'agent' (in pink) across time steps t, t+1, and t+\u0394t, highlighting the use of a 'Multimodal U-Net' to generate affordance maps. Below these diagrams, a single bullet point with red-highlighted text explains the training of the U-Net module for efficiency. A small footnote is located at the bottom left. The slide concludes with a dark red footer bar containing the conference name 'ICLR 2025 Oral', the paper title 'Open-World Reinforcement Learning over Long Short-Term Imagination', and the page number '7'."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "method",
+      "t_start": 143.89,
+      "t_end": 146.77,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 143.89,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column diagram layout",
+        "title_text": "Rapid Affordance Map Generation",
+        "layout_description": "The slide features a large, bold, dark red title at the top left, underlined by a thin horizontal separator. The main body is organized into two primary visual sections side-by-side. The left section contains a complex flowchart illustrating a process for generating affordance maps from Minecraft-style imagery, involving image cropping, a sequence of 16 video frames, a 'MineCLIP' processing block, and correlation-based fusion into a final heatmap. The right section displays a system architecture diagram showing the interaction between an 'env' (environment) and an 'agent' over time steps t, t+1, and t+\u0394t, highlighting the use of a 'Multimodal U-Net' to generate heatmaps. Below these diagrams, a single bullet point with red-highlighted text explains the training objective. A small footnote at the bottom left provides a citation. The slide is anchored by a dark red footer containing the conference name 'ICLR 2025 Oral' on the left, the paper title in the center, and the page number '7' on the right."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "method",
+      "t_start": 146.77,
+      "t_end": 158.28,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 146.77,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with top-aligned figures",
+        "title_text": "Affordance-Based Intrinsic Reward and Jumping Flag",
+        "layout_description": "The slide features a large, bold red title at the top-left, underlined by a thin red horizontal line that spans the width of the slide. The main content is divided into two horizontal tiers. The upper tier contains visual diagrams: the left side shows a mathematical expression for a 'Mean' involving the element-wise product of an 'Affordance map' heatmap and a 'Gaussian matrix' heatmap; the right side presents a two-row flowchart comparing Minecraft 'Observation' screenshots to their 'Affordance map' heatmaps, leading to 'High kurtosis' (Jump checkmark) or 'Low kurtosis' (Jump cross) outcomes. The lower tier consists of two columns of text, each with a single bullet point. Key terms within the text, such as 'affordance map', '2D Gaussian matrix', and 'jumpy state transition', are highlighted in red. A dark red footer bar at the bottom contains 'ICLR 2025 Oral' on the left, the paper title 'Open-World Reinforcement Learning over Long Short-Term Imagination' in the center, and the page number '8' on the right."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "method",
+      "t_start": 158.28,
+      "t_end": 178.43,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 158.28,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Affordance-Based Intrinsic Reward and Jumping Flag",
+        "layout_description": "The slide follows a two-column structure with a prominent title at the top and a footer at the bottom. The title is in a large, bold, dark red font at the top-left, underlined by a thin horizontal line. The top half of the slide contains visual diagrams: the left side shows a mathematical operation involving the 'Mean' of an element-wise product between an 'Affordance map' and a 'Gaussian matrix' (both shown as heatmaps); the right side features a two-row flowchart showing Minecraft 'Observation' images, their corresponding 'Affordance maps', kurtosis levels, and a final 'Jump' decision with a green checkmark or red X. The bottom half of the slide consists of two text columns, each containing a single bullet point. The left bullet explains the calculation of the intrinsic reward, while the right bullet explains the logic for a 'jumpy state transition', using red text for emphasis on key terms. A dark red footer bar spans the bottom, containing the conference name 'ICLR 2025 Oral' on the left, the paper title in the center, and the page number '8' on the right."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "method",
+      "t_start": 178.43,
+      "t_end": 187.06,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 178.43,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Long Short-Term World Model",
+        "layout_description": "The slide uses a two-column layout beneath a large, bold, dark red title at the top-left, which is underlined by a thin red horizontal bar. The left column contains a complex architectural diagram and its legend. The diagram is split into two main horizontal boxes labeled 'Short-Term Branch' and 'Long-Term Branch', showing the flow of data through encoders, decoders, and transition models. A legend at the top-left of this column explains the color-coding for different model components (e.g., orange for transition model, green for jump predictor). The right column is divided vertically: the top half contains a list of mathematical equations defining the model's functions, while the bottom half features two bullet points in dark red text that summarize key aspects of the architecture. A solid dark red footer spans the bottom of the slide, containing the conference name 'ICLR 2025 Oral' on the left, the full paper title in the center, and the slide number '9' on the right. The text density is moderate, balanced between visual diagrams, formal equations, and explanatory text."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "method",
+      "t_start": 187.06,
+      "t_end": 203.37,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 187.06,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Long Short-Term World Model",
+        "layout_description": "The slide uses a two-column layout beneath a bold red title at the top left, which is underlined by a thin red horizontal line. The left column contains a complex architectural diagram illustrating the 'Short-Term Branch' and 'Long-Term Branch' of the proposed model. This diagram includes various components like encoders, decoders, and transition models, with a color-coded legend at the top left of the diagram area. The right column is split into two parts: the top half lists several mathematical equations defining the model's components (e.g., transition models, encoder, predictors), while the bottom half contains two red bullet points explaining the state transition model and the role of the affordance map. A dark red footer bar at the bottom includes the conference name 'ICLR 2025 Oral' on the left, the full paper title in the center, and the page number '9' on the right. The overall text density is moderate, balancing visual diagrams with formal notation and explanatory text."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "method",
+      "t_start": 203.37,
+      "t_end": 215.84,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 203.37,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Behavior Learning over Mixed Long Short-Term Imagination",
+        "layout_description": "The slide uses a two-column layout beneath a large, bold, dark red title at the top, which is separated from the content by a thin red horizontal line. The left column contains a legend at the top defining four color-coded components (Transition model, Jump predictor, Reward predictor, and Interval predictor) followed by two vertically stacked diagrams labeled 'Short-Term Imagination' and 'Long-Term Imagination'. These diagrams show complex flowcharts of latent state transitions involving Actor and Critic modules. The right column starts with a horizontal sequence diagram at the top illustrating state transitions and jumping flags. Below this, there are two main bullet points with descriptive text where key terms are highlighted in red. A multi-line mathematical equation for the return calculation is positioned between the two bullet points. The slide concludes with a solid red footer bar that displays 'ICLR 2025 Oral' on the left, the paper's full title in the center, and the page number '10' on the right."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "method",
+      "t_start": 215.84,
+      "t_end": 219.68,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 215.84,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Behavior Learning over Mixed Long Short-Term Imagination",
+        "layout_description": "The slide uses a two-column layout with a bold red title at the top, separated from the content by a thin horizontal red line. The left column is primarily visual, featuring a legend at the top for four color-coded components (Transition model, Jump predictor, Reward predictor, and Interval predictor). Below the legend are two vertically stacked diagrams: 'Short-Term Imagination' in a light blue box and 'Long-Term Imagination' in a light purple box, both illustrating complex actor-critic architectures with flowcharts. The right column contains a small sequence diagram at the top showing state transitions and jumping flags. This is followed by two main bullet points that use red text for emphasis on key terms like 'predict subsequent states', 'jumping flag', and 'actor-critic algorithm'. A multi-line mathematical equation for the lambda-return is positioned between the two bullet points. The slide concludes with a dark red footer containing the conference name 'ICLR 2025 Oral' on the left, the full paper title in the center, and the page number '10' on the right."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "experiments",
+      "t_start": 219.68,
+      "t_end": 226.39,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 219.68,
+          "image": "slide_20_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and tables",
+        "title_text": "Experiments",
+        "layout_description": "The slide has a clean, academic layout with a large, bold red title 'Experiments' positioned at the top-left. The main body of the slide contains two distinct tables. Table 1 is located in the upper section and details 'Experimental setups of the Minecraft AI agents,' featuring columns for Model, Controller, Observation, and Video Demos. Several publication years in the first column are highlighted with green rectangular boxes, and the final column uses green checkmarks and red 'X' marks. Table 2 is positioned below the first and describes 'Details of the MineDojo tasks' with five columns: Task, Language description, Initial tools, Initial mobs and distance, and Max steps. The text density is moderate, primarily consisting of tabular data. A solid red footer bar spans the bottom of the slide, containing white text that identifies the conference as 'ICLR 2025 Oral' on the left, the paper title in the center, and the slide number '11' on the right."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "results",
+      "t_start": 226.39,
+      "t_end": 230.23,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 226.39,
+          "image": "slide_21_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "Results",
+        "layout_description": "The slide follows a structured grid layout with a large, bold, dark red title 'Results' positioned at the top-left, followed by a thin horizontal separator line. The main body of the slide contains ten line charts arranged in a 2x5 grid. The top row of five charts measures 'Success Rate' against 'Environment steps', while the bottom row measures 'Steps per episode' against 'Environment steps'. Each column corresponds to a specific task, labeled (a) through (e) at the bottom of each chart: 'Harvest log in plains', 'Harvest water with bucket', 'Harvest sand', 'Shear sheep', and 'Mine iron ore'. Above each row of charts is a horizontal legend identifying six different experimental models: VPT (yellow), STEVE-1 (dashed grey), PTGM (purple), Director (green), DreamerV3 (blue), and LS-Imagine (red). The charts feature colored lines with corresponding shaded confidence intervals. A dark red footer bar spans the bottom of the slide, containing 'ICLR 2025 Oral' on the left, the paper title in the center, and the slide number '12' on the right. The text density is moderate, primarily consisting of axis labels, legends, and task descriptions."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "results",
+      "t_start": 230.23,
+      "t_end": 240.78,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 230.23,
+          "image": "slide_22_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "Results",
+        "layout_description": "The slide uses a structured grid layout to present experimental data. A large, bold, dark red title 'Results' is located at the top-left. The main content consists of two horizontal rows of five line charts each. The top row of charts measures 'Success Rate' (y-axis), while the bottom row measures 'Steps per episode' (y-axis). Both rows share a common x-axis labeled 'Environment steps 1e6'. Each column corresponds to a specific task, labeled (a) through (e) below the charts: 'Harvest log in plains', 'Harvest water with bucket', 'Harvest sand', 'Shear sheep', and 'Mine iron ore'. Above each row of charts, a horizontal legend identifies six different models: VPT (yellow), STEVE-1 (dashed grey), PTGM (purple), Director (green), DreamerV3 (blue), and LS-Imagine (red). The charts feature multiple colored lines with shaded error regions. A dark red footer bar spans the bottom of the slide, containing 'ICLR 2025 Oral' on the left, the presentation title 'Open-World Reinforcement Learning over Long Short-Term Imagination' in the center, and the page number '12' on the right."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "results",
+      "t_start": 240.78,
+      "t_end": 244.62,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 240.78,
+          "image": "slide_23_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 241.74,
+          "image": "slide_23_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 242.7,
+          "image": "slide_23_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 243.66,
+          "image": "slide_23_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "multi-column comparison layout",
+        "title_text": "Visualization of the Long Short-Term Imaginations",
+        "layout_description": "The slide features a large, bold, dark red title at the top left, underlined by a thin horizontal line that spans the width of the page. The main content is organized into five parallel vertical columns, each representing a different object or task. At the top of each column is a 3D icon of a Minecraft-style item (a wood log, a water bucket, a sand block, a white wool block, and an iron ore block). Below each icon is a blue-bordered vertical container holding three stacked square images. These rows are labeled with vertical text on the left side of each container as 'Prediction', 'Affordance map', and 'Alpha blend'. The 'Prediction' row shows a blurry generated scene, the 'Affordance map' shows a color-coded heatmap, and the 'Alpha blend' shows the heatmap overlaid on the scene. Below each of the five columns, the text 't = 8 short-term' is centered. A dark red footer bar at the bottom contains 'ICLR 2025 Oral' on the left, the paper title 'Open-World Reinforcement Learning over Long Short-Term Imagination' in the center, and the slide number '13' on the right. The overall text density is light, with a focus on qualitative visual data."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "results",
+      "t_start": 244.62,
+      "t_end": 267.64,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 244.62,
+          "image": "slide_24_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 249.42,
+          "image": "slide_24_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 250.38,
+          "image": "slide_24_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 251.33,
+          "image": "slide_24_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid comparison layout",
+        "title_text": "Visualization of the Long Short-Term Imaginations",
+        "layout_description": "The slide features a large, bold, dark red title at the top left, underlined by a thin red horizontal line that spans the width of the slide. The main content is organized into five distinct vertical columns. Each column is topped with a 3D Minecraft-style item icon: a wood log, a water bucket, a sand block, a white wool block, and an ore block. Below each icon is a vertical stack of three images: a blurry 'Prediction' image, a colorful heatmap labeled 'Affordance map', and a composite 'Alpha blend' image. The labels for these rows are rotated 90 degrees and placed to the left of each image stack. The first four columns are outlined with a blue border and labeled 't = 7 short-term' at the bottom. The fifth column is outlined with a red border and labeled 't = 7 long-term' at the bottom. A solid red footer bar at the bottom contains 'ICLR 2025 Oral' on the left, the presentation title in the center, and the page number '13' on the right."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "conclusion",
+      "t_start": 267.64,
+      "t_end": 273.4,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 267.64,
+          "image": "slide_25_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with footer and bottom call-to-action",
+        "title_text": "Conclusion",
+        "layout_description": "The slide follows a clean, single-column structure with a large, bold, dark red title at the top left, underlined by a thin horizontal line. The main content consists of three bullet points that summarize the work, with specific technical terms highlighted in dark red for emphasis. Below the main text, the slide is split into two sections: on the left, a dashed-line box contains scheduling details for 'Oral' and 'Poster' sessions; on the right, there is a QR code with a dinosaur icon in the center and a URL link below it. A solid dark red footer bar spans the bottom of the slide, containing the conference name on the left, the paper title in the center, and the slide number '14' on the right, all in white text. The text density is moderate, utilizing white space effectively to separate the summary from the session information."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "conclusion",
+      "t_start": 273.4,
+      "t_end": 299.13,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 273.4,
+          "image": "slide_26_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with boxed info and QR code",
+        "title_text": "Conclusion",
+        "layout_description": "The slide features a clean academic design with a white background and dark red accents. At the top-left, the title 'Conclusion' is written in bold dark red, followed by a thin horizontal line spanning the slide's width. The upper half contains three main bullet points; each point uses black text with specific key phrases highlighted in dark red. Below this, the slide is split: the left side features a large dashed-line box containing scheduling information for 'Oral' and 'Poster' sessions, organized with sub-bullets. To the right of this box is a QR code with a small dinosaur icon in its center, accompanied by a URL link underneath. A solid dark red footer bar at the bottom contains white text indicating the conference ('ICLR 2025 Oral'), the presentation title ('Open-World Reinforcement Learning over Long Short-Term Imagination'), and the page number '14' at the far right."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 219,
+    "gemini_layout_calls": 211,
+    "total_gemini_calls": 430,
+    "total_frames_sampled": 312,
+    "batch_size": 15
+  }
+}

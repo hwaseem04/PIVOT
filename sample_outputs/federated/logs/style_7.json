@@ -1,0 +1,27 @@
+{
+    "layout_template": "full_fig_with_callouts",
+    "background_color": "#FFFFFF",
+    "layout_regions": {
+        "title": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.9,
+            "h": 0.1
+        },
+        "figure": {
+            "x": 0.05,
+            "y": 0.18,
+            "w": 0.9,
+            "h": 0.45
+        },
+        "bullets": {
+            "x": 0.05,
+            "y": 0.65,
+            "w": 0.9,
+            "h": 0.3
+        }
+    },
+    "has_figure": true,
+    "has_video": false,
+    "style_rationale": "Figure 10 is a wide horizontal composite of three bar charts comparing parameters, latency, and memory. A layout with a wide central figure region is essential to maintain the legibility of these side-by-side charts. Placing bullets at the bottom follows the structure of academic results presentations (like Examples 3 and 4), providing a clear vertical flow from the visual data to the quantitative summary of client-side efficiency and server-side bottlenecks."
+}

@@ -1,0 +1,222 @@
+{
+    "scene_id": 3,
+    "title": "Scaled Dot-Product and Multi-Head Attention",
+    "summary": "The core mechanism is Scaled Dot-Product Attention, which computes weights for values based on queries and keys. Multi-Head Attention extends this by performing multiple attention functions in parallel, allowing the model to jointly attend to information from different representation subspaces at different positions.",
+    "paper_section": "Method",
+    "narrative_role": "method",
+    "asset_video": null,
+    "duration_stat": {
+        "min": 12.0,
+        "max": 18.0,
+        "avg": 15.0
+    },
+    "extracted_content": "The core of the Transformer is the Scaled Dot-Product Attention mechanism, which maps a query and a set of key-value pairs to an output. The output is a weighted sum of the values, where weights are determined by the compatibility of the query with the corresponding key. To prevent the dot products from growing too large in magnitude\u2014which can lead to vanishing gradients in the softmax layer\u2014the scores are scaled by the inverse square root of the key dimension (1/sqrt(d_k)). Multi-Head Attention improves upon this by linearly projecting queries, keys, and values multiple times (h = 8) into lower-dimensional subspaces. This allows the model to jointly attend to information from different representation subspaces at different positions, which is inhibited by a single attention head. The model utilizes attention in three ways: encoder-decoder attention (relating decoder queries to encoder outputs), encoder self-attention, and masked decoder self-attention (ensuring predictions for a position only depend on known outputs at earlier positions).",
+    "layout": {
+        "template": "two-column layout: figure left, bullets and equations right",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.95,
+                "h": 0.1
+            },
+            "figure": {
+                "x": 0.05,
+                "y": 0.2,
+                "w": 0.5,
+                "h": 0.75
+            },
+            "bullets": {
+                "x": 0.6,
+                "y": 0.2,
+                "w": 0.35,
+                "h": 0.35
+            },
+            "equations": {
+                "x": 0.6,
+                "y": 0.6,
+                "w": 0.35,
+                "h": 0.35
+            }
+        },
+        "spec": {
+            "version": 1,
+            "layout_type": "two-column layout: figure left, bullets and equations right",
+            "layout_tags": [
+                "two_col",
+                "figure_left",
+                "method",
+                "equations"
+            ],
+            "layout_signature": "T|F-B",
+            "background_color": "#FFFFFF",
+            "elements": [
+                {
+                    "id": "title",
+                    "type": "T",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.05,
+                        "w": 0.95,
+                        "h": 0.1
+                    },
+                    "content_ref": "elements.title",
+                    "style": {
+                        "font_size": 40,
+                        "bold": true,
+                        "align": "left"
+                    }
+                },
+                {
+                    "id": "figure",
+                    "type": "F",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.2,
+                        "w": 0.5,
+                        "h": 0.75
+                    },
+                    "content_ref": "elements.figure",
+                    "constraints": {
+                        "keep_aspect": true
+                    }
+                },
+                {
+                    "id": "bullets",
+                    "type": "B",
+                    "box": {
+                        "x": 0.6,
+                        "y": 0.2,
+                        "w": 0.35,
+                        "h": 0.35
+                    },
+                    "content_ref": "elements.bullets",
+                    "style": {
+                        "font_size": 22,
+                        "min_font_size": 16
+                    }
+                },
+                {
+                    "id": "equations",
+                    "type": "EQ",
+                    "box": {
+                        "x": 0.6,
+                        "y": 0.6,
+                        "w": 0.35,
+                        "h": 0.35
+                    },
+                    "content_ref": "elements.equations",
+                    "style": {
+                        "font_size": 20,
+                        "align": "center"
+                    }
+                }
+            ],
+            "global_constraints": {
+                "no_overlap": true,
+                "no_overflow": true,
+                "min_font_size": 14
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "Scaled Dot-Product and Multi-Head Attention",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 2",
+            "caption": "Architectures of Scaled Dot-Product Attention (left) and Multi-Head Attention (right)."
+        },
+        "equations": [
+            "Eq. 1: \\mathrm{Attention}(Q, K, V) = \\mathrm{softmax}(\\frac{QK^T}{\\sqrt{d_k}})V",
+            "Eq. 2: \\mathrm{MultiHead}(Q, K, V) = \\mathrm{Concat}(\\mathrm{head}_1, ..., \\mathrm{head}_h)W^O"
+        ],
+        "bullets": [
+            "Maps queries and key-value pairs to weighted outputs",
+            "Scaling by 1/sqrt(d_k) maintains stable softmax gradients",
+            "Multi-head attention runs eight parallel attention layers",
+            "Jointly attends to information from different representation subspaces"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                },
+                {
+                    "type": "show",
+                    "target": "equation"
+                }
+            ],
+            "audio_segment": "Scaled Dot-Product Attention",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.28,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "maps queries and key-value pairs to a weighted output.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 6.56,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "We scale scores by the inverse square root of the key dimension for stability.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 9.84,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "Multi-head attention runs eight parallel heads",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 13.12,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "to attend to different representation subspaces simultaneously.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 16.4,
+    "source": [
+        "Section 3.2",
+        "Section 3.2.1",
+        "Section 3.2.2",
+        "Figure 2"
+    ],
+    "audio_content": "Scaled Dot-Product Attention maps queries and key-value pairs to a weighted output. We scale scores by the inverse square root of the key dimension for stability. Multi-head attention runs eight parallel heads to attend to different representation subspaces simultaneously.",
+    "prompt": "A two-column slide showing Figure 2 from the paper on the left, illustrating Scaled Dot-Product and Multi-Head Attention. On the right, bullet points describe the mechanism and scaling, followed by the mathematical equations for attention and multi-head concatenation."
+}

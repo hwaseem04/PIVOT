@@ -1,0 +1,378 @@
+{
+  "video_id": "ArGue- Attribute-Guided Prompt Tuning for Vision-Language Models",
+  "duration": 379.63,
+  "fps_sampled": 1.0,
+  "total_slides": 19,
+  "slides_with_builds": 0,
+  "total_build_steps": 19,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 6.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "ArGue: Attribute-Guided Prompt Tuning for Vision-Language Models",
+        "layout_description": "The slide follows a minimalist title slide layout. The main title is centered in the upper half of the frame in a large, black, serif font. Below the title, the names of the four authors are listed in a smaller font, also centered. Beneath the authors, their respective affiliations, 'Australian National University' and 'GE Research', are displayed with superscript markers. The entire background is plain white with no decorative elements or logos. In the bottom right corner, there is a small circular inset showing a live video feed of the presenter. The text density is light, focusing exclusively on the title and authorship information."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 6.0,
+      "t_end": 15.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 6.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and comparison figure",
+        "title_text": "Motivation",
+        "layout_description": "The slide follows a top-down single-column structure on a plain white background. The title 'Motivation' is placed at the top-left in a large, bold serif font. Directly below the title, two lines of text introduce a 'Toy Example' and a 'Standard prompt' using a placeholder notation. The center of the slide is dominated by a visual comparison: two sets of three images (colored MNIST digits 0, 2, and 5) are separated by a horizontal arrow. The left set is captioned 'Pretrained' and the right set is captioned 'Finetuned'. Below this figure, a bolded problem statement is centered horizontally. The bottom-left corner contains a concluding text block followed by a numbered list with two items. A small circular inset in the bottom-right corner shows a video feed of the presenter."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 15.0,
+      "t_end": 50.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and comparison figure",
+        "title_text": "Motivation",
+        "layout_description": "The slide follows a clean, single-column structure on a plain white background. The title 'Motivation' is placed at the top-left in a large, bold serif font. Below the title, introductory text describes a toy example for adapting CLIP on a biased dataset, including a specific prompt template. The central visual element is a comparison figure consisting of two sets of three images (digits 0, 2, and 5 with colored backgrounds). The left set is labeled 'Pretrained' and the right set is labeled 'Finetuned', with a horizontal arrow pointing from left to right to indicate a transition. Below the images, a central problem statement is presented. At the bottom-left, there is a short numbered list with two items detailing the goals of the research. A small circular video feed of the presenter is visible in the bottom-right corner of the frame."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "method",
+      "t_start": 50.0,
+      "t_end": 60.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 50.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Attribute-Guided Prompt Tuning",
+        "layout_description": "The slide features a large bold title at the top-left, followed by a 'Solution' statement in a smaller font. The main content is divided into two sections by a vertical dashed line. The left section illustrates the concept of decomposing a category into attributes: a single image of a cat labeled 'cat' is linked by a large curly bracket to three smaller images, each highlighting a specific feature ('long tail', 'white hand', 'grey body'). The right section demonstrates the application of this method, showing the original cat image alongside two sets of classification results. At the top-right, high-level category scores for 'cat' and 'bird' are listed. Below that, a list of six attribute-based prompts (e.g., 'long tail', 'black wings') is shown with corresponding confidence scores, contrasting relevant and irrelevant features. A small circular video inset of the presenter is visible in the bottom-right corner. The overall text density is moderate, set against a plain white background."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "method",
+      "t_start": 60.0,
+      "t_end": 73.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 60.0,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison and conceptual diagram layout",
+        "title_text": "Attribute-Guided Prompt Tuning",
+        "layout_description": "The slide features a large, bold title at the top-left, followed by a 'Solution' statement that explains the core concept of decomposing categories into primitive visual attributes. The main content is organized into two sections separated by a vertical dashed line. The left section illustrates the decomposition process: a primary image of a cat labeled 'cat' is linked by a large curly bracket to three smaller versions of the same image, each highlighting a specific feature (tail, paw, body) with a corresponding text label ('long tail', 'white hand', 'grey body'). The right section demonstrates the output of this method, showing the original cat image alongside a list of classification scores for high-level categories ('cat', 'bird') and a detailed list of six primitive attributes with their respective numerical confidence scores. A small circular video inset of the presenter is located in the bottom-right corner. The background is plain white, and the text density is moderate."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 73.0,
+      "t_end": 75.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 73.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and text sections",
+        "title_text": "Method",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. The title 'Method' is located at the top-left in a large, bold serif font. The main content is divided into three thematic sections: 'Strategy:', 'Benefit:', and 'Problem:'. The 'Strategy' section is presented as a single paragraph of text. The 'Benefit' and 'Problem' sections are structured with two bullet points each, providing a clear hierarchical list of points. All text is left-aligned and uses a black serif font. A small circular inset in the bottom-right corner contains a video feed of the presenter. The slide has a moderate text density with significant white space between the different sections for readability."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 75.0,
+      "t_end": 117.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 75.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and text sections",
+        "title_text": "Method",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. The title 'Method' is located at the top-left in a large, bold serif font. The main content is divided into three thematic sections: 'Strategy:', 'Benefit:', and 'Problem:'. The 'Strategy' section is presented as a single paragraph of text. The 'Benefit' and 'Problem' sections are structured with two bullet points each, detailing specific points like 'Attribute Sampling' and 'Negative Prompting'. All text is left-aligned and uses a black serif font. A small circular inset in the bottom-right corner displays a live video feed of the presenter. The slide has a moderate text density with significant white space separating the different sections."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "results",
+      "t_start": 117.0,
+      "t_end": 120.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 117.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "multi-element structured layout",
+        "title_text": "Attribute Sampling",
+        "layout_description": "The slide features a large, bold title 'Attribute Sampling' at the top-left. Below the title, the layout is divided into several sections. The top-left area contains text posing a question about LLM-generated attributes and lists two numbered counter-examples for sketches, accompanied by a grayscale image of a sketched apple to its right. The bottom-left and center area is dominated by a large, detailed data table titled 'Attribute Study: Training on every attribute iteratively,' which displays numerical performance metrics across various datasets and attributes. To the right of this table, there is a 'Conclusion' section with two numbered summary points. A circular video inset of the presenter is positioned in the bottom-right corner. The overall design uses a clean white background with black text and a moderate text density, primarily due to the detailed table."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "results",
+      "t_start": 120.0,
+      "t_end": 167.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 120.0,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "multi-element content layout",
+        "title_text": "Attribute Sampling",
+        "layout_description": "The slide features a large, bold title 'Attribute Sampling' at the top-left. Below the title, a central question is posed regarding the utility of LLM-generated attributes. The left side of the slide contains a numbered list of 'Two counter-examples for sketches' with specific examples of non-visual and semantically unrelated attributes. To the right of this list is a grayscale image showing a sketch of an apple. The bottom-left portion of the slide is dominated by a detailed data table titled 'Attribute Study: Training on every attribute iteratively,' which displays performance metrics across various datasets (EuroSAT, UCF101, Food101) for ten different attributes. To the right of the table, a 'Conclusion' section summarizes the findings in two numbered points. A circular video inset of the presenter is positioned in the bottom-right corner. The slide uses a clean white background with black text, maintaining a moderate text density primarily due to the data table."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 167.0,
+      "t_end": 180.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 167.0,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figures",
+        "title_text": "Attribute Sampling",
+        "layout_description": "The slide has a clean, white background with a large serif title 'Attribute Sampling' positioned at the top-left. The content is structured into two main text sections followed by a visual demonstration. The first section, 'Two considerations:', is followed by a numbered list of two points. The second section, 'Three steps:', is followed by a numbered list of three points. Below these lists, there are two side-by-side figures labeled (a) and (b). Figure (a) shows an ImageNet example of bananas, and Figure (b) shows an ImageNet-Sketch example of an apple. Each figure consists of the image, a list of text attributes, and a corresponding horizontal bar chart with yellow bars indicating similarity scores. The top three attributes in each chart are highlighted with a black border. A multi-line figure caption is located at the bottom of the slide. A small circular inset showing the presenter's face is located in the bottom-right corner. The text density is moderate, and the layout is well-organized with clear hierarchical numbering."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 180.0,
+      "t_end": 215.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 180.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figures",
+        "title_text": "Attribute Sampling",
+        "layout_description": "The slide features a clean white background with a large, bold serif title 'Attribute Sampling' positioned at the top-left. The content is organized vertically, starting with two numbered lists. The first list, titled 'Two considerations:', contains two points, and the second, titled 'Three steps:', contains three points. Below these lists is a large figure (Figure 3) that occupies the bottom half of the slide. This figure is split into two side-by-side comparison panels: (a) ImageNet and (b) ImageNet-Sketch. Each panel consists of a representative image on the left and a horizontal bar chart on the right. The bar charts display various attributes with yellow bars indicating similarity scores; the top three attributes in each chart are highlighted with a black rectangular frame. A multi-line caption for the figure is placed at the very bottom. A small circular inset showing the presenter's video feed is located in the bottom-right corner. The overall text density is moderate, effectively combining instructional text with visual data."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "method",
+      "t_start": 215.0,
+      "t_end": 225.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 215.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with diagram",
+        "title_text": "Negative Prompting",
+        "layout_description": "The slide features a large bold title 'Negative Prompting' at the top-left, followed by a sub-heading stating the intuition behind the method. The central content is a horizontal diagram showing the processing of an image of a cat. On the left, the original image is connected via two colored arrows (teal for 'std. prompt' and yellow for 'neg. prompt') to two corresponding heatmaps in the center. Speech bubbles above and below the arrows contain the text prompts 'a photo of a cat' and 'the background of a cat'. To the right of the heatmaps, there is a comparison grid with two columns titled 'CLIP' and 'Ours'. This grid contains bar charts representing activation levels; the top row shows both methods succeeding (green checkmarks), while the bottom row shows CLIP failing (red 'X') and the proposed method succeeding (green checkmark). At the bottom of the slide, a 'Strategy' statement is written in a large font. A small circular video inset of the presenter is visible in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "method",
+      "t_start": 225.0,
+      "t_end": 263.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 225.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with diagram",
+        "title_text": "Negative Prompting",
+        "layout_description": "The slide features a large, bold title 'Negative Prompting' at the top-left, followed by a sub-heading 'Intuition: Different prompts activates distinct pixel areas'. The central content is a diagram illustrating the concept. On the left, an image of a cat is shown with two speech bubbles: a teal one for 'a photo of a cat' (standard prompt) and an orange one for 'the background of a cat' (negative prompt). Two colored arrows point from these prompts to corresponding heatmap visualizations of the cat image. To the right of the heatmaps is a 2x2 grid of bar charts comparing 'CLIP' and 'Ours'. The 'CLIP' column shows a green checkmark for the standard prompt but a red 'X' for the negative prompt, while the 'Ours' column shows green checkmarks for both. At the bottom, a summary statement 'Strategy: Enforce the model to \"ignore\" such negative prompts which activate the spurious correlations' is displayed in bold. A small circular inset in the bottom-right corner shows the presenter's video feed."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "method",
+      "t_start": 263.0,
+      "t_end": 270.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 263.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure",
+        "title_text": "Method Overview",
+        "layout_description": "The slide features a large, complex architectural diagram titled 'Method Overview' in a serif font at the top-left. The diagram is organized into three main sections labeled (a), (b), and (c), each enclosed in dashed-line boxes. Section (a) at the top-left illustrates the generation of 'Attribute Candidates' from a class name ('Bobolink') using an LLM with specific templates. Section (b) at the top-center shows these attributes and an image being processed by text and image encoders for 'Attribute Clustering' and subsequent 'Attribute Sampling'. Section (c) occupies the entire bottom half, detailing the training process involving 'Soft Prompts', 'Textural Prompting', and multiple loss functions (L_ent, L_reg, L_neg) connecting text and image encoder outputs. A 'Notations' legend is positioned on the far right, defining visual symbols like learnable tokens and gradient paths. The overall text density is moderate, primarily consisting of labels and mathematical notation within the flowchart. A small video inset of the presenter is located in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "method",
+      "t_start": 270.0,
+      "t_end": 322.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 270.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with title",
+        "title_text": "Method Overview",
+        "layout_description": "The slide features a large, complex architectural diagram titled 'Method Overview' in a bold serif font at the top-left. The content is organized into three main sub-sections labeled (a), (b), and (c), each enclosed within dashed-line boundaries. Section (a) at the top-left shows the input 'Bobolink' class and image being processed by an LLM to generate attribute candidates. Section (b) at the top-right illustrates attribute clustering and sampling using frozen text and image encoders. Section (c) spans the bottom half of the slide, detailing the core methodology involving soft prompts, textural prompting, and a training loop with multiple loss functions ($L_{ent}$, $L_{reg}$, $L_{neg}$). A 'Notations' legend is located on the far right, defining visual symbols like red dashed arrows for gradients and various colored circles for different token types. The diagram uses a color palette of green, blue, and orange for different modules. A small circular inset video of the presenter is positioned in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "results",
+      "t_start": 322.0,
+      "t_end": 330.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 322.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid comparison layout",
+        "title_text": "Result Visualization",
+        "layout_description": "The slide features a large bold title 'Result Visualization' at the top-left. The main content is organized into a structured grid with two primary rows, each corresponding to a different class label: 'British Shorthair' (top row) and 'White Rabbit' (bottom row). The grid is divided into four main columns labeled (A) through (D). Column (A) shows the original input image. Column (B), titled 'Comp. with baseline methods', displays three side-by-side heatmap visualizations for CLIP, CoOp, and ArGue-N models under a standard prompt. Column (C), 'Attr. visualization', shows two heatmaps focusing on specific attributes like 'long tail' or 'big ears', with the attribute text color-coded to match the heatmap focus. Column (D), 'Neg. prompt', shows a single heatmap for a background-focused prompt. Horizontal black lines separate the column headers from the image content and divide the two rows. A circular video inset of the presenter is visible in the bottom-right corner. The overall text density is moderate, using a mix of black and colored text for emphasis."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "results",
+      "t_start": 330.0,
+      "t_end": 372.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 330.0,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid comparison layout",
+        "title_text": "Result Visualization",
+        "layout_description": "The slide features a large bold title 'Result Visualization' at the top-left. The main content is organized into a structured grid with four primary columns labeled (A) through (D), separated by horizontal lines. The grid contains two rows of qualitative results, one for a 'British Shorthair' cat and one for a 'White Rabbit'. Column (A) shows the original input image and its class label. Column (B) provides a comparison of three baseline methods (CLIP, CoOp, and ArGue-N) using heatmaps overlaid on the images under a standard prompt. Column (C) displays attribute-specific visualizations, showing how the model attends to features like 'long tail' or 'big ears', with keywords highlighted in teal and orange. Column (D) shows the model's attention for a 'negative prompt' focusing on the background, with the word 'background' highlighted in pink. A circular video inset of the presenter is positioned in the bottom-right corner. The overall text density is moderate, using color-coded text to link prompts to their corresponding visual heatmaps."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "other",
+      "t_start": 372.0,
+      "t_end": 375.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 372.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered title with contact information",
+        "title_text": "Thank you",
+        "layout_description": "The slide has a minimalist layout on a plain white background. A large, blue, sans-serif title 'Thank you' is positioned in the center of the slide. Directly below the title, there are two lines of black text providing contact information: the names and email addresses of Xinyu Tian and Shu Zou, with the latter identified as the presenter. To the right of this contact information is a small, square QR code. In the bottom right corner of the entire frame, there is a circular inset showing a live video feed of the presenter. The text density is very light, serving as a concluding slide for the presentation."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "other",
+      "t_start": 375.0,
+      "t_end": 379.63,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 375.0,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered title with contact info",
+        "title_text": "Thank you",
+        "layout_description": "The slide follows a minimalist layout on a plain white background. The main heading 'Thank you' is centered in the middle of the slide in a large, blue, sans-serif font. Directly below the title, there is a block of text containing contact information for two individuals, Xinyu Tian and Shu Zou, including their names and email addresses from the Australian National University (anu.edu.au). The second name is followed by the label '(presenter)'. To the right of this contact information is a small, square QR code. In the bottom right corner of the frame, there is a circular video inset showing the presenter. The slide has a very light text density, serving as a concluding or Q&A slide."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 593,
+    "gemini_layout_calls": 563,
+    "total_gemini_calls": 1156,
+    "total_frames_sampled": 380,
+    "batch_size": 15
+  }
+}

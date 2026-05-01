@@ -1,0 +1,26 @@
+{
+    "layout_template": "two_col_fig_left",
+    "background_color": "#FFFFFF",
+    "layout_regions": {
+        "title": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.9,
+            "h": 0.1
+        },
+        "figure": {
+            "x": 0.05,
+            "y": 0.2,
+            "w": 0.5,
+            "h": 0.7
+        },
+        "bullets": {
+            "x": 0.6,
+            "y": 0.2,
+            "w": 0.35,
+            "h": 0.7
+        }
+    },
+    "has_figure": true,
+    "style_rationale": "A two-column layout is chosen to present the visual examples of the action taxonomy (Figure 3) alongside the textual description of the hierarchical verb-noun decomposition. This allows the viewer to immediately connect the abstract classes (verbs/nouns) to the concrete ego-view data."
+}

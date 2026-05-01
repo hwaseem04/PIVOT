@@ -1,0 +1,15 @@
+{
+    "extracted_content": "The data collection hardware consists of a Microsoft HoloLens 2, utilizing its long-throw depth sensor for 3D sequences and an RGB camera for visual context. A specific challenge addressed is the flexible nature of the head-mount; the depth sensor is positioned a few centimeters above the eyes, and its relative location to the RGB camera is not fixed, which complicates the alignment of the user's field of view with the sensor's frustum. To mitigate this, a thin opaque rectangular hologram is projected to guide the assembler. The post-processing pipeline synchronizes the ~30 FPS RGB stream with the ~5 FPS depth stream using nearest timestamp matching. Because the RGB camera's receptive field is smaller than that of the depth sensor, the final oriented 3D point clouds contain some points without color values, though all points retain spatial $(x, y, z)$ and normal vector $(N_x, N_y, N_z)$ data.",
+    "key_figures": [
+        {
+            "ref": "Figure 1",
+            "caption": "Overview of the IKEA Ego 3D dataset. The dataset includes 174 assembly sequences captured using a Microsoft HoloLens 2. The captured RGB and Depth streams are labelled with 56 action labels per frame. The data is then aligned and synced to form 3D point cloud sequences that are the input to 3D action recognition algorithms.",
+            "relevance": "Specifically highlights the 'Capture' and 'Process' stages of the pipeline, showing the transition from raw multi-modal sensor streams to synchronized 3D point clouds."
+        }
+    ],
+    "key_tables": [],
+    "key_equations": [],
+    "section_refs": [
+        "Section 3.1"
+    ]
+}

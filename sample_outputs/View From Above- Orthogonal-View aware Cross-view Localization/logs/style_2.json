@@ -1,0 +1,27 @@
+{
+    "layout_template": "full_fig_with_callouts",
+    "background_color": "#FFFFFF",
+    "layout_regions": {
+        "title": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.9,
+            "h": 0.1
+        },
+        "figure": {
+            "x": 0.05,
+            "y": 0.18,
+            "w": 0.9,
+            "h": 0.45
+        },
+        "bullets": {
+            "x": 0.05,
+            "y": 0.65,
+            "w": 0.9,
+            "h": 0.3
+        }
+    },
+    "has_figure": true,
+    "has_video": false,
+    "style_rationale": "The T2GA module is best explained through its wide horizontal visualizations (Figures 3 and 4) which show the column-wise attention and its impact on confidence maps. A full-width figure layout prevents these wide images from being shrunk, while providing space below for the mathematical formulation and key functional bullets."
+}

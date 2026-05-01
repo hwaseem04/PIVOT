@@ -1,0 +1,127 @@
+{
+    "scene_id": 1,
+    "title": "Motivation for Ego-View 3D Action Recognition",
+    "summary": "Explains the need for 3D point cloud action recognition in ego-view scenarios, particularly for head-mounted devices where RGB data may be degraded or insufficient for safety-critical applications.",
+    "paper_section": "1. Introduction",
+    "narrative_role": "introduction",
+    "duration_stat": {
+        "min": 8.0,
+        "max": 15.0,
+        "avg": 10.0
+    },
+    "extracted_content": "The research is motivated by the rapid proliferation of head-mounted virtual, augmented, and mixed reality devices (e.g., Apple Vision Pro, Microsoft HoloLens 2, Meta Quest 3) which produce ego-view RGB and 3D point cloud streams. While RGB video is the standard modality for action recognition, it can be insufficient in scenarios with poor lighting or in safety-critical applications where sensor redundancy is required. 3D point clouds offer a robust alternative modality, yet their potential remains largely untapped due to a lack of annotated data. Existing 3D datasets are primarily captured from static, distant sensors, which fail to account for camera motion and hinder the recognition of fine-grained actions involving small objects. There is a significant gap in the literature for datasets that combine ego-view perspectives with 3D point cloud sequences, which is essential for developing applications in wearable-device scenarios.",
+    "layout": {
+        "template": "two_col_fig_right",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.9,
+                "h": 0.1
+            },
+            "bullets": {
+                "x": 0.05,
+                "y": 0.2,
+                "w": 0.4,
+                "h": 0.7
+            },
+            "figure": {
+                "x": 0.5,
+                "y": 0.2,
+                "w": 0.45,
+                "h": 0.7
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "Motivation for Ego-View 3D Action Recognition",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 1",
+            "caption": "Overview of the IKEA Ego 3D dataset capture and multi-modal processing"
+        },
+        "bullets": [
+            "Proliferation of head-mounted devices like HoloLens 2 and Vision Pro",
+            "RGB limitations in low-light or safety-critical applications",
+            "3D point clouds offer robust sensor redundancy and fine-grained detail",
+            "Existing 3D datasets lack the essential ego-view perspective"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "As head-mounted devices proliferate,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.04,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "relying solely on RGB video is insufficient for low-light or safety-critical tasks.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 6.08,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "3D point clouds provide essential sensor redundancy,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 9.12,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "yet ego-view 3D datasets are currently scarce.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 12.16,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "We bridge this gap to enable fine-grained action recognition from a first-person perspective.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 15.2,
+    "source": [
+        "1. Introduction",
+        "Figure 1",
+        "Table 1"
+    ],
+    "audio_content": "As head-mounted devices proliferate, relying solely on RGB video is insufficient for low-light or safety-critical tasks. 3D point clouds provide essential sensor redundancy, yet ego-view 3D datasets are currently scarce. We bridge this gap to enable fine-grained action recognition from a first-person perspective.",
+    "prompt": "A slide showing the motivation for the research. On the left, four bullet points explain the need for 3D ego-view data due to HMD proliferation and RGB limitations. On the right, Figure 1 from the paper illustrates the IKEA Ego 3D dataset overview, showing the capture process with a HoloLens 2 and the resulting RGB, depth, and point cloud streams."
+}

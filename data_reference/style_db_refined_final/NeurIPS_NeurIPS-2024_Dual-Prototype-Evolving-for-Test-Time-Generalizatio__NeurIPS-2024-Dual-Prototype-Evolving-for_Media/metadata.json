@@ -1,0 +1,302 @@
+{
+  "video_id": "NeurIPS_NeurIPS-2024_Dual-Prototype-Evolving-for-Test-Time-Generalizatio__NeurIPS-2024-Dual-Prototype-Evolving-for_Media",
+  "duration": 296.07,
+  "fps_sampled": 1.0,
+  "total_slides": 15,
+  "slides_with_builds": 0,
+  "total_build_steps": 15,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 54.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Dual Prototype Evolving for Test-Time Generalization of Vision-Language Models",
+        "layout_description": "The slide follows a centered title slide layout on a plain white background. At the top left, the Carnegie Mellon University School of Computer Science logo is displayed, while the Neural Information Processing Systems (NeurIPS) logo is positioned at the top right. The main title is centered in a large, bold, black font. Below the title, the names of four authors are listed horizontally. Underneath the authors, the institutional affiliation 'School of Computer Science, Carnegie Mellon University' is centered, followed by a line of monospaced email addresses. Near the bottom, there is information about the poster session and a clickable project page URL. The slide also features UI elements from a presentation viewer, including large circular navigation arrows on the left and right sides, a control bar at the bottom center indicating 'Slide 1 / 9', and a page number '1' in the bottom right corner. The text density is light, focusing on key identifying information."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "method",
+      "t_start": 54.0,
+      "t_end": 60.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 54.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "diagram-centric layout",
+        "title_text": "DPE Overview",
+        "layout_description": "The slide features a large, bold, dark red title 'DPE Overview' at the top-left and the 'NEURAL INFORMATION PROCESSING SYSTEMS' logo at the top-right. The main body is dominated by a complex, multi-stage flowchart illustrating the DPE architecture, flowing from left to right. On the left, three input categories are shown: 'Text Descriptions', 'High-Confidence Samples' (with small images of dogs, cats, and cars), and 'Augmented Test Images'. These lead into 'Text Encoder' and 'Image Encoder' blocks, which are annotated with snowflake icons (indicating frozen weights) or fire icons (indicating trainable components). The center of the diagram depicts the initialization and evolution of 'Textual Prototypes' and 'Visual Prototypes', connected by a circular 'L_align' loss term. To the right of this, the process continues through 'Predictions of All Views', 'Confidence Selection', and an 'Average' step that produces a final output and an 'L_aug' loss. On the far right, two separate panels visualize 'Textual Prototype Evolution' and 'Visual Prototype Evolution' using node-link diagrams and a clock icon to signify temporal change. A two-line summary sentence is placed at the bottom-left, and the page number '3' is at the bottom-right. The overall text density is moderate, with a clean white background and a color-coded scheme for different data modalities."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "method",
+      "t_start": 60.0,
+      "t_end": 71.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 60.0,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "diagram-centric layout",
+        "title_text": "DPE Overview",
+        "layout_description": "The slide features a large, complex architectural diagram centered between a top title and a bottom summary text. The title 'DPE Overview' is positioned in a large, bold, dark red font at the top-left, while the 'NEURAL INFORMATION PROCESSING SYSTEMS' logo with its purple dot pattern is at the top-right. The central diagram flows from left to right, starting with input sources on the left: 'Text Descriptions', 'High-Confidence Samples' (images of dogs, cats, and cars), and 'Augmented Test Images'. These inputs pass through frozen encoders, indicated by snowflake icons. The middle section illustrates 'Textual Prototypes' and 'Visual Prototypes' undergoing a 'Prototype Evolving' process with an 'L_align' loss. To the right of the main flow, two separate panels show the 'Textual Prototype Evolution' and 'Visual Prototype Evolution' over time, marked by clock icons. The final stage of the main diagram shows 'Predictions of All Views', 'Confidence Selection', and an 'Average' step leading to final class scores and an 'L_aug' loss. A two-line summary paragraph at the bottom explains the method's use of prototypes and CLIP. The slide has a white background with a page number '3' in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "method",
+      "t_start": 71.0,
+      "t_end": 75.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 71.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Prototype Evolution",
+        "layout_description": "The slide follows a clean, single-column layout on a white background. The title 'Prototype Evolution' is prominently displayed in the top-left corner in a large, bold, dark red font. In the top-right corner, there is a logo for 'NEURAL INFORMATION PROCESSING SYSTEMS' featuring a purple abstract neural network icon. The main body of the slide starts with an introductory paragraph. Below this, the content is structured into two main hierarchical sections: 'Textual Prototype Evolution' and 'Visual Prototype Evolution'. Each section is introduced by a bolded heading with a square bullet point and contains two sub-bullets marked with small circles. The text is left-aligned, and the hierarchical structure uses indentation to organize the information. A small page number '4' is visible in the bottom-right corner. The slide has a moderate text density with significant white space, making it easy to read."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "method",
+      "t_start": 75.0,
+      "t_end": 123.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 75.0,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and hierarchical bullets",
+        "title_text": "Prototype Evolution",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. The title, 'Prototype Evolution', is prominently displayed in the top-left corner in a large, bold, dark red font. In the top-right corner, there is a decorative purple logo for 'NEURAL INFORMATION PROCESSING SYSTEMS'. The main body of the slide begins with an introductory paragraph explaining the 'DPE method'. This is followed by two main sections, each marked with a square bullet and a bolded sub-heading: 'Textual Prototype Evolution' and 'Visual Prototype Evolution'. Each of these sections contains two sub-bullets (circles) that provide technical details about the approach. The text is left-aligned throughout, creating a clear hierarchical structure. A small page number '4' is visible in the bottom-right corner. The overall text density is moderate, focusing on explaining the methodology."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 123.0,
+      "t_end": 135.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 123.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Prototype Residual Learning",
+        "layout_description": "The slide follows a single-column layout with a prominent title at the top left. The title 'Prototype Residual Learning' is styled with 'Prototype' and 'Learning' in dark red and 'Residual' in a lighter pinkish-red. In the top right corner, there is a logo for 'NEURAL INFORMATION PROCESSING SYSTEMS' featuring a purple circular pattern. The main body of the slide contains dense text that suffers from a visual overlay issue, where two different sets of text (one dark grey and one light grey) are rendered on top of each other, making it difficult to read. Despite this, a hierarchical structure is apparent, using square bullet points and indented sub-bullets to organize the content into sections like 'Textual Prototype Evolution' and 'Visual Prototype Evolution'. The text describes methodology details such as 'prototype residual learning', 'multi-modal prototypes', and 'self-supervised alignment loss'. A small page number '5' is positioned in the bottom right corner against a plain white background."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 135.0,
+      "t_end": 164.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 135.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Prototype Residual Learning",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. The title, 'Prototype Residual Learning', is prominently displayed at the top-left in a large, bold, dark red font. In the top-right corner, the 'NEURAL INFORMATION PROCESSING SYSTEMS' logo is visible, featuring a purple abstract circular pattern. The main body of the slide consists of an introductory sentence followed by two primary bullet points marked with small square icons. The first bullet point contrasts the proposed method with previous approaches, using bold and italicized text for emphasis on key technical phrases. The second bullet point introduces an alignment constraint and includes a single nested sub-bullet, marked with a small circle, which elaborates on the use of a self-supervised alignment loss. Throughout the text, important terms are highlighted in bold italics to draw attention. A small page number '5' is positioned in the bottom-right corner. The text density is moderate, maintaining a clear and readable structure with ample white space."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "results",
+      "t_start": 164.0,
+      "t_end": 165.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 164.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Experiments",
+        "layout_description": "The slide features a clean, white background with a large bold title 'Experiments' in dark red at the top-left. Below the title, a single bullet point marked with a small red square introduces the content: 'Performance comparisons on robustness to natural distribution shifts'. The main body of the slide is occupied by a large, detailed table comparing various methods across multiple datasets. The table is split into two horizontal blocks, one for 'CLIP-ResNet-50' and another for 'CLIP-ViT-B/16'. Each block lists several baseline methods and the proposed 'DPE (Ours)' method, which is highlighted with a light gray background to draw attention. The table columns represent different ImageNet variants (ImageNet, ImageNet-A, ImageNet-V2, ImageNet-R, ImageNet-S) and average performance metrics (Average, OOD Average). In the top-right corner, there is a purple logo for 'NEURAL INFORMATION PROCESSING SYSTEMS'. A small page number '6' is located at the bottom-right corner. The text density is moderate to high due to the numerical data in the table."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "results",
+      "t_start": 165.0,
+      "t_end": 189.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 165.0,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Experiments",
+        "layout_description": "The slide has a clean, white background with a large bold title 'Experiments' in dark red at the top-left. Directly below the title is a single bullet point marked with a small red square, describing the content as performance comparisons on robustness to natural distribution shifts. The central focus is a large table that spans the width of the slide, presenting quantitative data. The table is organized into two main sections based on the model architecture: CLIP-ResNet-50 and CLIP-ViT-B/16. Each section lists various methods in the first column and their performance across seven other columns representing different datasets and averages. The rows for the proposed method, 'DPE (Ours)', are highlighted with a light gray background to stand out, and the best-performing values in each column are bolded. In the top-right corner, there is a purple decorative logo for 'NEURAL INFORMATION PROCESSING SYSTEMS'. A small page number '6' is positioned in the bottom-right corner. The slide has a moderate text density, primarily due to the numerical values within the table."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "results",
+      "t_start": 189.0,
+      "t_end": 195.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 189.0,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Experiments",
+        "layout_description": "The slide features a large, bold title 'Experiments' in a dark red color at the top-left. Directly below the title is a single bullet point stating 'Performance comparisons on cross-datasets generalization'. The central and largest element of the slide is a comprehensive data table that spans nearly the entire width. This table is organized into two main horizontal sections based on the model architecture: 'CLIP-ResNet-50' and 'CLIP-ViT-B/16'. Each section compares several methods (including the proposed 'DPE (Ours)') across ten different datasets and an 'Average' column. The rows for 'DPE (Ours)' are highlighted with a light gray background to draw attention to the proposed method's performance. Numerical values representing the best performance in each column are bolded. In the top-right corner, there is a decorative purple logo for 'NEURAL INFORMATION PROCESSING SYSTEMS'. A small page number '7' is positioned in the bottom-right corner. The slide has a clean white background and a moderate-to-high text density due to the extensive numerical data in the table."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "results",
+      "t_start": 195.0,
+      "t_end": 198.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 195.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and large table",
+        "title_text": "Experiments",
+        "layout_description": "The slide has a clean white background with a large, bold, dark red title 'Experiments' positioned at the top-left. Below the title, a single bullet point with a small square icon introduces the main content: 'Performance comparisons on cross-datasets generalization'. The majority of the slide is occupied by a large, detailed data table. This table is organized into two main horizontal sections, each representing a different backbone architecture (CLIP-ResNet-50 and CLIP-ViT-B/16). Each section lists several methods in the first column, including the authors' proposed 'DPE (Ours)', which is highlighted with a light gray background. The subsequent columns represent various datasets (Aircraft, Caltech, Cars, DTD, EuroSAT, Flower, Food101, Pets, SUN397, UCF101) and an 'Average' column. The table is filled with numerical performance data, with the best results in each column bolded for emphasis. In the top-right corner, there is a purple decorative logo for 'NEURAL INFORMATION PROCESSING SYSTEMS'. A small page number '7' is visible in the bottom-right corner. The text density is high due to the extensive numerical information presented in the table."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "experiments",
+      "t_start": 198.0,
+      "t_end": 210.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 198.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "multi-section grid layout",
+        "title_text": "Experiments",
+        "layout_description": "The slide uses a white background with a large, bold, dark red title 'Experiments' at the top-left. The content is organized into three distinct blocks, each introduced by a subheading with a small red square icon. The top-left block contains a data table titled 'Efficiency comparison on ImageNet' comparing six methods across testing time and accuracy metrics. The top-right block features a table titled 'Ablation study on different textual prototype evolution rules' that includes a column for mathematical update formulas. The bottom half of the slide, titled 'More ablation studies', displays three figures side-by-side: a 3D bar chart on the left showing accuracy across two parameters, a grouped bar chart in the center comparing refinement methods across three datasets, and a line graph on the right showing accuracy trends relative to a scale factor. A purple dot-pattern logo for 'NEURAL INFORMATION PROCESSING SYSTEMS' is in the top-right corner, and the page number '8' is at the bottom-right. The text density is moderate to dense, utilizing a color palette of teal, green, orange, and pink for the graphical data."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "results",
+      "t_start": 210.0,
+      "t_end": 249.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 210.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "Experiments",
+        "layout_description": "The slide features a grid-like layout with a large, bold, dark red title 'Experiments' at the top-left. Below the title, the content is organized into three main sections, each marked with a small red square bullet point. The top-left section contains a table titled 'Efficiency comparison on ImageNet' that compares several methods based on testing time, accuracy, and gain, with the 'DPE (Ours)' row highlighted in light gray. To its right, the top-right section presents a table titled 'Ablation study on different textual prototype evolution rules', showing various update rules, their mathematical formulas, and resulting accuracy, with the 'Cumulative Avg.' row highlighted. The bottom half of the slide, under the heading 'More ablation studies', contains three side-by-side data visualizations: a 3D bar chart on the left showing accuracy across two parameters, a grouped bar chart in the center comparing refinement methods across three datasets, and a line chart on the right showing accuracy versus a scale factor. The 'NEURAL INFORMATION PROCESSING SYSTEMS' logo is located in the top-right corner, and the page number '8' is visible in the bottom-right corner. The slide has a moderate text density and uses a consistent color scheme of teal, green, orange, and red for the charts."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "conclusion",
+      "t_start": 249.0,
+      "t_end": 255.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 249.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Takeaways",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. The title 'Takeaways' is prominently displayed in a large, bold, dark red font at the top-left. In the top-right corner, there is a logo for 'NEURAL INFORMATION PROCESSING SYSTEMS' (NeurIPS) featuring a purple circular dot pattern. The main body of the slide starts with an introductory sentence followed by three bullet points, each preceded by a small red square icon. The text within these bullets uses bold and italicized formatting to emphasize key terms like 'progressively', 'multi-modal representations', 'consistent', 'align', and 'competitive computational efficiency'. At the bottom of the slide, a footer contains contact information for two authors, Ce Zhang and Yaqi Xie, including their hyperlinked email addresses. A page number '9' and a small black envelope icon are positioned in the bottom-right corner. The text density is moderate, maintaining a professional and readable appearance with significant white space."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "conclusion",
+      "t_start": 255.0,
+      "t_end": 296.07,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 255.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Takeaways",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. The title 'Takeaways' is prominently displayed in the top-left corner in a large, bold, dark red font. To the right of the title, in the top-right corner, is the logo for 'NEURAL INFORMATION PROCESSING SYSTEMS' (NeurIPS), featuring a purple circular pattern of dots. The main body of the slide starts with an introductory sentence followed by three distinct bullet points, each marked with a small red square icon. The text within these bullets uses bold and italicized formatting to emphasize key technical terms and findings. At the bottom of the slide, there is a footer containing contact information for two authors, including their names and hyperlinked email addresses, accompanied by a small black envelope icon. A page number '9' is positioned in the bottom-right corner. The text density is moderate, with significant white space providing a clear and readable structure."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 239,
+    "gemini_layout_calls": 226,
+    "total_gemini_calls": 465,
+    "total_frames_sampled": 297,
+    "batch_size": 15
+  }
+}

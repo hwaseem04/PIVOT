@@ -1,0 +1,1855 @@
+{
+  "video_id": "Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation",
+  "duration": 911.67,
+  "fps_sampled": 1.0,
+  "total_slides": 82,
+  "slides_with_builds": 33,
+  "total_build_steps": 138,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 10.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation",
+        "layout_description": "The slide follows a centered title slide layout on a plain white background. The main title is positioned at the top center in a large, dark blue, sans-serif font, split across three lines. Below the title, two square portrait photographs of the authors are placed side-by-side in the middle of the slide. The names 'Ming Xu' and 'Stephen Gould' are centered directly beneath their respective photos. The bottom section of the slide features three institutional and conference logos arranged in a single row: the CVPR 2024 logo on the left, the 'seeing machines' logo in the center, and the Australian National University logo on the right. The text density is light, and the overall design is clean and professional."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 10.0,
+      "t_end": 15.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 10.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Temporal Action Segmentation (TAS)",
+        "layout_description": "The slide follows a minimalist single-column layout with a prominent title at the top. The title, 'Temporal Action Segmentation (TAS)', is written in a large, dark blue sans-serif font and is positioned in the upper portion of the slide. The central area of the slide is completely empty, consisting of a plain white background. A thin footer runs along the bottom edge of the slide. On the left side of this footer, there is small black text identifying the authors and the paper title: 'Ming Xu and Stephen Gould. Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation'. On the right side of the footer, the page number '2' is visible. The overall text density is very light, indicating this is likely a section transition or a high-level introductory slide."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 15.0,
+      "t_end": 65.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 16.0,
+          "image": "slide_3_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 23.0,
+          "image": "slide_3_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Temporal Action Segmentation (TAS)",
+        "layout_description": "The slide features a clean, white background with a large, dark blue title positioned at the top-left. Below the title, there are two bullet points indicated by arrow icons. The first bullet defines the task as a 1D temporal segmentation task, and the second bullet explains the assignment of video frames to action classes, with the word 'frames' highlighted in a bold, dark red font. Centered below these bullet points on the left side is a diagram illustrating the TAS process. The diagram shows a long, rectangular box representing an 'Untrimmed Procedural Video' being transformed via a downward arrow into a segmented box labeled 'Temporal Action Segmentation', which is divided into six color-coded sections labeled 'Action 1' through 'Action 6'. A small citation is placed directly under the diagram. At the very bottom, a footer contains the authors' names and the full paper title on the left, with the page number '2' on the far right. The text density is light, prioritizing visual clarity."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 65.0,
+      "t_end": 75.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 65.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Unsupervised Learning: Simultaneous Learning and Clustering",
+        "layout_description": "The slide features a minimalist, single-column layout with a clean white background. A large, dark blue title is positioned at the top-left, spanning two lines. In the top-right corner, there is the logo for the Australian National University. The main body of the slide is entirely empty, creating a high amount of negative space. At the bottom-left, a footer in a small font size lists the authors and the full paper title: 'Ming Xu and Stephen Gould. Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation'. A page number '3' is located in the bottom-right corner. The overall text density is very light, serving as a section header or introductory slide."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "method",
+      "t_start": 75.0,
+      "t_end": 114.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 75.0,
+          "image": "slide_5_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 77.0,
+          "image": "slide_5_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 84.0,
+          "image": "slide_5_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Unsupervised Learning: Simultaneous Learning and Clustering",
+        "layout_description": "The slide uses a clean, single-column layout with a white background. A large, dark blue title is aligned to the top-left. In the top-right corner, the logo for the Australian National University is present. The main content area consists of two primary text elements: a top-level statement about jointly learning representations and labels (with 'representations' and 'labels' in bold italics), followed by a single bullet point indicated by a right-pointing arrow icon that explains the alternating process of label generation and learning. A footer runs along the bottom edge, containing the authors' names on the left, the paper title in the center, and the page number '3' on the right. The text density is light, providing a high-level conceptual overview."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 114.0,
+      "t_end": 120.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 114.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Example: Image Classification",
+        "layout_description": "The slide features a clean, single-column layout on a white background. A large, bold, dark blue title is positioned at the top-left, with a smaller sub-heading directly below it referencing 'DeepClustering (Caron et al., 2018)'. The top-right corner contains the logo for the Australian National University. The center of the slide is occupied by a horizontal flow diagram depicting a machine learning pipeline. This diagram consists of three main components connected by arrows: an 'Input' box on the left showing a 2x2 grid of images, a central 'Convnet' box illustrating a 3D convolutional neural network architecture, and a 'Clustering' box on the right displaying a scatter plot of colored data points. At the bottom of the slide, a footer contains the authors' names and the full paper title on the left, while a page number '5' is placed on the right. The overall text density is light, prioritizing the visual diagram."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 120.0,
+      "t_end": 131.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 120.0,
+          "image": "slide_7_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 123.0,
+          "image": "slide_7_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 125.0,
+          "image": "slide_7_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Example: Image Classification",
+        "layout_description": "The slide follows a standard academic format with a white background. A large, bold, dark blue title is positioned at the top-left, while the Australian National University logo is placed in the top-right corner. Below the main title, a sub-heading introduces 'DeepClustering' as an example. The central portion of the slide contains a technical diagram showing a machine learning pipeline: it starts with an 'Input' image grid, followed by a 'Convnet' block, which then branches into 'Clustering' and 'Classification' modules. Arrows indicate the flow of data and a 'Backprop' path returning to the network. At the bottom of the slide, there are two bullet points marked with arrow-shaped icons that summarize the method's core concepts. A thin footer at the very bottom includes the authors' names, the full paper title, and the slide number '6' on the right."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 131.0,
+      "t_end": 135.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 131.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central diagram",
+        "title_text": "Example: Image Classification",
+        "layout_description": "The slide features a large, bold title at the top-left and the Australian National University logo at the top-right. Below the title, there is a sub-heading identifying a specific example, 'SeLA (Asano et al., 2020)'. The center of the slide is occupied by a flow diagram illustrating a machine learning pipeline: it starts with a grid of four input images on the left, which feed into a 3D-rendered convolutional neural network (Convnet). The output of the Convnet splits into two paths: one leading to a 'Classification' bar chart and another to a blue box labeled 'Optimal Transport (OT)'. An arrow labeled 'Pseudo-labels' points from the OT box to the classification task, and a 'Backprop' arrow indicates the feedback loop. At the bottom, a single bullet point highlighted with a right-pointing arrow icon presents the core 'Idea' in bold, with 'optimal transport (OT)' emphasized in red. A footer at the bottom contains the authors' names, the presentation title, and the page number '7' in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 135.0,
+      "t_end": 147.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 135.0,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Example: Image Classification",
+        "layout_description": "The slide follows a clean, single-column layout on a white background. The main title is located at the top-left in a large, dark blue font, with the Australian National University logo positioned in the top-right corner. Below the title, a sub-heading introduces a specific example, 'SeLA (Asano et al., 2020)'. The central portion of the slide contains a flow diagram illustrating a neural network architecture: it shows 'Input' images passing through a 'ConvNet' block, which then branches into a 'Classification' bar chart and an 'Optimal Transport (OT)' module. Arrows indicate the flow of data, including 'Pseudo-labels' from OT to Classification and a 'Backprop' path from Classification back to the ConvNet. Near the bottom, a single bullet point with a red arrow icon emphasizes the core concept: 'Idea: Use optimal transport (OT) for label generation!', with the key phrase highlighted in red. A footer at the very bottom includes the authors' names, the full paper title, and the page number '7' on the right."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 147.0,
+      "t_end": 150.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 147.0,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Optimal Transport for Pseudo-labels",
+        "layout_description": "The slide follows a minimalist single-column layout with a plain white background. A large, dark blue title is aligned to the top-left. In the top-right corner, the logo for the Australian National University is visible. Below the title, there is a single line of text that introduces a problem setup involving 'N training images and K clusters/classes'. The majority of the slide's central area is currently blank. At the very bottom, a footer contains the authors' names, the full paper title, and a page number '2' in the bottom-right corner. The text density is extremely light, likely serving as an introductory slide for a mathematical formulation."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 150.0,
+      "t_end": 189.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 150.0,
+          "image": "slide_11_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 158.0,
+          "image": "slide_11_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Optimal Transport for Pseudo-labels",
+        "layout_description": "The slide follows a clean, single-column layout with a white background. The title is prominently displayed in a large, dark blue font at the top left, while the Australian National University logo is positioned in the top right corner. Below the title, a single line of text introduces the mathematical problem for N training images and K clusters. The central focus of the slide is a block of centered equations defining an optimization problem: a 'minimize' objective followed by two 'subject to' constraints. At the bottom, a footer contains the authors' names and the paper title on the left, with a small page number '2' on the right. The text density is light, emphasizing the mathematical formulation."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "method",
+      "t_start": 189.0,
+      "t_end": 195.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 189.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered equations",
+        "title_text": "Optimal Transport for Pseudo-labels",
+        "layout_description": "The slide has a clean white background with a dark blue title positioned at the top left. Below the title, a single line of black text introduces a mathematical problem. The central part of the slide contains a centered optimization block with 'minimize' and 'subject to' clauses followed by matrix-vector equations. A notable visual element is a thick red rectangular box highlighting the first constraint equation. Directly below the equations, a line of bold red text provides a key takeaway. The top right corner features the logo of the Australian National University. A footer runs along the bottom edge, containing the authors' names, the paper title 'Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation', and the page number '11' in the bottom right corner. The overall text density is light, focusing on the mathematical formulation."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "method",
+      "t_start": 195.0,
+      "t_end": 196.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 195.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Optimal Transport for Pseudo-labels",
+        "layout_description": "The slide follows a clean, single-column layout on a white background. The title is positioned at the top-left in a large, dark blue font, while the Australian National University logo is placed in the top-right corner. Below the title, a line of black text introduces an optimization problem for training images and clusters. The central part of the slide contains a mathematical optimization block, featuring 'minimize' and 'subject to' statements with matrix notation. A specific constraint equation within this block is highlighted by a thick red rectangular box. Below the equations, a single line of bold red text emphasizes a key requirement: 'All images must be labelled'. A footer at the very bottom contains the authors' names and paper title on the left, and the page number '11' on the right. The text density is light, with a focus on the mathematical formulation."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "method",
+      "t_start": 196.0,
+      "t_end": 209.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 196.0,
+          "image": "slide_14_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 205.0,
+          "image": "slide_14_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered equations",
+        "title_text": "Optimal Transport for Pseudo-labels",
+        "layout_description": "The slide follows a clean, single-column structure with a large, dark blue title positioned at the top-left. In the top-right corner, the logo for the Australian National University is visible. The main content begins with a line of introductory text followed by a centered mathematical optimization block. This block includes a 'minimize' objective and two 'subject to' constraints. Notably, the second constraint equation is highlighted with a prominent red rectangular box. Below the equations, a summary sentence is written in bold red text to explain the practical meaning of the highlighted constraint. A footer at the very bottom contains the authors' names and the paper title on the left, with the slide number '12' on the right. The background is plain white, and the text density is light, focusing on the mathematical formulation."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "method",
+      "t_start": 209.0,
+      "t_end": 210.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 209.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Optimal Transport for Pseudo-labels",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. A large, dark blue title is aligned to the top-left, while the Australian National University logo is placed in the top-right corner. The main content begins with a line of introductory text defining variables for training images and clusters. Below this, a mathematical optimization problem is centered, consisting of a minimization objective and two constraints. The second constraint is specifically highlighted with a thick red rectangular border. Following the equations, a bold red statement explains the purpose of the highlighted constraint, noting that it prevents collapse by ensuring pseudo-labels are evenly spread. A footer at the bottom edge contains the authors' names, the full paper title in a smaller font, and the page number '13' in the bottom-right corner. The overall text density is light, focusing on the mathematical formulation."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "method",
+      "t_start": 210.0,
+      "t_end": 216.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 210.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Optimal Transport for Pseudo-labels",
+        "layout_description": "The slide follows a clean, single-column structure on a white background. A large, dark blue title is aligned to the top-left, while the Australian National University logo is placed in the top-right corner. The main content begins with a single line of introductory text followed by a centered mathematical optimization block. This block includes a minimization objective and two linear constraints. The second constraint is specifically emphasized with a thick red rectangular box. Below the equations, a bold red summary statement explains the intuition behind the highlighted constraint. A thin grey footer at the bottom of the slide contains the authors' names, the paper title, and the page number '13' in the bottom-right corner. The overall text density is light, focusing on the mathematical formulation."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "method",
+      "t_start": 216.0,
+      "t_end": 225.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 216.0,
+          "image": "slide_17_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 222.0,
+          "image": "slide_17_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Optimal Transport for Pseudo-labels",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. The title is located at the top-left in a large, dark blue font. In the top-right corner, the Australian National University logo and name are displayed. The main body of the slide contains a single sentence followed by two bullet points. The bullet points are marked with small red arrow icons and contain text where specific keywords ('unstructured' and 'balanced') are emphasized in bold, red, italicized font. A footer runs along the bottom edge, containing the authors' names, the full paper title, and the page number '14' on the far right. The overall text density is light, leaving a large amount of empty white space in the lower half of the slide."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "introduction",
+      "t_start": 225.0,
+      "t_end": 237.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 225.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Optimal Transport for Pseudo-labels",
+        "layout_description": "The slide uses a clean, single-column layout with a white background. The title is located at the top-left in a large, dark blue font. In the top-right corner, there is the logo for the Australian National University. The main content consists of a short introductory sentence followed by two bullet points. Each bullet point is marked with a small red arrow icon. Within the bulleted text, the words 'unstructured' and 'balanced' are emphasized in a bold, italicized red font. The text density is light, with substantial white space throughout the slide. A footer at the very bottom contains the authors' names and the full paper title on the left, and the slide number '14' on the right."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "method",
+      "t_start": 237.0,
+      "t_end": 240.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 237.0,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Optimal Transport for Pseudo-labels",
+        "layout_description": "The slide follows a minimalist single-column layout with a plain white background. A large, dark blue title is positioned at the top left. Directly below the title, there is a single line of text starting with a bolded 'Remark:' followed by a brief note on the Sinkhorn-Knopp algorithm for entropy regularised OT. The rest of the slide's central area is entirely empty, resulting in a very light text density. The Australian National University logo is placed in the top right corner. A thin grey footer at the bottom contains the authors' names on the left, the full paper title in the center, and the page number '15' on the right."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "method",
+      "t_start": 240.0,
+      "t_end": 256.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 240.0,
+          "image": "slide_20_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 246.0,
+          "image": "slide_20_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Optimal Transport for Pseudo-labels",
+        "layout_description": "The slide follows a clean, single-column layout with a white background. A large, dark blue title is left-aligned at the top. In the top-right corner, the logo for the Australian National University is present. The main body of the slide starts with a bold 'Remark' heading followed by three bullet points. Each bullet point is marked with a right-pointing arrow icon and is left-aligned. The first bullet point includes mathematical Big O notation for computational complexity. The text density is light, with significant white space between elements. A footer runs along the bottom edge, containing the authors' names and paper title on the left, and the slide number '15' on the right."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "introduction",
+      "t_start": 256.0,
+      "t_end": 261.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 256.0,
+          "image": "slide_21_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with centered title",
+        "title_text": "Does This Work for Temporal Action Segmentation?",
+        "layout_description": "The slide features a minimalist layout with a plain white background. The central focus is a large, dark blue heading that poses a question, positioned in the middle of the slide. At the bottom of the slide, there is a footer containing small black text. On the bottom-left, the footer lists the authors and the full title of the paper: 'Ming Xu and Stephen Gould. Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation'. On the bottom-right, the slide number '16' is displayed. The overall text density is very light, with no bullet points, figures, or equations, serving as a transition or motivational slide."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "introduction",
+      "t_start": 261.0,
+      "t_end": 270.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 261.0,
+          "image": "slide_22_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Isn\u2019t This Just an Image Dataset?",
+        "layout_description": "The slide follows a minimalist single-column layout with a plain white background. The title is prominently placed at the top-left in a large, dark blue font. In the top-right corner, the Australian National University logo is visible. Below the title, a single line of black text serves as the primary content, posing a rhetorical question to the audience. The central area of the slide is largely empty, creating a high-contrast, low-density visual. A thin footer at the bottom contains the authors' names and the full paper title on the left side, while the slide number '17' is positioned in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "introduction",
+      "t_start": 270.0,
+      "t_end": 307.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 270.0,
+          "image": "slide_23_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 272.0,
+          "image": "slide_23_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 277.0,
+          "image": "slide_23_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 282.0,
+          "image": "slide_23_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Isn't This Just an Image Dataset?",
+        "layout_description": "The slide uses a clean, white background with a two-column comparison layout. At the top left, there is a large dark blue title, followed by a smaller subtitle question. The top right corner features the logo of the Australian National University. The main content is split into two side-by-side sections: 'Image Classification' on the left and 'Temporal Action Segmentation' on the right. The left section contains a single peach-colored rounded rectangle labeled 'Unordered Image Collection'. The right section features a hierarchical diagram where a purple box labeled 'Unordered Video Collection' points down to three light blue boxes labeled 'Structured Image Collection'. Each of these light blue boxes contains a small horizontal bar with multi-colored segments, visually representing temporal data. A footer at the bottom includes the authors' names, the full paper title in a small font, and the page number '17' in the bottom right corner. The text density is light, relying on simple diagrams to convey the conceptual difference between the two tasks."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "introduction",
+      "t_start": 307.0,
+      "t_end": 315.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 307.0,
+          "image": "slide_24_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figure",
+        "title_text": "Long-tail Class Distributions",
+        "layout_description": "The slide follows a clean, single-column layout on a white background. The main title, 'Long-tail Class Distributions', is written in a large, dark blue font at the top-left. Directly below it is a sub-heading text 'e.g., Breakfast dataset'. The center of the slide is dominated by a large bar chart with green bars, illustrating a long-tail distribution where the x-axis labels are rotated 45 degrees. A small caption, 'Figure courtesy Ding et al., 2023\u00b9', is centered below the chart. The Australian National University logo is positioned in the top-right corner. At the bottom-left, there is a small-text footnote citation. A footer runs across the bottom, containing the authors' names, the presentation title, and the page number '20' at the far right. The text density is light, with the visual chart being the primary focus."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "introduction",
+      "t_start": 315.0,
+      "t_end": 336.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 315.0,
+          "image": "slide_25_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 329.0,
+          "image": "slide_25_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figure",
+        "title_text": "Long-tail Class Distributions",
+        "layout_description": "The slide follows a clean, single-column layout on a white background. A large, dark blue title is positioned at the top-left, with the Australian National University logo in the top-right corner. Below the title, a single line of text introduces the 'Breakfast dataset' as an example. The center of the slide is dominated by a large bar chart with green bars illustrating a long-tail distribution, accompanied by a small figure credit below it. Underneath the figure, a bold red statement emphasizes the difficulty of curating balanced classes. The bottom section includes a small-font footnote on the left, a footer containing the authors' names and the paper title, and a page number '20' in the bottom-right corner. The overall text density is moderate, focusing on a single visual concept."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "method",
+      "t_start": 336.0,
+      "t_end": 345.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 336.0,
+          "image": "slide_26_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 341.0,
+          "image": "slide_26_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figure",
+        "title_text": "Standard Optimal Transport for Videos: Let's Try!",
+        "layout_description": "The slide has a minimalist design with a white background. A large, dark blue title is aligned to the top-left. Below the title, a smaller subtitle 'Label assignment costs (C)' precedes a centered heatmap. This heatmap represents a cost matrix with 'Cluster Index' (0-7) on the y-axis and 'Frame Index' (0-5000) on the x-axis, showing horizontal patterns of varying intensities. The Australian National University logo is placed in the top-right corner. A footer runs along the bottom, featuring the authors' names and paper title ('Ming Xu and Stephen Gould. Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation') on the left and the page number '31' on the right. The slide has a light text density, prioritizing the visual data representation."
+      }
+    },
+    {
+      "slide_id": 27,
+      "slide_section": "method",
+      "t_start": 345.0,
+      "t_end": 382.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 345.0,
+          "image": "slide_27_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 357.0,
+          "image": "slide_27_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 370.0,
+          "image": "slide_27_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 372.0,
+          "image": "slide_27_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Standard Optimal Transport for Videos: Let\u2019s Try!",
+        "layout_description": "The slide uses a comparison layout with a large, two-line bold title positioned at the top-left. In the top-right corner, the Australian National University logo is visible. The central part of the slide features two side-by-side heatmaps representing 'Label assignment costs (C)' on the left and 'OT pseudo-labels (T)' on the right, connected by a thick blue arrow pointing rightward. Below these figures, there are two bullet points on the left side: 'Temporal consistency' and 'Long-tail class distribution'. A large red 'X' icon is placed next to the first bullet point to indicate a negative result or limitation. The bottom of the slide contains a footer with the authors' names and paper title on the left, and the page number '21' on the right. The overall text density is moderate, set against a clean white background."
+      }
+    },
+    {
+      "slide_id": 28,
+      "slide_section": "method",
+      "t_start": 382.0,
+      "t_end": 390.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 382.0,
+          "image": "slide_28_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "A Regularisation Approach",
+        "layout_description": "The slide follows a clean, minimalist single-column layout. A large, dark blue title is positioned at the top-left. In the top-right corner, the logo for the Australian National University is visible. The central area of the slide is entirely blank, functioning as a section header or a transition slide. At the bottom-left, there are two lines of small-font text providing bibliographic citations for related research papers. The bottom-right corner contains the page number '22'. The overall text density is very light, set against a plain white background."
+      }
+    },
+    {
+      "slide_id": 29,
+      "slide_section": "method",
+      "t_start": 390.0,
+      "t_end": 417.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 390.0,
+          "image": "slide_29_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 395.0,
+          "image": "slide_29_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 404.0,
+          "image": "slide_29_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "A Regularisation Approach",
+        "layout_description": "The slide has a minimalist design with a white background. A large, dark blue title is positioned at the top-left, while the Australian National University logo sits in the top-right corner. The central content consists of a heatmap figure on the left, titled 'Label assignment costs (C)', which displays a color-coded matrix with 'Cluster Index' on the y-axis and 'Frame Index' on the x-axis. To the right of this heatmap is a large, centered blue plus sign, suggesting a conceptual addition to another component. The right side of the slide remains mostly empty. At the bottom-left, there are two lines of bibliographic references in a small font. The slide number '22' is placed in the bottom-right corner. The text density is light, emphasizing the visual data representation."
+      }
+    },
+    {
+      "slide_id": 30,
+      "slide_section": "method",
+      "t_start": 417.0,
+      "t_end": 420.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 417.0,
+          "image": "slide_30_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "A Regularisation Approach",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. A large, dark blue title is aligned to the top-left. In the top-right corner, the Australian National University logo is visible. The primary content is a single heatmap figure positioned on the left side of the slide, directly below the title. This figure, titled 'Regularised cost (C\u0303)', shows a data grid with 'Cluster Index' on the y-axis and 'Frame Index' on the x-axis, utilizing a color palette of dark blues and greens. A footer runs along the bottom edge, containing the authors' names and the full paper title on the left, and the page number '23' on the right. The slide has a light text density, prioritizing the visual data plot."
+      }
+    },
+    {
+      "slide_id": 31,
+      "slide_section": "method",
+      "t_start": 420.0,
+      "t_end": 439.0,
+      "num_builds": 6,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 420.0,
+          "image": "slide_31_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 422.0,
+          "image": "slide_31_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 424.0,
+          "image": "slide_31_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 426.0,
+          "image": "slide_31_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 428.0,
+          "image": "slide_31_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 432.0,
+          "image": "slide_31_build_5.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison/process layout",
+        "title_text": "A Regularisation Approach",
+        "layout_description": "The slide features a large, bold title 'A Regularisation Approach' positioned at the top-left, with the Australian National University logo in the top-right corner. The central part of the slide displays a process flow consisting of two side-by-side heatmaps. The left heatmap, titled 'Regularised cost (C\u0303)', is connected to the right heatmap, titled 'OT pseudo-labels (T)', by a thick blue arrow pointing right. Both heatmaps have 'Cluster Index' on the vertical axis and 'Frame Index' on the horizontal axis. Below the figures, there are two bullet points indicated by arrowhead icons. The first bullet point, 'Temporal consistency', is followed by a large blue question mark icon. The second bullet point, 'Long-tail class distribution', is followed by a red 'X' icon. A footer at the bottom contains the authors' names, the full paper title, and the page number '23' in a small, light font."
+      }
+    },
+    {
+      "slide_id": 32,
+      "slide_section": "method",
+      "t_start": 439.0,
+      "t_end": 450.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 439.0,
+          "image": "slide_32_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "A Regularisation Approach",
+        "layout_description": "The slide features a large, dark blue title at the top left and the Australian National University logo at the top right. The central content consists of two side-by-side heatmap visualizations connected by a thick blue arrow pointing from left to right. The left heatmap is titled 'Regularised cost (C\u0303)' and displays a dense pattern of green and blue horizontal bands. The right heatmap is titled 'OT pseudo-labels (T)' and shows a sparser, diagonally-oriented pattern of yellow and green segments against a dark purple background. Both plots share identical axes: 'Cluster Index' on the vertical axis and 'Frame Index' on the horizontal axis. Below these figures, a single line of text states 'Also assumes actions always occur in the same order!', with the latter part emphasized in red italics. A footer at the bottom contains the authors' names, the full paper title, and the slide number '24'. The overall design is clean with a white background and light text density, focusing on the visual transformation between the two data representations."
+      }
+    },
+    {
+      "slide_id": 33,
+      "slide_section": "method",
+      "t_start": 450.0,
+      "t_end": 451.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 450.0,
+          "image": "slide_33_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "A Regularisation Approach",
+        "layout_description": "The slide features a clean, white background with a large, dark blue title 'A Regularisation Approach' positioned at the top-left. In the top-right corner, the Australian National University logo is visible. The central content consists of two side-by-side heatmaps representing a transformation process. The left heatmap, titled 'Regularised cost (C\u0303)', displays a dense matrix of green and blue tones. A thick blue arrow points from this heatmap to the right one, titled 'OT pseudo-labels (T)', which shows a sparser, more structured matrix with bright yellow-green diagonal patterns against a dark purple background. Both heatmaps have 'Cluster Index' on the y-axis and 'Frame Index' on the x-axis. Below these figures, a single line of text states, 'Also assumes actions always occur in the same order!', with the final phrase highlighted in bold red. A thin grey footer at the bottom contains the authors' names, the full paper title, and the page number '24' in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 34,
+      "slide_section": "method",
+      "t_start": 451.0,
+      "t_end": 456.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 451.0,
+          "image": "slide_34_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "section header slide",
+        "title_text": "Core Methodology",
+        "layout_description": "The slide follows a minimalist section-header layout with a clean white background. The main title, 'Core Methodology', is rendered in a large, dark blue sans-serif font and is positioned in the center of the frame. A thin footer area at the bottom contains small black text: on the left side, it displays the authors and the full paper title ('Ming Xu and Stephen Gould. Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation'), and on the right side, it shows the slide number '25'. There are no bullet points, figures, or other decorative elements, resulting in a very light text density designed to signal a transition to a new section of the presentation."
+      }
+    },
+    {
+      "slide_id": 35,
+      "slide_section": "method",
+      "t_start": 456.0,
+      "t_end": 465.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 456.0,
+          "image": "slide_35_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 464.0,
+          "image": "slide_35_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Our Approach: Use Non-standard OT!",
+        "layout_description": "The slide features a clean, single-column layout on a plain white background. The title is located at the top-left in a large blue font, with the word 'Non' highlighted in red italics. Below the title, the main content consists of two spaced-out lines of text. The first line advises avoiding 'standard' OT in favor of 'structured optimal transport', with the latter phrase emphasized in red italics. The second line specifies the methodology as an 'unbalanced, fused Gromov-Wasserstein formulation', with the technical terms in italics. The Australian National University logo is positioned in the top-right corner. A footer at the bottom of the slide contains the authors' names on the left, the full paper title in the center, and the page number '26' on the right, all separated from the main body by a thin horizontal line. The text density is light, focusing on high-level conceptual statements."
+      }
+    },
+    {
+      "slide_id": 36,
+      "slide_section": "method",
+      "t_start": 465.0,
+      "t_end": 474.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 465.0,
+          "image": "slide_36_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 470.0,
+          "image": "slide_36_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Our Approach: Use Non-standard OT!",
+        "layout_description": "The slide features a clean, single-column layout on a plain white background. The main title is located at the top-left, with the word 'Non-standard' emphasized in red italics. Below the title, a sub-heading encourages avoiding standard OT in favor of 'structured optimal transport', also highlighted in red italics. The central part of the slide contains a statement about using an 'unbalanced, fused Gromov-Wasserstein formulation'. This is followed by two bullet points, each preceded by a right-pointing arrow icon, listing 'Temporal consistency' and 'Long-tail class distributions'. The Australian National University logo is positioned in the top-right corner. A footer at the bottom edge contains the authors' names, the full paper title, and the page number '26'. The text density is light, focusing on high-level conceptual points."
+      }
+    },
+    {
+      "slide_id": 37,
+      "slide_section": "method",
+      "t_start": 474.0,
+      "t_end": 480.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 474.0,
+          "image": "slide_37_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Our Approach: Use Non-standard OT!",
+        "layout_description": "The slide features a clean, single-column layout on a plain white background. The main title is located at the top left, with the word 'Non-standard' highlighted in red italics. In the top right corner, the Australian National University logo is present. The body of the slide consists of three main text blocks. The first two are introductory sentences that emphasize key terms like 'structured optimal transport' and 'unbalanced, fused Gromov-Wasserstein' using red italics. Below these sentences is a list of two bullet points, each preceded by a right-pointing arrow icon. These bullets map specific challenges ('Temporal consistency' and 'Long-tail class distributions') to methodological solutions ('Gromov-Wasserstein' and 'unbalanced transport'), with the solutions highlighted in bold red text. A thin footer at the bottom contains the authors' names, the paper title, and the slide number '27'. The text density is light, focusing on high-level conceptual points."
+      }
+    },
+    {
+      "slide_id": 38,
+      "slide_section": "method",
+      "t_start": 480.0,
+      "t_end": 483.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 480.0,
+          "image": "slide_38_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Our Approach: Use Non-standard OT!",
+        "layout_description": "The slide features a clean, single-column layout on a plain white background. The main title is located at the top left, with the word 'Non-standard' highlighted in red italics. In the top right corner, the Australian National University logo is present. The body of the slide consists of three main text blocks. The first two are introductory sentences that emphasize key terms like 'structured optimal transport' and 'unbalanced, fused Gromov-Wasserstein' using red italics. Below these sentences is a list of two bullet points, each preceded by a right-pointing arrow icon. These bullets map specific challenges ('Temporal consistency' and 'Long-tail class distributions') to methodological solutions ('Gromov-Wasserstein' and 'unbalanced transport'), with the solutions highlighted in bold red text. A thin footer at the bottom contains the authors' names, the paper title, and the slide number '27'. The text density is light, focusing on high-level conceptual points."
+      }
+    },
+    {
+      "slide_id": 39,
+      "slide_section": "method",
+      "t_start": 483.0,
+      "t_end": 495.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 483.0,
+          "image": "slide_39_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Gromov-Wasserstein for Encoding Structural Priors",
+        "layout_description": "The slide follows a minimalist single-column layout. A large, bold, two-line title is positioned at the top-left. In the top-right corner, there is a logo for the Australian National University. Below the title, a single sentence of introductory text is left-aligned, stating 'A (relatively) general formulation for (discrete) GW problems:'. The vast majority of the slide's body is empty white space. A thin footer at the bottom contains the authors' names and the full paper title on the left side, with the page number '22' on the far right. The text density is very light, and the background is plain white."
+      }
+    },
+    {
+      "slide_id": 40,
+      "slide_section": "method",
+      "t_start": 495.0,
+      "t_end": 543.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 495.0,
+          "image": "slide_40_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 497.0,
+          "image": "slide_40_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 503.0,
+          "image": "slide_40_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Gromov-Wasserstein for Encoding Structural Priors",
+        "layout_description": "The slide follows a clean, single-column structure on a white background. The title is prominently displayed at the top-left in a large, bold, dark blue font. In the top-right corner, the logo for the Australian National University is visible. Below the title, a brief introductory sentence leads into a centered mathematical optimization block. This block contains a 'minimize' objective function followed by 's.t.' (subject to) constraints involving matrix operations. Underneath the equations, there are two bullet points indicated by arrow-shaped icons that define the variables used in the formulation, such as cost matrices and a loss function. A footer at the bottom of the slide includes the authors' names, the full paper title, and a page number in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 41,
+      "slide_section": "method",
+      "t_start": 543.0,
+      "t_end": 555.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 543.0,
+          "image": "slide_41_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 549.0,
+          "image": "slide_41_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 554.0,
+          "image": "slide_41_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and mixed content",
+        "title_text": "Gromov-Wasserstein for Encoding Structural Priors",
+        "layout_description": "The slide follows a clean academic layout with a large, bold, two-line title positioned at the top-left. In the top-right corner, the Australian National University logo is visible. Below the title, a single line of introductory text sets the context for the mathematical definitions. The central content is organized horizontally: on the left, there is a square heatmap visualization showing a matrix with distinct yellow diagonal bands against a dark purple background, with axes labeled 'Frame index'. To the right of this figure, two mathematical equations define matrices using piecewise notation. A thin footer runs along the bottom of the slide, containing the authors' names, the paper title 'Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation', and the page number '30' in the bottom-right corner. The text density is moderate, and the overall color scheme is minimalist with a white background."
+      }
+    },
+    {
+      "slide_id": 42,
+      "slide_section": "method",
+      "t_start": 555.0,
+      "t_end": 617.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 555.0,
+          "image": "slide_42_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 564.0,
+          "image": "slide_42_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 597.0,
+          "image": "slide_42_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and mixed content",
+        "title_text": "Gromov-Wasserstein for Encoding Structural Priors",
+        "layout_description": "The slide features a clean white background with a large, bold, dark blue title positioned at the top-left. To the right of the title is the logo for the Australian National University. Below the title, a line of introductory text sets the context for a single video. The middle section of the slide is organized horizontally, featuring a mathematical definition block for two cost matrices flanked by two small square heatmap visualizations. The left heatmap is labeled with 'Frame index' and the right with 'Cluster index'. Below this central row, there are three bullet points marked with arrow icons that define mathematical parameters and a 'Remark' about a simplified objective function, where the word 'simplified' is highlighted in red. At the bottom of the main content area, a bold red italicized 'Intuition' statement provides a high-level summary. A thin footer at the bottom contains the authors' names, the full paper title, and the page number '30' in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 43,
+      "slide_section": "results",
+      "t_start": 617.0,
+      "t_end": 628.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 617.0,
+          "image": "slide_43_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Effect of the Structural Prior",
+        "layout_description": "The slide features a clean, white background with a large, dark blue title positioned at the top-left. In the top-right corner, the Australian National University logo is visible. The main content area follows a comparison structure, starting with the text 'From this....' below the title. Two side-by-side heatmap visualizations are presented, connected by a thick blue arrow pointing from left to right to indicate a transformation. The left heatmap is titled 'Label assignment costs (C)' and displays a dense, multi-colored grid. The right heatmap is titled 'OT pseudo-labels (T)' and shows a sparser, more discrete pattern. Both plots share identical axes: 'Cluster Index' (0-7) on the y-axis and 'Frame Index' (0-5000) on the x-axis. A footer at the bottom contains the authors' names, the full paper title in a smaller font, and the slide number '31' in the bottom-right corner. The overall text density is light, focusing primarily on the visual comparison of the two data representations."
+      }
+    },
+    {
+      "slide_id": 44,
+      "slide_section": "results",
+      "t_start": 628.0,
+      "t_end": 630.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 628.0,
+          "image": "slide_44_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Effect of the Structural Prior",
+        "layout_description": "The slide features a comparison layout with a large, dark blue title at the top left and the Australian National University logo at the top right. Below the title, a red sub-heading 'to this!' emphasizes the transition between two side-by-side figures. The central content consists of two heatmaps connected by a thick blue arrow pointing from left to right. The left heatmap, titled 'Label assignment costs (C)', displays a noisy grid of green and blue colors. The right heatmap, titled 'GW OT pseudo-labels (T)', shows a much cleaner, sparse representation with distinct yellow rectangular blocks on a dark purple background. Both plots share the same axes: 'Cluster Index' on the vertical axis and 'Frame Index' on the horizontal axis. A footer at the bottom contains the authors' names, the full paper title in a smaller font, and the page number '32' in the bottom right corner. The overall text density is light, focusing on the visual transformation between the two plots."
+      }
+    },
+    {
+      "slide_id": 45,
+      "slide_section": "method",
+      "t_start": 630.0,
+      "t_end": 637.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 630.0,
+          "image": "slide_45_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 633.0,
+          "image": "slide_45_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Effect of the Structural Prior",
+        "layout_description": "The slide features a clean white background with a dark border. A large, dark blue title is positioned at the top left, while the Australian National University logo is placed in the top right corner. Below the title, a red sub-heading 'to this!' introduces a central comparison between two heatmaps. The left heatmap, titled 'Label assignment costs (C)', displays a dense, noisy grid of green and blue colors. A thick blue arrow points from this plot to a second heatmap on the right, titled 'GW OT pseudo-labels (T)', which shows a sparse, structured pattern of yellow blocks on a dark purple background. Both plots share identical axes: 'Cluster Index' on the y-axis and 'Frame Index' on the x-axis. Below the visual comparison, a single bullet point marked with a right-pointing arrowhead states, 'Labels are still balanced however...'. A footer at the very bottom includes the authors' names, the full paper title, and the slide number '32' in the bottom right corner. The overall text density is light, emphasizing the visual transformation between the two plots."
+      }
+    },
+    {
+      "slide_id": 46,
+      "slide_section": "method",
+      "t_start": 637.0,
+      "t_end": 645.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 637.0,
+          "image": "slide_46_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 644.0,
+          "image": "slide_46_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Unbalanced Transport for Long-tail Class Distributions",
+        "layout_description": "The slide features a clean, single-column layout on a white background. The title is positioned at the top-left in a large, dark blue font. Below the title, a single line of text introduces the mathematical content, with the phrase 'replace constraints...' highlighted in bold red. The center of the slide is occupied by a mathematical optimization problem consisting of a 'minimize' objective function and two 'subject to' constraints. The second constraint is emphasized with a thick red rectangular border. In the top-right corner, the Australian National University logo is visible. A footer runs along the bottom edge, containing the authors' names, the full paper title, and the page number '33' in a small, light gray font. The overall text density is light, prioritizing the mathematical equations."
+      }
+    },
+    {
+      "slide_id": 47,
+      "slide_section": "method",
+      "t_start": 645.0,
+      "t_end": 648.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 645.0,
+          "image": "slide_47_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Unbalanced Transport for Long-tail Class Distributions",
+        "layout_description": "The slide features a clean, single-column layout on a white background. The title is positioned at the top-left in a large, dark blue font. Below the title, a single line of text introduces the mathematical content, with the phrase 'replace constraints...' highlighted in bold red. The center of the slide is occupied by a mathematical optimization problem consisting of a 'minimize' objective function and two 'subject to' constraints. The second constraint is emphasized with a thick red rectangular border. In the top-right corner, the Australian National University logo is visible. A footer runs along the bottom edge, containing the authors' names, the full paper title, and the page number '33' in a small, light gray font. The overall text density is light, prioritizing the mathematical equations."
+      }
+    },
+    {
+      "slide_id": 48,
+      "slide_section": "method",
+      "t_start": 648.0,
+      "t_end": 660.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 648.0,
+          "image": "slide_48_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 651.0,
+          "image": "slide_48_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Unbalanced Transport for Long-tail Class Distributions",
+        "layout_description": "The slide features a clean, white background with a single-column layout. A large, bold, two-line title is positioned at the top-left, while the Australian National University logo is placed in the top-right corner. Below the title, a line of introductory text includes a blue-colored phrase 'with a penalty!'. The center of the slide is dominated by a mathematical optimization problem consisting of a 'minimize' objective and a 'subject to' constraint. A specific term within the objective function is highlighted by a dark blue rectangular box. Underneath the equations, a single bullet point, marked with a right-pointing arrow icon, provides explanatory text about a parameter. A thin footer at the bottom contains the authors' names, the full paper title in a smaller font, and the page number '34' in the bottom-right corner. The text density is light, with a clear focus on the central mathematical formulation."
+      }
+    },
+    {
+      "slide_id": 49,
+      "slide_section": "method",
+      "t_start": 660.0,
+      "t_end": 663.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 660.0,
+          "image": "slide_49_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 661.0,
+          "image": "slide_49_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered equation",
+        "title_text": "Unbalanced Transport for Long-tail Class Distributions",
+        "layout_description": "The slide features a clean, single-column layout on a white background. A large, dark blue title is positioned at the top-left, while the Australian National University logo is placed in the top-right corner. Below the title, a brief introductory sentence leads into a centered mathematical optimization block. This block defines a minimization problem with a 'subject to' constraint; a specific penalty term involving KL-divergence is highlighted with a prominent dark blue rectangular box. Underneath the equation, two bullet points, each preceded by a right-pointing arrow icon, provide explanatory text about the parameters and divergence choice. The bottom of the slide contains a footer with the authors' names, the full paper title in a smaller font, and the page number '34' in the bottom-right corner. The overall text density is light, focusing on the mathematical formulation."
+      }
+    },
+    {
+      "slide_id": 50,
+      "slide_section": "results",
+      "t_start": 663.0,
+      "t_end": 675.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 663.0,
+          "image": "slide_50_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 667.0,
+          "image": "slide_50_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Unbalanced Transport for Long-tail Class Distributions",
+        "layout_description": "The slide uses a comparison layout to demonstrate the effectiveness of a proposed method. A large, bold, left-aligned title is positioned at the top, with the Australian National University logo in the top-right corner. The central content consists of two side-by-side heatmaps representing pseudo-labels. The left heatmap, titled 'GW OT pseudo-labels (T)', shows fragmented yellow segments against a dark background. A thick blue arrow in the middle points toward the right heatmap, titled 'ASOT pseudo-labels (T)' (with 'ASOT' highlighted in red), which displays much more contiguous and temporally consistent yellow segments. Both plots share the same axes: 'Cluster Index' on the vertical axis and 'Frame Index' on the horizontal axis. A footer at the bottom contains the authors' names, the full paper title in a smaller font, and the slide number '35' in the bottom-right corner. The overall text density is light, emphasizing the visual qualitative comparison."
+      }
+    },
+    {
+      "slide_id": 51,
+      "slide_section": "method",
+      "t_start": 675.0,
+      "t_end": 689.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 675.0,
+          "image": "slide_51_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 681.0,
+          "image": "slide_51_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 682.0,
+          "image": "slide_51_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 683.0,
+          "image": "slide_51_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Unbalanced Transport for Long-tail Class Distributions",
+        "layout_description": "The slide uses a comparison layout with a large, bold, left-aligned title at the top. Below the title, two heatmaps are positioned side-by-side, representing 'GW OT pseudo-labels (T)' on the left and 'ASOT pseudo-labels (T)' on the right. A thick blue arrow points from the left figure to the right one, indicating a transition or improvement. Both figures show 'Cluster Index' on the vertical axis and 'Frame Index' on the horizontal axis, with yellow segments on a dark purple background. Below these figures, there are two bullet points marked with arrow-head icons, emphasizing 'Temporal consistency' and 'Long-tail class distribution'. A small green checkmark icon is placed between the figures and the bulleted text. The Australian National University logo is located in the top right corner. A footer at the bottom contains the authors' names, the full paper title in a smaller font, and the page number '35' in the bottom right corner. The background is plain white, and the text density is light."
+      }
+    },
+    {
+      "slide_id": 52,
+      "slide_section": "method",
+      "t_start": 689.0,
+      "t_end": 690.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 689.0,
+          "image": "slide_52_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Action Segmentation Optimal Transport (ASOT)",
+        "layout_description": "The slide follows a minimalist single-column layout with a plain white background. A large, dark blue title is aligned to the top-left, with a single line of black text positioned directly underneath it. In the top-right corner, there is a logo for the Australian National University. The bottom of the slide features a footer containing the authors' names and the full paper title on the left side, and the page number '36' on the right side. The overall text density is very light, making it appear as a section header or a transition slide within the methodology part of the presentation."
+      }
+    },
+    {
+      "slide_id": 53,
+      "slide_section": "method",
+      "t_start": 690.0,
+      "t_end": 703.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 690.0,
+          "image": "slide_53_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 693.0,
+          "image": "slide_53_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 698.0,
+          "image": "slide_53_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 699.0,
+          "image": "slide_53_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered equation",
+        "title_text": "Action Segmentation Optimal Transport (ASOT)",
+        "layout_description": "The slide features a clean, single-column layout with a large, dark blue title positioned at the top-left and the Australian National University logo at the top-right. The central focus is a mathematical optimization problem for 'ASOT formulation'. The objective function is broken down into three components, each enclosed in a colored box (blue, green, and orange) with descriptive labels above them: 'temp. consist.', 'learned repn.', and 'long-tail class distn.'. Below the equation, a line of text defines the parameter alpha as a relative weighting term. A prominent summary line in bold orange text at the bottom of the main content area classifies the formulation as an 'Unbalanced, fused Gromov-Wasserstein problem!'. The slide concludes with a footer containing author names, the paper title, and the page number '36' in a small, light-colored font."
+      }
+    },
+    {
+      "slide_id": 54,
+      "slide_section": "method",
+      "t_start": 703.0,
+      "t_end": 705.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 703.0,
+          "image": "slide_54_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Action Segmentation Optimal Transport (ASOT)",
+        "layout_description": "The slide features a clean, single-column layout with a large, bold dark blue title at the top-left and the Australian National University logo at the top-right. The central focus is a mathematical optimization problem for the 'ASOT formulation'. The objective function is presented in a large centered block, with three main terms highlighted by colored rectangular boxes: a blue box labeled 'temp. consist.', a green box labeled 'learned repn.', and an orange box labeled 'long-tail class distn.'. Below the main equation is a 'subject to' constraint line. Further down, a line of text explains the relative weighting parameter alpha, followed by a bolded concluding statement identifying the problem as an 'Unbalanced, fused Gromov-Wasserstein problem!'. The slide has a white background and a footer containing the authors' names, the paper title, and the page number '37' in the bottom-right corner. The text density is moderate, with a clear hierarchical structure using color-coding to link labels to mathematical terms."
+      }
+    },
+    {
+      "slide_id": 55,
+      "slide_section": "method",
+      "t_start": 705.0,
+      "t_end": 712.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 705.0,
+          "image": "slide_55_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Action Segmentation Optimal Transport (ASOT)",
+        "layout_description": "The slide features a clean, single-column layout with a large, bold dark blue title at the top-left and the Australian National University logo at the top-right. The central focus is a mathematical optimization problem for the 'ASOT formulation'. The objective function is presented in a large centered block, with three main terms highlighted by colored rectangular boxes: a blue box labeled 'temp. consist.', a green box labeled 'learned repn.', and an orange box labeled 'long-tail class distn.'. Below the main equation is a 'subject to' constraint line. Further down, a line of text explains the relative weighting parameter alpha, followed by a bolded concluding statement identifying the problem as an 'Unbalanced, fused Gromov-Wasserstein problem!'. The slide has a white background and a footer containing the authors' names, the paper title, and the page number '37' in the bottom-right corner. The text density is moderate, with a clear hierarchical structure using color-coding to link labels to mathematical terms."
+      }
+    },
+    {
+      "slide_id": 56,
+      "slide_section": "experiments",
+      "t_start": 712.0,
+      "t_end": 720.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 712.0,
+          "image": "slide_56_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 716.0,
+          "image": "slide_56_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "ASOT is Efficient",
+        "layout_description": "The slide features a clean, white background with a single-column layout. A large, dark blue title is positioned at the top-left, while the Australian National University logo is placed in the top-right corner. The main content begins with a sub-heading stating that the method is solved using 'projected mirror descent', with the solver name highlighted in bold red. Below this, three bullet points are organized vertically, each preceded by a right-pointing arrowhead icon. The first bullet point describes the computational complexity per iteration using mathematical notation O(NK). The second bullet point mentions implementation details regarding GPU and PyTorch compatibility. The third bullet point provides a specific performance benchmark, highlighting '24.1ms' in bold red for a given number of frames and classes on a specific GPU. A thin footer at the bottom contains the authors' names, the full paper title, and the page number '32'. The overall text density is light, making the slide easy to read."
+      }
+    },
+    {
+      "slide_id": 57,
+      "slide_section": "method",
+      "t_start": 720.0,
+      "t_end": 732.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 720.0,
+          "image": "slide_57_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "ASOT is Efficient",
+        "layout_description": "The slide features a clean, single-column layout on a white background. At the top-left, there is a large, dark blue title, 'ASOT is Efficient', balanced by the Australian National University logo in the top-right corner. The main content begins with a statement about the solver used, where 'projected mirror descent' is highlighted in dark red italics. Below this, three bullet points are organized vertically, each preceded by a dark grey right-pointing arrowhead icon. The first two bullets are in black text, discussing algorithmic complexity and GPU compatibility. The third bullet is emphasized in dark red, providing specific performance metrics for a given hardware setup. A thin horizontal line at the bottom separates the main body from a footer that contains the authors' names, the full paper title on the left, and the slide number '32' on the right. The overall text density is light, with significant white space."
+      }
+    },
+    {
+      "slide_id": 58,
+      "slide_section": "results",
+      "t_start": 732.0,
+      "t_end": 735.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 732.0,
+          "image": "slide_58_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "section header slide",
+        "title_text": "Experimental Results",
+        "layout_description": "The slide features a minimalist section header layout with a plain white background. The main title, 'Experimental Results', is written in a large, dark blue, sans-serif font and is centered both horizontally and vertically on the slide. There are no bullet points, images, or equations. A small footer at the bottom contains the authors' names and the full paper title ('Ming Xu and Stephen Gould. Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation') on the left, and the slide number '29' on the right. The text density is very light, intended to signal a transition to the results section of the presentation."
+      }
+    },
+    {
+      "slide_id": 59,
+      "slide_section": "method",
+      "t_start": 735.0,
+      "t_end": 764.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 735.0,
+          "image": "slide_59_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 739.0,
+          "image": "slide_59_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 746.0,
+          "image": "slide_59_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central diagram",
+        "title_text": "Unsupervised Temporal Action Segmentation: Training Pipeline",
+        "layout_description": "The slide features a clean white background with a large, dark blue title aligned to the top-left. In the top-right corner, the logo for the Australian National University is visible. Below the main title, a smaller subtitle introduces the 'Simple self-training pipeline w/ ASOT pseudo-labels'. The central portion of the slide is dominated by a flowchart diagram that illustrates the training architecture, using labeled boxes (some in light orange and light blue) and arrows to show the flow from 'Videos' through a 'Feature extractor' to 'Loss'. Below this diagram, there are two bullet points marked with arrowhead icons that provide additional technical details about the raw data and the encoder. A footer at the very bottom contains the authors' names, the full paper title in a smaller font, and the page number '40' in the bottom-right corner. The overall text density is moderate, with a clear focus on the central visual model."
+      }
+    },
+    {
+      "slide_id": 60,
+      "slide_section": "method",
+      "t_start": 764.0,
+      "t_end": 765.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 764.0,
+          "image": "slide_60_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "ASOT",
+        "layout_description": "The slide follows a minimalist single-column layout with a large, dark blue title 'ASOT' positioned in the top-left corner. The Australian National University logo, featuring a gold crest and black text, is located in the top-right corner. The main body of the slide is currently empty white space. A footer runs along the bottom edge, containing the authors' names and the paper title 'Ming Xu and Stephen Gould. Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation' on the left, and the page number '41' on the right. The text density is very light, indicating this is likely a section header or a placeholder slide for a specific methodology component."
+      }
+    },
+    {
+      "slide_id": 61,
+      "slide_section": "title",
+      "t_start": 765.0,
+      "t_end": 770.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 765.0,
+          "image": "slide_61_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 769.0,
+          "image": "slide_61_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "ASOT",
+        "layout_description": "The slide features a minimalist layout with a large, bold acronym 'ASOT' positioned in the top-left corner. The letter 'A' is uniquely highlighted by being enclosed within a thin orange square frame. In the top-right corner, the logo for the Australian National University is visible. The main body of the slide is empty white space, creating a clean and focused look. A footer runs along the bottom edge, containing the authors' names 'Ming Xu and Stephen Gould' and the full research paper title 'Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation'. The page number '41' is placed at the far bottom-right. The overall text density is very light, typical of a section header or a title slide."
+      }
+    },
+    {
+      "slide_id": 62,
+      "slide_section": "results",
+      "t_start": 770.0,
+      "t_end": 775.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 770.0,
+          "image": "slide_62_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "minimalist results slide",
+        "title_text": "SOTA!",
+        "layout_description": "The slide has a very sparse, minimalist layout on a plain white background. The primary focus is a large graphic in the top-left corner consisting of the text 'SOTA!' in a dark blue sans-serif font. This text is accented with an orange curved arrow underneath it and an orange rectangular box framing the letter 'A'. In the top-right corner, the Australian National University logo is present. A thin footer at the bottom contains the authors' names, the full paper title 'Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation', and the slide number '42'. There are no bullet points, columns, or complex figures, resulting in a very light text density."
+      }
+    },
+    {
+      "slide_id": 63,
+      "slide_section": "results",
+      "t_start": 775.0,
+      "t_end": 780.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 775.0,
+          "image": "slide_63_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "State-of-the-art Comparison",
+        "layout_description": "The slide follows a minimalist single-column layout with a white background. The title 'State-of-the-art Comparison' is placed at the top-left in a large, dark blue sans-serif font. In the top-right corner, the Australian National University logo is displayed. The primary content consists of a single paragraph starting with the bolded word 'Metrics:', which lists three evaluation criteria: Mean-over-frames accuracy (MoF), segmental F1-score (F1), and framewise mean intersection-over-union (mIoU). The middle of the slide is largely empty. At the bottom-left, there are three lines of small-text footnotes citing related works from CVPR 2019, CVPR 2022, and WACV 2024. A footer at the very bottom contains the authors' names and the presentation title on the left, with the page number '43' on the right. The text density is light."
+      }
+    },
+    {
+      "slide_id": 64,
+      "slide_section": "results",
+      "t_start": 780.0,
+      "t_end": 794.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 780.0,
+          "image": "slide_64_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 784.0,
+          "image": "slide_64_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 785.0,
+          "image": "slide_64_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "State-of-the-art Comparison",
+        "layout_description": "The slide features a clean, single-column layout on a white background. At the top-left is a large, bold title, while the Australian National University logo is positioned in the top-right corner. Below the title, a 'Metrics' section defines the evaluation criteria in plain text. The center of the slide is dominated by a large comparison table showing results across five datasets (Breakfast, YouTube Instr., 50 Salads (Mid), 50 Salads (Eval), and Desktop Ass.) for three metrics (MoF, F1, mIoU). The bottom row of the table, representing the authors' method 'ASOT (Ours)', is highlighted in blue text. A brief table caption is centered below the table. Further down, a key takeaway is emphasized with a red arrow icon and bold text stating the percentage improvement. The bottom of the slide contains three small-font footnotes on the left, and a footer with author names, paper title, and the page number '43' on the right. The overall text density is moderate, focused on presenting quantitative data clearly."
+      }
+    },
+    {
+      "slide_id": 65,
+      "slide_section": "results",
+      "t_start": 794.0,
+      "t_end": 795.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 794.0,
+          "image": "slide_65_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "State-of-the-art Comparison",
+        "layout_description": "The slide features a clean, single-column layout starting with a large, bold title at the top-left and the Australian National University logo at the top-right. Below the title, a 'Metrics' section defines the evaluation criteria in bold text. The center of the slide is dominated by a large comparison table that lists various methods (CTE, TOT, UFSA, and the proposed ASOT) across five datasets, each with three performance metrics. The row for the proposed method, 'ASOT (Ours)', is highlighted in blue text to stand out. A descriptive caption for the table is placed immediately below it. Further down, a single bullet point marked with a triangle icon provides a brief note on the baseline methods. The bottom of the slide contains small-font footnotes for citations on the left, and a footer with the authors' names, paper title, and the page number '44' on the right. The overall text density is moderate, using a white background with black and blue text for emphasis."
+      }
+    },
+    {
+      "slide_id": 66,
+      "slide_section": "results",
+      "t_start": 795.0,
+      "t_end": 802.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 795.0,
+          "image": "slide_66_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "State-of-the-art Comparison",
+        "layout_description": "The slide features a clean, single-column layout starting with a large, bold title at the top-left and the Australian National University logo at the top-right. Below the title, a 'Metrics' section defines the evaluation criteria in bold text. The center of the slide is dominated by a large comparison table that lists various methods (CTE, TOT, UFSA, and the proposed ASOT) across five datasets, each with three performance metrics. The row for the proposed method, 'ASOT (Ours)', is highlighted in blue text to stand out. A descriptive caption for the table is placed immediately below it. Further down, a single bullet point marked with a triangle icon provides a brief note on the baseline methods. The bottom of the slide contains small-font footnotes for citations on the left, and a footer with the authors' names, paper title, and the page number '44' on the right. The overall text density is moderate, using a white background with black and blue text for emphasis."
+      }
+    },
+    {
+      "slide_id": 67,
+      "slide_section": "results",
+      "t_start": 802.0,
+      "t_end": 810.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 802.0,
+          "image": "slide_67_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "State-of-the-art Comparison",
+        "layout_description": "The slide features a clean, single-column layout on a white background. At the top-left, the title 'State-of-the-art Comparison' is displayed in a large, bold font, while the Australian National University logo is positioned in the top-right corner. Below the title, a 'Metrics' section defines three evaluation criteria in bold text. The center of the slide is dominated by a large comparison table that evaluates four different methods across five datasets (Breakfast, YouTube Instr., 50 Salads (Mid), 50 Salads (Eval), and Desktop Ass.). The row for the proposed method, 'ASOT (Ours)', is highlighted in blue text to distinguish it from the baselines. Beneath the table, a single bullet point marked with a right-pointing arrow provides a qualitative observation about one of the baseline methods. The bottom of the slide contains three lines of small-font footnotes for citations. A thin horizontal line separates the main content from a footer that includes the authors' names, the paper title on the left, and the page number '45' on the right. The text density is moderate, with a clear emphasis on the quantitative data presented in the table."
+      }
+    },
+    {
+      "slide_id": 68,
+      "slide_section": "results",
+      "t_start": 810.0,
+      "t_end": 814.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 810.0,
+          "image": "slide_68_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "State-of-the-art Comparison",
+        "layout_description": "The slide features a clean, single-column layout on a white background. At the top left, there is a large, bold title, while the Australian National University logo is positioned in the top right corner. Below the title, a 'Metrics' section defines the evaluation criteria in bold text. The center of the slide is dominated by a large comparison table that lists performance metrics across five different datasets for several methods. The bottom row of the table, representing the proposed 'ASOT (Ours)' method, is highlighted in blue text to emphasize its superior performance. A short caption for the table is placed immediately below it. Underneath the caption, a single bullet point marked with a triangle icon provides a specific observation about the UFSA architecture. The bottom of the slide contains small-font footnotes citing related work, and a footer that includes the authors' names, the paper title, and the page number '45' in the bottom right corner. The text density is moderate, with a clear focus on the quantitative results presented in the table."
+      }
+    },
+    {
+      "slide_id": 69,
+      "slide_section": "results",
+      "t_start": 814.0,
+      "t_end": 825.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 814.0,
+          "image": "slide_69_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 819.0,
+          "image": "slide_69_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Unsupervised Temporal Action Segmentation: Ablation Study",
+        "layout_description": "The slide features a large, dark blue title positioned at the top left. In the top right corner, the logo for the Australian National University is visible. The central portion of the slide is occupied by a wide table presenting quantitative results for an ablation study across five different datasets: Breakfast, YouTube Instr., 50 Salads (Mid), 50 Salads (Eval), and Desktop Ass. The table rows compare 'ASOT (full)', 'Balanced OT', and 'No GW' methods using metrics like MoF, F1, and mIoU. Two specific regions of the table are highlighted with colored rectangular borders: a blue box around the Breakfast results and an orange box around the Desktop Ass. results. Below the table, a single bullet point, indicated by a right-pointing arrow icon, provides a summary observation. This text includes color-coded words ('Breakfast' in blue and 'Desktop Assembly' in orange) that correspond to the highlighted boxes in the table above. A footer at the bottom contains the authors' names, the paper title, and the page number '47' in the bottom right corner. The background is plain white, and the text density is moderate."
+      }
+    },
+    {
+      "slide_id": 70,
+      "slide_section": "results",
+      "t_start": 825.0,
+      "t_end": 829.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 825.0,
+          "image": "slide_70_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Unsupervised Temporal Action Segmentation: Ablation Study",
+        "layout_description": "The slide follows a top-down single-column layout. At the top-left, there is a large, bold, two-line title. To its right, in the top-right corner, is the logo for the Australian National University. The central portion of the slide is occupied by a wide data table showing ablation study results across five datasets (Breakfast, YouTube Instr., 50 Salads Mid/Eval, and Desktop Ass.) with three metrics per dataset. Specific data points are highlighted with colored rectangular outlines: a blue box for the 'Breakfast' dataset and an orange box for the 'Desktop Ass.' dataset. Below the table, a single bullet point marked with a right-pointing arrow icon provides a summary observation, using blue and orange text to link back to the highlighted table sections. A thin footer at the bottom includes the authors' names, the paper title, and the page number '47' in the bottom-right corner. The background is plain white, and the text density is moderate."
+      }
+    },
+    {
+      "slide_id": 71,
+      "slide_section": "results",
+      "t_start": 829.0,
+      "t_end": 838.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 829.0,
+          "image": "slide_71_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Unsupervised Temporal Action Segmentation: Ablation Study",
+        "layout_description": "The slide features a clean, single-column layout on a plain white background. A large, dark blue title is positioned at the top left, while the Australian National University logo is placed in the top right corner. The central content consists of a wide data table presenting ablation study results across five different datasets, with the 'ASOT (full)' row highlighted in blue text. Below the table is a small caption stating that effects are not additive. Underneath the table and caption, there is a single bullet point preceded by a right-pointing arrow icon that summarizes a key finding: 'Structural prior is important across the board'. A footer runs along the bottom of the slide, containing the authors' names, the full paper title in a smaller font, and the page number '48' in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 72,
+      "slide_section": "results",
+      "t_start": 838.0,
+      "t_end": 840.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 838.0,
+          "image": "slide_72_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 839.0,
+          "image": "slide_72_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Qualitative Examples",
+        "layout_description": "The slide features a large, dark blue title 'Qualitative Examples' positioned at the top-left. In the top-right corner, the Australian National University logo is visible. The main body of the slide contains two sets of horizontal bar charts used for qualitative comparison. The first set is labeled 'Breakfast' and 'P17_stereo01_P17_salat', showing two parallel bars labeled 'GT' (Ground Truth) and 'Ours', each composed of various colored segments (brown, pink, purple, blue) representing action segments over time. A second, similar set of bars is positioned below the first, labeled 'P36_webcam01_P36_salat'. At the very bottom of the slide, a footer contains the authors' names 'Ming Xu and Stephen Gould', the paper title 'Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation', and the page number '49'. The background is plain white, and the overall text density is light."
+      }
+    },
+    {
+      "slide_id": 73,
+      "slide_section": "results",
+      "t_start": 840.0,
+      "t_end": 852.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 840.0,
+          "image": "slide_73_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 843.0,
+          "image": "slide_73_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 845.0,
+          "image": "slide_73_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column comparison layout",
+        "title_text": "Qualitative Examples",
+        "layout_description": "The slide features a large, dark blue title 'Qualitative Examples' at the top-left and the Australian National University logo at the top-right. The main content is organized into two columns, each showcasing qualitative results from different datasets. The left column is titled 'Breakfast' and displays two sets of horizontal color-coded bars; each set compares a 'GT' (Ground Truth) sequence with the 'Ours' (proposed method) sequence. Below these figures is a text highlight: 'Order variations and repeated actions!'. The right column is titled 'Desktop Assembly' and follows an identical format with two sets of comparison bars. Each set of bars is labeled with a specific video ID or timestamp. A footer at the bottom contains the authors' names, the full paper title, and the page number '49' in the bottom-right corner. The overall text density is light, with a focus on the visual comparison of the segmentation bars against a clean white background."
+      }
+    },
+    {
+      "slide_id": 74,
+      "slide_section": "conclusion",
+      "t_start": 852.0,
+      "t_end": 854.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 852.0,
+          "image": "slide_74_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "section header slide",
+        "title_text": "Discussion and Future Work",
+        "layout_description": "The slide follows a minimalist centered layout, primarily used for section transitions. The main title, 'Discussion and Future Work', is rendered in a large, dark blue sans-serif font and is positioned in the dead center of the slide. The background is a solid, plain white. At the very bottom, there is a footer containing metadata: the left side lists the authors 'Ming Xu and Stephen Gould' followed by the paper title 'Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation' in a small black font. The bottom-right corner displays the page number '50'. The text density is extremely light, with the vast majority of the slide being empty white space to emphasize the section title."
+      }
+    },
+    {
+      "slide_id": 75,
+      "slide_section": "conclusion",
+      "t_start": 854.0,
+      "t_end": 855.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 854.0,
+          "image": "slide_75_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Broader Impact: Other Settings",
+        "layout_description": "The slide follows a minimalist single-column layout with a prominent title at the top left. The title is rendered in a large, dark blue sans-serif font. In the top right corner, the Australian National University logo is visible. The central content area of the slide is entirely blank, indicating it may serve as a transition point or a placeholder for a verbal discussion on broader impacts. A thin grey horizontal line runs across the bottom of the slide, acting as a divider for the footer. The footer contains the authors' names on the left, the full research paper title in the center, and the slide number '51' on the far right. The overall text density is very light, set against a plain white background."
+      }
+    },
+    {
+      "slide_id": 76,
+      "slide_section": "conclusion",
+      "t_start": 855.0,
+      "t_end": 875.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 855.0,
+          "image": "slide_76_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 862.0,
+          "image": "slide_76_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 864.0,
+          "image": "slide_76_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Broader Impact: Other Settings",
+        "layout_description": "The slide features a minimalist single-column layout on a plain white background. The main title is located at the top-left in a large, dark blue sans-serif font. Below the title, a secondary heading is written in bold, italicized red text: 'Pseudo-labels are ubiquitous'. Following this, there is a single bullet point indicated by a right-pointing arrow icon that reads 'Semi/weakly-supervised learning (and other variants)'. The Australian National University logo is positioned in the top-right corner. A footer at the bottom of the slide contains the authors' names and the paper title on the left, with the page number '51' on the far right. The text density is very light, leaving significant white space."
+      }
+    },
+    {
+      "slide_id": 77,
+      "slide_section": "conclusion",
+      "t_start": 875.0,
+      "t_end": 884.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 875.0,
+          "image": "slide_77_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column figure layout",
+        "title_text": "Broader Impact: Other Applications",
+        "layout_description": "The slide features a clean white background with a large, dark blue title positioned at the top left. To the right of the title, in the top right corner, is the logo for the Australian National University. The central content consists of two side-by-side images representing different computer vision tasks. The left image, labeled 'Image segmentation', displays a street scene with objects like cars and pedestrians highlighted in various solid colors; a small caption below attributes the figure to Kirillov et al., 2019. The right image, labeled 'Monocular depth', shows a depth map of an elephant in a yellow-to-orange color gradient; its caption attributes the figure to Ranftl et al., 2020. At the bottom left, there are two small-font bibliographic citations. A thin horizontal line separates the main content from a footer that includes the authors' names, the full paper title, and the slide number '52' in the bottom right corner. The overall text density is light, emphasizing visual examples."
+      }
+    },
+    {
+      "slide_id": 78,
+      "slide_section": "conclusion",
+      "t_start": 884.0,
+      "t_end": 885.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 884.0,
+          "image": "slide_78_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figure",
+        "title_text": "Broader Impact: Other Applications",
+        "layout_description": "The slide follows a clean, single-column layout with a prominent title in dark blue at the top left. To the top right, the Australian National University logo is visible. Centered below the title is a descriptive subtitle, 'Local feature extractors/matchers'. The middle of the slide is dominated by a large, wide figure displaying two side-by-side images of a stone building facade. This figure is annotated with red circles representing local features and green lines showing matches between the two images. Below the figure, there is a small credit line and a formal citation for the source paper. The bottom of the slide features a footer containing the authors' names, the full presentation title, and the page number '53' in the bottom right corner. The background is plain white, and the text density is light, focusing primarily on the visual example."
+      }
+    },
+    {
+      "slide_id": 79,
+      "slide_section": "conclusion",
+      "t_start": 885.0,
+      "t_end": 895.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 885.0,
+          "image": "slide_79_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central figure",
+        "title_text": "Broader Impact: Other Applications",
+        "layout_description": "The slide features a clean, single-column layout on a white background. A large, dark blue title is aligned to the top-left, while the Australian National University logo is positioned in the top-right corner. Centered below the title is a subtitle text 'Local feature extractors/matchers'. The middle of the slide is occupied by a large, wide image depicting feature matching on a stone building facade; it shows red circles for feature points and green lines connecting corresponding points between two views. Below this image, on the left side, there is a figure credit line followed by a full bibliographic citation in a smaller font. A footer at the very bottom contains the authors' names and the presentation title on the left, with the page number '53' on the right. The overall text density is light, emphasizing the visual example."
+      }
+    },
+    {
+      "slide_id": 80,
+      "slide_section": "method",
+      "t_start": 895.0,
+      "t_end": 900.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 895.0,
+          "image": "slide_80_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figure",
+        "title_text": "Theoretical Understanding",
+        "layout_description": "The slide follows a clean, single-column layout on a white background. A large, dark blue bold title is placed at the top-left, while the Australian National University logo is positioned in the top-right corner. Below the title, a single line of text introduces a reference to recent theoretical developments in self-training from ICLR 2021. Centered prominently in the middle of the slide is a screenshot of a research paper's title page, specifically 'Theoretical Analysis of Self-Training with Deep Networks on Unlabeled Data'. Beneath this image, a second line of text asks a rhetorical question about how the authors' own methods (OT and ASOT) relate to this framework. A footer at the bottom, separated by a thin horizontal line, includes the authors' names, the full title of the presentation, and the slide number '54' in the bottom-right corner. The text density is light, emphasizing the visual connection between the cited work and the current research."
+      }
+    },
+    {
+      "slide_id": 81,
+      "slide_section": "method",
+      "t_start": 900.0,
+      "t_end": 903.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 900.0,
+          "image": "slide_81_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figure",
+        "title_text": "Theoretical Understanding",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. The main title, 'Theoretical Understanding', is located at the top-left in a large, dark blue sans-serif font. In the top-right corner, the Australian National University logo is displayed. Below the title, a line of text introduces 'Recent theoretical developments for self-training (ICLR 2021)'. Centered prominently in the middle of the slide is a screenshot of the title page of a research paper titled 'THEORETICAL ANALYSIS OF SELF-TRAINING WITH DEEP NETWORKS ON UNLABELED DATA'. Beneath this image, a second line of text poses a question about how 'OT (and ASOT) pseudo-labelling' fits into the referenced framework. A thin grey line separates the main content from a footer at the bottom, which contains the authors' names, the presentation title, and the slide number '54' in the bottom-right corner. The text density is light, emphasizing a single external reference."
+      }
+    },
+    {
+      "slide_id": 82,
+      "slide_section": "conclusion",
+      "t_start": 903.0,
+      "t_end": 911.67,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 903.0,
+          "image": "slide_82_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered closing slide",
+        "title_text": "Thank You!",
+        "layout_description": "The slide follows a centered, minimalist layout on a plain white background. At the top, the title 'Thank You!' is written in a large, dark blue, sans-serif font. In the center of the slide, there is a large QR code featuring a small pixelated dinosaur icon in its middle. Below the QR code, the phrase 'Link to paper!' is written in a bold, reddish-brown font. The bottom section of the slide contains three logos arranged horizontally: the CVPR 2024 logo on the left, the 'seeing machines' logo in the center, and the Australian National University logo on the right. A footer at the very bottom contains the authors' names (Ming Xu and Stephen Gould) and the paper title in a small black font, with the slide number '55' positioned in the bottom right corner."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 345,
+    "gemini_layout_calls": 358,
+    "total_gemini_calls": 703,
+    "total_frames_sampled": 912,
+    "batch_size": 15
+  }
+}

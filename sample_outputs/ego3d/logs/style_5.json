@@ -1,0 +1,26 @@
+{
+    "layout_template": "two_col_fig_right",
+    "background_color": "#FFFFFF",
+    "layout_regions": {
+        "title": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.8,
+            "h": 0.1
+        },
+        "bullets": {
+            "x": 0.05,
+            "y": 0.2,
+            "w": 0.4,
+            "h": 0.7
+        },
+        "figure": {
+            "x": 0.5,
+            "y": 0.2,
+            "w": 0.45,
+            "h": 0.7
+        }
+    },
+    "has_figure": true,
+    "style_rationale": "A two-column layout with bullets on the left and figures on the right is chosen to balance the descriptive text of the challenges with the quantitative evidence provided by Figures 4 and 5. This follows the clean, academic style seen in the reference examples, prioritizing visual data to support the narrative."
+}

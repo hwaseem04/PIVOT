@@ -1,0 +1,140 @@
+{
+  "papers": {
+    "ego3d": {
+      "pdf_path": "dataset/ego3d.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "category": "core_contribution",
+          "question": "What is the primary device used to capture the IKEA Ego 3D dataset?",
+          "answer": "The dataset was captured using a Microsoft HoloLens 2, which is a head-mounted mixed-reality device.",
+          "difficulty": "easy"
+        },
+        {
+          "id": 2,
+          "category": "methodology",
+          "question": "How many points are sampled from each point cloud frame during the preprocessing stage of the benchmark experiments?",
+          "answer": "4096 points are sampled from each frame using farthest point sampling (FPS).",
+          "difficulty": "easy"
+        },
+        {
+          "id": 3,
+          "category": "experimental_results",
+          "question": "How many unique furniture types are featured in the IKEA Ego 3D dataset?",
+          "answer": "The dataset features four furniture types: the LACK side table, LACK TV bench, KALLAX drawer, and BEKVAM stool step.",
+          "difficulty": "easy"
+        },
+        {
+          "id": 4,
+          "category": "limitations",
+          "question": "What is one specific challenge the paper mentions regarding the ego-view point cloud data compared to static camera datasets?",
+          "answer": "The ego-view introduces camera motion, which makes it difficult to distinguish between action-related motion, noise-related motion, and camera-related motion as points appear and disappear within each frame.",
+          "difficulty": "easy"
+        },
+        {
+          "id": 5,
+          "category": "negative_traps",
+          "question": "Does the IKEA Ego 3D dataset use a static camera positioned at a distance from the assembler?",
+          "answer": "No. Unlike previous datasets like IKEA ASM or NTU RGB+D, this dataset uses an ego-view (head-mounted) camera that is dynamic and provides a close-up view of the actions.",
+          "difficulty": "easy"
+        }
+      ],
+      "num_questions": 5
+    },
+    "federated": {
+      "pdf_path": "dataset/federated.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "category": "core_contribution",
+          "question": "What are the two core privacy constraints that the BlindFed framework aims to address simultaneously, referred to as 'double-blind' privacy?",
+          "answer": "The two constraints are: (i) Model privacy, where the Learning Service Provider (LSP) retains full ownership of the Foundation Model (FM) and does not share it with data owners; and (ii) Data privacy, where clients do not reveal their sensitive task data to the LSP or to each other.",
+          "difficulty": "easy"
+        },
+        {
+          "id": 2,
+          "category": "methodology",
+          "question": "What are the two stages of the split learning approach used in the BlindFed framework?",
+          "answer": "The two stages are: (1) Stage 1: Offline knowledge distillation, where FHE-friendly FM blocks are pre-trained using an auxiliary dataset; and (2) Stage 2: Online adaptation, where local parallel adapters are trained via encrypted inference.",
+          "difficulty": "easy"
+        },
+        {
+          "id": 3,
+          "category": "experimental_results",
+          "question": "Which four image classification datasets were used in the paper to evaluate the performance of BlindFed?",
+          "answer": "The four datasets used are CIFAR-10, CIFAR-100, SVHN (Street View House Numbers), and Fed-ISIC2019.",
+          "difficulty": "easy"
+        },
+        {
+          "id": 4,
+          "category": "limitations",
+          "question": "What are the two main practical limitations of the BlindFed framework acknowledged by the authors in the abstract?",
+          "answer": "The framework suffers from a high communication cost and large computational complexity for the Learning Service Provider (LSP).",
+          "difficulty": "easy"
+        },
+        {
+          "id": 5,
+          "category": "negative_traps",
+          "question": "Does the BlindFed framework require the data owners (clients) to perform backpropagation through the backbone of the Foundation Model (FM)?",
+          "answer": "No. The paper states that BlindFed enables adapter training without backpropagation through the FM by using a split learning approach and parallel adapters.",
+          "difficulty": "easy"
+        }
+      ],
+      "num_questions": 5
+    },
+    "greengard": {
+      "pdf_path": "dataset/greengard.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "category": "core_contribution",
+          "question": "What is the computational complexity (order of work) of the algorithm presented in this paper for a system of N particles?",
+          "answer": "The algorithm requires an amount of work proportional to N (O(N)), whereas traditional methods required work of the order O(N^2).",
+          "difficulty": "easy"
+        },
+        {
+          "id": 2,
+          "category": "methodology",
+          "question": "What mathematical technique does the algorithm use to represent the potential field created by a cluster of particles?",
+          "answer": "The algorithm uses multipole expansions (specifically p-term multipole expansions) to represent the potential field.",
+          "difficulty": "easy"
+        },
+        {
+          "id": 3,
+          "category": "experimental_results",
+          "question": "In the numerical experiments, approximately how long did it take the algorithm to evaluate a system of 12,800 particles?",
+          "answer": "It took approximately 60.9 seconds (about one minute) of CPU time on a VAX-8600.",
+          "difficulty": "easy"
+        },
+        {
+          "id": 4,
+          "category": "limitations",
+          "question": "According to the paper, what specific condition must a periodic particle model satisfy for the potential to be well-defined?",
+          "answer": "The periodic particle model must have no net charge.",
+          "difficulty": "easy"
+        },
+        {
+          "id": 5,
+          "category": "negative_traps",
+          "question": "Does the proposed algorithm require numerical differentiation to obtain the force field from the potential?",
+          "answer": "No. The force is obtained analytically from the derivative of the expansion, which is available because the functions are analytic; the paper explicitly states there is no need for numerical differentiation.",
+          "difficulty": "easy"
+        }
+      ],
+      "num_questions": 5
+    }
+  },
+  "metadata": {
+    "difficulty": "easy",
+    "questions_per_paper": 5,
+    "total_papers": 3,
+    "total_questions": 15,
+    "category_distribution": {
+      "core_contribution": 1,
+      "methodology": 1,
+      "experimental_results": 1,
+      "limitations": 1,
+      "negative_traps": 1
+    }
+  }
+}

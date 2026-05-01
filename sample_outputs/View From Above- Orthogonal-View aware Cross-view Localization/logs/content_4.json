@@ -1,0 +1,33 @@
+{
+    "extracted_content": "The Equidistant Re-projection (ERP) loss is designed to address a common bias in keypoint-based localization where standard re-projection losses ($L_{RP}$) tend to favor keypoints closer to the vehicle. This bias occurs because orientation errors for distant points result in larger L2 distances in the image plane, causing the model to over-penalize them and cluster keypoint detections in the immediate vicinity of the vehicle. The ERP loss ($L_{ERP}$) mitigates this by applying a distance-weighted approach, dividing the re-projection error by the L2 distance ($D_{p^s_i}$) between the keypoint and the vehicle in the satellite view. This normalization ensures that orientation errors are independent of keypoint distance, leading to a more uniform and extended distribution of keypoints across the scene. This dispersed distribution provides more robust geometric constraints, significantly improving the precision of vehicle orientation estimation, especially in challenging scenarios with inaccurate initial poses.",
+    "key_figures": [
+        {
+            "ref": "Figure 5",
+            "caption": "Comparison of detected keypoints with and without ERP Loss. (Left) Without the ERP Loss, keypoints are predominantly located in close proximity to the vehicle. (Right) With the ERP Loss, there is a more dispersed distribution of keypoints.",
+            "relevance": "Visually demonstrates how the ERP loss prevents keypoint clustering near the vehicle and encourages the detection of distant landmarks for better orientation cues."
+        }
+    ],
+    "key_tables": [
+        {
+            "ref": "Table 4",
+            "caption": "Ablation study on the KITTI-CVL dataset \u2018Cross\u2019 area with initial noise (\u00b145\u00b0, \u00b120m).",
+            "relevance": "Shows the quantitative impact of the ERP loss, specifically highlighting the reduction in mean orientation error from 3.38\u00b0 to 2.88\u00b0 when added to the T2GA and CycDA components."
+        }
+    ],
+    "key_equations": [
+        {
+            "ref": "Equation 8",
+            "content": "L_{RP} = \frac{1}{N} \\sum_{i=1}^{N}\\|p_{i}^{s}(\\mathbf{P}_{pred})-p^{s}_{i}(\\mathbf{P}_{gt}) \\|_2^2",
+            "relevance": "Defines the baseline re-projection loss which suffers from distance-based bias in orientation error penalization."
+        },
+        {
+            "ref": "Equation 9",
+            "content": "L_{ERP} = \frac{1}{N} \\sum^{N}_{i=1}\\|\frac{p_{i}^{s}(\\mathbf{P}_{pred})-p_{i}^{s}(\\mathbf{P}_{gt})}{\\mathbf{D}_{p^{s}_{i}}} \\|_2^2",
+            "relevance": "Defines the proposed Equidistant Re-projection loss that normalizes error by distance to ensure equitable impact of all keypoints on orientation estimation."
+        }
+    ],
+    "section_refs": [
+        "Section 4.3",
+        "Section 6"
+    ]
+}

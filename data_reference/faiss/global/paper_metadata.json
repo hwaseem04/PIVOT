@@ -1,0 +1,236 @@
+[
+  {
+    "id": 0,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/DenseNets Reloaded- Paradigm Shift Beyond ResNets and ViTs.pdf",
+    "paper_name": "Densenets Reloaded  Paradigm Shift Beyond Resnets And Vits",
+    "excerpt": "DenseNets Reloaded:\nParadigm Shift Beyond ResNets and ViTs\nDonghyun Kim1\u22c6, Byeongho Heo2, and Dongyoon Han2\u22c6\n1NAVER Cloud AI, 2NAVER AI Lab\nAbstract. This paper revives Densely Connected Convolutional"
+  },
+  {
+    "id": 1,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/GigaTok- Scaling Visual Tokenizers to 3 Billion Parameters for Autoregressive Image Generation.pdf",
+    "paper_name": "Gigatok  Scaling Visual Tokenizers To 3 Billion Parameters For Autoregressive Image Generation",
+    "excerpt": "GigaTok: Scaling Visual Tokenizers to 3 Billion Parameters\nfor Autoregressive Image Generation\nTianwei Xiong1\nJun Hao Liew2\nZilong Huang2\nJiashi Feng2\nXihui Liu1\u2020\n1The University of Hong Kong\n2ByteDan"
+  },
+  {
+    "id": 2,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/CVPR_09_CVPR-2025_Highlight-Focus-N-Fix-Region-Aware-Fine-Tuning-for-Tex__CVPR-2025-Highlight-Paper-Focus-N-Fix-Re.pdf",
+    "paper_name": "Cvpr 09 Cvpr 2025 Highlight Focus N Fix Region Aware Fine Tuning For Tex  Cvpr 2025 Highlight Paper Focus N Fix Re",
+    "excerpt": "Focus-N-Fix: Region-Aware Fine-Tuning for Text-to-Image Generation\nXiaoying Xing*1,2, Avinab Saha*1,3, Junfeng He*\u20201, Susan Hao\u20204, Paul Vicol4, Moonkyung Ryu1, Gang\nLi4, Sahil Singla4, Sarah Young5, Y"
+  },
+  {
+    "id": 3,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/ICLR_ICLR-2025-paper_Block-Diffusion-Interpolating-Between-Autoregres__Block-Diffusion-Interpolating-Between.pdf",
+    "paper_name": "Iclr Iclr 2025 Paper Block Diffusion Interpolating Between Autoregres  Block Diffusion Interpolating Between",
+    "excerpt": "Published as a conference paper at ICLR 2025\nBLOCK DIFFUSION: INTERPOLATING BETWEEN AU-\nTOREGRESSIVE AND DIFFUSION LANGUAGE MODELS\nMarianne Arriola\u2020 \u2217\nAaron Kerem Gokaslan\u2020\nJustin T. Chiu\u2021\nZhihan Yang"
+  },
+  {
+    "id": 4,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/NeurIPS_NeurIPS-2024_Dual-Prototype-Evolving-for-Test-Time-Generalizatio__NeurIPS-2024-Dual-Prototype-Evolving-for_Media.pdf",
+    "paper_name": "Neurips Neurips 2024 Dual Prototype Evolving For Test Time Generalizatio  Neurips 2024 Dual Prototype Evolving For Media",
+    "excerpt": "Dual Prototype Evolving for Test-Time\nGeneralization of Vision-Language Models\nCe Zhang\nSimon Stepputtis\nKatia Sycara\nYaqi Xie\nSchool of Computer Science, Carnegie Mellon University\n{cezhang, sstepput"
+  },
+  {
+    "id": 5,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/ICLR_ICLR-2025_Oral-Open-World-Reinforcement-Learning-over-Long-Short__ICLR-2025-Oral-Open-World-Reinforcement.pdf",
+    "paper_name": "Iclr Iclr 2025 Oral Open World Reinforcement Learning Over Long Short  Iclr 2025 Oral Open World Reinforcement",
+    "excerpt": "Published as a conference paper at ICLR 2025\nOPEN-WORLD REINFORCEMENT LEARNING OVER\nLONG SHORT-TERM IMAGINATION\nJiajian Li1\u2217\nQi Wang1,2\u2217\nYunbo Wang1\u2020\nXin Jin2\nYang Li3\nWenjun Zeng2\nXiaokang Yang1\n1 Mo"
+  },
+  {
+    "id": 6,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/Removing Cost Volumes from Optical Flow Estimators.pdf",
+    "paper_name": "Removing Cost Volumes From Optical Flow Estimators",
+    "excerpt": "Removing Cost Volumes from Optical Flow Estimators\nSimon Kiefhaber 1,2\nStefan Roth 1,2\nSimone Schaub-Meyer 1,2\n1Department of Computer Science, Technical University of Darmstadt\n2Hessian Center for AI"
+  },
+  {
+    "id": 7,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/CVPR_CVPR-2025_Highlight-InstaManip-In-context-Learning-of-Autoregressive-Mod__CVPR2025-Unleashing-In-context-Learning.pdf",
+    "paper_name": "Cvpr Cvpr 2025 Highlight Instamanip In Context Learning Of Autoregressive Mod  Cvpr2025 Unleashing In Context Learning",
+    "excerpt": "Unleashing In-context Learning of Autoregressive Models\nfor Few-shot Image Manipulation\nBolin Lai1,2 \u2020\nFelix Juefei-Xu1\nMiao Liu1\nXiaoliang Dai1\nNikhil Mehta1\nChenguang Zhu1\nZeyi Huang5\nJames M. Rehg3"
+  },
+  {
+    "id": 8,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/Joint Optimization of Neural Radiance Fields and Continuous Camera Motion from a Monocular Video.pdf",
+    "paper_name": "Joint Optimization Of Neural Radiance Fields And Continuous Camera Motion From A Monocular Video",
+    "excerpt": "Joint Optimization of Neural Radiance Fields and Continuous Camera\nMotion from a Monocular Video\nHoang Chuong Nguyen1\nWei Mao\nJose M. Alvarez2\nMiaomiao Liu1\n1Australian National University\n2NVIDIA\n{ho"
+  },
+  {
+    "id": 9,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/CVPR_CVPR2025_Blurred Lidar__LiDAR-for-Sharper-3D-CVPR-2025-H.pdf",
+    "paper_name": "Cvpr Cvpr2025 Blurred Lidar  Lidar For Sharper 3D Cvpr 2025 H",
+    "excerpt": "Blurred\nBlurred\nBlurred LiDAR for Sharper 3D: Robust Handheld\n3D Scanning with Diffuse LiDAR and RGB\nNikhil Behari1, Aaron Young1, Siddharth Somasundaram1,\nTzofi Klinghoffer1, Akshat Dave 1, Ramesh Ra"
+  },
+  {
+    "id": 10,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/Unsqueeze [CLS] Bottleneck to Learn Rich Representations.pdf",
+    "paper_name": "Unsqueeze [Cls] Bottleneck To Learn Rich Representations",
+    "excerpt": "Unsqueeze [CLS] Bottleneck to Learn Rich\nRepresentations\nQing Su, and Shihao Ji\u22c6\nDepartment of Computer Science\nGeorgia State University, USA\nAbstract. Distillation-based self-supervised learning typi"
+  },
+  {
+    "id": 11,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/Identifying and Mitigating Position Bias of Multi-image Vision-Language Models.pdf",
+    "paper_name": "Identifying And Mitigating Position Bias Of Multi Image Vision Language Models",
+    "excerpt": "Identifying and Mitigating Position Bias of Multi-image Vision-Language Models\nXinyu Tian1\nShu Zou1\nZhaoyuan Yang2\nJing Zhang1\n1Australian National University\n2GE Research\n1firstname.lastname@anu.edu."
+  },
+  {
+    "id": 12,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/Find Any Part in 3D.pdf",
+    "paper_name": "Find Any Part In 3D",
+    "excerpt": "Find Any Part in 3D\nZiqi Ma\nYisong Yue\nGeorgia Gkioxari\nCalifornia Institute of Technology\nData Engine\n30K Objaverse Assets\nFIND3D\n\u2026\n(\n,\u201chull\u201d)\n(\n,\u201csail\u201d) (\n,\u201cfrosting\u201d)\n(\n,\u201cliner\u201d)\n(\n,\u201cwing\u201d)\n(\n,\u201cbea"
+  },
+  {
+    "id": 13,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/CVPR_CVPR-2025Highlight_ETAP-Event-based-Tracking-of-Any-Point__ETAP-Event-based-Tracking-of-Any-Point-C.pdf",
+    "paper_name": "Cvpr Cvpr 2025Highlight Etap Event Based Tracking Of Any Point  Etap Event Based Tracking Of Any Point C",
+    "excerpt": "ETAP: Event-based Tracking of Any Point\nFriedhelm Hamann1,4,6, Daniel Gehrig2, Filbert Febryanto1,4,6,\nKostas Daniilidis2,5, and Guillermo Gallego1,3,4,6.\n1 Technische Universit\u00a8at Berlin, 2 Universit"
+  },
+  {
+    "id": 14,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/Pos3R- 6D Pose Estimation for Unseen Objects Made Easy.pdf",
+    "paper_name": "Pos3R  6D Pose Estimation For Unseen Objects Made Easy",
+    "excerpt": "Pos3R: 6D Pose Estimation for Unseen Objects Made Easy\nWeijian Deng1\nDylan Campbell1\nChunyi Sun1\nJiahao Zhang1\nShubham Kanitkar2\nMatthew E. Shaffer2\nStephen Gould1\n1Australian National University\n2RIO"
+  },
+  {
+    "id": 15,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/ICML_ICML-2025_Graph-Assisted-Stitching-for-Offline-Hierarchical-Rein__ICML-2025-Graph-Assisted-Stitching-for.pdf",
+    "paper_name": "Icml Icml 2025 Graph Assisted Stitching For Offline Hierarchical Rein  Icml 2025 Graph Assisted Stitching For",
+    "excerpt": "arXiv:2506.07744v3  [cs.LG]  7 Jul 2025\nGraph-Assisted Stitching for Offline Hierarchical Reinforcement Learning\nSeungho Baek 1 Taegeon Park 2 Jongchan Park 2 Seungjun Oh 2 Yusung Kim 1 2\nAbstract\nExi"
+  },
+  {
+    "id": 16,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/Mining Supervision for Dynamic Regions in Self-Supervised Monocular Depth Estimation.pdf",
+    "paper_name": "Mining Supervision For Dynamic Regions In Self Supervised Monocular Depth Estimation",
+    "excerpt": "Mining Supervision for Dynamic Regions in Self-Supervised Monocular\nDepth Estimation\nHoang Chuong Nguyen1\nTianyu Wang1\nJose M. Alvarez2\nMiaomiao Liu1\n1Australian National University\n2NVIDIA\n{hoangchuo"
+  },
+  {
+    "id": 17,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/VI3NR Variance Informed Initialization for Implicit Neural Representations.pdf",
+    "paper_name": "Vi3Nr Variance Informed Initialization For Implicit Neural Representations",
+    "excerpt": "VI3NR: Variance Informed Initialization for Implicit Neural Representation\nChamin Hewa Koneputugodage1*\nYizhak Ben-Shabat1,2*\nSameera Ramasinghe3\nStephen Gould1\n1The Australian National University\n2Ro"
+  },
+  {
+    "id": 18,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/Believing is Seeing Unobserved Object Detection using Generative Models.pdf",
+    "paper_name": "Believing Is Seeing Unobserved Object Detection Using Generative Models",
+    "excerpt": "Believing is Seeing: Unobserved Object Detection using Generative Models\nSubhransu S. Bhattacharjee, Dylan Campbell, Rahul Shome\nSchool of Computing, The Australian National University\n{subhransu.bhat"
+  },
+  {
+    "id": 19,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/CVPR_CVPR-2025_Highlight-SLAM3R-Real-Time-Dense-Scene-Reconstruction-from-Mon__CVPR-2025-Highlight-SLAM3R-Real-Time-Den.pdf",
+    "paper_name": "Cvpr Cvpr 2025 Highlight Slam3R Real Time Dense Scene Reconstruction From Mon  Cvpr 2025 Highlight Slam3R Real Time Den",
+    "excerpt": "SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos\nYuzheng Liu1*\nSiyan Dong2*\u2020\nShuzhe Wang3\nYingda Yin1\nYanchao Yang2\u2020\nQingnan Fan4\nBaoquan Chen1\u2020\n1Peking University\n2The Universit"
+  },
+  {
+    "id": 20,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/CVPR_CVPR-2025_Reloc3r-Large-Scale-Training-of-Relative-Camera-Pose-Regressio__CVPR-2025-Reloc3r.pdf",
+    "paper_name": "Cvpr Cvpr 2025 Reloc3R Large Scale Training Of Relative Camera Pose Regressio  Cvpr 2025 Reloc3R",
+    "excerpt": "Reloc3r: Large-Scale Training of Relative Camera Pose Regression for\nGeneralizable, Fast, and Accurate Visual Localization\nSiyan Dong1*\nShuzhe Wang2*\nShaohui Liu3\nLulu Cai1\nQingnan Fan4\nJuho Kannala2,"
+  },
+  {
+    "id": 21,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/Random Walk on Pixel Manifolds for Anomaly Segmentation of Complex Driving Scenes.pdf",
+    "paper_name": "Random Walk On Pixel Manifolds For Anomaly Segmentation Of Complex Driving Scenes",
+    "excerpt": "Random Walk on Pixel Manifolds for Anomaly\nSegmentation of Complex Driving Scenes\nZelong Zeng1\nand Kaname Tomite1\nSenseTime Japan, Tokyo, Japan\n{zengzelong,tomite}@sensetime.jp\nAbstract. In anomaly se"
+  },
+  {
+    "id": 22,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/CVPR_CVPR 2025_ Deng_Pos3R_6D_Pose_Estimation_for_Unseen_Object__Deng_Pos3R_6D_Pose_Estimation_for_Unseen_Objects_Made_Easy_CVPR_2025_paper.pdf",
+    "paper_name": "Cvpr Cvpr 2025  Deng Pos3R 6D Pose Estimation For Unseen Object  Deng Pos3R 6D Pose Estimation For Unseen Objects Made Easy Cvpr 2025 Paper",
+    "excerpt": "Pos3R: 6D Pose Estimation for Unseen Objects Made Easy\nWeijian Deng1\nDylan Campbell1\nChunyi Sun1\nJiahao Zhang1\nShubham Kanitkar2\nMatthew E. Shaffer2\nStephen Gould1\n1Australian National University\n2RIO"
+  },
+  {
+    "id": 23,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/ICLR_ICLR 2025_DICE__837_DICE_End_to_end_Deformatio.pdf",
+    "paper_name": "Iclr Iclr 2025 Dice  837 Dice End To End Deformatio",
+    "excerpt": "Published as a conference paper at ICLR 2025\nDICE: END-TO-END DEFORMATION CAPTURE\nOF\nHAND-FACE INTERACTIONS FROM A SINGLE IMAGE\nQingxuan Wu1, Zhiyang Dou1,2,7,*, Sirui Xu3, Soshi Shimada4, Chen Wang1,"
+  },
+  {
+    "id": 24,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/ICLR_ICLR-2025-I_Con-A-Unifying-Framework-for-Representation-Learning__ICLR-2025-A-New-Periodic-Table-in-Machine.pdf",
+    "paper_name": "Iclr Iclr 2025 I Con A Unifying Framework For Representation Learning  Iclr 2025 A New Periodic Table In Machine",
+    "excerpt": "Published as a conference paper at ICLR 2025\nI-CON: A UNIFYING FRAMEWORK FOR\nREPRESENTATION LEARNING\nShaden Alshammari1\nJohn Hershey2\nAxel Feldmann1\nWilliam T. Freeman1,2\nMark Hamilton1,3\n1 MIT\n2 Goog"
+  },
+  {
+    "id": 25,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/Explaining Human Preferences via Metrics for Structured 3D Reconstruction.pdf",
+    "paper_name": "Explaining Human Preferences Via Metrics For Structured 3D Reconstruction",
+    "excerpt": "Explaining Human Preferences via Metrics for Structured 3D Reconstruction\nJack Langerman1* Denys Rozumnyi2,3\u2020 Yuzhong Huang4\nDmytro Mishkin3,4\n1Independent Researcher, USA\n2ETH Zurich, Switzerland\n3Fa"
+  },
+  {
+    "id": 26,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/View From Above- Orthogonal-View aware Cross-view Localization.pdf",
+    "paper_name": "View From Above  Orthogonal View Aware Cross View Localization",
+    "excerpt": "View From Above: Orthogonal-View aware Cross-view Localization\nShan Wang1,2\nChuong Nguyen1\nJiawei Liu2\nYanhao Zhang2\nSundaram Muthu1\nFahira Afzal Maken1\nKaihao Zhang2\nHongdong Li2\n1Data61, CSIRO\n2Aust"
+  },
+  {
+    "id": 27,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/Differentiable Neural Surface Refinement for Modeling Transparent Objects.pdf",
+    "paper_name": "Differentiable Neural Surface Refinement For Modeling Transparent Objects",
+    "excerpt": "Differentiable Neural Surface Refinement for Modeling Transparent Objects\nWeijian Deng1\nDylan Campbell1\nChunyi Sun1\nShubham Kanitkar2\nMatthew E. Shaffer2\nStephen Gould1\n1The Australian National Univer"
+  },
+  {
+    "id": 28,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/CVPR_CVPR 2025 (Highlight)_ MonSter__CVPR25-Highlight-MonSter.pdf",
+    "paper_name": "Cvpr Cvpr 2025 (Highlight)  Monster  Cvpr25 Highlight Monster",
+    "excerpt": "1\nMonSter++: Unified Stereo Matching, Multi-view\nStereo, and Real-time Stereo with Monodepth Priors\nJunda Cheng\u2217, Wenjing Liao\u2217, Zhipeng Cai, Longliang Liu, Gangwei Xu, Xianqi Wang, Yuzhou Wang, Zikan"
+  },
+  {
+    "id": 29,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/CVPR_CVPR-2025_Identifying-and-Mitigating-Position-Bias-of-Multi-Image-Vision__CVPR-2025-Identifying-and-Mitigating.pdf",
+    "paper_name": "Cvpr Cvpr 2025 Identifying And Mitigating Position Bias Of Multi Image Vision  Cvpr 2025 Identifying And Mitigating",
+    "excerpt": "Identifying and Mitigating Position Bias of Multi-image Vision-Language Models\nXinyu Tian1\nShu Zou1\nZhaoyuan Yang2\nJing Zhang1\n1Australian National University\n2GE Research\n1firstname.lastname@anu.edu."
+  },
+  {
+    "id": 30,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/ICLR_ICLR 2025_ Coreset Spectral Clustering__9873_Coreset_Spectral_Clusteri.pdf",
+    "paper_name": "Iclr Iclr 2025  Coreset Spectral Clustering  9873 Coreset Spectral Clusteri",
+    "excerpt": "Published as a conference paper at ICLR 2025\nCORESET SPECTRAL CLUSTERING\nBen Jourdan1, Gregory Schwartzman2, Peter Macgregor3, and He Sun1\n1University of Edinburgh, UK\n2Japan Advanced Institute of Sci"
+  },
+  {
+    "id": 31,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/ArGue- Attribute-Guided Prompt Tuning for Vision-Language Models.pdf",
+    "paper_name": "Argue  Attribute Guided Prompt Tuning For Vision Language Models",
+    "excerpt": "ArGue: Attribute-Guided Prompt Tuning for Vision-Language Models\nXinyu Tian1\nShu Zou1\nZhaoyuan Yang2\nJing Zhang1\n1Australian National University\n2GE Research\nAbstract\nAlthough soft prompt tuning is ef"
+  },
+  {
+    "id": 32,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/ICLR_ICLR-2025-PPT_Patch-Order-Do-Matters-In-Time-Series-Pretext-Task__ICLR-2025-PPT-Patch-Order-Do-Matters-In.pdf",
+    "paper_name": "Iclr Iclr 2025 Ppt Patch Order Do Matters In Time Series Pretext Task  Iclr 2025 Ppt Patch Order Do Matters In",
+    "excerpt": "Published as a conference paper at ICLR 2025\nPPT: PATCH ORDER DO MATTERS IN TIME SERIES\nPRETEXT TASK\nJaeho Kim1\u2217\nKwangryeol Park1\u2217\nSukmin Yun2\nSeulki Lee1\u2020\n1Ulsan National Institute of Science and Tec"
+  },
+  {
+    "id": 33,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation.pdf",
+    "paper_name": "Temporally Consistent Unbalanced Optimal Transport For Unsupervised Action Segmentation",
+    "excerpt": "Temporally Consistent Unbalanced Optimal Transport\nfor Unsupervised Action Segmentation\nMing Xu\nAustralian National University\nmingda.xu@anu.edu.au\nStephen Gould\nAustralian National University\nstephen"
+  },
+  {
+    "id": 34,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/NeurIPS_NeurIPS-2024_LVD-2M-A-Long-take-Video-Dataset-with-Temporally-De__NeurIPS-2024-Paper-LVD-2M-A-Long-take.pdf",
+    "paper_name": "Neurips Neurips 2024 Lvd 2M A Long Take Video Dataset With Temporally De  Neurips 2024 Paper Lvd 2M A Long Take",
+    "excerpt": "LVD-2M: A Long-take Video Dataset\nwith Temporally Dense Captions\nTianwei Xiong1* Yuqing Wang1* Daquan Zhou2\u2020 Zhijie Lin2 Jiashi Feng2 Xihui Liu1B\n1The University of Hong Kong\n2ByteDance\nhttps://silent"
+  },
+  {
+    "id": 35,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/Small Steps and Level Sets Fitting Neural Surface Models with Point Guidance.pdf",
+    "paper_name": "Small Steps And Level Sets Fitting Neural Surface Models With Point Guidance",
+    "excerpt": "Small Steps and Level Sets: Fitting Neural Surface Models with Point Guidance\nChamin Hewa Koneputugodage1\nYizhak Ben-Shabat1,2\nDylan Campbell1\nStephen Gould1\n1The Australian National University\n2Techn"
+  },
+  {
+    "id": 36,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/3DInAction- Understanding Human Actions in 3D Point Clouds.pdf",
+    "paper_name": "3Dinaction  Understanding Human Actions In 3D Point Clouds",
+    "excerpt": "3DInAction: Understanding Human Actions in 3D Point Clouds\nYizhak Ben-Shabat1,2\nOren Shrout2\nStephen Gould1\n1Australian National University\n2Technion, Israel Institute of Technology\nsitzikbs@technion."
+  },
+  {
+    "id": 37,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/CVPR_CVPR-2025_Joint-Optimization-of-Neural-Radiance-Fields-and-Continuous-Ca__CVPR-2025-Joint-Opt-of-NeRFs-and-Continu.pdf",
+    "paper_name": "Cvpr Cvpr 2025 Joint Optimization Of Neural Radiance Fields And Continuous Ca  Cvpr 2025 Joint Opt Of Nerfs And Continu",
+    "excerpt": "Joint Optimization of Neural Radiance Fields and Continuous Camera\nMotion from a Monocular Video\nHoang Chuong Nguyen1\nWei Mao\nJose M. Alvarez2\nMiaomiao Liu1\n1Australian National University\n2NVIDIA\n{ho"
+  },
+  {
+    "id": 38,
+    "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/final/Probability Density Geodesics in Image Diffusion Latent Space.pdf",
+    "paper_name": "Probability Density Geodesics In Image Diffusion Latent Space",
+    "excerpt": "Probability Density Geodesics in Image Diffusion Latent Space\nQingtao Yu1 ,\nJaskirat Singh1 ,\nZhaoyuan Yang2 ,\nPeter Henry Tu2 ,\nJing Zhang1 ,\nHongdong Li1 ,\nRichard Hartley1 ,\nDylan Campbell1\n1Austra"
+  }
+]

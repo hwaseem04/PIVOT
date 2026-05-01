@@ -1,0 +1,378 @@
+{
+  "video_id": "Unsqueeze [CLS] Bottleneck to Learn Rich Representations",
+  "duration": 319.67,
+  "fps_sampled": 1.0,
+  "total_slides": 19,
+  "slides_with_builds": 0,
+  "total_build_steps": 19,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 21.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "UNSQUEEZE [CLS] BOTTLENECK TO LEARN RICH REPRESENTATION",
+        "layout_description": "The slide is a minimalist title slide with a white background. The main title is centered horizontally in the upper half of the slide, written in a large, all-caps, sans-serif font. Notably, the term '[CLS]' within the title is highlighted in a light blue color, while the rest of the text is dark gray. In the top right corner, the colorful logo for the ECCV (European Conference on Computer Vision) 2024 conference is displayed. The bottom right quadrant of the slide contains the authors' names, 'Qing Su, Shihao Ji', and their affiliation, 'GEORGIA STATE UNIVERSITY', in a smaller all-caps font. Below the text, two institutional logos are placed side-by-side: the DoD COE-ACS logo and the Georgia State University logo. A thin, solid black vertical line runs along the far right edge of the slide, serving as a decorative border. The text density is light, providing a clean and professional look."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 21.0,
+      "t_end": 30.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 21.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "ARE THE CURRENT SSL METHODS GOOD ENOUGH?",
+        "layout_description": "The slide uses a two-column layout with a prominent bold title in all caps at the top left, accompanied by a slide number '1' to its left. A thin vertical line marks the left edge of the slide. The left column is text-heavy, featuring hierarchical bullet points that categorize SSL methods into 'Implicit Clustering', 'Explicit Clustering', and 'Multi-level methods'. Each category includes a list of specific models and a descriptive note in light blue text highlighting their respective issues (e.g., overfitting, underfitting, or misalignment). A small data table is nested within the left column, showing the 'Impact of Compression of DINO' with metrics for different training epochs. The right column contains two conceptual diagrams stacked vertically. The top diagram illustrates 'Implicit Clustering' with points, arrows, and small image thumbnails in a feature space, including mathematical notation for normal distributions. The bottom diagram illustrates 'Explicit Clustering', showing data points clustered around specific centroids labeled y1 and y2. The slide has a clean white background and moderate text density, effectively combining textual analysis with visual diagrams."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 30.0,
+      "t_end": 65.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 30.0,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "ARE THE CURRENT SSL METHODS GOOD ENOUGH?",
+        "layout_description": "The slide uses a two-column layout on a clean white background. At the top left, the slide number '1' is separated from the main title by a thin vertical line. The title is written in large, bold, all-caps black text. The left column is dedicated to text-based content, featuring hierarchical bullet points that categorize self-supervised learning (SSL) methods into 'Implicit Clustering' and 'Explicit Clustering'. Each category includes a list of specific models and a summary of their issues (e.g., overfitting or underfitting) highlighted in blue text. A small data table titled 'Impact of Compression of DINO' is embedded within this column. At the bottom left, a third category for 'Multi-level methods' is listed. The right column contains two conceptual diagrams that visually represent 'Implicit Clustering' and 'Explicit Clustering' using points, animal images, and mathematical notation in purple and red-tinted latent spaces. The overall text density is moderate, with a clear visual distinction between the critique of existing methods on the left and their conceptual illustrations on the right."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 65.0,
+      "t_end": 75.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 65.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and sidebar",
+        "title_text": "HOW TO LEARN MEANINGFUL REPRESENTATIONS WHILE PRESERVING MORE INFORMATION?",
+        "layout_description": "The slide features a centered, all-caps title at the top. The main body consists of a single column of text organized into a hierarchical bulleted list. There are two primary bullet points, each followed by two levels of indented sub-bullets. The first primary bullet discusses 'Source of over-compression in Explicit-Clustering (EC) -based methods', with one sub-bullet highlighted in blue text and underlined. The second primary bullet addresses 'Source of semantic misalignment in Multi-level SSL methods', listing specific technical issues and citing relevant methods like DenseCL, DetCo, EsViT, and iBOT. A thin vertical black line separates the main content area from a narrow right-hand margin, where the slide number '2' is positioned at the top. The overall design is clean with a white background and moderate text density."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "introduction",
+      "t_start": 75.0,
+      "t_end": 107.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 75.0,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "HOW TO LEARN MEANINGFUL REPRESENTATIONS WHILE PRESERVING MORE INFORMATION?",
+        "layout_description": "The slide uses a clean, single-column layout on a white background. The title is positioned at the top, right-aligned within the main content area, and written in all-caps. A thin vertical black line runs down the right side of the slide, creating a narrow margin where the page number '2' is placed at the top. The main content is organized into two primary sections marked by bold bullet points. Each section contains a hierarchical list of sub-bullets with two levels of indentation. The first section identifies sources of over-compression in clustering-based methods, featuring one sub-bullet that is underlined and colored blue. The second section identifies sources of semantic misalignment in multi-level SSL methods. Many sub-bullets include specific examples and citations to existing models (e.g., DINO, iBOT) in a smaller font. The text density is moderate, maintaining significant white space for readability."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 107.0,
+      "t_end": 120.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 107.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and sequential diagram",
+        "title_text": "HOW TO LEARN MEANINGFUL REPRESENTATIONS WHILE PRESERVING MORE INFORMATION?",
+        "layout_description": "The slide follows a top-down single-column structure. At the top, a large all-caps title is positioned towards the right, with a page number '3' further to its right. Below the title, a light blue sub-heading 'OUR REMEDY:' precedes a blue rounded rectangular box containing the text 'Natural Image Modeling'. The main body begins with a bullet point followed by a horizontal flow of four images and diagrams connected by blue arrows, illustrating a process from a natural image to a stratified random sampling diagram. Each stage in this sequence has a small descriptive caption underneath. Centered below this visual flow is a mathematical equation block labeled 'Multi-model target distribution' in blue. A final bullet point at the bottom of the slide provides further textual explanation. The slide uses a white background with blue accents for emphasis and features a thin vertical black line along the far right margin."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 120.0,
+      "t_end": 130.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 120.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "HOW TO LEARN MEANINGFUL REPRESENTATIONS WHILE PRESERVING MORE INFORMATION?",
+        "layout_description": "The slide follows a single-column layout with a large, centered, all-caps title at the top and a page number '3' in the upper right corner. Below the title, a sub-heading 'OUR REMEDY:' is paired with a blue rounded rectangular box containing the text 'Natural Image Modeling'. The main body consists of two primary bullet points. The first bullet point introduces a conceptual workflow depicted through a horizontal sequence of four images connected by blue arrows: a natural image, a 3D feature distribution plot, a 2D mixture model diagram with colored ellipses, and a stratified random sampling plot. Directly beneath this visual flow is a centered mathematical equation block defining a 'Multi-model target distribution'. A second bullet point at the bottom of the slide provides a concluding textual explanation. The background is plain white, and a thin vertical line separates the main content from the right margin."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 130.0,
+      "t_end": 135.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 130.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "OUR REMEDY: Stratified Random Sampling (SRS) module",
+        "layout_description": "The slide follows a single-column structure with a clear hierarchy. At the top left, the title 'OUR REMEDY:' appears in blue, followed by the module name inside a pink rounded rectangular badge. A slide number '4' is located in the far top-left margin. The main content starts with a primary bullet point at the top. Below this, a large technical diagram occupies the center, illustrating the SRS module's workflow with components like input grids, a self-attention (SA) block, and a coordinate projection map. The diagram uses blue and pink color-coding to differentiate between input sampling and output representations. Following the diagram are two indented sub-bullet points. Sandwiched between these sub-bullets is a horizontal sequence of images showing a parrot and five corresponding attention heatmaps, captioned 'SRS ATTENTION MAP WITH QUERY AS LOCAL PATCH'. The text density is moderate, and the layout uses ample white space to separate the diagram from the explanatory text."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 135.0,
+      "t_end": 178.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 135.0,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and hierarchical content",
+        "title_text": "OUR REMEDY: Stratified Random Sampling (SRS) module",
+        "layout_description": "The slide follows a single-column layout with a prominent title at the top. The title consists of the phrase 'OUR REMEDY:' in blue text followed by 'Stratified Random Sampling (SRS) module' inside a pink rounded rectangular badge. A slide number '4' is located in the top-left corner. The main content begins with a bold bullet point explaining the use of self-attention. Below this is a complex technical diagram showing the flow from an input grid through a $3\\times3$ stratified sampling mask, into a self-attention (SA) block, and resulting in patch-level representations. To the right of this flow is a smaller diagram illustrating the projection of sampling positions between two states, $Z$ and $Z'$. Below the main diagram, there are two indented sub-bullets. Between these sub-bullets is a qualitative visualization row featuring a color image of a parrot followed by five blue-toned attention heatmaps, captioned 'SRS ATTENTION MAP WITH QUERY AS LOCAL PATCH'. The text density is moderate, and the slide uses a clean white background with a thin vertical line on the far left margin."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 178.0,
+      "t_end": 180.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 178.0,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "OUR REMEDY: UDI pipeline",
+        "layout_description": "The slide features a centered title at the top with 'OUR REMEDY:' in blue text and 'UDI pipeline' highlighted in a green rounded box. A page number '5' is positioned in the top right corner. The central part of the slide is occupied by a large, detailed architectural diagram enclosed in a light green rounded rectangle. This diagram depicts a dual-stream neural network (teacher and student) processing images through various stages labeled f, SRS, and h, leading to several loss components like L_patch, L_cls, and L_cls+. A legend for the diagram's symbols is located in its bottom-right corner. Below the diagram, the slide is divided into two main equation blocks. On the left, a large dashed-line box contains definitions for multiple loss functions and probability terms. A green arrow points from this left block to a smaller dashed-line box on the right, which shows the final combined objective function L_UDI. Explanatory text 'Multi-level objective with an additional term for the extra class token' is placed above the arrow. The overall design uses a clean white background with a pastel color palette for visual elements."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 180.0,
+      "t_end": 231.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 180.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "OUR REMEDY: UDI pipeline",
+        "layout_description": "The slide is organized vertically into three main sections. At the top, the title 'OUR REMEDY:' is written in blue, followed by 'UDI pipeline' enclosed in a light green rounded box. The middle section contains a large, complex architectural diagram within a light green rounded rectangle, depicting a teacher-student neural network framework. This diagram shows two parallel paths (top for teacher, bottom for student) processing input images through various modules like feature extractors (f_t, f_s), Selective Region Sampling (SRS), and projection heads (h_t, h_s). A legend on the right side of the diagram explains the different symbols used for tokens and predictions. The bottom section features mathematical equations organized into two dashed-line boxes. The left box lists definitions for image, patch, and class-plus losses, while a green arrow points to the right box which presents the final combined loss formula (L_UDI). Explanatory text 'Multi-level objective with an additional term for the extra class token' is placed above the arrow. A page number '5' is visible in the top right corner."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "results",
+      "t_start": 231.0,
+      "t_end": 240.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 231.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with text and side-by-side table and figure",
+        "title_text": "MAIN RESULTS",
+        "layout_description": "The slide follows a structured layout starting with a large, bold, all-caps title 'MAIN RESULTS' at the top left, with a slide number '6' positioned to its left. Below the title, a single bullet point introduces the topic, followed by a brief paragraph of explanatory text. The lower two-thirds of the slide are split into two columns: the left column contains a detailed data table (TAB. 1.) comparing various models across metrics like architecture, epochs, and accuracy; the right column features a bubble chart (IMG. 1.) plotting COCO AP against IN1K Linear Top1 Acc. The chart includes a color-coded legend on its far right and a note explaining that bubble size represents the number of training epochs. The background is plain white, and the text density is moderate, balancing descriptive text with quantitative data visualizations."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "results",
+      "t_start": 240.0,
+      "t_end": 262.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 240.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with text and side-by-side table and chart",
+        "title_text": "MAIN RESULTS",
+        "layout_description": "The slide has a minimalist design with a white background and a thin vertical line on the far left margin. The slide number '6' and the main title 'MAIN RESULTS' are positioned at the top left in a large, bold, sans-serif font. Below the title, a single bullet point introduces the topic, followed by a two-line summary paragraph. The lower two-thirds of the slide are organized into two side-by-side visual elements. On the left is a detailed data table (TAB. 1.) comparing various SSL objectives and architectures across several metrics, with alternating light gray row highlighting for readability. On the right is a bubble chart (IMG. 1.) that plots COCO AP against IN1K Linear Top1 Accuracy. The chart uses colored bubbles of varying sizes to represent different methods and training durations, with a corresponding legend placed to its right. The overall text density is moderate, effectively balancing descriptive text with structured data and graphical analysis."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "results",
+      "t_start": 262.0,
+      "t_end": 270.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 262.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column title and text with two-column tables",
+        "title_text": "MAIN RESULTS",
+        "layout_description": "The slide uses a clean white background with a minimalist aesthetic. The title 'MAIN RESULTS' is positioned in the top right corner in a black, sans-serif font. To its right, a thin vertical line separates the main content from a narrow margin containing the slide number '7'. The top section of the slide contains a primary bullet point followed by two sub-bullets (marked with dashes) that provide qualitative analysis of the results. Below this text, the slide transitions into a two-column layout featuring two side-by-side tables. The left table is titled 'TAB. 2. LOW-SHOT LEARNING' and the right table is titled 'TAB. 3. TRANSFER LEARNING'. Both tables list various machine learning methods in the first column, with the proposed 'UDI' and 'UDI+' methods highlighted in light pink rows at the bottom. Some citation numbers in the tables are highlighted with small green rectangular outlines. The text density is moderate, and the layout clearly separates textual explanation from quantitative data."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "results",
+      "t_start": 270.0,
+      "t_end": 286.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 270.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with text and side-by-side tables",
+        "title_text": "MAIN RESULTS",
+        "layout_description": "The slide follows a structured layout with a title at the top right and content organized vertically. The title 'MAIN RESULTS' is in all-caps, sans-serif font, positioned next to a page number '7' which is separated by a thin vertical line running down the right margin. Below the title area, the top section contains a primary bullet point followed by two indented sub-bullets (using dashes) that provide qualitative analysis of the results. The bottom half of the slide is divided into two columns, each containing a detailed data table. The left table, 'TAB. 2. LOW-SHOT LEARNING', compares various machine learning methods across different architectures and evaluation settings. The right table, 'TAB. 3. TRANSFER LEARNING', presents performance metrics for several datasets. In both tables, the rows corresponding to the 'UDI' and 'UDI+' methods are highlighted with a light pink background to emphasize the paper's main findings. The overall text density is moderate, maintaining a clean and professional academic look."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "results",
+      "t_start": 286.0,
+      "t_end": 300.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 286.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title and grid layout",
+        "title_text": "8 VISUALIZATIONS",
+        "layout_description": "The slide features a large bold title '8 VISUALIZATIONS' at the top left, preceded by a vertical accent bar and the slide number. Below the title, there is a text section with a primary bullet point and an indented sub-bullet point explaining the visualization of attention maps. The majority of the slide is occupied by a large, complex grid of images and heatmaps. This grid is divided into four main vertical columns, each starting with a different source image at the top: a butterfly, a person with a dog, a dog jumping into water, and a group of people. Below these source images, the grid is split into two main horizontal sections labeled on the left: 'cls probing' and 'cls attention per head'. The 'cls probing' section contains two rows of larger attention maps. The 'cls attention per head' section contains five rows of smaller, multi-head attention maps, with each row corresponding to a different model (UDI, UDI+, iBOT, DINO300, DINO800). The background is plain white, and the text density is moderate, dominated by the visual data."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "results",
+      "t_start": 300.0,
+      "t_end": 314.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 300.0,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with text and large grid figure",
+        "title_text": "8 VISUALIZATIONS",
+        "layout_description": "The slide features a large bold title '8 VISUALIZATIONS' at the top left, accompanied by a vertical black accent bar to its left. Below the title, there is a single bullet point followed by a nested explanatory sentence describing the visualization of attention maps. The bottom two-thirds of the slide is dominated by a large, complex grid of images. This grid is organized into four main columns, each topped by a different source image (a butterfly, a person with a dog, a dog jumping into water, and a group of people). Below these source images are several rows of attention maps. The first two rows are labeled 'cls probing' on the left. The bottom section of the grid, labeled 'cls attention per head', contains five rows of smaller attention maps corresponding to different models: UDI, UDI+, iBOT, DINO300, and DINO800. The row labels are oriented vertically on the far left. The overall text density is moderate, with the focus being on the qualitative visual comparison of the attention maps against a white background."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "other",
+      "t_start": 314.0,
+      "t_end": 315.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 314.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered text layout",
+        "title_text": "THANK YOU!",
+        "layout_description": "The slide features a minimalist design with a plain white background. A single line of text, 'THANK YOU!', is positioned exactly in the center of the frame. The text is rendered in a clean, black, sans-serif font in all capital letters. There are no other visual elements present, such as headers, footers, logos, page numbers, or decorative graphics. The overall text density is extremely light, focusing the viewer's attention entirely on the central message of gratitude."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "other",
+      "t_start": 315.0,
+      "t_end": 319.67,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 315.0,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered text layout",
+        "title_text": "THANK YOU!",
+        "layout_description": "The slide features a minimalist design with a plain white background. A single line of text, 'THANK YOU!', is positioned exactly in the center of the frame. The text is rendered in a clean, black, sans-serif font in all capital letters. There are no other visual elements present, such as headers, footers, logos, page numbers, or decorative graphics. The overall text density is extremely light, focusing the viewer's attention entirely on the central message of gratitude."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 367,
+    "gemini_layout_calls": 377,
+    "total_gemini_calls": 744,
+    "total_frames_sampled": 320,
+    "batch_size": 15
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "layout_template": "full_fig_with_callouts",
+    "background_color": "#FFFFFF",
+    "layout_regions": {
+        "title": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.9,
+            "h": 0.1
+        },
+        "figure": {
+            "x": 0.05,
+            "y": 0.18,
+            "w": 0.9,
+            "h": 0.45
+        },
+        "bullets": {
+            "x": 0.05,
+            "y": 0.68,
+            "w": 0.9,
+            "h": 0.27
+        }
+    },
+    "has_figure": true,
+    "has_video": false,
+    "style_rationale": "A top-down layout with a wide figure region is best for displaying the comprehensive accuracy comparison table (Table 1), which is the core evidence for the results. Summary bullets at the bottom provide interpretation and highlight secondary findings like scalability and OOD robustness."
+}

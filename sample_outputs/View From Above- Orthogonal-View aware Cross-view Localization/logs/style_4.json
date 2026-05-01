@@ -1,0 +1,27 @@
+{
+    "layout_template": "full_fig_with_callouts",
+    "background_color": "#FFFFFF",
+    "layout_regions": {
+        "title": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.9,
+            "h": 0.1
+        },
+        "figure": {
+            "x": 0.05,
+            "y": 0.18,
+            "w": 0.9,
+            "h": 0.42
+        },
+        "bullets": {
+            "x": 0.05,
+            "y": 0.62,
+            "w": 0.9,
+            "h": 0.33
+        }
+    },
+    "has_figure": true,
+    "has_video": false,
+    "style_rationale": "The ERP loss is best explained by showing the visual impact on keypoint distribution (Figure 5). Since Figure 5 is a wide horizontal comparison, a full-width figure region is used to preserve its aspect ratio. Bullets and equations are placed below to provide the mathematical context and quantitative results from Table 4."
+}

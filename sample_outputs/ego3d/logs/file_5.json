@@ -1,0 +1,127 @@
+{
+    "scene_id": 5,
+    "title": "Unique Dataset Challenges",
+    "summary": "Highlights the inherent challenges of the dataset, including significant camera motion, sensor noise, high class imbalance, and the visual similarity of small furniture components.",
+    "paper_section": "3.5 Dataset unique challenges",
+    "narrative_role": "method",
+    "duration_stat": {
+        "min": 8.0,
+        "max": 13.0,
+        "avg": 10.0
+    },
+    "extracted_content": "The IKEA Ego 3D dataset introduces several unique challenges at both the data and class levels. A primary difficulty is the ego-view perspective, which incorporates significant camera motion that must be distinguished from action-related motion and sensor noise. This is further complicated by the visual similarity of small components; for example, screws of different lengths are contextually distinct but visually nearly identical in 3D point clouds. Additionally, the dataset exhibits extreme class imbalance caused by two factors: the frequency of repetitions (e.g., 'spin leg' occurs multiple times per assembly) and the high variance in action durations (e.g., 'spin leg' is significantly longer than 'spin drawer knob'). Finally, the fine-grained nature of furniture assembly creates temporal ambiguity, making it difficult to define precise start and end boundaries for specific actions.",
+    "layout": {
+        "template": "two_col_fig_right",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.8,
+                "h": 0.1
+            },
+            "bullets": {
+                "x": 0.05,
+                "y": 0.2,
+                "w": 0.4,
+                "h": 0.7
+            },
+            "figure": {
+                "x": 0.5,
+                "y": 0.2,
+                "w": 0.45,
+                "h": 0.7
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "Unique Dataset Challenges",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 4",
+            "caption": "Action occurrence distribution showing extreme class imbalance across the dataset."
+        },
+        "bullets": [
+            "Significant ego-view camera motion and sensor noise",
+            "Extreme class imbalance in action frequency and duration",
+            "Visual similarity of contextually distinct small components",
+            "Temporal ambiguity in fine-grained action boundaries"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "The ego-view perspective introduces significant camera motion and sensor noise",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.52,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "that must be distinguished from actual actions.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 7.04,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "We also face extreme class imbalance in action frequency and duration,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 10.56,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "alongside the visual similarity of small components like screws.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 14.08,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "These factors, plus the temporal ambiguity of fine-grained assembly, make this a highly challenging benchmark.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 17.6,
+    "source": [
+        "Section 3.3",
+        "Section 3.5",
+        "Figure 4"
+    ],
+    "audio_content": "The ego-view perspective introduces significant camera motion and sensor noise that must be distinguished from actual actions. We also face extreme class imbalance in action frequency and duration, alongside the visual similarity of small components like screws. These factors, plus the temporal ambiguity of fine-grained assembly, make this a highly challenging benchmark.",
+    "prompt": "A slide showing a list of dataset challenges on the left, such as camera motion and class imbalance. On the right, a bar chart from the paper (Figure 4) illustrates the highly imbalanced action occurrences on a log scale."
+}

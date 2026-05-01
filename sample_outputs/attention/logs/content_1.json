@@ -1,0 +1,10 @@
+{
+    "extracted_content": "Traditional sequence transduction models, such as RNNs, LSTMs, and gated recurrent neural networks, are fundamentally constrained by sequential computation. They process sequences step-by-step, which prevents parallelization within training examples and becomes a major bottleneck for long sequences. The Transformer is introduced as a novel architecture that eschews recurrence and convolutions entirely, relying instead on attention mechanisms to draw global dependencies between input and output. This design allows for significantly more parallelization during training. Empirical results show that the Transformer achieves superior quality; for example, it reached a state-of-the-art 28.4 BLEU on the WMT 2014 English-to-German translation task and 41.8 BLEU on the English-to-French task. Furthermore, the base model can be trained in as little as twelve hours on eight P100 GPUs, a fraction of the time required by previous leading models.",
+    "key_figures": [],
+    "key_tables": [],
+    "key_equations": [],
+    "section_refs": [
+        "Abstract",
+        "Introduction"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "Efficiency and Resource Analysis",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 10",
+            "caption": "Efficiency comparison of adaptation methods across parameters, latency, and memory"
+        },
+        "bullets": [
+            "Client-side: 34x-48x fewer parameters and 50% less memory than full fine-tuning",
+            "Near-optimal latency: Only 4% overhead compared to simple linear probing",
+            "Server-side bottlenecks: 136s inference per sample and 2.8x FHE data expansion"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "BlindFed is highly efficient for clients,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 4.6,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "requiring up to 48 times fewer parameters and half the memory of full fine-tuning.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 9.2,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "Latency is nearly identical to linear probing, with only a 4 percent overhead.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 13.8,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "However, server-side encrypted inference remains a bottleneck, taking 136 seconds per sample with a 2.8-times data expansion due to homomorphic encryption.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 18.4
+}

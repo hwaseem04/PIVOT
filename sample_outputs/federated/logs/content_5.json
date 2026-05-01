@@ -1,0 +1,45 @@
+{
+    "extracted_content": "BlindFed addresses the risk of model extraction attacks where a malicious client might use pairs of intermediate representations $(b_{\\ell-1}, b_\\ell)$ to learn the parameters of the transformer blocks. To counter this, the framework implements two primary privacy-boosting mechanisms. First, **Sample-level Permutation** applies a unique random permutation matrix $\\Pi_\\ell$ to each batch of intermediate representations at every block $\\ell$. By only sharing the product of these matrices $(\\Pi_{\\ell-1}^{-1} \\cdot \\Pi_\\ell)$ with the client, the server ensures that individual sample mappings remain hidden, a property formally supported by Proposition 1. Second, **Stochastic Block Sampling (SBS)** mitigates similarity-based attacks by only revealing a subset of block outputs. Based on a structured probabilistic rule, each block has a stationary probability of $1/3$ of being sampled, resulting in an expected $L/3$ blocks being revealed. This breaks the continuity of the representations, as non-consecutive blocks exhibit significantly lower feature similarity, making it computationally infeasible for clients to reconstruct the full model sequence.",
+    "key_figures": [
+        {
+            "ref": "Figure 5",
+            "caption": "Stochastic block sampling strategy.",
+            "relevance": "Illustrates the Markov-chain-like transition states (0 for not sampled, 1 for sampled) used to determine which transformer block outputs are revealed to the client."
+        },
+        {
+            "ref": "Figure 6",
+            "caption": "Heatmap visualization of the similarity (L2 distance) between corresponding block outputs or hidden representations",
+            "relevance": "Demonstrates that consecutive block outputs (e.g., $b_1$ and $b_2$) have high similarity, which could be exploited for model extraction if not for the proposed privacy mechanisms."
+        },
+        {
+            "ref": "Figure 7",
+            "caption": "Heatmap visualization of the similarity (L2 distance) between non-consecutive block outputs or hidden representations",
+            "relevance": "Shows that non-consecutive blocks (e.g., $b_1$ and $b_3$) have negligible similarity, validating why the SBS strategy effectively thwarts similarity-based attacks."
+        }
+    ],
+    "key_tables": [],
+    "key_equations": [
+        {
+            "ref": "Proposition 1",
+            "content": "Let A, B, and C be n \u00d7 n permutation matrices. Given only $A^{-1}B$, $B^{-1}C$, and $C^{-1}A$, it is computationally infeasible to uniquely recover the individual matrices A, B, and C without additional information.",
+            "relevance": "Provides the mathematical foundation for the sample-level permutation's security, ensuring that clients cannot reverse-engineer the random permutations applied by the server."
+        },
+        {
+            "ref": "Equation 12",
+            "content": "p = 0.5(1 - p)",
+            "relevance": "The equilibrium equation used to derive the stationary probability ($p=1/3$) of a block being sampled during the SBS process."
+        },
+        {
+            "ref": "Equation 8",
+            "content": "\\mathbf{H}_\\ell = g_\\ell(\\mathbf{B}_\\ell + \\mathbf{H}_{\\ell-1}) + \\mathbf{H}_{\\ell-1}",
+            "relevance": "The reformulated adapter computation used when operating on batches of permuted samples to ensure consistent updates despite the random shuffling."
+        }
+    ],
+    "section_refs": [
+        "Section 4.3",
+        "Section 4.3.1",
+        "Section 4.3.2",
+        "Appendix A",
+        "Appendix B"
+    ]
+}

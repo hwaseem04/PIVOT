@@ -1,0 +1,21 @@
+{
+    "extracted_content": "The authors motivate the use of self-attention by comparing it to recurrent and convolutional layers across three key dimensions: computational complexity, parallelizability, and the ability to learn long-range dependencies. Self-attention layers exhibit a total computational complexity per layer of O(n^2 \u00b7 d), which is often more efficient than recurrent layers (O(n \u00b7 d^2)) in machine translation where the sequence length n is smaller than the representation dimensionality d. Crucially, self-attention requires a constant number of sequential operations (O(1)), whereas recurrent layers require O(n), significantly limiting parallelization. Furthermore, self-attention minimizes the maximum path length between any two input and output positions to O(1), facilitating the learning of long-range dependencies compared to the O(n) path length in recurrent layers or O(log_k(n)) in convolutional layers.",
+    "key_figures": [],
+    "key_tables": [
+        {
+            "ref": "Table 1",
+            "caption": "Maximum path lengths, per-layer complexity and minimum number of sequential operations for different layer types. n is the sequence length, d is the representation dimension, k is the kernel size of convolutions and r the size of the neighborhood in restricted self-attention.",
+            "relevance": "This table provides the quantitative basis for the scene, comparing the complexity and path lengths of self-attention against recurrent and convolutional layers."
+        }
+    ],
+    "key_equations": [
+        {
+            "ref": "Complexity and Path Length",
+            "content": "Self-Attention: Complexity O(n^2 \u00b7 d), Sequential Ops O(1), Max Path Length O(1)",
+            "relevance": "These complexity measures demonstrate the theoretical efficiency and architectural advantages of the Transformer's core mechanism."
+        }
+    ],
+    "section_refs": [
+        "Section 4"
+    ]
+}

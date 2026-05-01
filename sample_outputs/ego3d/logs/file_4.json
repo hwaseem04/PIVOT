@@ -1,0 +1,126 @@
+{
+    "scene_id": 4,
+    "title": "Fine-Grained Action Taxonomy",
+    "summary": "Describes the hierarchical annotation of 56 atomic actions composed of verb-noun pairs, including 12 verb classes for temporal semantics and 22 noun classes for object identification.",
+    "paper_section": "3.2 Data annotations",
+    "narrative_role": "method",
+    "duration_stat": {
+        "min": 7.0,
+        "max": 12.0,
+        "avg": 9.0
+    },
+    "extracted_content": "The IKEA Ego 3D dataset utilizes a hierarchical annotation scheme where 56 atomic actions are decomposed into (verb, noun) pairs. The verb set (12 classes) focuses on temporal semantics, representing how different objects are manipulated in similar ways (e.g., 'spin', 'attach', 'align'). Conversely, the noun set (22 classes) identifies specific assembly components or tools (e.g., 'cam lock', 'dowel', 'screwdriver') based on their geometric properties. This hierarchical approach is designed to decouple spatial object recognition from temporal action understanding. The taxonomy also includes an 'NA' class (class 0) to account for unlabeled frames during transitions between assembly steps. Furthermore, the dataset captures the inherent repetition in furniture assembly, where certain actions like 'spin leg' occur multiple times, while others like 'spin drawer knob' are unique occurrences. On average, an action lasts 46.2 frames, and each of the 56 classes is represented by at least 100 frames to ensure sufficient data for learning.",
+    "layout": {
+        "template": "two_col_fig_left",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.9,
+                "h": 0.1
+            },
+            "figure": {
+                "x": 0.05,
+                "y": 0.2,
+                "w": 0.5,
+                "h": 0.7
+            },
+            "bullets": {
+                "x": 0.6,
+                "y": 0.2,
+                "w": 0.35,
+                "h": 0.7
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "Hierarchical Action Taxonomy",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 3",
+            "caption": "Visualizing RGB, 3D point clouds, and action labels for assembly tasks"
+        },
+        "bullets": [
+            "56 atomic actions decomposed into hierarchical verb-noun pairs",
+            "12 verb classes represent temporal semantics and manipulation",
+            "22 noun classes identify specific assembly components and tools",
+            "Decouples spatial recognition from temporal action understanding"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "We decompose 56 atomic actions into verb-noun pairs.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 2.48,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "Twelve verb classes capture temporal semantics,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 4.96,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "while twenty-two noun classes identify specific components.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 7.44,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "This hierarchy decouples spatial object recognition",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 9.92,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "from temporal action understanding.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 12.4,
+    "source": [
+        "Section 3.2",
+        "Figure 3"
+    ],
+    "audio_content": "We decompose 56 atomic actions into verb-noun pairs. Twelve verb classes capture temporal semantics, while twenty-two noun classes identify specific components. This hierarchy decouples spatial object recognition from temporal action understanding.",
+    "prompt": "A slide showing Figure 3 from the paper on the left, which displays a grid of RGB images, corresponding 3D point clouds, and action labels like 'spin screwdriver' and 'use drill'. On the right, there are bullet points explaining the hierarchical verb-noun taxonomy used for action recognition."
+}

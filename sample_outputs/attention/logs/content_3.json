@@ -1,0 +1,29 @@
+{
+    "extracted_content": "The core of the Transformer is the Scaled Dot-Product Attention mechanism, which maps a query and a set of key-value pairs to an output. The output is a weighted sum of the values, where weights are determined by the compatibility of the query with the corresponding key. To prevent the dot products from growing too large in magnitude\u2014which can lead to vanishing gradients in the softmax layer\u2014the scores are scaled by the inverse square root of the key dimension (1/sqrt(d_k)). Multi-Head Attention improves upon this by linearly projecting queries, keys, and values multiple times (h = 8) into lower-dimensional subspaces. This allows the model to jointly attend to information from different representation subspaces at different positions, which is inhibited by a single attention head. The model utilizes attention in three ways: encoder-decoder attention (relating decoder queries to encoder outputs), encoder self-attention, and masked decoder self-attention (ensuring predictions for a position only depend on known outputs at earlier positions).",
+    "key_figures": [
+        {
+            "ref": "Figure 2",
+            "caption": "(left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel.",
+            "relevance": "This figure illustrates the internal components of the attention mechanisms, including the scaling, masking, and concatenation steps."
+        }
+    ],
+    "key_tables": [],
+    "key_equations": [
+        {
+            "ref": "Equation 1",
+            "content": "Attention(Q, K, V) = softmax(Q K^T / sqrt(d_k)) V",
+            "relevance": "This is the fundamental mathematical definition of the Scaled Dot-Product Attention used throughout the model."
+        },
+        {
+            "ref": "Multi-Head Attention",
+            "content": "MultiHead(Q, K, V) = Concat(head_1, ..., head_h) W^O",
+            "relevance": "This equation defines how multiple attention heads are combined to produce the final multi-head output."
+        }
+    ],
+    "section_refs": [
+        "Section 3.2",
+        "Section 3.2.1",
+        "Section 3.2.2",
+        "Section 3.2.3"
+    ]
+}

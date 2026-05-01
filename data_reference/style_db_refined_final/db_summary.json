@@ -1,0 +1,158 @@
+[
+  {
+    "video_id": "Mining Supervision for Dynamic Regions in Self-Supervised Monocular Depth Estimation",
+    "path": "data_reference/style_db_refined_final/Mining_Supervision_for_Dynamic_Regions_in_Self-Supervised_Monocular_Depth_Estimation/metadata.json"
+  },
+  {
+    "video_id": "Identifying and Mitigating Position Bias of Multi-image Vision-Language Models",
+    "path": "data_reference/style_db_refined_final/Identifying_and_Mitigating_Position_Bias_of_Multi-image_Vision-Language_Models/metadata.json"
+  },
+  {
+    "video_id": "ICML_ICML-2025_Graph-Assisted-Stitching-for-Offline-Hierarchical-Rein__ICML-2025-Graph-Assisted-Stitching-for",
+    "path": "data_reference/style_db_refined_final/ICML_ICML-2025_Graph-Assisted-Stitching-for-Offline-Hierarchical-Rein__ICML-2025-Graph-Assisted-Stitching-for/metadata.json"
+  },
+  {
+    "video_id": "Random Walk on Pixel Manifolds for Anomaly Segmentation of Complex Driving Scenes",
+    "path": "data_reference/style_db_refined_final/Random_Walk_on_Pixel_Manifolds_for_Anomaly_Segmentation_of_Complex_Driving_Scenes/metadata.json"
+  },
+  {
+    "video_id": "Small Steps and Level Sets Fitting Neural Surface Models with Point Guidance",
+    "path": "data_reference/style_db_refined_final/Small_Steps_and_Level_Sets_Fitting_Neural_Surface_Models_with_Point_Guidance/metadata.json"
+  },
+  {
+    "video_id": "Probability Density Geodesics in Image Diffusion Latent Space",
+    "path": "data_reference/style_db_refined_final/Probability_Density_Geodesics_in_Image_Diffusion_Latent_Space/metadata.json"
+  },
+  {
+    "video_id": "NeurIPS_NeurIPS-2024_LVD-2M-A-Long-take-Video-Dataset-with-Temporally-De__NeurIPS-2024-Paper-LVD-2M-A-Long-take",
+    "path": "data_reference/style_db_refined_final/NeurIPS_NeurIPS-2024_LVD-2M-A-Long-take-Video-Dataset-with-Temporally-De__NeurIPS-2024-Paper-LVD-2M-A-Long-take/metadata.json"
+  },
+  {
+    "video_id": "CVPR_CVPR-2025_Highlight-SLAM3R-Real-Time-Dense-Scene-Reconstruction-from-Mon__CVPR-2025-Highlight-SLAM3R-Real-Time-Den",
+    "path": "data_reference/style_db_refined_final/CVPR_CVPR-2025_Highlight-SLAM3R-Real-Time-Dense-Scene-Reconstruction-from-Mon__CVPR-2025-Highlight-SLAM3R-Real-Time-Den/metadata.json"
+  },
+  {
+    "video_id": "ICLR_ICLR-2025_Oral-Open-World-Reinforcement-Learning-over-Long-Short__ICLR-2025-Oral-Open-World-Reinforcement",
+    "path": "data_reference/style_db_refined_final/ICLR_ICLR-2025_Oral-Open-World-Reinforcement-Learning-over-Long-Short__ICLR-2025-Oral-Open-World-Reinforcement/metadata.json"
+  },
+  {
+    "video_id": "NeurIPS_NeurIPS-2024_Dual-Prototype-Evolving-for-Test-Time-Generalizatio__NeurIPS-2024-Dual-Prototype-Evolving-for_Media",
+    "path": "data_reference/style_db_refined_final/NeurIPS_NeurIPS-2024_Dual-Prototype-Evolving-for-Test-Time-Generalizatio__NeurIPS-2024-Dual-Prototype-Evolving-for_Media/metadata.json"
+  },
+  {
+    "video_id": "3DInAction- Understanding Human Actions in 3D Point Clouds",
+    "path": "data_reference/style_db_refined_final/3DInAction-_Understanding_Human_Actions_in_3D_Point_Clouds/metadata.json"
+  },
+  {
+    "video_id": "CVPR_CVPR 2025_ Deng_Pos3R_6D_Pose_Estimation_for_Unseen_Object__Deng_Pos3R_6D_Pose_Estimation_for_Unseen_Objects_Made_Easy_CVPR_2025_paper",
+    "path": "data_reference/style_db_refined_final/CVPR_CVPR_2025__Deng_Pos3R_6D_Pose_Estimation_for_Unseen_Object__Deng_Pos3R_6D_Pose_Estimation_for_Unseen_Objects_Made_Easy_CVPR_2025_paper/metadata.json"
+  },
+  {
+    "video_id": "Find Any Part in 3D",
+    "path": "data_reference/style_db_refined_final/Find_Any_Part_in_3D/metadata.json"
+  },
+  {
+    "video_id": "Pos3R- 6D Pose Estimation for Unseen Objects Made Easy",
+    "path": "data_reference/style_db_refined_final/Pos3R-_6D_Pose_Estimation_for_Unseen_Objects_Made_Easy/metadata.json"
+  },
+  {
+    "video_id": "Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation",
+    "path": "data_reference/style_db_refined_final/Temporally_Consistent_Unbalanced_Optimal_Transport_for_Unsupervised_Action_Segmentation/metadata.json"
+  },
+  {
+    "video_id": "Unsqueeze [CLS] Bottleneck to Learn Rich Representations",
+    "path": "data_reference/style_db_refined_final/Unsqueeze__CLS__Bottleneck_to_Learn_Rich_Representations/metadata.json"
+  },
+  {
+    "video_id": "CVPR_CVPR2025_Blurred Lidar__LiDAR-for-Sharper-3D-CVPR-2025-H",
+    "path": "data_reference/style_db_refined_final/CVPR_CVPR2025_Blurred_Lidar__LiDAR-for-Sharper-3D-CVPR-2025-H/metadata.json"
+  },
+  {
+    "video_id": "CVPR_CVPR-2025_Highlight-InstaManip-In-context-Learning-of-Autoregressive-Mod__CVPR2025-Unleashing-In-context-Learning",
+    "path": "data_reference/style_db_refined_final/CVPR_CVPR-2025_Highlight-InstaManip-In-context-Learning-of-Autoregressive-Mod__CVPR2025-Unleashing-In-context-Learning/metadata.json"
+  },
+  {
+    "video_id": "CVPR_09_CVPR-2025_Highlight-Focus-N-Fix-Region-Aware-Fine-Tuning-for-Tex__CVPR-2025-Highlight-Paper-Focus-N-Fix-Re",
+    "path": "data_reference/style_db_refined_final/CVPR_09_CVPR-2025_Highlight-Focus-N-Fix-Region-Aware-Fine-Tuning-for-Tex__CVPR-2025-Highlight-Paper-Focus-N-Fix-Re/metadata.json"
+  },
+  {
+    "video_id": "CVPR_CVPR-2025Highlight_ETAP-Event-based-Tracking-of-Any-Point__ETAP-Event-based-Tracking-of-Any-Point-C",
+    "path": "data_reference/style_db_refined_final/CVPR_CVPR-2025Highlight_ETAP-Event-based-Tracking-of-Any-Point__ETAP-Event-based-Tracking-of-Any-Point-C/metadata.json"
+  },
+  {
+    "video_id": "ICLR_ICLR-2025-paper_Block-Diffusion-Interpolating-Between-Autoregres__Block-Diffusion-Interpolating-Between",
+    "path": "data_reference/style_db_refined_final/ICLR_ICLR-2025-paper_Block-Diffusion-Interpolating-Between-Autoregres__Block-Diffusion-Interpolating-Between/metadata.json"
+  },
+  {
+    "video_id": "Explaining Human Preferences via Metrics for Structured 3D Reconstruction",
+    "path": "data_reference/style_db_refined_final/Explaining_Human_Preferences_via_Metrics_for_Structured_3D_Reconstruction/metadata.json"
+  },
+  {
+    "video_id": "ArGue- Attribute-Guided Prompt Tuning for Vision-Language Models",
+    "path": "data_reference/style_db_refined_final/ArGue-_Attribute-Guided_Prompt_Tuning_for_Vision-Language_Models/metadata.json"
+  },
+  {
+    "video_id": "CVPR_CVPR 2025 (Highlight)_ MonSter__CVPR25-Highlight-MonSter",
+    "path": "data_reference/style_db_refined_final/CVPR_CVPR_2025__Highlight___MonSter__CVPR25-Highlight-MonSter/metadata.json"
+  },
+  {
+    "video_id": "View From Above- Orthogonal-View aware Cross-view Localization",
+    "path": "data_reference/style_db_refined_final/View_From_Above-_Orthogonal-View_aware_Cross-view_Localization/metadata.json"
+  },
+  {
+    "video_id": "ICLR_ICLR-2025-I_Con-A-Unifying-Framework-for-Representation-Learning__ICLR-2025-A-New-Periodic-Table-in-Machine",
+    "path": "data_reference/style_db_refined_final/ICLR_ICLR-2025-I_Con-A-Unifying-Framework-for-Representation-Learning__ICLR-2025-A-New-Periodic-Table-in-Machine/metadata.json"
+  },
+  {
+    "video_id": "CVPR_CVPR-2025_Identifying-and-Mitigating-Position-Bias-of-Multi-Image-Vision__CVPR-2025-Identifying-and-Mitigating",
+    "path": "data_reference/style_db_refined_final/CVPR_CVPR-2025_Identifying-and-Mitigating-Position-Bias-of-Multi-Image-Vision__CVPR-2025-Identifying-and-Mitigating/metadata.json"
+  },
+  {
+    "video_id": "ICLR_ICLR-2025-PPT_Patch-Order-Do-Matters-In-Time-Series-Pretext-Task__ICLR-2025-PPT-Patch-Order-Do-Matters-In",
+    "path": "data_reference/style_db_refined_final/ICLR_ICLR-2025-PPT_Patch-Order-Do-Matters-In-Time-Series-Pretext-Task__ICLR-2025-PPT-Patch-Order-Do-Matters-In/metadata.json"
+  },
+  {
+    "video_id": "Believing is Seeing Unobserved Object Detection using Generative Models",
+    "path": "data_reference/style_db_refined_final/Believing_is_Seeing_Unobserved_Object_Detection_using_Generative_Models/metadata.json"
+  },
+  {
+    "video_id": "DenseNets Reloaded- Paradigm Shift Beyond ResNets and ViTs",
+    "path": "data_reference/style_db_refined_final/DenseNets_Reloaded-_Paradigm_Shift_Beyond_ResNets_and_ViTs/metadata.json"
+  },
+  {
+    "video_id": "ICLR_ICLR 2025_ Coreset Spectral Clustering__9873_Coreset_Spectral_Clusteri",
+    "path": "data_reference/style_db_refined_final/ICLR_ICLR_2025__Coreset_Spectral_Clustering__9873_Coreset_Spectral_Clusteri/metadata.json"
+  },
+  {
+    "video_id": "CVPR_CVPR-2025_Joint-Optimization-of-Neural-Radiance-Fields-and-Continuous-Ca__CVPR-2025-Joint-Opt-of-NeRFs-and-Continu",
+    "path": "data_reference/style_db_refined_final/CVPR_CVPR-2025_Joint-Optimization-of-Neural-Radiance-Fields-and-Continuous-Ca__CVPR-2025-Joint-Opt-of-NeRFs-and-Continu/metadata.json"
+  },
+  {
+    "video_id": "ICLR_ICLR 2025_DICE__837_DICE_End_to_end_Deformatio",
+    "path": "data_reference/style_db_refined_final/ICLR_ICLR_2025_DICE__837_DICE_End_to_end_Deformatio/metadata.json"
+  },
+  {
+    "video_id": "Joint Optimization of Neural Radiance Fields and Continuous Camera Motion from a Monocular Video",
+    "path": "data_reference/style_db_refined_final/Joint_Optimization_of_Neural_Radiance_Fields_and_Continuous_Camera_Motion_from_a_Monocular_Video/metadata.json"
+  },
+  {
+    "video_id": "Removing Cost Volumes from Optical Flow Estimators",
+    "path": "data_reference/style_db_refined_final/Removing_Cost_Volumes_from_Optical_Flow_Estimators/metadata.json"
+  },
+  {
+    "video_id": "VI3NR Variance Informed Initialization for Implicit Neural Representations",
+    "path": "data_reference/style_db_refined_final/VI3NR_Variance_Informed_Initialization_for_Implicit_Neural_Representations/metadata.json"
+  },
+  {
+    "video_id": "CVPR_CVPR-2025_Reloc3r-Large-Scale-Training-of-Relative-Camera-Pose-Regressio__CVPR-2025-Reloc3r",
+    "path": "data_reference/style_db_refined_final/CVPR_CVPR-2025_Reloc3r-Large-Scale-Training-of-Relative-Camera-Pose-Regressio__CVPR-2025-Reloc3r/metadata.json"
+  },
+  {
+    "video_id": "GigaTok- Scaling Visual Tokenizers to 3 Billion Parameters for Autoregressive Image Generation",
+    "path": "data_reference/style_db_refined_final/GigaTok-_Scaling_Visual_Tokenizers_to_3_Billion_Parameters_for_Autoregressive_Image_Generation/metadata.json"
+  },
+  {
+    "video_id": "Differentiable Neural Surface Refinement for Modeling Transparent Objects",
+    "path": "data_reference/style_db_refined_final/Differentiable_Neural_Surface_Refinement_for_Modeling_Transparent_Objects/metadata.json"
+  }
+]

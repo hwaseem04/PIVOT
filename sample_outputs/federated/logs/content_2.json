@@ -1,0 +1,39 @@
+{
+    "extracted_content": "BlindFed addresses the double-blind adaptation challenge through three core innovations. First, the original FM is redesigned into an FHE-friendly architecture by replacing non-linear operations (GELU, Softmax, LayerNorm) with low-degree polynomial approximations, such as a quadratic function for GELU. Second, a two-stage split learning approach is used: an offline stage where the server distills knowledge from the original FM into the FHE-friendly version using auxiliary data, and an online stage where clients perform encrypted inference block-by-block. This allows clients to train local parallel adapters and classification heads in plaintext without backpropagating through the FM backbone. Third, the framework incorporates privacy-boosting schemes like sample-level permutation and Stochastic Block Sampling (SBS) to mitigate model extraction attacks by randomizing sample order and hiding a subset of block outputs during training.",
+    "key_figures": [
+        {
+            "ref": "Figure 2",
+            "caption": "Overview of the proposed BlindFed framework for double-blind federated adaptation.",
+            "relevance": "Provides a high-level workflow of the three main components: architecture redesign, offline distillation, and online adaptation."
+        },
+        {
+            "ref": "Figure 3",
+            "caption": "FHE-friendly architecture redesign.",
+            "relevance": "Illustrates the specific polynomial replacements for non-linear operations (e.g., Quad for GELU) and the placement of the parallel adapter."
+        },
+        {
+            "ref": "Figure 5",
+            "caption": "Stochastic block sampling strategy.",
+            "relevance": "Visualizes the probabilistic approach used to hide intermediate block outputs from clients to boost model privacy."
+        }
+    ],
+    "key_tables": [],
+    "key_equations": [
+        {
+            "ref": "Equation 4",
+            "content": "GELU(x) \u2248 Quad(x) = 0.125x^2 + 0.25x + 0.5",
+            "relevance": "Shows the specific quadratic approximation used to make the GELU activation function compatible with FHE."
+        },
+        {
+            "ref": "Equation 7",
+            "content": "g_l(z) = \u03b1 W^u_l GELU(W^d_l z)",
+            "relevance": "Defines the low-rank parallel adapter function used for local client-side training."
+        }
+    ],
+    "section_refs": [
+        "Section 4",
+        "Section 4.1",
+        "Section 4.2",
+        "Section 4.3"
+    ]
+}

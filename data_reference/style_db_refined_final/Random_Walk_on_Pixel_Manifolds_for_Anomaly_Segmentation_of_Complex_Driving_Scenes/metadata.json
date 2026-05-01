@@ -1,0 +1,618 @@
+{
+  "video_id": "Random Walk on Pixel Manifolds for Anomaly Segmentation of Complex Driving Scenes",
+  "duration": 299.5,
+  "fps_sampled": 1.0,
+  "total_slides": 29,
+  "slides_with_builds": 6,
+  "total_build_steps": 39,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 11.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Random Walk on Pixel Manifolds for Anomaly Segmentation of Complex Driving Scenes",
+        "layout_description": "The slide follows a classic centered title layout on a plain white background. At the top center, there is a large, colorful ECCV logo featuring a stylized blue and purple skyline graphic. Below this, the main title is presented in a large, black, serif font, spanning two lines and centered horizontally. Underneath the title, the authors' names, 'Zelong Zeng, Kaname Tomite', and their affiliation, 'SenseTime Japan, Tokyo, Japan', are listed in a smaller, centered font. In the lower-middle section, the SenseTime corporate logo is displayed, consisting of a red and orange infinity symbol above the brand name. At the very bottom, a single line of text identifies the conference as 'The 18th European Conference on Computer Vision ECCV 2024'. The overall text density is light, creating a clean and professional appearance."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 11.0,
+      "t_end": 15.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 11.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and comparison figure",
+        "title_text": "Anomaly Segmentation for Driving Scenes",
+        "layout_description": "The slide follows a clean, structured layout starting with a large, left-aligned title at the top, separated from the content by a thin horizontal line. Below the title, a single bullet point provides a brief definition of the task. The central part of the slide features a side-by-side visual comparison: on the left is a photographic 'input image' showing a road with traffic cones and an open manhole, and on the right is 'the result of anomaly segmentation' represented as a color-coded heatmap where anomalous objects are highlighted in yellow. A black arrow between the two images indicates the flow of the process. At the bottom of the slide, a full bibliographic citation is placed on the left, and a page number '2' is positioned in the bottom right corner. The background is plain white, and the text density is light, prioritizing visual communication."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 15.0,
+      "t_end": 18.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with title and bullet",
+        "title_text": "Anomaly Segmentation for Driving Scenes",
+        "layout_description": "The slide follows a standard academic format with a large, left-aligned title at the top, separated from the main content by a thin horizontal line. Below the line, a single bullet point provides a definition of the task. The middle section of the slide presents a qualitative example using a side-by-side comparison. On the left is a real-world 'input image' showing a road with traffic cones and an open manhole. A black arrow points from this image to the right, which displays 'The result of anomaly segmentation' as a heatmap where the anomalous objects (cones and manhole) are highlighted in bright yellow. Both images have centered captions underneath. The bottom of the slide contains a full citation for the source image in a smaller font on the left and a page number '2' on the right. The background is plain white, and the text density is light, prioritizing visual communication."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 18.0,
+      "t_end": 30.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 18.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Anomaly Segmentation for Driving Scenes",
+        "layout_description": "The slide follows a clean, single-column layout with a white background. The title is positioned at the top-left in a large serif font, separated from the main content by a thin horizontal line that spans the width of the slide. Below this line, a single bullet point provides a brief textual summary of existing methods. The majority of the slide is dedicated to a large, horizontally-oriented diagram illustrating a standard anomaly segmentation pipeline. On the left, an input image of a road with traffic cones feeds into a 'Segmentation Model' box, which is subdivided into a 'Backbone' (represented by blue bars) and a 'Classifier' (represented by blue and orange bars). An orange arrow labeled 'Logits' connects this model to a central box for a 'Logit-based anomaly scoring function'. The final output on the right is an 'Anomaly score map' that highlights the cones in yellow. A small page number '3' is visible in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "method",
+      "t_start": 30.0,
+      "t_end": 33.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 30.0,
+          "image": "slide_5_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 31.0,
+          "image": "slide_5_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Anomaly Segmentation for Driving Scenes",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold title at the top left, underlined by a full-width horizontal line. Below the line, a single bullet point provides a high-level explanation of existing methods. The central portion of the slide contains a large horizontal flowchart illustrating a typical segmentation pipeline. This diagram begins on the left with an input image of a street scene, which enters a 'Segmentation Model' box. This box contains a 'Backbone' (represented by blue blocks in an encoder-decoder shape) and a 'Classifier' (represented by blue and orange vertical bars). An orange arrow labeled 'Logits' connects this model to a central box titled 'Logit-based anomaly scoring function'. A final arrow points to the 'Anomaly score map' on the far right, which shows a heatmap-style output. At the bottom of the slide, a single sentence in blue text provides a concluding remark. A small page number '3' is visible in the bottom right corner. The background is white, and the text density is moderate."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "introduction",
+      "t_start": 33.0,
+      "t_end": 45.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 33.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with title and bullet point",
+        "title_text": "Motivation",
+        "layout_description": "The slide features a large, bold title 'Motivation' at the top-left, underlined by a thin horizontal line that spans the width of the slide. Below the title, there is a single bullet point stating 'The diversity of driving scenes.' The main body of the slide is organized into two columns of images. The left column contains two vertically stacked images representing 'Training data [2]', showing typical urban driving scenes. The right column contains a 2x2 grid of four images representing 'Test data [3] in various environmental factors', showcasing diverse conditions like snow, night, and unpaved roads. Captions for these image groups are placed directly below them. At the bottom left, there are two bibliographic references in a smaller font. A page number '4' is located in the bottom right corner. The overall text density is light, with a focus on visual comparison between training and test data environments."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "introduction",
+      "t_start": 45.0,
+      "t_end": 49.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 45.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with title and bullet point",
+        "title_text": "Motivation",
+        "layout_description": "The slide follows a clean, structured layout with a white background. At the top left, the title 'Motivation' is displayed in a large serif font, underlined by a thin horizontal line that extends across the slide. Below this line, a single bullet point introduces the core theme: 'The diversity of driving scenes.' The central content consists of a grid of six images divided into two distinct sections. On the left, two images are stacked vertically and labeled 'Training data [2]', showing standard urban street views. To the right, a 2x2 grid of four images is labeled 'Test data [3] in various environmental factors', illustrating more challenging conditions such as snow, night driving, and unpaved rural roads. At the bottom left, two bibliographic references are provided in a smaller font size. A page number '4' is positioned in the bottom right corner. The slide has a light text density, relying heavily on visual examples to convey its message."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "introduction",
+      "t_start": 49.0,
+      "t_end": 60.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 49.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and comparison figure",
+        "title_text": "Motivation",
+        "layout_description": "The slide follows a clean academic style with a large, bold title 'Motivation' at the top-left, separated from the content by a thin horizontal line. Below the title, a single bullet point provides a brief textual explanation. The central part of the slide features a comparative diagram divided into two sections by vertical lines. The left section, labeled '(i) An ideal manifold structure', illustrates two well-separated circular clusters of blue and green 'inlier pixels' and a separate group of grey 'outlier pixels'. The right section, labeled '(ii) A distorted manifold structure', shows these same groups but in a more complex, overlapping, and curved arrangement. A legend is positioned at the bottom center of the diagram area, defining the symbols for inlier pixels, class prototypes (crosses), and outlier pixels. The overall text density is light, and a page number '5' is visible in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "introduction",
+      "t_start": 60.0,
+      "t_end": 78.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 60.0,
+          "image": "slide_9_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 67.0,
+          "image": "slide_9_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and comparison figure",
+        "title_text": "Motivation",
+        "layout_description": "The slide features a large title 'Motivation' at the top-left, underlined by a thin horizontal line that spans the width of the slide. Below the line, a single bullet point introduces the core concept. The main body of the slide is occupied by a side-by-side comparison of two diagrams, separated by a vertical line. The left diagram, labeled '(i) An ideal manifold structure', shows well-separated, circular clusters of blue and green pixels around central 'X' prototypes, with a separate gray cluster of outlier pixels. The right diagram, labeled '(ii) A distorted manifold structure', depicts the same classes but with elongated, overlapping, and curved shapes that extend beyond their ideal circular boundaries. A legend is positioned at the bottom center of the figure area, defining the symbols for inlier pixels, class prototypes, and outlier pixels. A small page number '5' is located in the bottom-right corner. The overall text density is light, focusing on visual communication through diagrams."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "introduction",
+      "t_start": 78.0,
+      "t_end": 90.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 78.0,
+          "image": "slide_10_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 81.0,
+          "image": "slide_10_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 82.0,
+          "image": "slide_10_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and comparison figure",
+        "title_text": "Motivation",
+        "layout_description": "The slide has a clean, minimalist design with a white background. At the top-left, the title 'Motivation' is written in a large serif font, underlined by a thin horizontal line that spans the width of the slide. Below this line, there is a single bullet point stating a core concept. The central part of the slide is occupied by a large figure divided into three vertical panels by thin gray lines. Each panel contains a diagram illustrating a different state of data manifolds: (i) 'An ideal manifold structure' on the left, (ii) 'A distorted manifold structure' in the center, and (iii) 'A refined manifold structure' on the right. These diagrams use colored circles (blue, green, orange, gray) to represent pixels and 'X' marks for class prototypes. A legend is positioned horizontally below the diagrams, identifying 'Inlier pixel', 'Inlier class prototype', and 'Outlier pixel'. A small page number '6' is visible in the bottom-right corner. The text density is light, with the primary focus being the visual comparison of the three manifold states."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "introduction",
+      "t_start": 90.0,
+      "t_end": 95.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 90.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with title and text",
+        "title_text": "Motivation",
+        "layout_description": "The slide features a large, serif-font title 'Motivation' at the top-left, underlined by a thin horizontal line extending across the slide. Below the title, a single bullet point provides a brief textual explanation. The central portion of the slide is occupied by three side-by-side diagrams separated by thin vertical lines, labeled (i), (ii), and (iii). These diagrams illustrate different manifold structures using clusters of blue, green, and grey circles. Diagram (i) shows ideal circular clusters; (ii) shows distorted, overlapping curved manifolds with an orange highlight; and (iii) shows refined, separated curved manifolds. A legend is positioned at the bottom center, defining 'Inlier pixel' (blue/green circles), 'Inlier class prototype' (blue/green 'X' marks), and 'Outlier pixel' (grey circles). A small page number '6' is visible in the bottom-right corner. The layout is clean with light text density and a white background."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "method",
+      "t_start": 95.0,
+      "t_end": 105.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 95.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and icon row",
+        "title_text": "Proposed Method",
+        "layout_description": "The slide follows a clean, minimalist layout with a large serif title 'Proposed Method' positioned at the top-left, separated from the content by a thin horizontal line. Below the title, a single bullet point introduces the 'Random Walk on Pixel Manifolds (RWPM)' method. The central part of the slide features three distinct icons arranged in a horizontal row, each representing a common requirement in machine learning that this method avoids. From left to right, the icons depict a document for 'Extra Data', a cloud with sync arrows for 'Extra Training', and a hierarchical tree for 'Network Structure Modification'. Each icon is paired with a text label below it and a large red 'X' mark at the bottom, visually emphasizing that these steps are not necessary. The background is plain white, and a small page number '7' is visible in the bottom-right corner. The text density is light, relying on icons to convey the core message."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "method",
+      "t_start": 105.0,
+      "t_end": 109.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 105.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and icon row",
+        "title_text": "Proposed Method",
+        "layout_description": "The slide features a clean, minimalist layout on a white background. At the top left, the title 'Proposed Method' is displayed in a large serif font, followed by a thin horizontal line spanning the width of the slide. Below this line, a single bullet point introduces 'Random Walk on Pixel Manifolds (RWPM)' and its integration into existing frameworks. The central part of the slide contains three distinct icons arranged in a horizontal row, each representing a common requirement in deep learning that this method avoids. From left to right, the icons represent 'Extra Data' (a document icon), 'Extra Training' (a cloud with sync arrows), and 'Network Structure Modification' (a hierarchical tree diagram). Each icon is accompanied by a text label directly below it and a large, bold red 'X' mark underneath the label, emphasizing that these elements are not required. A small page number '7' is positioned in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "method",
+      "t_start": 109.0,
+      "t_end": 120.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 109.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central diagram",
+        "title_text": "Random Walk on Pixel Manifolds (RWPM)",
+        "layout_description": "The slide features a large, bold title at the top left, separated from the content by a thin horizontal line. Below the title, there is a single bullet point labeled 'Overview' followed by a sentence describing the three components of the RWPM method. The majority of the slide is dedicated to a large, horizontal flowchart that illustrates the model's architecture. The process flows from left to right, starting with an 'Input' image of a goose, passing through an 'Encoder-Decoder' block, and resulting in 'Pixel Embeddings' shown as green 3D blocks. A central portion of the diagram is enclosed in a red dashed box labeled 'RWPM', which shows the embeddings being divided into four parallel 'Random Walk' blocks and then concatenated into 'Refined Pixel Embeddings' (orange 3D blocks). The pipeline concludes with a 'Classifier', 'logits', an 'Anomaly Function', and a final 'Output' heatmap image. The slide has a white background with a moderate text density, and a page number '8' is visible in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "method",
+      "t_start": 120.0,
+      "t_end": 148.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 120.0,
+          "image": "slide_15_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 125.0,
+          "image": "slide_15_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 129.0,
+          "image": "slide_15_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Random Walk on Pixel Manifolds (RWPM)",
+        "layout_description": "The slide features a clean white background with a large, bold title at the top left, underlined by a full-width horizontal separator. Below the line, a single bullet point titled 'Graph Construction' introduces the content. The central focus is a large diagram labeled 'Segmentation Model' contained within a rounded blue frame. This diagram shows a flow from an input image (a street scene with traffic cones) through a 'Backbone' neural network architecture (depicted as blue blocks) to a 'Classifier'. An orange arrow branches off from the backbone's output, pointing towards the right side of the slide where mathematical equations are listed. These equations describe 'Pixel embeddings' and the subsequent 'Reshape' and 'Normalize' operations, using standard mathematical notation and gray block arrows to show the transformation process. A small page number '9' is visible in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "method",
+      "t_start": 148.0,
+      "t_end": 150.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 148.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Random Walk on Pixel Manifolds (RWPM)",
+        "layout_description": "The slide follows a minimalist single-column layout with a plain white background. At the top, a large title in a black serif font is positioned on the left, followed by its acronym in parentheses. A thin, dark horizontal line separates the title area from the main content body. Below this line, there is a single bullet point at the top-left margin that reads 'Random Walk Process'. The rest of the slide's central and bottom area is entirely blank, resulting in a very light text density. A small, light-gray page number '10' is visible in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "method",
+      "t_start": 150.0,
+      "t_end": 178.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 150.0,
+          "image": "slide_17_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 152.0,
+          "image": "slide_17_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 153.0,
+          "image": "slide_17_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 156.0,
+          "image": "slide_17_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Random Walk on Pixel Manifolds (RWPM)",
+        "layout_description": "The slide follows a clean, single-column layout. At the top, the title is left-aligned and underlined by a thin horizontal line that spans the entire width. The main content area starts with a single bullet point labeled 'Random Walk Process'. Below this, the slide is organized into two distinct sub-sections: 'Initialization' and 'Iteration'. The 'Initialization' section features a symbolic diagram where 'm^0' points to 'p^r' via a thick horizontal block arrow labeled 'Initialize as'. The 'Iteration' section, positioned below, contains a centered mathematical equation defining the recursive step of the process using variables 'm', 'S', and 'alpha'. The overall text density is light, utilizing a plain white background with a small page number '10' visible in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "method",
+      "t_start": 178.0,
+      "t_end": 180.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 178.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central figure",
+        "title_text": "Random Walk on Pixel Manifolds (RWPM)",
+        "layout_description": "The slide features a large, left-aligned title at the top, underlined by a thin horizontal line that spans the width of the slide. Below the title, there is a single bullet point labeled 'Partial Random Walk'. The main content of the slide is a central diagram illustrating a transformation process. On the left side of the diagram is a photographic image of a street scene with orange traffic cones, labeled with dimensions '512' on the left and '1024' on top. A large, hollow right-pointing arrow connects this image to a 3D representation of a large matrix on the right. This matrix is depicted as a dense grid of orange rectangular blocks, labeled with the dimension '524288' on both its left and top sides, indicating a massive increase in dimensionality. The overall background is plain white, and a small page number '11' is located in the bottom-right corner. The text density is light, focusing on the visual representation of data expansion."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "method",
+      "t_start": 180.0,
+      "t_end": 196.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 180.0,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central figure",
+        "title_text": "Random Walk on Pixel Manifolds (RWPM)",
+        "layout_description": "The slide features a large, left-aligned title at the top, underlined by a thin horizontal line that spans the width of the slide. Below the title, there is a single bullet point labeled 'Partial Random Walk'. The main content of the slide is a central diagram illustrating a transformation process. On the left side of the diagram is a photographic image of a street scene with orange traffic cones, labeled with dimensions '512' on the left and '1024' on top. A large, hollow right-pointing arrow connects this image to a 3D representation of a large matrix on the right. This matrix is depicted as a dense grid of orange rectangular blocks, labeled with the dimension '524288' on both its left and top sides, indicating a massive increase in dimensionality. The overall background is plain white, and a small page number '11' is located in the bottom-right corner. The text density is light, focusing on the visual representation of data expansion."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "method",
+      "t_start": 196.0,
+      "t_end": 210.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 196.0,
+          "image": "slide_20_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Random Walk on Pixel Manifolds (RWPM)",
+        "layout_description": "The slide follows a clean, single-column structure starting with a large title at the top left, underlined by a thin horizontal line. The main content is organized under a primary bullet point titled 'Partial Random Walk,' which contains a two-item numbered list. The first item describes limited iterations and features a centered mathematical equation. The second item explains embedding map partitioning and is accompanied by a large, centered flow diagram below it. This diagram uses 3D-style block icons to show 'Pixel Embeddings' (in green) being divided into four parallel paths, each entering an orange 'Random Walk' process box, and then being concatenated into 'Refined Pixel Embeddings' (in orange). A small page number '12' is located in the bottom right corner against a plain white background. The overall text density is moderate, effectively combining textual explanation, mathematical notation, and a visual process flow."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "method",
+      "t_start": 210.0,
+      "t_end": 241.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 210.0,
+          "image": "slide_21_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 230.0,
+          "image": "slide_21_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Random Walk on Pixel Manifolds (RWPM)",
+        "layout_description": "The slide follows a top-down single-column structure. At the top left, a large bold title is underlined by a thin horizontal line that stretches across the slide. The main content begins with a primary bullet point labeled 'Partial Random Walk,' which branches into two numbered sub-points. The first sub-point includes a centered mathematical equation defining an iterative update rule. The second sub-point describes 'Embedding map partitioning' and is supported by a large horizontal flowchart diagram below it. This diagram shows a stack of green 'Pixel Embeddings' being divided into four smaller groups, each processed by an orange 'Random Walk' block. The outputs, shown as orange blocks, are then concatenated into a final 'Refined Pixel Embeddings' stack. A dashed blue box highlights the final stage, with a light blue text box to the right explaining an 'Optional Step' for calibration. The slide uses a white background, features a page number '12' in the bottom right corner, and maintains a moderate text density by balancing text, math, and visual elements."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "results",
+      "t_start": 241.0,
+      "t_end": 255.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 241.0,
+          "image": "slide_22_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Experiments",
+        "layout_description": "The slide follows a clean, single-column structure. At the top-left, the title 'Experiments' is displayed in a large serif font, underlined by a full-width horizontal divider. Below this line, a single bullet point states the core experiment: 'We integrate RWPM with 4 representative anomaly segmentation methods.' The majority of the slide is occupied by a large, horizontally-oriented table. The table is structured with hierarchical headers: the top row indicates 'Benchmark', which is split into two main datasets, 'Fishyscapes Lost&Found' and 'Road Anomaly'. Each dataset contains three sub-columns for metrics: 'AuROC\u2191', 'AP\u2191', and 'FPR95\u2193'. The rows are grouped into four pairs, comparing a baseline method (e.g., PEBAL, Balanced Energy) with its 'RWPM (Ours)' enhanced version. An 'Arch' column identifies the architecture as either 'Pixel-base' or 'Mask-base'. Improved performance values are highlighted in bold text. The slide has a minimalist white background with black text and a small page number '13' in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "results",
+      "t_start": 255.0,
+      "t_end": 261.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 255.0,
+          "image": "slide_23_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Experiments",
+        "layout_description": "The slide features a clean, minimalist layout on a plain white background. At the top-left, the title 'Experiments' is written in a large serif font, followed by a thin horizontal line that spans the entire width of the slide. Below this line, a single bullet point introduces the main content, stating the integration of 'RWPM' with four anomaly segmentation methods. The central and largest element of the slide is a detailed quantitative results table. The table is organized with 'Method' and 'Arch' (Architecture) columns on the left, followed by two main benchmark sections: 'Fishyscapes Lost&Found' and 'Road Anomaly'. Each benchmark section is further divided into three metric columns: 'AuROC\u2191', 'AP\u2191', and 'FPR95\u2193'. The table rows are grouped into four pairs, each showing a baseline method followed by the 'Ours' version (method + RWPM). The 'Ours' rows are distinguished by bold text for both the method name and the numerical results to highlight performance gains. A small page number '13' is positioned in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "results",
+      "t_start": 261.0,
+      "t_end": 270.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 261.0,
+          "image": "slide_24_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Experiments",
+        "layout_description": "The slide features a large, bold title 'Experiments' positioned at the top-left, followed by a thin horizontal line that spans the entire width of the slide. Below this line, a single bullet point provides context for the data shown. The central and largest element of the slide is a complex data table comparing various anomaly segmentation methods. The table is structured with 'Method' and 'Arch' (architecture) columns on the left, followed by five major benchmark categories: 'Fishyscapes L&F', 'Road Anomaly', 'Anomaly Track', 'Obstacle Track', and an 'Average' summary. Each benchmark category is further divided into two metric columns: 'AP\u2191' and 'FPR95\u2193'. The methods are listed in rows, categorized by their architecture type ('Pixel-based' or 'Mask-based'). The final two rows, which include the authors' proposed method ('RbA + RWPM (Ours)'), are separated by a horizontal line and feature bolded numerical values to highlight top performance. A small page number '14' is visible in the bottom-right corner against a plain white background. The slide has a high text density due to the extensive numerical data presented in the table."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "results",
+      "t_start": 270.0,
+      "t_end": 277.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 270.0,
+          "image": "slide_25_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Experiments",
+        "layout_description": "The slide follows a standard academic presentation format with a large, serif-font title 'Experiments' positioned at the top-left, underlined by a full-width horizontal divider. Below this divider, a single bullet point provides context for the data shown. The main body of the slide is occupied by a large, detailed quantitative results table. The table is structured with a header row indicating different benchmarks (Fishyscapes L&F, Road Anomaly, Anomaly Track, Obstacle Track, and Average), each subdivided into two metric columns: AP (with an upward arrow) and FPR95 (with a downward arrow). The rows list various state-of-the-art methods, their publication venue, and their architecture type (Pixel-based or Mask-based). The final two rows, representing the proposed 'RbA' and 'RbA + RWPM (Ours)' methods, are separated from the rest by a horizontal line, with the best-performing results highlighted in bold text. A page number '14' is visible in the bottom-right corner against a plain white background. The slide has a high text density due to the extensive numerical data presented in the table."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "experiments",
+      "t_start": 277.0,
+      "t_end": 280.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 277.0,
+          "image": "slide_26_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Experiments",
+        "layout_description": "The slide follows a clean, single-column structure. At the top-left, the title 'Experiments' is displayed in a large serif font, underlined by a thin horizontal line that extends across the slide's width. Below this line, a single bullet point introduces the content as a component-level evaluation comparing the proposed method with state-of-the-art anomaly segmentation techniques. The main body of the slide is occupied by a large, detailed table. The table is organized with columns for 'Method', 'Arch' (Architecture), and two primary benchmark tracks: 'Anomaly Track' and 'Obstacle Track'. Each track is further divided into three performance metrics: 'sIoU', 'PPV', and 'mean F1'. The table rows list various baseline methods with their corresponding publication details. The final two rows, which represent the proposed 'RbA' and 'RbA + RWPM' methods, are highlighted in bold text to emphasize their results. The slide uses a minimalist black-on-white color scheme, and a small page number '15' is positioned in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 27,
+      "slide_section": "results",
+      "t_start": 280.0,
+      "t_end": 285.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 280.0,
+          "image": "slide_27_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "Experiments",
+        "layout_description": "The slide features a large title 'Experiments' at the top left, underlined by a thin horizontal line that spans the width of the slide. Below the line, there is a single bullet point labeled 'Qualitative Result.' The main content consists of a 3x4 grid of images comparing different segmentation results across three distinct scenarios. Each row represents a different input scene: traffic cones around a pothole, a wooden barrier on a street, and rocks on a mountain road. The columns are labeled from left to right as 'Input' (original image), 'Ground Truth' (binary mask in orange and black), 'RbA' (baseline method result), and 'RbA+RWPM(Ours)' (the proposed method's result). The segmentation results in the last two columns use a color-coded heatmap style, where yellow indicates detected objects against a teal/green background. A small page number '16' is located in the bottom right corner. The overall text density is light, focusing primarily on visual comparison."
+      }
+    },
+    {
+      "slide_id": 28,
+      "slide_section": "results",
+      "t_start": 285.0,
+      "t_end": 291.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 285.0,
+          "image": "slide_28_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "Experiments",
+        "layout_description": "The slide features a clean white background with a large serif title 'Experiments' at the top left, underlined by a full-width horizontal line. Below this line, a single bullet point introduces the 'Qualitative Result.' The core content is a 3x4 grid of images comparing different segmentation results across three distinct road hazard scenarios (rows). The columns are labeled at the top of each image: 'Input' (original photograph), 'Ground Truth' (orange masks on black), 'RbA' (baseline method heatmap), and 'RbA+RWPM(Ours)' (proposed method heatmap). The heatmaps use a green-to-yellow color scale to indicate anomaly detection. The layout is highly visual with minimal text, and a small page number '16' is positioned in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 29,
+      "slide_section": "other",
+      "t_start": 291.0,
+      "t_end": 299.5,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 291.0,
+          "image": "slide_29_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered single-column layout",
+        "title_text": "Thank you !",
+        "layout_description": "The slide features a clean, centered single-column layout on a plain white background, serving as a closing or 'Thank You' slide. At the top center, the ECCV logo is displayed with a gradient color transition from orange to purple, accompanied by a stylized blue skyline graphic above it. Below the logo, the main heading 'Thank you !' is centered in a large serif font. In the middle of the slide, there is a large QR code that includes a small pixelated dinosaur icon at its center. Directly underneath the QR code, the phrase 'The Code Link' is written in a bold serif font. Finally, at the bottom of the slide, a single line of footer text identifies the conference as 'The 18th European Conference on Computer Vision ECCV 2024'. The text density is light, focusing on visual elements and a clear call to action."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 128,
+    "gemini_layout_calls": 110,
+    "total_gemini_calls": 238,
+    "total_frames_sampled": 300,
+    "batch_size": 15
+  }
+}

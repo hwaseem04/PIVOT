@@ -1,0 +1,530 @@
+{
+  "video_id": "CVPR_CVPR-2025_Reloc3r-Large-Scale-Training-of-Relative-Camera-Pose-Regressio__CVPR-2025-Reloc3r",
+  "duration": 263.53,
+  "fps_sampled": 1.0,
+  "total_slides": 27,
+  "slides_with_builds": 0,
+  "total_build_steps": 27,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 13.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Reloc3r: Large-Scale Training of Relative Camera Pose Regression for Generalizable, Fast, and Accurate Visual Localization",
+        "layout_description": "This is a title slide with a clean white background. At the top right corner, there is a logo for the CVPR Nashville conference. The main title is centered in the upper half of the slide, featuring a multi-colored font where 'Reloc3r', 'Relative Camera Pose Regression', and 'Visual Localization' are in red, 'Large-Scale Training' is in blue, and 'Generalizable, Fast, and Accurate' is in green. Below the title, the authors' names are listed in two centered rows with superscript numbers for affiliations. Underneath the authors, the five affiliated institutions are listed in a single centered row. The bottom section of the slide contains a horizontal row of five institutional logos corresponding to the affiliations: The University of Hong Kong, Aalto University, ETH Zurich, VIVO, and the University of Oulu. The text density is light, and the layout is symmetrical and centered."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 13.0,
+      "t_end": 15.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 13.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and image row",
+        "title_text": "Camera pose estimation from images",
+        "layout_description": "The slide follows a clean, top-down structure on a plain white background. At the top left, there is a large, bold title. Directly below it are two lines of introductory text that frame the topic as a fundamental problem and introduce various applications. The central part of the slide features three distinct images arranged in a horizontal row. Each image is accompanied by a centered caption underneath: 'Mixed Reality' for the left image showing a person with a headset, 'Robot navigation' for the middle image showing a 2D floor plan, and 'Visual grounding' for the right image showing a robot and a 3D model. In the bottom-left corner, there is a block of small-font text providing academic references corresponding to the applications shown. The text density is light, focusing on visual examples to motivate the research topic."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 15.0,
+      "t_end": 24.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and image row",
+        "title_text": "Camera pose estimation from images",
+        "layout_description": "The slide follows a clean, top-down structure starting with a large, black serif-font title positioned at the top left. Below the title, two lines of introductory text describe the problem's significance and introduce applications. The central part of the slide features a horizontal row of three distinct images, each illustrating a specific application: 'Mixed Reality' on the left (a living room scene), 'Robot navigation' in the middle ( a 2D floor plan with colored paths), and 'Visual grounding' on the right (a robot pointing to a 3D room model). Each image is accompanied by a centered caption directly underneath. The bottom left corner contains three lines of small-font text citing specific papers and products related to the examples. The background is plain white, and the overall text density is light, emphasizing the visual examples."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 24.0,
+      "t_end": 30.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 24.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Problem definition",
+        "layout_description": "The slide follows a minimalist, single-column layout on a plain white background. The title, 'Problem definition', is located at the top-left in a large, black serif font. The main content consists of two distinct sections of text, each starting with a sub-heading followed by two hierarchical bullet points. The first section, 'Relative camera pose estimation', defines its input as a pair of images and its output as the relative camera pose. The second section, 'Visual localization (absolute pose)', defines its input as a database of posed images and a query image, with the output being the absolute camera pose. All text is left-aligned with standard black coloring. The slide has a light text density with significant white space and no additional visual elements like images, logos, or page numbers."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "introduction",
+      "t_start": 30.0,
+      "t_end": 41.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 30.0,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Problem definition",
+        "layout_description": "The slide follows a minimalist single-column layout on a plain white background. The title, 'Problem definition', is located at the top-left in a large, black serif font. The main content consists of two distinct text blocks, each starting with a bolded sub-heading. The first block, titled 'Relative camera pose estimation', contains two bullet points defining the input as a pair of images and the output as the relative camera pose. The second block, titled 'Visual localization (absolute pose)', similarly uses two bullet points to define the input as a database of posed images plus a query image, and the output as the absolute camera pose. All text is left-aligned with standard indentation for the bullet points, resulting in a light text density and a clear, hierarchical structure."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "introduction",
+      "t_start": 41.0,
+      "t_end": 45.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 41.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Motivation",
+        "layout_description": "The slide follows a clean, minimalist single-column layout on a plain white background. The title 'Motivation' is placed at the top-left in a large, bold serif font. The main body consists of three distinct text sections. The first section introduces a problem statement regarding trade-offs in previous works, followed by a single-level bulleted list containing three items: 'Generalization ability', 'Test-time efficiency', and 'Camera pose accuracy'. Below this, a second paragraph discusses the promise of recent foundation models like DUSt3R. The final text block is a single sentence that explicitly states the motivation for the current work. All body text is left-aligned and uses a serif typeface. A small citation footer is located at the bottom-left corner of the slide. The text density is light, leaving ample white space."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "introduction",
+      "t_start": 45.0,
+      "t_end": 67.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 45.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Motivation",
+        "layout_description": "The slide follows a clean, minimalist single-column layout with a plain white background and black text. The title 'Motivation' is located at the top-left in a large serif font. The main content consists of three distinct text sections. The first section introduces a problem statement followed by a single-level bulleted list containing three items: 'Generalization ability', 'Test-time efficiency', and 'Camera pose accuracy'. Below this list is a second paragraph discussing recent foundation models like DUSt3R. The third and final text block is a concluding sentence that states the research objective. A small citation for the DUSt3R paper is positioned at the bottom-left corner. The text density is light, with generous white space between the sections."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 67.0,
+      "t_end": 75.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 67.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Reloc3r",
+        "layout_description": "The slide features a large, bold serif title 'Reloc3r' positioned at the top-left. The main body is organized into a two-column structure separated by a vertical dashed line. The left column is dedicated to 'Relative camera pose regression' and contains a detailed architectural flowchart. This flowchart illustrates a dual-stream process where two input images (Image I1 and Image I2) are processed through 'Patchify', 'ViT encoder', 'ViT decoder', and 'Head' blocks to produce relative camera poses. Red dashed arrows highlight 'Weights sharing' and 'Cross-attention' between the two streams. Below the flowchart, there is a 'Key insights:' section with two bullet points. The right column, titled 'Motion averaging', displays a 3D geometric diagram showing various camera frustums and their spatial relationships, accompanied by the subtitle '(A minimalist approach)'. The slide uses a clean white background with moderate text density, relying heavily on diagrams to explain the proposed method."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 75.0,
+      "t_end": 128.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 75.0,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Reloc3r",
+        "layout_description": "The slide features a clean white background with a large serif title 'Reloc3r' at the top-left. The main content is split into two distinct sections by a vertical dashed gray line. The left section, titled 'Relative camera pose regression', contains a detailed architectural flowchart showing a dual-stream network. Two input images (I1 and I2) pass through 'Patchify', 'ViT encoder', 'ViT decoder', and 'Head' modules. Red dashed lines and arrows indicate weight sharing between the encoders and heads, and cross-attention between the decoders. Below this diagram, there is a 'Key insights:' heading followed by two bullet points: 'Fully symmetric design' and 'Learning w/o metric scales'. The right section is titled 'Motion averaging' with a subtitle '(A minimalist approach)' and features a 3D geometric diagram. This diagram illustrates multiple green camera frustums (Pd1, Pd2, PdK) and a single blue query frustum (Pq), with dashed lines representing relative pose estimations. The overall text density is moderate, relying heavily on diagrams to explain the methodology."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "results",
+      "t_start": 128.0,
+      "t_end": 135.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 128.0,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Relative poses on object-level scenes",
+        "layout_description": "The slide follows a clean, minimalist layout with a plain white background. A large title in a black serif font is positioned at the top-left. The main content is a single, horizontally centered table that occupies the middle and lower portions of the slide. The table is structured with four columns: 'Methods', 'RRA@15', 'RTA@15', and 'mAA@30'. It is further divided into two horizontal sections labeled 'Non-PR' and 'PR' on the far left. The 'Methods' column lists various algorithms with their respective citation numbers, while the numerical data fills the remaining columns. The authors' proposed methods, 'Reloc3r-224 (Ours)' and 'Reloc3r-512 (Ours)', are highlighted in bold at the bottom of the table, along with the highest performance values. Directly beneath the table is a centered caption that reads 'Relative pose accuracy on CO3Dv2 dataset.' The text density is moderate, primarily consisting of tabular data and citations."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "results",
+      "t_start": 135.0,
+      "t_end": 142.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 135.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Relative poses on object-level scenes",
+        "layout_description": "The slide follows a simple, centered layout on a plain white background. At the top, a large title in a black serif font is centered. The main content is a single, horizontally centered table that occupies the middle portion of the slide. The table is organized into columns for 'Methods', 'RRA@15', 'RTA@15', and 'mAA@30'. It is vertically divided into two sections, 'Non-PR' and 'PR', indicated by vertical labels on the left side of the table. Within the table, various method names are listed, some with blue-colored citation numbers. The last two rows, which represent the authors' proposed methods ('Reloc3r-224 (Ours)' and 'Reloc3r-512 (Ours)'), are highlighted in bold text to emphasize their superior performance metrics. A descriptive caption, 'Relative pose accuracy on CO3Dv2 dataset.', is centered directly below the table. The slide has a moderate text density and a professional, academic aesthetic."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "results",
+      "t_start": 142.0,
+      "t_end": 150.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 142.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Relative poses on indoor & outdoor scenes",
+        "layout_description": "The slide follows a clean, single-column layout centered on a large, serif-font title at the top. The primary content is a wide, detailed data table positioned in the middle of the slide. This table is structured with a vertical header on the left that categorizes methods into 'Non-PR' and 'PR' groups. The table columns are organized by dataset\u2014ScanNet1500, RealEstate10K, and ACID\u2014each containing three sub-columns for AUC metrics at different thresholds (5, 10, and 20). A final column on the right lists 'Inference time' in milliseconds. Horizontal rules separate the header, the two method categories, and the bottom of the table. Within the table, certain numerical values are highlighted in bold to denote the best-performing methods. A single-line caption explaining the table's content is centered at the bottom. The slide has a white background with no decorative elements, resulting in a moderate text density focused on quantitative results."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "results",
+      "t_start": 150.0,
+      "t_end": 158.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 150.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Relative poses on indoor & outdoor scenes",
+        "layout_description": "The slide follows a clean, single-column layout centered around a large table. At the top, the title is centered in a large serif font. The main content is a wide table that occupies the middle and lower portions of the slide. This table is structured into two primary horizontal categories, 'Non-PR' and 'PR', labeled vertically on the left. It presents performance metrics across three datasets\u2014ScanNet1500, RealEstate10K, and ACID\u2014each subdivided into three AUC columns (AUC@5, AUC@10, AUC@20). An additional column on the far right lists 'Inference time'. The table uses horizontal rules for organization and bold text to highlight top-performing results. A single-line caption is centered directly beneath the table, providing a brief description of the data shown. The background is plain white, and the text density is moderate, primarily concentrated within the numerical data of the table."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "results",
+      "t_start": 158.0,
+      "t_end": 165.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 158.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "Relative poses on casually-captured images",
+        "layout_description": "The slide uses a grid-like layout organized into several rectangular compartments separated by dashed gray lines. A large, centered title in a serif font is positioned at the top. The content consists of multiple qualitative examples demonstrating relative pose estimation across various image pairs and groups. Each compartment contains two or more images of a specific subject\u2014ranging from statues and monuments to sketches, portraits, and everyday objects like a backpack. Next to each set of images is a small 3D diagram showing camera frustums (in orange/yellow) and coordinate axes (in red, green, and blue) to visualize the estimated spatial relationship between the camera views. The images are arranged in two primary rows: the top row contains five distinct sections, while the bottom row contains four smaller sections and one larger section on the far right. This larger section features five different views of a Nike backpack arranged around a central 3D coordinate system. The overall text density is light, with a white background and thin colored borders around the individual images."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "results",
+      "t_start": 165.0,
+      "t_end": 171.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 165.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with multiple panels",
+        "title_text": "Relative poses on casually-captured images",
+        "layout_description": "The slide features a centered title at the top in a black serif font. The main content area is divided into ten distinct rectangular panels of varying sizes, separated by dashed gray lines. Each panel contains a set of images\u2014including photographs, sketches, and line drawings\u2014accompanied by small wireframe diagrams representing camera poses (frustums) and coordinate axes. Most panels show pairs of images (e.g., statues, monuments, or portraits) with their estimated relative poses. The largest panel, located in the bottom right, displays five different views of a Nike backpack arranged around a central 3D coordinate system and camera pose visualization. Images are typically outlined with thin green or orange borders. The background is plain white, and the text density is very light, emphasizing qualitative visual results."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "results",
+      "t_start": 171.0,
+      "t_end": 180.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 171.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Visual localization on indoor scenes",
+        "layout_description": "The slide features a large, centered title at the top in a serif font. Below the title, a wide table occupies most of the slide's area, presenting quantitative data. The table is organized into three main horizontal groups labeled on the far left: 'APR', 'RPR (Seen)', and 'RPR (Unseen)'. Each group contains multiple rows representing different methods, with the last two rows in the 'RPR (Unseen)' section labeled as 'Ours' (Reloc3r-224 and Reloc3r-512). The table columns include 'Methods', seven specific indoor scenes from the 7-Scenes dataset, an 'Average' column, and a 'Dataset-specific training time' column. The data cells contain pairs of numbers separated by a slash (e.g., 0.03 / 1.30), representing pose accuracy. Some values are bolded to indicate superior performance. A descriptive caption, 'Absolute pose accuracy on 7-Scenes dataset.', is centered directly below the table. The overall text density is high due to the numerical data, and the background is a clean, solid white."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "results",
+      "t_start": 180.0,
+      "t_end": 189.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 180.0,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Visual localization on indoor scenes",
+        "layout_description": "The slide follows a clean, single-column layout dominated by a large table. At the top, the title 'Visual localization on indoor scenes' is centered in a large serif font. Below the title, a comprehensive table presents experimental results. The table is structured with columns for 'Methods', seven specific indoor scenes (Chess, Fire, Heads, Office, Pumpkin, RedKitchen, Stairs), an 'Average' column, and a 'Dataset-specific training time' column. The rows are categorized into three distinct groups labeled vertically on the left: 'APR', 'RPR (Seen)', and 'RPR (Unseen)'. Each data cell contains two numerical values separated by a slash, with the best results in each column highlighted in bold text. A centered caption, 'Absolute pose accuracy on 7-Scenes dataset.', is positioned immediately below the table. The slide has a white background with black text, creating a high-density information display focused on quantitative performance comparison."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "results",
+      "t_start": 189.0,
+      "t_end": 195.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 189.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Visual localization on outdoor scenes",
+        "layout_description": "The slide features a large, centered title at the top in a serif font. Below the title, the main content is a wide, detailed table that spans most of the slide's width. The table is organized into several columns: 'Methods', five specific outdoor scenes (GreatCourt, KingsCollege, OldHospital, ShopFacade, StMarysChurch), two 'Average' columns, and 'Dataset-specific training time'. The rows are grouped into three distinct categories labeled vertically on the left: 'APR', 'RPR (Seen)', and 'RPR (Unseen)'. The table contains numerical data representing absolute pose accuracy, with some values in bold. Below the table, a centered caption reads 'Absolute pose accuracy on Cambridge dataset.' The slide has a clean white background with black text, and the density is high due to the large amount of numerical information presented in the table."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "results",
+      "t_start": 195.0,
+      "t_end": 201.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 195.0,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Visual localization on outdoor scenes",
+        "layout_description": "The slide features a large, left-aligned title at the top in a serif font. Below the title, a wide, detailed table occupies the central and lower portions of the slide. The table is structured with multiple columns representing different outdoor scenes (GreatCourt, KingsCollege, OldHospital, ShopFacade, StMarysChurch), two average columns, and a column for 'Dataset-specific training time'. Vertically, the table is divided into three main categories labeled on the far left: 'APR', 'RPR (Seen)', and 'RPR (Unseen)'. Each category contains several rows corresponding to different localization methods, with the authors' proposed methods ('Reloc3r-224' and 'Reloc3r-512') listed at the bottom. Numerical data within the table represents pose accuracy, with some values highlighted in bold to indicate superior performance. A centered caption, 'Absolute pose accuracy on Cambridge dataset.', is placed directly underneath the table. The slide has a clean white background with no additional decorative elements, resulting in a moderate to high text density focused on quantitative results."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "results",
+      "t_start": 201.0,
+      "t_end": 210.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 201.0,
+          "image": "slide_20_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Visual comparison of absolute pose estimation",
+        "layout_description": "The slide features a large, centered title at the top in a black serif font. Below the title, the main content consists of a horizontal arrangement of four visual elements for qualitative comparison. The first three elements from the left are large 3D visualizations showing complex camera trajectories and poses represented by small frustums and connecting lines. Each of these is labeled directly underneath with its corresponding method: 'Map-free (Regress)', 'ExReNet (SUNCG)', and 'Reloc3r-512 (Ours)'. The fourth element on the far right is a vertical stack of three smaller, more linear trajectory visualizations, each labeled to its right with the same three method names for a secondary comparison. The background is a solid white, and the overall text density is light, focusing entirely on the visual representation of the pose estimation results."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "results",
+      "t_start": 210.0,
+      "t_end": 219.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 210.0,
+          "image": "slide_21_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Visual comparison of absolute pose estimation",
+        "layout_description": "The slide features a large, centered title at the top in a black serif font. Below the title, the main content consists of four visual panels arranged horizontally for qualitative comparison. The first three panels show complex 3D visualizations of camera trajectories and poses, represented by small blue and green frustums connected by lines. Each of these three panels has a label centered underneath: 'Map-free (Regress)', 'ExReNet (SUNCG)', and 'Reloc3r-512 (Ours)'. The fourth panel on the far right displays a different perspective or a simplified view of the same three methods, with the trajectories stacked vertically and their respective labels placed to the right of each trajectory. The background is plain white, and the overall text density is light, prioritizing visual data over textual explanation."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "results",
+      "t_start": 219.0,
+      "t_end": 225.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 219.0,
+          "image": "slide_22_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and large figure",
+        "title_text": "Visual localization on casually-captured videos",
+        "layout_description": "The slide features a large, centered title at the top against a plain white background. The main body of the slide is occupied by a large composite figure that is divided into three panels by dashed gray lines: two panels on the top half and one wide panel spanning the bottom half. Each panel demonstrates a visual localization result, showing a sequence of camera poses represented by small blue wireframe frustums along a trajectory. Several keyframes from the videos are displayed as inset images, each connected to its specific camera pose by a thin blue line. The top-left panel depicts an indoor desk environment, the top-right panel shows a hallway with a sign, and the bottom panel shows an outdoor courtyard. The slide has a very light text density, relying almost entirely on visual diagrams to convey information."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "results",
+      "t_start": 225.0,
+      "t_end": 226.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 225.0,
+          "image": "slide_23_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and large figure",
+        "title_text": "Visual localization on casually-captured videos",
+        "layout_description": "The slide features a large centered title at the top in a black serif font. Below the title, the main content is a large composite figure divided into three panels by dashed gray lines: two panels on the top and one wide panel at the bottom. Each panel illustrates a visual localization result, showing a 3D camera trajectory represented by a sequence of small blue wireframe frustums. Small thumbnail images (keyframes) are connected to specific points along these trajectories by thin blue lines to show the corresponding visual view. The top-left panel shows an indoor office scene with a desk and monitor. The top-right panel shows a sign that reads 'HKU 105'. The bottom panel shows an outdoor courtyard with a red brick building and greenery. The background is plain white, and the text density is very light, focusing entirely on qualitative visual data."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "conclusion",
+      "t_start": 226.0,
+      "t_end": 235.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 226.0,
+          "image": "slide_24_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Conclusion",
+        "layout_description": "The slide follows a minimalist, single-column layout on a plain white background. The title 'Conclusion' is placed at the top-left in a large, black serif font. Below the title, a short introductory line 'Reloc3r achieves' leads into a simple bulleted list with three items. These bullet points are left-aligned and summarize the key strengths of the proposed method: generalization ability, running time performance (including specific hardware and speed metrics in parentheses), and accuracy. The overall text density is light, with significant white space surrounding the content. There are no visual elements such as images, tables, equations, or logos."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "conclusion",
+      "t_start": 235.0,
+      "t_end": 240.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 235.0,
+          "image": "slide_25_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Limitations",
+        "layout_description": "The slide features a large, serif-font title 'Limitations' positioned in the top-left corner. The main body of the slide is split into two equal columns by a vertical dashed gray line. The left column contains two rows of schematic diagrams showing camera frustums (labeled 'db1', 'db2', and 'query') arranged along a straight dotted line to illustrate collinear motion. Below these diagrams is a centered text label: 'Cannot solve colinear motion'. The right column displays a set of four photographs of a landmark (the Brandenburg Gate) alongside corresponding 3D camera pose visualizations. These visualizations include small numerical data for rotation and translation errors (Rerr and Terr). At the bottom of the right column is the explanatory text: 'Ambiguity between focal length and distance'. The slide has a clean white background with light text density, relying primarily on diagrams and images to convey its points."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "conclusion",
+      "t_start": 240.0,
+      "t_end": 257.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 240.0,
+          "image": "slide_26_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column comparison layout",
+        "title_text": "Limitations",
+        "layout_description": "The slide features a clean white background with a large, serif-font title 'Limitations' positioned at the top-left. The main body is divided into two distinct sections by a vertical gray dashed line. The left section illustrates a geometric limitation with two rows of simplified camera frustum diagrams (labeled 'db1', 'db2', and 'query') arranged along a horizontal line, accompanied by the centered caption 'Cannot solve colinear motion' at the bottom. The right section illustrates a visual ambiguity limitation using two rows of content; each row contains a pair of photographs of the Brandenburg Gate followed by a 3D camera pose diagram with small numerical error metrics (Rerr and Terr). The caption 'Ambiguity between focal length and distance' is centered at the bottom of this right column. The overall text density is light, prioritizing visual diagrams and image pairs to explain technical concepts."
+      }
+    },
+    {
+      "slide_id": 27,
+      "slide_section": "other",
+      "t_start": 257.0,
+      "t_end": 263.53,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 257.0,
+          "image": "slide_27_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Thanks for your attention!",
+        "layout_description": "The slide features a minimalist, single-column layout on a plain white background. The title 'Thanks for your attention!' is positioned at the top-left in a black serif font. Below the title, there is a single bullet point that reads 'Code released'. A large, square QR code is placed on the left side of the slide, directly underneath the bullet point. The entire right half of the slide is empty, resulting in a very light text density and a clean visual structure typical of a closing or Q&A slide."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 929,
+    "gemini_layout_calls": 914,
+    "total_gemini_calls": 1843,
+    "total_frames_sampled": 264,
+    "batch_size": 15
+  }
+}

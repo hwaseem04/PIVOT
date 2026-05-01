@@ -1,0 +1,74 @@
+{
+  "by_difficulty": {
+    "easy": {
+      "overall": {
+        "accuracy": 10.0,
+        "completeness": 9.8,
+        "relevance": 10.0,
+        "overall_score": 9.9
+      },
+      "info_missing_rate": 0.0,
+      "info_missing_count": 0,
+      "total_questions": 5,
+      "by_category": {
+        "core_contribution": 9.5,
+        "methodology": 10.0,
+        "experimental_results": 10.0,
+        "limitations": 10.0,
+        "negative_traps": 10.0
+      }
+    },
+    "medium": {
+      "overall": {
+        "accuracy": 9.0,
+        "completeness": 8.4,
+        "relevance": 9.0,
+        "overall_score": 8.69
+      },
+      "info_missing_rate": 10.0,
+      "info_missing_count": 1,
+      "total_questions": 10,
+      "by_category": {
+        "core_contribution": 9.75,
+        "methodology": 10.0,
+        "experimental_results": 8.85,
+        "limitations": 5.0,
+        "negative_traps": 9.85
+      }
+    },
+    "hard": {
+      "overall": {
+        "accuracy": 8.0,
+        "completeness": 7.35,
+        "relevance": 8.0,
+        "overall_score": 7.75
+      },
+      "info_missing_rate": 20.0,
+      "info_missing_count": 4,
+      "total_questions": 20,
+      "by_category": {
+        "core_contribution": 9.88,
+        "methodology": 9.68,
+        "experimental_results": 6.88,
+        "limitations": 4.83,
+        "negative_traps": 7.5
+      }
+    }
+  },
+  "overall": {
+    "accuracy": 8.57,
+    "completeness": 8.0,
+    "relevance": 8.57,
+    "overall_score": 8.33
+  },
+  "total_questions": 35,
+  "info_missing_rate": 14.29,
+  "info_missing_count": 5,
+  "by_category": {
+    "core_contribution": 9.79,
+    "methodology": 9.81,
+    "experimental_results": 7.89,
+    "limitations": 5.61,
+    "negative_traps": 8.53
+  }
+}

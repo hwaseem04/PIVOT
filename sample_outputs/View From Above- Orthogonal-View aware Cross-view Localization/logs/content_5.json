@@ -1,0 +1,38 @@
+{
+    "extracted_content": "The proposed method was rigorously evaluated on the KITTI-CVL and Ford Multi-AV datasets, consistently outperforming state-of-the-art pixel-wise and patch-wise localization methods. Under standard noise conditions (\u00b110\u00b0, \u00b120m), it achieves a mean location error of 0.20m on KITTI, a significant improvement over the baseline PureACL (2.42m). The method's robustness is most evident under extreme initial noise (\u00b145\u00b0, \u00b120m), where it maintains high precision (e.g., 0.17m mean lateral error) and superior convergence compared to baselines that struggle with large orientation errors. Furthermore, in continual pose estimation scenarios where only the starting pose is provided, the method successfully completes 100% of the evaluation routes, whereas competing methods like BoostAcc and PureACL suffer from severe drift and fail early in the trajectory. Multi-camera setups (F-4C) further enhance performance, reducing mean lateral error to 0.13m on the Ford dataset.",
+    "key_figures": [
+        {
+            "ref": "Figure 6",
+            "caption": "Comparison of the baseline method PureACL and our proposed method under varying initial noise ranges in the \u2018cross\u2019 area of the KITTI-CVL dataset.",
+            "relevance": "Illustrates the robust convergence of the proposed method across increasing noise levels, specifically showing a much smaller gap between mean and median errors compared to the baseline."
+        },
+        {
+            "ref": "Figure 7",
+            "caption": "Accumulated pose estimation performance on a KITTI CVL dataset trajectory.",
+            "relevance": "Provides a visual comparison of trajectory tracking, showing the proposed method (blue) closely matching the ground truth (red) over a 3676-meter route while others drift significantly."
+        }
+    ],
+    "key_tables": [
+        {
+            "ref": "Table 1",
+            "caption": "Comparison on the KITTI-CVL Dataset Under Initial Noise Conditions (\u00b110\u00b0, \u00b120m).",
+            "relevance": "Presents the primary comparative results against numerous state-of-the-art methods, establishing the proposed model's superior accuracy in location and orientation."
+        },
+        {
+            "ref": "Table 2",
+            "caption": "Comparison with Initial Noise Conditions (\u00b145\u00b0, \u00b120m).",
+            "relevance": "Demonstrates the method's performance in the most challenging noise settings across both KITTI and Ford datasets, highlighting its consistent lead in longitudinal and lateral accuracy."
+        },
+        {
+            "ref": "Table 3",
+            "caption": "Comparison on Accumulated Pose Estimation.",
+            "relevance": "Quantifies the method's ability to maintain localization over long distances, achieving 100% route completion where baselines fail."
+        }
+    ],
+    "key_equations": [],
+    "section_refs": [
+        "Section 5.2",
+        "Section 5.3",
+        "Section 5.4"
+    ]
+}

@@ -1,0 +1,941 @@
+{
+  "video_id": "Believing is Seeing Unobserved Object Detection using Generative Models",
+  "duration": 300.0,
+  "fps_sampled": 1.0,
+  "total_slides": 36,
+  "slides_with_builds": 22,
+  "total_build_steps": 84,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 1.0,
+      "t_end": 12.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 1.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Believing is Seeing",
+        "layout_description": "The slide follows a centered title slide layout on a plain white background. At the top, the main title 'Believing is Seeing' is written in large, bold, black font, with a subtitle 'Unobserved Object Detection using Generative Models' centered directly below it in a smaller, regular weight font. Beneath the subtitle, two logos are placed side-by-side: the CVPR Nashville logo on the left and the Australian National University logo on the right. The central portion of the slide contains three circular headshots of the authors arranged in a horizontal row. Each author's name is centered below their respective photo in bold text. Finally, at the bottom of the slide, the institutional affiliation 'School of Computing, The Australian National University, Canberra' is centered in a smaller font. The overall text density is light, creating a clean and professional appearance."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 12.0,
+      "t_end": 15.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 12.0,
+          "image": "slide_2_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 13.0,
+          "image": "slide_2_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "Background: Imaging as a Projection",
+        "layout_description": "The slide has a minimalist layout with a white background. The title is located at the top-left in a black, sans-serif font. The main content consists of a large diagram on the left side, enclosed in a black rectangular border. This diagram illustrates a camera on the left projecting orange lines toward a 3D model of a dining table with six blue chairs. A thick black arrow points from the right side of this diagram toward the empty right half of the slide, with a mathematical symbol 'pi' (\u03c0) positioned directly above the arrow. In the top-right corner, there is a QR code next to a gold-colored institutional crest logo. A small page number '2' is visible in the bottom-right corner. The text density is light, prioritizing visual communication over text."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 15.0,
+      "t_end": 25.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 17.0,
+          "image": "slide_3_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 18.0,
+          "image": "slide_3_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "process diagram layout",
+        "title_text": "Background: Imaging as a Projection",
+        "layout_description": "The slide features a clean, white background with a title positioned at the top-left. In the top-right corner, there is a QR code and a university logo. The main content is a horizontal process diagram consisting of two large rectangular panels connected by a central arrow. The left panel contains a 3D schematic showing a camera on the far left projecting lines toward a dining set (a table and six blue chairs) in the center. The right panel displays the resulting 2D rendered image of the scene, showing a close-up view of the chairs and table against a solid black background. Above the connecting arrow is a mathematical symbol (the Greek letter pi). A small page number '2' is located in the bottom-right corner. The text density is light, with the focus being on the visual explanation of the imaging process."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 25.0,
+      "t_end": 30.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 25.0,
+          "image": "slide_4_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 27.0,
+          "image": "slide_4_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 28.0,
+          "image": "slide_4_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "process flow layout",
+        "title_text": "Background: Object Detection",
+        "layout_description": "The slide features a clean, white background with a large title at the top-left. In the top-right corner, there is a QR code and a university logo. The main content consists of two large visual panels arranged side-by-side, connected by a central horizontal arrow. The left panel is a framed diagram showing a 3D scene with a camera on the left projecting a field of view (indicated by orange lines) onto a dining table and chairs. The central arrow pointing to the right has a mathematical symbol '\u03c0' above it and a small 3D cube icon below it, suggesting a projection or transformation process. The right panel shows the resulting 2D rendered image of the chairs and table against a solid black background. A small page number '3' is located in the bottom-right corner. The text density is very light, relying primarily on visual diagrams to explain a concept."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "introduction",
+      "t_start": 30.0,
+      "t_end": 42.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 30.0,
+          "image": "slide_5_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 33.0,
+          "image": "slide_5_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "process flow layout",
+        "title_text": "Background: Object Detection",
+        "layout_description": "The slide features a clean, minimalist design with a title 'Background: Object Detection' in a sans-serif font at the top-left. In the top-right corner, there is a QR code and a university crest logo. The central content is a horizontal process diagram illustrating the transition from 3D space to 2D object detection. On the left, a square-framed diagram shows a 3D scene with a camera projecting perspective lines toward a dining table and chairs. A thick black arrow points from this diagram to the right. Above the arrow is a mathematical symbol '\u03c0', and below it is a 3D bounding box icon. To the right of the arrow is a 2D image with a black background, showing a close-up of two blue chairs with yellow bounding boxes drawn around them. The overall text density is light, and a page number '3' is visible in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "introduction",
+      "t_start": 42.0,
+      "t_end": 45.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 42.0,
+          "image": "slide_6_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 43.0,
+          "image": "slide_6_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 44.0,
+          "image": "slide_6_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central figure",
+        "title_text": "Motivation: What lies beyond this frame?",
+        "layout_description": "The slide follows a clean, minimalist layout with a white background. A single-line title is positioned at the top left in a black sans-serif font. In the top right corner, there is a small QR code and a gold-colored shield-shaped logo. The central focus of the slide is a large rectangular image with a black background. This image shows two blue-textured chairs and a dark table, with two bright green rectangular frames highlighting the chairs. The word 'SIN' is centered in white text above the chairs within the black area. A small page number '4' is placed in the bottom right corner. The slide has a light text density, relying heavily on the central visual element to convey its message."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "introduction",
+      "t_start": 45.0,
+      "t_end": 59.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 45.0,
+          "image": "slide_7_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 47.0,
+          "image": "slide_7_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with centered figure",
+        "title_text": "Motivation: What lies beyond this frame?",
+        "layout_description": "The slide features a clean, minimalist design with a white background. A large, bold title is positioned at the top left. In the top right corner, there is a QR code next to a gold and white university crest logo. The central focus of the slide is a large image titled 'SINGLE OBSERVATION' in white text against a black rectangular backdrop. This image depicts two blue textured chairs and a table, framed by a bright neon green border. To the left and right of this central image, there are faint, blurred arrows and text pointing outwards, suggesting the concept of looking beyond the current frame. The text density is very light, focusing primarily on the visual metaphor. A small page number '4' is located in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 59.0,
+      "t_end": 60.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 59.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Task: Find chairs",
+        "layout_description": "The slide uses a two-column layout with a clear title at the top-left. The left column features a large square box labeled 'Input' containing a 3D diagram of a camera pointing at a dining table with six blue chairs; orange lines project from the camera to show its field of view. The right column contains a smaller rectangular image showing the resulting camera view, where two chairs are highlighted with bright green bounding boxes against a black background. In the top-right corner, there is a QR code and a gold shield-shaped logo. A small page number '5' is positioned at the bottom-right. The slide has a very light text density, relying primarily on visual diagrams to explain the task."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 60.0,
+      "t_end": 63.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 60.0,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Task: Find chairs",
+        "layout_description": "The slide features a clean, two-column layout on a white background. At the top-left, the title 'Task: Find chairs' is displayed in a simple sans-serif font. The left column contains a large, black-bordered box labeled 'Input Frame' which shows a 3D diagram of a camera on the left pointing towards a dining table with six blue chairs; orange perspective lines illustrate the camera's field of view. The right column displays a cropped, dark-background image showing a close-up of two blue chairs, each enclosed in a bright green rectangular bounding box to demonstrate object detection. In the top-right corner, there is a QR code next to a gold-colored institutional logo. A small page number '5' is positioned at the bottom-right corner. The text density is light, with the slide primarily using visual diagrams to explain a computer vision task."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 63.0,
+      "t_end": 74.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 63.0,
+          "image": "slide_10_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 66.0,
+          "image": "slide_10_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 67.0,
+          "image": "slide_10_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 73.0,
+          "image": "slide_10_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Task: Find chairs",
+        "layout_description": "The slide features a clean, white background with a two-column layout. The title is located at the top-left in a standard black font. In the top-right corner, there is a QR code and a circular gold logo. The main body of the slide consists of two side-by-side visual elements. The left element is a framed diagram titled 'Expanded Frame' that illustrates a 3D scene where a camera's field of view (frustum) is projected toward a dining table and chairs. The right element is a horizontal image showing a qualitative result of object detection, where chairs are highlighted with blue point clouds and yellow bounding boxes; the word 'Possibl' is centered directly below this image. A small page number '6' is positioned in the bottom-right corner. The text density is light, as the slide relies primarily on diagrams and images to convey information."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 74.0,
+      "t_end": 75.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 74.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Task: Find chairs",
+        "layout_description": "The slide uses a clean white background with a two-column layout. At the top-left, the title 'Task: Find chairs' is displayed in a plain black sans-serif font. The top-right corner contains a QR code and a gold-colored shield-shaped institutional logo. The left column features a large, square-framed diagram showing a 3D perspective of a camera on the left with lines indicating its field of view directed at a dining table and four blue chairs. The right column contains a horizontal image strip with a black background showing a row of blue chairs, each highlighted with a bright yellow-green bounding box. Below this image, the phrase 'Possible Variations' is centered in a medium-sized font. A small page number '7' is positioned in the bottom-right corner. The slide has a light text density, relying primarily on visual diagrams to illustrate a computer vision task."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "method",
+      "t_start": 75.0,
+      "t_end": 83.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 75.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Task: Find chairs",
+        "layout_description": "The slide uses a two-column layout with a white background. A large, bold title is positioned at the top-left. The left column features a framed diagram showing a 3D perspective of a camera's field of view directed at a dining table and chairs. The right column contains a horizontal image strip showing several blue chairs against a black background, each enclosed in a bright green bounding box. Below this image, the text 'Possible Variations' is centered. In the top-right corner, there is a QR code and a gold institutional logo. A small page number '7' is located at the bottom-right. The text density is light, with the focus being on the visual diagrams and images."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "method",
+      "t_start": 83.0,
+      "t_end": 90.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 83.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Task: Find chairs",
+        "layout_description": "The slide uses a two-column layout with a clear title at the top-left. The left column features a large, framed diagram showing a 3D perspective of a camera's field of view (frustum) directed at a table with two blue chairs. The right column contains a cropped image representing the camera's actual view, where chairs are identified with bright yellow bounding boxes. Below this right-side image, the word 'Possible' is written above a 'V' symbol. The top-right corner of the slide includes a QR code and a gold-colored institutional logo. A page number '8' is positioned in the bottom-right corner. The background is plain white, and the text density is light, prioritizing visual diagrams over text."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "method",
+      "t_start": 90.0,
+      "t_end": 91.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 90.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure",
+        "title_text": "Task: Find chairs",
+        "layout_description": "The slide features a large, complex figure that spans the entire width, illustrating an object detection task. At the top left, the title 'Task: Find chairs' is prominently displayed in a bold sans-serif font, with a lighter, partially overlapping text 'and Object Detection' behind it. The main visual content is divided into several sections: on the far left, a 3D schematic shows a camera with a viewing frustum directed towards a table and chairs. To the right of this, there are multiple panels representing different camera views or processing stages, where chairs are highlighted with bright green bounding boxes. Downward-pointing arrows are placed between these panels. At the bottom center, a caption reads 'Bounding box representations of the Object Detector'. The top right corner contains a QR code and a gold-colored institutional logo. Page numbers '1' and '8' are located at the bottom center and bottom right, respectively. The overall text density is light, focusing on visual demonstration."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "method",
+      "t_start": 91.0,
+      "t_end": 105.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 91.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and multi-part figure",
+        "title_text": "Task: Unobserved Object Detection",
+        "layout_description": "The slide features a large, plain-text title at the top left. In the top right corner, there is a QR code and a gold-colored institutional logo. The central content is organized into three columns, each illustrating a transformation process. Each column contains a top image showing a 3D rendered scene of blue chairs with yellow bounding boxes, a downward-pointing black arrow, and a bottom image showing a simplified heatmap representation of those bounding boxes. Below these three columns is a centered text caption: 'Bounding box representations of the Object Detector'. At the bottom center, a horizontal color scale bar transitions from dark blue (labeled '0') to yellow (labeled '1'). A small page number '9' is positioned in the bottom right corner. The background is white, creating a clean and light text density."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "method",
+      "t_start": 105.0,
+      "t_end": 107.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 105.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "three-column comparison layout",
+        "title_text": "Task: Unobserved Object Detection",
+        "layout_description": "The slide features a clean, white background with a large, sans-serif title at the top-left. In the top-right corner, there is a QR code and a gold-colored institutional crest logo. The central content is organized into three vertical columns that demonstrate a process. The top row consists of three photographic images showing a dining table with blue chairs, where yellow bounding boxes are drawn around the chairs. Below each of these images is a thick black arrow pointing downwards to a corresponding visualization in the bottom row. These bottom visualizations represent the bounding boxes as solid colored rectangles (lime green, red, and purple) on a dark blue background. A centered text caption, 'Bounding box representations of the Object Detector', is placed below the bottom row of images. At the very bottom of the slide, there is a horizontal color scale bar transitioning from purple (0) to yellow (1), and a page number '9' is located in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "method",
+      "t_start": 107.0,
+      "t_end": 118.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 107.0,
+          "image": "slide_17_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 108.0,
+          "image": "slide_17_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 109.0,
+          "image": "slide_17_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figures",
+        "title_text": "Task: Unobserved Object Detection",
+        "layout_description": "The slide features a large, plain-text title at the top-left. In the top-right corner, there is a QR code and a university crest logo. The main body of the slide is occupied by a two-row visual diagram. The top row consists of three side-by-side rectangular images showing colored geometric blocks (yellow, red, and purple) on a dark background. The bottom row features a single, larger rectangular heatmap-style image. This central image is annotated with two black arrows labeled 'Unobserved' pointing to the left and right peripheral regions, and a bracket labeled 'Observed' spanning the central region, which is further demarcated by vertical dashed lines. Below this central figure is a line of explanatory text: 'Aggregate predictions into a spatio-semantic distribution'. A small page number '10' is positioned in the bottom-right corner. The slide has a clean white background and light text density, prioritizing visual diagrams over text."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "introduction",
+      "t_start": 118.0,
+      "t_end": 120.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 118.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "mixed layout with text and figures",
+        "title_text": "Task: Unobserved Object Detection",
+        "layout_description": "The slide follows a clean, sparse layout on a white background. A large, bold title is positioned at the top-left. Directly below it, a 'Definition' section consists of a bold label followed by a short paragraph of text. To the right of this text block is a small, centered image showing two blue chairs and a table against a black background. In the bottom-left area, there is a larger, framed diagram depicting a camera and its orange-lined frustum pointing toward a 3D model of a table and chairs. The top-right corner features a QR code and a university logo. A small page number '11' is visible in the bottom-right corner. The text density is light, focusing on visual aids to define the research task."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "introduction",
+      "t_start": 120.0,
+      "t_end": 130.0,
+      "num_builds": 6,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 120.0,
+          "image": "slide_19_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 121.0,
+          "image": "slide_19_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 124.0,
+          "image": "slide_19_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 127.0,
+          "image": "slide_19_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 128.0,
+          "image": "slide_19_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 129.0,
+          "image": "slide_19_build_5.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "mixed layout with figures and text",
+        "title_text": "Task: Unobserved Object Detection",
+        "layout_description": "The slide uses a mixed layout to define a specific research task. The title is positioned at the top left in a large, bold font. Directly below it on the left side is a 'Definition' section with bolded text. In the bottom-left quadrant, there is a 3D diagram showing a camera's frustum directed at a dining table set, illustrating the concept of occlusion. The right half of the slide is dominated by a large, multi-part diagram. This diagram features a top-down grid representing a '3D distribution of chairs' and a vertical bar on its left representing an 'Outpainted image' and '2D distribution of chairs'. Within this grid, red circles labeled 'A' and 'B' identify specific regions, and a mathematical expression for conditional probability is included. A horizontal legend box at the bottom right defines the labels A (Occluded), B (Out-of-frame), and C (Camera Center). The top right corner contains a QR code and a university logo, and the page number '11' is located at the bottom right. The slide has a moderate text density and uses a clean white background."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "method",
+      "t_start": 130.0,
+      "t_end": 135.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 130.0,
+          "image": "slide_20_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Sampling using Generative Models",
+        "layout_description": "The slide features a clean comparison layout on a white background. The title 'Sampling using Generative Models' is positioned at the top-left in a sans-serif font. In the top-right corner, there is a QR code next to a gold shield-shaped logo. The main body of the slide is divided into two horizontal rows. The top row is labeled '3D Generation' above a long right-pointing arrow, followed by four images of a room interior showing different perspectives. The bottom row is labeled '2D Generation' above a similar arrow, followed by four images of a kitchen doorway that become increasingly masked or pixelated. On the far left, the word 'INPUT' is placed vertically with two curved arrows pointing to the starting image of each row. A page number '12' is located in the bottom-right corner. The overall text density is light, emphasizing the visual progression of the generative processes."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "results",
+      "t_start": 135.0,
+      "t_end": 141.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 135.0,
+          "image": "slide_21_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Sampling using Generative Models",
+        "layout_description": "The slide features a clean, white background with a large title at the top-left. In the top-right corner, there is a QR code and a university crest logo. The main content is organized into two horizontal rows of images, each representing a different generation process. A vertical bracket on the far left labeled 'INPUT' points to the first image in both rows. The top row is labeled '3D Generation' with a long arrow pointing to the right, showing a sequence of four images that depict a 3D-like camera movement through a living space. The bottom row is labeled '2D Generation' with a similar long arrow pointing right, showing a sequence of four images depicting a 2D-like panning motion through a kitchen. The images in the bottom row are separated by dashed vertical lines. A page number '12' is located in the bottom-right corner. The text density is light, focusing primarily on visual qualitative results."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "method",
+      "t_start": 141.0,
+      "t_end": 150.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 141.0,
+          "image": "slide_22_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 149.0,
+          "image": "slide_22_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "diagram-based layout",
+        "title_text": "Pipeline: Vision Language Models",
+        "layout_description": "The slide features a clean, white background with a large, sans-serif title at the top-left. In the top-right corner, there is a QR code and a gold-colored institutional crest logo. The central content is a flowchart illustrating a pipeline. On the left, an 'Input image' of a kitchen interior is shown, with a blurred block of text below it representing a prompt. A blue line originates from the image and branches into two diagonal paths. The upper path, labeled 'Right', leads to the text 'Yes/No' and a stack of red circular icons with white 'thumbs down' symbols, topped with a bracket labeled 'N samples'. The lower path, labeled 'Left', leads to the text 'Yes/No' and a stack of green circular icons with white 'thumbs up' symbols. The slide has a light text density and includes a page number '13' in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "method",
+      "t_start": 150.0,
+      "t_end": 172.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 150.0,
+          "image": "slide_23_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 157.0,
+          "image": "slide_23_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "flowchart/pipeline diagram",
+        "title_text": "Pipeline: Vision Language Models",
+        "layout_description": "The slide uses a white background with a large, plain-text title at the top-left. The central focus is a flowchart depicting a processing pipeline. On the left, an 'Input image' of a kitchen is shown, with a sample 'VLM Prompt' text block below it. A blue arrow originates from the image and splits into two paths labeled 'Right' and 'Left'. Each path leads to a 'Yes/No' decision point. The 'Right' path is accompanied by a stack of red 'thumbs down' icons labeled 'N samples', while the 'Left' path has a stack of green 'thumbs up' icons. Both paths converge at an 'Aggregate' node, which points to a horizontal stacked bar chart on the right. Above this chart is a numbered list of four specific vision-language models (ChatGPT-4o, Claude-3.5-Sonnet, LLaVA-v1.6, Gemini-1.5-Ultra). The top-right corner features a QR code and a gold university logo. Small text citations and the page number '13' are located in the bottom-right corner. The text density is moderate, balanced by visual diagrams and icons."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "method",
+      "t_start": 172.0,
+      "t_end": 180.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 172.0,
+          "image": "slide_24_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 173.0,
+          "image": "slide_24_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 174.0,
+          "image": "slide_24_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 177.0,
+          "image": "slide_24_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "figure-centric layout with title",
+        "title_text": "Pipeline: 2D Diffusion Model",
+        "layout_description": "The slide features a large, bold title at the top-left. In the top-right corner, there is a QR code next to a gold-colored institutional crest. The central content is a visual pipeline diagram. On the left, a single 'Input image' of a kitchen interior is shown. A blue horizontal arrow points from this image to a stack of multiple overlapping images labeled '2D Diffusion Outpainting'. These output images are grouped by a blue curly brace on the right, labeled 'N samples'. At the bottom-left, there are two small bulleted citations for SDXL and YOLOv8. The slide number '14' is positioned in the bottom-right corner. The background is plain white, and the overall text density is light, emphasizing the visual flow of the model pipeline."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "method",
+      "t_start": 180.0,
+      "t_end": 190.0,
+      "num_builds": 5,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 180.0,
+          "image": "slide_25_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 181.0,
+          "image": "slide_25_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 184.0,
+          "image": "slide_25_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 187.0,
+          "image": "slide_25_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 188.0,
+          "image": "slide_25_build_4.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "flowchart pipeline layout",
+        "title_text": "Pipeline: 2D Diffusion Model",
+        "layout_description": "The slide features a large, plain-text title at the top-left. The central content is a flowchart depicting a multi-step process. It starts on the left with an 'Input image' of a kitchen. An arrow points right to a stack of images labeled '2D Diffusion Outpainting' and 'N samples'. From there, an arrow leads to a blue-bordered box labeled 'Object Detector: YOLOv8x', which also has a 'sink' label pointing into it from above. A vertical arrow points down from the detector to another stack of images where a red bounding box identifies a 'Sink'. Finally, an arrow labeled 'Aggregate' points left from these detections to a colorful heatmap. The bottom-left corner contains two small bulleted references. The top-right corner includes a QR code and a university crest logo. A page number '14' is positioned at the bottom-right. The overall text density is light, using a clean white background with blue arrows and boxes to guide the viewer through the pipeline."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "method",
+      "t_start": 190.0,
+      "t_end": 195.0,
+      "num_builds": 5,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 190.0,
+          "image": "slide_26_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 191.0,
+          "image": "slide_26_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 192.0,
+          "image": "slide_26_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 193.0,
+          "image": "slide_26_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 194.0,
+          "image": "slide_26_build_4.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central figure",
+        "title_text": "Pipeline: 3D Diffusion Model",
+        "layout_description": "The slide features a clean white background with a large, black title positioned at the top-left. In the top-right corner, there is a QR code next to a gold-colored institutional logo. The main content is a visual representation of a pipeline: on the left, there is a small photograph of a bedroom labeled 'Input image Pose 1'. To its right is a central diagram of a semi-transparent 3D cube containing colorful volumetric data, captioned 'Diffusion with Forward Model'. Several blurred camera icons are arranged around this cube, suggesting multiple viewpoints. At the bottom-right, there are two lines of bibliographic references in a small font, and the page number '15' is located in the far bottom-right corner. The text density is light, with the focus being on the diagrammatic flow."
+      }
+    },
+    {
+      "slide_id": 27,
+      "slide_section": "method",
+      "t_start": 195.0,
+      "t_end": 201.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 195.0,
+          "image": "slide_27_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 196.0,
+          "image": "slide_27_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 197.0,
+          "image": "slide_27_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 198.0,
+          "image": "slide_27_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "diagram-based pipeline layout",
+        "title_text": "Pipeline: 3D Diffusion Model",
+        "layout_description": "The slide features a large title at the top-left and a QR code and university logo at the top-right. The central focus is a complex diagram illustrating a 3D diffusion pipeline. At the center is a colorful 3D cube labeled 'Neural Field' with camera icons positioned around it, connected by lines to represent 'Diffusion with Forward Model'. To the left, an 'Input image Pose 1' is shown. Below this, a stack of 'Generated images from Pose 4' is labeled 'N samples'. To the right of the central cube, there are two more stacks of 'Generated images' corresponding to 'Pose 3' (top) and 'Pose 2' (bottom). An arrow leads from the Pose 2 images to a final stack of 'Depth Map' visualizations on the far right. The bottom-right corner contains two small-text bibliographic references and the slide number '15'. The background is plain white, and the text density is light, primarily consisting of labels for the visual components."
+      }
+    },
+    {
+      "slide_id": 28,
+      "slide_section": "method",
+      "t_start": 201.0,
+      "t_end": 210.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 201.0,
+          "image": "slide_28_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 206.0,
+          "image": "slide_28_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 208.0,
+          "image": "slide_28_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "pipeline diagram layout",
+        "title_text": "Pipeline: 3D Diffusion Model",
+        "layout_description": "The slide features a large, complex pipeline diagram that flows generally from left to right against a plain white background. The title is positioned at the top-left in a large, black, sans-serif font. In the top-right corner, there is a QR code and a university crest logo. The diagram begins on the left with an 'Input image' of a bedroom labeled 'Pose 1'. This image feeds into a '3D Generation' block centered around a colorful 'Neural Field' cube with several camera icons pointing towards it. From this central generation stage, three separate paths lead to stacks of 'Generated images' from different viewpoints (Pose 2, Pose 3, and Pose 4). These image stacks are then fed into a central processing block labeled 'Object Detector: YOLOv8x', which has a small blue 'TV' icon above it. The final output on the right is titled '3D back-projection of object detections' and shows three wireframe cubes containing colored 3D segments representing detected objects. The slide includes a page number '16' in the bottom-right corner. Text density is moderate, consisting mostly of descriptive labels and variable counts like 'N samples' and 'K poses X N samples'."
+      }
+    },
+    {
+      "slide_id": 29,
+      "slide_section": "method",
+      "t_start": 210.0,
+      "t_end": 216.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 210.0,
+          "image": "slide_29_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 211.0,
+          "image": "slide_29_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 212.0,
+          "image": "slide_29_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 213.0,
+          "image": "slide_29_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "pipeline diagram layout",
+        "title_text": "Pipeline: 3D Diffusion Model",
+        "layout_description": "The slide presents a complex technical pipeline diagram flowing generally from left to right. The title is located at the top-left in a large, clean sans-serif font. In the top-right corner, a QR code and a gold institutional crest are placed side-by-side. The diagram begins on the far left with an 'Input image' of a bedroom. This feeds into a '3D Generation' block featuring a 'Neural Field' cube and camera icons. From this central generation point, three sets of 'Generated images' from different poses (Pose 2, 3, and 4) are shown as stacked thumbnails. These images converge into an 'Object Detector: YOLOv8x' block in the center. The detector's output leads to a '3D back-projection of object detections' represented by three wireframe cubes containing colored 3D segments. These are then 'Aggregated' into a large, colorful 3D scene reconstruction at the bottom right. A small 'Voxelized top-down view' is positioned below the detector. Two bulleted references are located in the bottom-left corner, and the slide number '16' is in the bottom-right corner. The background is plain white, and the text density is moderate, focusing on labeling the various stages of the process."
+      }
+    },
+    {
+      "slide_id": 30,
+      "slide_section": "results",
+      "t_start": 216.0,
+      "t_end": 225.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 216.0,
+          "image": "slide_30_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "diagram-based workflow layout",
+        "title_text": "Qualitative Results: Our Model",
+        "layout_description": "The slide features a large, complex diagram illustrating a technical pipeline, set against a plain white background. A large title is positioned at the top-left, while a QR code and an institutional logo are in the top-right corner. The central content is a flowchart that begins on the left with an 'Input image' of a bedroom. This leads into a central 3D 'Neural Field' representation. From there, the diagram branches out to show 'Generated images' from various camera poses, heatmaps from a 2D diffusion model, and an 'Object Detector' node. The flow culminates on the right with a large 3D point cloud visualization labeled 'Aggregate'. The diagram uses thin gray arrows to indicate data flow between these components. Small reference text is tucked into the bottom-left corner, and the slide number '16' appears in the bottom-right. The text density is moderate, primarily consisting of labels for the various stages of the process."
+      }
+    },
+    {
+      "slide_id": 31,
+      "slide_section": "results",
+      "t_start": 225.0,
+      "t_end": 239.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 225.0,
+          "image": "slide_31_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 234.0,
+          "image": "slide_31_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid comparison layout",
+        "title_text": "Qualitative Results: Out of Frame",
+        "layout_description": "The slide uses a structured grid layout to present qualitative findings. A large, clean title is positioned at the top-left. In the top-right corner, there is a QR code and an institutional crest logo. The central content is a 3x4 grid of images and heatmaps. The rows are categorized by object types labeled vertically on the left: 'TV', 'REFRIGERATOR', and 'OVEN'. The columns are labeled at the top, representing different data types: 'Input image', '3D heatmap', '2D diffusion model's heatmap', and '2D Heatmap from querying VLMs'. The first column shows real-world indoor photographs, while the other columns display corresponding heatmaps using a purple-to-yellow color scale. A vertical color bar on the far right provides a legend for these heatmaps, ranging from 0 to 1. Small white stars and colored circles (red and yellow) are used as markers within the heatmaps to indicate specific points of interest. At the bottom left, a 'Ground truth' label with horizontal arrows spans the width of the first column. The slide number '17' is located in the bottom-right corner. The overall text density is moderate, focusing on visual comparison."
+      }
+    },
+    {
+      "slide_id": 32,
+      "slide_section": "results",
+      "t_start": 239.0,
+      "t_end": 240.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 239.0,
+          "image": "slide_32_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "Qualitative Results: Not in 2D",
+        "layout_description": "The slide features a clean, minimalist design with a light gray title at the top left. In the top right corner, there is a QR code and a university logo. The central content is organized into a 2x4 grid of images and heatmaps. The first column displays two input images of kitchen interiors, grouped under a bracket labeled 'Input image'. The subsequent three columns show different types of heatmap visualizations (likely attention or probability maps) corresponding to the input images, with small star icons indicating specific points of interest. To the right of the grid is a vertical color scale bar ranging from 0 to 1, transitioning from purple to yellow. At the bottom left, a label 'Ground truth' is accompanied by horizontal arrows. The page number '17' is located in the bottom right corner. The overall text density is light, prioritizing visual qualitative data over descriptive text."
+      }
+    },
+    {
+      "slide_id": 33,
+      "slide_section": "results",
+      "t_start": 240.0,
+      "t_end": 260.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 240.0,
+          "image": "slide_33_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 241.0,
+          "image": "slide_33_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 242.0,
+          "image": "slide_33_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison grid layout",
+        "title_text": "Qualitative Results: Not in 2D",
+        "layout_description": "The slide features a large title at the top-left and two logos (a QR code and a university crest) at the top-right. The main content is organized into a 2x4 grid comparing different visualization methods. There are two primary rows, labeled vertically on the far left as 'CHAIR' and 'SINK'. Each row consists of four columns: an 'Input image' (indicated by a blue bracket), a 'DFM heatmap' (showing a top-down view with a field-of-view cone), a '2D diffusion model's heatmap', and a '2D Heatmap from querying VLMs'. Below each row of images is a centered caption explaining the ground truth scenario, with the word 'occluded' highlighted in blue in the second caption. The background is white, and the slide number '18' is positioned in the bottom-right corner. The text density is moderate, primarily consisting of labels and descriptive captions for the visual data."
+      }
+    },
+    {
+      "slide_id": 34,
+      "slide_section": "conclusion",
+      "t_start": 260.0,
+      "t_end": 270.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 260.0,
+          "image": "slide_34_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 261.0,
+          "image": "slide_34_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 262.0,
+          "image": "slide_34_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Summary",
+        "layout_description": "The slide follows a minimalist single-column layout on a plain white background. The title 'Summary' is placed at the top-left in a large, black, sans-serif font. Below the title, there is a single paragraph of introductory text that spans the width of the slide, with specific dataset names 'RealEstate10k' and 'NYUDepthv2' emphasized in bold. The top-right corner features a decorative gold-colored logo. At the bottom-left, two lines of academic citations are provided in a smaller, grey font. A page number '19' is positioned in the bottom-right corner. The slide has a very light text density, with a large amount of empty white space in the center and lower portions."
+      }
+    },
+    {
+      "slide_id": 35,
+      "slide_section": "conclusion",
+      "t_start": 270.0,
+      "t_end": 297.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 270.0,
+          "image": "slide_35_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 273.0,
+          "image": "slide_35_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 278.0,
+          "image": "slide_35_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Summary",
+        "layout_description": "The slide follows a clean, single-column layout on a white background. The title 'Summary' is placed at the top-left in a large, black, sans-serif font. In the top-right corner, there is a gold-colored crest logo. The main body of the slide starts with an introductory sentence that sets the context of the findings across three pipelines and two datasets. Below this, there are two primary bullet points. The first bullet point emphasizes a key result for 'DFM' in 3D settings, using bold text for '0% false negative rate'. The second bullet point summarizes the performance of 'SDXL outpainting'. At the bottom-left of the slide, two lines of small-font text provide academic citations for related work. A page number '19' is positioned in the bottom-right corner. The slide has a light text density with generous white space, focusing on high-level takeaways."
+      }
+    },
+    {
+      "slide_id": 36,
+      "slide_section": "other",
+      "t_start": 297.0,
+      "t_end": 300.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 297.0,
+          "image": "slide_36_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 298.0,
+          "image": "slide_36_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with text overlay",
+        "title_text": "Thank You!",
+        "layout_description": "The slide features a large, centered 'Thank You!' in bold black text with a subtle drop shadow, serving as the primary focal point. The background is composed of a dense grid of small rectangular images arranged in approximately five columns and four rows. These images alternate between real-world interior photographs\u2014showing scenes like kitchens, bedrooms, and hallways\u2014and abstract heatmaps. The heatmaps use a color palette of purple, pink, and yellow, often including white dashed lines and small star icons, likely representing data visualizations or attention maps. The text density is very light, consisting only of the central message and a small page number '20' in the bottom right corner. The overall aesthetic is a collage-style closing slide."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 769,
+    "gemini_layout_calls": 743,
+    "total_gemini_calls": 1512,
+    "total_frames_sampled": 300,
+    "batch_size": 15
+  }
+}

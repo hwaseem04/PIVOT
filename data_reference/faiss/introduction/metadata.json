@@ -1,0 +1,197 @@
+[
+  {
+    "paper_name": "NeurIPS_NeurIPS-2024_LVD-2M-A-Long-take-Video-Dataset-with-Temporally-De__NeurIPS-2024-Paper-LVD-2M-A-Long-take",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/NeurIPS_NeurIPS-2024_LVD-2M-A-Long-take-Video-Dataset-with-Temporally-De__NeurIPS-2024-Paper-LVD-2M-A-Long-take.json"
+  },
+  {
+    "paper_name": "Removing Cost Volumes from Optical Flow Estimators",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/Removing Cost Volumes from Optical Flow Estimators.json"
+  },
+  {
+    "paper_name": "CVPR_CVPR-2025_Joint-Optimization-of-Neural-Radiance-Fields-and-Continuous-Ca__CVPR-2025-Joint-Opt-of-NeRFs-and-Continu",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/CVPR_CVPR-2025_Joint-Optimization-of-Neural-Radiance-Fields-and-Continuous-Ca__CVPR-2025-Joint-Opt-of-NeRFs-and-Continu.json"
+  },
+  {
+    "paper_name": "Probability Density Geodesics in Image Diffusion Latent Space",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/Probability Density Geodesics in Image Diffusion Latent Space.json"
+  },
+  {
+    "paper_name": "Find Any Part in 3D",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/Find Any Part in 3D.json"
+  },
+  {
+    "paper_name": "ICLR_ICLR 2025_DICE__837_DICE_End_to_end_Deformatio",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/ICLR_ICLR 2025_DICE__837_DICE_End_to_end_Deformatio.json"
+  },
+  {
+    "paper_name": "Identifying and Mitigating Position Bias of Multi-image Vision-Language Models",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/Identifying and Mitigating Position Bias of Multi-image Vision-Language Models.json"
+  },
+  {
+    "paper_name": "Differentiable Neural Surface Refinement for Modeling Transparent Objects",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/Differentiable Neural Surface Refinement for Modeling Transparent Objects.json"
+  },
+  {
+    "paper_name": "Small Steps and Level Sets Fitting Neural Surface Models with Point Guidance",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/Small Steps and Level Sets Fitting Neural Surface Models with Point Guidance.json"
+  },
+  {
+    "paper_name": "CVPR_CVPR-2025Highlight_ETAP-Event-based-Tracking-of-Any-Point__ETAP-Event-based-Tracking-of-Any-Point-C",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/CVPR_CVPR-2025Highlight_ETAP-Event-based-Tracking-of-Any-Point__ETAP-Event-based-Tracking-of-Any-Point-C.json"
+  },
+  {
+    "paper_name": "CVPR_CVPR-2025_Identifying-and-Mitigating-Position-Bias-of-Multi-Image-Vision__CVPR-2025-Identifying-and-Mitigating",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/CVPR_CVPR-2025_Identifying-and-Mitigating-Position-Bias-of-Multi-Image-Vision__CVPR-2025-Identifying-and-Mitigating.json"
+  },
+  {
+    "paper_name": "CVPR_CVPR-2025_Reloc3r-Large-Scale-Training-of-Relative-Camera-Pose-Regressio__CVPR-2025-Reloc3r",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/CVPR_CVPR-2025_Reloc3r-Large-Scale-Training-of-Relative-Camera-Pose-Regressio__CVPR-2025-Reloc3r.json"
+  },
+  {
+    "paper_name": "CVPR_09_CVPR-2025_Highlight-Focus-N-Fix-Region-Aware-Fine-Tuning-for-Tex__CVPR-2025-Highlight-Paper-Focus-N-Fix-Re",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/CVPR_09_CVPR-2025_Highlight-Focus-N-Fix-Region-Aware-Fine-Tuning-for-Tex__CVPR-2025-Highlight-Paper-Focus-N-Fix-Re.json"
+  },
+  {
+    "paper_name": "CVPR_CVPR-2025_Highlight-InstaManip-In-context-Learning-of-Autoregressive-Mod__CVPR2025-Unleashing-In-context-Learning",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/CVPR_CVPR-2025_Highlight-InstaManip-In-context-Learning-of-Autoregressive-Mod__CVPR2025-Unleashing-In-context-Learning.json"
+  },
+  {
+    "paper_name": "Unsqueeze [CLS] Bottleneck to Learn Rich Representations",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/Unsqueeze [CLS] Bottleneck to Learn Rich Representations.json"
+  },
+  {
+    "paper_name": "CVPR_CVPR-2025_Highlight-SLAM3R-Real-Time-Dense-Scene-Reconstruction-from-Mon__CVPR-2025-Highlight-SLAM3R-Real-Time-Den",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/CVPR_CVPR-2025_Highlight-SLAM3R-Real-Time-Dense-Scene-Reconstruction-from-Mon__CVPR-2025-Highlight-SLAM3R-Real-Time-Den.json"
+  },
+  {
+    "paper_name": "VI3NR Variance Informed Initialization for Implicit Neural Representations",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/VI3NR Variance Informed Initialization for Implicit Neural Representations.json"
+  },
+  {
+    "paper_name": "ICLR_ICLR-2025-I_Con-A-Unifying-Framework-for-Representation-Learning__ICLR-2025-A-New-Periodic-Table-in-Machine",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/ICLR_ICLR-2025-I_Con-A-Unifying-Framework-for-Representation-Learning__ICLR-2025-A-New-Periodic-Table-in-Machine.json"
+  },
+  {
+    "paper_name": "CVPR_CVPR2025_Blurred Lidar__LiDAR-for-Sharper-3D-CVPR-2025-H",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/CVPR_CVPR2025_Blurred Lidar__LiDAR-for-Sharper-3D-CVPR-2025-H.json"
+  },
+  {
+    "paper_name": "Pos3R- 6D Pose Estimation for Unseen Objects Made Easy",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/Pos3R- 6D Pose Estimation for Unseen Objects Made Easy.json"
+  },
+  {
+    "paper_name": "GigaTok- Scaling Visual Tokenizers to 3 Billion Parameters for Autoregressive Image Generation",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/GigaTok- Scaling Visual Tokenizers to 3 Billion Parameters for Autoregressive Image Generation.json"
+  },
+  {
+    "paper_name": "CVPR_CVPR 2025 (Highlight)_ MonSter__CVPR25-Highlight-MonSter",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/CVPR_CVPR 2025 (Highlight)_ MonSter__CVPR25-Highlight-MonSter.json"
+  },
+  {
+    "paper_name": "Explaining Human Preferences via Metrics for Structured 3D Reconstruction",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/Explaining Human Preferences via Metrics for Structured 3D Reconstruction.json"
+  },
+  {
+    "paper_name": "ICML_ICML-2025_Graph-Assisted-Stitching-for-Offline-Hierarchical-Rein__ICML-2025-Graph-Assisted-Stitching-for",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/ICML_ICML-2025_Graph-Assisted-Stitching-for-Offline-Hierarchical-Rein__ICML-2025-Graph-Assisted-Stitching-for.json"
+  },
+  {
+    "paper_name": "ArGue- Attribute-Guided Prompt Tuning for Vision-Language Models",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/ArGue- Attribute-Guided Prompt Tuning for Vision-Language Models.json"
+  },
+  {
+    "paper_name": "CVPR_CVPR 2025_ Deng_Pos3R_6D_Pose_Estimation_for_Unseen_Object__Deng_Pos3R_6D_Pose_Estimation_for_Unseen_Objects_Made_Easy_CVPR_2025_paper",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/CVPR_CVPR 2025_ Deng_Pos3R_6D_Pose_Estimation_for_Unseen_Object__Deng_Pos3R_6D_Pose_Estimation_for_Unseen_Objects_Made_Easy_CVPR_2025_paper.json"
+  },
+  {
+    "paper_name": "ICLR_ICLR 2025_ Coreset Spectral Clustering__9873_Coreset_Spectral_Clusteri",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/ICLR_ICLR 2025_ Coreset Spectral Clustering__9873_Coreset_Spectral_Clusteri.json"
+  },
+  {
+    "paper_name": "Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation.json"
+  },
+  {
+    "paper_name": "View From Above- Orthogonal-View aware Cross-view Localization",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/View From Above- Orthogonal-View aware Cross-view Localization.json"
+  },
+  {
+    "paper_name": "Mining Supervision for Dynamic Regions in Self-Supervised Monocular Depth Estimation",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/Mining Supervision for Dynamic Regions in Self-Supervised Monocular Depth Estimation.json"
+  },
+  {
+    "paper_name": "Random Walk on Pixel Manifolds for Anomaly Segmentation of Complex Driving Scenes",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/Random Walk on Pixel Manifolds for Anomaly Segmentation of Complex Driving Scenes.json"
+  },
+  {
+    "paper_name": "ICLR_ICLR-2025-PPT_Patch-Order-Do-Matters-In-Time-Series-Pretext-Task__ICLR-2025-PPT-Patch-Order-Do-Matters-In",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/ICLR_ICLR-2025-PPT_Patch-Order-Do-Matters-In-Time-Series-Pretext-Task__ICLR-2025-PPT-Patch-Order-Do-Matters-In.json"
+  },
+  {
+    "paper_name": "Joint Optimization of Neural Radiance Fields and Continuous Camera Motion from a Monocular Video",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/Joint Optimization of Neural Radiance Fields and Continuous Camera Motion from a Monocular Video.json"
+  },
+  {
+    "paper_name": "3DInAction- Understanding Human Actions in 3D Point Clouds",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/3DInAction- Understanding Human Actions in 3D Point Clouds.json"
+  },
+  {
+    "paper_name": "DenseNets Reloaded- Paradigm Shift Beyond ResNets and ViTs",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/DenseNets Reloaded- Paradigm Shift Beyond ResNets and ViTs.json"
+  },
+  {
+    "paper_name": "NeurIPS_NeurIPS-2024_Dual-Prototype-Evolving-for-Test-Time-Generalizatio__NeurIPS-2024-Dual-Prototype-Evolving-for_Media",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/NeurIPS_NeurIPS-2024_Dual-Prototype-Evolving-for-Test-Time-Generalizatio__NeurIPS-2024-Dual-Prototype-Evolving-for_Media.json"
+  },
+  {
+    "paper_name": "ICLR_ICLR-2025-paper_Block-Diffusion-Interpolating-Between-Autoregres__Block-Diffusion-Interpolating-Between",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/ICLR_ICLR-2025-paper_Block-Diffusion-Interpolating-Between-Autoregres__Block-Diffusion-Interpolating-Between.json"
+  },
+  {
+    "paper_name": "Believing is Seeing Unobserved Object Detection using Generative Models",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/Believing is Seeing Unobserved Object Detection using Generative Models.json"
+  },
+  {
+    "paper_name": "ICLR_ICLR-2025_Oral-Open-World-Reinforcement-Learning-over-Long-Short__ICLR-2025-Oral-Open-World-Reinforcement",
+    "section": "introduction",
+    "source_file": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/data_reference/categorised_section_summary_extraction_gemini/ICLR_ICLR-2025_Oral-Open-World-Reinforcement-Learning-over-Long-Short__ICLR-2025-Oral-Open-World-Reinforcement.json"
+  }
+]

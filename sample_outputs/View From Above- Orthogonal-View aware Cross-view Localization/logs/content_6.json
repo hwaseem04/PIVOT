@@ -1,0 +1,22 @@
+{
+    "extracted_content": "To simulate real-world GPS-denied navigation, the system employs an accumulated pose estimation strategy, using the previous frame's estimate as the initial pose for the current frame. Evaluation over a 3676-meter route reveals that the method is uniquely robust against dynamic scene changes; for instance, it avoids the significant drifts caused by moving vehicles that plague methods like BoostAcc, which suffer from incorrect query data from projected vehicle pixels. Additionally, it overcomes the orientation reversal issues seen in PureACL. A key feature of the system is its 'rapid recovery' capability, where it quickly corrects minor drifts upon encountering distinct localization landmarks. This level of stability and self-correction across entire routes, regardless of whether using single or multi-camera setups, establishes a viable path for integrating cross-view localization into autonomous driving and outdoor robotics SLAM systems to remove loop closure dependency.",
+    "key_figures": [
+        {
+            "ref": "Figure 7",
+            "caption": "Accumulated pose estimation performance on a KITTI CVL dataset trajectory.",
+            "relevance": "Visualizes the 'rapid recovery' mechanism and the system's immunity to drifts caused by moving vehicles, contrasting its stable trajectory against the severe failures of baseline models over a long-distance route."
+        }
+    ],
+    "key_tables": [
+        {
+            "ref": "Table 3",
+            "caption": "Comparison on Accumulated Pose Estimation.",
+            "relevance": "Validates the method's reliability across different sensor configurations (single-camera F-1C vs. multi-camera F-4C), showing consistent 100% route completion which is essential for practical deployment on various vehicle types."
+        }
+    ],
+    "key_equations": [],
+    "section_refs": [
+        "Section 5.4",
+        "Section 7"
+    ]
+}

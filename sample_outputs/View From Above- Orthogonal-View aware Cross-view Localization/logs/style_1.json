@@ -1,0 +1,27 @@
+{
+    "layout_template": "two_col_fig_right",
+    "background_color": "#FFFFFF",
+    "layout_regions": {
+        "title": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.9,
+            "h": 0.1
+        },
+        "bullets": {
+            "x": 0.05,
+            "y": 0.2,
+            "w": 0.4,
+            "h": 0.7
+        },
+        "figure": {
+            "x": 0.48,
+            "y": 0.2,
+            "w": 0.47,
+            "h": 0.7
+        }
+    },
+    "has_figure": true,
+    "has_video": false,
+    "style_rationale": "A two-column layout with bullets on the left and the figure on the right is chosen to introduce the core challenges. This allows the text to define the domain gap and viewpoint differences while Figure 1 provides a direct visual comparison of ground and aerial views, highlighting specific issues like occlusions and off-ground features. This follows the minimalist and clear style of the reference examples, prioritizing white space and a logical flow from problem definition to visual evidence."
+}

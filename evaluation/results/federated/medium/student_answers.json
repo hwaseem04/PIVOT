@@ -1,0 +1,94 @@
+{
+  "answers": [
+    {
+      "id": 1,
+      "category": "core_contribution",
+      "difficulty": "medium",
+      "question": "What specific 'double-blind' privacy constraints does the BlindFed framework aim to satisfy, and how do these constraints differ for the Learning Service Provider (LSP) versus the data owners?",
+      "ground_truth_answer": "The 'double-blind' constraint refers to protecting both model privacy and data privacy simultaneously. For the LSP (the server), the constraint is that data owners must not learn the parameters or architecture of the original Foundation Model (FM). For the data owners (the clients), the constraint is that the LSP must not see their sensitive local task data, and individual clients must not see each other's data. BlindFed achieves this by keeping the FM on the server while using Fully Homomorphic Encryption (FHE) to process client data.",
+      "student_answer": "The BlindFed framework aims to satisfy two specific \"double-blind\" privacy constraints:\n\n*   **Data Privacy:** The Learning Service Provider (LSP) must not learn anything about the sensitive local datasets owned by the clients.\n*   **Model Privacy:** The data owners (clients) must not learn anything about the original proprietary Foundation Model (FM) weights owned by the LSP.\n\n**Differences for the LSP versus Data Owners:**\n*   For the **Learning Service Provider (LSP)**, the constraint is that they cannot access or reveal sensitive client datasets during the adaptation process.\n*   For the **Data Owners (Clients)**, the constraint is that they cannot access or reveal the proprietary model weights of the foundation model provided by the LSP.",
+      "answered": true
+    },
+    {
+      "id": 2,
+      "category": "core_contribution",
+      "difficulty": "medium",
+      "question": "How does BlindFed's approach to model adaptation differ from standard Federated Learning (FedAvg) in terms of model ownership and distribution?",
+      "ground_truth_answer": "In standard FedAvg, the entire model is typically broadcast to all clients, who then perform local training and send updates back. In BlindFed, the core Foundation Model remains proprietary and is never shared with the clients. Instead, the framework uses a split-learning approach where the server handles the FM blocks and the clients only manage and update lightweight local parallel adapters and classification heads.",
+      "student_answer": "Based on the provided information, BlindFed's approach to model adaptation differs from standard Federated Learning (FedAvg) in the following ways regarding model ownership and distribution:\n\n*   **Model Ownership:** In BlindFed, the Learning Service Provider (LSP) retains full ownership of the proprietary Foundation Model (FM) and does not share its weights with the clients. This addresses the \"Model Privacy\" constraint, whereas standard FedAvg typically involves sharing the global model with clients.\n*   **Model Distribution:** Unlike standard FedAvg, where the entire model is distributed to clients for local training, BlindFed never shares the FM backbone. Instead, it uses a **split learning** approach combined with **Fully Homomorphic Encryption (FHE)**.\n*   **Training Scope:** Clients in BlindFed do not train the entire model. They only receive intermediate representations (in plaintext or encrypted form) to train **local parallel adapters** and **classification heads**.\n*   **Aggregation:** While BlindFed uses a FedAvg-like mechanism for global updates, it only aggregates the updates for the adapters and classification heads using **Secure Multi-Party Computation (MPC)**. The core FM backbone remains frozen and private at the server throughout the process.",
+      "answered": true
+    },
+    {
+      "id": 3,
+      "category": "methodology",
+      "difficulty": "medium",
+      "question": "Explain the necessity of the 'Offline Distillation' stage in the BlindFed framework and what specific architectural components are modified during this phase.",
+      "ground_truth_answer": "Offline distillation is necessary because standard Foundation Models contain non-linear operations (like GELU, Softmax, and LayerNorm) that are incompatible with the polynomial-only operations supported by FHE schemes like CKKS. During this stage, the LSP uses an auxiliary dataset to train an 'FHE-friendly' version of the FM where these non-linearities are replaced by low-degree polynomial approximations (e.g., quadratic functions for GELU and Taylor series for Softmax) while attempting to maintain the original model's performance.",
+      "student_answer": "The **Offline Distillation** stage is necessary to ensure that the redesigned, FHE-friendly \"student\" model retains the representational power and accuracy of the original foundation model (\"teacher\") before any client collaboration begins. Because Fully Homomorphic Encryption (FHE) only supports polynomial operations, the original model's non-linearities must be replaced, which can degrade performance; distillation matches internal features and logits to preserve accuracy.\n\nThe specific architectural components modified or replaced during this phase include:\n\n*   **Non-linear Activations:** Standard non-linearities like **GELU** are replaced with polynomial approximations, such as a quadratic function ($0.125x^2 + 0.25x + 0.5$).\n*   **Softmax:** The standard Softmax operation is replaced with a Taylor series expansion (referred to as **ASoftmax**).\n*   **LayerNorm and Division:** The division steps required for LayerNorm and Softmax are implemented using **Goldschmidt\u2019s algorithm** to make them FHE-compatible.\n*   **Adapters:** The architecture switches from sequential adapters (like LoRA) to **parallel adapters (LoSA)** to eliminate the need for encrypted backpropagation through the foundation model.",
+      "answered": true
+    },
+    {
+      "id": 4,
+      "category": "methodology",
+      "difficulty": "medium",
+      "question": "How does the 'Stochastic Block Sampling (SBS)' mechanism function to prevent model extraction attacks by clients?",
+      "ground_truth_answer": "SBS prevents a malicious client from observing the full sequence of intermediate representations, which could be used to reverse-engineer the FM blocks. The server only returns a subset of block outputs to the client and sets the rest to zero. To prevent similarity-based attacks, the sampling is structured so that consecutive blocks are never sampled together (if block l is sampled, l+1 is skipped), ensuring the client cannot easily map inputs to outputs for a single transformer block.",
+      "student_answer": "Based on the provided information, the **Stochastic Block Sampling (SBS)** mechanism prevents model extraction attacks through the following functions:\n\n*   **Countering Feature Similarity:** It is designed to counter attacks that exploit feature similarity between consecutive transformer blocks.\n*   **Subset Sampling:** During each forward pass, the server returns only a subset of block outputs to the client rather than all of them.\n*   **Deterministic Skipping:** SBS follows a structured rule where if block $\\ell$ is sampled, block $\\ell+1$ is deterministically skipped.\n*   **Layer Separation:** This ensures that any two intermediate representations seen by the client are separated by at least one layer.\n*   **Breaking Alignment:** By maintaining this separation, the mechanism reduces feature similarity and breaks the diagonal alignment required for similarity-based extraction attacks.\n\nAccording to the text, this privacy-boosting technique has a negligible impact on final model accuracy.",
+      "answered": true
+    },
+    {
+      "id": 5,
+      "category": "experimental_results",
+      "difficulty": "medium",
+      "question": "Based on the results for CIFAR-10 and SVHN, how does BlindFed perform relative to 'Linear Probing' in scenarios with high data heterogeneity (e.g., Dirichlet alpha = 0.01)?",
+      "ground_truth_answer": "BlindFed significantly outperforms Linear Probing in highly heterogeneous settings. For example, on SVHN with alpha = 0.01, Linear Probing achieves an accuracy of only 0.3385, whereas BlindFed achieves 0.7431. This demonstrates that BlindFed's use of parallel adapters provides much more robust adaptation capabilities than simply training a final linear layer when data is non-IID.",
+      "student_answer": "Based on the provided information, BlindFed consistently **outperforms linear probing** across all levels of data heterogeneity, including high heterogeneity scenarios (Dirichlet alpha = 0.01). \n\nSpecific performance details include:\n*   **Accuracy:** In centralized settings for these datasets, BlindFed achieved significantly higher accuracy than linear probing, reaching 94.28% vs. 92.26% for CIFAR-10 and 92.32% vs. 59.38% for SVHN.\n*   **Robustness:** BlindFed maintains robust performance under high data heterogeneity (alpha = 0.01), where it often even outperforms LoRA.\n*   **Scalability:** Scalability tests on CIFAR-10 with up to 50 clients confirmed that BlindFed consistently outperforms linear probing across the full range of data heterogeneity (alpha from 100 down to 0.01).",
+      "answered": true
+    },
+    {
+      "id": 6,
+      "category": "experimental_results",
+      "difficulty": "medium",
+      "question": "What do the experiments using the Fed-ISIC2019 dataset conclude about the requirement for the auxiliary dataset used in the distillation phase?",
+      "ground_truth_answer": "The experiments show that the auxiliary dataset does not need to be 'in-distribution' relative to the target task. Knowledge transfer from an out-of-distribution (OOD) dataset like Tiny-ImageNet was found to be effective for distilling the FHE-friendly FM, yielding performance (0.7127) comparable to using an in-distribution auxiliary dataset (0.7169). This suggests the LSP can use any large public dataset for the initial distillation.",
+      "student_answer": "Based on the experiments using the **Fed-ISIC2019** dataset (detailed in Table 2), the framework demonstrates **robustness to different auxiliary datasets** used during the distillation phase. Specifically, the experiments compared using an in-distribution (InD) auxiliary dataset (Fed-ISIC2019, center=0) versus an out-of-distribution (OOD) auxiliary dataset (Tiny-ImageNet) and concluded that the framework remains effective regardless of whether the auxiliary data is in-distribution or out-of-distribution.",
+      "answered": true
+    },
+    {
+      "id": 7,
+      "category": "limitations",
+      "difficulty": "medium",
+      "question": "What are the primary computational and communication costs that make BlindFed challenging to implement for the LSP and the clients?",
+      "ground_truth_answer": "The LSP faces high computational complexity because it must perform inference on data encrypted with FHE, which is significantly slower than plaintext inference. The clients face a high communication overhead because they must exchange encrypted intermediate representations with the server after every transformer block in every federated learning round, rather than just exchanging model weights once per round.",
+      "student_answer": "Based on the provided information, the primary computational and communication costs are:\n\n*   **For the LSP (Server):**\n    *   **Computational Complexity:** The use of Fully Homomorphic Encryption (FHE) introduces high computational complexity for the server during encrypted inference.\n    *   **Communication Cost:** There is a high communication cost, specifically cited as **17.33 MB per encrypted intermediate representation**.\n\n*   **For the Clients:**\n    *   **Communication Overhead:** The framework uses a block-by-block interactive protocol to manage FHE multiplicative depth. For each transformer block, the client must receive the encrypted output, decrypt it, and re-encrypt it before sending it back to the server.\n    *   **Feasibility:** Despite these requirements, the framework is described as remaining \"feasible for thin clients\" as it avoids backpropagation through the foundation model.",
+      "answered": true
+    },
+    {
+      "id": 8,
+      "category": "limitations",
+      "difficulty": "medium",
+      "question": "Under what specific conditions does the paper suggest that BlindFed's communication overhead becomes comparable to standard Federated Learning?",
+      "ground_truth_answer": "The communication overhead becomes comparable when the Foundation Model being adapted is extremely large (e.g., billions of parameters like ViT-Huge) and the local training datasets at the client sites are relatively small. In such cases, the cost of transmitting the massive model weights in standard FL can equal or exceed the cost of transmitting encrypted intermediate representations for a limited number of samples in BlindFed.",
+      "student_answer": "INSUFFICIENT_INFORMATION",
+      "answered": false
+    },
+    {
+      "id": 9,
+      "category": "negative_traps",
+      "difficulty": "medium",
+      "question": "Does the BlindFed framework require the data owners to perform backpropagation through the Foundation Model's backbone to update the adapters?",
+      "ground_truth_answer": "No. One of the key design choices in BlindFed is the use of parallel adapters (LoSA) and a split-learning approach. This allows the clients to update the adapter parameters using the intermediate representations provided by the server, eliminating the need for backpropagation through the frozen FM backbone, which would be computationally infeasible over encrypted data.",
+      "student_answer": "No, the BlindFed framework does not require data owners to perform backpropagation through the Foundation Model's backbone. Instead, it uses **parallel adapters** (LoSA) that allow clients to train local updates using intermediate representations, specifically bypassing the need for backpropagation through the FM.",
+      "answered": true
+    },
+    {
+      "id": 10,
+      "category": "negative_traps",
+      "difficulty": "medium",
+      "question": "Does the 'Sample-level Permutation' technique used in the online adaptation stage improve the final classification accuracy of the model?",
+      "ground_truth_answer": "No, the paper explicitly states that sample-level permutation does not have an impact on the accuracy of the adapted model. Its sole purpose is to boost model privacy by ensuring the client never sees corresponding pairs of inputs and outputs for a specific sample within a batch, thereby hindering model extraction attacks.",
+      "student_answer": "Based on the provided information, the 'Sample-level Permutation' technique is used to ensure layer-wise privacy and prevent model extraction attacks, but it is **not stated to improve** the final classification accuracy. Instead, the text explicitly mentions that it has a **\"minimal impact on accuracy.\"**\n\n(Note: While the text mentions that the related technique, Stochastic Block Sampling (SBS), may slightly improve generalization in some instances, this claim is not made for Sample-level Permutation.)",
+      "answered": true
+    }
+  ]
+}

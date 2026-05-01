@@ -1,0 +1,21 @@
+{
+    "title": "Performance Analysis & Temporal Smoothing",
+    "audio_content": "Benchmark results show that temporal smoothing significantly boosts performance, with PointNet plus plus emerging as a surprisingly strong baseline. While PSTNet performs well, 3DinAction struggles with the head motion inherent in ego-view data. This highlights the need for models that better handle dynamic, ego-centric perspectives.",
+    "duration_sec": 15.6,
+    "bullets": [
+        "Temporal smoothing (+TS) significantly boosts performance across all architectures",
+        "PointNet++ with smoothing achieves the highest top-1 accuracy",
+        "PSTNet outperforms 3DinAction on ego-view sensor motion challenges",
+        "Results suggest a need for improved global representations in dynamic 3D scenes"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Table 2",
+        "caption": "Action recognition results comparing state-of-the-art methods on the IKEA Ego 3D dataset."
+    },
+    "source": [
+        "Table 2",
+        "Section 4.2"
+    ],
+    "prompt": "A slide showing Table 2 from the paper on the left side, which lists action recognition results for various methods like PointNet, PSTNet, and 3DinAction. On the right side, there are bullet points summarizing that temporal smoothing is essential and that PointNet++ with smoothing is a top performer despite the complexity of other spatio-temporal models."
+}

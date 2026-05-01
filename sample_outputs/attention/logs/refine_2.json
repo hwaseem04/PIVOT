@@ -1,0 +1,92 @@
+{
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "The Encoder-Decoder Transformer Architecture",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 1",
+            "caption": "The Transformer - model architecture overview"
+        },
+        "equations": [
+            "Eq. 1: \\mathrm{LayerNorm}(x + \\mathrm{Sublayer}(x))"
+        ],
+        "bullets": [
+            "Stacked encoder and decoder with six identical layers",
+            "Multi-head self-attention and position-wise feed-forward networks",
+            "Residual connections and layer normalization stabilize training",
+            "Decoder masking maintains the auto-regressive property"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                },
+                {
+                    "type": "show",
+                    "target": "equation"
+                }
+            ],
+            "audio_segment": "The Transformer employs a stacked encoder-decoder architecture",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.04,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "with six layers each.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 6.08,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "Every layer integrates multi-head self-attention and feed-forward networks.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 9.12,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "Residual connections and layer normalization stabilize the deep stack,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 12.16,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "while decoder masking ensures the model generates tokens auto-regressively.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 15.2
+}

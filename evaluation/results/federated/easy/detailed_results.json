@@ -1,0 +1,89 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "category": "core_contribution",
+      "difficulty": "easy",
+      "question": "What are the two core privacy constraints that the BlindFed framework aims to address simultaneously, referred to as 'double-blind' privacy?",
+      "ground_truth_answer": "The two constraints are: (i) Model privacy, where the Learning Service Provider (LSP) retains full ownership of the Foundation Model (FM) and does not share it with data owners; and (ii) Data privacy, where clients do not reveal their sensitive task data to the LSP or to each other.",
+      "student_answer": "Based on the provided information, the two core privacy constraints that constitute the \"double-blind\" challenge are:\n\n*   **Model Privacy:** Clients (data owners) must not be able to access or learn anything about the proprietary weights of the original Foundation Model (FM).\n*   **Data Privacy:** The Learning Service Provider (LSP or server) must not be able to access or learn anything about the sensitive local datasets owned by the clients.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 9,
+        "relevance": 10,
+        "overall_score": 9.5,
+        "reasoning": "The student correctly identifies and explains both Model Privacy and Data Privacy, which are the two core constraints. The only minor omission is the mention that clients should not reveal data to each other, but the primary 'double-blind' relationship between the LSP and the clients is perfectly described.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 2,
+      "category": "methodology",
+      "difficulty": "easy",
+      "question": "What are the two stages of the split learning approach used in the BlindFed framework?",
+      "ground_truth_answer": "The two stages are: (1) Stage 1: Offline knowledge distillation, where FHE-friendly FM blocks are pre-trained using an auxiliary dataset; and (2) Stage 2: Online adaptation, where local parallel adapters are trained via encrypted inference.",
+      "student_answer": "Based on the provided information, the two stages of the split learning approach in the BlindFed framework are:\n\n1.  **Offline knowledge distillation:** The server distills the foundation model into an FHE-friendly student model using an auxiliary dataset.\n2.  **Online encrypted inference:** This stage involves adapter training where clients and the server interact block-by-block using encrypted data to update the model without requiring backpropagation through the foundation model.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "overall_score": 10,
+        "reasoning": "The student's answer accurately identifies both stages of the BlindFed framework as described in the ground truth. It correctly mentions offline knowledge distillation using an auxiliary dataset and online adaptation/inference involving adapter training with encrypted data.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 3,
+      "category": "experimental_results",
+      "difficulty": "easy",
+      "question": "Which four image classification datasets were used in the paper to evaluate the performance of BlindFed?",
+      "ground_truth_answer": "The four datasets used are CIFAR-10, CIFAR-100, SVHN (Street View House Numbers), and Fed-ISIC2019.",
+      "student_answer": "Based on the provided information, the four image classification datasets used to evaluate the performance of BlindFed are:\n\n1.  **CIFAR-10**\n2.  **CIFAR-100**\n3.  **SVHN** (Street View House Numbers)\n4.  **Fed-ISIC2019** (a medical imaging dataset)",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "overall_score": 10,
+        "reasoning": "The student's answer perfectly matches the ground truth, identifying all four datasets correctly.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 4,
+      "category": "limitations",
+      "difficulty": "easy",
+      "question": "What are the two main practical limitations of the BlindFed framework acknowledged by the authors in the abstract?",
+      "ground_truth_answer": "The framework suffers from a high communication cost and large computational complexity for the Learning Service Provider (LSP).",
+      "student_answer": "Based on the provided information, the two main practical limitations of the BlindFed framework are:\n\n1.  **High communication cost:** The use of Fully Homomorphic Encryption (FHE) introduces a significant communication overhead, such as 17.33 MB per encrypted intermediate representation.\n2.  **Computational complexity for the server:** The framework involves high computational costs and complexity for the Learning Service Provider (LSP) or server due to the requirements of FHE.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "overall_score": 10,
+        "reasoning": "The student's answer perfectly captures both key limitations mentioned in the ground truth: high communication cost and computational complexity for the LSP. It even provides additional context that supports these points.",
+        "info_missing": false
+      }
+    },
+    {
+      "id": 5,
+      "category": "negative_traps",
+      "difficulty": "easy",
+      "question": "Does the BlindFed framework require the data owners (clients) to perform backpropagation through the backbone of the Foundation Model (FM)?",
+      "ground_truth_answer": "No. The paper states that BlindFed enables adapter training without backpropagation through the FM by using a split learning approach and parallel adapters.",
+      "student_answer": "No, the BlindFed framework does not require data owners (clients) to perform backpropagation through the backbone of the Foundation Model (FM).\n\nAccording to the provided information:\n*   **Parallel Adapters:** BlindFed uses parallel adapters (LoSA) specifically to eliminate the need for backpropagation through the FM backbone.\n*   **Local Training:** Clients train these local parallel adapters using intermediate representations received from the server, bypassing the FM entirely during the update process.\n*   **Privacy and Efficiency:** This design is essential because backpropagation through an encrypted FM is computationally infeasible and would violate the \"double-blind\" privacy constraints.",
+      "answered": true,
+      "judgment": {
+        "accuracy": 10,
+        "completeness": 10,
+        "relevance": 10,
+        "overall_score": 10,
+        "reasoning": "The student's answer is perfectly aligned with the ground truth. It correctly identifies that backpropagation through the FM is not required and provides the specific mechanism (parallel adapters/LoSA) mentioned in the reference material.",
+        "info_missing": false
+      }
+    }
+  ]
+}

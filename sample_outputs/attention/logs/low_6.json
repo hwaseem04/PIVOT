@@ -1,0 +1,24 @@
+{
+    "title": "Efficiency and Long-Range Dependencies",
+    "audio_content": "Self-attention enables massive parallelization with constant sequential operations. It also minimizes path lengths to O(1), facilitating long-range dependency learning. Compared to RNNs, it is often more efficient for standard sequence lengths.",
+    "duration_sec": 14.0,
+    "bullets": [
+        "Constant sequential operations enable maximum parallelization.",
+        "O(1) path length facilitates learning long-range dependencies.",
+        "More efficient than RNNs for typical sequence lengths."
+    ],
+    "equations": [
+        "Eq. 1: \\mathrm{Complexity} = O(n^2 \\cdot d)",
+        "Eq. 2: \\mathrm{Sequential\\ Ops} = O(1)"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Table 1",
+        "caption": "Comparison of complexity, sequential operations, and path lengths."
+    },
+    "source": [
+        "Table 1",
+        "Section 4"
+    ],
+    "prompt": "The slide displays Table 1, comparing layer types. Below it, equations show self-attention's complexity and constant sequential operations. Three bullets at the bottom summarize the key efficiency and dependency advantages."
+}

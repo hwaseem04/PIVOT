@@ -1,0 +1,623 @@
+{
+  "video_id": "CVPR_CVPR-2025_Highlight-SLAM3R-Real-Time-Dense-Scene-Reconstruction-from-Mon__CVPR-2025-Highlight-SLAM3R-Real-Time-Den",
+  "duration": 298.6,
+  "fps_sampled": 1.0,
+  "total_slides": 29,
+  "slides_with_builds": 3,
+  "total_build_steps": 40,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 8.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos",
+        "layout_description": "This is a title slide with a centered layout on a plain white background. At the top right, there is a logo for the CVPR Nashville conference. The main title is centered and uses multiple colors: 'SLAM3R' in red, 'Real-Time' in blue, and 'Dense Scene Reconstruction' in green. Below this, a subtitle 'from Monocular RGB Videos' is centered, with the last three words in orange. Underneath the title, the authors' names are listed in two rows, followed by their numbered affiliations in a third row. At the bottom of the slide, four institutional logos (Peking University, The University of Hong Kong, Aalto University, and VIVO) are arranged in a horizontal row, corresponding to the affiliations listed above. The text density is light, and the overall design is clean and professional."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 8.0,
+      "t_end": 15.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 8.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Dense scene reconstruction",
+        "layout_description": "The slide features a large, left-aligned title at the top in a serif font. Below the title, the content is organized into two distinct columns. The left column contains a large grayscale image showing a 3D cloud-like reconstruction, with the caption '3D assets creation' centered below it. The right column contains a complex grid of images representing 'Robotic mapping and navigation'. This grid consists of two larger images at the top (a top-down view of a room with robots and a 2D occupancy map) followed by two rows of six smaller thumbnails each, displaying color-coded depth maps and their corresponding RGB camera views. A single-line citation is located at the very bottom-left of the slide. The overall design is clean with a white background and light text density, prioritizing visual demonstrations over text."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 15.0,
+      "t_end": 16.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Dense scene reconstruction",
+        "layout_description": "The slide follows a clean, two-column layout with a large serif-font title positioned at the top left. Below the title, two distinct visual examples are presented side-by-side. The left column features a single large image of a 3D reconstructed outdoor scene with buildings and trees, captioned '3D assets creation' directly below it. The right column contains a composite image illustrating 'Robotic mapping and navigation'. This composite includes a main view of a robot in a room, a 2D top-down map with colored trajectory lines, and a grid of smaller thumbnails showing depth maps and camera views. At the very bottom left, there is a small line of text citing the source: 'Multi-robot collaborative dense scene reconstruction. SIGGRAPH 2019.' The background is plain white, and the overall text density is light, focusing primarily on visual demonstrations."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 16.0,
+      "t_end": 28.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 16.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "Problem definition",
+        "layout_description": "The slide uses a clean white background with a large, serif-font title 'Problem definition' aligned to the top-left. Below the title, a single line of text states the primary goal: 'Reconstruct dense 3D point cloud of a scene from RGB videos'. This is followed by two bullet points that define the 'Input' (RGB video with unknown camera parameters) and 'Output' (dense 3D points in a unified coordinate system), with key terms highlighted in bold. The bottom section of the slide features a visual flow diagram: on the left is a sample frame from an indoor RGB video, followed by a bright blue horizontal arrow pointing to the right, which leads to a visualization of a dense 3D point cloud of the same scene. Each image has a centered label underneath it ('RGB video' and 'Dense 3D points'). The text density is light, prioritizing a clear visual representation of the problem statement."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "introduction",
+      "t_start": 28.0,
+      "t_end": 30.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 28.0,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Motivation",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. The title 'Motivation' is placed at the top-left in a large, black serif font. The main body of the slide consists of a hierarchical bulleted list with three levels of indentation. The first level introduces 'Previous works on dense reconstruction'. The second level details classical and recent deep learning methods, with the third level specifically critiquing 'DROID-SLAM' and 'NICER-SLAM'. Key phrases such as 'complex systems', 'time consuming', 'low reconstruction quality', and 'slow running time' are highlighted in bold for emphasis. Below the bulleted list, a summary statement 'Our goal: real-time and high-quality reconstruction' is positioned, with the latter part in bold to emphasize the project's objective. At the bottom-left corner, four lines of academic references are provided in a significantly smaller font size. The overall text density is light, making the slide easy to read."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "introduction",
+      "t_start": 30.0,
+      "t_end": 58.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 30.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Motivation",
+        "layout_description": "The slide has a minimalist design with a plain white background and black text. The title 'Motivation' is located at the top-left in a large, serif font. The main body of the slide consists of a hierarchical bulleted list that outlines the limitations of previous work. The first level of the list introduces 'Previous works on dense reconstruction'. Below this, two sub-bullets categorize these works into classical systems and recent deep learning methods, with key drawbacks like 'complex systems', 'time consuming', 'low reconstruction quality', and 'slow running time' highlighted in bold. A third level of indentation is used to list specific deep learning models (DROID-SLAM and NICER-SLAM). Below the bulleted list, a summary statement 'Our goal: real-time and high-quality reconstruction' is placed, with the core objectives emphasized in bold. At the bottom-left corner, there is a small-font section containing four bibliographic references. The slide has a light text density with ample white space."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "introduction",
+      "t_start": 58.0,
+      "t_end": 60.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 58.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Motivation",
+        "layout_description": "The slide has a clean, white background with a large, serif-font title 'Motivation' at the top-left. Below it, a sub-heading 'Review of DUSt3R' introduces two bullet points that summarize the features and a key limitation of the method. The bottom two-thirds of the slide are occupied by a detailed technical diagram illustrating the DUSt3R architecture. This diagram shows a dual-branch pipeline where two input images of a cube are processed through 'Patchify' modules, 'ViT encoders' with shared weights, 'Transformer Decoders' with information sharing, and prediction 'Heads'. The output of these heads consists of 'Pointmaps' and 'Confidence' maps, which are then visualized on the right as 3D point clouds within a common coordinate frame, including camera frustums. Mathematical notation for tensor dimensions (e.g., R^WxHx3) is used throughout the diagram. A small citation for the CVPR 2024 paper is located at the very bottom-left corner."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "introduction",
+      "t_start": 60.0,
+      "t_end": 82.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 60.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Motivation",
+        "layout_description": "The slide features a clean white background with a large, bold title 'Motivation' at the top-left. Below it, a sub-heading 'Review of DUSt3R' introduces two bullet points that list features and a key limitation, with 'time consuming' highlighted in bold. The bottom half of the slide is occupied by a detailed architectural diagram of the DUSt3R model. This diagram flows from left to right, showing two input images being processed through 'Patchify' steps, shared 'ViT encoders', 'Transformer Decoders' with 'Information sharing', and 'Heads'. The output of these heads is represented as 'Pointmap' and 'Confidence' maps, which are then visualized on the far right as 3D point clouds and camera frustums within a 'Common coordinate frame'. Mathematical notations for tensor dimensions are included within the diagram. A citation for the CVPR 2024 paper is positioned at the bottom-left corner."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 82.0,
+      "t_end": 90.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 82.0,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "figure-based overview layout",
+        "title_text": "SLAM3R overview",
+        "layout_description": "The slide features a large title 'SLAM3R overview' in a black serif font at the top-left. The main content is a visual pipeline diagram on a plain white background. On the far left, a vertical stack of image frames represents the 'Monocular RGB video' input. To the right of the input, the slide is divided into two horizontal rows by a dashed line, labeled 'Inner-window' and 'Inter-window'. Each row displays a sequence of three 3D room reconstructions that progressively increase in detail and scope from left to right, separated by ellipses. To the right of these sequences is a large, high-quality 3D model labeled 'Final result'. On the far right, two smaller point cloud visualizations are stacked vertically, labeled 'Accuracy' and 'Completeness' respectively. The slide has a light text density, relying primarily on images and labels to explain the system's workflow."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 90.0,
+      "t_end": 109.0,
+      "num_builds": 10,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 90.0,
+          "image": "slide_10_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 91.0,
+          "image": "slide_10_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 92.0,
+          "image": "slide_10_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 93.0,
+          "image": "slide_10_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 94.0,
+          "image": "slide_10_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 96.0,
+          "image": "slide_10_build_5.jpg"
+        },
+        {
+          "build_id": 6,
+          "timestamp": 97.0,
+          "image": "slide_10_build_6.jpg"
+        },
+        {
+          "build_id": 7,
+          "timestamp": 99.0,
+          "image": "slide_10_build_7.jpg"
+        },
+        {
+          "build_id": 8,
+          "timestamp": 100.0,
+          "image": "slide_10_build_8.jpg"
+        },
+        {
+          "build_id": 9,
+          "timestamp": 103.0,
+          "image": "slide_10_build_9.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "figure-based overview layout",
+        "title_text": "SLAM3R overview",
+        "layout_description": "The slide features a large title 'SLAM3R overview' in a serif font positioned at the top left. The main content is a visual diagram illustrating a system pipeline from left to right. On the far left, a vertical stack of video frames is labeled 'Monocular RGB video', with the bottom-most frame highlighted by a thick red border. To the right of this, the slide is divided into two horizontal rows separated by dashed lines. The top row is labeled 'Inner-window' and contains three snapshots of partial 3D room views. The bottom row is labeled 'Inter-window' and shows three snapshots of the 3D reconstruction progressively expanding. These two rows converge towards a large, detailed 3D model of a room labeled 'Final result' in the center-right. On the far right, two smaller point cloud visualizations are stacked vertically, labeled 'Accuracy' and 'Completeness' respectively. The background is plain white, and the text is minimal, serving primarily as labels for the various visual components."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 109.0,
+      "t_end": 120.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 109.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with horizontal sections",
+        "title_text": "Key modules of SLAM3R",
+        "layout_description": "The slide has a clean, white background with a large, bold serif title at the top left. The main content is divided into two horizontal sections, each corresponding to a key module of the system. Each section starts with a top-level bullet point containing a bold module name and a brief description. Below each bullet point is a flowchart-style diagram on the left and a sequence of qualitative result images on the right, separated by a vertical dashed line. The first section for the 'Image-to-Points module' shows a stack of video frames entering a red 'I2P' block, which outputs a stack of colored pointmaps. The second section for the 'Local-to-World module' shows 'Scene' and 'Local' inputs entering a green 'L2W' block to produce an updated 'Scene'. To the right of the dashed lines, both sections feature a series of three 3D scene reconstructions that progress from left to right, separated by ellipses to indicate a sequence. The text density is moderate, relying heavily on visual diagrams and example images to explain the methodology."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "method",
+      "t_start": 120.0,
+      "t_end": 128.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 120.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and horizontal sections",
+        "title_text": "Key modules of SLAM3R",
+        "layout_description": "The slide features a large, left-aligned title at the top in a black serif font. The content is organized into two distinct horizontal sections, each corresponding to a specific module of the proposed system. Each section begins with a bold bullet point followed by a brief text description. Below the text, there is a visual representation consisting of a flowchart on the left and qualitative results on the right, separated by a vertical dashed line. The first section for the 'Image-to-Points module' shows a sequence of images entering an 'I2P' red box to generate local pointmaps, with three 3D point cloud visualizations to the right. The second section for the 'Local-to-World module' shows scene and local data entering an 'L2W' green box to produce an updated scene, with three 3D visualizations on the right showing the incremental building of a room model. The diagrams use colored rectangular boxes (red, green, blue, orange) and black arrows to denote data flow. The overall text density is moderate, set against a clean white background."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "method",
+      "t_start": 128.0,
+      "t_end": 135.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 128.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Image-to-Points: Extending DUSt3R to multi-view",
+        "layout_description": "The slide uses a horizontal comparison layout to contrast two neural network architectures. A large, centered title is positioned at the top. The main body is divided into two rows: the top row is labeled 'DUSt3R' and the bottom row is labeled 'Image-to-Points'. Each row contains a detailed architectural flowchart. On the left of each flowchart are input images (a single keyframe and one or more supporting frames). These lead into a 'Shared ViT encoder' block. Following the encoder, the data flows through 'Decoder block 0' (containing red 'D_key' and blue 'D_sup' components), then through eleven additional 'Decoder blocks'. On the right side, 'Head' modules produce final outputs, which are labeled with mathematical notation for points (P) and confidence (C) and accompanied by colorful point-cloud visualizations. The 'Image-to-Points' section specifically highlights the extension to multiple supporting frames (L-1) through stacked input images and duplicated decoder/head components. The background is plain white, and the text density is moderate, focusing on component labels and output variables."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "method",
+      "t_start": 135.0,
+      "t_end": 152.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 135.0,
+          "image": "slide_14_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 139.0,
+          "image": "slide_14_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with detailed callout",
+        "title_text": "Image-to-Points: Extending DUSt3R to multi-view",
+        "layout_description": "The slide features a large, centered title at the top. The main content is organized into two horizontal layers: a faded-out top layer representing the original 'DUSt3R' architecture and a prominent bottom layer labeled 'Image-to-Points' representing the proposed method. On the left, a stack of input images (one key frame and multiple supporting frames) feeds into a 'Shared ViT encoder' block. The resulting features pass through a series of decoder blocks, starting with 'Decoder block 0'. A red dashed line connects the 'D_key' component of this block to a large, red-bordered callout box on the top right, which provides a detailed schematic of the internal layers: Self-attention, Multi-view cross-attention, and Feed-forward. Within this callout, a sub-diagram further details the cross-attention and max-pooling mechanism. The main pipeline continues through eleven more decoder blocks to two output heads, which produce point maps and confidence maps visualized as colorful images on the far right. The diagram uses a clean color scheme with blue and red accents for key components and black arrows to indicate data flow."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "method",
+      "t_start": 152.0,
+      "t_end": 165.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 152.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen diagram with title",
+        "title_text": "Local-to-World: I2P augmented with pointmap embedding",
+        "layout_description": "The slide features a large, centered title at the top in a black serif font. The main body of the slide is occupied by a complex architectural flow diagram that moves generally from left to right. On the far left, input images are shown in two groups: a stack labeled 'Sce. i ... Sce. k' and a single 'Key.' image below it. These feed into a yellow rectangular block describing visual feature retrieval. Above the central area, several colorful pointmaps feed into an encoder block labeled 'E_pts'. The core of the diagram consists of 'Decoder block 0', which contains an orange 'D_sce' block and a green 'D_reg' block, followed by a large vertical rectangle representing eleven additional decoder blocks. On the right side, the flow splits into two prediction heads ('Head1' and 'Head2'). 'Head1' produces 'Refined points' and confidence scores, illustrated by a stack of output pointmaps. 'Head2' produces 'New registered points' and a confidence score, illustrated by a single output pointmap. The diagram uses various colored blocks (yellow, orange, green), arrows to indicate data flow, and mathematical notation for variables. The background is plain white, and the text density is moderate, consisting primarily of technical labels."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "method",
+      "t_start": 165.0,
+      "t_end": 182.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 165.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Retrieval module: Lightweight extension of I2P",
+        "layout_description": "The slide features a large, centered architectural diagram on a plain white background, topped by a serif-font title. The diagram illustrates a data flow from left to right: it begins with a stack of input images (Key and Support images) entering a 'Shared ViT encoder'. The resulting features pass through two sets of 'Decoder blocks' (x2 and x10). Several components are marked with snowflake icons, indicating they are frozen. A specific 'Retrieval head' is highlighted in yellow with a fire icon, signifying it is the trainable part of the module. This head outputs correlation scores that feed into an 'MSE loss' block at the bottom right. On the far right, the final outputs are shown as both text labels (Points and Confidence scores) and corresponding colorful heatmap images. A concluding caption at the bottom center states that the retrieval module is trained from the I2P module."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "results",
+      "t_start": 182.0,
+      "t_end": 195.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 182.0,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and stacked tables",
+        "title_text": "Quantitative results",
+        "layout_description": "The slide features a large, bold title 'Quantitative results' in a serif font positioned at the top-left. The main body of the slide is occupied by two large, horizontally-oriented tables stacked vertically. The first table, located in the upper half, is followed by a centered caption: 'Reconstruction results on 7-Scenes dataset'. It compares various SLAM methods across seven specific scenes and an average, reporting Accuracy/Completeness and FPS. The second table, in the lower half, is followed by the caption: 'Reconstruction results on Replica dataset'. This table is more extensive, comparing a larger set of methods across eight different rooms/offices and an average. Both tables use bold text to highlight top-performing results and include a color-coded 'FPS' column on the far right, where green indicates high performance and red indicates low performance. The slide has a white background and a high text density due to the large amount of numerical data presented in the tables."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "results",
+      "t_start": 195.0,
+      "t_end": 207.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 195.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and stacked tables",
+        "title_text": "Quantitative results",
+        "layout_description": "The slide features a large, serif-font title 'Quantitative results' positioned at the top left. The main body of the slide is composed of two large, horizontally-oriented tables stacked vertically. The first table presents 'Reconstruction results on 7-Scenes dataset' (as indicated by the caption centered below it) and compares several methods across seven specific scenes, an average, and an FPS metric. The second table, titled 'Reconstruction results on Replica dataset' below it, follows a similar format, comparing methods across nine different rooms/offices. Both tables use a grid-like structure where rows represent different algorithms (e.g., DUSt3R, MAST3R, SLAM3R) and columns represent datasets or performance metrics. Numerical values for Accuracy and Completeness are shown in each cell, with the best results highlighted in bold. The 'FPS' column on the far right of both tables uses color-coded backgrounds\u2014red for slow performance (<1 FPS), light green for moderate (~24-25 FPS), and bright green for high performance (>50 FPS). The slide has a clean white background and a high text density due to the extensive numerical data."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "results",
+      "t_start": 207.0,
+      "t_end": 210.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 207.0,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and stacked tables",
+        "title_text": "Quantitative results",
+        "layout_description": "The slide features a large, serif-font title 'Quantitative results' positioned at the top-left. The main body of the slide contains two large, horizontally-oriented tables stacked vertically. The first table is followed by a centered caption 'Camera pose results on 7-Scenes dataset', and the second table is followed by 'Camera pose results on Replica dataset'. Both tables follow a similar structure: a 'Method' column on the left, multiple columns for specific test scenes or rooms in the middle, an 'Average' column, and an 'FPS' column on the far right. Within the tables, the best-performing numerical results are highlighted in bold text. The 'FPS' column uses color-coded cell backgrounds to indicate performance levels: light red for extremely low FPS (<<1), light yellow for low FPS (<1 to ~8), and light green for higher real-time or near-real-time performance (~20 to >50). The slide has a clean white background with no decorative elements, and the text density is moderate to dense due to the large amount of numerical data presented in the tables."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "results",
+      "t_start": 210.0,
+      "t_end": 233.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 210.0,
+          "image": "slide_20_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and stacked tables",
+        "title_text": "Quantitative results",
+        "layout_description": "The slide follows a clean, single-column layout starting with a large, serif-style title 'Quantitative results' at the top-left. The main body of the slide contains two large, horizontally-oriented tables stacked vertically. The first table displays 'Camera pose results on 7-Scenes dataset', comparing several methods across different scenes like Chess, Fire, and Office. The second table, positioned below the first, shows 'Camera pose results on Replica dataset' with a similar structure. Both tables include columns for specific test cases, an 'Average' score, and an 'FPS' (Frames Per Second) metric. In the FPS column, cells are color-coded with light red, yellow, and green backgrounds to indicate performance levels. Bold text is used within the tables to highlight the best-performing results for each category. The overall text density is moderate, focused on numerical data, and the background is a plain white."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "results",
+      "t_start": 233.0,
+      "t_end": 240.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 233.0,
+          "image": "slide_21_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column comparison layout",
+        "title_text": "Visualization",
+        "layout_description": "The slide features a large, serif-font title 'Visualization' positioned at the top left. The main body of the slide is organized into two side-by-side rectangular panels, each framed by a thin light-blue border, representing a comparison between two different scenarios. The left panel is captioned 'Synthetic indoor video' and contains three sub-elements: a small 'RGB input' image of a room, a small 'Local 3D points predicted by the I2P model' visualization (a colorful depth-like map), and a larger 'Global 3D points predicted by the L2W model' showing a 3D point cloud reconstruction. The right panel is captioned 'Self-captured outdoor video' and mirrors this structure with an outdoor building scene, including its corresponding RGB input, local 3D point map, and global 3D point cloud. The text density is light, with labels placed directly beneath their respective images. The background is a clean, solid white."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "results",
+      "t_start": 240.0,
+      "t_end": 247.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 240.0,
+          "image": "slide_22_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column comparison layout",
+        "title_text": "Visualization",
+        "layout_description": "The slide features a large, serif-font title 'Visualization' positioned at the top-left. Below the title, the content is organized into two distinct side-by-side panels, each framed by a thin light-blue border. The left panel is captioned 'Synthetic indoor video' and contains three visual elements: a small RGB input image of a room, a small color-coded map labeled 'Local 3D points predicted by the I2P model', and a large point cloud visualization labeled 'Global 3D points predicted by the L2W model'. The right panel is captioned 'Self-captured outdoor video' and mirrors this structure with an RGB input of a building, a corresponding local 3D points map, and a large global 3D point cloud of the building. The overall text density is light, with the focus being on qualitative visual comparisons of model outputs. The background is a clean white."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "results",
+      "t_start": 247.0,
+      "t_end": 255.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 247.0,
+          "image": "slide_23_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with title",
+        "title_text": "More visualization results",
+        "layout_description": "The slide features a minimalist design on a plain white background. A large title in a serif font is positioned at the top-left corner. The main body of the slide is occupied by six distinct 3D reconstruction visualizations, likely point clouds or textured meshes, arranged in a two-row by three-column grid. These visualizations depict various scenes and objects, including building interiors, a classical archway, a green train locomotive, and building facades. There are no bullet points, captions, or other textual elements besides the title, resulting in a very light text density that emphasizes qualitative visual findings."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "results",
+      "t_start": 255.0,
+      "t_end": 256.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 255.0,
+          "image": "slide_24_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with title",
+        "title_text": "More visualization results",
+        "layout_description": "The slide follows a clean grid layout on a plain white background. A single line of text serving as the title, 'More visualization results', is positioned at the top-left in a black serif font. The core content consists of six 3D reconstruction visualizations arranged in a 2x3 grid. The top row features three images: two top-down views of indoor rooms (one with red walls and one with blue/grey tones) and a perspective view of a classical stone archway. The bottom row contains three additional images: a side-profile of a green train, a brick wall with signage for 'The University of Hong Kong', and a large multi-story building. There are no bullet points, equations, or decorative elements, making the text density very light and focusing the viewer's attention entirely on the qualitative visual data."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "results",
+      "t_start": 256.0,
+      "t_end": 270.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 256.0,
+          "image": "slide_25_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 266.0,
+          "image": "slide_25_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "demo interface layout",
+        "title_text": "SLAM3R Demo",
+        "layout_description": "The slide features a screenshot of a web browser displaying a Gradio-based interactive demo. At the top center, a 'Run' button is positioned above two configuration settings: a 'confidence threshold for the result' with an orange slider on the left, and a 'number of points sampled from the result' with a numeric input field on the right. The main body of the slide is dominated by a large, centered 3D visualization window with a gray background, displaying a point cloud reconstruction of an indoor scene. A small download icon is located in the top-right corner of this visualization area. The bottom of the page contains footer text in both Chinese and English, mentioning API usage and the Gradio framework. The layout is clean with light text density, prioritizing the qualitative 3D result."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "results",
+      "t_start": 270.0,
+      "t_end": 276.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 270.0,
+          "image": "slide_26_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with controls",
+        "title_text": "Run",
+        "layout_description": "The slide displays a web-based demo interface within a browser window. At the top center, the word 'Run' serves as a primary heading. Below this, two interactive control elements are positioned: on the left, a slider labeled 'confidence threshold for the result' with an orange bar, and on the right, a numeric input field labeled 'number of points sampled from the result' containing the value '5000000'. The main body of the slide is occupied by a large, centered 3D visualization pane showing a point cloud reconstruction of an indoor living space, featuring a sofa, a wall-mounted TV, and a table. A small footer at the bottom contains links and text in both Chinese and English, including '\u901a\u8fc7 API \u4f7f\u7528' and '\u4f7f\u7528 Gradio \u6784\u5efa'. The overall text density is light, focusing on the visual output of the 3D model."
+      }
+    },
+    {
+      "slide_id": 27,
+      "slide_section": "conclusion",
+      "t_start": 276.0,
+      "t_end": 285.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 276.0,
+          "image": "slide_27_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Conclusion",
+        "layout_description": "The slide follows a minimalist single-column layout on a plain white background. A large, black serif title 'Conclusion' is positioned at the top-left. The main body of the slide consists of two distinct sections of left-aligned text. The first section, titled 'SLAM3R achieves', contains two bullet points highlighting the system's real-time performance and reconstruction accuracy. The second section, titled 'Limitations', follows below with two bullet points detailing shortcomings in camera pose estimation and global optimization. The text density is light, with significant white space surrounding the content, and there are no visual elements such as images, charts, or logos."
+      }
+    },
+    {
+      "slide_id": 28,
+      "slide_section": "conclusion",
+      "t_start": 285.0,
+      "t_end": 292.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 285.0,
+          "image": "slide_28_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Conclusion",
+        "layout_description": "The slide follows a minimalist single-column layout on a plain white background. The title 'Conclusion' is placed at the top-left in a large, black serif font. The main content is organized into two distinct sections of left-aligned text. The first section, titled 'SLAM3R achieves', contains two bullet points describing the system's performance (real-time FPS and reconstruction quality). The second section, titled 'Limitations', follows after a vertical space and includes two bullet points regarding camera pose estimation and global optimization. There are no images, charts, or decorative elements, resulting in a very light text density with substantial white space on the right half of the slide."
+      }
+    },
+    {
+      "slide_id": 29,
+      "slide_section": "other",
+      "t_start": 292.0,
+      "t_end": 298.6,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 292.0,
+          "image": "slide_29_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "concluding layout",
+        "title_text": "Thanks for your attention!",
+        "layout_description": "The slide features a large, centered title at the top. Below the title, the content is arranged horizontally into three main parts. On the left, two small images are stacked vertically: an RGB input photo of a building and a color-coded map labeled 'Local 3D points predicted by the I2P model'. In the center, a larger image displays a global 3D point cloud reconstruction of the same building, labeled 'Global 3D points predicted by the L2W model'. To the right, a prominent QR code is positioned with the text 'Code released!' directly below it. The slide has a clean, white background with very light text density, serving as a final summary or closing slide for a presentation."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 198,
+    "gemini_layout_calls": 185,
+    "total_gemini_calls": 383,
+    "total_frames_sampled": 299,
+    "batch_size": 15
+  }
+}

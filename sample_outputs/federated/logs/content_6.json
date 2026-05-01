@@ -1,0 +1,26 @@
+{
+    "extracted_content": "BlindFed's performance was evaluated on CIFAR-10, CIFAR-100, SVHN, and Fed-ISIC2019 datasets across centralized and federated settings with varying data heterogeneity (Dirichlet $\\alpha$). The results demonstrate that BlindFed significantly outperforms the only other double-blind baseline, Linear Probing, particularly on challenging datasets like SVHN and under extreme heterogeneity ($\\alpha=0.01$). BlindFed achieves accuracy levels closely aligned with LoRA, despite LoRA not being double-blind and requiring backpropagation through the backbone. The addition of Stochastic Block Sampling (SBS) was found to have minimal impact on accuracy, and in some instances, slightly improved generalization. Scalability tests with up to 50 clients on CIFAR-10 show that BlindFed maintains stable performance, consistently outperforming linear probing as the number of clients increases. Furthermore, experiments on the Fed-ISIC2019 medical dataset confirm that the framework is effective even when the auxiliary dataset used for offline distillation (e.g., Tiny-ImageNet) is out-of-distribution (OOD) relative to the target task.",
+    "key_figures": [],
+    "key_tables": [
+        {
+            "ref": "Table 1",
+            "caption": "Comparison of accuracy achieved by our proposed method against baseline approaches on three datasets (CIFAR-10, CIFAR-100, and SVHN) in both centralized and federated learning scenarios.",
+            "relevance": "Provides the primary evidence that BlindFed achieves near-LoRA accuracy while maintaining double-blind privacy, significantly outperforming linear probing across multiple datasets and heterogeneity levels."
+        },
+        {
+            "ref": "Table 2",
+            "caption": "Performance comparison of our method with baseline approaches on the Fed-ISIC2019 dataset with five clients (K = 5), using two auxiliary datasets: Fed-ISIC2019 (center=0) as an in-distribution (InD) dataset and Tiny-ImageNet as an out-of-distribution (OOD) dataset.",
+            "relevance": "Demonstrates the framework's effectiveness on medical imaging and proves that the offline distillation stage works well even with out-of-distribution auxiliary data."
+        },
+        {
+            "ref": "Table 3",
+            "caption": "Scalability analysis of the proposed method to baseline approaches on the CIFAR-10 dataset, with varying number of clients K \u2208 {10, 20, 50} under a Dirichlet concentration parameter of 1.0 for data partitioning.",
+            "relevance": "Shows that BlindFed scales effectively to a larger number of clients, maintaining a significant performance lead over linear probing."
+        }
+    ],
+    "key_equations": [],
+    "section_refs": [
+        "Section 5.3",
+        "Section D.2"
+    ]
+}

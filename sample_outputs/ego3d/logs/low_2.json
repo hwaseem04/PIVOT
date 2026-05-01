@@ -1,0 +1,23 @@
+{
+    "title": "IKEA Ego 3D Dataset Overview",
+    "audio_content": "The IKEA Ego 3D dataset contains 174 assembly sequences and nearly 500,000 frames captured via HoloLens 2. It synchronizes RGB and depth into oriented 3D point clouds, annotated with 56 hierarchical action classes. This structure enables the recognition of fine-grained tasks involving small components like screws and tools.",
+    "duration_sec": 19.2,
+    "bullets": [
+        "174 sequences and ~493k frames across four furniture types",
+        "Synchronized RGB and oriented 3D point clouds from HoloLens 2",
+        "56 atomic action classes using a hierarchical (verb, noun) structure",
+        "Focuses on fine-grained interactions with small assembly components"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 3",
+        "caption": "Visualization of synchronized RGB, 3D point clouds, and action labels for assembly tasks."
+    },
+    "source": [
+        "Figure 3",
+        "Section 3.1",
+        "Section 3.2",
+        "Section 3.3"
+    ],
+    "prompt": "A slide showing a multi-modal dataset visualization on the left, featuring side-by-side comparisons of RGB video frames, their corresponding 3D point clouds, and the associated action labels like 'spin screwdriver' or 'attach side panel'. On the right, bullet points detail the dataset's scale, the use of HoloLens 2 for capture, and the hierarchical verb-noun annotation structure."
+}

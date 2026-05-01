@@ -1,0 +1,449 @@
+{
+  "video_id": "CVPR_CVPR 2025 (Highlight)_ MonSter__CVPR25-Highlight-MonSter",
+  "duration": 219.47,
+  "fps_sampled": 1.0,
+  "total_slides": 18,
+  "slides_with_builds": 9,
+  "total_build_steps": 36,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 4.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "MonSter: Marry Monodepth to Stereo Unleashes Power",
+        "layout_description": "The slide follows a centered, single-column layout typical of a presentation title page. At the top, the main title is written in a large, bold serif font, with the letters 'Mon' and 'Ster' highlighted in red to emphasize the acronym. Directly below the title is a subtitle 'CVPR 2025 Highlight' in a large, red, italicized font. The middle section contains a list of ten authors arranged in two centered rows. Below the authors, a GitHub URL is provided. The bottom of the slide features three logos aligned horizontally: the circular seal of Huazhong University of Science and Technology on the left, the Autel Robotics logo in the center, and the Intel logo on the right. The background is plain white, and the text density is light, creating a clean and professional appearance."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "results",
+      "t_start": 4.0,
+      "t_end": 9.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 4.0,
+          "image": "slide_2_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 5.0,
+          "image": "slide_2_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 6.0,
+          "image": "slide_2_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Our contribution:",
+        "layout_description": "The slide uses a clean, single-column layout with a bold, black title 'Our contribution:' positioned at the top-left. Below the title, there are two bullet points that highlight key achievements, with specific phrases like 'best accuracy and generalization' and 'Ranks 1st' emphasized in red text. The lower half of the slide features a large, centered radar chart (spider plot) that is somewhat faint in appearance. This chart compares the performance of the proposed 'MonSter' model against several other methods (Los, IGEV, CREStereo, NMRF-Stereo, Selective-IGEV) across five benchmarks: Sceneflow (EPE), KITTI 15 (D1-bg), Middlebury (RMSE), ETH3D (Bad 1.0), and KITTI 12 (Out-3). A legend for the chart is located in the bottom-right corner, with the 'MonSter (Ours)' entry highlighted in red to match the bullet point emphasis. The overall text density is light, set against a plain white background."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "results",
+      "t_start": 9.0,
+      "t_end": 15.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 9.0,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with figures",
+        "title_text": "Zero-Shot performance in Driving Stereo",
+        "layout_description": "The slide features a large bold title positioned at the top-left corner. The main content is organized vertically into two sections. The top section consists of two side-by-side photographic images of a parking lot scene, labeled 'Left Image' and 'Right Image' centered above each. Below these, a single large figure spans the full width of the slide, displaying a color-coded depth map corresponding to the scene above. This depth map is labeled 'Metric Depth' at the bottom center and uses a heatmap color scheme where yellow/orange indicates proximity and purple/blue indicates distance. The background is plain white, and the text density is very light, focusing entirely on qualitative visual results."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "results",
+      "t_start": 15.0,
+      "t_end": 34.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_4_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 31.0,
+          "image": "slide_4_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 32.0,
+          "image": "slide_4_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 33.0,
+          "image": "slide_4_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "figure-based layout",
+        "title_text": "Zero-Shot performance in Driving Stereo",
+        "layout_description": "The slide uses a figure-based layout on a clean white background to showcase qualitative results. A bold, black title is located at the top-left corner. The central content is organized into two rows of images. The top row features two side-by-side photographs of a street scene, labeled 'Left Image' and 'Right Image' with centered text above each. Below these, a single large image occupies the bottom half of the slide, showing a color-coded depth map (heatmap) corresponding to the scene above. This large figure is labeled 'Metric Depth' at the bottom center. The color scheme of the depth map transitions from bright yellow for near objects to deep purple for distant ones. The slide has very light text density, focusing entirely on the visual comparison between input stereo images and the generated depth output."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "results",
+      "t_start": 34.0,
+      "t_end": 45.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 34.0,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with figures",
+        "title_text": "Zero-Shot performance in SVSR",
+        "layout_description": "The slide features a large, bold title positioned at the top-left corner. The main content consists of three images arranged in a grid-like fashion. The top row contains two side-by-side photographs of an indoor scene, individually labeled 'Left Image' and 'Right Image' centered above each. These images show a room with a ping-pong table, chairs, and people in the background. Occupying the bottom half of the slide is a single, large image labeled 'Metric Depth' at the bottom center. This image is a color-coded depth map corresponding to the scene above, utilizing a vibrant color gradient from bright yellow in the foreground to deep purple in the background. The slide has a clean white background with very light text density, primarily focusing on the visual qualitative results."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "results",
+      "t_start": 45.0,
+      "t_end": 63.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 45.0,
+          "image": "slide_6_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 46.0,
+          "image": "slide_6_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 53.0,
+          "image": "slide_6_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and large figure",
+        "title_text": "Zero-Shot performance in SVSR",
+        "layout_description": "The slide features a large bold title in a serif font positioned at the top-left. The main body of the slide is occupied by a large composite figure. The top portion of the figure contains two side-by-side photographic images, labeled 'Left Image' and 'Right Image' respectively, showing a stereo pair of a train station platform on a rainy day. Below these two images is a single, large-scale depth map labeled 'Metric Depth' at the bottom center. This depth map uses a pseudo-color heat map (ranging from dark purple for far distances to bright yellow for near objects) to visualize the estimated depth of the scene above. The slide has a clean white background with no bullet points or additional text, resulting in a very light text density focused on qualitative visual results."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "results",
+      "t_start": 63.0,
+      "t_end": 75.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 63.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "visual results layout",
+        "title_text": "Zero-Shot performance in KITTI",
+        "layout_description": "The slide features a clean, white background with a bold title positioned at the top-left. The main content is a large visual demonstration of model performance. It is organized into two rows: the top row contains two side-by-side photographic images of a residential street scene, labeled 'Left Image' and 'Right Image' centered above each. Below these, a single large image spans the full width of the two images above, showing a color-coded depth map of the same scene. This bottom image uses a 'magma' colormap (ranging from dark purple for distant objects to bright yellow for near objects) and is labeled 'Metric Depth' at the bottom center. The text density is very light, with no bullet points or equations, focusing entirely on qualitative visual output."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "results",
+      "t_start": 75.0,
+      "t_end": 78.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 75.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "figure-centric layout",
+        "title_text": "Zero-Shot performance in KITTI",
+        "layout_description": "The slide features a figure-centric layout on a plain white background. A bold, serif title is positioned at the top-left corner. Below the title, the content is organized into two rows. The top row contains two side-by-side photographic images of a street scene, labeled 'Left Image' and 'Right Image' respectively with centered text above them. The bottom row consists of a single, large-scale image that spans the entire width of the two images above. This image is a color-coded heatmap representing depth, with a label 'Metric Depth' centered underneath it. The color scheme of the depth map transitions from yellow in the foreground to purple and dark blue in the background. The slide has a very light text density, prioritizing visual qualitative results."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "results",
+      "t_start": 78.0,
+      "t_end": 90.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 78.0,
+          "image": "slide_9_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 86.0,
+          "image": "slide_9_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with inset",
+        "title_text": "Zero-Shot performance in Indoor Scenes",
+        "layout_description": "The slide features a large, centrally positioned 3D reconstruction of an indoor office or lobby environment, which serves as the primary visual focus. The title is located at the top-left corner in a bold, black serif font. In the upper-right corner, there is a small inset titled 'Input Stereo' that displays two vertically stacked images of the same scene from slightly different perspectives, representing the input data. The main 3D visualization shows a room with a desk, red chairs, and a yellow-painted wall section, with some edges appearing as sparse point clouds. The background of the slide is solid white, and the text density is very light, emphasizing the qualitative visual output of the model."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "results",
+      "t_start": 90.0,
+      "t_end": 117.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 90.0,
+          "image": "slide_10_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 92.0,
+          "image": "slide_10_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 101.0,
+          "image": "slide_10_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with inset",
+        "title_text": "Zero-Shot performance in Indoor Scenes",
+        "layout_description": "The slide uses a clean, white background with a minimalist layout focused on visual qualitative results. A bold, serif title is located at the top-left. The main body of the slide is occupied by a large, centered 3D reconstruction of an indoor bedroom, showing depth and texture for elements like a bed, windows, and a doorway. In the top-right corner, there is a small secondary visual element labeled 'Input Stereo', which consists of two vertically stacked images representing the stereo input used to generate the 3D scene. There are no bullet points, text blocks, or equations, resulting in a very light text density."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "results",
+      "t_start": 117.0,
+      "t_end": 120.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 117.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with inset",
+        "title_text": "Zero-Shot performance in Outdoor Scenes",
+        "layout_description": "The slide uses a minimalist layout dominated by a large, centered 3D visualization of an outdoor driving scene. A bold, black title is positioned at the top-left corner. In the top-right corner, there is a small inset labeled 'Input Stereo' which contains two vertically stacked thumbnail images representing the stereo input pair. The main visual content is a 3D reconstruction showing a road with a black car, roadside barriers, and trees, rendered with a textured, point-cloud-like appearance against a solid white background. There are no bullet points, equations, or other text elements, resulting in a very light text density focused on qualitative visual results."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "results",
+      "t_start": 120.0,
+      "t_end": 157.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 120.0,
+          "image": "slide_12_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 127.0,
+          "image": "slide_12_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure layout",
+        "title_text": "Zero-Shot performance in Outdoor Scenes",
+        "layout_description": "The slide is dominated by a large, centered 3D point cloud reconstruction of an outdoor street scene. A bold, serif title is located at the top-left corner. In the top-right corner, there is a small inset labeled 'Input Stereo' which displays two vertically stacked images of a street, representing the source stereo pair used for the reconstruction. The main visualization shows a building with windows on the left, a road with distinct horizontal scan lines, and various trees and structures in the background. The entire slide uses a clean white background, and the text density is very light, prioritizing the qualitative visual output of the model."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "results",
+      "t_start": 157.0,
+      "t_end": 162.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 157.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with image row",
+        "title_text": "Zero-Shot performance in Middlebury",
+        "layout_description": "The slide has a minimalist layout featuring a single line of text and a horizontal arrangement of images. The title is located at the top-left corner in a bold, black serif font. Below the title, three images are positioned side-by-side in a single row, centered vertically on the slide. These images appear to be qualitative 3D reconstruction results from the Middlebury dataset, characterized by fragmented textures and white 'holes' where data might be missing. The first image on the left shows a green Adirondack chair with a red object; the middle image shows a desk area with a tripod, a white bust, and a red lamp; the rightmost image shows a wooden bookshelf with speakers and a potted plant. The background is plain white with no additional decorative elements, logos, or page numbers. The text density is very light, focusing entirely on the visual results."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "results",
+      "t_start": 162.0,
+      "t_end": 165.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 162.0,
+          "image": "slide_14_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 163.0,
+          "image": "slide_14_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Performance on AUTEL Drone",
+        "layout_description": "The slide features a clean, white background with a title at the top-left where the word 'AUTEL' is highlighted in red. Below the title, a centered subtitle provides context about the autonomous flight demo. The core content consists of a single horizontal row of five images, each with a descriptive label underneath. The first image on the left shows a real-world environment with a path through trees. The second and third images are labeled 'Left Image' and 'Right Image', showing stereo camera views of a similar wooded scene. The fourth and fifth images are colorful heatmaps (purple and pink tones) representing the output of the 'MonSter' model and its distilled version. A small, light-red text note stating 'Only 5MB parameter' is positioned at the bottom right. The text density is light, prioritizing visual qualitative results over dense text or data."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "results",
+      "t_start": 165.0,
+      "t_end": 200.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 165.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Performance on AUTEL Drone",
+        "layout_description": "The slide uses a clean white background with a top-left aligned title where 'AUTEL Drone' is emphasized in red. A centered subtitle sits directly below the title, explaining the autonomous flight demo. The core of the slide is a horizontal row of five images. The leftmost image shows the physical drone in a wooded environment, labeled 'Drone of the AUTEL ROBOTICS'. This is followed by a stereo pair of camera views labeled 'Left Image' and 'Right Image'. The last two panels are heatmaps representing depth or thermal estimation; the fourth panel shows the output of a 'Distillation model of MonSter' with a red sub-caption noting its 'Only 5MB parameter' size, while the fifth panel shows the output of the full 'MonSter' model. Each image has a centered text label underneath it. The text density is light, prioritizing visual qualitative results."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "results",
+      "t_start": 200.0,
+      "t_end": 210.0,
+      "num_builds": 6,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 200.0,
+          "image": "slide_16_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 201.0,
+          "image": "slide_16_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 203.0,
+          "image": "slide_16_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 204.0,
+          "image": "slide_16_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 206.0,
+          "image": "slide_16_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 207.0,
+          "image": "slide_16_build_5.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Zero-Shot Performance comparison in the wild",
+        "layout_description": "The slide uses a horizontal comparison layout to showcase qualitative results. A bold, serif title is located at the top-left corner. The main content consists of a single row of five images. The first image on the left is a standard RGB photograph labeled 'Left Image'. This is followed by four depth maps rendered as rainbow-colored heatmaps (where red indicates closer objects and blue indicates further ones). Each depth map is labeled below with its corresponding model name and publication venue: 'CREStereo (CVPR'22)', 'CroCo v2 (ICCV'23)', 'IGEV (CVPR'23)', and 'Ours'. The 'Ours' label is distinguished by its red font color. Red circles are overlaid on the same region in each of the four depth maps to draw attention to performance differences in a specific area of the scene. The overall design is clean with a white background and light text density."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "results",
+      "t_start": 210.0,
+      "t_end": 217.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 210.0,
+          "image": "slide_17_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 213.0,
+          "image": "slide_17_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Zero-Shot Performance comparison in the wild",
+        "layout_description": "The slide uses a horizontal comparison layout to showcase qualitative results. A bold, black title is positioned at the top-left corner. Below the title, five images are arranged side-by-side in a single row. The first image on the left is a real-world photograph labeled 'Left Image', depicting an indoor building interior with multiple levels and railings. The following four images are depth map visualizations (heatmaps) corresponding to the same scene, each labeled below with its respective model name: 'CREStereo (CVPR'22)', 'CroCo v2 (ICCV'23)', 'IGEV (CVPR'23)', and 'Ours'. The 'Ours' label is highlighted in red to distinguish the proposed method. The heatmaps use a color scale where blue represents distant areas and red/yellow represents near objects, specifically highlighting the foreground railing. The background is plain white, and the text density is light, prioritizing visual comparison over textual explanation."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "conclusion",
+      "t_start": 217.0,
+      "t_end": 219.47,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 217.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column centered layout",
+        "title_text": "Try MonSter models Now!",
+        "layout_description": "The slide follows a simple, centered single-column layout on a plain white background. A large, bold title is positioned at the top center. Below the title, two lines of text are vertically stacked in the middle of the slide, each consisting of a label ('Project page:' and 'Code repository:') followed by a blue, underlined hyperlink. At the bottom, a single sentence of text is centered, announcing future work. Within this final sentence, the phrases 'efficiency version' and 'multi-view stereo version' are highlighted in a dark red, bold font to draw attention. There are no images, icons, or decorative elements, resulting in a very light text density focused on providing resource links."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 608,
+    "gemini_layout_calls": 581,
+    "total_gemini_calls": 1189,
+    "total_frames_sampled": 220,
+    "batch_size": 15
+  }
+}

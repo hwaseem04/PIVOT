@@ -1,0 +1,98 @@
+{
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "Injecting Order with Positional Encoding",
+        "subtitle": "Representing sequence structure without recurrence",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 1",
+            "caption": "Positional encodings are summed with embeddings before the stacks."
+        },
+        "equations": [
+            "Eq. 1: PE_{(pos, 2i)} = \\sin(pos / 10000^{2i/d_{model}})",
+            "Eq. 2: PE_{(pos, 2i+1)} = \\cos(pos / 10000^{2i/d_{model}})"
+        ],
+        "bullets": [
+            "Added to embeddings at the stack base",
+            "Uses sinusoidal functions of varying frequencies",
+            "Enables learning of relative token positions",
+            "Generalizes to sequences longer than training"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "subtitle"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                },
+                {
+                    "type": "show",
+                    "target": "equation"
+                }
+            ],
+            "audio_segment": "Since the Transformer lacks recurrence, it uses positional encodings to capture sequence order.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 2.56,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "These signals are added to embeddings at the base of the stacks,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 5.12,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "utilizing sinusoidal functions of varying frequencies.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 7.68,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "This helps the model learn relative positions,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 10.24,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "and generalize to longer sequences.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 12.8
+}

@@ -1,0 +1,58 @@
+{
+    "version": 1,
+    "layout_type": "wide table with bullets below",
+    "layout_tags": [
+        "wide_table",
+        "results",
+        "ablation",
+        "generalization"
+    ],
+    "layout_signature": "T|TAB|B",
+    "background_color": "#FFFFFF",
+    "elements": [
+        {
+            "id": "title",
+            "type": "T",
+            "content_ref": "elements.title",
+            "box": {
+                "tl": "B01",
+                "br": "U03"
+            },
+            "style": {
+                "font_size": 38,
+                "bold": true,
+                "align": "left"
+            }
+        },
+        {
+            "id": "ablation_table",
+            "type": "TAB",
+            "content_ref": "elements.figure",
+            "box": {
+                "tl": "B04",
+                "br": "T14"
+            },
+            "constraints": {
+                "keep_aspect": true
+            }
+        },
+        {
+            "id": "results_bullets",
+            "type": "B",
+            "content_ref": "elements.bullets",
+            "box": {
+                "tl": "B15",
+                "br": "T19"
+            },
+            "style": {
+                "font_size": 22,
+                "min_font_size": 16
+            }
+        }
+    ],
+    "global_constraints": {
+        "no_overlap": true,
+        "no_overflow": true,
+        "min_font_size": 14
+    }
+}

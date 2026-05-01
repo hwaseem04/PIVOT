@@ -1,0 +1,22 @@
+{
+    "title": "FHE-friendly Architecture Redesign",
+    "audio_content": "BlindFed replaces non-linearities like Softmax and LayerNorm with polynomial approximations using Taylor series and Goldschmidt\u2019s algorithm. A key innovation is the parallel adapter design shown here. This structure allows clients to update the model using intermediate representations received from the server, completely bypassing the need for backpropagation through the massive, encrypted backbone.",
+    "duration_sec": 18.4,
+    "bullets": [
+        "Approximates Softmax, GELU, and LayerNorm using low-degree polynomial operations",
+        "Uses Taylor series for exponentials and Goldschmidt\u2019s algorithm for division",
+        "Parallel adapters enable local training without backpropagation through the backbone"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 4",
+        "caption": "Parallel adapter integration with transformer blocks"
+    },
+    "source": [
+        "Section 4.1",
+        "Figure 4",
+        "Equation 3",
+        "Equation 5"
+    ],
+    "prompt": "A technical diagram showing a vertical stack of transformer blocks on the left, with corresponding parallel adapter modules on the right. Arrows indicate the flow of intermediate representations from the backbone to the adapters, highlighting the client-side training path."
+}

@@ -1,0 +1,177 @@
+{
+    "scene_id": 8,
+    "title": "State-of-the-Art Translation Results",
+    "summary": "The Transformer achieved a new state-of-the-art BLEU score of 28.4 on the English-to-German task, outperforming previous best results by over 2 BLEU. On the English-to-French task, it reached 41.8 BLEU, achieving this at a fraction of the training cost of prior top-performing models.",
+    "paper_section": "Results",
+    "narrative_role": "results",
+    "asset_video": null,
+    "duration_stat": {
+        "min": 10.0,
+        "max": 15.0,
+        "avg": 12.0
+    },
+    "extracted_content": "On the WMT 2014 English-to-German translation task, the Transformer (big) model achieved a BLEU score of 28.4, outperforming the previous best results, including ensembles, by more than 2.0 BLEU. For the WMT 2014 English-to-French task, the big model reached a state-of-the-art BLEU score of 41.8, surpassing previous single-model results while requiring less than 1/4 of the training cost of those models. The base Transformer model also demonstrated strong performance, achieving 27.3 BLEU on EN-DE and 38.1 BLEU on EN-FR, which exceeds many previously published models and ensembles at a significantly lower computational cost. These results establish the Transformer as a highly efficient and superior architecture for sequence transduction compared to recurrent and convolutional alternatives.",
+    "layout": {
+        "template": "wide table top, bullets bottom",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.95,
+                "h": 0.1
+            },
+            "table_results": {
+                "x": 0.05,
+                "y": 0.2,
+                "w": 0.9,
+                "h": 0.5
+            },
+            "bullets_summary": {
+                "x": 0.05,
+                "y": 0.75,
+                "w": 0.9,
+                "h": 0.2
+            }
+        },
+        "spec": {
+            "version": 1,
+            "layout_type": "wide table top, bullets bottom",
+            "layout_tags": [
+                "results",
+                "table",
+                "wide"
+            ],
+            "layout_signature": "T|TAB|B",
+            "background_color": "#FFFFFF",
+            "elements": [
+                {
+                    "id": "title",
+                    "type": "T",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.05,
+                        "w": 0.95,
+                        "h": 0.1
+                    },
+                    "content_ref": "elements.title",
+                    "style": {
+                        "font_size": 40,
+                        "bold": true,
+                        "align": "left"
+                    }
+                },
+                {
+                    "id": "table_results",
+                    "type": "TAB",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.2,
+                        "w": 0.9,
+                        "h": 0.5
+                    },
+                    "content_ref": "elements.figure",
+                    "constraints": {
+                        "keep_aspect": true
+                    }
+                },
+                {
+                    "id": "bullets_summary",
+                    "type": "B",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.75,
+                        "w": 0.9,
+                        "h": 0.2
+                    },
+                    "content_ref": "elements.bullets",
+                    "style": {
+                        "font_size": 22,
+                        "min_font_size": 16
+                    }
+                }
+            ],
+            "global_constraints": {
+                "no_overlap": true,
+                "no_overflow": true,
+                "min_font_size": 14
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "State-of-the-Art Translation Results",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Table 2",
+            "caption": "BLEU scores and training costs for translation tasks."
+        },
+        "bullets": [
+            "Achieved 28.4 BLEU on English-to-German translation.",
+            "Reached 41.8 BLEU on English-to-French task.",
+            "Outperformed previous ensembles at lower training cost."
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "The Transformer set new records.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.6,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "The big model reached 28.4 BLEU on English-to-German",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 7.2,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "and 41.8 on English-to-French.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 10.8,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "It outperformed previous best results, including ensembles, while requiring significantly less training time and computational cost.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 14.4,
+    "source": [
+        "Table 2",
+        "Section 6.1"
+    ],
+    "audio_content": "The Transformer set new records. The big model reached 28.4 BLEU on English-to-German and 41.8 on English-to-French. It outperformed previous best results, including ensembles, while requiring significantly less training time and computational cost.",
+    "prompt": "A slide displaying Table 2 from the paper at the top, showing BLEU scores and training costs for various models. Below the table, three concise bullet points summarize the record-breaking performance and efficiency of the Transformer model."
+}

@@ -1,0 +1,1073 @@
+{
+  "video_id": "ICLR_ICLR-2025-PPT_Patch-Order-Do-Matters-In-Time-Series-Pretext-Task__ICLR-2025-PPT-Patch-Order-Do-Matters-In",
+  "duration": 755.56,
+  "fps_sampled": 1.0,
+  "total_slides": 54,
+  "slides_with_builds": 4,
+  "total_build_steps": 60,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 24.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "PPT: Patch Order Do Matters In Time Series Pretext Task",
+        "layout_description": "This is a clean, minimalist title slide with a white background. The main title is centered in the middle of the slide, featuring large, bold black text where the letters 'P', 'P', and 'T' are underlined to emphasize the acronym. Directly below the title, the names of four authors are listed in a smaller, centered font. The top-left corner contains the ICLR logo and conference name. At the bottom center, two institutional logos are positioned side-by-side: the UNIST logo on the left and the Hanyang University logo on the right. The overall text density is light, focusing on the title, authors, and affiliations. Small UI elements like a video thumbnail in the top-right and navigation icons in the bottom-left are also present."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "other",
+      "t_start": 24.0,
+      "t_end": 30.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 24.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Index",
+        "layout_description": "The slide follows a minimalist, single-column layout on a plain white background. The title 'Index' is prominently displayed in a large, bold, black font at the top-left. The main content consists of a numbered list with four items: 1. Introduction, 2. Methodology, 3. Results, and 4. Conclusion. Sections 1 and 2 feature hierarchical bullet points that provide more detail; 'Introduction' has one sub-bullet, while 'Methodology' contains three. The text is left-aligned, leaving a large amount of empty space on the right side of the slide. A small black box with white text (likely a presenter's name) is located in the extreme top-right corner, and a small page number '2' is visible in the bottom-right corner. The text density is light, making the slide very easy to read."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "other",
+      "t_start": 30.0,
+      "t_end": 39.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 30.0,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Index",
+        "layout_description": "The slide follows a minimalist, single-column layout on a plain white background. A large, bold heading 'Index' is placed at the top-left. The main content consists of a numbered list with four items: 1. Introduction, 2. Methodology, 3. Results, and 4. Conclusion. The first two items feature a second level of hierarchy with indented bullet points detailing specific sub-topics like 'Challenges in Self-Supervised Time Series' and 'ACF-CoS metric.' The text is entirely black and left-aligned, creating a clear vertical flow. A small black box containing a name is visible in the top-right corner, and a page number '2' is positioned in the bottom-right corner. The slide has a light text density and serves as a roadmap for the presentation."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 39.0,
+      "t_end": 40.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 39.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "section header slide",
+        "title_text": "Introduction",
+        "layout_description": "This is a minimalist section header slide with a clean white background. The main title, 'Introduction', is written in a large, bold, black sans-serif font and is positioned on the left side of the slide, slightly above the vertical center. In the top right corner, there is a small black rectangular box containing white text that appears to be a name. A small page number '3' is located in the bottom right corner. The slide contains no other content, such as bullet points, figures, or equations, resulting in a very light text density."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "introduction",
+      "t_start": 40.0,
+      "t_end": 45.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 40.0,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Time Series are Hard to Understand",
+        "layout_description": "The slide follows a minimalist single-column layout dominated by a large, bold title at the top-left. The title, 'Time Series are Hard to Understand', is the primary focus. The rest of the slide's body is entirely empty white space, which may serve as a visual pause or a placeholder for a verbal explanation. In the top-right corner, there is a small black rectangular box containing white text that appears to be a name or affiliation. A small page number '4' is positioned in the bottom-right corner. The background is plain white, and the overall text density is extremely light."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "introduction",
+      "t_start": 45.0,
+      "t_end": 122.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 45.0,
+          "image": "slide_6_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 50.0,
+          "image": "slide_6_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with title",
+        "title_text": "Time Series are Hard to Understand",
+        "layout_description": "The slide features a large, bold, left-aligned title at the top. The main content area is organized into two side-by-side columns that provide examples of interpretable data modalities. The left column displays two images of a cat: a standard photograph and a Class Activation Map (CAM) image showing a heatmap over the cat. Below these images are two bullet points, 'This is an image of a cat.' and 'It has furs!', with the words 'cat' and 'furs!' highlighted in red. An arrow points from the first bullet point to the CAM image. The right column contains a rectangular box showing a sentiment analysis result for the text 'The new music \"APT\" from RoSe is extremely nice', where 'extremely nice' and 'positive' are highlighted in green. Below this box are two bullet points, 'The sentiment here is positive.' and 'It says \"extremely nice\"', with the keywords in green. An arrow points from the first bullet point to the 'positive' label in the box. The slide has a clean white background, a small black name tag in the top right corner, and a page number '4' in the bottom right corner. The text density is light, emphasizing visual comparison."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "introduction",
+      "t_start": 122.0,
+      "t_end": 135.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 122.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "Self-Supervised Learning",
+        "layout_description": "The slide follows a clean, single-column structure on a plain white background. A large, bold title is aligned to the top-left. The main content consists of two primary bullet points with hierarchical sub-bullets. The first section defines Self-Supervised Learning (SSL), using red text to emphasize the terms 'unlabeled data' and 'pretext task'. The second section defines 'Pretext Task' with a single sub-bullet. Below the text, a large image of a dog walking itself by holding its own leash is centered, acting as a visual metaphor for the concept. A small source URL is placed directly under the image. Additional elements include a small black box with text in the top-right corner and a page number '6' in the bottom-right corner. The text density is light, making the slide easy to read."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "introduction",
+      "t_start": 135.0,
+      "t_end": 151.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 135.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and image",
+        "title_text": "Self-Supervised Learning",
+        "layout_description": "The slide uses a clean, single-column layout on a white background. A large, bold title is placed at the top-left. The main content consists of two primary bullet points with hierarchical sub-bullets. The first main point asks 'What is Self-Supervised Learning (SSL)?' and is followed by two sub-bullets where key terms 'unlabeled data' and 'pretext task' are highlighted in red. The second main point is 'Pretext Task', followed by a single sub-bullet definition. Centered at the bottom of the slide is a humorous image of a dog walking itself by holding its own leash, which serves as a visual metaphor for the concept. A small source URL is located directly under the image. Additional elements include a small black box with text in the top-right corner and a page number '6' in the bottom-right corner. The text density is light, making the slide easy to read."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "introduction",
+      "t_start": 151.0,
+      "t_end": 165.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 151.0,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and hierarchical bullets",
+        "title_text": "Research Questions",
+        "layout_description": "The slide features a clean, minimalist design with a white background and black text. The main title, 'Research Questions', is positioned at the top-left in a large, bold font. Below it, a primary bullet point serves as a sub-heading: 'Research Points in Time Series SSL'. Under this sub-heading, there is a list of four indented bullet points, each presenting a specific research question. Key technical terms within these questions\u2014'temporal characteristics', 'inter-channel relationship', 'patch-wise methodology', and 'pretext task'\u2014are highlighted in a contrasting red color for emphasis. In the top-right corner, there is a small black rectangular box containing white text, likely the presenter's name. The slide number '7' is located in the bottom-right corner. The overall text density is light, leaving ample white space around the content."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "introduction",
+      "t_start": 165.0,
+      "t_end": 174.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 165.0,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Research Questions",
+        "layout_description": "The slide features a clean, minimalist design with a white background and black text. The main title, 'Research Questions', is located at the top-left in a large, bold font. Below the title, there is a primary bullet point that acts as a sub-heading: 'Research Points in Time Series SSL'. Underneath this sub-heading is a list of four secondary bullet points, each presenting a specific research question. Key technical phrases within these questions\u2014'temporal characteristics', 'inter-channel relationship', 'patch-wise methodology', and 'pretext task'\u2014are highlighted in a bold red color for emphasis. In the top-right corner, there is a small black rectangular box containing white text. The slide number '7' is positioned in the bottom-right corner. The overall text density is light, maintaining significant white space for readability."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 174.0,
+      "t_end": 177.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 174.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "section header slide",
+        "title_text": "Methodology",
+        "layout_description": "This is a minimalist section header slide with a clean white background. The primary content is the word 'Methodology' rendered in a large, bold, black sans-serif font, positioned on the left-hand side of the slide and vertically centered. In the top right corner, there is a small black rectangular box containing white text, which appears to be the presenter's name. A small, light-gray page number '8' is located in the bottom right corner. The slide contains no other text, figures, or decorative elements, resulting in a very light text density and a focused visual layout."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "introduction",
+      "t_start": 177.0,
+      "t_end": 180.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 177.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with right-aligned figure",
+        "title_text": "Motivation",
+        "layout_description": "The slide has a clean, minimalist layout with a large, bold title 'Motivation' positioned in the top-left corner. The central and left portions of the slide are primarily empty white space. On the right side, there is a framed diagram titled '[Figure] PatchTST SSL architecture'. This diagram depicts a vertical stack of architectural components for a self-supervised transformer backbone, including layers for 'Input Univariate Series', 'Instance Norm + Patching', 'Projection + Position Embedding', 'Transformer Encoder', and a 'Linear Layer', culminating in 'Reconstructed Masked Patches'. The layers are color-coded with light blue, yellow, orange, and green. At the bottom-left, there are three bibliographic references in a very small font. A page number '9' is placed in the bottom-right corner, and a small black identification box is in the top-right corner."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "introduction",
+      "t_start": 180.0,
+      "t_end": 215.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 180.0,
+          "image": "slide_13_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 185.0,
+          "image": "slide_13_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Motivation",
+        "layout_description": "The slide uses a two-column layout with a large, bold title 'Motivation' positioned at the top-left. The left column is dedicated to text, featuring a hierarchical bulleted list with two levels of indentation that explains the benefits and examples of patch-based representation in time series analysis. The right column contains a centered vertical diagram illustrating the 'PatchTST SSL architecture'. This diagram consists of stacked, color-coded rectangular blocks (green for Linear Layer, orange for Transformer Encoder, yellow for Projection + Position Embedding and Instance Norm + Patching, and blue for Input Univariate Series) with dashed boxes representing masked patches. Below the diagram is a caption and a sub-label. Three small-font bibliographic references are listed at the bottom-left of the slide. A page number '9' is visible in the bottom-right corner, and a small black identification box is in the top-right corner. The text density is moderate against a clean white background."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "method",
+      "t_start": 215.0,
+      "t_end": 225.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 215.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Previous Works on Time Series SSL",
+        "layout_description": "The slide uses a clean, white background with a single-column text layout. A large, bold title is aligned to the top-left. The main body consists of two primary sections, each starting with a bolded bullet point: 'Mask-based Approaches.' and 'Contrastive Approaches.' These sections contain hierarchical sub-bullets that explain the concepts and list relevant literature. The 'Mask-based' section has three sub-bullets, while the 'Contrastive' section has two. At the bottom of the slide, there is a dense block of text providing full bibliographic citations for the works mentioned in the main body, set in a significantly smaller font size. A page number '10' is located in the bottom-right corner, and a small black box containing a name is visible in the top-right corner. A few small icons are placed at the bottom-left edge."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "method",
+      "t_start": 225.0,
+      "t_end": 250.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 225.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Previous Works on Time Series SSL",
+        "layout_description": "The slide follows a clean, single-column layout with a white background. A large, bold title is aligned to the top-left. The body content is organized into two main thematic sections, each starting with a bold heading: 'Mask-based Approaches.' and 'Contrastive Approaches.' Under each heading, there are hierarchical bullet points that explain the concepts and list specific prior works with numerical citations. The first section has three bullet points, while the second has two. At the very bottom of the slide, there is a section for references in a significantly smaller font, spanning several lines. A small black box containing white text (likely a name) is positioned in the top-right corner. The bottom-right corner shows the page number '10', and a row of small logos or icons is visible in the bottom-left corner. The text density is moderate, focusing on structured textual information."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "method",
+      "t_start": 250.0,
+      "t_end": 255.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 250.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and hierarchical list",
+        "title_text": "PPT: Patch Order Aware Pretext Task",
+        "layout_description": "The slide follows a clean, single-column layout with a white background. A large, bold title is aligned to the top-left. Below the title, the content begins with a primary bullet point titled 'Overview of our methodology'. The main body of the slide consists of a numbered list with three items, each featuring hierarchical sub-bullets. Key technical terms such as 'order-aware pretext task', 'two order-aware learning methods', and 'ACF-CoS' are highlighted in bold red text to draw attention. In terms of peripheral elements, there is a small black box in the top-right corner containing a name, a page number '11' in the bottom-right, and a row of small navigation icons in the bottom-left. The text density is moderate, maintaining a clear and organized structure with significant white space."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "method",
+      "t_start": 255.0,
+      "t_end": 284.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 255.0,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "PPT: Patch Order Aware Pretext Task",
+        "layout_description": "The slide follows a clean, single-column layout starting with a large, bold title at the top left. Below the title, a primary bullet point introduces the 'Overview of our methodology'. The main content is organized into a numbered list with three items, each featuring a hierarchical structure with one or two sub-bullets. Key phrases such as 'order-aware pretext task', 'two order-aware learning methods', and the metric 'ACF-CoS' are emphasized using a bold red font. The background is plain white with black text, maintaining a professional look. A small black box containing a name is positioned in the top right corner, while the page number '11' is located in the bottom right. Small navigation icons are visible in the bottom left corner. The text density is moderate, providing a structured summary of the methodology's components."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "introduction",
+      "t_start": 284.0,
+      "t_end": 285.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 284.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figures",
+        "title_text": "Understanding Time Series Characteristics",
+        "layout_description": "The slide has a clean, white background with a large, bold title positioned at the top left. Below the title, there is a hierarchical list consisting of one main bullet point and two sub-bullets; the word 'Temporal' in the first sub-bullet is highlighted in red for emphasis. The lower portion of the slide is dedicated to a visual example. On the left, three time-series line charts are stacked vertically, labeled 'Sensor 0' (red), 'Sensor 1' (green), and 'Sensor 2' (blue). To the right of these main charts, there is a corresponding column of three smaller, square-framed segments that isolate specific patterns from the original signals. Each of these segments is followed by a gray right-pointing arrow, illustrating the concept of predictable patterns in the temporal axis. A small black box containing a name is in the top right corner, a page number '12' is at the bottom right, and standard presentation navigation icons are at the bottom left. The text density is moderate, balancing explanatory text with illustrative graphics."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "method",
+      "t_start": 285.0,
+      "t_end": 319.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 285.0,
+          "image": "slide_19_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 306.0,
+          "image": "slide_19_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 309.0,
+          "image": "slide_19_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with text and multi-part figure layout",
+        "title_text": "Understanding Time Series Characteristics",
+        "layout_description": "The slide features a large, bold title at the top left. Below the title, there is a hierarchical list consisting of one main bullet point and two sub-bullets, all left-aligned. The word 'Temporal' in the first sub-bullet is highlighted in red. The bottom half of the slide is divided into two visual sections. On the left, three line charts are stacked vertically, representing data from 'Sensor 0' (red), 'Sensor 1' (green), and 'Sensor 2' (blue). On the right, there is a 3x3 grid of smaller plots. Each row in this grid matches the color of the corresponding sensor on the left. Within each row, three plots are shown in sequence, connected by gray arrows pointing to the right, illustrating a temporal order of patterns. The background is plain white. A page number '14' is located in the bottom right corner, and a small name tag is in the top right corner. Presentation navigation icons are visible in the bottom left corner."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "method",
+      "t_start": 319.0,
+      "t_end": 329.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 319.0,
+          "image": "slide_20_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 326.0,
+          "image": "slide_20_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 327.0,
+          "image": "slide_20_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with text and multi-figure layout",
+        "title_text": "Understanding Time Series Characteristics",
+        "layout_description": "The slide features a large, bold, left-aligned title at the top. Below the title, there is a section of text consisting of one main bullet point and two sub-bullets, with the word 'Channel' highlighted in red text. The bottom half of the slide is divided into two visual areas. On the left, three line charts for 'Sensor 0' (red), 'Sensor 1' (green), and 'Sensor 2' (blue) are stacked vertically, showing continuous time-series data. To the right of these, there is a 3x3 grid of smaller plots. This grid is organized into three columns, where each column displays a sequence of red, green, and blue signal patterns connected by downward-pointing gray arrows, visually demonstrating the predictable order of signals mentioned in the text. The slide has a white background, a page number '17' in the bottom right corner, and a small name tag in the top right corner."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "method",
+      "t_start": 329.0,
+      "t_end": 330.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 329.0,
+          "image": "slide_21_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and side-by-side figures",
+        "title_text": "How can we supervise Order?",
+        "layout_description": "The slide has a clean, white background with a large, bold black title at the top left. Below the title, there is a section titled 'Order-Awareness of Patches' followed by a sub-bullet point explaining the concept. The main body of the slide is divided into two side-by-side comparison diagrams. Diagram (A) on the left, titled 'Time Order Importance', compares 'Fold Wings' and 'Spread Wings' actions using photos and line graphs to show how reversing time order creates highly similar signals that can confuse a model. Diagram (B) on the right, titled 'Channel Order Importance', uses a grid of sensor data plots (Accelerometer, Force Sensor 1, Force Sensor 2) to demonstrate how original channel ordering results in 'Aligned Peaks' (highlighted in green) while permuted ordering results in 'Non-Aligned Peaks' (highlighted in red). The slide includes visual aids like colored arrows, boxes, a thinking emoji icon, and a boot icon. A small black box with a name is in the top right corner, and the page number '18' is at the bottom right."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "method",
+      "t_start": 330.0,
+      "t_end": 341.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 330.0,
+          "image": "slide_22_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and side-by-side comparison figures",
+        "title_text": "How can we supervise Order?",
+        "layout_description": "The slide features a large, bold black title at the top-left. Below the title, there is a hierarchical bulleted list with two levels of indentation. The first level introduces 'Order-Awareness of Patches', and the second level provides a descriptive sentence where the phrase 'a natural order relationship' is highlighted in red. The bottom two-thirds of the slide are occupied by two side-by-side comparison diagrams labeled (A) and (B). Diagram (A), titled 'Time Order Importance', uses a vertical flow of images and signal plots to illustrate how reversing the time order of actions like 'Fold Wings' and 'Spread Wings' can lead to signal similarity that confuses a model. Diagram (B), titled 'Channel Order Importance', displays two grids of signal plots comparing 'Original Order' with 'Permuted Order' across three sensor types (Accelerometer, Force Sensor 1, Force Sensor 2). It uses green and red highlighted regions to contrast 'Aligned Peaks' with 'Non-Aligned Peaks'. The slide includes small icons like a thinking emoji and a boot, and has a page number '18' in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "method",
+      "t_start": 341.0,
+      "t_end": 345.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 341.0,
+          "image": "slide_23_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and large diagram",
+        "title_text": "Methodology: PPT",
+        "layout_description": "The slide features a large, bold title at the top-left, followed by a single bullet point 'PPT Overview'. The main body of the slide is occupied by a complex, multi-part diagram illustrating a methodology. The diagram is organized into four numbered sections with color-coded headers: '1. Patch Representations' (light blue), '2. Channel-Wise Patch Permutation' (light green), '3-(A). Consistency Learning' (light yellow), and '3-(B). Contrastive Learning' (light pink). Section 1 on the left shows time-series data being processed by a model to create a grid of patch representations. Section 2 shows how these patches are permuted into 'Original', 'Weak', and 'Strong' variations. Sections 3-(A) and 3-(B) on the right detail the learning objectives, using colored squares to represent data patches and arrows to show temporal or channel-wise relationships. A legend at the bottom explains the visual symbols used, such as context vectors, positive/negative pairs, and pseudo labels. The slide has a clean white background with a page number '19' in the bottom-right corner and a small speaker identification box in the top-right."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "method",
+      "t_start": 345.0,
+      "t_end": 455.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 345.0,
+          "image": "slide_24_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and large diagram",
+        "title_text": "Methodology: PPT",
+        "layout_description": "The slide features a large, bold title 'Methodology: PPT' at the top-left, followed by a single bullet point 'PPT Overview'. The majority of the slide is filled with a complex, multi-part diagram that explains the PPT methodology. This diagram is structured into three main numbered sections. Section 1, 'Patch Representations', is located on the left and illustrates the transformation of multi-channel time-series data into patch representations through a model 'f'. Section 2, 'Channel-Wise Patch Permutation', sits in the middle, showing 'Original', 'Weak', and 'Strong' permutation banks represented by grids of colored squares. Section 3 occupies the right half of the diagram area and is split horizontally into '3-(A). Consistency Learning' at the top and '3-(B). Contrastive Learning' at the bottom. Both sub-sections further divide into 'Time-Order' and 'Channel-Order' tasks, using colored blocks, arrows, and pseudo-labels to show data flow and relationships. A horizontal legend at the bottom of the diagram area defines visual elements like 'Context Vector', 'Positive Pair', 'Negative Pair', 'Pseudo label', and 'Autoregressive Function'. The slide has a clean white background with a page number '19' in the bottom-right corner and standard presentation navigation icons in the bottom-left."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "method",
+      "t_start": 455.0,
+      "t_end": 465.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 455.0,
+          "image": "slide_25_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Methodology: PPT",
+        "layout_description": "The slide follows a clean, single-column layout with a large bold title 'Methodology: PPT' positioned at the top-left. Below the title, the content is organized into a hierarchical list: a main bullet point introduces 'Step 1. Encoding Time Series into Patches', followed by a numbered list with two items and a sub-bullet providing examples of models. The bottom half of the slide features a horizontal process diagram. On the left, a 3x3 grid of small line plots represents 'Raw Time Series' across different channels (D) and time (T). An arrow points from this grid to a central gray-bordered box labeled 'model f (e.g., PatchTST)'. A second arrow leads to the right side, which displays a 3x3 grid of colored squares representing 'Patch Representations', color-coded by channel (red, green, blue) and indexed by i and d. The background is plain white, with a page number '20' in the bottom-right corner and a small black identification box in the top-right corner. The text density is light, focusing on a clear visual explanation of the encoding step."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "method",
+      "t_start": 465.0,
+      "t_end": 468.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 465.0,
+          "image": "slide_26_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Methodology: PPT",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold title 'Methodology: PPT' at the top-left. Below the title, the content is organized into a hierarchical list. A primary bold bullet point introduces 'Step 1. Encoding Time Series into Patches', followed by a numbered list with two items describing the reshaping and encoding process, and a sub-bullet providing examples like 'PatchTST' and 'PITS'. The bottom half of the slide is dedicated to a horizontal flow diagram. On the left, a grid of nine small line charts represents 'Raw Time Series' across different channels and time steps. An arrow points from this grid to a central gray box labeled 'model f (e.g., PatchTST)'. A second arrow leads to a corresponding 3x3 grid of solid colored squares (red, green, and blue) labeled 'Patch Representations'. The slide has a clean white background with a page number '20' in the bottom-right corner and a small name identifier in the top-right corner. Text density is moderate, with a clear focus on the visual representation of the data transformation process."
+      }
+    },
+    {
+      "slide_id": 27,
+      "slide_section": "method",
+      "t_start": 468.0,
+      "t_end": 475.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 468.0,
+          "image": "slide_27_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figures",
+        "title_text": "Methodology: PPT",
+        "layout_description": "The slide features a clean white background with a large, bold title 'Methodology: PPT' at the top-left. Below it is a sub-heading 'Step 2. Channel-Wise Patch Permutation'. The main content is organized as a numbered list with a single item that branches into three hierarchical bullet points: 'Original', 'Weak', and 'Strong'. Each bullet point is color-coded (black, green, and red respectively) and includes a brief text description. Below this text section, three diagrams are arranged horizontally in a grid-like fashion. Each diagram depicts a 3x3 grid of colored squares (red, green, and blue rows). The 'Original' diagram shows the squares in a standard order. The 'Weak' diagram shows a few squares swapped with double-headed arrows indicating the permutation. The 'Strong' diagram shows a more complex set of swaps with many more arrows. Each diagram is labeled underneath with its corresponding name in its specific color. A page number '21' is located in the bottom-right corner, and a small black box with white text is in the top-right corner."
+      }
+    },
+    {
+      "slide_id": 28,
+      "slide_section": "method",
+      "t_start": 475.0,
+      "t_end": 480.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 475.0,
+          "image": "slide_28_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and bottom figure/equation",
+        "title_text": "Methodology: PPT",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold title 'Methodology: PPT' at the top-left, followed by a secondary heading 'Step 3-1. Consistency Learning'. Below this, there is a numbered list item with two sub-bullets explaining the supervision intuition. The bottom half of the slide is divided into two functional areas: the left side displays a mathematical equation for binary cross-entropy loss (labeled as Time or Feature consistency loss), and the right side contains a complex diagram titled '3-(A). Consistency Learning'. This diagram uses colored square blocks (red, green, blue) and arrows to visually represent 'Time-Order Consistency' and 'Channel-Order Consistency', comparing 'Original' sequences (labeled with 1) to 'Strong' perturbed sequences (labeled with 0). The slide has a clean white background, moderate text density, and a page number '22' in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 29,
+      "slide_section": "method",
+      "t_start": 480.0,
+      "t_end": 494.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 480.0,
+          "image": "slide_29_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and split content",
+        "title_text": "Methodology: PPT",
+        "layout_description": "The slide features a large bold title 'Methodology: PPT' at the top left, followed by a sub-heading 'Step 3-1. Consistency Learning'. Below the sub-heading, there is a numbered list item with two sub-bullets explaining the intuition behind consistency learning. The bottom half of the slide is divided into two main areas. On the left, there is a mathematical equation for binary cross-entropy loss, labeled as Time or Feature consistency loss. On the right, there is a diagram titled '3-(A). Consistency Learning' within a light yellow header. This diagram is further split into two side-by-side comparisons: 'Time-Order Consistency' and 'Channel-Order Consistency'. Both comparisons use colored square blocks and arrows to illustrate 'Original' versus 'Strong' (likely perturbed) sequences, with binary labels '1' and '0' indicating correctness. The slide has a clean white background with a page number '22' in the bottom right corner and a small name tag in the top right corner."
+      }
+    },
+    {
+      "slide_id": 30,
+      "slide_section": "method",
+      "t_start": 494.0,
+      "t_end": 495.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 494.0,
+          "image": "slide_30_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figure/equation",
+        "title_text": "Methodology: PPT",
+        "layout_description": "The slide features a large, bold title 'Methodology: PPT' at the top-left corner. Below it, a secondary heading 'Step 3-2. Contrastive Learning' is presented as a bullet point. The content is organized hierarchically, starting with a numbered point explaining 'Supervision Intuition' and a sub-bullet that uses colored text (red and pink) to define 'Positive Pairs' and 'Negative' samples. Centered in the middle of the slide is a large mathematical equation for contrastive loss. The bottom half of the slide contains a detailed diagram titled '3-(B). Contrastive Learning' within a light pink header. This diagram is divided into two side-by-side sections: 'Time-Order Contrastive' on the left and 'Channel-Order Contrastive' on the right. Both sections use colored square blocks (red, green, blue) to represent 'Original', 'Weak', and 'Strong' data states, with various arrows indicating the contrastive relationships between them. The slide has a clean white background, a page number '23' in the bottom-right corner, and a small name tag in the top-right corner."
+      }
+    },
+    {
+      "slide_id": 31,
+      "slide_section": "method",
+      "t_start": 495.0,
+      "t_end": 505.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 495.0,
+          "image": "slide_31_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Methodology: PPT",
+        "layout_description": "The slide follows a top-down single-column structure. At the top left, there is a large bold title 'Methodology: PPT', followed by a secondary heading 'Step 3-2. Contrastive Learning'. Below this, a numbered list provides the 'Supervision Intuition', with a sub-bullet point that uses color-coded text (pink for 'Positive Pairs' and red for 'Negative'). A large, multi-line mathematical equation for contrastive loss is centered in the middle of the slide. The bottom half of the slide is occupied by a diagram titled '3-(B). Contrastive Learning' within a pink header box. This diagram is split into two side-by-side sub-sections: 'Time-Order Contrastive' and 'Channel-Order Contrastive'. Both sub-sections use colored square icons (red, green, blue) to represent different data states (Original, Weak, Strong) and use arrows to illustrate the contrastive learning process. The slide has a white background, moderate text density, and includes a page number '23' in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 32,
+      "slide_section": "method",
+      "t_start": 505.0,
+      "t_end": 510.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 505.0,
+          "image": "slide_32_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Methodology: PPT",
+        "layout_description": "The slide follows a clean, single-column layout with a large, bold title positioned at the top-left. The main content is organized under a primary bullet point titled 'Overall Loss Setup'. Below this, a numbered list divides the methodology into two sections: '1. Self-Supervised Loss' and '2. Supervised Loss'. Each section contains a descriptive sub-bullet point where key terms such as 'consistency', 'contrastive', and 'task-specific' are highlighted in red for emphasis. Centered mathematical equations are placed directly beneath their respective descriptive text blocks to define the loss functions. The background is plain white, featuring a small black box with text in the top-right corner and a page number '24' in the bottom-right corner. The text density is moderate, maintaining a clear hierarchical structure."
+      }
+    },
+    {
+      "slide_id": 33,
+      "slide_section": "method",
+      "t_start": 510.0,
+      "t_end": 522.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 510.0,
+          "image": "slide_33_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Methodology: PPT",
+        "layout_description": "The slide follows a clean, single-column layout with a white background. The title 'Methodology: PPT' is prominently displayed in large, bold black text at the top-left. The main content is organized under a primary bullet point titled 'Overall Loss Setup'. This section is further divided into a numbered list with two items: '1. Self-Supervised Loss' and '2. Supervised Loss'. Each numbered item includes a sub-bullet point explaining the optimization strategy, with key terms like 'consistency', 'contrastive', and 'task-specific' highlighted in red for emphasis. Below each textual explanation, a mathematical equation for the respective loss function is centered on the slide. The equations use standard mathematical notation with subscripts and superscripts. A small black box containing white text is located in the extreme top-right corner, and the page number '24' is placed at the bottom-right. The text density is light, providing a clear and focused presentation of mathematical formulas."
+      }
+    },
+    {
+      "slide_id": 34,
+      "slide_section": "method",
+      "t_start": 522.0,
+      "t_end": 525.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 522.0,
+          "image": "slide_34_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "ACF-CoS: Measuring Order",
+        "layout_description": "The slide features a clean, single-column layout on a white background. A large, bold title is positioned at the top left, followed by a secondary bold heading. The main content is structured as a numbered list with two primary points. Point 1 contains a sub-bullet with red text posing a question about pre-assessing effects. Point 2 introduces the proposed 'ACF-CoS' method with two sub-bullets; the second sub-bullet uses red text to indicate a logical conclusion. Below the text, a mathematical equation for 'ACF - CoS' is centered, representing a cosine distance calculation. To the right of the equation, a legend defines the variables 'a' and 'a'' as autocorrelations of 'Original' and 'Strong' respectively. A small black box with a name is in the top right corner, and the page number '25' is located in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 35,
+      "slide_section": "method",
+      "t_start": 525.0,
+      "t_end": 608.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 525.0,
+          "image": "slide_35_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered equation",
+        "title_text": "ACF-CoS: Measuring Order",
+        "layout_description": "The slide uses a clean, white background with a large, bold title at the top-left. Below the title is a secondary bold heading: 'Autocorrelation function and Cosine Similarity'. The main body consists of a numbered list with two items. Item 1 discusses the motivation with a sub-bullet containing red-colored text for emphasis. Item 2 introduces the proposed 'ACF-CoS' method, followed by two sub-bullets that explain the measurement process and its interpretation, with key terms highlighted in red. Centered in the lower portion of the slide is a mathematical equation defining ACF-CoS as one minus a cosine similarity term. To the right of the equation, a legend defines the variables 'a' and 'a prime'. A small black box with white text is in the top-right corner, and the page number '25' is located at the bottom-right."
+      }
+    },
+    {
+      "slide_id": 36,
+      "slide_section": "results",
+      "t_start": 608.0,
+      "t_end": 611.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 608.0,
+          "image": "slide_36_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "section header layout",
+        "title_text": "Results",
+        "layout_description": "The slide follows a minimalist section header layout with a clean white background. The primary text, 'Results', is displayed in a large, bold, black sans-serif font, positioned on the left-hand side and vertically centered. In the top right corner, there is a small black rectangular box containing white text, likely a presenter's name. A page number, '26', is visible in the bottom right corner in a small, light gray font. A tiny red dot, possibly a laser pointer mark, is located near the bottom center. The slide has a very light text density, functioning as a clear transition marker within the presentation."
+      }
+    },
+    {
+      "slide_id": 37,
+      "slide_section": "results",
+      "t_start": 611.0,
+      "t_end": 615.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 611.0,
+          "image": "slide_37_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Self-Supervised Learning",
+        "layout_description": "The slide features a large, bold main title 'Self-Supervised Learning' at the top-left, followed by a bold sub-heading 'Linear-Probing'. Below this, there are three bullet points of text explaining the methodology and performance. The lower half of the slide contains a wide table displaying quantitative results for the 'EMO' dataset. The table lists several models in the second column and their performance across six metrics: Accuracy, F1 score, AUROC, AUPRC, Precision, and Recall. Some values in the table are highlighted in red font to indicate superior performance. A small black box with white text is positioned in the top right corner, and the page number '27' is at the bottom right. The layout is clean with a white background and moderate text density."
+      }
+    },
+    {
+      "slide_id": 38,
+      "slide_section": "results",
+      "t_start": 615.0,
+      "t_end": 629.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 615.0,
+          "image": "slide_38_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Self-Supervised Learning",
+        "layout_description": "The slide follows a top-down single-column layout on a plain white background. At the top-left, there is a large, bold main title 'Self-Supervised Learning', followed by a secondary bold heading 'Linear-Probing' just below it. The middle section of the slide contains three left-aligned bullet points that describe the methodology and general performance findings. The bottom half of the slide is occupied by a wide, detailed results table. This table compares multiple models (e.g., Mixing-up, SimCLR, PatchTST, PITS) across several performance metrics including Accuracy, F1 score, AUROC, AUPRC, Precision, and Recall, specifically for the 'EMO' dataset. Within the table, certain values are highlighted in red to denote the best-performing results. A small black box with white text is positioned in the top-right corner, and the page number '27' is located in the bottom-right corner. The slide has a moderate text density, balancing explanatory text with a dense data table."
+      }
+    },
+    {
+      "slide_id": 39,
+      "slide_section": "results",
+      "t_start": 629.0,
+      "t_end": 630.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 629.0,
+          "image": "slide_39_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with title and bullets",
+        "title_text": "Self-Supervised Learning",
+        "layout_description": "The slide follows a top-down hierarchical structure. At the top-left, there is a large bold title 'Self-Supervised Learning', followed by a smaller bold sub-heading 'Linear-Probing'. Below this, two bullet points provide context, with the first bullet containing red-colored text for emphasis. The main body of the slide consists of three side-by-side t-SNE visualization plots labeled (A), (B), and (C). Each plot has a descriptive label and a percentage value underneath it. To the right of the third plot, there is a vertical color bar legend titled 'Patch Index' with a scale from 0 to 30. The background is plain white, and a page number '28' is located in the bottom-right corner. A small black box with a name is visible in the extreme top-right corner."
+      }
+    },
+    {
+      "slide_id": 40,
+      "slide_section": "results",
+      "t_start": 630.0,
+      "t_end": 646.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 630.0,
+          "image": "slide_40_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with title and bullets",
+        "title_text": "Self-Supervised Learning",
+        "layout_description": "The slide follows a top-down hierarchical structure. At the top-left, there is a large bold title 'Self-Supervised Learning', followed by a smaller bold sub-heading 'Linear-Probing'. Below this, two bullet points provide context, with the first bullet containing red-colored text for emphasis. The main body of the slide consists of three side-by-side t-SNE visualization plots labeled (A), (B), and (C). Each plot has a descriptive label and a percentage value underneath it. To the right of the third plot, there is a vertical color bar legend titled 'Patch Index' with a scale from 0 to 30. The background is plain white, and a page number '28' is located in the bottom-right corner. A small black box with a name is visible in the extreme top-right corner."
+      }
+    },
+    {
+      "slide_id": 41,
+      "slide_section": "results",
+      "t_start": 646.0,
+      "t_end": 660.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 646.0,
+          "image": "slide_41_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Self-Supervised Learning",
+        "layout_description": "The slide follows a top-down single-column layout. At the top-left, there is a large, bold main title 'Self-Supervised Learning', followed by a slightly smaller sub-heading 'Semi-Supervised learning'. Below the headings, two bullet points describe the experimental setup, with the text '10% and 1%' highlighted in red for emphasis. The bottom two-thirds of the slide is occupied by a large, detailed data table. The table contains eight columns: Fraction, Models, Accuracy, F1 score, AUROC, AUPRC, Precision, and Recall. The rows are grouped by model types, with some results highlighted in red bold text to indicate the best performance. The background is plain white, and the text is primarily black. A small identifier 'Jaeho \uae40\uc7ac\ud638' is in the top-right corner, and the page number '29' is positioned in the bottom-right corner. A small red dot, likely from a laser pointer, is visible near the bottom-left of the table."
+      }
+    },
+    {
+      "slide_id": 42,
+      "slide_section": "results",
+      "t_start": 660.0,
+      "t_end": 668.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 660.0,
+          "image": "slide_42_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Self-Supervised Learning",
+        "layout_description": "The slide features a large, bold main title 'Self-Supervised Learning' at the top-left, followed by a secondary bold heading 'Semi-Supervised learning'. Below these headings are two bullet points; the second bullet point highlights '10% and 1%' in red text. The bottom half of the slide is occupied by a large, detailed table presenting quantitative results. The table is organized into eight columns: Fraction, Models, Accuracy, F1 score, AUROC, AUPRC, Precision, and Recall. The 'Fraction' column is labeled '10%' for the visible rows. The 'Models' column lists various self-supervised methods, grouped into three sections by horizontal lines. Within the table, several numerical values are highlighted in bold red to indicate the best-performing models. A small black box with white text is located in the top-right corner, and the page number '29' is positioned in the bottom-right corner. The overall layout is clean with a white background and moderate text density due to the data-heavy table."
+      }
+    },
+    {
+      "slide_id": 43,
+      "slide_section": "results",
+      "t_start": 668.0,
+      "t_end": 670.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 668.0,
+          "image": "slide_43_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Self-Supervised Learning",
+        "layout_description": "The slide follows a top-down single-column layout. At the top-left, there is a large, bold main title 'Self-Supervised Learning', followed by a secondary heading 'Semi-Supervised learning'. Below these headings, two bullet points describe the experimental setup, with the second bullet highlighting '10% and 1%' in red text. The lower half of the slide contains a large, detailed table presenting quantitative results. The table lists various models in the first column (e.g., Mixup, SimCLR, PatchTST, PITS) and their performance metrics across six columns. The table is divided into three horizontal sections by thin lines, with the '1%' label on the far left indicating the data regime. Some numerical values in the table are highlighted in red to denote the best performance. A small black identification box is located in the top-right corner, and the page number '30' is positioned in the bottom-right corner. The background is plain white, and the text density is moderate to dense due to the extensive numerical data in the table."
+      }
+    },
+    {
+      "slide_id": 44,
+      "slide_section": "results",
+      "t_start": 670.0,
+      "t_end": 675.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 670.0,
+          "image": "slide_44_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Supervised Training",
+        "layout_description": "The slide follows a top-down single-column layout. At the top-left, there is a large, bold title 'Supervised Training'. Below this, a sub-heading 'Supervised training' introduces a list of three bullet points that describe the methodology of performing supervised training and ablation studies on loss terms. The bottom half of the slide is occupied by a large, complex data table. The table is organized by 'Models' (PatchTST and PITS) on the left, followed by columns for loss term configurations ($L^{CS}$ and $L^{CT}$), and then three main sections for datasets: 'GL HAR', 'SleepEEG', and 'PTB ECG'. Each dataset section includes sub-columns for 'Original', 'Permuted', and 'Diff' metrics, with arrows indicating whether higher or lower values are better. Some numerical values in the table are highlighted in red to indicate best performance. A small black box with white text is positioned in the top right corner, and the page number '31' is visible in the bottom right corner. The background is plain white, and the text density is moderate to dense due to the detailed table."
+      }
+    },
+    {
+      "slide_id": 45,
+      "slide_section": "results",
+      "t_start": 675.0,
+      "t_end": 686.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 675.0,
+          "image": "slide_45_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Supervised Training",
+        "layout_description": "The slide follows a top-down single-column structure. At the top-left, there is a large, bold title 'Supervised Training'. Below this, a sub-heading 'Supervised training' introduces a list of three bullet points that describe the experimental procedure, including ablation studies on loss terms. The bottom half of the slide is occupied by a large, complex quantitative table. The table compares two models, 'PatchTST (2022)' and 'PITS (2023)', across three datasets: 'GL HAR', 'SleepEEG', and 'PTB ECG'. For each dataset, it reports 'Original', 'Permuted', and 'Diff' metrics, with arrows indicating the direction of improvement. The table also tracks the inclusion of two loss terms, L^CS and L^CT, using checkmarks and crosses. Significant results are highlighted in red bold text within the table cells. A small black identification box is located in the top-right corner, and the page number '31' is positioned in the bottom-right corner. The background is plain white, and the text density is moderate to dense due to the detailed numerical data."
+      }
+    },
+    {
+      "slide_id": 46,
+      "slide_section": "results",
+      "t_start": 686.0,
+      "t_end": 690.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 686.0,
+          "image": "slide_46_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Supervised Training",
+        "layout_description": "The slide features a large, bold main title 'Supervised Training' at the top-left. Below it, a sub-heading 'Supervised training' introduces a single bullet point that emphasizes 'both time and channel level' in red text. The central content is organized into two side-by-side comparison blocks labeled 'A)' and 'B)'. Section A, 'Patch Embeddings in Time-Level', displays two t-SNE scatter plots side-by-side to compare 'PatchTST' and 'PatchTST + PPT' models, with a shared legend below identifying three time-index ranges by color (teal, yellow, and purple). Section B, 'Patch Embeddings in Channel-Level', follows an identical structure, comparing the same two models with t-SNE plots and a legend identifying 'Accelerometer Sensors' (blue) and 'Force Sensors' (red). Each plot includes a percentage value, with the right-hand plots showing an improvement in red text. A page number '32' is visible in the bottom-right corner, and a small black box with a name is in the top-right corner. The overall text density is moderate, with a focus on visual data visualization."
+      }
+    },
+    {
+      "slide_id": 47,
+      "slide_section": "results",
+      "t_start": 690.0,
+      "t_end": 693.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 690.0,
+          "image": "slide_47_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with title and bullets",
+        "title_text": "Supervised Training",
+        "layout_description": "The slide features a large, bold title 'Supervised Training' at the top-left. Below the title, there is a hierarchical bulleted list with two levels; the second level contains red-colored text for emphasis. The main body of the slide is divided into two side-by-side sections, labeled 'A)' and 'B)', each presenting a comparison of t-SNE visualization plots. Section A, on the left, focuses on 'Patch Embeddings in Time-Level' and contains two scatter plots comparing 'PatchTST' and 'PatchTST + PPT' with a color-coded legend for time indices at the bottom. Section B, on the right, focuses on 'Patch Embeddings in Channel-Level' and similarly compares two scatter plots with a legend for sensor types (Accelerometer vs Force) at the bottom. The background is plain white, and a page number '32' is located in the bottom-right corner. A small black box with a name is in the top-right corner."
+      }
+    },
+    {
+      "slide_id": 48,
+      "slide_section": "results",
+      "t_start": 693.0,
+      "t_end": 704.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 693.0,
+          "image": "slide_48_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and comparison figure",
+        "title_text": "Supervised Training",
+        "layout_description": "The slide follows a clean, single-column layout starting with a large bold title 'Supervised Training' at the top-left. Below the title, there is a bulleted list consisting of one main point and two sub-bullets that explain the visualization's purpose and key findings, with specific text highlighted in red for emphasis. The bottom half of the slide is dominated by a centered figure titled 'Attribution Visualization'. This figure consists of two side-by-side line charts labeled '(A) Cross-Entropy (CE)' and '(B) CE + PPT (Ours)'. Each chart displays a blue time-series signal overlaid on a heatmap that represents attribution importance. To the right of these charts is a vertical color scale bar for 'Normalized Attribution'. The slide has a white background, a small name tag in the top-right corner, and a page number '33' in the bottom-right corner. The text density is light, focusing on the visual comparison."
+      }
+    },
+    {
+      "slide_id": 49,
+      "slide_section": "results",
+      "t_start": 704.0,
+      "t_end": 705.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 704.0,
+          "image": "slide_49_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "mixed layout with text, table, and chart",
+        "title_text": "ACF-CoS",
+        "layout_description": "The slide features a large, bold main title 'ACF-CoS' at the top-left, followed by a secondary bold heading 'Correlation between ACF-CoS and PPT'. Below the heading, there are two bullet points explaining the experimental setup and the key finding of a positive correlation. The bottom portion of the slide is split into two columns: the left column contains a data table titled 'UEA Datasets' with four columns of metrics, while the right column contains a scatter plot. The scatter plot illustrates the relationship between 'Average ACF-CoS' (x-axis) and 'Acc Win (%)' (y-axis), showing blue data points and two regression lines (OLS in blue and RLM in red) with a shaded confidence interval. A small black box with text is positioned in the top-right corner, and the page number '34' is visible in the bottom-right corner. The background is plain white, and the text density is moderate."
+      }
+    },
+    {
+      "slide_id": 50,
+      "slide_section": "results",
+      "t_start": 705.0,
+      "t_end": 726.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 705.0,
+          "image": "slide_50_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with bullets, table, and chart",
+        "title_text": "ACF-CoS",
+        "layout_description": "The slide follows a structured layout with a large bold title 'ACF-CoS' at the top-left and a sub-heading 'Correlation between ACF-CoS and PPT' directly below it. Two bullet points are positioned under the sub-heading, with the second point highlighting 'positive correlation' in red text. The lower half of the slide is split into two main components: a data table on the left and a scatter plot on the right. The table lists various 'UEA Datasets' and their corresponding metrics like 'ACF-CoS', 'Acc. Win%', and 'Max CE / Max PPT'. The scatter plot on the right visualizes the correlation between 'Average ACF-CoS' on the x-axis and 'Acc Win (%)' on the y-axis, featuring blue data points and two regression lines (OLS in blue and RLM in red) with a shaded confidence interval. A small name tag is visible in the top-right corner, and the page number '34' is placed at the bottom-right. The overall text density is moderate, using a clean white background with black and colored accents for emphasis."
+      }
+    },
+    {
+      "slide_id": 51,
+      "slide_section": "conclusion",
+      "t_start": 726.0,
+      "t_end": 735.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 726.0,
+          "image": "slide_51_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and hierarchical bullets",
+        "title_text": "PPT Conclusion",
+        "layout_description": "The slide uses a clean, single-column layout with a white background. A large, bold title 'PPT Conclusion' is aligned to the top-left. The main body of the slide contains three primary bullet points, each followed by one or two indented sub-bullets. Key phrases in the primary bullet points\u2014'order-aware self-supervised method', 'plug-in method', and 'strong performance'\u2014are highlighted in a bold red font for emphasis. The first and second main points each have a single sub-bullet, while the third main point has two. In the top-right corner, there is a small black box with white text indicating the presenter's name. A page number '35' is located at the bottom-right corner. The text density is light, focusing on three main summary points."
+      }
+    },
+    {
+      "slide_id": 52,
+      "slide_section": "conclusion",
+      "t_start": 735.0,
+      "t_end": 748.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 735.0,
+          "image": "slide_52_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and hierarchical bullets",
+        "title_text": "PPT Conclusion",
+        "layout_description": "The slide follows a clean, single-column layout with a white background. A large, bold title 'PPT Conclusion' is placed at the top-left. The main body of the slide contains three primary bullet points, each with one or two indented sub-bullets. Key technical terms and phrases within the primary bullet points\u2014'order-aware self-supervised method', 'plug-in method', and 'strong performance'\u2014are highlighted in a bold red font to draw attention. The sub-bullets provide additional explanatory details for each main point. A small black box with white text is located in the extreme top-right corner, and a page number '35' is positioned in the bottom-right corner. A small red dot, likely a digital laser pointer artifact, is visible in the lower-center area of the slide. The overall text density is light, making the summary points easy to read."
+      }
+    },
+    {
+      "slide_id": 53,
+      "slide_section": "other",
+      "t_start": 748.0,
+      "t_end": 750.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 748.0,
+          "image": "slide_53_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "closing slide",
+        "title_text": "Thank you! Any questions?",
+        "layout_description": "The slide features a minimalist, clean layout on a solid white background. The primary heading, 'Thank you! Any questions?', is set in a large, bold, black sans-serif font and is positioned on the left side of the slide, roughly at the vertical midpoint. Immediately below this heading, the presenter's name 'Jaeho Kim' and their email address 'kjh3690@unist.ac.kr' are displayed in a smaller, standard weight font. In the bottom right corner, there is a prominent blue square logo for UNIST. To the left of the logo, the institution's name is written out in two lines: 'Artificial Intelligence Graduate School (AIGS)' and 'Ulsan National Institute of Science and Technology (UNIST)'. A small page number '36' is located in the bottom right corner. In the top right corner, a small black box contains the name 'Jaeho \uae40\uc7ac\ud638', likely a participant label from a screen recording. The text density is very light, emphasizing the white space."
+      }
+    },
+    {
+      "slide_id": 54,
+      "slide_section": "other",
+      "t_start": 750.0,
+      "t_end": 755.56,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 750.0,
+          "image": "slide_54_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "closing slide",
+        "title_text": "Thank you! Any questions?",
+        "layout_description": "The slide uses a minimalist, single-column layout on a plain white background. The main heading, 'Thank you! Any questions?', is rendered in a large, bold, black sans-serif font and is positioned in the middle-left section of the slide. Immediately below the heading, the presenter's name 'Jaeho Kim' and their email address 'kjh3690@unist.ac.kr' are listed in a smaller font size. In the bottom-right quadrant, the institutional affiliation is provided: 'Artificial Intelligence Graduate School (AIGS)' followed by 'Ulsan National Institute of Science and Technology (UNIST)'. To the right of this text is the official UNIST logo, a blue square containing a stylized white tower and the university's name. A small page number '36' is located in the bottom-right corner. A small black overlay box with the name 'Jaeho \uae40\uc7ac\ud638' appears in the top-right corner, likely from a video recording interface. The overall text density is very light, focusing on contact information and institutional branding."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 749,
+    "gemini_layout_calls": 707,
+    "total_gemini_calls": 1456,
+    "total_frames_sampled": 756,
+    "batch_size": 15
+  }
+}

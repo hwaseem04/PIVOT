@@ -1,0 +1,27 @@
+{
+    "layout_template": "full_fig_with_callouts",
+    "background_color": "#FFFFFF",
+    "layout_regions": {
+        "title": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.9,
+            "h": 0.1
+        },
+        "figure": {
+            "x": 0.05,
+            "y": 0.18,
+            "w": 0.9,
+            "h": 0.45
+        },
+        "bullets": {
+            "x": 0.05,
+            "y": 0.65,
+            "w": 0.9,
+            "h": 0.3
+        }
+    },
+    "has_figure": true,
+    "has_video": false,
+    "style_rationale": "The CycDA Loss is a key component of the architecture. Using a wide figure region at the top allows the horizontal system diagram (Figure 2) to be shown clearly, while the bullets and equations below explain the mathematical formulation and the bidirectional adaptation process."
+}

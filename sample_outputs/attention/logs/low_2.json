@@ -1,0 +1,24 @@
+{
+    "title": "The Encoder-Decoder Transformer Architecture",
+    "audio_content": "The Transformer employs a stacked encoder-decoder architecture with six layers each. Every layer integrates multi-head self-attention and feed-forward networks. Residual connections and layer normalization stabilize the deep stack, while decoder masking ensures the model generates tokens auto-regressively.",
+    "duration_sec": 15.2,
+    "bullets": [
+        "Stacked encoder and decoder with six identical layers",
+        "Multi-head self-attention and position-wise feed-forward networks",
+        "Residual connections and layer normalization stabilize training",
+        "Decoder masking maintains the auto-regressive property"
+    ],
+    "equations": [
+        "Eq. 1: \\mathrm{LayerNorm}(x + \\mathrm{Sublayer}(x))"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 1",
+        "caption": "The Transformer - model architecture overview"
+    },
+    "source": [
+        "Figure 1",
+        "Section 3.1"
+    ],
+    "prompt": "A split-screen layout showing the detailed Transformer architecture diagram from Figure 1 on the left. The right side displays concise bullet points about the encoder-decoder stacks and the layer normalization equation in a clean, academic style."
+}

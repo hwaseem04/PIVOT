@@ -1,0 +1,72 @@
+{
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "FHE-friendly Architecture Redesign",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 4",
+            "caption": "Parallel adapter integration with transformer blocks"
+        },
+        "bullets": [
+            "Approximates Softmax, GELU, and LayerNorm using low-degree polynomial operations",
+            "Uses Taylor series for exponentials and Goldschmidt\u2019s algorithm for division",
+            "Parallel adapters enable local training without backpropagation through the backbone"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "BlindFed replaces non-linearities like Softmax and LayerNorm with polynomial approximations",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 4.6,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "using Taylor series and Goldschmidt\u2019s algorithm.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 9.2,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "A key innovation is the parallel adapter design shown here.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 13.8,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "This structure allows clients to update the model using intermediate representations received from the server, completely bypassing the need for backpropagation through the massive, encrypted backbone.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 18.4
+}

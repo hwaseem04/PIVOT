@@ -1,0 +1,50 @@
+{
+    "paper_title": "View From Above: Orthogonal-View aware Cross-view Localization",
+    "authors": [
+        {
+            "name": "Shan Wang",
+            "affiliation_id": 1
+        },
+        {
+            "name": "Chuong Nguyen",
+            "affiliation_id": 1
+        },
+        {
+            "name": "Jiawei Liu",
+            "affiliation_id": 2
+        },
+        {
+            "name": "Yanhao Zhang",
+            "affiliation_id": 2
+        },
+        {
+            "name": "Sundaram Muthu",
+            "affiliation_id": 1
+        },
+        {
+            "name": "Fahira Afzal Maken",
+            "affiliation_id": 1
+        },
+        {
+            "name": "Kaihao Zhang",
+            "affiliation_id": 2
+        },
+        {
+            "name": "Hongdong Li",
+            "affiliation_id": 2
+        }
+    ],
+    "affiliations": [
+        {
+            "id": 1,
+            "name": "Data61, CSIRO",
+            "email_domain": ""
+        },
+        {
+            "id": 2,
+            "name": "Australian National University",
+            "email_domain": ""
+        }
+    ],
+    "venue": "CVPR 2024"
+}

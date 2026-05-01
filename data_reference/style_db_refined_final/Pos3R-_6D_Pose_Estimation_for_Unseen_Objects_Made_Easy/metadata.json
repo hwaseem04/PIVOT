@@ -1,0 +1,317 @@
+{
+  "video_id": "Pos3R- 6D Pose Estimation for Unseen Objects Made Easy",
+  "duration": 177.17,
+  "fps_sampled": 1.0,
+  "total_slides": 15,
+  "slides_with_builds": 3,
+  "total_build_steps": 18,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "introduction",
+      "t_start": 0.0,
+      "t_end": 40.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 28.0,
+          "image": "slide_1_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "6D OBJECT POSE ESTIMATION",
+        "layout_description": "The slide follows a minimalist single-column layout on a plain white background. The title is centered at the top in all-capital letters with wide character spacing. Below the title, the content is structured as a hierarchical list. A main bullet point, indicated by a square icon, introduces the 'Task Definition'. Beneath this, two sub-bullet points with circular icons are indented to provide further explanation. The first sub-bullet discusses the adaptability of training-free pipelines, while the second defines model-based 6D localization. The text is set in a clean sans-serif font, and the overall text density is light, leaving a large amount of empty space in the lower half of the slide. A faint watermark is visible in the top-left corner."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 40.0,
+      "t_end": 45.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 40.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column comparison layout",
+        "title_text": "Why Use a 3 D Foundation Model?",
+        "layout_description": "The slide uses a two-column layout with a large, spaced-out title positioned in the top right corner. A thin vertical line separates the left and right content areas. The left column features a 3D diagram showing a 'Domino Sugar' box relative to a camera and a pink image plane, with dashed arrows and circular icons illustrating 'In-plane rotation' and 'Out-of-plane rotation'. The right column contains a comparison of feature matching results. At the top of this section, two pairs of images show the sugar box under different rotations, with red lines connecting matched points; these are labeled 'In-plane rotation' and 'Out-of-plane rotation' at the top, and 'DINOv2' vertically on the left. Below these images is a single bullet point providing a textual explanation of the visual results. A faint 'PICTORY.AI' watermark is visible in the top left background. The overall text density is moderate, balancing diagrams with descriptive labels and a summary sentence."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 45.0,
+      "t_end": 85.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 45.0,
+          "image": "slide_3_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 56.0,
+          "image": "slide_3_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Why Use a 3D Foundation Model?",
+        "layout_description": "The slide uses a two-column comparison layout with a prominent title at the top right. The left column features a diagram explaining geometric concepts, showing a camera viewing a 3D object (a box of sugar) with dashed arrows indicating 'In-plane rotation' and 'Out-of-plane rotation' axes. A vertical line separates this from the right column, which contains a 2x2 grid of qualitative comparison images. The rows of the grid are labeled 'DINOv2' and 'MASt3R', while the columns are labeled 'In-plane rotation' and 'Out-of-plane rotation'. These images show point correspondences between two views of the object, using red lines for DINOv2 and dense green lines for MASt3R. At the bottom right, a single bullet point provides a summary statement. A faint 'PICTORY.AI' watermark is visible in the top left background. The text density is moderate, with a heavy emphasis on visual diagrams and comparative figures."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "method",
+      "t_start": 85.0,
+      "t_end": 90.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 85.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and sub-heading",
+        "title_text": "P o s 3 R",
+        "layout_description": "The slide features a centered main title 'P o s 3 R' at the top, followed by a left-aligned sub-heading 'Step 1: Template Rendering'. The central content is a horizontal flow diagram. On the left, a 3D CAD model of a watering can is shown inside a blue wireframe bounding box with red, green, and blue coordinate axes. An arrow labeled '1) rendering' points from this CAD model to a light blue rounded rectangular container on the right. This container holds a sequence of five black-and-white rendered images showing the watering can in various orientations, with an ellipsis indicating more images. Below this container, the text 'forty templates' is centered. At the bottom of the slide, there are two bullet points in italics that explain the template generation process: one regarding eight base templates and another regarding five in-plane rotations for each. The background is white with a faint watermark in the top-left corner, and the overall text density is light."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "method",
+      "t_start": 90.0,
+      "t_end": 103.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 90.0,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and sub-heading",
+        "title_text": "P o s 3 R",
+        "layout_description": "The slide has a centered main title 'P o s 3 R' at the top, followed by a sub-heading 'Step 1: Template Rendering' aligned to the top-left. The middle section contains a horizontal diagram showing the rendering process: on the left, a CAD model of a watering can is shown inside a blue wireframe bounding box with RGB axes; an arrow labeled '1) rendering' points to a sequence of five rendered images of the watering can in different orientations. These images are contained within a light blue rounded rectangle, with the text 'forty templates' centered underneath. At the bottom of the slide, there are two bullet points centered horizontally that describe the template generation logic. The background is white, and there is a faint watermark in the top-left corner. The overall text density is light, focusing on the visual diagram."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 103.0,
+      "t_end": 105.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 103.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and sub-heading",
+        "title_text": "P o s 3 R",
+        "layout_description": "The slide features a centered main title 'P o s 3 R' at the top, followed by a sub-heading 'Step 2: Image Matching' aligned to the top-left. The middle section contains a visual diagram illustrating the image matching process. On the left, there is a small image of a pinkish 3D object segment labeled 'test segment*'. A blue arrow labeled '2) image matching' points from this segment to a larger image on the right, which displays '2D-2D correspondence' between two views of a watering can using yellow lines and colored dots. A small, gray-text footnote is placed below the left image. At the bottom of the slide, there are two left-aligned bullet points in italics that describe the functionality of 'MASt3R' and how similarity is computed. The background is white with a faint watermark in the top-left corner, and the text density is moderate."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 105.0,
+      "t_end": 122.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 105.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and sub-heading",
+        "title_text": "P o s 3 R",
+        "layout_description": "The slide features a centered main title 'P o s 3 R' at the top, followed by a sub-heading 'Step 2: Image Matching' aligned to the top-left. The middle section contains a visual diagram illustrating the image matching process. On the left, there is a small image of a pinkish 3D object segment labeled 'test segment*'. A blue arrow labeled '2) image matching' points from this segment to a larger image on the right, which displays '2D-2D correspondence' between two views of a watering can using yellow lines and colored dots. A small, gray-text footnote is placed below the left image. At the bottom of the slide, there are two left-aligned bullet points in italics that describe the functionality of 'MASt3R' and how similarity is computed. The background is white with a faint watermark in the top-left corner, and the text density is moderate."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 122.0,
+      "t_end": 135.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 122.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central diagram",
+        "title_text": "Pos3R\nStep 3: Pose Fitting",
+        "layout_description": "The slide follows a top-down structure. At the very top, the main title 'Pos3R' is centered in a large, spaced-out font. Below it, a secondary heading 'Step 3: Pose Fitting' is left-aligned. The middle section contains a horizontal process diagram. On the left, a light-colored box groups three images: two showing '2D-2D correspondence' with yellow lines connecting feature points on a watering can, and one 'coordinate map' showing the same object in a multi-colored gradient. A blue arrow labeled '3) PnP-RANSAC' points from this group to a final image on the right, which shows the '6-DoF Pose' as a green 3D bounding box overlaid on a real-world photo of the object. At the bottom of the slide, two bullet points are left-aligned, providing explanatory text for the visual process. The overall background is white, and a faint watermark is visible in the top-left corner."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 135.0,
+      "t_end": 141.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 135.0,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Pos3R\nStep 3: Pose Fitting",
+        "layout_description": "The slide is organized with a centered main title 'Pos3R' at the top and a left-aligned subtitle 'Step 3: Pose Fitting' directly below it. The middle section features a horizontal process diagram. On the left, a light-colored rounded box contains three sub-images: two showing '2D-2D correspondence' with yellow lines connecting feature points between two views of a teapot, and one showing a 'coordinate map' with a rainbow-colored gradient over the teapot's surface. A blue arrow labeled '3) PnP-RANSAC' points from this box to a final image on the right, which displays a '6-DoF Pose' represented by a green 3D bounding box around an object in a real-world scene. At the bottom of the slide, there are two left-aligned bullet points providing explanatory text. The overall background is white, and a faint watermark 'VIDEO MADE WITH PICTORY.AI' is visible in the top-left corner. The text density is light, focusing on visual flow."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "experiments",
+      "t_start": 141.0,
+      "t_end": 150.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 141.0,
+          "image": "slide_10_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 149.0,
+          "image": "slide_10_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with centered title and figure",
+        "title_text": "EXPERIMENTS",
+        "layout_description": "The slide follows a top-down single-column layout on a plain white background. At the very top, the main title 'EXPERIMENTS' is centered in large, spaced-out capital letters. Directly below it, a left-aligned subtitle reads 'Performance Comparison on the BOP Challenge'. The middle section of the slide is dominated by a large grouped bar chart comparing four different methods: MegaPose, Gigapose, FoundPose, and Pos3R. The chart uses a light green color for 'Coarse Pose Estimation' and a dark teal color for 'With Pose Estimation', with numerical values labeled on top of each bar. The y-axis is labeled 'Mean AR score'. At the bottom of the slide, there are two left-aligned bullet points in an italicized font that provide a summary of the results shown in the chart. A faint watermark 'VIDEO MADE WITH PICTORY.AI' is visible in the top-left corner."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "experiments",
+      "t_start": 150.0,
+      "t_end": 154.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 150.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "EXPERIMENTS",
+        "layout_description": "The slide follows a top-down single-column structure. At the very top, the main title 'EXPERIMENTS' is centered in a large, all-caps, spaced-out font. Directly below it, a left-aligned subtitle reads 'Performance Comparison on the BOP Challenge'. The middle section of the slide is dominated by a large grouped bar chart. This chart compares four different methods (MegaPose, Gigapose, FoundPose, and Pos3R) across two metrics: 'Coarse Pose Estimation' (represented by light green bars) and 'With Pose Estimation' (represented by dark teal bars). The y-axis is labeled 'Mean AR score' and ranges from 0.0 to 75.0, with specific data values labeled on top of each bar. A legend for these categories is centered above the chart. At the bottom of the slide, there are two left-aligned bullet points in an italicized font that provide a summary of the results shown in the chart. The background is plain white, and a faint watermark is visible in the top-left corner."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "experiments",
+      "t_start": 154.0,
+      "t_end": 165.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 154.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with image grid",
+        "title_text": "EXPERIMENTS",
+        "layout_description": "The slide features a large, centered, all-caps title 'EXPERIMENTS' at the top. The main content is organized into two columns. The left column consists of a 4x4 grid of sixteen images showing qualitative results of 3D object pose estimation across different scenarios. Each row in this grid is labeled on the far left with a dataset name: 'YCBV', 'LM-O', 'IC-BIN', and 'T-LESS'. The images display various objects with overlaid 3D wireframe bounding boxes. The right column contains two bullet points in an italicized font; the first describes the robustness of the 'Pos3R' method, and the second identifies 'heavy occlusion' as a limitation. At the bottom left, below the image grid, a legend explains the color coding: 'blue indicates ground truth; green indicates the estimate', with the words 'blue' and 'green' highlighted in their respective colors. The background is white, and there is a faint watermark in the top-left corner."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "experiments",
+      "t_start": 165.0,
+      "t_end": 173.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 165.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with image grid",
+        "title_text": "EXPERIMENTS",
+        "layout_description": "The slide uses a two-column layout with a large centered title 'EXPERIMENTS' at the top, rendered in a bold, all-caps, sans-serif font with wide character spacing. The left column is dominated by a 4x4 grid of images showing qualitative results of 3D object pose estimation. Each row in the grid is labeled on the far left with a dataset name: YCBV, LM-O, IC-BIN, and T-LESS. The images within the grid feature 3D bounding boxes in blue and green. Directly below the grid on the left, a legend in a smaller font clarifies that 'blue indicates ground truth; green indicates the estimate'. The right column contains two bullet points: the first describes the robustness of the 'Pos3R' method to crowding and lighting, while the second highlights a limitation regarding heavy occlusion, emphasized with a red '(X)'. The overall design is clean with a white background and moderate text density, focusing primarily on visual evidence."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "other",
+      "t_start": 173.0,
+      "t_end": 177.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 173.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "PROJECT PAGE",
+        "layout_description": "The slide uses a two-column layout on a clean white background. The left side is occupied by a full-sized research poster titled 'Pos3R: 6D Pose Estimation for Unseen Objects Made Easy,' which contains dense information organized into four numbered sections with blue headers. This poster includes hierarchical bullet points, several diagrams of 3D objects with correspondence lines, a bar chart, and a grid of qualitative result images. The right side of the slide features a large, prominent QR code with a small dinosaur icon in the center. Above the QR code, the title 'PROJECT PAGE' is displayed in a large, spaced-out, bold sans-serif font. Below the QR code, a smaller caption reads 'Paper, code, and datasets.' The overall text density is high because an entire poster is embedded on the left, while the right side remains relatively minimalist and focused on the call-to-action."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "other",
+      "t_start": 177.0,
+      "t_end": 177.17,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 177.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered title layout",
+        "title_text": "THANK YOU!",
+        "layout_description": "This slide features a minimalist, single-column layout with a plain white background. The central focus is the text 'THANK YOU!' written in a bold, black, sans-serif font, positioned in the middle of the slide. A faint, light-gray watermark is visible in the top-left corner, which reads 'VIDEO MADE WITH PICTORY.AI'. There are no other visual elements such as bullet points, figures, equations, or page numbers, resulting in an extremely light text density."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 284,
+    "gemini_layout_calls": 276,
+    "total_gemini_calls": 560,
+    "total_frames_sampled": 178,
+    "batch_size": 15
+  }
+}

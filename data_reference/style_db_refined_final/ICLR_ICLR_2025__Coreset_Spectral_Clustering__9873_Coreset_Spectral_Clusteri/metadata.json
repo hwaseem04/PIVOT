@@ -1,0 +1,475 @@
+{
+  "video_id": "ICLR_ICLR 2025_ Coreset Spectral Clustering__9873_Coreset_Spectral_Clusteri",
+  "duration": 301.44,
+  "fps_sampled": 1.0,
+  "total_slides": 17,
+  "slides_with_builds": 10,
+  "total_build_steps": 44,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 8.72,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Coreset Spectral Clustering",
+        "layout_description": "This is a title slide with a clean, centered layout on a white background. At the top center, the ICLR conference logo is displayed, featuring a stylized head icon composed of digital nodes and the 'ICLR' text. The main title, 'Coreset Spectral Clustering', is prominently centered inside a large rounded rectangular box with a thin black border. Below the title, within the same box, the authors' names\u2014Ben Jourdan, Gregory Schwartzman, Peter Macgregor, and He Sun\u2014are listed, with the first author's name underlined. The bottom section of the slide features three institutional logos arranged horizontally: The University of Edinburgh on the left, the University of St Andrews in the center, and the Japan Advanced Institute of Science and Technology (JAIST) on the right. The text density is light, focusing on key identifying information."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 8.72,
+      "t_end": 14.54,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 8.72,
+          "image": "slide_2_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 9.69,
+          "image": "slide_2_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and full-screen figure",
+        "title_text": "Spectral Clustering",
+        "layout_description": "The slide follows a clean, minimalist layout with a white background. At the top-left, the title 'Spectral Clustering' is displayed in a large, black sans-serif font, underlined by a thin orange horizontal bar that stretches across the entire width. The main body of the slide is dominated by a large, centered graph visualization. This diagram depicts three distinct, dense clusters of grey nodes interconnected by numerous internal edges, with fewer edges connecting the clusters to one another. At the bottom of the slide, a second thin orange horizontal line separates the main content from a footer. The footer contains the phrase 'Coreset Spectral Clustering' on the left and a list of four authors\u2014'Ben Jourdan, Gregory Schwartzman, Peter Macgregor, He Sun'\u2014on the right. The text density is light, prioritizing the visual graph representation over textual information."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "method",
+      "t_start": 14.54,
+      "t_end": 59.13,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 14.54,
+          "image": "slide_3_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 30.05,
+          "image": "slide_3_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 42.65,
+          "image": "slide_3_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Spectral Clustering",
+        "layout_description": "The slide uses a clean two-column layout with a white background, framed by thin orange horizontal lines at the top and bottom. The title 'Spectral Clustering' is placed at the top-left in a large, black sans-serif font. The left column contains mathematical content, including definitions for the adjacency matrix 'A' and the degree matrix 'D', followed by a numbered step '1. Construct Laplacian' with the formula for the normalized Laplacian. The right column features a large, complex network graph visualization that illustrates three distinct clusters of nodes connected by sparse edges. A footer at the bottom contains the text 'Coreset Spectral Clustering' on the left and a list of four author names (Ben Jourdan, Gregory Schwartzman, Peter Macgregor, He Sun) on the right. The overall text density is moderate, with a clear focus on the relationship between the mathematical formulas and the visual graph representation."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 59.13,
+      "t_end": 72.7,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 59.13,
+          "image": "slide_4_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 60.1,
+          "image": "slide_4_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 61.07,
+          "image": "slide_4_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "Motivation",
+        "layout_description": "The slide has a clean, minimalist layout with a large title 'Motivation' positioned at the top-left. A thin orange horizontal line spans the width of the slide just below the title. The main content area contains a single line of text on the left side that reads 'Spectral Clustering is slow'. To the right of this text is a large, complex graph diagram showing three distinct clusters of nodes (represented as small grey circles) interconnected by numerous thin black lines. The background is plain white. At the bottom of the slide, another orange horizontal line separates the main content from a footer. The footer includes the phrase 'Coreset Spectral Clustering' on the far left and a list of four author names ('Ben Jourdan, Gregory Schwartzman, Peter Macgregor, He Sun') on the far right. The overall text density is light, emphasizing a single motivational point through a visual representation of a complex graph."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "introduction",
+      "t_start": 72.7,
+      "t_end": 92.09,
+      "num_builds": 6,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 72.7,
+          "image": "slide_5_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 74.64,
+          "image": "slide_5_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 78.52,
+          "image": "slide_5_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 79.49,
+          "image": "slide_5_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 84.33,
+          "image": "slide_5_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 85.3,
+          "image": "slide_5_build_5.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title and footer",
+        "title_text": "Motivation",
+        "layout_description": "The slide follows a clean, two-column structure with a prominent title 'Motivation' at the top left, separated from the body by a thin orange horizontal line. The left column contains text-based content, starting with the header 'Spectral Clustering is slow' followed by a three-item bulleted list. The first two bullets, 'Sparsification: Fewer edges' and 'Fewer Eigenvectors', are accompanied by small green checkmarks, while the third bullet, 'Fewer Nodes ?', poses a question. The right column features a simple scatter plot showing three distinct clusters of small gray circular nodes. At the bottom of the slide, another orange horizontal line separates the main content from a footer. The footer includes the project title 'Coreset Spectral Clustering' on the left and a list of four author names on the right. The overall design is minimalist with light text density and ample white space."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 92.09,
+      "t_end": 101.78,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 92.09,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and footer",
+        "title_text": "Weighted Kernel K-means",
+        "layout_description": "The slide follows a minimalist single-column layout with a large white central area. At the top left, the title 'Weighted Kernel K-means' is displayed in a black sans-serif font, underlined by a thin horizontal orange bar that spans the entire width of the slide. The main body of the slide is currently empty, suggesting it is a placeholder or a section header. At the bottom, another thin horizontal orange bar separates the content area from the footer. The footer contains the presentation title 'Coreset Spectral Clustering' on the far left and a list of four authors ('Ben Jourdan, Gregory Schwartzman, Peter Macgregor, He Sun') on the far right. The overall text density is very light, with a clean white background."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 101.78,
+      "t_end": 163.82,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 101.78,
+          "image": "slide_7_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 102.75,
+          "image": "slide_7_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 103.72,
+          "image": "slide_7_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Weighted Kernel K-means",
+        "layout_description": "The slide uses a two-column layout with a large, bold title at the top-left, separated from the main content by a thin orange horizontal line. The left column features a scatter plot showing three clusters of gray dots, with each cluster containing a colored triangle (green, orange, and blue) representing a centroid. The right column contains text and mathematical equations. It begins with the heading 'Kernel Trick for distances', followed by a centered block of equations that define the squared distance in a feature space using inner products and the kernel function. Below the equations, a single line of text lists examples such as 'Radial Basis Functions' and 'edit distance similarity'. A matching orange horizontal line is positioned at the bottom of the slide, above a footer that displays the project title 'Coreset Spectral Clustering' on the left and the names of four authors on the right. The slide has a white background and a moderate text density."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 163.82,
+      "t_end": 174.48,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 163.82,
+          "image": "slide_8_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 170.61,
+          "image": "slide_8_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 171.58,
+          "image": "slide_8_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "connection layout",
+        "title_text": "The Connection (Dhillon et al. 2004)",
+        "layout_description": "The slide uses a minimalist connection layout on a plain white background. A large black title is positioned at the top-left, separated from the main content by a thin, full-width orange horizontal line. The central content consists of two text blocks: '\"Normalised Cut\" Problem' on the left and 'Weighted Kernel K-Means Problem' on the right. These two concepts are linked by a horizontal, green double-headed arrow centered between them, signifying a theoretical equivalence or connection. The lower half of the slide is largely empty, creating a very light text density. A footer at the bottom contains the presentation title 'Coreset Spectral Clustering' on the left and a list of four authors on the right, separated by a thin grey line from the main body."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 174.48,
+      "t_end": 192.9,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 174.48,
+          "image": "slide_9_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 182.24,
+          "image": "slide_9_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "The Connection (Dhillon et al. 2004)",
+        "layout_description": "The slide uses a clean, minimalist layout to illustrate a theoretical relationship. A large, bold title is positioned at the top-left, underlined by a thin red horizontal accent bar that spans the width of the slide. The central content consists of two text labels, '\"Normalised Cut\" Problem' on the left and 'Weighted Kernel K-Means Problem' on the right, connected by a horizontal double-headed green arrow indicating equivalence. Below this, a light green rounded rectangular box contains a right-pointing green arrow and two mathematical equations: 'K := D^{-1}AD^{-1}' and 'W := D'. A matching thin red horizontal line sits at the bottom of the slide, above a footer that displays 'Coreset Spectral Clustering' on the left and a list of four authors on the right. The overall text density is light, utilizing significant white space to emphasize the connection between the concepts."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 192.9,
+      "t_end": 203.57,
+      "num_builds": 5,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 192.9,
+          "image": "slide_10_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 194.84,
+          "image": "slide_10_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 197.75,
+          "image": "slide_10_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 198.72,
+          "image": "slide_10_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 202.6,
+          "image": "slide_10_build_4.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title and footer",
+        "title_text": "Our Algorithm",
+        "layout_description": "The slide uses a clean, minimalist layout with a large bold title 'Our Algorithm' at the top left. A thin orange horizontal line separates the title from the main content area. The content is split into two parts: the left side contains a numbered list with two items, where the second item is highlighted in orange to match the accent color. The right side features a diagram labeled 'Kernel Space' in orange text, showing three distinct clusters of gray circular points of varying sizes. Another thin orange horizontal line is positioned at the bottom of the slide, above a footer. The footer includes the project title 'Coreset Spectral Clustering' on the left and a list of four authors on the right. The background is plain white, and the overall text density is light."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 203.57,
+      "t_end": 231.68,
+      "num_builds": 7,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 203.57,
+          "image": "slide_11_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 205.5,
+          "image": "slide_11_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 206.47,
+          "image": "slide_11_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 209.38,
+          "image": "slide_11_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 210.35,
+          "image": "slide_11_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 215.2,
+          "image": "slide_11_build_5.jpg"
+        },
+        {
+          "build_id": 6,
+          "timestamp": 216.17,
+          "image": "slide_11_build_6.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Our Algorithm",
+        "layout_description": "The slide uses a two-column layout with a prominent title at the top-left, separated from the main content by a thin orange horizontal line. The left column contains a numbered list of five steps, where the first four are in black and the final step is highlighted in a light orange/coral color. The right column features a large diagram labeled 'Kernel Space' in red text. This diagram depicts three clusters of circles in red, green, and blue, with a central triangle in each cluster representing a centroid. The circles vary in size, and faint lines connect various points across the clusters. A matching orange horizontal line at the bottom creates a footer area, which includes the slide title 'Coreset Spectral Clustering' on the left and the names of four authors on the right. The background is white, and the text density is moderate."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "results",
+      "t_start": 231.68,
+      "t_end": 232.65,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 231.68,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and footer",
+        "title_text": "Our Results",
+        "layout_description": "The slide follows a minimalist single-column layout with a clear header and footer. The title 'Our Results' is positioned at the top-left in a black sans-serif font, underlined by a thin orange horizontal bar that spans the full width of the slide. The main body of the slide is currently a large, blank white area, likely intended for future content such as graphs or tables. At the bottom, a second thin orange horizontal line separates the content area from the footer. The footer contains the project title 'Coreset Spectral Clustering' on the bottom-left and a list of four authors\u2014'Ben Jourdan, Gregory Schwartzman, Peter Macgregor, He Sun'\u2014on the bottom-right. The overall design is very clean with a light text density and a white background."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "results",
+      "t_start": 232.65,
+      "t_end": 260.76,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 232.65,
+          "image": "slide_13_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 234.58,
+          "image": "slide_13_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 245.25,
+          "image": "slide_13_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and footer",
+        "title_text": "Our Results",
+        "layout_description": "The slide features a clean, single-column layout with a prominent title 'Our Results' in the top-left corner, underlined by a thin orange horizontal bar. The main content area is centered but appears cluttered due to overlapping text layers, possibly from a transition effect. A large, semi-transparent heading 'Fast coreset algorithm for sparse kernels' sits in the middle. Above and below it, text describes an improved running time from O(nk) to a new complexity involving n, k, and d_avg, as well as an approximation ratio for the 'Normalised Cut' problem. In the lower half, two nested rounded rectangular boxes provide definitions for the mathematical variables used (alpha, n, epsilon, k, and d_avg). A second orange horizontal line at the bottom separates the content from a footer, which contains the project title 'Coreset Spectral Clustering' on the left and the names of four authors on the right. The background is plain white, and the text density is moderate."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "experiments",
+      "t_start": 260.76,
+      "t_end": 261.73,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 260.76,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and footer",
+        "title_text": "Experiments",
+        "layout_description": "The slide features a minimalist single-column layout with a prominent title and a structured footer. At the top-left, the heading 'Experiments' is written in a black sans-serif font, underlined by a thin horizontal orange bar that stretches across the slide's width. The main body of the slide is currently empty, providing a large white space for content. At the bottom, a second horizontal orange line separates the content area from the footer. The footer contains the presentation title 'Coreset Spectral Clustering' on the far left and a list of four authors ('Ben Jourdan, Gregory Schwartzman, Peter Macgregor, He Sun') on the far right. The overall design is clean with very low text density and a simple white background accented by orange lines."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "results",
+      "t_start": 261.73,
+      "t_end": 288.87,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 261.73,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with three charts",
+        "title_text": "Experiments",
+        "layout_description": "The slide features a large, bold title 'Experiments' at the top-left, underlined by a thin orange horizontal line that spans the width of the slide. Below this, three line charts are arranged side-by-side in a single row, each with its own title: 'Running time', 'ARI', and 'Normalised cut'. Each chart plots a metric against 'Coreset size' on the x-axis and includes multiple colored lines with shaded error regions. Beneath the charts, a horizontal legend identifies four algorithms: 'Coreset Spectral Clustering' (blue), 'Fast Coreset Spectral Clustering' (yellow), 'Coreset Kernel k-means' (green), and 'Spectral Clustering' (black). A centered caption below the legend reads 'Results on Pendigits 250-nearest neighbour graph'. The slide concludes with a footer separated by another thin orange line, containing the presentation title on the left and a list of four authors on the right. The overall design is clean with a white background and moderate text density, focusing on quantitative data visualization."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "experiments",
+      "t_start": 288.87,
+      "t_end": 290.81,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 288.87,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and code blocks",
+        "title_text": "Code",
+        "layout_description": "The slide features a clean, minimalist layout with a white background and orange accent lines. At the top-left, the title 'Code' is displayed in a large black font, underlined by a thin orange horizontal line that spans the entire width of the slide. Below this line, the content is organized vertically. First, there is an installation instruction consisting of the text 'Install with' followed by a small rounded rectangular box containing a pip install command. Centered below this is a large rounded rectangular box containing a Python code snippet with syntax highlighting (purple for keywords, green for comments). Underneath the code box, a GitHub repository URL is provided. The slide ends with a footer separated by another thin orange horizontal line; the footer contains the presentation title 'Coreset Spectral Clustering' on the left and a list of four authors on the right. The text density is light, focusing on clear, actionable implementation details."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "experiments",
+      "t_start": 290.81,
+      "t_end": 301.44,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 290.81,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Code",
+        "layout_description": "The slide features a clean, minimalist layout with a white background and thin orange horizontal lines at the top and bottom. The title 'Code' is located at the top-left in a large, black sans-serif font. Below the top accent line, the text 'Install with' is followed by a small rounded rectangular box containing the command 'pip install coreset-sc'. Centered in the middle of the slide is a larger rounded rectangular box containing a Python code snippet. This code demonstrates importing the 'CoresetSpectralClustering' class, initializing it with parameters, and calling 'fit_predict' on a sparse matrix. The code uses syntax highlighting with purple for keywords and green for comments. Below this main code block, a GitHub repository URL is centered. The footer area, below the bottom orange line, contains the text 'Coreset Spectral Clustering' on the left and a list of four authors on the right. The overall text density is light, prioritizing readability of the code examples."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 813,
+    "gemini_layout_calls": 792,
+    "total_gemini_calls": 1605,
+    "total_frames_sampled": 311,
+    "batch_size": 15
+  }
+}

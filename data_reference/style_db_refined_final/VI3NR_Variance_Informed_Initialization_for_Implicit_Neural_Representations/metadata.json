@@ -1,0 +1,597 @@
+{
+  "video_id": "VI3NR Variance Informed Initialization for Implicit Neural Representations",
+  "duration": 292.02,
+  "fps_sampled": 1.0,
+  "total_slides": 30,
+  "slides_with_builds": 2,
+  "total_build_steps": 32,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 1.0,
+      "t_end": 7.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 1.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "VI\u00b3NR: Variance Informed Initialization for Implicit Neural Representations",
+        "layout_description": "This is a title slide with a clean white background. At the top, logos for the Australian National University and 'PR' are positioned on the left, while the ROBLOX logo is on the right. The main title is centered in a large, bold black font. Below the title, the names of the four authors are listed in a single line in a reddish-brown color. Underneath the author names, four circular headshot portraits of the authors are arranged in a horizontal row across the bottom half of the slide. A small footnote at the bottom-left corner indicates '*Equal contribution' in the same reddish-brown color as the author names. The slide has a light text density and a balanced, symmetrical composition."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 7.0,
+      "t_end": 15.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 7.0,
+          "image": "slide_2_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 9.0,
+          "image": "slide_2_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Problem statement: Weight initialization",
+        "layout_description": "The slide follows a clean, centered single-column layout. A large title is positioned at the top, underlined by a thin horizontal black line that spans the width of the slide. The central focus is a diagram consisting of a light blue rounded rectangle labeled 'MLP'. Three pink arrows point towards and away from this block: an input 'x' from the left, a parameter 'theta' from the top, and an output function 'Phi(x; theta)' to the right. Mathematical notation is used for these variables. Above the diagram, the text 'How to initialize theta?' is centered. Below the diagram, two lines of text state the objective: 'We want stable variance!' followed by '(in both the forward and backward pass at initialization)' in parentheses. The background is plain white, and a small page number '2' is visible in the bottom right corner. The text density is light, focusing on a single conceptual diagram."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 15.0,
+      "t_end": 19.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered diagram",
+        "title_text": "Problem statement: Weight initialization",
+        "layout_description": "The slide has a clean, white background with a large, centered title at the top, underlined by a thin horizontal line that spans the width of the slide. The main content is centered and features a diagram of a Multi-Layer Perceptron (MLP). The MLP is represented by a light blue rounded rectangle with 'MLP' written in white bold text. Three pink arrows indicate the flow of data: an input 'x' from the left, a parameter 'theta' from the top, and an output 'Phi(x; theta)' to the right. Above the diagram, the text 'How to initialize theta?' is centered. Below the diagram, the slide emphasizes the goal with the text 'We want stable variance!' followed by a parenthetical note at the bottom: '(in both the forward and backward pass at initialization)'. A small page number '2' is visible in the bottom right corner. The text density is light, focusing on a clear conceptual illustration."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "method",
+      "t_start": 19.0,
+      "t_end": 30.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 19.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Init for Tanh with Xavier",
+        "layout_description": "The slide follows a clean, centered layout on a white background. A large, left-aligned title is positioned at the top, underlined by a thin black horizontal line that spans the width of the slide. The main content is organized vertically in the center. At the top of the content area, the activation function is defined as 'f = tanh'. Below this, a simple diagram features a light blue rounded rectangle labeled 'MLP' in white bold text. Pink arrows indicate the flow of information: an input 'x' from the left, a parameter 'theta' from the top, and an output 'Phi(x; theta)' to the right. At the bottom of the slide, a centered mathematical expression defines the Xavier initialization for the forward pass. A small page number '3' is visible in the bottom right corner. The slide has a light text density and uses a simple color palette of black, white, light blue, and pink."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "method",
+      "t_start": 30.0,
+      "t_end": 38.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 30.0,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Init for Tanh with Xavier",
+        "layout_description": "The slide follows a clean, centered layout on a white background. A black title is positioned at the top-left, separated from the main content by a thin horizontal line that spans the entire width. The central content consists of three main parts arranged vertically. At the top, the text 'Activation function: f = tanh' is centered. Below this is a simple diagram featuring a light blue rounded rectangle labeled 'MLP' in white. Three pink arrows interact with this box: a horizontal arrow from the left labeled 'x', a vertical arrow from the top labeled 'theta', and a horizontal arrow pointing right to the output 'Phi(x; theta)'. At the bottom, a centered mathematical expression defines the 'Xavier initialization (forward pass)' as 'sigma^2(W_i) = 1/M_i'. The slide has a light text density and includes a small page number '3' in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 38.0,
+      "t_end": 45.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 38.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with centered diagram",
+        "title_text": "Init for Tanh with Xavier / ReLU with Kaiming",
+        "layout_description": "The slide features a single-column layout with a title at the top left, separated from the main content by a thin horizontal line. The central focus is a diagram of a Multi-Layer Perceptron (MLP) represented by a light blue rounded rectangle. Three pink arrows indicate data flow: an input 'x' from the left, a parameter 'theta' from the top, and an output 'Phi(x; theta)' to the right. Above the diagram, the activation function is defined, and below it, an initialization formula is provided. Notably, the slide contains significant overlapping text, likely due to a transition effect between 'Tanh with Xavier' and 'ReLU with Kaiming' configurations. The background is plain white, and a page number '3' is visible in the bottom right corner. The overall text density is moderate but appears cluttered because of the superimposed layers."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 45.0,
+      "t_end": 56.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 45.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with centered diagram",
+        "title_text": "Init for any activation with Pytorch",
+        "layout_description": "The slide follows a single-column layout with a clear horizontal divider below the title. The title 'Init for any activation with Pytorch' is located at the top left, with some overlapping ghosted text. The central focus is a diagram featuring a light blue rounded rectangle labeled 'MLP'. Pink arrows show inputs 'x' from the left and 'theta' from the top, leading to an output 'Phi(x; theta)' on the right. Above this diagram, the text 'Activation function: f = ReLU' is displayed. Below the diagram, a mathematical formula for 'PyTorch initialization (forward pass)' is shown, which defines the variance of weights using a gain function and a scaling factor. The slide has a white background, minimal text, and a page number '5' in the bottom right corner. Some elements, particularly the title and the bottom equation, exhibit ghosting or overlapping text from a previous or subsequent frame."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 56.0,
+      "t_end": 60.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 56.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "What about other activation functions?",
+        "layout_description": "The slide features a large, left-aligned title at the top. Below the title, the main content is a two-column table with headers 'nonlinearity' and 'gain'. The table lists several activation functions (Linear / Identity, Conv{1,2,3}D, Sigmoid, Tanh, ReLU, Leaky Relu, and SELU) in the left column, with their corresponding mathematical gain values in the right column. The gain values include integers, fractions, square roots, and a more complex formula for Leaky ReLU. The table rows use alternating white and light gray backgrounds to improve readability. A faint, semi-transparent background layer is visible behind the table, containing additional mathematical notation and the text 'PyTorch initialization (forward pass)'. At the bottom-left, there is a PyTorch logo and a source URL link. The bottom-right corner contains the page number '6'. The overall text density is moderate, presenting technical information in a structured, tabular format."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 60.0,
+      "t_end": 80.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 60.0,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "What about other activation functions?",
+        "layout_description": "The slide features a large, left-aligned title at the top. Below the title, a two-column table is centered horizontally, presenting data on 'nonlinearity' and its corresponding 'gain'. The table consists of seven rows, with alternating rows shaded in a light gray background to enhance readability. The left column lists various activation functions and layer types such as 'Linear / Identity', 'Conv{1,2,3}D', 'Sigmoid', 'Tanh', 'ReLU', 'Leaky Relu', and 'SELU'. The right column provides numerical values or mathematical formulas for each, including fractions and square root expressions. At the bottom-left of the slide, there is a PyTorch logo and a source URL. A page number '6' is positioned in the bottom-right corner. The overall layout is clean with a white background and moderate text density."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "introduction",
+      "t_start": 80.0,
+      "t_end": 90.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 80.0,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Gain motivation",
+        "layout_description": "The slide features a minimalist design with a white background and black text. A thin horizontal line spans the width of the slide, separating the title 'Gain motivation' at the top left from the body content. The main content is centered vertically and horizontally, consisting of three distinct lines of mathematical text. The first line identifies the activation function as 'f'. The second line provides a formula for PyTorch initialization during the forward pass, relating the variance of weights to a gain factor. The third and most prominent element is a large, centered equation that defines the squared gain of the activation function as approximately equal to the ratio of the variance of the input to the variance of the activated output. A small page number '7' is positioned in the bottom right corner. The text density is light, emphasizing the mathematical definitions."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 90.0,
+      "t_end": 100.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 90.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Gain motivation",
+        "layout_description": "The slide features a minimalist, single-column layout with a white background. The title 'Gain motivation' is positioned at the top-left, underlined by a full-width horizontal black line that separates it from the content. The main body consists of three centered lines of mathematical notation. The first line introduces the activation function 'f'. The second line describes PyTorch initialization for the forward pass with an equation relating weight variance to a gain factor. The third and most prominent element is a large, centered equation defining the squared gain as an approximation of the ratio between the variance of the input and the variance of the activated output. A small page number '7' is visible in the bottom-right corner. The text density is light, emphasizing the mathematical formulas."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "method",
+      "t_start": 100.0,
+      "t_end": 105.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 100.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Gain motivation",
+        "layout_description": "The slide follows a clean, single-column layout with a white background. A thin horizontal line spans the width of the slide, separating the title 'Gain motivation' at the top-left from the main content. To the right of the title, the word 'motivation!' appears in a faint, ghosted font. The body of the slide contains three centered elements: a text line defining the activation function 'f', a line of text and math describing PyTorch initialization for the forward pass, and a large, prominent equation at the bottom defining the 'gain' function. This main equation is an approximation involving variances of inputs and outputs. Behind this main equation, there is faint, light-gray ghosted mathematical text acting as a watermark. A small page number '7' is positioned in the bottom-right corner. The text density is light, emphasizing the mathematical formulas."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "method",
+      "t_start": 105.0,
+      "t_end": 114.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 105.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Gain for any activation!",
+        "layout_description": "The slide follows a clean, single-column layout with a white background and black text. A large title is positioned at the top left, separated from the main content by a thin horizontal line that runs across the entire width. The main body of the slide contains three centered elements arranged vertically. First is a simple text line defining the activation function 'f'. Below this is a line of text describing PyTorch initialization for the forward pass, accompanied by a mathematical formula for the variance of weights. The bottom portion of the slide features a large, complex mathematical equation defining the squared gain function as a fraction involving expectation and variance terms. The text density is light, focusing primarily on these mathematical definitions. A small page number '8' is visible in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "method",
+      "t_start": 114.0,
+      "t_end": 120.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 114.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Deriving our initialization",
+        "layout_description": "The slide features a single-column layout with a title at the top left. The title 'Deriving our initialization' appears with a slight overlapping or shadow effect. Below the title, the content is centered and consists of mathematical formulas and a diagram. At the top of the content area, there is a mathematical definition of a layer function. Below this, a central diagram illustrates the forward pass of a neural network layer, showing the flow from input $x_i$ through a weight multiplication node to a preactivation $z_i$, then through an activation function $f$ to the output $x_{i+1}$. Dashed arrows label components as 'Postactivation', 'Preactivation', and 'Activation function'. To the right of the diagram is an equation for the variance of the weights. At the bottom, a large, complex centered equation defines the 'gain' squared as a fraction. The slide has a clean white background, black text, and a page number '9' in the bottom right corner. The text density is moderate, focusing on mathematical derivation."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "method",
+      "t_start": 120.0,
+      "t_end": 140.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 120.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Deriving our initialization",
+        "layout_description": "The slide follows a clean, minimalist single-column layout on a white background. A thin black horizontal line separates the title at the top-left from the main content. The content is centered and organized vertically, starting with a mathematical definition of a layer function and its domain/range. Below this is a central diagram enclosed in a rounded rectangle representing a layer, which shows the flow from input to output through matrix multiplication and an activation function. Dashed arrows with labels like 'Postactivation', 'Preactivation', and 'W_i' point to specific parts of this diagram. At the bottom of the slide, a large, centered equation defines the probability distribution of the pre-activation variable. A page number '9' is positioned in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "method",
+      "t_start": 140.0,
+      "t_end": 150.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 140.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Deriving our initialization",
+        "layout_description": "The slide features a large, left-aligned title at the top, underlined by a thin horizontal black line. The main content area is dominated by a central diagram illustrating a neural network layer's operations, including weight multiplication and an activation function. This diagram is surrounded by several layers of mathematical equations that appear to be overlapping or semi-transparent, suggesting a dynamic build-up of the derivation. A light blue rounded rectangular box serves as a background for the bottom half of the slide, containing text labels such as 'First layer:' on the left and 'Other layers:' on the right, each accompanied by relevant statistical equations. The equations involve normal distribution notation, expectations, and variance calculations. A page number '19' is positioned in the bottom right corner. The overall text density is moderate to dense due to the complex mathematical notation and overlapping elements."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "method",
+      "t_start": 150.0,
+      "t_end": 172.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 150.0,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and highlighted box",
+        "title_text": "Deriving our initialization",
+        "layout_description": "The slide has a white background with a thin black horizontal line separating the title from the main content. The title 'Deriving our initialization' is positioned at the top left in a large, plain font. The central area contains two primary mathematical equations centered horizontally. The first equation describes a normal distribution for z_i, and the second equation defines the variance of weights W_i, marked with a label '(F)' on the right. Below these equations, a large, light-blue rounded rectangle spans most of the slide's width. Inside this box, the content is split into two columns: the left side is titled 'First layer:' and contains a brief instruction, while the right side is titled 'Other layers:' and lists two complex equations for mean and variance. A blue bracket under the denominator of the second main equation points down toward the blue box, indicating a relationship. A small page number '10' is visible in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "method",
+      "t_start": 172.0,
+      "t_end": 180.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 172.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with horizontal blocks",
+        "title_text": "Deriving our initialization",
+        "layout_description": "The slide features a large, left-aligned title at the top, separated from the content by a thin horizontal black line. The main body is organized into three stacked, rounded rectangular containers with light pastel backgrounds. The top container (light blue) is labeled 'Forward Pass:' and contains mathematical equations for weight variance and activation distribution, marked with an '(F)' on the right. The middle container (light green) is labeled 'Backward Pass:' and presents a complex fractional equation for weight variance, marked with a '(B)'. A small green callout box labeled 'Estimate with Monte Carlo' sits on the right edge of the middle block, with a blue arrow pointing down to the final section. The bottom container (light blue) is split into two columns: the left side is titled 'First layer:' with a note about input data statistics, while the right side is titled 'Other layers:' and lists equations for mean and variance using expectation and variance operators. The slide has a moderate text density dominated by mathematical notation and includes a page number '12' in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "method",
+      "t_start": 180.0,
+      "t_end": 196.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 180.0,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and stacked blocks",
+        "title_text": "Deriving our initialization",
+        "layout_description": "The slide follows a clean, single-column structure. At the top, the title 'Deriving our initialization' is positioned on the left, underlined by a thin black horizontal line that spans the width of the slide. The main content area features two large, horizontally stacked rectangular blocks with rounded corners. The top block has a light blue background and contains the label 'Forward Pass:' on the left, a centered mathematical equation for weight variance, and a reference label '(F)' on the far right. Directly below it, a second block with a light green background is labeled 'Backward Pass:' on the left, featuring another centered mathematical equation and a reference label '(B)' on the far right. The background is plain white, and a page number '12' is visible in the bottom right corner. The text density is light, focusing primarily on the two key equations."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "method",
+      "t_start": 196.0,
+      "t_end": 209.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 196.0,
+          "image": "slide_20_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and stacked blocks",
+        "title_text": "Deriving our initialization",
+        "layout_description": "The slide follows a structured vertical layout with a title at the top and three distinct horizontal content blocks. The title 'Deriving our initialization' is placed at the top left, separated from the main content by a thin black horizontal line. Below the line, three rounded rectangular blocks are stacked vertically, each color-coded: light blue for the 'Forward Pass', light green for the 'Backward Pass', and light red for the 'Condition to satisfy both'. Each block contains a bold label on the left side and a centered mathematical equation in the middle. On the far right of each block, there is a parenthetical identifier\u2014(F), (B), and (C) respectively. The equations are complex, involving variances, means, and fractions. The slide has a white background, and a page number '13' is visible in the bottom right corner. The text density is moderate, primarily consisting of mathematical notation."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "results",
+      "t_start": 209.0,
+      "t_end": 210.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 209.0,
+          "image": "slide_21_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and two content blocks",
+        "title_text": "Results: Variance Stability",
+        "layout_description": "The slide features a large, bold title 'Results: Variance Stability' at the top left, underlined by a thin horizontal line. Below the title, the content is organized into two distinct sections, each marked by a small blue triangle bullet. The first section, titled 'Standard Activation Functions', is contained within a light blue rounded rectangle. It includes a table comparing various initialization methods (Xavier, Kaiming, Kumar, PyTorch, and 'Our MC init') across tanh, sigmoid, and ReLU activations, showing forward (Ef) and backward (Eb) pass variance errors. Semi-transparent mathematical equations labeled (F) and (B) are overlaid on this section. The second section, titled 'INR Activation Functions', is housed in a light pink rounded rectangle. It contains a table for Sine, Gaussian, Sinc, and Wavelet activations, with a large semi-transparent equation labeled (C) overlaid on the right side. The slide has a white background, and the page number '14' is located in the bottom right corner. The overall text density is moderate to high due to the combination of tables and mathematical notation."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "results",
+      "t_start": 210.0,
+      "t_end": 227.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 210.0,
+          "image": "slide_22_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and tables",
+        "title_text": "Results: Variance Stability",
+        "layout_description": "The slide features a large, bold title at the top left, underlined by a thin horizontal line that spans the entire width of the slide. The main content is organized into two vertical sections, each marked by a blue triangular bullet point and a blue sub-heading. The top section, 'Standard Activation Functions', contains a detailed table comparing five initialization methods (Xavier, Kaiming, Kumar, PyTorch, and 'Our MC init') across three activation functions (tanh, sigmoid, ReLU). Each activation function is further divided into two columns for forward pass variance error (Ef) and backward pass variance error (Eb). To the right of this table, a legend explains these abbreviations. The bottom section, 'INR Activation Functions', presents a second table for four specific activation types (Sine, Gaussian, Sinc, Wavelet), listing their variance formulas and error metrics. The slide has a clean white background, moderate text density, and a page number '14' located in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "results",
+      "t_start": 227.0,
+      "t_end": 240.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 227.0,
+          "image": "slide_23_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and two vertical sections",
+        "title_text": "Results: Variance Stability",
+        "layout_description": "The slide has a clean white background with a large, bold title 'Results: Variance Stability' positioned at the top left, separated from the content by a thin horizontal line. The main body is divided into two vertical sections, each marked by a blue triangle icon. The top section, 'Standard Activation Functions', features a detailed table comparing five initialization methods (Xavier, Kaiming, Kumar, PyTorch, and 'Our MC init') across three activation functions (tanh, sigmoid, ReLU). Each activation has sub-columns for forward (Ef) and backward (Eb) pass variance errors. To the right of this table, a small text block defines these error terms. The bottom section, 'INR Activation Functions', contains a second table for Sine, Gaussian, Sinc, and Wavelet activations, showing their specific variance formulas and error metrics. Both tables use green and red rounded rectangles to highlight specific performance results, drawing attention to the 'Our MC init' method and its comparative success or failure in stabilizing variance. The slide is moderately dense with numerical data and includes a page number '15' in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "results",
+      "t_start": 240.0,
+      "t_end": 250.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 240.0,
+          "image": "slide_24_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 249.0,
+          "image": "slide_24_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and two sub-sections",
+        "title_text": "Results: Variance Stability",
+        "layout_description": "The slide has a clean white background with a large, bold title at the top left, separated from the main content by a thin horizontal line. The content is divided into two primary horizontal sections, each marked by a blue triangle icon. The top section, 'Standard Activation Functions', features a large table comparing different initialization methods (Xavier, Kaiming, Kumar, PyTorch, and a proposed 'Our MC init') across three activation functions: tanh, sigmoid, and ReLU. To the right of this table, a legend defines the abbreviations Ef and Eb as Forward and Backward Pass Variance Error, respectively. The bottom section, 'INR Activation Functions', contains a second table evaluating Sine, Gaussian, Sinc, and Wavelet activations. Both tables use green and red rounded rectangles to highlight specific data points, indicating successful stability or failure. Mathematical formulas for variance and initialization are embedded within the table cells. A page number '15' is visible in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "results",
+      "t_start": 250.0,
+      "t_end": 255.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 250.0,
+          "image": "slide_25_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and two sub-sections",
+        "title_text": "Results: Variance Stability",
+        "layout_description": "The slide features a large, bold title 'Results: Variance Stability' at the top left, underlined by a thin horizontal line that spans the width of the slide. The content is organized into two main vertical sections, each introduced by a blue triangle bullet and a blue sub-heading. The first section, titled 'Standard Activation Functions', contains a detailed table comparing several initialization methods (Xavier, Kaiming, Kumar, PyTorch, and 'Our MC init') across three activation functions: tanh, sigmoid, and ReLU. Each activation function has sub-columns for Forward Pass Variance Error (Ef) and Backward Pass Variance Error (Eb). A legend for these terms is placed to the right of this table. A specific row of results at the bottom of this table is highlighted with a green rounded rectangle. The second section, 'INR Activation Functions', features another table comparing Sine, Gaussian, Sinc, and Wavelet activations under two different variance settings. A specific column of results in this second table is also highlighted with a green rounded rectangle. The slide has a clean white background with a page number '16' in the bottom right corner. The text density is moderate, dominated by tabular data and mathematical symbols."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "results",
+      "t_start": 255.0,
+      "t_end": 261.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 255.0,
+          "image": "slide_26_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and two content sections",
+        "title_text": "Results: Variance Stability",
+        "layout_description": "The slide features a large, bold title 'Results: Variance Stability' at the top left. The content is divided into two main horizontal sections, each introduced by a blue triangle bullet and a blue sub-heading. The top section, titled 'Standard Activation Functions', contains a detailed table comparing five initialization methods (Xavier, Kaiming, Kumar, PyTorch, and 'Our MC init') across three activation functions (tanh, sigmoid, ReLU). To the right of this table, a legend defines 'Ef' as Forward Pass Variance Error and 'Eb' as Backward Pass Variance Error. The bottom section, titled 'INR Activation Functions', features a second table comparing four activation types (Sine, Gaussian, Sinc, Wavelet) under two different variance parameter settings. Both tables utilize green rectangular highlights to draw attention to specific rows and columns representing the proposed method's performance. The slide has a white background, moderate text density due to the numerical tables, and a page number '16' in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 27,
+      "slide_section": "results",
+      "t_start": 261.0,
+      "t_end": 270.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 261.0,
+          "image": "slide_27_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "multi-column grid layout",
+        "title_text": "Results: INR task performance",
+        "layout_description": "The slide features a large, bold title at the top left, separated from the main content by a thin horizontal line. The content is organized into three distinct sections, each marked by a blue triangle bullet and a blue sub-heading. Two sections are positioned side-by-side in the upper half: 'Image Reconstruction' on the left and '3D SDF Reconstruction' on the right, both containing tables with 'Method', 'Mean', and 'Std' columns. The third section, 'Audio Reconstruction', is located in the bottom-left quadrant and features a table with columns for 'Architecture' and three specific audio tasks. To the right of this bottom table, there is a text block providing definitions for 'Our init' and 'Our MC init'. The tables use bolding to highlight the best-performing results. The overall design is clean with a white background, black text for data, and blue accents for headings, with a page number '17' in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 28,
+      "slide_section": "results",
+      "t_start": 270.0,
+      "t_end": 280.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 270.0,
+          "image": "slide_28_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "multi-section grid layout",
+        "title_text": "Results: INR task performance",
+        "layout_description": "The slide features a large, black title at the top left. The main content is organized into three distinct sections, each marked by a small blue triangle icon and a blue sub-heading. The top-left section, titled 'Image Reconstruction', contains a table comparing different initialization methods for SIREN, Sinc, and Gaussian architectures across 'Mean' and 'Std' metrics. To its right, the '3D SDF Reconstruction' section follows an identical table format. Below the image reconstruction section is the 'Audio Reconstruction' section, which features a table comparing architectures across three datasets: 'Bach', 'Counting', and 'Two Speakers'. In the bottom-right quadrant, there is a small block of explanatory text defining 'Our init' and 'Our MC init' methods. The tables use bold text to highlight superior performance values. A page number '17' is positioned in the bottom-right corner. The overall design is clean, using a white background with blue accents for headers."
+      }
+    },
+    {
+      "slide_id": 29,
+      "slide_section": "results",
+      "t_start": 280.0,
+      "t_end": 285.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 280.0,
+          "image": "slide_29_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "multi-section grid layout with tables",
+        "title_text": "Results: INR task performance",
+        "layout_description": "The slide features a large, left-aligned title at the top in a dark gray font. The content is organized into three primary sections, each marked by a small blue triangle icon and a blue sub-heading. Two tables are positioned side-by-side in the top half of the slide: 'Image Reconstruction' on the left and '3D SDF Reconstruction' on the right, both displaying 'Mean' and 'Std' metrics for various initialization methods. A third table, 'Audio Reconstruction', occupies the bottom-left quadrant, showing performance across three specific audio datasets. In the bottom-right area, there is explanatory text defining the 'Our init' and 'Our MC init' methods, accompanied by a GitHub logo and a project URL. A large, faint gray watermark with the paper title 'VI3NR: Variance-informed initialization for Implicit Neural Representations' spans across the middle of the slide. The overall design is clean with a white background, moderate text density, and a page number '17' in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 30,
+      "slide_section": "title",
+      "t_start": 285.0,
+      "t_end": 292.02,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 285.0,
+          "image": "slide_30_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "VI3NR: Variance Informed Initialization for Implicit Neural Representations",
+        "layout_description": "The slide is a minimalist title slide featuring a clean, plain white background. The main title, 'VI3NR: Variance Informed Initialization for Implicit Neural Representations', is presented in a large, bold, black sans-serif font and is centered horizontally and vertically in the upper half of the frame. Below the title, in the lower third of the slide, there is a small, black GitHub logo icon. Directly underneath this icon, a website URL 'https://chumbyte.github.io/vi3nr-site/' is displayed in a smaller, regular black font, also centered. The overall text density is very light, with no other decorative elements, bullet points, or images, creating a focused and professional look."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 911,
+    "gemini_layout_calls": 887,
+    "total_gemini_calls": 1798,
+    "total_frames_sampled": 293,
+    "batch_size": 15
+  }
+}

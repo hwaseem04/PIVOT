@@ -1,0 +1,378 @@
+{
+  "video_id": "CVPR_09_CVPR-2025_Highlight-Focus-N-Fix-Region-Aware-Fine-Tuning-for-Tex__CVPR-2025-Highlight-Paper-Focus-N-Fix-Re",
+  "duration": 298.56,
+  "fps_sampled": 1.0,
+  "total_slides": 19,
+  "slides_with_builds": 0,
+  "total_build_steps": 19,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 65.95,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Focus-N-Fix: Region-Aware Fine-Tuning for Text-to-Image Generation",
+        "layout_description": "This is a title slide with a clean, white background. The main title is centered in the middle of the slide, rendered in a large, bold, blue font. Below the title, a list of numerous authors is centered in a smaller black font. Further down, the conference information 'CVPR 2025 Highlight' is highlighted in red, followed by specific poster session details in black. In the top-left corner, there is a small rectangular image showing a city skyline at sunset with a CVPR logo. The top-right area contains a horizontal arrangement of institutional logos, including Google Research, Northwestern University, The University of Texas at Austin, Google DeepMind, and Google. A small red disclaimer text is positioned at the bottom center of the slide. The overall text density is light, focusing on key identifying information."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "method",
+      "t_start": 65.95,
+      "t_end": 73.82,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 65.95,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with diagram and bullets",
+        "title_text": "Our Method: Focus-N-Fix",
+        "layout_description": "The slide features a large, bold blue title at the top-left. The central portion of the slide is dominated by a complex horizontal flowchart/diagram illustrating the 'Focus-N-Fix' methodology. This diagram starts on the left with input blocks for 'Prompt' and 'Initial Noise', which feed into 'LoRA Params' and 'Pre-Trained Params'. These parameters generate two versions of an analog clock image: 'Fine-Tuned' and 'Pre-Trained'. These images are then used to calculate a 'Reward' and identify a 'Problematic Region' mask, both of which contribute to a 'Fine-Tuning Objective' equation shown in a box on the right. A separate 'Regional Constraint' box below the objective visually depicts the subtraction of the two clock images. Below the main diagram, there are two primary bullet points with one sub-bullet that provide textual explanations of the mathematical components. The slide is anchored by a solid blue footer bar containing a summary sentence in white text. The layout uses a white background with various colored boxes (green, yellow, orange) to categorize different parts of the process, and the text density is moderate."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "method",
+      "t_start": 73.82,
+      "t_end": 99.42,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 73.82,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with diagram and bullets",
+        "title_text": "Our Method: Focus-N-Fix",
+        "layout_description": "The slide features a large, bold blue title at the top-left. The main body of the slide is dominated by a complex flowchart diagram in the upper half, illustrating the 'Focus-N-Fix' method. This diagram flows from left to right, starting with inputs like 'Prompt' and 'Initial Noise', passing through 'Sample' blocks (LoRA and Pre-Trained Params), and resulting in 'Fine-Tuned' and 'Pre-Trained' clock images. It further branches into 'Reward' and 'Problematic Region' (mask) components, culminating in a 'Fine-Tuning Objective' equation and a 'Regional Constraint' visualization on the right. Solid black arrows indicate the forward path, while dashed red arrows indicate backpropagation. Below the diagram, there are two primary bullet points explaining the traditional fine-tuning objective versus the proposed regional constraint, which includes a mathematical formula. The second bullet point has a nested sub-bullet. At the bottom of the slide, a full-width blue footer bar contains a white summary sentence describing the method's use of a reward model and mask for localized correction. The background is plain white, and the text density is moderate."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "results",
+      "t_start": 99.42,
+      "t_end": 103.35,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 99.42,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Over-Sexualization Results",
+        "layout_description": "The slide uses a comparison layout to showcase qualitative findings. At the top-left, there is a large, bold title in blue. Below this, a specific text prompt is displayed in a centered line, with the word 'Prompt:' in red and the prompt text in black. The central part of the slide features a horizontal row of six square images, each showing a generated character based on the prompt. Each image is labeled underneath with the name of the model used (e.g., 'SD 1.4', 'DraFT', 'Focus-N-Fix (Ours)'); the labels are in blue, except for the final one which is in red to highlight the proposed method. Some images contain black 'NSFW' censor boxes. Below the images, there are two bullet points explaining the 'Reward Model' and the use of 'gradients' for region masks. A small bibliographic reference is located at the bottom-left corner. The background is plain white, and the text density is moderate."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "results",
+      "t_start": 103.35,
+      "t_end": 135.84,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 103.35,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Over-Sexualization Results",
+        "layout_description": "The slide uses a comparison layout to showcase qualitative results. At the top-left, there is a large, bold title in blue. Below it, a specific text prompt is displayed in red, centered across the slide. The central part of the slide features a horizontal row of six square images, each showing a different model's generation for the prompt. Each image has a corresponding label centered directly beneath it in blue, with the final label 'Focus-N-Fix (Ours)' highlighted in red. Some images include black 'NSFW' censor boxes. Below the images, there are two bullet points in black text that explain the 'Reward Model' and the use of 'gradients'. A small bibliographic reference is placed at the bottom-left corner. The background is plain white, and the text density is moderate, focusing on the visual comparison of the generated images."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "results",
+      "t_start": 135.84,
+      "t_end": 147.65,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 135.84,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Over-Sexualization Results",
+        "layout_description": "The slide uses a comparison layout on a clean white background. A large, bold title in blue is positioned at the top-left. Centered below the title is a text line indicating the prompt used for image generation: 'Prompt: Person on a tropical vacation.', where 'Prompt:' is in red bold and the rest is in black italics. The central part of the slide features a horizontal row of six square images, each showing a person in a tropical beach setting. Below each image is a text label identifying the specific AI model or technique used to generate it. These labels include 'SD 1.4', 'Safe Latent Diffusion', 'Reward Guidance', 'Reward Guidance w/ Region Constraints', 'DraFT', and 'Focus-N-Fix (Ours)'. The final label on the right is highlighted in bold red to emphasize the authors' proposed method. The slide has a light text density, prioritizing visual qualitative results."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "results",
+      "t_start": 147.65,
+      "t_end": 151.58,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 147.65,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Over-Sexualization Results",
+        "layout_description": "The slide uses a clean, white background with a large, bold blue title 'Over-Sexualization Results' at the top-left. Centered below the title is a text line indicating the generation prompt: 'Prompt: Person on a tropical vacation.', where 'Prompt:' is in bold red and the rest is in italics. The core content is a horizontal row of six square images showing qualitative results from different AI models. Each image is accompanied by a centered label directly beneath it. The labels from left to right are 'SD 1.4', 'Safe Latent Diffusion', 'Reward Guidance', 'Reward Guidance w/ Region Constraints', 'DraFT', and 'Focus-N-Fix (Ours)'. All labels are in blue except for the final one on the right, which is in bold red to highlight the authors' proposed method. The overall text density is light, emphasizing the visual comparison between the generated images."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "results",
+      "t_start": 151.58,
+      "t_end": 162.41,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 151.58,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Artifact Results",
+        "layout_description": "The slide uses a comparison layout to showcase qualitative results. At the top-left, there is a large, bold blue title 'Artifact Results'. Centered below the title is a red text label indicating the generation prompt: 'Prompt: A power drill.' The main content consists of a horizontal row of five side-by-side images, each representing a different model's output. The first image on the left, labeled 'SD 1.4', contains a red circle highlighting a visual artifact. The subsequent images are labeled 'Reward Guidance', 'Reward Guidance w/ Region Constraints', 'DraFT', and 'Focus-N-Fix (Ours)' in blue and red text. Below this image row, a single bullet point describes the 'Reward Model' used, citing a specific dataset. A small bibliographic reference is located at the bottom-left corner. The slide has a clean white background and light text density, focusing primarily on visual comparison."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "results",
+      "t_start": 162.41,
+      "t_end": 170.29,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 162.41,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Artifact Results",
+        "layout_description": "The slide features a large, bold blue title 'Artifact Results' positioned at the top-left. Below the title, a centered red text label 'Prompt: A power drill.' introduces the visual content. The main body of the slide consists of a horizontal row of five side-by-side images showing generated power drills. The first image on the left, labeled 'SD 1.4', contains a red circle highlighting a visual artifact. Each image has a corresponding label centered directly beneath it: 'SD 1.4', 'Reward Guidance', 'Reward Guidance w/ Region Constraints', 'DraFT', and 'Focus-N-Fix (Ours)', with the final label highlighted in red to denote the proposed method. Below this row of images, a single bullet point provides technical context regarding the 'Reward Model' used. A small bibliographic citation is placed in the bottom-left corner. The slide uses a clean white background with a light text density, prioritizing qualitative visual comparison."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "results",
+      "t_start": 170.29,
+      "t_end": 177.18,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 170.29,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and side-by-side figures",
+        "title_text": "Human Evaluation Results",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold blue title 'Human Evaluation Results' positioned at the top-left. Below the title, there are two primary bullet points in dark grey text that provide context and a key takeaway. The main content area consists of two side-by-side bar charts. The left chart is titled 'Over-Sexualization Reward' in red and compares five different methods across 'Over-Sexualization' and 'Artifact/T2I Alignment' metrics. The right chart is titled 'Artifact Reward' in red and compares four methods across 'Artifact' and 'T2I Alignment' metrics. Both charts feature a legend in the top-right corner and use a consistent color palette (grey, light green, green, purple, and a blue-striped bar for 'Focus-N-Fix'). A red caption at the bottom center clarifies that 'Higher Human Preference Scores are Preferred'. The overall background is white, and a small yellow icon is visible in the extreme top-right corner."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "results",
+      "t_start": 177.18,
+      "t_end": 202.77,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 177.18,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and side-by-side charts",
+        "title_text": "Human Evaluation Results",
+        "layout_description": "The slide has a clean, white background with a large, bold blue title 'Human Evaluation Results' positioned at the top-left. Below the title, there are two black bullet points; the first describes the evaluation setup (100 prompts), and the second highlights the performance of 'Focus-N-Fix'. The central part of the slide features two side-by-side bar charts. The left chart is titled 'Over-Sexualization Reward' in red, and the right chart is titled 'Artifact Reward' in red. Both charts use a vertical y-axis for 'Human Preference Score' and compare five different methods, which are color-coded and listed in a legend: 'Safe Latent Diffusion' (light gray), 'Reward Guidance' (light green), 'Reward Guidance (w/ Regional Constraints)' (medium green), 'DraFT' (purple), and 'Focus-N-Fix' (blue with diagonal hatching). At the bottom center, a red caption clarifies that 'Higher Human Preference Scores are Preferred'. The text density is moderate, and the layout is balanced and symmetrical."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "results",
+      "t_start": 202.77,
+      "t_end": 206.71,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 202.77,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column comparison layout",
+        "title_text": "Generalization to other Rewards",
+        "layout_description": "The slide uses a clean white background with a prominent blue title positioned at the top-left. The main content is divided into two side-by-side comparison blocks. Each block starts with a prompt in red text, followed by a row of three images: a baseline 'SD 1.4' image, a 'Focus-N-Fix' result, and a corresponding heatmap (either 'Violence Heatmap' or 'Misalignment Heatmap'). Below each set of images is a label in red identifying the specific reward function being demonstrated: 'Violence Reward' on the left and 'Text-to-Image Alignment Reward' on the right. A solid blue footer bar spans the bottom of the slide, containing a single line of white text that summarizes the key takeaway: that the Focus-N-Fix method generalizes to these different reward functions. The layout is highly symmetrical and uses color-coding (red for prompts/rewards, blue for title/footer) to organize information clearly."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "results",
+      "t_start": 206.71,
+      "t_end": 223.44,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 206.71,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column comparison layout",
+        "title_text": "Generalization to other Rewards",
+        "layout_description": "The slide uses a clean, white background with a large, bold blue title positioned at the top-left. The main body is organized into two distinct columns for qualitative comparison. Each column begins with a prompt written in red text. Below the prompt, there is a horizontal row of three square images: the first is labeled 'SD 1.4', the second 'Focus-N-Fix', and the third is a heatmap ('Violence Heatmap' on the left, 'Misalignment Heatmap' on the right). Underneath each set of images, a red label identifies the specific reward function being tested ('Violence Reward' and 'Text-to-Image Alignment Reward'). The bottom of the slide features a solid blue footer bar containing a single sentence of white text that summarizes the key takeaway. The text density is moderate, focusing on visual evidence through image comparisons."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "results",
+      "t_start": 223.44,
+      "t_end": 236.24,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 223.44,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "mixed text and visual comparison layout",
+        "title_text": "Catastrophic Forgetting",
+        "layout_description": "The slide features a large, bold blue title 'Catastrophic Forgetting' positioned at the top-left. Below the title, there are two primary bullet points in black text that introduce the concept of degradation during fine-tuning and the comparison between 'Focus-N-Fix' and 'DraFT'. The lower two-thirds of the slide are split horizontally into two visual sections. On the left, a bar chart displays 'Category-wise mean VNLI score differences', comparing two methods across various linguistic and visual categories; it uses blue bars for 'Focus-N-Fix' and orange bars for 'DraFT'. On the right, a qualitative comparison is presented under the red-colored prompt 'A red box next to a blue box.' This section contains three side-by-side generated images labeled 'SD 1.4', 'DraFT', and 'Focus-N-Fix (Ours)'. Below the images, the text 'Oversexualization Reward' is visible. A small bibliographic reference is placed at the very bottom-left of the slide. The background is plain white, and the text density is moderate."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "results",
+      "t_start": 236.24,
+      "t_end": 266.75,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 236.24,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with text and figures",
+        "title_text": "Catastrophic Forgetting",
+        "layout_description": "The slide features a large, bold, blue title 'Catastrophic Forgetting' positioned at the top-left. Below the title, two main bullet points span the width of the slide, providing context about fine-tuning risks and the comparison between 'Focus-N-Fix' and 'DRaFT'. The lower half of the slide is divided into two distinct visual sections. On the left, there is a bar chart showing 'Category-wise mean VNLI score differences' across various linguistic and visual categories, with a legend distinguishing between 'Focus-N-Fix' (blue) and 'DRaFT' (orange). On the right, a qualitative comparison is presented under the red prompt text 'Prompt: A red box next to a blue box.' This section includes three side-by-side generated images labeled 'SD 1.4', 'DRaFT', and 'Focus-N-Fix (Ours)', with a sub-caption 'Oversexualization Reward' below them. A small bibliographic reference is located at the bottom-left corner. The overall design uses a clean white background with moderate text density, effectively combining quantitative data and qualitative examples."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "conclusion",
+      "t_start": 266.75,
+      "t_end": 280.53,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 266.75,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Extensions",
+        "layout_description": "The slide uses a clean, minimalist single-column layout on a plain white background. A large, bold title 'Extensions' in a bright blue font is positioned at the top-left. Below the title, the main content consists of four bullet points, each starting with a dark gray circular bullet. The text is left-aligned with generous vertical spacing between items, leading to a light text density. Within the bullet points, specific technical terms and phrases are emphasized in bold, including 'DPO', 'Text-to-Image/Video Generation Models', 'localizable rewards', and 'Go beyond fixes'. There are no figures, tables, or equations present. A small, indistinct orange icon is located in the extreme top-right corner of the slide frame."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "conclusion",
+      "t_start": 280.53,
+      "t_end": 289.39,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 280.53,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Extensions",
+        "layout_description": "The slide follows a clean, minimalist single-column layout on a plain white background. A large, bold title 'Extensions' in a blue font is positioned at the top-left. The main body of the slide contains four primary bullet points, each starting with a solid black dot and aligned to the left. The text is well-spaced vertically, resulting in a light text density. Key technical terms and phrases within the bullet points are emphasized with bold black text, including 'DPO', 'Text-to-Image/Video', 'localizable rewards', and 'Go beyond fixes'. There are no additional visual elements like images, charts, or equations, keeping the focus entirely on the listed future work directions."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "other",
+      "t_start": 289.39,
+      "t_end": 295.3,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 289.39,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Thank you!",
+        "layout_description": "The slide follows a minimalist single-column layout on a plain white background. A large, bold blue title 'Thank you!' is located at the top-left corner. The main content consists of three primary bullet points aligned to the left. The first bullet point provides a URL link to an arXiv paper. The second bullet point lists contact email addresses for two authors. The third bullet point contains information about a poster session, organized with two nested sub-bullets that detail the specific time (14th June 2025, PM) and the poster number (259). There are no images, equations, or decorative elements, resulting in a very light text density with ample white space."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "other",
+      "t_start": 295.3,
+      "t_end": 298.56,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 295.3,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Thank you!",
+        "layout_description": "The slide follows a clean, minimalist single-column layout on a plain white background. A large, bold blue title 'Thank you!' is positioned at the top-left. The main content consists of three primary bullet points aligned to the left. The first bullet point provides a URL to an arXiv paper. The second bullet point lists contact email addresses for two individuals. The third bullet point, 'Visit our Poster Session:', contains two levels of hierarchy with nested sub-bullets detailing the session time (14th June 2025, PM) and the specific poster number (259). There are no figures, equations, or decorative elements, resulting in a very light text density with ample white space."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 479,
+    "gemini_layout_calls": 450,
+    "total_gemini_calls": 929,
+    "total_frames_sampled": 304,
+    "batch_size": 15
+  }
+}

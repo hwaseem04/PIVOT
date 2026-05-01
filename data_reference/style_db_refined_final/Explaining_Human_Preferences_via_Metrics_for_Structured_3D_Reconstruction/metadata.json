@@ -1,0 +1,808 @@
+{
+  "video_id": "Explaining Human Preferences via Metrics for Structured 3D Reconstruction",
+  "duration": 299.8,
+  "fps_sampled": 1.0,
+  "total_slides": 39,
+  "slides_with_builds": 6,
+  "total_build_steps": 49,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 21.29,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 10.64,
+          "image": "slide_1_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Explaining Human Preferences via Metrics for Structured 3D Reconstruction",
+        "layout_description": "The slide follows a centered title slide layout on a plain white background. The main title is positioned at the top, spanning three lines in a large, dark gray, sans-serif font. Below the title, the authors' names are listed in a single centered row, followed by their respective affiliations and email addresses in smaller text, also centered. The affiliations are organized into two rows, and the email addresses are presented in a monospaced font. In the lower-middle portion of the slide, the conference name 'ICCV 2025' is displayed in a large, bold, dark gray font. A distinctive visual element is a light blue diagonal banner with the word 'Highlight' in white text, located in the bottom right area. Small footnotes regarding author status are placed at the bottom left corner. The overall text density is light, with significant white space."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 21.29,
+      "t_end": 29.03,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 21.29,
+          "image": "slide_2_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 27.09,
+          "image": "slide_2_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "flowchart diagram layout",
+        "title_text": "The Problem: Structured 3D from Images",
+        "layout_description": "The slide uses a horizontal flow diagram to illustrate a problem statement. At the top-left, there is a large, bold title. The diagram begins on the left with a collection of eight real-world photographs of a house arranged in a circular pattern. A thick blue arrow points from these images to a central gray box containing the text 'Structured 3D Representation'. A second thick blue arrow points from this box to the right side of the slide, which displays the desired output: a detailed table of architectural measurements and a 3D model of a house annotated with dimensions and area calculations. At the bottom-left, a descriptive sentence explains the goal of producing semantically meaningful measurements. The background is a clean white, and the layout is organized to show a clear progression from raw input to structured output."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 29.03,
+      "t_end": 38.71,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 29.03,
+          "image": "slide_3_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 31.93,
+          "image": "slide_3_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "process flow layout",
+        "title_text": "The Problem:\nStructured 3D from Images",
+        "layout_description": "The slide features a horizontal process flow layout on a plain white background. The title is positioned at the top-left in a large, bold, black sans-serif font. The main content consists of three distinct visual stages connected by two large blue horizontal arrows pointing from left to right. The first stage on the left shows a collection of eight ground-level photographs of a house, arranged in a cross-like grid pattern. The middle stage contains two dark-themed panels displaying 'Semantic Wireframes,' which are 3D line drawings with colored arrows (yellow, green, red, and white) indicating structural orientations. The final stage on the right presents the end goal: a detailed 3D architectural model of a house with various measurements labeled (e.g., 21', 18'4\") and a comprehensive data table above it containing quantitative information about areas, corners, and rooflines. At the bottom left, a text block explains the process: 'Extracting a structured 3D representation (Semantic Wireframes) from a set of multi view ground level images.' The overall text density is moderate, with a heavy emphasis on visual diagrams and images to illustrate a technical pipeline."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 38.71,
+      "t_end": 43.54,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 38.71,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered text layout",
+        "title_text": "What cannot be measured cannot be improved",
+        "layout_description": "The slide features a minimalist design with a single line of text centered both horizontally and vertically on a plain white background. The text is a quote enclosed in double quotation marks, rendered in a black, sans-serif font. There are no headers, footers, page numbers, or decorative elements present. The layout is extremely simple, with a very light text density intended to emphasize the central philosophical statement."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "introduction",
+      "t_start": 43.54,
+      "t_end": 47.41,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 43.54,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single-line text layout",
+        "title_text": "What cannot be measured cannot be improved",
+        "layout_description": "The slide features a minimalist design with a single line of text centered both horizontally and vertically on a plain white background. The text is a quote enclosed in double quotation marks: 'What cannot be measured cannot be improved'. The font is a clean, sans-serif style in black, slightly italicized. There are no other visual elements such as titles, headers, footers, logos, or page numbers. The text density is extremely light, focusing the viewer's attention entirely on the central message."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "experiments",
+      "t_start": 47.41,
+      "t_end": 54.19,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 47.41,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Expert Judgements",
+        "layout_description": "The slide features a large, bold title 'Expert Judgements' positioned at the top-left. The central content is a side-by-side comparison of two square panels labeled 'Method A' and 'Method B'. Each panel contains a geometric wireframe diagram where blue lines and nodes are overlaid on a black outline. Below these comparison images, a centered question in bold text asks, 'Which of the blue solutions is closest to the black solution?'. At the bottom of the slide, there is a full-width dark blue horizontal bar containing three white-text options arranged horizontally: 'A is Better (A/\u2190)', 'Equal Quality (W/\u2191)', and 'B is Better (D/\u2192)'. The overall layout is clean with a white background and light text density, mimicking a user interface for a human evaluation task."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "other",
+      "t_start": 54.19,
+      "t_end": 56.12,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 54.19,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered text layout",
+        "title_text": "Where did we get the wireframes reconstructions?",
+        "layout_description": "The slide features a minimalist design with a single line of text centered both horizontally and vertically on a plain white background. There are no headers, footers, logos, or page numbers. The text is in a standard sans-serif font, black in color, and phrased as a question. The overall text density is extremely light, serving as a transition or a specific inquiry slide within the presentation."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "experiments",
+      "t_start": 56.12,
+      "t_end": 58.06,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 56.12,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "\u201cReal World\u201d reconstructions from the 2024 S\u00b23DR Challenge",
+        "layout_description": "The slide follows a simple, minimalist layout with a centered title at the top and a single block of text below it. The title is set in a large, bold sans-serif font. The main content consists of a single paragraph of justified text that occupies the central portion of the slide. This paragraph begins with a bolded identifier, 'Pool1- S\u00b23DR.', and describes a dataset used in the study. Within the text, there are blue-colored numerical citations in brackets and mathematical notation for challenge names and metrics. The background is plain white, and there are no images, charts, logos, or decorative elements, resulting in a moderate text density and a clean academic appearance."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "experiments",
+      "t_start": 58.06,
+      "t_end": 69.67,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 58.06,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "\u201cReal World\u201d reconstructions from the 2024 S\u00b23DR Challenge",
+        "layout_description": "The slide follows a minimalist single-column layout. A large, centered title is positioned at the top of the frame. Below the title, there is a single, justified paragraph of text that occupies the central portion of the slide. The text begins with a bolded label 'Pool1\u2014 S\u00b23DR.' and describes the data acquisition process, including references indicated by blue bracketed numbers. There are no bullet points, columns, figures, or decorative elements. The background is plain white, and the text density is moderate, leaving significant white space at the bottom."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "results",
+      "t_start": 69.67,
+      "t_end": 72.57,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 69.67,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Synthetically Generated (with Known Rankings)",
+        "layout_description": "The slide features a large, bold title positioned at the top-left, with a secondary line of text in parentheses directly below it. The main body of the slide contains three geometric line-and-node diagrams arranged in a single horizontal row. These diagrams represent different versions of a wireframe structure, likely for qualitative comparison. Each diagram is labeled centered underneath with a single letter or abbreviation: 'GT' (Ground Truth) on the left, 'A' in the middle, and 'B' on the right. The 'GT' and 'A' diagrams show relatively complete, closed-loop structures, while diagram 'B' appears fragmented with several missing connections. The background is plain white, and the overall text density is light, emphasizing the visual comparison between the three figures."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "results",
+      "t_start": 72.57,
+      "t_end": 100.63,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 72.57,
+          "image": "slide_11_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 98.7,
+          "image": "slide_11_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with title",
+        "title_text": "Synthetically Generated (with Known Rankings)",
+        "layout_description": "The slide features a large, bold title in the top-left corner, with a subtitle in parentheses positioned directly below it. In the top-right area, the text '98% accuracy' is displayed in a red, italicized, and slanted font. The central content consists of three geometric diagrams arranged in a single horizontal row. Each diagram depicts a structure made of black dots connected by lines, resembling a house with a rectangular attachment. The diagrams are labeled 'GT', 'A', and 'B' from left to right, with the labels centered underneath each figure. Diagram 'GT' represents the ground truth, 'A' shows a nearly identical reconstruction, and 'B' shows a fragmented, poor reconstruction. The slide has a clean white background and very light text density, emphasizing the qualitative visual comparison."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "introduction",
+      "t_start": 100.63,
+      "t_end": 101.6,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 100.63,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column text-only layout",
+        "title_text": "Recall: our goal is to find metrics that agree with human expert preferences",
+        "layout_description": "The slide has a minimalist, high-contrast design featuring a plain white background with black text. There is no distinct title or header; instead, a single sentence of text occupies the central-left portion of the slide. The text is rendered in a large, sans-serif font and is broken into three lines. There are no bullet points, columns, figures, equations, or decorative elements like logos or page numbers. The text density is very light, intended to serve as a clear reminder or focal point for the audience."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "introduction",
+      "t_start": 101.6,
+      "t_end": 104.5,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 101.6,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column text-only layout",
+        "title_text": "Recall: our goal is to find metrics that agree with human expert preferences",
+        "layout_description": "The slide features a minimalist, text-only design on a plain white background. A single sentence of black, sans-serif text is positioned in the center-left of the frame, broken into three lines. There are no headers, footers, page numbers, logos, or decorative elements. The text density is extremely light, with the slide functioning as a simple reminder or transition to refocus the audience on the primary problem statement or goal of the presentation."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "method",
+      "t_start": 104.5,
+      "t_end": 116.12,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 104.5,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Preference Collection",
+        "layout_description": "The slide has a clean, white background with a large, bold title 'Preference Collection' at the top-left. The central content is a side-by-side comparison of two panels, labeled 'Method A' and 'Method B'. Each panel displays a wireframe diagram consisting of blue lines and nodes overlaid on a black outline. Below these comparison panels, a centered question in bold text asks, 'Which of the blue solutions is closest to the black solution?'. At the bottom of the slide, there is a dark blue horizontal bar containing three distinct buttons for user selection: 'A is Better (A/\u2190)', 'Equal Quality (W/\u2191)', and 'B is Better (D/\u2192)'. The layout is symmetrical and designed to illustrate a user interface for data collection, with a light text density."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "experiments",
+      "t_start": 116.12,
+      "t_end": 117.08,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 116.12,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Preference Collection",
+        "layout_description": "The slide uses a comparison layout intended for user evaluation or data labeling. A large, bold title 'Preference Collection' is positioned at the top-left. The central area features two side-by-side white boxes labeled 'Method A' and 'Method B', each containing a wireframe diagram with blue and black lines representing different solutions. Below these comparison boxes, a bold centered question asks, 'Which of the blue solutions is closest to the black solution?'. At the bottom of the slide, there is a dark blue horizontal bar containing three interactive-style buttons for selecting a preference: 'A is Better (A/\u2190)', 'Equal Quality (W/1)', and 'B is Better (D/\u2192)'. The overall visual style is clean and functional, with light text density and a neutral background."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "results",
+      "t_start": 117.08,
+      "t_end": 125.79,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 117.08,
+          "image": "slide_16_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 119.99,
+          "image": "slide_16_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Do Humans Agree with Themselves\n(are they self-consistent)?",
+        "layout_description": "The slide follows a minimalist, single-column layout on a plain white background. The title is located at the top-left, spanning two lines. In the center of the slide, a large, bold 'Yes!' serves as the primary focal point and direct answer to the title's question. Below this, a single sentence of explanatory text is positioned towards the bottom-left, providing a quantitative finding: 'When showing the same pairs repeatedly humans pick the same winner \u224890% of the time.' The text density is very light, with no images, icons, or decorative elements, emphasizing a single clear message."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "results",
+      "t_start": 125.79,
+      "t_end": 130.63,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 125.79,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Do Humans Agree with Each Other?",
+        "layout_description": "The slide follows a minimalist, single-column layout with a plain white background. The title is positioned at the top-left in a large, black, sans-serif font. The primary content is a single line of text centered vertically and horizontally on the slide, highlighting a key result: 'Excluding ties (within clusters) raters agree \u224890% of the time'. At the bottom-left corner, there is a small-font footnote that provides technical details about clusters and weighting metrics (edges vs. vertices), including a reference to a paper. The text density is very light, emphasizing a single quantitative finding."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "results",
+      "t_start": 130.63,
+      "t_end": 133.53,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 130.63,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with centered content",
+        "title_text": "Do Humans Agree with Each Other?",
+        "layout_description": "The slide follows a minimalist, single-column layout with a plain white background and black text. The title is centered at the top in a large, standard font. The main body of the slide features a very large, bold 'Yes!' centered in the middle, serving as a direct answer to the title's question. Below this, a single line of text provides a quantitative finding: 'Excluding ties (within clusters) raters agree \u224890% of the time'. At the very bottom left, there is a small-font footnote providing technical details about the clusters mentioned, specifically regarding weighting edges and vertices, and a reference to the paper. The text density is very light, emphasizing a single clear conclusion."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "method",
+      "t_start": 133.53,
+      "t_end": 137.4,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 133.53,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with text",
+        "title_text": "Let\u2019s make clear what we mean by \u201cmetric\u201d and how we use these metrics to rank pairs:",
+        "layout_description": "The slide has a minimalist, single-column layout with a plain white background. It contains only three lines of left-aligned, black sans-serif text positioned in the top-left area. This text serves as an introductory heading or a lead-in sentence for a new topic. There are no bullet points, columns, figures, equations, or decorative elements present. The text density is very light, with the majority of the slide remaining as empty white space."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "results",
+      "t_start": 137.4,
+      "t_end": 145.15,
+      "num_builds": 6,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 137.4,
+          "image": "slide_20_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 138.37,
+          "image": "slide_20_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 139.34,
+          "image": "slide_20_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 140.31,
+          "image": "slide_20_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 141.27,
+          "image": "slide_20_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 143.21,
+          "image": "slide_20_build_5.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Metrics Picking Winners",
+        "layout_description": "The slide features a large, bold title 'Metrics Picking Winners' positioned at the top-left in a black sans-serif font. The main body of the slide consists of a large mathematical inequality centered horizontally. This inequality compares two distance function terms, denoted by 'd(...)'. On the left side of a large less-than symbol, the distance function takes two arguments: a complex wireframe diagram labeled 'GT' (Ground Truth) and a similar, slightly distorted wireframe labeled 'A'. On the right side, the distance function compares the same 'GT' wireframe with a third, highly fragmented and incomplete wireframe labeled 'B'. The wireframes represent a 3D-like geometric structure, such as a house or box. The labels 'GT', 'A', and 'B' are placed in a small font directly beneath their respective diagrams. The background is plain white, and the overall text density is light, focusing on the visual comparison of the geometric reconstructions."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "results",
+      "t_start": 145.15,
+      "t_end": 147.08,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 145.15,
+          "image": "slide_21_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Metrics Picking Winners",
+        "layout_description": "The slide features a large, left-aligned title at the top. The main content is a visual mathematical inequality comparing two distance metrics. On the left side, a red rectangular border encloses a distance function 'd(GT, A)' with the word 'Winner' written in red text above the diagrams. Inside this box, 'GT' (Ground Truth) and 'A' are represented by complex geometric wireframe shapes consisting of points and lines. In the center of the slide is a large grey less-than symbol ('<'). To the right of this symbol is another distance function 'd(GT, B)', where 'GT' is the same wireframe shape as before, and 'B' is a different, more distorted wireframe shape. The background is plain white, and the text density is light, focusing entirely on the visual comparison of how a metric evaluates different geometric outputs against a ground truth."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "method",
+      "t_start": 147.08,
+      "t_end": 150.95,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 147.08,
+          "image": "slide_22_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single-column text layout",
+        "title_text": "none",
+        "layout_description": "The slide features a minimalist design with a plain white background and a single block of black, sans-serif text. The text is left-aligned and positioned in the middle-left area of the slide, spanning three lines. There is no distinct title, header, or footer. No bullet points, figures, tables, or equations are present. The overall text density is very light, focusing the viewer's attention on a single sentence that introduces the methodology for quantifying agreement."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "results",
+      "t_start": 150.95,
+      "t_end": 159.66,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 150.95,
+          "image": "slide_23_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Empirical Win Rate",
+        "layout_description": "The slide features a large, bold title 'Empirical Win Rate' at the top-left. The content is organized into two distinct columns. The left column contains a numbered list with four items (1-4) that describe the step-by-step process for calculating the win rate, including point allocation, human ranking averaging, global ranking, and rank correlation measurement. The right column contains a vertical table with two headers: 'Method' and 'Empirical Win Rate'. This table lists numerous methods (such as 'add_low', 'perturb_med', 'baseline', etc.) and their corresponding numerical scores, sorted from highest to lowest. The background is plain white with black text, and the overall text density is moderate, providing a clear balance between procedural explanation and quantitative data."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "results",
+      "t_start": 159.66,
+      "t_end": 160.63,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 159.66,
+          "image": "slide_24_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Empirical Win Rate",
+        "layout_description": "The slide uses a two-column layout on a plain white background. A large, bold title 'Empirical Win Rate' is aligned to the top-left. The left column contains a numbered list with four items (1-4) that detail the process for calculating the metric, including point allocation (1 for win, 0.5 for tie), averaging human rankings, global score averaging, and rank correlation measurement. The right column features a long, narrow table with two columns: 'Method' and 'Empirical Win Rate'. This table lists various methods and their corresponding scores, sorted in descending order from 0.89 at the top to 0.20 at the bottom. The text density is moderate, and the visual style is minimalist with black text on a white background."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "method",
+      "t_start": 160.63,
+      "t_end": 174.17,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 160.63,
+          "image": "slide_25_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Bradley-Terry Abilities",
+        "layout_description": "The slide uses a two-column layout on a plain white background. A large, bold title 'Bradley-Terry Abilities' is located at the top-left. The left column contains a numbered list with four items that describe the methodology: the goal of estimating latent ability scores, the mathematical model using a sigmoid function, the optimization objective using binary cross-entropy (BCE), and the measurement of rank correlation. Mathematical notation and equations are integrated directly into the numbered points. The right column features a detailed table with three columns: 'Method', 'Empirical Win Rate', and 'BT Ability'. The table contains approximately 25 rows of data, listing various methods and their corresponding scores, sorted by win rate. The overall design is clean and academic, with moderate text density and a simple black-on-white color scheme."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "method",
+      "t_start": 174.17,
+      "t_end": 177.08,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 174.17,
+          "image": "slide_26_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Bradley-Terry Abilities",
+        "layout_description": "The slide uses a clean two-column layout on a white background. A large, bold title is positioned at the top-left. The left column contains a numbered list (1-4) that outlines the goal, model, optimization objective, and evaluation metric. This section includes mathematical notation, specifically using the sigmoid function and binary cross-entropy loss. The right column features a tall, narrow table with three columns labeled 'Method', 'Empirical Win Rate', and 'BT Ability'. The table lists numerous entries, such as 'add_low' and 'pc2wf_pretrained', sorted by their numerical values. The overall text density is moderate, with a clear functional split between the theoretical methodology on the left and a supporting data table on the right. There are no decorative elements, logos, or page numbers."
+      }
+    },
+    {
+      "slide_id": 27,
+      "slide_section": "method",
+      "t_start": 177.08,
+      "t_end": 188.69,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 177.08,
+          "image": "slide_27_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Low Rank Factor Scoring\n(via SVD)",
+        "layout_description": "The slide features a clean, two-column layout on a plain white background. On the left side, the title 'Low Rank Factor Scoring (via SVD)' is positioned at the top in a large, bold, black sans-serif font. Below the title, a single-sentence 'Goal' statement explains the objective of the method: to represent a matrix with a single low-rank 'Quality' factor. The right side of the slide is dominated by a detailed data table. This table has four columns: 'Method', 'Empirical Win Rate', 'BT Ability', and 'Quality Factor'. It contains approximately 25 rows of data, listing various methods like 'add_low', 'perturb_med', and 'baseline' along with their respective numerical scores. The table is sorted in descending order based on the 'Empirical Win Rate'. The overall text density is moderate, with the left side being quite sparse and the right side being data-dense. There are no additional visual elements like logos, icons, or page numbers."
+      }
+    },
+    {
+      "slide_id": 28,
+      "slide_section": "results",
+      "t_start": 188.69,
+      "t_end": 189.66,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 188.69,
+          "image": "slide_28_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Low Rank Factor Scoring (via SVD)",
+        "layout_description": "The slide uses a two-column layout on a clean white background. On the left side, the main title 'Low Rank Factor Scoring (via SVD)' is positioned at the top in a large, bold, black sans-serif font. Below the title, a single paragraph describes the 'Goal' of the slide: to explain a specific matrix with a single low-rank 'Quality' factor. The right side of the slide is dominated by a large, multi-row table. This table contains four columns: 'Method', 'Empirical Win Rate', 'BT Ability', and 'Quality Factor'. The rows list various experimental methods and their corresponding numerical results, sorted by the win rate. The overall text density is moderate, with the table providing the bulk of the information. There are no additional visual elements like logos, icons, or page numbers."
+      }
+    },
+    {
+      "slide_id": 29,
+      "slide_section": "results",
+      "t_start": 189.66,
+      "t_end": 203.2,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 189.66,
+          "image": "slide_29_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Why so many ways to determine rankings?",
+        "layout_description": "The slide follows a simple single-column layout on a plain white background. The title is located at the top-left, rendered in a large, bold, black sans-serif font. The body of the slide contains four main bullet points, each starting with a solid black circular bullet. These bullets are left-aligned and contain several lines of text that describe the rationale for using multiple ranking methods and report specific findings, such as a Kendall correlation coefficient. There are no figures, tables, or mathematical equations present. At the bottom-left corner, there is a small parenthetical note in a smaller font size that references a specific observation from the authors' paper. The text density is moderate, maintaining significant white space for readability."
+      }
+    },
+    {
+      "slide_id": 30,
+      "slide_section": "results",
+      "t_start": 203.2,
+      "t_end": 215.78,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 203.2,
+          "image": "slide_30_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Why so many ways to determine rankings?",
+        "layout_description": "The slide follows a simple single-column layout on a plain white background. A large, bold black title is aligned to the top-left. The body of the slide contains four primary bullet points, each consisting of a few lines of left-aligned black text. These bullets explain the rationale for using multiple ranking methods and present a specific finding regarding Kendall correlation. There are no visual aids like charts, images, or equations. In the bottom-left corner, a small parenthetical note in a regular font weight provides a reference to a specific section of a paper. The text density is moderate, maintaining significant white space between the bulleted points for readability."
+      }
+    },
+    {
+      "slide_id": 31,
+      "slide_section": "method",
+      "t_start": 215.78,
+      "t_end": 217.72,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 215.78,
+          "image": "slide_31_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Families of Hand Crafted Metrics Under Consideration",
+        "layout_description": "The slide follows a simple, single-column layout with a plain white background. The title is positioned at the top-left in a large, bold sans-serif font. Below the title, the main content consists of a vertical list of six bullet points. Each bullet point is marked with a solid black circle. The primary text for each metric is in bold, while supplementary information like abbreviations (e.g., WED, ECD) or specific sub-metrics (e.g., precision, recall, F1) are enclosed in parentheses in a standard weight font. The text is left-aligned, creating a clear and readable hierarchy with significant white space, leading to a light text density. There are no visual elements such as images, charts, or logos."
+      }
+    },
+    {
+      "slide_id": 32,
+      "slide_section": "method",
+      "t_start": 217.72,
+      "t_end": 229.33,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 217.72,
+          "image": "slide_32_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Families of Hand Crafted Metrics Under Consideration",
+        "layout_description": "The slide follows a minimalist, single-column layout with a plain white background. The title is positioned at the top-left in a large, bold, black sans-serif font. Below the title, the main content consists of a vertically arranged list of six bullet points. Each bullet point is a simple black dot followed by bolded text for the metric name, with some items including additional details or abbreviations in parentheses (e.g., 'WED', 'ECD', 'precision, recall, F1'). The text is left-aligned with consistent spacing between the items. There are no images, diagrams, logos, or page numbers, resulting in a very light text density and a clear, focused presentation of information."
+      }
+    },
+    {
+      "slide_id": 33,
+      "slide_section": "method",
+      "t_start": 229.33,
+      "t_end": 232.23,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 229.33,
+          "image": "slide_33_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "diagram-based architecture layout",
+        "title_text": "Learned Metric",
+        "layout_description": "The slide features a large bold title 'Learned Metric' positioned at the top-left. The main body of the slide is occupied by a horizontal flowchart depicting a Siamese neural network architecture. On the left side, there are two parallel input paths labeled '3D Wireframe i + GT' and '3D Wireframe j + GT', which lead to rendered wireframe images. These images are fed into two identical blue trapezoidal blocks labeled 'DINOv2', each topped with an ice cube icon suggesting frozen weights. Following these are two green rectangular 'MLP' blocks, marked with fire icons to indicate they are trainable, and connected by a vertical arrow labeled 'shared'. The MLPs produce scores 'g(r_i)' and 'g(r_j)', which converge on the right side into a mathematical equation: '\u03c3(g(r_i) - g(r_j)) \u2248 p(i > j)'. Below this equation, a downward arrow points to the final objective, 'BCE loss'. The slide uses a clean white background with moderate text density, relying on visual icons and flow arrows to explain the methodology."
+      }
+    },
+    {
+      "slide_id": 34,
+      "slide_section": "method",
+      "t_start": 232.23,
+      "t_end": 262.23,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 232.23,
+          "image": "slide_34_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "diagram-based architecture layout",
+        "title_text": "Learned Metric",
+        "layout_description": "The slide features a large bold title 'Learned Metric' positioned at the top-left. The main body of the slide is occupied by a horizontal flowchart depicting a Siamese neural network architecture. On the left side, there are two parallel input paths labeled '3D Wireframe i + GT' and '3D Wireframe j + GT', which lead to rendered wireframe images. These images are fed into two identical blue trapezoidal blocks labeled 'DINOv2', each topped with an ice cube icon suggesting frozen weights. Following these are two green rectangular 'MLP' blocks, marked with fire icons to indicate they are trainable, and connected by a vertical arrow labeled 'shared'. The MLPs produce scores 'g(r_i)' and 'g(r_j)', which converge on the right side into a mathematical equation: '\u03c3(g(r_i) - g(r_j)) \u2248 p(i > j)'. Below this equation, a downward arrow points to the final objective, 'BCE loss'. The slide uses a clean white background with moderate text density, relying on visual icons and flow arrows to explain the methodology."
+      }
+    },
+    {
+      "slide_id": 35,
+      "slide_section": "results",
+      "t_start": 262.23,
+      "t_end": 268.03,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 262.23,
+          "image": "slide_35_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Selected Metrics: Average Agreement With Raters",
+        "layout_description": "The slide features a large, bold title positioned at the top left. The main body is organized into a two-column structure. The left column contains two vertically stacked callout boxes labeled 'Observation 4.2' and 'Observation 4.3'. Each box has a dark gray header with white text and a light gray body containing a paragraph of analytical text. The right column is dominated by a large, clean table with two columns: 'Metric' and 'Average Agreement With Raters'. The table lists various evaluation metrics (like 'corner f1', 'edge f1', 'hausdorff') alongside their numerical agreement scores, with the header row highlighted in light gray. The overall color scheme is minimalist, using white, black, and various shades of gray. The text density is moderate, effectively balancing qualitative observations with quantitative tabular data."
+      }
+    },
+    {
+      "slide_id": 36,
+      "slide_section": "conclusion",
+      "t_start": 268.03,
+      "t_end": 275.78,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 268.03,
+          "image": "slide_36_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Recommendations",
+        "layout_description": "The slide follows a minimalist single-column layout on a plain white background. A large, bold black title 'Recommendations' is positioned at the top-left. The main content consists of four primary bullet points, each marked with a solid black circular icon. The bullet points are left-aligned and organized in a simple vertical list without any hierarchical indentation. The text density is light to moderate, with the final bullet point being the most substantial, spanning three lines. There are no figures, tables, logos, or decorative elements, maintaining a clean and focused presentation of the textual recommendations."
+      }
+    },
+    {
+      "slide_id": 37,
+      "slide_section": "conclusion",
+      "t_start": 275.78,
+      "t_end": 286.42,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 275.78,
+          "image": "slide_37_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Recommendations",
+        "layout_description": "The slide follows a clean, minimalist single-column layout on a plain white background. A large, bold title 'Recommendations' is positioned at the top-left. Below the title, the main content consists of four bullet points, each marked with a solid black circular icon. The text is left-aligned and uses a dark gray sans-serif font. There are no figures, tables, or complex equations, though the text mentions technical terms like 'f1 score' and 'IoU'. The spacing between the bullet points is wide, contributing to a light text density and a clear, readable structure."
+      }
+    },
+    {
+      "slide_id": 38,
+      "slide_section": "other",
+      "t_start": 286.42,
+      "t_end": 290.29,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 286.42,
+          "image": "slide_38_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and footer",
+        "title_text": "More about our work",
+        "layout_description": "The slide follows a minimalist single-column layout on a plain white background. A large, bold title is positioned at the top-left. The main body of the slide contains three vertically stacked lines of text, each starting with a bold label ('ArXiv:', 'Code & Data:', and 'ICCV Poster Page:') followed by a corresponding URL in a regular font weight. These lines are left-aligned and centered vertically on the slide. At the bottom, there is a footer section organized into four columns, each containing an author's name, their social media handle in parentheses, and their email address on a separate line below. The overall text density is light, serving as a resource and contact slide."
+      }
+    },
+    {
+      "slide_id": 39,
+      "slide_section": "other",
+      "t_start": 290.29,
+      "t_end": 299.8,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 290.29,
+          "image": "slide_39_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and footer",
+        "title_text": "More about our work",
+        "layout_description": "The slide follows a minimalist single-column layout on a plain white background. A large, bold title is situated at the top-left corner. The main body of the slide consists of three lines of text centered vertically, each starting with a bold label ('ArXiv:', 'Code & Data:', 'ICCV Poster Page:') followed by a corresponding URL in a standard font weight. At the bottom of the slide, there is a footer containing author information organized into four distinct columns. Each column includes the author's full name, their social media handle in parentheses, and their email address on a separate line below. The slide has a light text density and lacks any decorative elements, logos, or images."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 567,
+    "gemini_layout_calls": 544,
+    "total_gemini_calls": 1111,
+    "total_frames_sampled": 310,
+    "batch_size": 15
+  }
+}

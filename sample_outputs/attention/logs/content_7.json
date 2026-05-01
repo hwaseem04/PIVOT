@@ -1,0 +1,29 @@
+{
+    "extracted_content": "The Transformer models were trained on the WMT 2014 English-German dataset, containing 4.5 million sentence pairs, and the English-French dataset, which consists of 36 million sentences. Training was conducted on a single machine equipped with 8 NVIDIA P100 GPUs. The base models were trained for 100,000 steps (approximately 12 hours), while the big models were trained for 300,000 steps (3.5 days). The authors utilized the Adam optimizer with a custom learning rate schedule that increases the rate linearly for the first 4,000 warmup steps and then decreases it proportionally to the inverse square root of the step number. Regularization techniques included residual dropout (rate of 0.1) applied to sub-layer outputs and embedding sums, as well as label smoothing (value of 0.1), which improves accuracy and BLEU scores by encouraging the model to be less certain in its predictions.",
+    "key_figures": [],
+    "key_tables": [
+        {
+            "ref": "Table 2",
+            "caption": "The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-German and English-to-French newstest2014 tests at a fraction of the training cost.",
+            "relevance": "This table provides the quantitative training costs in FLOPs for both the base and big Transformer models, demonstrating the efficiency of the training regime compared to prior architectures."
+        },
+        {
+            "ref": "Table 3",
+            "caption": "Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are on the English-to-German translation development set, newstest2013.",
+            "relevance": "This table lists the specific training steps (100K for base, 300K for big) and other hyperparameters that define the training regime."
+        }
+    ],
+    "key_equations": [
+        {
+            "ref": "Equation 3",
+            "content": "lrate = d_model^-0.5 * min(step_num^-0.5, step_num * warmup_steps^-1.5)",
+            "relevance": "This equation defines the custom learning rate schedule used during training, which is critical for the stable optimization of the Transformer model."
+        }
+    ],
+    "section_refs": [
+        "Section 5.1",
+        "Section 5.2",
+        "Section 5.3",
+        "Section 5.4"
+    ]
+}

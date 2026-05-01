@@ -1,0 +1,114 @@
+{
+    "scene_id": 3,
+    "title": "Cycle Domain Adaptation (CycDA) Loss",
+    "summary": "To address variations in camera types, lighting, and resolutions, the Cycle Domain Adaptation (CycDA) loss is introduced. It enforces view-invariant representations by minimizing discrepancies between domain-adapted features and their target counterparts across ground and aerial views.",
+    "paper_section": "Method",
+    "narrative_role": "method",
+    "asset_video": null,
+    "duration_stat": {
+        "min": 7.0,
+        "max": 14.0,
+        "avg": 10.0
+    },
+    "extracted_content": "The Cycle Domain Adaptation (CycDA) loss is designed to mitigate representation gaps arising from differences in camera specifications (e.g., tone, hue, resolution) and environmental changes between ground and aerial views. It explicitly enforces view-invariant feature extraction by minimizing the L2 distance between features across three distinct spaces: the ground feature space, the satellite feature space, and a shared latent feature space. This bidirectional adaptation ensures that features extracted from one domain are effectively translatable to the other. The process utilizes projection functions $\\mathcal{E}(\\cdot)$ and $\\mathcal{D}(\\cdot)$, which are guided by the focal lengths of the satellite and vehicle cameras ($c_s$ and $c_g$) to maintain geometric consistency during the feature transformation.",
+    "layout": {
+        "template": "full_fig_with_callouts",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.9,
+                "h": 0.1
+            },
+            "figure": {
+                "x": 0.05,
+                "y": 0.18,
+                "w": 0.9,
+                "h": 0.45
+            },
+            "bullets": {
+                "x": 0.05,
+                "y": 0.65,
+                "w": 0.9,
+                "h": 0.3
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "Cycle Domain Adaptation (CycDA) Loss",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 2",
+            "caption": "Integration of CycDA Loss within the feature extraction architecture"
+        },
+        "bullets": [
+            "Mitigates domain gaps from camera specifications and environmental changes",
+            "Minimizes L2 discrepancies across ground, satellite, and latent feature spaces",
+            "Enforces view-invariant representations for robust bidirectional feature translation"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "CycDA loss bridges the domain gap from varying camera specs and lighting.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.9,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "This component mitigates domain gaps arising from different camera specifications and environmental changes.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 7.8,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "It minimizes L2 distances across ground, satellite, and shared latent spaces.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 11.7,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "This bidirectional adaptation ensures features are view-invariant and translatable, providing a robust foundation for cross-view matching.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 15.6,
+    "source": [
+        "Section 4.2",
+        "Equation 7"
+    ],
+    "audio_content": "CycDA loss bridges the domain gap from varying camera specs and lighting. It minimizes L2 distances across ground, satellite, and shared latent spaces. This bidirectional adaptation ensures features are view-invariant and translatable, providing a robust foundation for cross-view matching.",
+    "prompt": "A diagram showing the CycDA loss component within a neural network architecture, highlighting the bidirectional flow between ground and satellite feature maps and the shared latent space."
+}

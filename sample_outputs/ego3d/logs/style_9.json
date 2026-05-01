@@ -1,0 +1,26 @@
+{
+    "layout_template": "two_col_fig_left",
+    "background_color": "#FFFFFF",
+    "layout_regions": {
+        "title": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.9,
+            "h": 0.1
+        },
+        "figure": {
+            "x": 0.05,
+            "y": 0.2,
+            "w": 0.45,
+            "h": 0.7
+        },
+        "bullets": {
+            "x": 0.55,
+            "y": 0.2,
+            "w": 0.4,
+            "h": 0.7
+        }
+    },
+    "has_figure": true,
+    "style_rationale": "A two-column layout with the figure on the left is ideal for a concluding slide. It allows for a representative visualization of the IKEA Ego 3D dataset (such as the point cloud actions from Figure 3) to remain on screen while the right side summarizes the key takeaways and future research directions like multi-modal fusion and AR applications."
+}

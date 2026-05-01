@@ -1,0 +1,26 @@
+{
+    "layout_template": "two_col_fig_left",
+    "background_color": "#FFFFFF",
+    "layout_regions": {
+        "title": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.9,
+            "h": 0.1
+        },
+        "figure": {
+            "x": 0.05,
+            "y": 0.2,
+            "w": 0.45,
+            "h": 0.7
+        },
+        "bullets": {
+            "x": 0.55,
+            "y": 0.2,
+            "w": 0.4,
+            "h": 0.7
+        }
+    },
+    "has_figure": true,
+    "style_rationale": "A two-column layout is chosen to present the data processing pipeline (Figure 1) or the main benchmark results (Table 2) on the left, providing a visual anchor for the experimental setup. The right column concisely lists the unified protocol, training details, and evaluation metrics, ensuring a clear mapping between the methodology and the visual evidence."
+}

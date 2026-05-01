@@ -1,0 +1,116 @@
+{
+    "scene_id": 5,
+    "title": "Experimental Results on KITTI and Ford Datasets",
+    "summary": "Evaluations on KITTI and Ford Multi-AV datasets show that the method consistently achieves the lowest mean longitudinal and lateral translation errors. It demonstrates superior robustness, particularly when the initial pose is less accurate, outperforming existing pixel-wise and patch-wise methods.",
+    "paper_section": "Experiments",
+    "narrative_role": "experiments",
+    "asset_video": null,
+    "duration_stat": {
+        "min": 8.0,
+        "max": 15.0,
+        "avg": 12.0
+    },
+    "extracted_content": "The proposed method was rigorously evaluated on the KITTI-CVL and Ford Multi-AV datasets, consistently outperforming state-of-the-art pixel-wise and patch-wise localization methods. Under standard noise conditions (\u00b110\u00b0, \u00b120m), it achieves a mean location error of 0.20m on KITTI, a significant improvement over the baseline PureACL (2.42m). The method's robustness is most evident under extreme initial noise (\u00b145\u00b0, \u00b120m), where it maintains high precision (e.g., 0.17m mean lateral error) and superior convergence compared to baselines that struggle with large orientation errors. Furthermore, in continual pose estimation scenarios where only the starting pose is provided, the method successfully completes 100% of the evaluation routes, whereas competing methods like BoostAcc and PureACL suffer from severe drift and fail early in the trajectory. Multi-camera setups (F-4C) further enhance performance, reducing mean lateral error to 0.13m on the Ford dataset.",
+    "layout": {
+        "template": "full_fig_with_callouts",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.9,
+                "h": 0.1
+            },
+            "figure": {
+                "x": 0.05,
+                "y": 0.18,
+                "w": 0.9,
+                "h": 0.52
+            },
+            "bullets": {
+                "x": 0.05,
+                "y": 0.72,
+                "w": 0.9,
+                "h": 0.23
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "State-of-the-Art Performance and Robustness",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 7",
+            "caption": "Trajectory tracking comparison over a 3676-meter route"
+        },
+        "bullets": [
+            "Achieves 0.20m mean location error on KITTI, a 90% improvement over PureACL",
+            "Maintains high precision and superior convergence under extreme initial noise",
+            "Completes 100% of evaluation routes where baselines suffer from severe drift"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "Our method achieves a zero-point-two meter mean error on KITTI,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.8,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "a significant leap over the baseline.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 7.6,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "It maintains high precision under extreme noise",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 11.4,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "and successfully completes one hundred percent of evaluation routes, whereas competing methods drift and fail early.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 15.2,
+    "source": [
+        "Section 5.2",
+        "Section 5.4",
+        "Figure 7",
+        "Table 3"
+    ],
+    "audio_content": "Our method achieves a zero-point-two meter mean error on KITTI, a significant leap over the baseline. It maintains high precision under extreme noise and successfully completes one hundred percent of evaluation routes, whereas competing methods drift and fail early.",
+    "prompt": "A slide showing Figure 7 from the paper, which displays trajectory maps comparing the proposed method's tracking accuracy against PureACL and BoostAcc. Below the figure, three bullet points summarize the quantitative performance gains and robustness to noise."
+}

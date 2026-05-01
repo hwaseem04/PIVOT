@@ -1,0 +1,27 @@
+{
+    "layout_template": "full_fig_with_callouts",
+    "background_color": "#FFFFFF",
+    "layout_regions": {
+        "title": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.9,
+            "h": 0.1
+        },
+        "figure": {
+            "x": 0.05,
+            "y": 0.15,
+            "w": 0.9,
+            "h": 0.45
+        },
+        "bullets": {
+            "x": 0.05,
+            "y": 0.62,
+            "w": 0.9,
+            "h": 0.33
+        }
+    },
+    "has_figure": true,
+    "has_video": false,
+    "style_rationale": "Figure 2 is a wide horizontal overview of the entire framework, illustrating the flow from server to client. A full-width figure placement preserves its aspect ratio and provides a clear visual anchor for the three core innovations (redesign, split learning, and privacy boosting) which are detailed in the bullets below."
+}

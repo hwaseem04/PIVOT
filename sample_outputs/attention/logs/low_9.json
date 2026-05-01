@@ -1,0 +1,22 @@
+{
+    "title": "Model Variations and Generalization",
+    "audio_content": "Ablation studies reveal that attention head count and key dimensions are critical. The model is robust to positional encoding types, yielding identical results. Remarkably, the Transformer generalizes to English constituency parsing, achieving a state-of-the-art 92.7 F1 score.",
+    "duration_sec": 14.8,
+    "bullets": [
+        "Attention head count and key dimensions are critical.",
+        "Robust to both sinusoidal and learned positional encodings.",
+        "Achieved state-of-the-art 92.7 F1 on English constituency parsing."
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Table 3",
+        "caption": "Ablation results for different Transformer architectural variations."
+    },
+    "source": [
+        "Section 6.2",
+        "Section 6.3",
+        "Table 3",
+        "Table 4"
+    ],
+    "prompt": "A slide showing Table 3 from the paper, detailing ablation studies on the Transformer architecture, with bullet points below summarizing key findings on model variations and its generalization to parsing tasks."
+}

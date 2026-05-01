@@ -1,0 +1,27 @@
+{
+    "title": "Injecting Order with Positional Encoding",
+    "subtitle": "Representing sequence structure without recurrence",
+    "audio_content": "Since the Transformer lacks recurrence, it uses positional encodings to capture sequence order. These sinusoidal signals are added to embeddings, helping the model learn relative positions and generalize to longer sequences.",
+    "duration_sec": 12.8,
+    "bullets": [
+        "Added to embeddings at the stack base",
+        "Uses sinusoidal functions of varying frequencies",
+        "Enables learning of relative token positions",
+        "Generalizes to sequences longer than training"
+    ],
+    "equations": [
+        "Eq. 1: PE_{(pos, 2i)} = \\sin(pos / 10000^{2i/d_{model}})",
+        "Eq. 2: PE_{(pos, 2i+1)} = \\cos(pos / 10000^{2i/d_{model}})"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 1",
+        "caption": "Positional encodings are summed with embeddings before the stacks."
+    },
+    "source": [
+        "Section 3.5",
+        "Figure 1",
+        "Table 3"
+    ],
+    "prompt": "The Transformer architecture diagram from Figure 1, specifically highlighting the Positional Encoding circles and their summation with the input and output embeddings."
+}

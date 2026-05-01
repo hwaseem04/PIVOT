@@ -1,0 +1,36 @@
+{
+    "extracted_content": "The Top-to-Ground Aggregation (T2GA) module is designed to bridge the appearance gap for tall structures and occluded objects by aligning their ground-level representations. It operates on the principle that while elevated objects look different from ground and aerial views, their base positions on the ground plane are geometrically consistent. T2GA uses a transformer-based attention mechanism where on-ground pixels serve as queries to aggregate features from elevated pixels in the same vertical column. This allows the model to either fuse features of the same object or replace occluded ground features with reliable information from above. The resulting aggregated feature map ($F^a$) is formed by vertically stacking these attention-weighted features with the original ground features. This process ensures that landmarks like traffic signal poles, which might be ignored by standard methods, receive higher confidence values and are sampled as keypoints for more precise vehicle pose estimation.",
+    "key_figures": [
+        {
+            "ref": "Figure 2",
+            "caption": "Our method adopts PureACL [24] as the baseline model and introduces three novel components (highlighted in red): (1) T2GA (Sec.4.1): aggregates the features of elevated pixels onto the feature of the on-ground pixel that is directly beneath them to alleviate the representation gap of the same object across different views; (2) CycDA Loss (Sec.4.2): explicitly enforces a view-invariant representation for the same object; and (3) ERP Loss (Sec.4.3): allows the model to leverage key points that are farther away from the vehicle while allocating more emphasis on correcting the vehicle orientation estimation.",
+            "relevance": "Provides the architectural context, showing how the T2GA module integrates into the feature extraction and matching pipeline."
+        },
+        {
+            "ref": "Figure 3",
+            "caption": "Attention between the on-ground pixels and their corresponding elevated pixels is displayed column-wise. (Left example): The attention between the base and top of the streetlight is high despite their distinct appearances. This allows the resultant aggregated ground feature to be aligned with the satellite feature corresponding to the matching geographic location. (Right example): In the absence of occlusion from above, ground pixels maintain minimal attention with their elevated pixels. This avoids unnecessary dilution of the ground features which are already well aligned with their satellite counterparts.",
+            "relevance": "Visualizes the column-wise attention mechanism that allows on-ground pixels to 'pull' features from elevated structures like streetlights."
+        },
+        {
+            "ref": "Figure 4",
+            "caption": "Illustration on the effect of T2GA on the confidence map of the baseline model. The confidence map without T2GA (Left) predominantly highlights road marks and curbs, resulting in subsequent keypoint sampling missing important road landmarks, e.g. traffic signal poles, that provide important cues to vehicle pose estimation; The confidence map with T2GA (Right) has high confidence values distributed across various road marks and traffic poles. With more geographic cues provided by multiple sources, the resultant pose prediction becomes more precise and robust.",
+            "relevance": "Demonstrates the practical impact of T2GA on the confidence map, showing it successfully identifies vertical landmarks that standard methods miss."
+        }
+    ],
+    "key_tables": [],
+    "key_equations": [
+        {
+            "ref": "Equation 2",
+            "content": "F^{att}[p] = \text{Softmax}(\\mathbf{Q}\\mathbf{K}^T)\\mathbf{V}",
+            "relevance": "Defines the core attention mechanism used to aggregate elevated features (V) onto on-ground pixels (p) using queries (Q) and keys (K)."
+        },
+        {
+            "ref": "Equation 3",
+            "content": "F^a = F^g_{0:H^g-\tau} \\oplus F^{att}",
+            "relevance": "Shows how the aggregated feature map is constructed by vertically stacking the attention-weighted features with the original ground features."
+        }
+    ],
+    "section_refs": [
+        "Section 4.1"
+    ]
+}

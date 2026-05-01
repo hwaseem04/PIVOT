@@ -1,0 +1,734 @@
+{
+  "video_id": "CVPR_CVPR-2025_Highlight-InstaManip-In-context-Learning-of-Autoregressive-Mod__CVPR2025-Unleashing-In-context-Learning",
+  "duration": 837.17,
+  "fps_sampled": 1.0,
+  "total_slides": 28,
+  "slides_with_builds": 19,
+  "total_build_steps": 65,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 11.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Unleashing In-context Learning of Autoregressive Models for Few-shot Image Manipulation",
+        "layout_description": "This is a title slide with a centered, hierarchical layout on a plain white background. The main title is prominently displayed at the top in a large, bold, black sans-serif font, spanning two lines. Below the title, the conference name 'CVPR 2025' is centered in a smaller, bold, red font. Following this is a block of text listing the authors' names, each with superscript numbers corresponding to their affiliations. Below the authors, the affiliations are listed in a single line, mapping the numbers to institutions like GenAI, Meta, Georgia Tech, UIUC, SKKU, and UW-Madison. The bottom section of the slide features a grid of five institutional logos: Meta, Georgia Tech, and the University of Illinois Urbana-Champaign in the first row, followed by Sungkyunkwan University and the University of Wisconsin-Madison in the second row. The text density is moderate, and the overall design is clean and professional."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 11.0,
+      "t_end": 15.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 11.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Motivation",
+        "layout_description": "The slide follows a minimalist single-column layout with a title. The word 'Motivation' is placed as a title in the top-left corner, rendered in a standard black sans-serif font. The remainder of the slide is completely empty, featuring a plain white background without any bullet points, images, charts, or decorative elements. The text density is extremely light, consisting only of the single-word heading."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 15.0,
+      "t_end": 94.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 18.0,
+          "image": "slide_3_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 36.0,
+          "image": "slide_3_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 85.0,
+          "image": "slide_3_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Motivation",
+        "layout_description": "The slide features a large, bold title 'Motivation' positioned at the top-left. The content is organized into a two-column structure. The left column contains two primary bullet points in black text, explaining the performance drop of existing models on unseen instructions and the value of visual examples for providing local details. The right column contains a visual diagram illustrating these concepts. At the top of the diagram is an input image of a white car in a forest, accompanied by a text prompt 'make it a Lamborghini' and a thought bubble containing the words 'Shape? Color? Texture?' next to a thinking emoji. Two arrows point downwards from this input image to a side-by-side comparison. The left side of the comparison, labeled 'Textual Instruction Only (InstructPix2Pix)', shows a resulting image of a dark car. The right side, labeled 'Textual + Visual Guidance (Ours)', shows the same prompt along with two small visual reference images of Lamborghinis, leading to a final output image of a green Lamborghini in the original forest setting. The word 'Lamborghini' is highlighted in red within the text prompts for emphasis. The background is a clean white, and the text density is moderate."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "method",
+      "t_start": 94.0,
+      "t_end": 105.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 94.0,
+          "image": "slide_4_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 95.0,
+          "image": "slide_4_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 102.0,
+          "image": "slide_4_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure grid",
+        "title_text": "Related Work",
+        "layout_description": "The slide features a large, bold title 'Related Work' positioned at the top-left. Below the title, a single bullet point introduces the specific area of 'Few-shot Image Manipulation'. The central content consists of three figures representing prior research: 'ImageBrush (NeurIPS'23)' and 'VISII (NeurIPS'23)' are stacked on the left, while 'PromptDiffusion (NeurIPS'23)' is a larger diagram on the right. Each figure includes a technical diagram or image examples with a caption underneath. Three vertical dots are placed below the left-hand figures to suggest additional related works. At the bottom of the slide, a summary statement is provided in a standard font, critiquing previous methods for being strong in generation but weak in reasoning. The slide uses a clean white background with black text and colorful diagrams, maintaining a moderate text density."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "method",
+      "t_start": 105.0,
+      "t_end": 172.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 105.0,
+          "image": "slide_5_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 113.0,
+          "image": "slide_5_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 145.0,
+          "image": "slide_5_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Related Work",
+        "layout_description": "The slide features a large, bold title 'Related Work' at the top-left. The main body is organized into two distinct columns, each headed by a bullet point. The left column, titled 'Few-shot Image Manipulation', contains three complex diagrams representing different models (ImageBrush, PromptDiffusion, and VISII) with their respective publication venues. These diagrams are arranged in a triangular layout with vertical ellipses indicating other works. Below the diagrams, a text block explains that previous diffusion-based methods are weak in reasoning, followed by a large blue downward arrow pointing to a concluding statement about leveraging autoregressive architectures. The right column, titled 'Autoregressive Models for Vision', follows a similar structure with three diagrams for LVM, Emu2, and DreamLLM. Below these figures, a text block critiques existing models for using vanilla self-attention with causal masks. The slide uses a clean white background with moderate text density, balancing technical flowcharts with descriptive text."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 172.0,
+      "t_end": 180.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 172.0,
+          "image": "slide_6_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 178.0,
+          "image": "slide_6_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and horizontal flow diagram",
+        "title_text": "Method \u2013 Formulation",
+        "layout_description": "The slide features a large, bold title 'Method \u2013 Formulation' positioned at the top-left in a black sans-serif font. The main content is a horizontal flow diagram that illustrates a mathematical or procedural formulation. From left to right, it consists of a 'Query Image' (labeled x), a blue plus sign, a 'Textual Instruction' (labeled T) with the text 'make it a Lamborghini', another blue plus sign, and a pair of images labeled 'Exemplar Source Image' (x') and 'Exemplar Target Image' (y') which are grouped together within a thin green frame. A blue arrow points from this sequence to the final 'Generated Image' (labeled y) on the far right. Each image and text block has a descriptive label and a corresponding mathematical symbol centered underneath it. The background is a clean, solid white, and the overall text density is light, prioritizing visual communication of the method's components."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 180.0,
+      "t_end": 250.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 180.0,
+          "image": "slide_7_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 187.0,
+          "image": "slide_7_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 204.0,
+          "image": "slide_7_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "horizontal flow diagram with title",
+        "title_text": "Method \u2013 Formulation",
+        "layout_description": "The slide features a large, plain title at the top-left. The central part of the slide is a horizontal flow diagram illustrating a mathematical formulation for image generation. It starts on the left with a 'Query Image' (X), followed by a plus sign, a 'Textual Instruction' (T) in quotes, another plus sign, and two 'Exemplar' images (Source X' and Target y') enclosed in a green border. A blue arrow points from these inputs to a final 'Generated Image' (y) on the far right. Below this sequence, a mathematical expression P(y|X, T, X', y') is centered. At the bottom, two red dashed boxes provide further explanation, connected by red arrows to 'learning stage' and 'applying stage' labels. The left box describes learning the transformation from instructions and exemplars, while the right box describes applying the learned skills to a new instance. The slide has a clean white background and moderate text density."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 250.0,
+      "t_end": 255.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 250.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Method \u2013 InstaManip",
+        "layout_description": "The slide follows a minimalist single-column layout. It features a plain black text title, 'Method \u2013 InstaManip', located in the top-left corner. The rest of the slide is completely empty, consisting of a solid white background with no additional content such as text, bullet points, figures, or equations. There are no decorative elements, logos, or page numbers present, resulting in an extremely light text density."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 255.0,
+      "t_end": 346.0,
+      "num_builds": 5,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 255.0,
+          "image": "slide_9_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 256.0,
+          "image": "slide_9_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 263.0,
+          "image": "slide_9_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 323.0,
+          "image": "slide_9_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 329.0,
+          "image": "slide_9_build_4.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and large central diagram",
+        "title_text": "Method \u2013 InstaManip",
+        "layout_description": "The slide features a large, bold title 'Method \u2013 InstaManip' positioned at the top-left. Below the title on the left side is a legend enclosed in a dashed box that defines various token types (Text/Image Embedding, Template Embedding, Learnable) and training states (Finetuned with LoRA indicated by a fire icon, Frozen indicated by a snowflake icon). The main body of the slide is occupied by a detailed architectural flowchart. At the bottom, several inputs are labeled: 'Textual Instructions', 'Exemplar Source Image', 'Exemplar Target Image', 'Manipulation Tokens', 'Query Image', and 'Generation Tokens', each corresponding to a sequence of colored squares (tokens) and small thumbnail images. These inputs feed into a large central dashed box representing a transformer block repeated N times, which contains a 'Group Self-Attention' layer and an 'MLP' layer. The attention layer is visually divided into a 'Learning Stage' and an 'Applying Stage' with curved lines illustrating the attention mechanism. At the top, the processed tokens pass through an 'Image Decoder' icon to produce the final 'Generated Image'. The layout is clean with a white background and uses a moderate amount of text primarily for labeling components and stages."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 346.0,
+      "t_end": 360.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 346.0,
+          "image": "slide_10_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 352.0,
+          "image": "slide_10_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 357.0,
+          "image": "slide_10_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with complex diagram",
+        "title_text": "Method \u2013 Group Self-Attention",
+        "layout_description": "The slide features a large, bold title at the top-left. The main body is occupied by a detailed technical diagram divided into two primary parts. On the left, a flowchart illustrates the model architecture, starting from an input sequence of color-coded tokens at the bottom (textual instructions, exemplar images, manipulation tokens, query image, and generation tokens). These tokens pass through a dashed box representing a transformer block with 'Group Self-Attention' and 'MLP' components, repeated N times. The 'Group Self-Attention' block is further detailed with arrows showing 'Learning' and 'Applying' stages. A legend in the top-left of this section explains token types and training status using fire (fine-tuned) and snowflake (frozen) icons. The output leads to an 'Image Decoder' that produces a 'Generated Image'. On the right, a large rounded box titled 'Group Self-Attention Mechanism' displays a detailed attention matrix grid. This grid maps 'Query' tokens on the vertical axis to 'Key' tokens on the horizontal axis, using the same thumbnail images and color-coded labels as the main architecture diagram. The overall text density is moderate to dense, with a clean white background and a consistent color scheme for different token categories."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 360.0,
+      "t_end": 406.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 360.0,
+          "image": "slide_11_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 362.0,
+          "image": "slide_11_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 369.0,
+          "image": "slide_11_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with complex diagram",
+        "title_text": "Method \u2013 Group Self-Attention",
+        "layout_description": "The slide features a large, bold title at the top-left. The main body of the slide is occupied by a detailed technical diagram split into two primary components. On the left, a vertical architectural flowchart shows the processing of various input tokens\u2014including textual instructions, exemplar images, manipulation tokens, and query images\u2014through a repeating block consisting of 'Group Self-Attention' and an 'MLP'. A legend in the top-left corner of this section defines the color-coding for different token types and uses icons (a fire symbol for LoRA finetuning and a snowflake for frozen parameters) to indicate training status. On the right, a large inset box titled 'Group Self-Attention Mechanism' provides a detailed view of an attention matrix. This matrix is a grid where rows and columns are labeled with token types and small thumbnail images, highlighting a triangular 'Learning Stage' with a yellow-to-red gradient. Small car images are used throughout to represent source, target, and generated images. The slide uses a white background with a moderate density of text, labels, and mathematical symbols."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "method",
+      "t_start": 406.0,
+      "t_end": 420.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 406.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Method \u2013 Relation Regularization",
+        "layout_description": "The slide follows a minimalist, single-column layout. It features a plain white background with a single line of text at the top. The title, 'Method \u2013 Relation Regularization', is aligned to the top-left corner in a standard black sans-serif font. The entire body of the slide below the title is completely empty, containing no bullet points, figures, equations, or other visual elements. The text density is extremely light, suggesting this may be a section header or a placeholder slide."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "method",
+      "t_start": 420.0,
+      "t_end": 473.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 420.0,
+          "image": "slide_13_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 428.0,
+          "image": "slide_13_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 431.0,
+          "image": "slide_13_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 463.0,
+          "image": "slide_13_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "methodology diagram layout",
+        "title_text": "Method \u2013 Relation Regularization",
+        "layout_description": "The slide features a large, bold title at the top left. The main content is a conceptual diagram organized into three vertical tiers. The top tier shows two parallel processing flows: on the left, 'Manipulation Tokens' (represented by yellow squares) are processed through 'Average' and 'L2-norm' blocks to produce an orange square; on the right, 'Textual Instructions' pass through a 'CLIP' encoder and an 'L2-norm' block to produce a blue square. The middle tier consists of two large side-by-side grids representing 'relation maps'\u2014a light orange one on the left and a light blue one on the right. A dashed oval containing the text 'MSE' is centered between these grids with arrows pointing inward from both, indicating a Mean Squared Error calculation. The bottom tier contains a single, centered mathematical equation for total loss, where the 'relation' loss component is highlighted in red. The slide uses a clean white background with a light text density, relying on color-coded icons and flowcharts to explain the methodology."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "experiments",
+      "t_start": 473.0,
+      "t_end": 480.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 473.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Experiments \u2013 Datasets & Metrics",
+        "layout_description": "The slide follows a clean, minimalist single-column layout on a plain white background. A large, bold title is positioned at the top left. The main content is organized into two primary sections: 'Dataset' and 'Metrics', each marked with a solid black bullet point. Underneath these headings, detailed information is provided using a second level of indentation with open-circle bullet points. The 'Dataset' section contains three sub-bullets describing the data source, test set selection, and training set exclusion criteria. The 'Metrics' section lists four sub-bullets, each defining a specific evaluation metric (CLIP-Dir, CLIP-Vis, CLIP-T, and CLIP-I). The text is entirely black and left-aligned, maintaining a clear hierarchical structure with moderate text density and significant white space."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "experiments",
+      "t_start": 480.0,
+      "t_end": 497.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 480.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Experiments \u2013 Datasets & Metrics",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. A large, bold title is situated at the top-left. The main body of the slide is organized into two primary sections: 'Dataset' and 'Metrics'. Each section is introduced by a solid black bullet point. Underneath these headings, detailed information is provided using a hierarchical structure with indented sub-bullets represented by open circles. The 'Dataset' section contains three sub-bullets explaining the data source, test set size, and training set exclusion criteria. The 'Metrics' section lists four specific evaluation metrics (CLIP-Dir, CLIP-Vis, CLIP-T, and CLIP-I), each followed by a brief description of what it measures. The text is entirely black and left-aligned, resulting in a moderate text density that is easy to read."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "experiments",
+      "t_start": 497.0,
+      "t_end": 510.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 497.0,
+          "image": "slide_16_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 504.0,
+          "image": "slide_16_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Experiments \u2013 Comparison with Prior Methods",
+        "layout_description": "The slide has a very minimalist layout with a large, centered title at the top. Below the title, there is a single line of explanatory text that is left-aligned. This text defines the 'In-Distribution Setting' and uses red font color to emphasize the phrase 'same instructions and contents'. The majority of the slide area below this single line of text is empty white space, with no figures, tables, or bullet points present. The background is plain white with no decorative elements, logos, or page numbers."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "results",
+      "t_start": 510.0,
+      "t_end": 609.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 510.0,
+          "image": "slide_17_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 513.0,
+          "image": "slide_17_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with multiple charts",
+        "title_text": "Experiments \u2013 Comparison with Prior Methods",
+        "layout_description": "The slide features a large, centered title at the top. Below the title is a centered subtitle explaining the experimental setting, with specific words highlighted in red for emphasis. The central content consists of four separate bar charts arranged in a single horizontal row. Each chart is labeled with a specific metric (CLIP-Dir, CLIP-Vis, CLIP-T, and CLIP-I) and contains five colored bars representing different methods. Numerical values are displayed directly above each bar for clarity. At the bottom of the slide, a horizontal legend box is centered, mapping the five colors (grey, pink, blue, light green, and orange) to their corresponding method names, with the final method labeled as '(Ours)'. The background is a clean white, and the overall text density is moderate, prioritizing the visual comparison of quantitative data."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "experiments",
+      "t_start": 609.0,
+      "t_end": 615.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 609.0,
+          "image": "slide_18_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 614.0,
+          "image": "slide_18_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Experiments \u2013 Visualization",
+        "layout_description": "The slide features a large, black, sans-serif title 'Experiments \u2013 Visualization' positioned at the top left. Below the title, a sub-heading 'Instructions & Exemplar Images' is centered over a column of content that is aligned to the left side of the slide. This content consists of four vertical examples. Each example includes a text instruction in quotes, such as 'Add a Chihuahua', with a specific keyword highlighted in red. Directly beneath each instruction is a pair of side-by-side images illustrating a visual transformation (e.g., adding an animal, changing artistic style, changing background, or changing material). The right half of the slide is entirely empty white space, resulting in a light text density and a focus on the qualitative visual results. There are no logos, page numbers, or decorative elements."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "experiments",
+      "t_start": 615.0,
+      "t_end": 654.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 615.0,
+          "image": "slide_19_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 618.0,
+          "image": "slide_19_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 619.0,
+          "image": "slide_19_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison grid layout",
+        "title_text": "Experiments \u2013 Visualization",
+        "layout_description": "The slide features a large, bold title at the top left. Below the title, the content is organized into a grid with three main columns and four rows of examples. The first column, labeled 'Instructions & Exemplar Images', displays a text instruction with key terms highlighted in red (e.g., 'Chihuahua', 'Van Gogh', 'Mt Everest', 'clay'), followed by two small side-by-side images illustrating the intended change. The second column, 'Query Image', shows a single input image. The third column, 'InstructPix2Pix', shows the output image generated by the model. Small blue arrows point from the query images to the results to indicate the transformation process. The four rows demonstrate different image editing tasks: adding an object, changing artistic style, changing background/location, and changing material. The background is plain white, and the text density is moderate, focusing primarily on visual qualitative comparisons."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "experiments",
+      "t_start": 654.0,
+      "t_end": 660.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 654.0,
+          "image": "slide_20_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 659.0,
+          "image": "slide_20_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Experiments \u2013 Ablation Study",
+        "layout_description": "The slide follows a clean, minimalist layout with a large, left-aligned title at the top. Below the title, a quantitative table is positioned in the upper-left quadrant, leaving the right side of the slide blank. The table consists of four columns: 'Group Self-Att.', 'Relation Reg.', 'CLIP-Dir', and 'CLIP-Vis'. The first two columns use checkmarks and crosses to indicate the inclusion or exclusion of specific model components across three experimental rows. The last two columns display numerical results, with the values in the final row bolded to signify the best performance. Visually, the table uses horizontal lines to separate the header and the final row, and a vertical line to distinguish between the experimental settings and the resulting metrics. The background is plain white, and the text density is light."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "experiments",
+      "t_start": 660.0,
+      "t_end": 719.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 660.0,
+          "image": "slide_21_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 671.0,
+          "image": "slide_21_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 674.0,
+          "image": "slide_21_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Experiments \u2013 Ablation Study",
+        "layout_description": "The slide features a large, bold title 'Experiments \u2013 Ablation Study' positioned at the top left. The content is organized into two main horizontal sections. On the left, a quantitative table presents ablation results across three rows, using checkmarks and 'X' marks to denote the inclusion of 'Group Self-Att.' and 'Relation Reg.' components, followed by numerical values for 'CLIP-Dir' and 'CLIP-Vis' metrics. On the right, a qualitative example is shown, starting with the text prompt 'As a painting by Van Gogh' (with 'Van Gogh' in red). Below the prompt are two small, side-by-side generated images showing a cathedral in a stylized artistic manner, and to their right is a larger original reference photograph of St. Basil's Cathedral. The slide has a clean white background with light text density, emphasizing the comparison between the table's data and the visual results."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "experiments",
+      "t_start": 719.0,
+      "t_end": 720.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 719.0,
+          "image": "slide_22_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Experiments \u2013 Using More Visual Examples",
+        "layout_description": "The slide follows a minimalist single-column layout. It features a large, black, sans-serif title positioned at the top-left corner. The remainder of the slide is completely empty, consisting of a plain white background with no bullet points, figures, equations, or decorative elements. The text density is extremely light, containing only the heading."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "results",
+      "t_start": 720.0,
+      "t_end": 760.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 720.0,
+          "image": "slide_23_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 727.0,
+          "image": "slide_23_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 749.0,
+          "image": "slide_23_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and side-by-side figures",
+        "title_text": "Experiments \u2013 Using More Visual Examples",
+        "layout_description": "The slide features a large, bold title at the top. Below the title, a sub-heading and a brief explanatory sentence provide context for the experimental conditions. The central portion of the slide is occupied by two line graphs positioned side-by-side. The left graph plots 'CLIP-Dir' and the right graph plots 'CLIP-Vis', both against the 'Number of Exemplar Image Pairs' on the x-axis. Each chart displays three data series represented by orange, blue, and green lines, with numerical values labeled at each data point and a legend in the bottom-right corner. At the very bottom of the slide, a centered summary sentence highlights the main takeaway, with the words 'more examples' and 'diversity' emphasized in red text. The overall layout is clean with a white background and moderate text density."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "experiments",
+      "t_start": 760.0,
+      "t_end": 765.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 760.0,
+          "image": "slide_24_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Experiments \u2013 Same Text + Different Examples",
+        "layout_description": "The slide follows a minimalist single-column layout. It features a large, black, sans-serif title centered at the top of the frame. Below the title, the entire body of the slide is empty white space, with no text, bullet points, figures, or other visual elements. The background is a solid, plain white. The overall text density is extremely light, as the slide contains only the heading."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "experiments",
+      "t_start": 765.0,
+      "t_end": 784.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 765.0,
+          "image": "slide_25_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 767.0,
+          "image": "slide_25_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 770.0,
+          "image": "slide_25_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 779.0,
+          "image": "slide_25_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison grid layout",
+        "title_text": "Experiments \u2013 Same Text + Different Examples",
+        "layout_description": "The slide features a large, centered title at the top. Below the title, the layout is organized into a complex grid of images demonstrating image generation results. On the far left, a 'Textual Instruction & Query Image' section displays the prompt 'Make it a Lamborghini' above a single image of a white Mercedes. A large blue curly bracket groups this query image with two main experimental blocks to its right. These two blocks are separated by a vertical dashed line. Each block contains three columns labeled 'Exemplar Source Image', 'Exemplar Target Image', and 'Generated Image', with three rows of image examples in each. Mathematical symbols like '+' and '->' are placed between the columns to indicate the process flow: the query image combined with an exemplar source/target pair produces a specific generated image. The background is white, and the text density is moderate, primarily consisting of labels for the image columns and the central query."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "conclusion",
+      "t_start": 784.0,
+      "t_end": 795.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 784.0,
+          "image": "slide_26_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 788.0,
+          "image": "slide_26_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 794.0,
+          "image": "slide_26_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Conclusion",
+        "layout_description": "The slide follows a minimalist single-column layout on a plain white background. A large, bold heading 'Conclusion' is placed at the top-left. The main content consists of two primary bullet points that are left-aligned and spaced out in the upper half of the slide. The first bullet point introduces a novel multi-modal autoregressive model called InstaManip, while the second bullet point describes an innovative group self-attention mechanism. The text is rendered in a black sans-serif font, and there are no additional visual elements such as images, diagrams, or page numbers. The overall text density is light, providing a clear and concise summary of the work's contributions."
+      }
+    },
+    {
+      "slide_id": 27,
+      "slide_section": "conclusion",
+      "t_start": 795.0,
+      "t_end": 835.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 795.0,
+          "image": "slide_27_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 805.0,
+          "image": "slide_27_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Conclusion",
+        "layout_description": "The slide features a minimalist, single-column layout on a plain white background. A large, bold title 'Conclusion' is positioned at the top-left. The main body of the slide consists of three distinct bullet points, each presenting a key takeaway or contribution of the research. The text is left-aligned and uses a standard black sans-serif font. There is significant white space between the bullet points and at the bottom of the slide, resulting in a light text density. No images, charts, equations, or decorative elements are present, maintaining a focus on the textual summary."
+      }
+    },
+    {
+      "slide_id": 28,
+      "slide_section": "other",
+      "t_start": 835.0,
+      "t_end": 837.17,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 835.0,
+          "image": "slide_28_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered text layout",
+        "title_text": "Thank You",
+        "layout_description": "The slide features a minimalist design with a single line of text centered both horizontally and vertically on a plain white background. The text 'Thank You' is rendered in a standard, medium-sized black sans-serif font. There are no other visual elements, such as headers, footers, logos, page numbers, or decorative graphics. The overall text density is extremely light, focusing entirely on the central message."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 458,
+    "gemini_layout_calls": 431,
+    "total_gemini_calls": 889,
+    "total_frames_sampled": 838,
+    "batch_size": 15
+  }
+}

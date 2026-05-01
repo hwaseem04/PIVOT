@@ -1,0 +1,516 @@
+{
+  "video_id": "CVPR_CVPR-2025_Identifying-and-Mitigating-Position-Bias-of-Multi-Image-Vision__CVPR-2025-Identifying-and-Mitigating",
+  "duration": 652.85,
+  "fps_sampled": 1.0,
+  "total_slides": 26,
+  "slides_with_builds": 1,
+  "total_build_steps": 27,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 44.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Identifying and Mitigating Position Bias of Multi-image Vision-Language Models",
+        "layout_description": "This is a title slide with a clean, white background and a centered layout. At the top of the slide, three logos are arranged horizontally: the Australian National University logo on the left, the GE Vernova logo in the center, and the CVPR Nashville 2025 logo (featuring a blue guitar silhouette) on the right. The main title is positioned in the center of the slide in a large, black, serif font. Below the title, the authors' names are listed in a single centered line with superscript numbers indicating their affiliations. At the bottom, the corresponding affiliations for 'Australian National University' and 'GE Research' are centered. The slide has a light text density with ample white space, creating a professional and minimalist appearance."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 44.0,
+      "t_end": 45.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 44.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "Background",
+        "layout_description": "The slide features a large, bold title 'Background' at the top-left, followed by a subtitle 'The capability gap from single-image to multi-image reasoning'. Below this is a horizontal numbered list of four reasoning types. The main content is organized into two distinct horizontal sections. The top section, labeled 'OK-VQA' on the left, consists of five columns, each topped with a color-coded header box (green, blue, yellow, pink, and teal) representing different categories. Each column contains an image, a question, and an answer. The bottom section, labeled 'Mantis-Eval' on the left, is divided by a vertical dashed line into two multi-image reasoning examples. The left example shows two images of dice with a counting question, while the right example shows three images of people with a mood-comparison question. Small bibliographic references are placed at the bottom-left corner. The layout is highly structured, using a grid to compare single-image tasks with multi-image reasoning tasks."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 45.0,
+      "t_end": 71.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 45.0,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with title and subtitle",
+        "title_text": "Background",
+        "layout_description": "The slide features a large, bold title 'Background' at the top-left, followed by a subtitle 'The capability gap from single-image to multi-image reasoning'. Below this, a numbered list identifies four key capabilities: 1. Cross-reasoning, 2. Reference, 3. Comparison, and 4. Temporal understanding. The main content is organized into two horizontal rows. The top row, labeled 'OK-VQA' with vertical text on the left, consists of five columns. Each column has a colored header box (green, blue, yellow, red, and cyan) containing a category name, followed by a single image and a corresponding question-and-answer pair. The bottom row, labeled 'Mantis-Eval' with vertical text on the left, is divided into two distinct multi-image reasoning examples by a vertical dashed line. The left example shows two images of dice with a question below them, while the right example shows three images of people with a question below. The slide uses a white background with moderate text density and includes two academic references in small font at the bottom-left corner."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 71.0,
+      "t_end": 75.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 71.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title and footer bullets",
+        "title_text": "Motivation",
+        "layout_description": "The slide is organized with a clear hierarchy. At the top left, there is a large, bold title 'Motivation' in a dark blue serif font. Below this, two lines of text introduce the core problem: a question 'Does VLMs treat every image equally?' followed by a statement comparing it to a dilemma in NLP. The central part of the slide uses a two-column structure. The left column features a large bordered box labeled 'Input Context' containing a text-based prompt and three document snippets, with a smaller 'Desired Answer' box directly below it. The right column contains a line chart titled '20 Total Retrieved Documents (~4K tokens)' that plots 'Accuracy' against the 'Position of Document with the Answer', showing a U-shaped curve. A legend for the chart is placed at the bottom right of this section. Below these two columns, the slide concludes with two prominent bullet points in a large bold font that summarize the key findings: LLMs are better at the start and end, and accuracy drops in the middle. A small bibliographic citation is placed at the bottom left footer. The background is plain white, creating a clean and professional look."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "introduction",
+      "t_start": 75.0,
+      "t_end": 137.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 75.0,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title and footer bullets",
+        "title_text": "Motivation",
+        "layout_description": "The slide is organized with a clear hierarchy. At the top left, there is a large, bold title 'Motivation' in a dark blue serif font. Below this, two lines of text introduce the core problem: a question 'Does VLMs treat every image equally?' followed by a statement comparing it to a dilemma in NLP. The central part of the slide uses a two-column structure. The left column features a large bordered box labeled 'Input Context' containing a text-based prompt and three document snippets, with a smaller 'Desired Answer' box directly below it. The right column contains a line chart titled '20 Total Retrieved Documents (~4K tokens)' that plots 'Accuracy' against the 'Position of Document with the Answer', showing a U-shaped curve. A legend for the chart is placed at the bottom right of this section. Below these two columns, the slide concludes with two prominent bullet points in a large bold font that summarize the key findings: LLMs are better at the start and end, and accuracy drops in the middle. A small bibliographic citation is placed at the bottom left footer. The background is plain white, creating a clean and professional look."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "introduction",
+      "t_start": 137.0,
+      "t_end": 150.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 137.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with comparison columns",
+        "title_text": "Motivation\nDoes such kind of imbalanced reasoning also occur in VLMs?",
+        "layout_description": "The slide is organized into a three-column grid layout designed to illustrate examples of position bias. At the top left, the main title 'Motivation' is followed by a sub-heading question in a smaller font. Below this, three vertical columns each present a specific case study. Each column begins with a set of images (two in the first column, three in the second and third). Underneath the images are two rows of text blocks; each block contains a question and a model's response, marked with a small circular icon. The text within these responses uses color-coding, with green highlighting correct or consistent reasoning and red highlighting errors or inconsistencies caused by changing the order of input images. The bottom of the slide features a large, bold summary statement that spans the width of the page, defining 'Position bias' and its impact on VLM robustness. The design uses light gray backgrounds for the text blocks to distinguish them from the white slide background, creating a clean and structured comparison."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "introduction",
+      "t_start": 150.0,
+      "t_end": 220.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 150.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with three columns",
+        "title_text": "Motivation\nDoes such kind of imbalanced reasoning also occur in VLMs?",
+        "layout_description": "The slide is structured with a prominent title and subtitle at the top-left in a dark blue, bold serif font. The main body consists of three vertical columns, each presenting a qualitative example of model behavior. Each column follows a consistent vertical stack: a row of images at the top, followed by a question-answer pair, and then a second question-answer pair where the order of the images in the prompt has been swapped. The answers are accompanied by small circular icons representing different models and use color-coded text (green for correct/consistent reasoning and red for incorrect/inconsistent reasoning) to highlight the discrepancies. At the bottom of the slide, a large, bold summary statement spans the entire width, defining 'Position bias' based on the examples shown above. The background is plain white, and the text density is moderate, balanced by the visual image examples."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "results",
+      "t_start": 220.0,
+      "t_end": 225.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 220.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and grid of charts",
+        "title_text": "The Position Matters",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold, serif title 'The Position Matters' in the top-left corner. Below the title is a brief introductory sentence explaining the experimental setup. The central portion of the slide features a horizontal row of four bar charts, labeled (A) through (D), corresponding to different AI models: OpenFlamingo, Idefics2, LLaVA-NeXT, and GPT-4o. Each chart displays performance across four benchmarks (BLINK, Mantis, Muir, MIRB) using stacked blue bars for accuracy metrics (Minimum, Average, and Maximum) and a separate tan bar for inconsistency. The charts include dual y-axes for Accuracy (%) on the left and Inconsistency (%) on the right. The bottom third of the slide contains two prominent bullet points that define the evaluation process and the metric for prediction inconsistency. The overall design is clean with a white background and a moderate text density."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "results",
+      "t_start": 225.0,
+      "t_end": 301.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 225.0,
+          "image": "slide_9_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 275.0,
+          "image": "slide_9_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with grid of figures and bulleted summary",
+        "title_text": "The Position Matters",
+        "layout_description": "The slide follows a top-down hierarchical structure. At the top-left, there is a large, bold serif title, followed by a single-sentence introductory paragraph that spans the width of the slide. The middle section contains a horizontal row of four side-by-side bar charts, labeled (A) through (D), representing different Vision-Language Models: OpenFlamingo, Idefics2, LLaVA-NeXT, and GPT-4o. Each chart displays performance metrics across four benchmarks (BLINK, Mantis, Muir, MIRB) using blue-toned stacked bars for accuracy (Min, Ave, Max) and light orange bars for inconsistency, with dual y-axes for percentage values. The bottom third of the slide consists of two prominent bullet points that provide a quantitative summary and analysis of the experimental results shown in the charts. The background is plain white, and the text density is moderate, focusing on the relationship between the visual data and the concluding observations."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 301.0,
+      "t_end": 315.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 301.0,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "multi-section layout with image grid and text columns",
+        "title_text": "Identifying Position Bias",
+        "layout_description": "The slide is organized into three main vertical sections on a white background. At the top, a large bold title is positioned at the top-left, followed by a descriptive sub-heading. The middle section contains a horizontal row of eight images partitioned into three groups. Each group is accompanied by a light gray text box below it containing a specific question related to the images above (e.g., comparing two images or counting objects across three). The bottom section begins with two full-width bold headings that introduce 'Position-wise Question Answering (PQA)'. Below these headings, the layout splits into two columns: the left column features a monospaced code-like block demonstrating an example instruction, question, and answer format, while the right column contains two bullet points explaining the PQA requirements and the significance of accuracy scores. The text density is moderate, using a dark blue color for headings and black for body text."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 315.0,
+      "t_end": 370.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 315.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "multi-section layout with images and two-column bottom",
+        "title_text": "Identifying Position Bias",
+        "layout_description": "The slide is organized into three main vertical sections. At the top, a large bold title is positioned at the top-left, followed by a sub-heading that spans the width of the slide. The middle section contains a horizontal row of eight images grouped into three sets, each set accompanied by a question in a light gray box below it. These questions use color-coded text (blue, orange, and pink) to reference specific images. The bottom section starts with a two-line bold statement introducing 'Position-wise Question Answering (PQA)'. Below this statement, the layout splits into two columns: the left column features a monospaced code-like block showing an example instruction, question, and answer format, while the right column contains two bullet points explaining the PQA methodology. The slide uses a clean white background with dark blue and black text, maintaining a moderate text density."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "results",
+      "t_start": 370.0,
+      "t_end": 375.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 370.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title, figures, and bulleted text",
+        "title_text": "Identifying Position Bias",
+        "layout_description": "The slide features a clean white background with a large, bold serif title 'Identifying Position Bias' at the top-left. Below the title is a single line of introductory text describing the dataset. The central portion of the slide contains a horizontal row of four line charts, each representing a different number of images (5, 10, 15, and 20). These charts plot 'Accuracy (%)' against 'Image Position' for several models. A shared legend is positioned horizontally below the first two charts, identifying the models: OpenFlamingo, Idefics2, LLaVA-NeXT, GPT-4o, and a 'random guessing' baseline. The bottom third of the slide consists of two prominent bullet points in a bold serif font that summarize the key findings regarding recency bias in open-source VLMs and 'lost in the middle' bias in proprietary models like GPT-4o. The text density is moderate, with a clear vertical flow from the title to the data and then to the conclusions."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "results",
+      "t_start": 375.0,
+      "t_end": 413.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 375.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title, grid of figures, and bulleted text",
+        "title_text": "Identifying Position Bias",
+        "layout_description": "The slide features a large, bold, dark blue title at the top-left corner. Directly below the title is a single line of introductory text describing the dataset. The middle section of the slide contains a horizontal row of four line charts, each showing 'Accuracy (%)' versus 'Image Position' for different total image counts (5, 10, 15, and 20). A shared legend for these charts is placed horizontally below the first two graphs, identifying four specific VLM models and a random guessing baseline. The bottom third of the slide consists of two primary bullet points that provide a qualitative analysis of the data shown in the charts. The first bullet point explains 'recency bias' in open-source models, while the second describes the 'lost in the middle' phenomenon for proprietary models. The overall layout is clean with a white background and moderate text density, prioritizing the visual data analysis."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "method",
+      "t_start": 413.0,
+      "t_end": 420.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 413.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and side-by-side diagrams",
+        "title_text": "Mitigating Position Bias",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold, dark blue title at the top-left. Immediately below the title is a single sentence of introductory text. The central portion of the slide contains two side-by-side diagrams: the left one depicts an autoregressive VLM architecture with labeled components like 'Vision Encoder', 'Projection W', and 'Language Model', while the right one shows a 'Causal Mask' grid illustrating token interactions. Below these diagrams, a block of text introduces the concept of unidirectional information flow, followed by two bullet points that explain the consequences for images at different positions. The slide concludes with two small-font bibliographic references at the bottom-left. The visual style is clean with a white background and uses a color palette of light blue, green, and orange for the diagram elements."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "method",
+      "t_start": 420.0,
+      "t_end": 452.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 420.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagrams",
+        "title_text": "Mitigating Position Bias",
+        "layout_description": "The slide follows a top-to-bottom flow starting with a large, bold, dark blue serif title at the top-left. Immediately below the title is a single sentence of introductory text. The middle section contains two primary visual elements: on the left, a detailed architectural diagram of a Vision-Language Model (VLM) showing the flow from image and text inputs through a vision encoder and projection layer into a language model; on the right, a smaller grid diagram labeled 'Causal Mask' illustrating token interactions. Mathematical notations like f_phi, W, and X_v are used throughout these diagrams. Below the figures, a paragraph of text introduces two bullet points that explain the unidirectional information flow. The slide concludes with two small-font bibliographic references at the bottom-left corner. The color scheme is professional, utilizing light blue, green, and orange accents for diagram components against a white background, with moderate text density."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "method",
+      "t_start": 452.0,
+      "t_end": 465.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 452.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with comparison figures",
+        "title_text": "Mitigating Position Bias",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold, dark blue title in the top-left corner. Below the title, the content is organized into two main text blocks followed by a row of diagrams. The first text block presents a hypothesis using a main bullet point and two nested sub-bullets. The second text block introduces three experimental variants with a lead-in sentence followed by three bullet points where the variant names are italicized. The bottom third of the slide features three side-by-side comparison diagrams. Each diagram is a 4x4 grid representing an attention mask, with rows and columns labeled $I_1, T_1, I_2, T_2$ in blue boxes. The grids use orange squares to indicate active attention and light gray squares for masked positions. Each diagram is centered under its respective label: 'Causal Mask', 'Isolated Mask', and 'Bidirectional Mask'. The overall text density is moderate, set against a plain white background with a consistent dark blue and orange color scheme."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "method",
+      "t_start": 465.0,
+      "t_end": 485.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 465.0,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with top-aligned title and bottom-aligned figures",
+        "title_text": "Mitigating Position Bias",
+        "layout_description": "The slide follows a top-to-bottom flow. At the top-left, there is a large, bold title in a dark serif font. Below the title, a text block introduces a hypothesis followed by two bullet points. A second text block follows, introducing three variants (Causal Mask, Isolated Mask, Bidirectional Mask) with corresponding bulleted descriptions. The bottom third of the slide features three side-by-side diagrams illustrating these mask variants. Each diagram consists of a 4x4 grid with light blue headers labeled 'I1', 'T1', 'I2', and 'T2'. The grid cells are colored orange to represent allowed interactions and light gray for masked ones. Labels for each mask type are centered directly beneath their respective diagrams. The slide uses a clean white background with a moderate text density and a consistent color palette of dark blue, orange, and light blue."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "results",
+      "t_start": 485.0,
+      "t_end": 495.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 485.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title, figures, and bullet points",
+        "title_text": "Mitigating Position Bias",
+        "layout_description": "The slide follows a top-to-bottom flow starting with a large, bold title in a dark serif font positioned at the top-left. Below the title, the middle section contains two side-by-side line charts labeled '(A) Idefics2' on the left and '(B) LLaVA-NeXT' on the right. Both charts share a common legend at the top, displaying four data series: 'Causal' (blue), 'Isolated' (green), 'Bidirectional' (brown), and 'Soft (Ours)' (purple). The charts plot 'Accuracy (%)' on the y-axis against 'Image Position' ranging from 1 to 10 on the x-axis. The bottom third of the slide features three large, bold bullet points that summarize the findings from the charts. The background is a clean, solid white, and the overall text density is moderate, focusing on the visual data and its interpretation."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "results",
+      "t_start": 495.0,
+      "t_end": 528.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 495.0,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title, figure, and bullet points",
+        "title_text": "Mitigating Position Bias",
+        "layout_description": "The slide features a clean white background with a large, bold, dark blue serif title 'Mitigating Position Bias' aligned to the top-left. Below the title, the central portion of the slide is occupied by a large figure consisting of two side-by-side line charts. A shared legend is positioned horizontally above these charts, identifying four experimental conditions: 'Causal', 'Isolated', 'Bidirectional', and 'Soft (Ours)'. The left chart is labeled '(A) Idefics2' and the right is labeled '(B) LLaVA-NeXT', both plotting 'Accuracy (%)' on the vertical axis against 'Image Position' (1-10) on the horizontal axis. The bottom third of the slide contains three prominent, bolded bullet points that provide a textual summary and analysis of the data shown in the graphs. The overall text density is moderate, with a clear vertical flow from the title to the visual evidence and finally to the concluding observations."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "method",
+      "t_start": 528.0,
+      "t_end": 540.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 528.0,
+          "image": "slide_20_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Mitigating Position Bias",
+        "layout_description": "The slide features a clean, single-column layout on a white background. A large, bold title is positioned at the top-left. Below the title, a single sentence introduces the 'SoFt Attention (SoFA)' method. The middle section of the slide is dedicated to mathematical formulations, centered horizontally. It includes equations for the attention output H and the soft mask W_soft. Below these equations, two small grid diagrams representing 'W_causal' and 'W_bidirect' are placed side-by-side, using blue and orange colored squares to illustrate different masking patterns. The bottom portion of the slide contains a text block explaining the role of the parameter sigma, followed by two bullet points that describe the trade-offs of its value. The text density is moderate, with a clear focus on the mathematical and visual representation of the proposed method."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "method",
+      "t_start": 540.0,
+      "t_end": 568.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 540.0,
+          "image": "slide_21_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Mitigating Position Bias",
+        "layout_description": "The slide follows a clean, single-column layout on a white background. A large, bold, dark blue title is positioned at the top-left, followed by a single sentence of introductory text that spans the width of the slide. The middle section features a centered block of mathematical equations defining the 'SoFt Attention' (SoFA) method. Below these equations, two small, side-by-side grid diagrams visually represent 'W_causal' and 'W_bidirect' attention masks using blue and orange colored squares. The bottom portion of the slide contains a bolded explanatory line about the parameter sigma, followed by two bullet points that detail the trade-offs of its value. The text density is moderate, with a clear hierarchical flow from the general concept to mathematical definition and then to specific parameter analysis."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "results",
+      "t_start": 568.0,
+      "t_end": 570.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 568.0,
+          "image": "slide_22_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and side-by-side charts",
+        "title_text": "Mitigating Position Bias",
+        "layout_description": "The slide follows a top-to-bottom flow starting with a large, bold title 'Mitigating Position Bias' aligned to the top-left. Immediately below the title is a two-line text block describing the validation set and deployment details of the 'SoFA' method. The middle section of the slide features two side-by-side line charts, labeled '(A) Idefics2' on the left and '(B) LLaVA-NeXT' on the right. A horizontal legend is centered above these two charts, identifying four different experimental conditions: 'Causal', 'Isolated', 'Bidirectional', and 'Soft (Ours)'. Both charts show 'Accuracy (%)' on the vertical axis and 'Image Position' on the horizontal axis. The slide concludes with a bolded summary sentence at the bottom, stating the effectiveness of the proposed method. The background is plain white, and the text density is moderate, focusing on the visual comparison of the data series."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "results",
+      "t_start": 570.0,
+      "t_end": 598.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 570.0,
+          "image": "slide_23_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figures",
+        "title_text": "Mitigating Position Bias",
+        "layout_description": "The slide features a top-down single-column layout on a plain white background. At the top-left, there is a large, bold title. Below the title, a block of text explains the methodology for 'SoFA'. The central portion of the slide contains two side-by-side line charts. A shared legend is positioned horizontally above the charts, identifying four methods: Causal, Isolated, Bidirectional, and Soft (Ours). The left chart is labeled '(A) Idefics2' and the right is labeled '(B) LLaVA-NeXT', both plotting Accuracy (%) against Image Position. At the bottom of the slide, a final bolded paragraph summarizes the key findings. The text density is moderate, and the visual focus is on the comparative performance shown in the graphs."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "results",
+      "t_start": 598.0,
+      "t_end": 600.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 598.0,
+          "image": "slide_24_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with title",
+        "title_text": "Experiment & Results",
+        "layout_description": "The slide features a large, bold, serif title 'Experiment & Results' at the top-left. Below the title, a wide table (Table 1) spans the full width of the slide, presenting quantitative data for various models across four benchmarks (BLINK, Mantis-Eval, MuirBench, MIRB). The table uses bold text to highlight specific results and includes a descriptive caption immediately below it. The bottom half of the slide is divided into two figure sections. On the left, Figure 6 contains two side-by-side bar charts (labeled A and B) comparing 'Causal Attention' and 'Soft Attention' across image positions. On the right, Figure 7 is a single bar chart showing performance gains across ten different task categories, with numerical values labeled above each green bar. Captions for both figures are placed at the bottom of the slide. The overall text density is high due to the detailed table and multiple charts, set against a clean white background."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "results",
+      "t_start": 600.0,
+      "t_end": 647.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 600.0,
+          "image": "slide_25_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title, table, and figures",
+        "title_text": "Experiment & Results",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold, serif-font title 'Experiment & Results' at the top-left. Below the title, a comprehensive data table (Table 1) spans the full width of the slide, comparing several AI models across four different benchmarks with multiple metrics (Min, Ave, Max, Inc). A detailed text caption for Table 1 is positioned immediately below it. The bottom section of the slide is divided into two main visual areas: on the left, Figure 6 contains two side-by-side bar charts (labeled A and B) comparing 'Causal Attention' in purple and 'Soft Attention' in green across image positions. To the right, Figure 7 is a single bar chart with light green bars showing performance gains across various task categories like 'Retrieval' and 'Analogy'. Each figure has its own caption at the very bottom. The slide is visually dense, dominated by numerical data and graphical analysis on a clean white background."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "other",
+      "t_start": 647.0,
+      "t_end": 652.85,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 647.0,
+          "image": "slide_26_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered text layout",
+        "title_text": "THANK YOU",
+        "layout_description": "The slide features a minimalist design with a plain white background and black text. The main heading, 'THANK YOU', is written in a large, all-caps serif font and is positioned in the center of the slide. Below this, in a smaller font size, are two lines of text providing details for a poster presentation. The first line specifies the location and poster number as 'ExHall D Poster #376', and the second line indicates the date and time as '14 June 10:30AM \u2013 12:30PM'. All text elements are horizontally centered, creating a balanced and clean visual appearance with very low text density."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 698,
+    "gemini_layout_calls": 653,
+    "total_gemini_calls": 1351,
+    "total_frames_sampled": 653,
+    "batch_size": 15
+  }
+}

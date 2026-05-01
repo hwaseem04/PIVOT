@@ -1,0 +1,26 @@
+{
+    "extracted_content": "Visualizations of the Transformer's attention distributions demonstrate that individual attention heads learn to perform distinct tasks related to the syntactic and semantic structure of sentences. For example, encoder self-attention in the fifth layer can capture long-distance dependencies, such as linking the verb 'making' to the distant adjective 'difficult' to complete a phrase. Other heads are clearly involved in anaphora resolution, with the word 'its' showing sharp attention toward its referent 'Law'. The paper concludes that the Transformer is the first sequence transduction model to rely entirely on self-attention, replacing recurrent and convolutional layers. This architecture allows for significantly more parallelization and faster training while achieving superior translation quality. Future work aims to apply the Transformer to other modalities like images, audio, and video, and to explore restricted attention mechanisms for handling very long sequences.",
+    "key_figures": [
+        {
+            "ref": "Figure 3",
+            "caption": "An example of the attention mechanism following long-distance dependencies in the encoder self-attention in layer 5 of 6. Many of the attention heads attend to a distant dependency of the verb 'making', completing the phrase 'making...more difficult'. Attentions here shown only for the word 'making'. Different colors represent different heads. Best viewed in color.",
+            "relevance": "Illustrates how the model handles long-range syntactic relationships within a sentence."
+        },
+        {
+            "ref": "Figure 4",
+            "caption": "Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top: Full attentions for head 5. Bottom: Isolated attentions from just the word 'its' for attention heads 5 and 6. Note that the attentions are very sharp for this word.",
+            "relevance": "Provides evidence that the model learns to resolve pronoun references (anaphora) through its attention mechanism."
+        },
+        {
+            "ref": "Figure 5",
+            "caption": "Many of the attention heads exhibit behaviour that seems related to the structure of the sentence. We give two such examples above, from two different heads from the encoder self-attention at layer 5 of 6. The heads clearly learned to perform different tasks.",
+            "relevance": "Shows that different attention heads specialize in capturing different aspects of sentence structure."
+        }
+    ],
+    "key_tables": [],
+    "key_equations": [],
+    "section_refs": [
+        "Section 4",
+        "Section 7"
+    ]
+}

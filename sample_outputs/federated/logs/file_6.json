@@ -1,0 +1,128 @@
+{
+    "scene_id": 6,
+    "title": "Experimental Results and Accuracy",
+    "summary": "Evaluated on CIFAR and SVHN datasets, BlindFed achieves accuracy levels comparable to LoRA and significantly outperforms linear probing, demonstrating that double-blind privacy can be maintained without sacrificing model performance.",
+    "paper_section": "Results",
+    "narrative_role": "results",
+    "asset_video": null,
+    "duration_stat": {
+        "min": 10.0,
+        "max": 15.0,
+        "avg": 12.0
+    },
+    "extracted_content": "BlindFed's performance was evaluated on CIFAR-10, CIFAR-100, SVHN, and Fed-ISIC2019 datasets across centralized and federated settings with varying data heterogeneity (Dirichlet $\\alpha$). The results demonstrate that BlindFed significantly outperforms the only other double-blind baseline, Linear Probing, particularly on challenging datasets like SVHN and under extreme heterogeneity ($\\alpha=0.01$). BlindFed achieves accuracy levels closely aligned with LoRA, despite LoRA not being double-blind and requiring backpropagation through the backbone. The addition of Stochastic Block Sampling (SBS) was found to have minimal impact on accuracy, and in some instances, slightly improved generalization. Scalability tests with up to 50 clients on CIFAR-10 show that BlindFed maintains stable performance, consistently outperforming linear probing as the number of clients increases. Furthermore, experiments on the Fed-ISIC2019 medical dataset confirm that the framework is effective even when the auxiliary dataset used for offline distillation (e.g., Tiny-ImageNet) is out-of-distribution (OOD) relative to the target task.",
+    "layout": {
+        "template": "full_fig_with_callouts",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.9,
+                "h": 0.1
+            },
+            "figure": {
+                "x": 0.05,
+                "y": 0.18,
+                "w": 0.9,
+                "h": 0.45
+            },
+            "bullets": {
+                "x": 0.05,
+                "y": 0.68,
+                "w": 0.9,
+                "h": 0.27
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "Experimental Results and Accuracy",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Table 1",
+            "caption": "Accuracy comparison of BlindFed against baselines across CIFAR and SVHN datasets"
+        },
+        "bullets": [
+            "Achieves near-LoRA accuracy with double-blind privacy",
+            "Outperforms linear probing under extreme data heterogeneity",
+            "Scales effectively to 50 clients with stable performance",
+            "Robust to out-of-distribution auxiliary distillation data"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "BlindFed achieves accuracy comparable to LoRA",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.04,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "while maintaining double-blind privacy.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 6.08,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "It significantly outperforms linear probing, especially under extreme data heterogeneity.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 9.12,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "The framework scales reliably to fifty clients",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 12.16,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "and remains effective even when the auxiliary distillation data is out-of-distribution.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 15.2,
+    "source": [
+        "Table 1",
+        "Section 5.3",
+        "Section D.2"
+    ],
+    "audio_content": "BlindFed achieves accuracy comparable to LoRA while maintaining double-blind privacy. It significantly outperforms linear probing, especially under extreme data heterogeneity. The framework scales reliably to fifty clients and remains effective even when the auxiliary distillation data is out-of-distribution.",
+    "prompt": "A slide showing a detailed accuracy comparison table (Table 1) from the paper, highlighting BlindFed's performance against LoRA and Linear Probing across different datasets and Dirichlet alpha values. Below the table, four concise bullet points summarize the key findings regarding accuracy, heterogeneity, scalability, and OOD robustness."
+}

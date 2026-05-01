@@ -1,0 +1,70 @@
+{
+    "version": 1,
+    "layout_type": "top-down: title, wide table, equation, bullets",
+    "layout_tags": [
+        "wide_table",
+        "method",
+        "complexity"
+    ],
+    "layout_signature": "T|TAB|EQ|B",
+    "background_color": "#FFFFFF",
+    "elements": [
+        {
+            "id": "title",
+            "type": "T",
+            "content_ref": "elements.title",
+            "box": {
+                "tl": "B01",
+                "br": "U03"
+            },
+            "style": {
+                "font_size": 36,
+                "bold": true,
+                "align": "left"
+            }
+        },
+        {
+            "id": "table",
+            "type": "TAB",
+            "content_ref": "elements.figure",
+            "box": {
+                "tl": "B04",
+                "br": "T14"
+            },
+            "constraints": {
+                "keep_aspect": true
+            }
+        },
+        {
+            "id": "equations",
+            "type": "EQ",
+            "content_ref": "elements.equations",
+            "box": {
+                "tl": "B15",
+                "br": "U16"
+            },
+            "style": {
+                "font_size": 20,
+                "align": "center"
+            }
+        },
+        {
+            "id": "bullets",
+            "type": "B",
+            "content_ref": "elements.bullets",
+            "box": {
+                "tl": "B17",
+                "br": "T19"
+            },
+            "style": {
+                "font_size": 22,
+                "min_font_size": 16
+            }
+        }
+    ],
+    "global_constraints": {
+        "no_overlap": true,
+        "no_overflow": true,
+        "min_font_size": 14
+    }
+}

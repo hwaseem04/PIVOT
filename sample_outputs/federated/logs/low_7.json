@@ -1,0 +1,22 @@
+{
+    "title": "Efficiency and Resource Analysis",
+    "audio_content": "BlindFed is highly efficient for clients, requiring up to 48 times fewer parameters and half the memory of full fine-tuning. Latency is nearly identical to linear probing, with only a 4 percent overhead. However, server-side encrypted inference remains a bottleneck, taking 136 seconds per sample with a 2.8-times data expansion due to homomorphic encryption.",
+    "duration_sec": 18.4,
+    "bullets": [
+        "Client-side: 34x-48x fewer parameters and 50% less memory than full fine-tuning",
+        "Near-optimal latency: Only 4% overhead compared to simple linear probing",
+        "Server-side bottlenecks: 136s inference per sample and 2.8x FHE data expansion"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 10",
+        "caption": "Efficiency comparison of adaptation methods across parameters, latency, and memory"
+    },
+    "source": [
+        "Table 4",
+        "Table 7",
+        "Figure 10",
+        "Appendix D.2"
+    ],
+    "prompt": "A slide showing Figure 10, which contains three bar charts comparing trainable parameters, latency, and GPU memory across different datasets. Below the figure, three bullet points summarize the client-side efficiency gains and the server-side computational bottlenecks mentioned in the text."
+}

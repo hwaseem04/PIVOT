@@ -1,0 +1,115 @@
+{
+    "scene_id": 2,
+    "title": "Top-to-Ground Aggregation (T2GA) Module",
+    "summary": "The proposed T2GA module aggregates features from elevated pixels onto the corresponding on-ground pixel features. By leveraging reliable off-ground information and handling visual occlusions, it improves feature alignment between ground and aerial orthographic views.",
+    "paper_section": "Method",
+    "narrative_role": "method",
+    "asset_video": null,
+    "duration_stat": {
+        "min": 8.0,
+        "max": 15.0,
+        "avg": 11.0
+    },
+    "extracted_content": "The Top-to-Ground Aggregation (T2GA) module is designed to bridge the appearance gap for tall structures and occluded objects by aligning their ground-level representations. It operates on the principle that while elevated objects look different from ground and aerial views, their base positions on the ground plane are geometrically consistent. T2GA uses a transformer-based attention mechanism where on-ground pixels serve as queries to aggregate features from elevated pixels in the same vertical column. This allows the model to either fuse features of the same object or replace occluded ground features with reliable information from above. The resulting aggregated feature map ($F^a$) is formed by vertically stacking these attention-weighted features with the original ground features. This process ensures that landmarks like traffic signal poles, which might be ignored by standard methods, receive higher confidence values and are sampled as keypoints for more precise vehicle pose estimation.",
+    "layout": {
+        "template": "full_fig_with_callouts",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.9,
+                "h": 0.1
+            },
+            "figure": {
+                "x": 0.05,
+                "y": 0.18,
+                "w": 0.9,
+                "h": 0.45
+            },
+            "bullets": {
+                "x": 0.05,
+                "y": 0.65,
+                "w": 0.9,
+                "h": 0.3
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "Top-to-Ground Aggregation (T2GA)",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 3",
+            "caption": "Column-wise attention mechanism aggregating features from elevated structures like streetlights."
+        },
+        "bullets": [
+            "Transformer attention aligns elevated features with their ground-level base",
+            "Column-wise aggregation fuses reliable off-ground cues into the feature map",
+            "Enhances landmark detection for more precise vehicle pose estimation"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "T2GA uses transformer attention to aggregate features from elevated structures onto their ground-level base.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 4.0,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "This transformer attention mechanism specifically aligns elevated features with their corresponding ground-level base.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 8.0,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "By processing pixels column-wise, it fuses reliable off-ground cues into the feature map.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 12.0,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "This highlights vertical landmarks, providing the precise geometric cues needed for accurate localization and vehicle pose estimation.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 16.0,
+    "source": [
+        "Section 4.1",
+        "Figure 3",
+        "Equation 2"
+    ],
+    "audio_content": "T2GA uses transformer attention to aggregate features from elevated structures onto their ground-level base. By processing pixels column-wise, it fuses reliable off-ground cues into the feature map. This highlights vertical landmarks, providing the precise geometric cues needed for accurate localization.",
+    "prompt": "A slide showing the T2GA module's attention mechanism. The top half features Figure 3 from the paper, illustrating how features from the top of a streetlight are pulled down to its base. Below the figure, three bullet points explain the transformer-based column-wise aggregation and its role in enhancing landmark detection for localization."
+}

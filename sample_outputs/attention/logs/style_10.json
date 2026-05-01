@@ -1,0 +1,72 @@
+{
+    "version": 1,
+    "layout_type": "two-column layout: figure left, bullets right",
+    "layout_tags": [
+        "two_col",
+        "figure_left",
+        "results",
+        "conclusion"
+    ],
+    "layout_signature": "T|ST|F-B",
+    "background_color": "#FFFFFF",
+    "elements": [
+        {
+            "id": "title",
+            "type": "T",
+            "content_ref": "elements.title",
+            "box": {
+                "tl": "B01",
+                "br": "U02"
+            },
+            "style": {
+                "font_size": 40,
+                "bold": true,
+                "align": "left"
+            }
+        },
+        {
+            "id": "subtitle",
+            "type": "ST",
+            "content_ref": "elements.subtitle",
+            "box": {
+                "tl": "B03",
+                "br": "U04"
+            },
+            "style": {
+                "font_size": 28,
+                "italic": true,
+                "align": "left"
+            }
+        },
+        {
+            "id": "figure",
+            "type": "F",
+            "content_ref": "elements.figure",
+            "box": {
+                "tl": "B05",
+                "br": "L19"
+            },
+            "constraints": {
+                "keep_aspect": true
+            }
+        },
+        {
+            "id": "bullets",
+            "type": "B",
+            "content_ref": "elements.bullets",
+            "box": {
+                "tl": "M05",
+                "br": "T19"
+            },
+            "style": {
+                "font_size": 24,
+                "min_font_size": 16
+            }
+        }
+    ],
+    "global_constraints": {
+        "no_overlap": true,
+        "no_overflow": true,
+        "min_font_size": 14
+    }
+}

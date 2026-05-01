@@ -1,0 +1,481 @@
+{
+  "video_id": "Mining Supervision for Dynamic Regions in Self-Supervised Monocular Depth Estimation",
+  "duration": 300.07,
+  "fps_sampled": 1.0,
+  "total_slides": 22,
+  "slides_with_builds": 5,
+  "total_build_steps": 32,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 15.48,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Mining Supervision for Dynamic Regions in Self-Supervised Monocular Depth Estimation",
+        "layout_description": "This is a title slide with a clean, white background. At the top, three logos are arranged horizontally: the CVPR 2024 logo featuring a blue Seattle skyline on the left, the Australian National University crest and text in the center, and the NVIDIA logo on the right. The main title is centered in the middle of the slide in a large, bold, black font. Directly below the title, the authors' names are listed in a single centered line. Underneath the authors, their affiliations (Australian National University and NVIDIA) are centered. At the bottom center of the slide, the conference name and year 'CVPR 2024' are displayed. The layout is symmetrical and centered, with a light text density."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "method",
+      "t_start": 15.48,
+      "t_end": 29.03,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.48,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Self-supervised Monocular Depth Esimation from Monocular Video",
+        "layout_description": "The slide follows a top-to-bottom flow on a plain white background. At the top-left, there is a large, two-line title in a sans-serif font. Below the title, a horizontal diagram illustrates the process: it starts with a small photographic image of a street scene on the left, followed by an arrow pointing to a centered, light-blue rounded rectangle labeled 'Depth network'. Another arrow points from this box to a colorful heatmap-style depth map on the right. The bottom half of the slide contains a list of four left-aligned bullet points that provide high-level details about the method, such as the input, output, and supervision loss. The text density is light, and the visual elements are clearly separated with ample white space."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "method",
+      "t_start": 29.03,
+      "t_end": 37.74,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 29.03,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with diagram and bullets",
+        "title_text": "Self-supervised Monocular Depth Esimation from Monocular Video",
+        "layout_description": "The slide follows a clean, top-down structure on a plain white background. At the top left, there is a large black title. Below the title, a horizontal flowchart-style diagram occupies the middle section of the slide. This diagram shows an input image of a street scene on the left, followed by a black arrow pointing to a light-blue rounded rectangle labeled 'Depth network' in the center, which then points via another arrow to a color-coded dense depth map on the right. Beneath this diagram, there is a list of four left-aligned bullet points that describe the technical aspects of the approach, such as the joint optimization, input/output specifications, and the use of photometric loss for supervision. The text density is light, and the visual focus is on the relationship between the input image and the generated depth map through the network."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "method",
+      "t_start": 37.74,
+      "t_end": 43.54,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 37.74,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with title",
+        "title_text": "Related Work \u2013 Static Scenes",
+        "layout_description": "The slide features a clean white background with a large, plain-text title 'Related Work \u2013 Static Scenes' positioned at the top left. The content is organized into three distinct figure blocks that summarize foundational related work. The top-left block contains a diagram illustrating a differentiable image warping process with three grids labeled It, Is, and \u00ces, cited as 'Zhou et al. CVPR2017'. The top-right block shows a sequence of three images (It-1, It, It+1) to explain an appearance loss function, comparing a baseline average approach with a 'min' approach, cited as 'Godard et al., ICCV2019'. The bottom half of the slide is dominated by a large, multi-part diagram from 'Han et al. CVPR2023', which includes an encoder-decoder architecture, a depth map, and detailed sub-diagrams for a 'Direction-aware Module' and a 'Learnable Transformation'. The slide has a moderate text density, with most text serving as labels, mathematical notations within the figures, or citations centered below each respective figure block."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "method",
+      "t_start": 43.54,
+      "t_end": 50.32,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 43.54,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with title",
+        "title_text": "Related Work \u2013 Static Scenes",
+        "layout_description": "The slide features a large, left-aligned title at the top. The main content is organized into a grid-like arrangement of three primary figures, each representing a different piece of related research. The top row contains two figures: the left one shows a diagram of differentiable image warping (Zhou et al., CVPR2017), and the right one illustrates an appearance loss for handling occlusions (Godard et al., ICCV2019). The bottom half of the slide is dominated by a large, complex composite figure that details an encoder-decoder architecture with direction-aware modules and learnable transformations (Han et al., CVPR2023). Each figure includes its own internal labels, diagrams, and a citation caption centered below it. The visual style is technical, using flowcharts, grid diagrams, and architectural blocks on a clean white background. Text density is moderate, primarily consisting of labels and citations."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 50.32,
+      "t_end": 58.06,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 50.32,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Related Work \u2013 Dynamic Scenes",
+        "layout_description": "The slide features a two-column layout on a clean white background. The title, 'Related Work \u2013 Dynamic Scenes', is located at the top-left in a large, dark sans-serif font. The left column contains a hierarchical bulleted list with three levels of indentation, outlining the joint learning of depth, camera motion, and object motion (further divided into rigid and pixel-wise motion). The right column is dominated by two large, vertically stacked diagrams illustrating specific research works. The top diagram, attributed to 'Casser et al. AAAI2019', shows a comparison between a baseline and a proposed method for depth and ego-motion estimation, using neural network architecture icons and colorful depth map heatmaps. The bottom diagram, attributed to 'Li et al. ICLR2020', depicts a flowchart for unsupervised motion decomposition, including input frames, depth maps, a motion network, and resulting ego-motion and object motion maps. Both diagrams use arrows to indicate data flow and include small mathematical notations for loss functions and transformation matrices. The overall text density is moderate, with a strong emphasis on visual diagrams to explain complex methodologies."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 58.06,
+      "t_end": 64.83,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 58.06,
+          "image": "slide_7_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 59.99,
+          "image": "slide_7_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Related Work \u2013 Dynamic Scenes",
+        "layout_description": "The slide features a two-column layout on a clean white background. The left column contains the title in a large, dark font at the top, followed by a hierarchical bulleted list with three levels of indentation detailing the components of joint learning. At the bottom of the left column, a line of text in a light pink hue with a leading arrow highlights a 'Scale ambiguity issue'. The right column is occupied by two large, vertically stacked diagrams representing specific research papers. The top diagram, attributed to 'Casser et al. AAAI2019', shows a comparison between a baseline and a proposed method using network architecture blocks and color-coded depth maps. The bottom diagram, attributed to 'Li et al. ICLR2020', is a detailed architectural flowchart showing the process from input images to motion decomposition and consistency loss. The slide maintains a moderate text density, effectively balancing conceptual points with technical visual representations."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 64.83,
+      "t_end": 72.57,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 64.83,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Scale Ambiguity Issue in Dynamic Region",
+        "layout_description": "The slide features a large, centered title at the top. The main content area is divided into two columns. The left column contains a geometric diagram illustrating the relationship between camera motion and object motion. It depicts two camera positions at times 't' and 't+1', their corresponding image planes, and an object moving from point Pt to Pt+1 in 3D space, with projection rays shown as dashed lines. The right column contains a single bullet point stating that depth and object motion are 'correct' (highlighted in green), followed by a centered mathematical equation for photometric loss (Lp). The overall design is clean with a white background and light text density."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 72.57,
+      "t_end": 100.63,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 72.57,
+          "image": "slide_9_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 76.44,
+          "image": "slide_9_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 86.12,
+          "image": "slide_9_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Scale Ambiguity Issue in Dynamic Region",
+        "layout_description": "The slide features a centered title at the top in a large, plain font. The main body is organized into a two-column format. The left column contains a geometric diagram illustrating the concept of scale ambiguity. This diagram shows two camera positions at times 't' and 't+1' with a curved arrow indicating camera motion. It depicts how two different 3D object motions (a green path labeled 'correct' and a red path labeled 'wrong') can project onto the same image points (xt and xt+1) in the respective image planes (It and It+1). The right column contains two bullet points that correspond to the colors in the diagram. The first bullet point, with green text, states that depth and object motion are correct, followed by a centered equation for photometric loss (Lp) equaling zero. The second bullet point, with red text, states that depth and object motion are wrong, followed by the identical equation, highlighting the ambiguity. Below these, a faded gray line of text and symbols indicates that a zero loss does not necessarily imply accurate depth. The overall design is clean with a white background and light text density."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 100.63,
+      "t_end": 101.6,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 100.63,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen diagram with title",
+        "title_text": "Method",
+        "layout_description": "The slide features a large, plain-text title 'Method' positioned at the top-left. The central content is a complex horizontal flowchart depicting a neural network architecture. The diagram is organized into three parallel horizontal tracks on the left. The top track shows an input image passing through a pink 'Scene depth network' box to generate a scene depth map. The middle track shows a masked object image passing through an orange 'Object depth network' box to generate an object depth map. The bottom track shows the input image passing through a yellow 'Final depth network' box. In the center-right, a grey box labeled 'Depth Scale Alignment (DSA) module' integrates the scene and object depth maps along with two binary masks shown on the far right. The output of this module, indicated by a dashed arrow, is a 'Pseudo depth label' map. A purple diamond labeled 'L_depth' sits between the final depth network's output and the pseudo depth label, representing a loss function. The background is white, and a small page number '6' is visible in the bottom-right corner. Text density is light, primarily consisting of labels within the diagram's components."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 101.6,
+      "t_end": 132.57,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 101.6,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen diagram with title",
+        "title_text": "Method",
+        "layout_description": "The slide features a large, plain-text title 'Method' positioned at the top-left. The central content is a complex horizontal flowchart depicting a neural network architecture. The diagram is organized into three parallel horizontal tracks on the left. The top track shows an input image passing through a pink 'Scene depth network' box to generate a scene depth map. The middle track shows a masked object image passing through an orange 'Object depth network' box to generate an object depth map. The bottom track shows the input image passing through a yellow 'Final depth network' box. In the center-right, a grey box labeled 'Depth Scale Alignment (DSA) module' integrates the scene and object depth maps along with two binary masks shown on the far right. The output of this module, indicated by a dashed arrow, is a 'Pseudo depth label' map. A purple diamond labeled 'L_depth' sits between the final depth network's output and the pseudo depth label, representing a loss function. The background is white, and a small page number '6' is visible in the bottom-right corner. Text density is light, primarily consisting of labels within the diagram's components."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "other",
+      "t_start": 132.57,
+      "t_end": 145.15,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 132.57,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {}
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "method",
+      "t_start": 145.15,
+      "t_end": 208.04,
+      "num_builds": 5,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 145.15,
+          "image": "slide_13_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 153.85,
+          "image": "slide_13_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 178.04,
+          "image": "slide_13_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 179.01,
+          "image": "slide_13_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 185.79,
+          "image": "slide_13_build_4.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Training the Depth Scale Alignment Module",
+        "layout_description": "The slide features a large, centered title at the top. The main content is organized into two columns. The left column contains three primary bullet points. The second bullet point includes a sub-point marked with a bold right arrow, followed by a centered mathematical equation for the scale loss function. The right column contains a vertical flowchart that visually represents the training process. This flowchart starts with two colored rectangular boxes at the top (pink for scene depth and yellow for object depth), which lead down through a series of depth map images and masked representations. These paths eventually converge at the bottom into an orange diamond-shaped box representing the final loss calculation. The overall text density is moderate, set against a plain white background, with a small page number '7' in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "method",
+      "t_start": 208.04,
+      "t_end": 217.72,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 208.04,
+          "image": "slide_14_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 214.81,
+          "image": "slide_14_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 215.78,
+          "image": "slide_14_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with right-aligned flowchart",
+        "title_text": "Pseudo Depth Label",
+        "layout_description": "The slide features a large, plain-text title 'Pseudo Depth Label' positioned in the top-left corner. The main content is a vertical flowchart occupying the right half of the slide, which details a dual-path process for generating depth labels. The left path shows an input street scene image (I_r) being processed by a 'Scene depth network' (pink box) to produce a full-scene depth map (D_r^scene). The right path shows a masked object image (M_r^o \u2299 I_r) being processed by an 'Object depth network' (orange box) to produce an object-specific depth map (D_r^o), which is then further processed into a scaled version (\u03b2^o D^o). The flowchart uses black arrows to indicate data flow and includes small image thumbnails for each stage. The background is a clean white, and a small page number '8' is located at the bottom-right corner. The overall text density is light, prioritizing the diagrammatic explanation of the methodology."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "method",
+      "t_start": 217.72,
+      "t_end": 238.04,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 217.72,
+          "image": "slide_15_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 218.69,
+          "image": "slide_15_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Pseudo Depth Label",
+        "layout_description": "The slide uses a two-column layout with a large, black title 'Pseudo Depth Label' positioned at the top-left. The left column contains a single bullet point with light gray text explaining that the pseudo depth label is generated by fixing the depth of dynamic objects. The right column features a vertical flowchart that details the generation process. At the top of the flowchart, two input images are shown: a full scene image and a masked object image. These lead into two parallel colored boxes representing neural networks: a pink 'Scene depth network' and an orange 'Object depth network'. Below these are their respective output depth maps, which are then combined through a central circular node to produce a final 'Pseudo depth label' image at the bottom. Mathematical notation is used throughout the flowchart to label inputs, networks, and outputs. A small page number '8' is visible in the bottom-right corner. The background is plain white, and the overall text density is light, with a heavy emphasis on the visual diagram."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "results",
+      "t_start": 238.04,
+      "t_end": 246.75,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 238.04,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Results",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. The title 'Results' is positioned at the top-left in a large, simple font. The central and most prominent element is a large, complex data table labeled 'Table 2'. This table is structured with multiple levels of headers: the leftmost columns define the 'Backbone' and experimental settings (indicated by checkmarks for 'Pixel motion', 'Pseudo depth', and 'Semantic prior'), while the right side is divided into three main performance categories: 'Dynamic region', 'Static region', and 'All region'. Each of these categories contains three sub-metrics: 'Abs Rel', 'Sq Rel', and '\u03b4 < 1.25'. The table rows are grouped by four different backbones (Resnet18, Packnet, DiffNet, and BrNet), with four experimental variations for each. Within the table, numerical values are formatted with bolding for best results and underlining for second-best. Directly below the table is a dense paragraph of explanatory text that serves as a caption, defining the experimental settings and formatting conventions. A small page number '9' is visible in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "results",
+      "t_start": 246.75,
+      "t_end": 248.68,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 246.75,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Results",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. A large, simple title 'Results' is placed at the top-left. The primary content is a large, complex data table centered horizontally, occupying the majority of the slide's area. The table is structured with multiple levels of headers: the first few columns define the 'Backbone' and experimental settings (Pixel motion, Pseudo depth, Semantic prior), while the remaining columns are grouped under 'Dynamic region', 'Static region', and 'All region'. Each of these three regions is further subdivided into three performance metrics: 'Abs Rel', 'Sq Rel', and 'delta < 1.25'. Checkmarks are used within the settings columns to indicate the configuration for each row. The table rows are organized by four different backbone models. Numerical data within the table uses bolding for the best results and underlining for the second-best. Directly beneath the table is a dense paragraph of explanatory text acting as a caption, detailing the experimental settings and formatting conventions. A small page number '9' is visible in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "results",
+      "t_start": 248.68,
+      "t_end": 260.29,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 248.68,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Results",
+        "layout_description": "The slide follows a clean, academic layout with a large, plain-text title 'Results' at the top-left. The central focus is a large, complex data table that occupies most of the slide's area. This table is organized into several main columns: 'Method', 'Dataset', 'Semantic prior', and three grouped metric sections titled 'Dynamic region', 'Static region', and 'All region'. Each of these metric sections is further subdivided into 'Abs Rel', 'Sq Rel', and '\u03b4 < 1.25'. The table uses horizontal rules to separate different experimental setups and datasets (labeled 'C' and 'K'). Within the table, certain numerical values are highlighted in bold or underlined to indicate best performance. Directly below the table is a descriptive caption (Table 3) that provides context for the data, explaining the bolding, underlining, and dataset abbreviations. A small page number '10' is positioned in the bottom-right corner against a plain white background."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "results",
+      "t_start": 260.29,
+      "t_end": 261.26,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 260.29,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout for qualitative comparison",
+        "title_text": "Qualitative results",
+        "layout_description": "The slide features a large title 'Qualitative results' in a clean, sans-serif font at the top-left. The central content is a dense grid of images organized into five rows and four columns, comparing different depth estimation methods. The rows are labeled on the left margin as 'Image', '[19]', '[17]', 'Ours', and 'Ours + [33]'. The columns are divided into two sets of two, each set representing a different street scene. Within each scene set, the left column displays error maps (using a rainbow color scale where red indicates high error) and the right column displays depth maps (using a purple-to-yellow color scale). The top row specifically shows the original input 'Image' and the 'Ground-truth depth' for both scenes. Below this visual grid is a detailed multi-line caption (labeled Figure 4) that provides a technical explanation of the results and the performance of the proposed models. A small page number '11' is positioned in the bottom-right corner against a plain white background."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "results",
+      "t_start": 261.26,
+      "t_end": 269.97,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 261.26,
+          "image": "slide_20_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with figure and caption",
+        "title_text": "Qualitative results",
+        "layout_description": "The slide features a large title 'Qualitative results' in a clean, sans-serif font at the top-left. The main body of the slide is occupied by a large composite figure (labeled Figure 4) that presents a grid of images comparing different depth estimation methods. The grid is organized into five rows and four columns, effectively showing two side-by-side examples. The rows are labeled on the left as 'Image', '[19]', '[17]', 'Ours', and 'Ours + [33]'. The top row displays the original input images and their corresponding ground-truth depth maps. The subsequent rows show error maps (using a blue-to-red heatmap) and predicted depth maps (using a purple-to-yellow heatmap) for each method. Below this visual grid is a paragraph-length caption that explains the error map computation and summarizes the qualitative findings. A small page number '11' is visible in the bottom-right corner against a plain white background."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "conclusion",
+      "t_start": 269.97,
+      "t_end": 275.78,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 269.97,
+          "image": "slide_21_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Conclusion",
+        "layout_description": "The slide follows a minimalist single-column layout with a plain white background. The title 'Conclusion' is placed at the top-left in a large, black, sans-serif font. The main body consists of a hierarchical bulleted list. Two primary bullet points are positioned at the top, summarizing the proposed method's goal and its performance advantages. Below these, a third primary bullet point titled 'Limitations:' serves as a sub-heading, followed by a single indented sub-bullet point detailing a specific constraint of the work. The text is entirely black and left-aligned, creating a clean and easy-to-read appearance with light text density. A small page number '12' is visible in the bottom-right corner of the slide."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "conclusion",
+      "t_start": 275.78,
+      "t_end": 300.07,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 275.78,
+          "image": "slide_22_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Conclusion",
+        "layout_description": "The slide follows a minimalist single-column layout with a plain white background. The title 'Conclusion' is placed at the top-left in a large, black, sans-serif font. The main body of the slide consists of a hierarchical bulleted list. There are two primary bullet points at the top level that summarize the method's purpose and performance. Below these, a third primary bullet point titled 'Limitations:' contains a single indented sub-bullet point. The text is left-aligned with a light density, leaving substantial white space across the slide. A small page number '12' is visible in the bottom-right corner."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 21,
+    "gemini_layout_calls": 21,
+    "total_gemini_calls": 42,
+    "total_frames_sampled": 310,
+    "batch_size": 15
+  }
+}

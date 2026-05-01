@@ -1,0 +1,461 @@
+{
+  "video_id": "Probability Density Geodesics in Image Diffusion Latent Space",
+  "duration": 294.8,
+  "fps_sampled": 1.0,
+  "total_slides": 16,
+  "slides_with_builds": 10,
+  "total_build_steps": 44,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 9.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Probability Density Geodesics in Image Diffusion Latent Space",
+        "layout_description": "This is a clean, minimalist title slide with a white background. At the top of the slide, three logos are horizontally aligned: the Australian National University logo on the left, the General Electric logo in the center, and a stylized CVPR Nashville 2025 logo featuring a guitar silhouette on the right. The main title is centered in the middle of the slide, set in a large, bold, black sans-serif font. Below the main title, the conference name 'CVPR 2025' is centered in a smaller font. At the bottom of the slide, a list of eight authors is presented in a single, centered block of text. The overall layout is symmetrical and balanced, with a light text density that focuses attention on the title and institutional affiliations."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 9.0,
+      "t_end": 15.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 9.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figure",
+        "title_text": "Introduction",
+        "layout_description": "The slide follows a clean, minimalist layout. A simple black title, 'Introduction', is placed in the top-left corner. The central portion of the slide is dominated by a large, square-shaped figure. This figure is a vector field or quiver plot, composed of many small grey arrows that indicate direction and magnitude across a grid. There are no bullet points, columns, equations, or additional text, making the overall text density very light. The background is plain white with no logos or page numbers."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 15.0,
+      "t_end": 61.0,
+      "num_builds": 6,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 17.0,
+          "image": "slide_3_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 19.0,
+          "image": "slide_3_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 42.0,
+          "image": "slide_3_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 58.0,
+          "image": "slide_3_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 59.0,
+          "image": "slide_3_build_5.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with title",
+        "title_text": "Introduction",
+        "layout_description": "The slide features a large, centered diagram on a plain white background. At the top-left, the title 'Introduction' is written in a simple, black sans-serif font. The central visual is a colorful contour map with purple, teal, and yellow gradients, overlaid with small white arrows representing a vector field. A red curved path connects point 'A' at the bottom-left to point 'B' at the top. Along this path, five white circular markers are placed, each linked by a thin gray callout line to a small rectangular photograph of a house. These houses show a visual progression from a simple, weathered wooden shack at the start to a more modern, well-maintained red house at the end. To the right of the central diagram, there is a large, bright green checkmark icon. The overall text density is very light, focusing primarily on the visual representation of a concept, likely related to latent space interpolation or optimization."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "method",
+      "t_start": 61.0,
+      "t_end": 75.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 61.0,
+          "image": "slide_4_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 68.0,
+          "image": "slide_4_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 72.0,
+          "image": "slide_4_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Probability Density Geodesics",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. The title is located at the top-left in a large, bold, black font. The main content consists of two primary bullet points. The first bullet point, 'Length of path:', is followed by a centered integral equation for 'S'. The second bullet point, 'Riemannian Metric:', is followed by a centered block of equations defining the metric 'L' and its associated terms like 'K(gamma)'. The mathematical expressions are clearly separated from the bulleted text, creating a structured and easy-to-read presentation of foundational formulas. The overall text density is light, with ample white space surrounding the equations."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "method",
+      "t_start": 75.0,
+      "t_end": 117.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 75.0,
+          "image": "slide_5_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 81.0,
+          "image": "slide_5_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 110.0,
+          "image": "slide_5_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 116.0,
+          "image": "slide_5_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Probability Density Geodesics",
+        "layout_description": "The slide uses a two-column layout with a large, bold title positioned at the top-left. The left column contains three main bullet points that organize mathematical content: 'Length of path', 'Riemannian Metric', and 'Functional derivative'. Each bullet is followed by centered mathematical equations. Notably, in the third section, a specific term in the functional derivative equation is highlighted with a red box, and an arrow points from it to the explanatory text 'Estimated by a diffusion model'. The right column features two vertically stacked figures. The top figure is a 2D contour plot with a vector field, showing a curved path (geodesic) and a straight dashed line between points A and B, with a yellow arrow pointing to the geodesic. The bottom figure is a 1D line plot showing a dashed curve being transformed into a solid, multi-modal curve, also indicated by a yellow arrow. The slide has a white background and a moderate density of information, balancing text, equations, and illustrative graphics."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 117.0,
+      "t_end": 120.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 117.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Geodesics in the Diffusion Latent Space",
+        "layout_description": "The slide features a minimalist single-column layout with a plain white background. The title, 'Geodesics in the Diffusion Latent Space', is located at the top-left corner in a black, sans-serif font. The remainder of the slide is completely empty, containing no text, images, equations, or graphical elements. There are no headers, footers, page numbers, or logos present, resulting in an extremely light text density."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 120.0,
+      "t_end": 158.0,
+      "num_builds": 5,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 120.0,
+          "image": "slide_7_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 125.0,
+          "image": "slide_7_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 127.0,
+          "image": "slide_7_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 132.0,
+          "image": "slide_7_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 134.0,
+          "image": "slide_7_build_4.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and image sequence",
+        "title_text": "Geodesics in the Diffusion Latent Space",
+        "layout_description": "The slide follows a clean, single-column layout on a plain white background. The title is positioned at the top left in a large, bold, sans-serif font. Below the title, there is a section of text organized into a hierarchical bulleted list with two levels. The primary bullet point is 'Image Interpolation:', followed by three sub-bullets that define the problem as a boundary value problem with two images as input and a geodesic trajectory as output. The bottom portion of the slide features a horizontal row of five square images depicting a smooth visual transition (interpolation) between two different cat faces. Small blue arrows are placed between the first and second images, and between the fourth and fifth images, pointing inward to suggest a process of moving from the endpoints toward the center. The text density is light, with the visual sequence of images serving as the primary focus to illustrate the concept."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "experiments",
+      "t_start": 158.0,
+      "t_end": 165.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 158.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and image row",
+        "title_text": "Video Analysis",
+        "layout_description": "The slide follows a clean, minimalist layout. A large, bold title 'Video Analysis' is positioned at the top-left. Directly below it, a single grey bullet point introduces a line of text: 'Test whether short video clips are approximately geodesic.' The central and lower portion of the slide is occupied by four square images arranged in a single horizontal row. These images appear to be frames from video clips, each showing a different 3D rendered object on a plain grey surface: a red cube, a teal cylinder, a dark grey cube, and a lime green sphere. The background of the slide is plain white, and the overall text density is light, emphasizing the visual content."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "results",
+      "t_start": 165.0,
+      "t_end": 229.0,
+      "num_builds": 5,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 165.0,
+          "image": "slide_9_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 183.0,
+          "image": "slide_9_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 184.0,
+          "image": "slide_9_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 187.0,
+          "image": "slide_9_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 193.0,
+          "image": "slide_9_build_4.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Video Analysis",
+        "layout_description": "The slide features a large, bold title 'Video Analysis' positioned at the top-left. The main content area is organized into two columns. On the left, there is a small, square-format image showing a pink cube on a plain, light-colored surface. To the right of this image is a large line graph that occupies most of the slide's width. The graph displays four jagged lines in different colors (pink, yellow-green, green, and light blue) plotted over a time axis 't' ranging from 0 to 1. The y-axis is labeled with a mathematical norm expression and includes a scale factor of 10^-5. A legend is located in the top-right corner of the graph area, identifying the four data series. The slide has a clean white background with very light text density, prioritizing visual data over textual explanation."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "results",
+      "t_start": 229.0,
+      "t_end": 240.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 229.0,
+          "image": "slide_10_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 237.0,
+          "image": "slide_10_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Applications: Image Interpolation",
+        "layout_description": "The slide features a minimalist design with a plain white background. A single-line title in a sans-serif font is positioned at the top-left. The primary content is organized into two vertical columns of small, square images located at the far left and far right margins of the slide. The left column contains four images: a man's portrait, a crashing ocean wave, a cat's face, and a stack of pancakes. The right column contains four corresponding images: a different man's portrait, a stylized wave painting, a dog's face, and a burger. A large, empty white space occupies the center of the slide between these two columns, intended to showcase the results of image interpolation between the source images on the left and the target images on the right. The text density is very light, with no bullet points, equations, or additional labels."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "results",
+      "t_start": 240.0,
+      "t_end": 245.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 240.0,
+          "image": "slide_11_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 241.0,
+          "image": "slide_11_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with title",
+        "title_text": "Applications: Image Interpolation",
+        "layout_description": "The slide follows a clean grid layout on a plain white background. A large, black, sans-serif title is aligned to the top-left. The central content is a dense grid of images arranged in four rows and eleven columns, illustrating qualitative results of image interpolation. Each row represents a different transformation sequence: the first row shows a man morphing from an older to a younger appearance; the second row transitions from a realistic photo of a wave to a famous Japanese woodblock print; the third row shows a cat morphing into a dog; and the fourth row shows a stack of pancakes transforming into a burger. There are no bullet points, equations, or other text elements, resulting in a very light text density where the focus is entirely on the visual transitions."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "results",
+      "t_start": 245.0,
+      "t_end": 255.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 245.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with multi-part figure layout",
+        "title_text": "Applications: Image Interpolation",
+        "layout_description": "The slide has a clean, white background with a large, sans-serif title positioned at the top left. The main content is organized into two horizontal tiers. The upper tier consists of a single row of nine small, square images showing a raccoon's face in a sequence of interpolated poses, moving from a front-facing view to a tilted, side-facing view. The lower tier contains two side-by-side line charts. The left chart displays a U-shaped curve plotting 'log p_a(gamma(t))' on the y-axis against 't' on the x-axis (from 0 to 1). The right chart has 'd_a(b)' on the y-axis and 'Iteration number' on the x-axis (from 0 to 400), showing a flat line near the bottom. There are no bullet points or large blocks of text, resulting in a light text density focused on visual results."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "results",
+      "t_start": 255.0,
+      "t_end": 269.0,
+      "num_builds": 6,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 255.0,
+          "image": "slide_13_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 256.0,
+          "image": "slide_13_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 261.0,
+          "image": "slide_13_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 263.0,
+          "image": "slide_13_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 265.0,
+          "image": "slide_13_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 267.0,
+          "image": "slide_13_build_5.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and visual grid",
+        "title_text": "Applications: Image Interpolation",
+        "layout_description": "The slide has a clean, white background with a large, bold title positioned at the top-left. The main content is organized into two horizontal tiers. The top tier consists of a single row of nine small, square images showing a raccoon's face in a sequence of gradual transformations, demonstrating image interpolation. The bottom tier contains two line charts placed side-by-side. The left chart features multiple line plots in varying shades of teal and blue, with the y-axis labeled 'log p_a(gamma(t))' and the x-axis labeled 't'. The right chart shows a single red line trending downwards, with the y-axis labeled 'd_a(b)' and the x-axis labeled 'Iteration number'. The slide is visually oriented with very little text, resulting in a light text density."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "results",
+      "t_start": 269.0,
+      "t_end": 270.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 269.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Applications: Image Extrapolation",
+        "layout_description": "The slide has a minimalist design with a plain white background. The title 'Applications: Image Extrapolation' is located at the top-left in a standard black sans-serif font. The content is divided into two main areas: on the left side, there are two identical square images stacked vertically, each showing a snow-capped mountain (Mount Fuji) against a blue sky. To the right of these images, positioned roughly in the center of the remaining white space, is a single line of text that reads 'Target Prompt: Volcano eruption'. There are no bullet points, equations, or decorative elements, resulting in a very light text density focused on a qualitative demonstration."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "results",
+      "t_start": 270.0,
+      "t_end": 290.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 270.0,
+          "image": "slide_15_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 284.0,
+          "image": "slide_15_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 288.0,
+          "image": "slide_15_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout with title",
+        "title_text": "Applications: Image Extrapolation",
+        "layout_description": "The slide features a clean, minimalist design with a large title positioned at the top-left corner in a black, sans-serif font. The main body of the slide is occupied by two horizontal rows of images, with six images in each row, forming a 2x6 grid. Each row demonstrates a sequential progression of image extrapolation from left to right. The top row shows a realistic raccoon face gradually morphing into a surreal, single-eyed creature. The bottom row shows a similar raccoon face morphing into a stylized, cartoonish version with exaggerated eyes and teeth. The images are square-framed with thin white gutters between them. The background is solid white, and there are no additional text elements, bullet points, or logos, resulting in a very light text density focused on qualitative visual results."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "other",
+      "t_start": 290.0,
+      "t_end": 294.8,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 290.0,
+          "image": "slide_16_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 291.0,
+          "image": "slide_16_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "concluding slide layout",
+        "title_text": "Thank you!",
+        "layout_description": "The slide features a row of four square images at the top, spanning the width of the frame. These images depict a woman's face, a cheetah, a road through a forest, and a man's face. Below this row, the text 'Thank you!' is centered in a large, plain font. The bottom portion of the slide is divided into two main elements: a QR code on the left with the caption 'Github page' underneath it, and contact information on the right. The contact info includes the label 'Contact Email:' followed by the email address 'Terry.Yu@anu.edu.au'. The overall design is clean with a white background and light text density, typical for a final presentation slide."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 168,
+    "gemini_layout_calls": 140,
+    "total_gemini_calls": 308,
+    "total_frames_sampled": 295,
+    "batch_size": 15
+  }
+}

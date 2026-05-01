@@ -1,0 +1,115 @@
+{
+    "scene_id": 4,
+    "title": "Two-stage Split Learning Approach",
+    "summary": "The framework employs a two-stage process: first, offline knowledge distillation on auxiliary data to pre-train FHE-friendly blocks; second, online encrypted inference where clients train local adapters without backpropagating through the main FM.",
+    "paper_section": "Two-stage Split Learning",
+    "narrative_role": "method",
+    "asset_video": null,
+    "duration_stat": {
+        "min": 12.0,
+        "max": 18.0,
+        "avg": 15.0
+    },
+    "extracted_content": "The BlindFed framework utilizes a two-stage split learning strategy to bridge the gap between the original Foundation Model (FM) and its FHE-friendly counterpart. In the first stage, Offline Distillation, the server acts as a teacher to train the approximated student model using an auxiliary dataset. This process is split into two phases: first, aligning embeddings, attention matrices, and hidden states; and second, distilling the final prediction layer. In the second stage, Online Adaptation, a block-by-block interactive protocol is used to perform encrypted inference. Because FHE has limited multiplicative depth, the server processes one transformer block at a time, sending the encrypted output to the client for decryption and re-encryption before proceeding. This interaction provides clients with the plaintext intermediate representations necessary to train their local parallel adapters and classification heads. Finally, secure multi-party computation (MPC) is used for secure aggregation, allowing the server to compute the average of client updates without accessing individual local parameters.",
+    "layout": {
+        "template": "two_col_fig_left",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.9,
+                "h": 0.1
+            },
+            "figure": {
+                "x": 0.05,
+                "y": 0.18,
+                "w": 0.45,
+                "h": 0.75
+            },
+            "bullets": {
+                "x": 0.55,
+                "y": 0.18,
+                "w": 0.4,
+                "h": 0.75
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "Two-Stage Split Learning Strategy",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 9",
+            "caption": "Layer-wise knowledge distillation between teacher and student models"
+        },
+        "bullets": [
+            "Offline distillation aligns FHE-friendly blocks with the original foundation model",
+            "Online adaptation enables private local training via block-by-block encrypted inference",
+            "Secure aggregation via MPC combines client updates without exposing local parameters"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "BlindFed uses a two-stage strategy to bridge the gap between models.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 4.6,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "First, offline distillation aligns the FHE-friendly student with the original teacher using auxiliary data.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 9.2,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "Then, online adaptation uses block-by-block encrypted inference for private local training.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 13.8,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "Finally, secure multi-party computation aggregates updates into a global model without exposing individual parameters.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 18.4,
+    "source": [
+        "Section 4.2",
+        "Figure 9",
+        "Equation 21"
+    ],
+    "audio_content": "BlindFed uses a two-stage strategy to bridge the gap between models. First, offline distillation aligns the FHE-friendly student with the original teacher using auxiliary data. Then, online adaptation uses block-by-block encrypted inference for private local training. Finally, secure multi-party computation aggregates updates into a global model without exposing individual parameters.",
+    "prompt": "A diagram showing a two-stage process: Stage 1 (Offline) shows a teacher model transferring knowledge to a student model via layer-wise distillation; Stage 2 (Online) shows a server and client interacting block-by-block with encrypted data to train local adapters."
+}

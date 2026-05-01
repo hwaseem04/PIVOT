@@ -1,0 +1,22 @@
+{
+    "extracted_content": "The Transformer employs an encoder-decoder structure where both components are composed of a stack of N = 6 identical layers. The encoder layers consist of two sub-layers: a multi-head self-attention mechanism and a position-wise fully connected feed-forward network. The decoder layers include these two sub-layers plus a third sub-layer that performs multi-head attention over the encoder stack's output. To facilitate deep training, each sub-layer is surrounded by a residual connection followed by layer normalization, ensuring a consistent output dimension of d_model = 512 throughout the model. The decoder also utilizes masking in its self-attention sub-layer to prevent positions from attending to subsequent positions, maintaining the auto-regressive property during generation.",
+    "key_figures": [
+        {
+            "ref": "Figure 1",
+            "caption": "The Transformer - model architecture.",
+            "relevance": "This figure provides the definitive visual overview of the encoder and decoder stacks, showing the arrangement of attention mechanisms, feed-forward networks, and residual connections."
+        }
+    ],
+    "key_tables": [],
+    "key_equations": [
+        {
+            "ref": "Layer Normalization",
+            "content": "LayerNorm(x + Sublayer(x))",
+            "relevance": "This equation describes the residual connection and normalization wrapper applied to every sub-layer in the architecture."
+        }
+    ],
+    "section_refs": [
+        "Section 3",
+        "Section 3.1"
+    ]
+}

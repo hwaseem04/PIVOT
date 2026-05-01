@@ -1,0 +1,28 @@
+{
+    "extracted_content": "Because the Transformer architecture lacks recurrence and convolution, it cannot inherently account for the order of tokens in a sequence. To address this, positional encodings are added to the input embeddings at the base of both the encoder and decoder stacks. These encodings have the same dimension (d_model = 512) as the embeddings, allowing them to be summed. The authors utilize sine and cosine functions of different frequencies to generate these encodings. This specific sinusoidal approach was chosen because it was hypothesized to allow the model to easily learn to attend by relative positions, as the encoding for a position plus an offset can be represented as a linear function of the original position's encoding. Furthermore, this method may allow the model to extrapolate to sequence lengths longer than those encountered during training.",
+    "key_figures": [
+        {
+            "ref": "Figure 1",
+            "caption": "The Transformer - model architecture.",
+            "relevance": "This figure illustrates the specific point in the architecture where positional encodings are injected\u2014summed with the input and output embeddings before entering the encoder and decoder stacks."
+        }
+    ],
+    "key_tables": [
+        {
+            "ref": "Table 3",
+            "caption": "Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are on the English-to-German translation development set, newstest2013.",
+            "relevance": "Row (E) shows that using sinusoidal positional encodings results in nearly identical performance to learned positional embeddings, justifying the use of the fixed sinusoidal version."
+        }
+    ],
+    "key_equations": [
+        {
+            "ref": "Positional Encoding",
+            "content": "PE(pos, 2i) = sin(pos / 10000^(2i/d_model)), PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model))",
+            "relevance": "These equations define how the positional encoding values are calculated for each dimension of the positional vector based on the token's position in the sequence."
+        }
+    ],
+    "section_refs": [
+        "Section 3.5",
+        "Section 6.2"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "layout_template": "two_col_fig_left",
+    "background_color": "#FFFFFF",
+    "layout_regions": {
+        "title": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.9,
+            "h": 0.1
+        },
+        "figure": {
+            "x": 0.05,
+            "y": 0.18,
+            "w": 0.45,
+            "h": 0.75
+        },
+        "bullets": {
+            "x": 0.55,
+            "y": 0.18,
+            "w": 0.4,
+            "h": 0.75
+        }
+    },
+    "has_figure": true,
+    "has_video": false,
+    "style_rationale": "The vertical orientation of Figure 9, which illustrates the layer-wise distillation process between teacher and student models, is best served by a two-column layout. Placing the figure on the left provides a strong visual anchor for the methodology, while the right column provides space for the two-stage explanation and the piecewise loss equation (Eq. 21)."
+}

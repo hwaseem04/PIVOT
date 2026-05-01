@@ -1,0 +1,445 @@
+{
+  "video_id": "Removing Cost Volumes from Optical Flow Estimators",
+  "duration": 285.3,
+  "fps_sampled": 1.0,
+  "total_slides": 17,
+  "slides_with_builds": 9,
+  "total_build_steps": 38,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 10.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Removing Cost Volumes from Optical Flow Estimators",
+        "layout_description": "This is a title slide with a clean, white background. At the top left, there is a colorful logo for the ICCV 2025 conference in Honolulu, Hawaii. At the top right, there are two institutional logos: one for 'hessian.AI' and another for 'Technische Universit\u00e4t Darmstadt'. The main title of the presentation is centered in a large, bold, black font in the upper-middle section. Below the title, the three authors are presented in a three-column horizontal arrangement. Each column contains the author's name (Simon Kiefhaber, Stefan Roth, and Simone Schaub-Meyer) positioned directly above a circular portrait photograph of that individual. The overall text density is light, focusing on the title and the presenters."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 10.0,
+      "t_end": 15.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 10.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Optical Flow",
+        "layout_description": "The slide uses a clean two-column layout on a white background. A thin blue horizontal bar runs across the very top, with the logo of 'TECHNISCHE UNIVERSIT\u00c4T DARMSTADT' located in the top-right corner. The title 'Optical Flow' is prominently displayed in a large, black, sans-serif font at the top-left. On the left side of the slide, there is a single bullet point providing a brief definition: 'Apparent motion estimation from two frames'. The right side of the slide contains two vertically stacked images. The upper image is a photograph of a model train on a track within a miniature landscape. The lower image is a corresponding qualitative visualization of optical flow, where the moving train cars are represented by distinct colors (red, yellow, green) against a purple background to indicate motion vectors. The text density is light, with the visual elements serving as the primary focus."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 15.0,
+      "t_end": 27.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 16.0,
+          "image": "slide_3_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Optical Flow",
+        "layout_description": "The slide uses a clean two-column layout on a white background. A thin blue horizontal bar runs across the very top of the slide. The title 'Optical Flow' is placed in a large, bold font at the top-left. In the top-right corner, the logo for 'TECHNISCHE UNIVERSIT\u00c4T DARMSTADT' is visible. The left column contains text organized into a hierarchical bulleted list. There are two primary bullet points, with the second one containing four sub-bullets indented to the right. The right column features two vertically stacked images of equal width. The top image is a photograph of a model train on a track, and the bottom image is a corresponding color-coded optical flow visualization of the same scene. The text density is light, with significant white space around the elements."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 27.0,
+      "t_end": 30.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 27.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "Motivation",
+        "layout_description": "The slide has a clean, minimalist layout with a white background and a thin blue accent bar at the very top. The title 'Motivation' is placed in the top-left corner in a large, plain sans-serif font. In the top-right corner, the logo for 'TECHNISCHE UNIVERSIT\u00c4T DARMSTADT' is visible. The main content is a large, centered line chart that occupies most of the slide's middle section. The chart features a y-axis labeled 'TFLOPS' with markings at 5, 10, and 15, and an x-axis labeled with various video resolutions: VGA (480p), HD (720p), Full HD (1080p), QHD (1440p), and 4K (2160p). A legend box is located in the top-left corner of the chart area, showing a teal line labeled 'SEA-RAFT\u00b9', although the chart itself currently contains no plotted data points. A small-text footnote at the bottom-left provides a full citation for the 'SEA-RAFT' paper. The overall text density is light, emphasizing the graphical framework."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "introduction",
+      "t_start": 30.0,
+      "t_end": 65.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 30.0,
+          "image": "slide_5_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 38.0,
+          "image": "slide_5_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 44.0,
+          "image": "slide_5_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 55.0,
+          "image": "slide_5_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central figure",
+        "title_text": "Motivation",
+        "layout_description": "The slide follows a clean academic template with a white background and a thin blue horizontal bar at the very top. The title 'Motivation' is placed in the top-left corner in a large, plain sans-serif font. In the top-right corner, there is the logo for 'TECHNISCHE UNIVERSIT\u00c4T DARMSTADT'. The central focus of the slide is a large line chart framed in black. The chart plots 'TFLOPS' on the y-axis against various video resolutions (VGA to 4K) on the x-axis. A light green curve, identified in a legend as 'SEA-RAFT\u00b9', shows an exponential growth in computational cost. Four rectangular callout boxes are attached to specific points on the curve, detailing memory usage in GB and frame rates in fps for VGA, HD, Full HD, and QHD resolutions. A vertical dashed line between Full HD and QHD includes text indicating that a 2x increase in pixels results in 4x memory and 3x time. A single-line footnote at the bottom-left provides a bibliographic reference to the SEA-RAFT paper from ECCV24. The overall text density is light, focusing on the visual trend shown in the graph."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "results",
+      "t_start": 65.0,
+      "t_end": 75.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 65.0,
+          "image": "slide_6_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 71.0,
+          "image": "slide_6_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Computational Analysis",
+        "layout_description": "The slide features a large, bold title 'Computational Analysis' at the top-left, with a thin blue horizontal bar running across the very top of the slide. In the top-right corner, the logo for Technische Universit\u00e4t Darmstadt is visible. The main content area is split into two side-by-side visual elements. On the left, there is a technical block diagram showing a neural network architecture with components like 'Feature Extractor', 'Cost Volume', 'Context Network', and 'Refinement Network', connected by arrows and including input/output image thumbnails. On the right, there is a line chart plotting 'TFLOPS' on the vertical axis against various image resolutions (VGA, HD, Full HD, QHD) on the horizontal axis. The chart includes a legend in the top-left corner and uses shaded areas under the lines to represent the computational load of different network components. The overall design is clean with a white background and light text density."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "results",
+      "t_start": 75.0,
+      "t_end": 89.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 75.0,
+          "image": "slide_7_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 77.0,
+          "image": "slide_7_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 78.0,
+          "image": "slide_7_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column content layout with title and footer summary",
+        "title_text": "Computational Analysis",
+        "layout_description": "The slide features a large, bold title 'Computational Analysis' at the top-left, positioned below a thin blue horizontal bar that spans the top edge. The logo for Technische Universit\u00e4t Darmstadt is located in the top-right corner. The central content is organized into two side-by-side visual elements. On the left is a flowchart diagram illustrating a neural network architecture, including components like 'Context Network', 'Feature Extractor', 'Cost Volume', and 'Refinement Network' with input and output images. On the right is an area chart showing computational cost in 'TFLOPS' across different image resolutions (VGA, HD, Full HD, QHD). The chart includes a legend identifying three components: Feature Network (green), Context Network (orange), and Refinement Network (blue). At the bottom of the slide, a single summary sentence preceded by an arrow states: 'Feature network scales poorly w.r.t. resolution'. The slide has a clean white background and light text density."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 89.0,
+      "t_end": 90.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 89.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Tale of a Failed Experiment",
+        "layout_description": "The slide features a large, black title at the top-left, positioned below a thin blue horizontal bar that runs across the top edge. In the top-right corner, the logo for Technische Universit\u00e4t Darmstadt is visible. The central content is a horizontal flowchart diagram representing a neural network architecture. On the left, two input images are stacked vertically. Arrows from these images lead to a circular node labeled 'C' and a 'Feature Extractor' block (light green). The 'C' node feeds into a 'Context Network' (light red), which then connects to a 'Refinement Network' (light blue). Simultaneously, the 'Feature Extractor' feeds into a 3D-styled 'Cost Volume' block (light green), which also connects to the 'Refinement Network'. The process concludes with an arrow pointing from the 'Refinement Network' to a color-coded output image on the far right. The slide has a white background and light text density, focusing entirely on the visual representation of the model."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 90.0,
+      "t_end": 130.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 90.0,
+          "image": "slide_9_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 96.0,
+          "image": "slide_9_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 102.0,
+          "image": "slide_9_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 117.0,
+          "image": "slide_9_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Tale of a Failed Experiment",
+        "layout_description": "The slide features a large, left-aligned title at the top, with the logo of Technische Universit\u00e4t Darmstadt positioned in the top-right corner. A thin blue horizontal bar runs across the very top edge of the slide. The main content is a horizontal flowchart diagram representing a neural network architecture. On the left, two input images are stacked vertically. These images feed into two parallel paths: one leads to a 'Feature Extractor' block (light green), and the other, through a concatenation node labeled 'C', leads to a 'Context Network' block (light red). The 'Feature Extractor' outputs to a 3D-styled 'Cost Volume' block (light green), which then feeds into a 'Refinement Network' block (light blue). The 'Context Network' also provides input to the 'Refinement Network'. The final output of the system is a colorful visualization (likely an optical flow or depth map) shown on the far right. The diagram uses arrows to indicate data flow between these colored rectangular blocks. The overall text density is light, with a focus on the visual architecture."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 130.0,
+      "t_end": 135.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 130.0,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Cutting-Off Cost Volumes",
+        "layout_description": "The slide features a large, bold title 'Cutting-Off Cost Volumes' at the top-left, with a thin blue accent bar at the very top edge and the 'TECHNISCHE UNIVERSIT\u00c4T DARMSTADT' logo in the top-right corner. The content is organized into two distinct horizontal sections on a plain white background. The upper section displays a neural network architecture flowchart. It begins on the left with two vertically stacked input images that feed into a 'Context Network' (red box) and a 'Feature Extractor' (green box). The 'Feature Extractor' leads to a 'Cost Volume' (represented as a green 3D block). Both the 'Context Network' and 'Cost Volume' connect to a 'Refinement Network' (blue box), which produces a color-coded flow map as the final output. The lower section contains a horizontal training curriculum timeline labeled '#Iterations' with a dashed arrow pointing to the right. Below this arrow is a sequence of four arrow-shaped blocks representing datasets: 'TartanAir' (the longest block), followed by 'Chairs', 'Things', and finally a combined block 'Things+Sintel+KITTI+HD1K'. The text density is light, primarily consisting of labels within the diagrams."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 135.0,
+      "t_end": 167.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 135.0,
+          "image": "slide_11_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 148.0,
+          "image": "slide_11_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 159.0,
+          "image": "slide_11_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagrams",
+        "title_text": "Cutting-Off Cost Volumes",
+        "layout_description": "The slide features a large, bold title 'Cutting-Off Cost Volumes' positioned at the top-left, with the logo of 'TECHNISCHE UNIVERSIT\u00c4T DARMSTADT' at the top-right. The content is organized into two main horizontal sections. The upper section contains a flowchart illustrating a neural network architecture: two input images on the left are processed through a circular 'C' node, leading into a 'Context Network' (orange box), then a 'Refinement Network' (blue box), and finally producing a colorful optical flow map. The lower section displays a horizontal timeline labeled '#Iterations' with a dashed arrow pointing right. This timeline is composed of several colored chevron-shaped blocks representing different training datasets: 'TartanAir' (light green), 'Chairs' (pale green), 'Things' (light red), and a combined dataset block 'Things+Sintel+KITTI+HD1K' (white). A vertical dashed line labeled 'Cut-off' points to the boundary between the 'Chairs' and 'Things' blocks. The slide has a clean white background with a thin blue horizontal line at the very top, and the text density is light, relying primarily on visual diagrams."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "results",
+      "t_start": 167.0,
+      "t_end": 180.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 167.0,
+          "image": "slide_12_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 170.0,
+          "image": "slide_12_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 175.0,
+          "image": "slide_12_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 176.0,
+          "image": "slide_12_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central chart",
+        "title_text": "Cutting-Off Cost Volumes",
+        "layout_description": "The slide has a clean, white background with a thin blue horizontal line at the very top. The title 'Cutting-Off Cost Volumes' is placed in the top-left in a large, black sans-serif font. In the top-right corner, the logo for Technische Universit\u00e4t Darmstadt is visible. The main content is a centered bar chart comparing three methods: 'SEA-RAFT' (green bar, value 0.54), 'w/o Cost Volume' (blue bar, value 0.86), and 'Cut-off' (orange bar, value 0.68). The y-axis is labeled 'EPE (\u2193)' with a scale from 0.0 to 1.0. A horizontal dashed line extends from the top of the SEA-RAFT bar to the Cut-off bar, with a bracket on the right highlighting a '+25% error' difference. In the bottom-right corner, there is a small block of text listing the training datasets (TartanAir, FlyingChairs, FlyingThings, Sintel, KITTI, HD1K) and the evaluation dataset (Spring). The text density is light, prioritizing the visual comparison of the data."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "results",
+      "t_start": 180.0,
+      "t_end": 184.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 180.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central chart",
+        "title_text": "Cutting-Off Cost Volumes",
+        "layout_description": "The slide has a clean, white background with a thin blue accent line at the very top. The title is located at the top-left in a large, bold, black sans-serif font. To the top-right is the logo for Technische Universit\u00e4t Darmstadt. The main content is a centered bar chart comparing three models: 'SEA-RAFT' (green bar, 0.54), 'w/o Cost Volume' (blue bar, 0.86), and 'Cut-off' (orange bar, 0.68). The y-axis is labeled 'EPE (\u2193)' with a scale from 0.0 to 1.0. A dashed line and a bracket highlight a '+25% error' difference between the SEA-RAFT and Cut-off results. Below the chart, a prominent centered box with a black border poses the question 'Can we close this accuracy gap?'. Small, light-gray text in the bottom-right corner provides details on the training and evaluation datasets used. The slide has a light text density and focuses on quantitative comparison."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "results",
+      "t_start": 184.0,
+      "t_end": 195.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 184.0,
+          "image": "slide_14_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 188.0,
+          "image": "slide_14_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 189.0,
+          "image": "slide_14_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 192.0,
+          "image": "slide_14_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "Closing the Accuracy Gap",
+        "layout_description": "The slide follows a clean, minimalist layout with a white background. At the very top, a thin blue horizontal line spans the width of the slide. The title 'Closing the Accuracy Gap' is placed in the top-left corner in a large, black, sans-serif font. In the top-right corner, the logo for 'TECHNISCHE UNIVERSIT\u00c4T DARMSTADT' is visible. The central portion of the slide is dominated by a large line chart. The chart plots 'TFLOPS' on the vertical y-axis (ranging from 0 to 15) against image resolutions on the horizontal x-axis, specifically 'VGA', 'HD', 'Full HD', and 'QHD'. Four colored lines\u2014green, blue, orange, and red\u2014represent different models or configurations. A legend box inside the top-left of the chart area identifies the green line as 'SEA-RAFT', which shows a significantly steeper upward curve compared to the others. The overall text density is light, emphasizing the visual data in the chart."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "results",
+      "t_start": 195.0,
+      "t_end": 279.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 195.0,
+          "image": "slide_15_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 201.0,
+          "image": "slide_15_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 215.0,
+          "image": "slide_15_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 216.0,
+          "image": "slide_15_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column comparison layout",
+        "title_text": "Closing the Accuracy Gap",
+        "layout_description": "The slide uses a clean two-column layout on a white background, topped with a thin blue horizontal accent bar. The title is positioned at the top-left in a large, black sans-serif font, while the logo for Technische Universit\u00e4t Darmstadt is located in the top-right corner. The central content consists of two side-by-side charts. The left column contains a bar chart showing 'EPE (\u2193)' (End-Point Error) for four models: SEA-RAFT, ReCoVeR-CX, ReCoVeR-RN, and ReCoVeR-MN, with specific values (0.54, 0.51, 0.62, 0.99) labeled above each colored bar. The right column features a line graph plotting 'TFLOPS' against image resolutions (VGA, HD, Full HD, QHD) for the same four models, using a consistent color-coding scheme (green, blue, orange, red) and an internal legend. In the bottom-right corner, a small text block specifies the training and evaluation datasets used. The slide has a light text density, prioritizing visual data comparison."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "title",
+      "t_start": 279.0,
+      "t_end": 285.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 279.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Removing Cost Volumes from Optical Flow Estimators",
+        "layout_description": "This is a title slide with a centered layout. The main title is positioned at the top center in a large, bold font. Below the title, the names of three authors are listed in a single row, also centered. The top-left corner displays the ICCV 2025 conference logo, while the top-right corner features the logo for Technische Universit\u00e4t Darmstadt and the hessian.AI logo. The middle of the slide contains two side-by-side QR codes; the left one is labeled 'Project website' and the right one is labeled 'Code' with a GitHub icon in its center. A dense block of funding and acknowledgment text spans the bottom-left and center areas. The bottom-right corner is occupied by logos for the European Research Council and the Emmy Noether-Programm. The overall design is clean with a white background and moderate text density."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "title",
+      "t_start": 285.0,
+      "t_end": 285.3,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 285.0,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Removing Cost Volumes from Optical Flow Estimators",
+        "layout_description": "This is a title slide for an academic presentation. The main title is centered at the top in a large, bold, sans-serif font. Below the title, the names of three authors are arranged in three columns: Simon Kiefhaber on the left, Stefan Roth in the center, and Simone Schaub-Meyer on the right. The top-left corner features the ICCV 2025 Honolulu Hawaii logo, while the top-right corner displays the logo for Technische Universit\u00e4t Darmstadt and the hessian.AI logo. In the middle of the slide, two large QR codes are positioned side-by-side; the left one is labeled 'Project website' and the right one is labeled 'Code' with a GitHub icon in its center. The bottom section contains a dense paragraph of funding acknowledgments in a smaller font. Several funding agency logos, including erc, Emmy Noether-Programm, and DFG, are clustered in the bottom-right corner. The slide uses a clean white background with black text and colored logos, maintaining a moderate text density."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 891,
+    "gemini_layout_calls": 857,
+    "total_gemini_calls": 1748,
+    "total_frames_sampled": 286,
+    "batch_size": 15
+  }
+}

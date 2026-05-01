@@ -1,0 +1,22 @@
+{
+    "extracted_content": "The research is motivated by the rapid proliferation of head-mounted virtual, augmented, and mixed reality devices (e.g., Apple Vision Pro, Microsoft HoloLens 2, Meta Quest 3) which produce ego-view RGB and 3D point cloud streams. While RGB video is the standard modality for action recognition, it can be insufficient in scenarios with poor lighting or in safety-critical applications where sensor redundancy is required. 3D point clouds offer a robust alternative modality, yet their potential remains largely untapped due to a lack of annotated data. Existing 3D datasets are primarily captured from static, distant sensors, which fail to account for camera motion and hinder the recognition of fine-grained actions involving small objects. There is a significant gap in the literature for datasets that combine ego-view perspectives with 3D point cloud sequences, which is essential for developing applications in wearable-device scenarios.",
+    "key_figures": [
+        {
+            "ref": "Figure 1",
+            "caption": "Overview of the IKEA Ego 3D dataset. The dataset includes 174 assembly sequences captured using a Microsoft HoloLens 2. The captured RGB and Depth streams are labelled with 56 action labels per frame. The data is then aligned and synced to form 3D point cloud sequences that are the input to 3D action recognition algorithms.",
+            "relevance": "Illustrates the ego-view capture process and the multi-modal nature (RGB, Depth, Point Cloud) of the data required for modern head-mounted device applications."
+        }
+    ],
+    "key_tables": [
+        {
+            "ref": "Table 1",
+            "caption": "Dataset comparison. The proposed dataset is the first to have ego-view 3D point cloud data in an assembly context.",
+            "relevance": "Highlights the 'gap' mentioned in the motivation by showing that previous datasets lack the combination of 3D data and ego-view perspective."
+        }
+    ],
+    "key_equations": [],
+    "section_refs": [
+        "1. Introduction",
+        "2.1 3D action understanding datasets"
+    ]
+}

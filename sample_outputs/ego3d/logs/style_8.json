@@ -1,0 +1,26 @@
+{
+    "layout_template": "two_col_fig_right",
+    "background_color": "#FFFFFF",
+    "layout_regions": {
+        "title": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.9,
+            "h": 0.1
+        },
+        "bullets": {
+            "x": 0.05,
+            "y": 0.2,
+            "w": 0.4,
+            "h": 0.7
+        },
+        "figure": {
+            "x": 0.5,
+            "y": 0.2,
+            "w": 0.45,
+            "h": 0.7
+        }
+    },
+    "has_figure": true,
+    "style_rationale": "This layout places the core qualitative insights on the left, allowing the presenter to explain the decoupling of spatial and temporal power. The right side is dedicated to a visual comparison of the data from Tables 3 and 4 (Noun vs. Verb recognition), providing immediate quantitative evidence for the claim that verbs are harder to recognize and require temporal context."
+}

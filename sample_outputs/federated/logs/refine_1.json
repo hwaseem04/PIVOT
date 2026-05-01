@@ -1,0 +1,85 @@
+{
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "Adapting Foundation Models: The Privacy Paradox",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 1",
+            "caption": "Conceptual illustration of the double-blind adaptation challenge."
+        },
+        "bullets": [
+            "FMs require task-specific adaptation for specialized domains",
+            "Data owners must protect sensitive datasets from exposure",
+            "Service providers must safeguard proprietary model weights",
+            "Traditional fine-tuning is infeasible under 'double-blind' constraints"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "Adapting foundation models for specialized tasks",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 2.56,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "creates a privacy paradox.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 5.12,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "Data owners cannot share sensitive data,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 7.68,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "while providers must protect proprietary models.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 10.24,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "This 'double-blind' challenge makes traditional adaptation techniques practically infeasible.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 12.8
+}

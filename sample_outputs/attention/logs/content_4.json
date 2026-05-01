@@ -1,0 +1,21 @@
+{
+    "extracted_content": "Each layer in the encoder and decoder includes a position-wise fully connected feed-forward network (FFN) that is applied to every position independently and identically. This sub-layer consists of two linear transformations separated by a ReLU activation. While the transformations are consistent across positions within a layer, they utilize different parameters from one layer to the next. This operation can also be viewed as two convolutions with a kernel size of 1. The model uses a dimensionality of d_model = 512 for the input and output of these sub-layers, while the inner-layer has a significantly larger dimensionality of d_ff = 2048.",
+    "key_figures": [
+        {
+            "ref": "Figure 1",
+            "caption": "The Transformer - model architecture.",
+            "relevance": "This figure illustrates the placement of the 'Feed Forward' sub-layer within both the encoder and decoder stacks, following the attention mechanisms."
+        }
+    ],
+    "key_tables": [],
+    "key_equations": [
+        {
+            "ref": "Equation 2",
+            "content": "FFN(x) = max(0, xW_1 + b_1)W_2 + b_2",
+            "relevance": "This equation defines the mathematical operation of the position-wise feed-forward network, showing the two linear transformations and the ReLU activation."
+        }
+    ],
+    "section_refs": [
+        "Section 3.3"
+    ]
+}

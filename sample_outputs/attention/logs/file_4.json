@@ -1,0 +1,205 @@
+{
+    "scene_id": 4,
+    "title": "Position-wise Feed-Forward Networks",
+    "summary": "In addition to attention sub-layers, each layer contains a fully connected feed-forward network applied to each position separately and identically. This consists of two linear transformations with a ReLU activation in between, helping the model process the attended information at each step.",
+    "paper_section": "Method",
+    "narrative_role": "method",
+    "asset_video": null,
+    "duration_stat": {
+        "min": 7.0,
+        "max": 12.0,
+        "avg": 9.0
+    },
+    "extracted_content": "Each layer in the encoder and decoder includes a position-wise fully connected feed-forward network (FFN) that is applied to every position independently and identically. This sub-layer consists of two linear transformations separated by a ReLU activation. While the transformations are consistent across positions within a layer, they utilize different parameters from one layer to the next. This operation can also be viewed as two convolutions with a kernel size of 1. The model uses a dimensionality of d_model = 512 for the input and output of these sub-layers, while the inner-layer has a significantly larger dimensionality of d_ff = 2048.",
+    "layout": {
+        "template": "two-column layout: architecture diagram left, bullets and equation right",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.95,
+                "h": 0.1
+            },
+            "architecture": {
+                "x": 0.05,
+                "y": 0.2,
+                "w": 0.5,
+                "h": 0.75
+            },
+            "bullets": {
+                "x": 0.6,
+                "y": 0.2,
+                "w": 0.35,
+                "h": 0.4
+            },
+            "equation": {
+                "x": 0.6,
+                "y": 0.7,
+                "w": 0.35,
+                "h": 0.2
+            }
+        },
+        "spec": {
+            "version": 1,
+            "layout_type": "two-column layout: architecture diagram left, bullets and equation right",
+            "layout_tags": [
+                "two_col",
+                "figure_left",
+                "method",
+                "equation"
+            ],
+            "layout_signature": "T|D-B|D-EQ",
+            "background_color": "#FFFFFF",
+            "elements": [
+                {
+                    "id": "title",
+                    "type": "T",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.05,
+                        "w": 0.95,
+                        "h": 0.1
+                    },
+                    "content_ref": "elements.title",
+                    "style": {
+                        "font_size": 40,
+                        "bold": true,
+                        "align": "left"
+                    }
+                },
+                {
+                    "id": "architecture",
+                    "type": "D",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.2,
+                        "w": 0.5,
+                        "h": 0.75
+                    },
+                    "content_ref": "elements.figure",
+                    "constraints": {
+                        "keep_aspect": true
+                    }
+                },
+                {
+                    "id": "bullets",
+                    "type": "B",
+                    "box": {
+                        "x": 0.6,
+                        "y": 0.2,
+                        "w": 0.35,
+                        "h": 0.4
+                    },
+                    "content_ref": "elements.bullets",
+                    "style": {
+                        "font_size": 24,
+                        "min_font_size": 16
+                    }
+                },
+                {
+                    "id": "equation",
+                    "type": "EQ",
+                    "box": {
+                        "x": 0.6,
+                        "y": 0.7,
+                        "w": 0.35,
+                        "h": 0.2
+                    },
+                    "content_ref": "elements.equations",
+                    "style": {
+                        "font_size": 24
+                    }
+                }
+            ],
+            "global_constraints": {
+                "no_overlap": true,
+                "no_overflow": true,
+                "min_font_size": 14
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "Position-wise Feed-Forward Networks",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 1",
+            "caption": "The Transformer architecture highlighting the Feed Forward sub-layers."
+        },
+        "equations": [
+            "Eq. 2: \\mathrm{FFN}(x) = \\max(0, xW_1 + b_1)W_2 + b_2"
+        ],
+        "bullets": [
+            "Applied to each position independently and identically",
+            "Two linear transformations with a ReLU activation",
+            "Inner-layer dimensionality expands to 2048"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                },
+                {
+                    "type": "show",
+                    "target": "equation"
+                }
+            ],
+            "audio_segment": "Each layer includes a position-wise feed-forward network.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 2.6,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "It is applied to every position independently and identically,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 5.2,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "using two linear transformations with a ReLU activation,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 7.8,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "expanding the inner dimensionality to 2048.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 10.4,
+    "source": [
+        "Section 3.3",
+        "Figure 1"
+    ],
+    "audio_content": "Each layer includes a position-wise feed-forward network. It applies two linear transformations with a ReLU activation to every position independently, expanding the inner dimensionality to 2048.",
+    "prompt": "A diagram of the Transformer architecture on the left, with the Feed Forward blocks highlighted. On the right, bullet points describe the position-wise application and dimensionality, with the FFN equation displayed below the bullets."
+}

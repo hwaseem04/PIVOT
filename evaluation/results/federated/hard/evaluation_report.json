@@ -1,0 +1,18 @@
+{
+  "overall": {
+    "accuracy": 8.0,
+    "completeness": 7.35,
+    "relevance": 8.0,
+    "overall_score": 7.75
+  },
+  "info_missing_rate": 20.0,
+  "info_missing_count": 4,
+  "total_questions": 20,
+  "by_category": {
+    "core_contribution": 9.88,
+    "methodology": 9.68,
+    "experimental_results": 6.88,
+    "limitations": 4.83,
+    "negative_traps": 7.5
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "title": "State-of-the-Art Translation Results",
+    "audio_content": "The Transformer set new records. The big model reached 28.4 BLEU on English-to-German and 41.8 on English-to-French. It outperformed previous best results, including ensembles, while requiring significantly less training time and computational cost.",
+    "duration_sec": 14.4,
+    "bullets": [
+        "Achieved 28.4 BLEU on English-to-German translation.",
+        "Reached 41.8 BLEU on English-to-French task.",
+        "Outperformed previous ensembles at lower training cost."
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Table 2",
+        "caption": "BLEU scores and training costs for translation tasks."
+    },
+    "source": [
+        "Table 2",
+        "Section 6.1"
+    ],
+    "prompt": "A slide displaying Table 2 from the paper at the top, showing BLEU scores and training costs for various models. Below the table, three concise bullet points summarize the record-breaking performance and efficiency of the Transformer model."
+}

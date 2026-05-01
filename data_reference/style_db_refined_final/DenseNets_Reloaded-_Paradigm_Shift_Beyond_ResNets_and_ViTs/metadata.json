@@ -1,0 +1,675 @@
+{
+  "video_id": "DenseNets Reloaded- Paradigm Shift Beyond ResNets and ViTs",
+  "duration": 341.57,
+  "fps_sampled": 1.0,
+  "total_slides": 32,
+  "slides_with_builds": 6,
+  "total_build_steps": 42,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 1.0,
+      "t_end": 7.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 1.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "DenseNets Reloaded: Paradigm Shift Beyond ResNets and ViTs",
+        "layout_description": "This is a minimalist title slide with a clean white background. The layout is centered and symmetrical. At the top left, there are two logos: 'NAVER Cloud' in green and 'NAVER AI LAB' with a blue and green geometric icon. In the top right corner, there is a colorful logo for the 'ECCV' conference, featuring a stylized skyline graphic. The main title, 'DenseNets Reloaded:', is prominently displayed in a large, black, serif font in the center of the slide. Directly beneath it is a subtitle, 'Paradigm Shift Beyond ResNets and ViTs', rendered in a medium-sized, gray, sans-serif font. Below the subtitle, the names of the three authors\u2014'Donghyun Kim*', 'Byeongho Heo', and 'Dongyoon Han*'\u2014are listed in a smaller black font. A small footnote at the bottom right corner clarifies that '*' indicates 'equal contribution'. The text density is light, focusing entirely on the paper's title and authorship."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "method",
+      "t_start": 7.0,
+      "t_end": 15.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 7.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "ResNets vs DenseNets",
+        "layout_description": "The slide uses a side-by-side comparison layout to illustrate the architectural differences between two neural network types. A simple text title is located at the top-left. The main content consists of two flow diagrams positioned horizontally across the center of the slide. The left diagram is labeled 'ResNets' and shows a skip connection where the input is added to the output of a 'Layers' block using an 'Add' operation. The right diagram is labeled 'DenseNets' and shows a similar skip connection, but the input is concatenated with the output of the 'Layers' block using a 'Concat' operation. Both diagrams utilize light gray rounded rectangles for processing blocks and dark gray arrows to indicate data flow. The background is plain white, and the text density is very light, focusing primarily on the visual comparison of the two architectures."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "method",
+      "t_start": 15.0,
+      "t_end": 16.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "ResNets vs DenseNets",
+        "layout_description": "The slide uses a clean, two-column comparison layout on a plain white background. A simple black serif title, 'ResNets vs DenseNets', is positioned at the top-left. Below the title, two side-by-side architectural diagrams illustrate the fundamental difference between the two network types. The left diagram, labeled 'ResNets' at the bottom, shows a data path that splits: one branch goes through a 'Layers' block while the other is a skip connection; both are merged using an 'Add' operation. The right diagram, labeled 'DenseNets' at the bottom, mirrors this structure but replaces the addition with a 'Concat' (concatenation) operation. Both diagrams use light gray rounded rectangles for the 'Layers' blocks and smaller rectangles for the operations, connected by dark gray arrows indicating the flow of information. The overall text density is light, prioritizing visual clarity to explain architectural concepts."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "method",
+      "t_start": 16.0,
+      "t_end": 30.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 16.0,
+          "image": "slide_4_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 17.0,
+          "image": "slide_4_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "figure-based architecture overview",
+        "title_text": "DenseNet (CVPR17)",
+        "layout_description": "The slide features a large, colorful 3D diagram on the left side illustrating the DenseNet architecture, showing multiple layers of feature maps (labeled x0 through x4) connected by a series of curved, multi-colored arrows that represent dense skip connections. A blue text annotation 'feature = Concat(x0, x1)' with a corresponding arrow highlights the concatenation operation between the first two layers. In the top-right corner, two simplified block diagrams compare 'ResNets' and 'DenseNets,' specifically contrasting the 'Add' operation in ResNets with the 'Concat' operation in DenseNets. The title 'DenseNet (CVPR17)' is positioned at the top-left in a black serif font. A URL to the original research paper is placed at the bottom-right corner. The overall layout is clean with a white background and light text density, prioritizing visual diagrams over bulleted text."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "method",
+      "t_start": 30.0,
+      "t_end": 42.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 30.0,
+          "image": "slide_5_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 31.0,
+          "image": "slide_5_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 38.0,
+          "image": "slide_5_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 40.0,
+          "image": "slide_5_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with comparison",
+        "title_text": "DenseNet (CVPR17)",
+        "layout_description": "The slide features a large, detailed architectural diagram of a DenseNet model. The title 'DenseNet (CVPR17)' is positioned in the top-left corner in a serif font. The central visual is a 3D-style representation of feature maps (labeled x0 through x4) shown as stacks of colored squares (red, green, purple, yellow, and orange). These maps are connected by a series of curved, multi-colored arrows that represent dense skip connections, where each layer receives inputs from all preceding layers. Blue text labels with arrows point to specific nodes in the network, providing the mathematical logic for feature concatenation at each step, such as 'feature = Concat(x0, x1, x2)'. In the top-right corner, a smaller schematic diagram compares the basic building blocks of 'ResNets' (using an 'Add' operation) and 'DenseNets' (using a 'Concat' operation). The sequence ends with a 'Transition Layer' block. A source URL is provided in the bottom-right corner. The background is a clean, light gray, and the text density is moderate, relying heavily on visual diagrams to explain the methodology."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "results",
+      "t_start": 42.0,
+      "t_end": 45.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 42.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column comparison layout",
+        "title_text": "DenseNet (CVPR17)",
+        "layout_description": "The slide features a simple white background with a large, black title 'DenseNet (CVPR17)' located in the top-left corner. The main body of the slide is organized into two side-by-side line charts that compare model performance. The left chart displays 'validation error (%)' on the y-axis versus the number of parameters ('#parameters') on the x-axis. The right chart displays the same 'validation error (%)' against the number of floating-point operations ('#flops'). Both charts use a consistent color-coding scheme: a red line with upward-pointing triangles represents 'ResNets', and a blue line with downward-pointing triangles represents 'DenseNets-BC'. Specific model variants (e.g., ResNet-34, DenseNet-121) are labeled directly next to their corresponding data points on the lines. Each chart includes a legend in its top-right corner. A small blue URL pointing to an arXiv paper is positioned at the bottom right of the slide. The overall text density is moderate, focusing on data visualization and labeling."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "results",
+      "t_start": 45.0,
+      "t_end": 49.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 45.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column comparison layout",
+        "title_text": "DenseNet (CVPR17)",
+        "layout_description": "The slide features a large title in a serif font located at the top-left. The main body of the slide is organized into two side-by-side line charts that compare the performance of DenseNet and ResNet architectures. The left chart shows 'validation error (%)' on the y-axis versus '#parameters' on the x-axis, while the right chart shows the same y-axis versus '#flops' on the x-axis. In both charts, ResNets are represented by a red line with upward-pointing triangles, and DenseNets-BC are represented by a blue line with downward-pointing triangles. Specific model versions (e.g., ResNet-34, DenseNet-121) are labeled directly next to their corresponding data points. Each chart includes a legend in its top-right corner. A blue URL link to an arXiv paper is placed at the bottom-right corner of the slide. The background is plain white, and the overall text density is moderate, primarily consisting of chart labels and data points."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "introduction",
+      "t_start": 49.0,
+      "t_end": 55.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 49.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "diagrammatic categorization layout",
+        "title_text": "Recent SOTA Backbone Networks",
+        "layout_description": "The slide features a clean, white background with a title in a black serif font located at the top-left. The main content is a diagram that categorizes seven recent state-of-the-art (SOTA) backbone networks into two primary families. On the left side, there is a vertical list of model names followed by their publication venue and year in parentheses. These models are color-coded: ConvNeXt, HorNet, and MogaNet are in teal, while VAN, BiFormer, NAT, and SMT are in brown. On the right side, two large labels represent the categories: 'Vision Transformers' (in brown) and 'ResNets' (in teal). A system of horizontal and vertical lines connects each model to its respective category. A brown vertical line groups the four brown-colored models and branches rightward to the 'Vision Transformers' label. A teal vertical line groups the three teal-colored models\u2014positioned at the top and bottom of the list\u2014and branches rightward to the 'ResNets' label. The 'Vision Transformers' label is positioned vertically higher than the 'ResNets' label. The slide has a light text density and uses color to clearly define the hierarchical relationships."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "results",
+      "t_start": 55.0,
+      "t_end": 60.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 55.0,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Why concat is not as widely used in backbone design?",
+        "layout_description": "The slide has a clean, white background with a simple top-down layout. A large, black serif title is positioned at the top left. Below the main title, there is a secondary heading in a smaller, grey font that reads 'Large Memory Consumption'. The central part of the slide is occupied by a single, horizontally centered table. This table has five columns labeled 'Model', 'Top-1 (%)', 'Params (M)', 'FLOPs (G)', and 'Memory (32b, G)'. It contains data for three models: ResNet-101, DenseNet-161, and ConvNext-T. Notably, the memory value for DenseNet-161 ('9.7') is highlighted in red to emphasize the point made in the subtitle. The overall text density is light, making the quantitative comparison the primary focus."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "results",
+      "t_start": 60.0,
+      "t_end": 69.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 60.0,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Why concat is not as widely used in backbone design?",
+        "layout_description": "The slide follows a clean, minimalist layout on a plain white background. A large, black serif font title is positioned at the top left. Below the main title, there is a secondary heading in a smaller, gray serif font that reads 'Large Memory Consumption'. The central focus of the slide is a horizontally centered table that compares three neural network architectures: ResNet-101, DenseNet-161, and ConvNext-T. The table consists of five columns: 'Model', 'Top-1 (%)', 'Params (M)', 'FLOPs (G)', and 'Memory (32b, G)'. The table uses light gray borders for its grid. A specific data point in the 'Memory' column for DenseNet-161 is highlighted in red text (9.7) to emphasize its high memory consumption relative to the other models. The text density is light, making the comparative data the primary visual element."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "results",
+      "t_start": 69.0,
+      "t_end": 75.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 69.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with title and subtitle",
+        "title_text": "Why concat is not as widely used in backbone design?",
+        "layout_description": "The slide has a clean white background with a large, black serif font title positioned at the top left. Below the main title is a smaller subtitle, 'Low Scalability', also in a serif font. The central content consists of two side-by-side line charts that compare the performance of two neural network architectures. The left chart displays 'Latency (ms)' on the vertical axis and 'Image Size' on the horizontal axis. The right chart displays 'Memory (G)' on the vertical axis and 'Image Size' on the horizontal axis. Both charts use a pink line with square markers for 'ConvNeXt-T' and a purple line with triangle markers for 'DenseNet161'. Each chart includes a legend box and a light gray grid. The text density is light, with the primary focus being the visual comparison of the two models' scalability as image size increases."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "results",
+      "t_start": 75.0,
+      "t_end": 78.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 75.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with two charts",
+        "title_text": "Why concat is not as widely used in backbone design?",
+        "layout_description": "The slide has a clean white background with a large serif-font title positioned at the top left. Below the main title is a smaller subtitle, 'Low Scalability', also aligned to the left. The central content consists of two side-by-side line charts that compare the performance of two neural network architectures: ConvNeXt-T (pink line with square markers) and DenseNet161 (purple line with triangle markers). The left chart displays 'Latency (ms)' on the y-axis versus 'Image Size' on the x-axis, showing a significant performance gap as image size increases. The right chart displays 'Memory (G)' on the y-axis versus 'Image Size' on the x-axis, illustrating a similar trend where DenseNet161 consumes more memory. Both charts feature internal legends and light gray grid lines. The overall text density is light, prioritizing graphical data over text."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "method",
+      "t_start": 78.0,
+      "t_end": 90.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 78.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "The Power of Concat (Why? ; Our conjecture)",
+        "layout_description": "The slide follows a clean, single-column layout with a white background. At the top left, the main title is written in a black serif font, followed by a subtitle that states a conjecture, where the phrase 'increasing rank!' is highlighted in red. Below this text, a large line chart dominates the center of the slide. The chart plots the 'Average Rank Ratio' on the vertical axis against the 'Dimension Ratio' on the horizontal axis, featuring multiple lines in shades of red and blue that represent different activation functions. A legend for these lines is positioned within the bottom-center area of the plot. In the bottom right corner, there is a small text citation attributing the figure to 'RexNet(CVPR21)'. The overall text density is light, focusing primarily on the visual data analysis."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "results",
+      "t_start": 90.0,
+      "t_end": 96.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 90.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "The Power of Concat (Why? ; Our conjecture)",
+        "layout_description": "The slide features a clean, single-column layout on a plain white background. At the top-left, the main title is written in a black serif font, followed by a subtitle statement that highlights 'increasing rank!' in red text. Centered below these headings is a large line chart that occupies most of the slide's vertical space. The chart plots 'Average Rank Ratio' on the y-axis against 'Dimension Ratio' on the x-axis, featuring multiple lines in varying shades of red and blue. A legend is neatly tucked into the bottom-left corner of the plot area, identifying various activation functions like ReLU, ELU, and SiLU. In the bottom-right corner, there is a small source citation that refers to 'RexNet(CVPR21)' in a teal, underlined font. The overall text density is light, focusing the viewer's attention on the graphical analysis."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "method",
+      "t_start": 96.0,
+      "t_end": 105.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 96.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "The Power of Concat",
+        "layout_description": "The slide follows a simple, clean single-column layout on a plain white background. A large, bold title in a serif font is positioned at the top-left. The main body of the slide is occupied by a numbered list containing eleven items, each representing a specific research paper citation. The list is left-aligned and spans the width of the slide, with each entry providing the paper's title, a brief description of its contribution, and the publication venue with the year in parentheses (e.g., CVPR17, NeurIPS18). The text is black and uses a standard serif font, maintaining a moderate text density with clear spacing between the title and the list, as well as between the individual list items. There are no visual elements such as images, tables, logos, or page numbers."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "method",
+      "t_start": 105.0,
+      "t_end": 109.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 105.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "The Power of Concat",
+        "layout_description": "The slide follows a minimalist single-column layout on a plain white background. A large, bold title in a serif font is positioned at the top-left. The main body of the slide consists of a numbered list containing eleven entries, each representing a specific research paper. These entries are left-aligned and follow a consistent format: the paper's title is followed by its publication venue and year in parentheses (e.g., CVPR17, NeurIPS18). The text is black and set in a serif typeface, resulting in a moderate text density. There is a significant amount of empty white space on the right side of the slide, as the list items do not span the full width. No images, charts, equations, or decorative elements are included."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "results",
+      "t_start": 109.0,
+      "t_end": 120.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 109.0,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and horizontal figure row",
+        "title_text": "Pilot Study",
+        "layout_description": "The slide features a clean, minimalist design with a white background. The title 'Pilot Study' is positioned at the top-left in a large serif font. Below the title, the main content consists of a single horizontal row of five side-by-side line charts. Each chart plots 'Cumulative prob.' on the y-axis against 'Error' on the x-axis, comparing two experimental conditions: 'Concat' (indicated by a red line) and 'Add' (indicated by a green line), with a legend provided in each plot. The charts are labeled from left to right as (a) through (e), with corresponding captions below each: RandNet_A, RandNet_B, RandNet_C, RandNet_D, and RandNet_E. The text density is light, with the visual focus entirely on the comparative data trends across the five different network configurations."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "results",
+      "t_start": 120.0,
+      "t_end": 130.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 120.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "horizontal grid layout with title",
+        "title_text": "Pilot Study",
+        "layout_description": "The slide features a minimalist design on a plain white background. A large title, 'Pilot Study', is placed in the top-left corner in a black serif font. The main content consists of five small line charts arranged in a single horizontal row across the center of the slide. Each chart is a cumulative distribution function (CDF) plot, showing 'Cumulative prob.' on the y-axis and 'Error' on the x-axis. Every plot compares two methods represented by colored lines: a red line for 'Concat' and a green line for 'Add', with a small legend box inside each chart area. Below each of the five charts is a centered label: '(a) RandNet_A', '(b) RandNet_B', '(c) RandNet_C', '(d) RandNet_D', and '(e) RandNet_E', where the subscripts are in a mathematical italicized font. The slide has a very light text density and utilizes a significant amount of white space."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "method",
+      "t_start": 130.0,
+      "t_end": 135.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 130.0,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Key Concepts of RDNet",
+        "layout_description": "The slide has a clean, minimalist layout with a plain white background. The title 'Key Concepts of RDNet' is located at the top-left in a black serif font. The main content consists of a single numbered point ('1.') followed by three sub-points indicated by bold right-pointing arrows. The text is left-aligned with a light density. Color is used strategically for emphasis: 'additional transition layers' in the main point is in dark red, as are the accuracy figures (80.8% => 82.3%) in the first sub-point and the phrase 'Solves DenseNets\u2019 large memory consumption issues' in the final sub-point. There are no images, tables, or complex diagrams, focusing entirely on textual explanation of architectural concepts."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "method",
+      "t_start": 135.0,
+      "t_end": 164.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 135.0,
+          "image": "slide_20_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 154.0,
+          "image": "slide_20_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Key Concepts of RDNet",
+        "layout_description": "The slide follows a simple, single-column layout on a plain white background. The title, 'Key Concepts of RDNet', is set in a large black serif font at the top-left. The main content consists of a numbered list starting from item 2, suggesting it is a continuation from a previous slide. Each numbered item is followed by a parenthetical sub-point. Item 2 emphasizes speed, with the word 'FASTER!' highlighted in bold red text. Item 3 discusses accuracy improvements, providing specific Top-1 accuracy percentages. The text is left-aligned with a moderate indentation for the sub-points. The overall text density is light, leaving a large amount of empty white space in the lower half and right side of the slide."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "results",
+      "t_start": 164.0,
+      "t_end": 165.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 164.0,
+          "image": "slide_21_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and tables",
+        "title_text": "DenseNet201 to RDNet-T",
+        "layout_description": "The slide follows a top-down single-column structure. At the top left is a large, plain-text title. Below it, a primary table compares 'DenseNet-201' with a modified version labeled '(a) + Wider & shallower'. Red rectangular boxes highlight the modification name and the resulting improvements in latency and memory metrics. Centered below this table is a block of red text detailing specific architectural changes: the Growth Rate (GR) increasing from 32 to 120 and a change in the layer distribution across stages. At the bottom of the slide, a second, smaller table presents an ablation study or configuration list, showing 'Depth', 'Param', 'FLOPs', and 'Top-1' accuracy for various model variants. This bottom table uses alternating light-gray and white row shading to distinguish between different groups of configurations. The overall design is clean with a white background and moderate text density focused on quantitative performance data."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "results",
+      "t_start": 165.0,
+      "t_end": 236.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 165.0,
+          "image": "slide_22_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 188.0,
+          "image": "slide_22_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "multi-element comparison layout",
+        "title_text": "DenseNet201 to RDNet-T",
+        "layout_description": "The slide features a large title in a serif font at the top-left. Below the title, the top half of the slide is occupied by a wide table comparing the performance of DenseNet-201 against two modified versions across metrics like Top-1 Accuracy, Parameters, FLOPs, Latency, and Memory. A red rectangle highlights the 'Modernized blocks' row and its corresponding performance gains. The bottom half of the slide is split into two columns. The bottom-left column contains a vertical diagram showing the transformation of a neural network block; it transitions from a traditional DenseNet block (a stack of BatchNorm, ReLU, and Conv layers) to a modernized block (DWConv, LayerNorm, Linear, and GeLU layers) indicated by a red arrow. The bottom-right column features a smaller table titled 'Block conf' that details ablation studies on different block configurations and their impact on parameters and accuracy. The slide uses a clean white background with color-coded boxes in the diagram to distinguish different layer types."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "method",
+      "t_start": 236.0,
+      "t_end": 240.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 236.0,
+          "image": "slide_23_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and full-screen figure",
+        "title_text": "DenseNet201 to RDNet-T",
+        "layout_description": "The slide features a large, detailed architectural diagram of a neural network centered on a plain white background. A simple serif title is positioned at the top-left corner. The diagram illustrates a dense block structure, where multiple layers of feature maps (represented as stacks of colored squares: red, green, purple, yellow, and orange) are connected sequentially and through skip connections. Each layer is labeled with notation like x0, x1, x2, x3, and x4, and the operations between them are marked as 'BN-ReLU-Conv' within rectangular boxes labeled H1 through H4. Curved, colored arrows originate from each layer's output and feed into all subsequent layers, visually representing the dense connectivity pattern characteristic of DenseNet architectures. The sequence ends with a 'Transition Layer' box on the bottom-right. The overall text density is light, focusing primarily on the visual representation of the model's data flow."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "method",
+      "t_start": 240.0,
+      "t_end": 248.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 240.0,
+          "image": "slide_24_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 243.0,
+          "image": "slide_24_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with title",
+        "title_text": "DenseNet201 to RDNet-T",
+        "layout_description": "The slide features a large title in a serif font located at the top-left. The central content is a complex 3D-style diagram illustrating a neural network architecture. The diagram shows a sequence of feature map blocks (labeled x0 through x4) in distinct colors: red, green, purple, yellow, and orange. These blocks are interconnected by numerous curved, colored arrows representing dense skip connections. Between the feature map blocks are rectangular frames representing transformation layers (H1 to H4), labeled with 'BN-ReLU-Conv'. On the right side of the slide, a prominent white text box with a black border identifies a 'Transition Layer (1x1 conv)'. A red arrow points from this box toward the network diagram, accompanied by the red text 'Every 3 DenseLayer!'. The architecture concludes at the bottom right with a final 'Transition Layer' block. The background is plain white, and the slide has a light text density, relying primarily on the diagram to convey information."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "results",
+      "t_start": 248.0,
+      "t_end": 255.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 248.0,
+          "image": "slide_25_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "multi-table results layout",
+        "title_text": "DenseNet201 to RDNet-T",
+        "layout_description": "The slide features a large, left-aligned title at the top. Below the title is a primary horizontal table that details the step-by-step evolution of a model, with columns for 'Elements', 'Top-1 Acc (%)', 'Param (M)', 'FLOPs (G)', 'Lat (ms)', and 'Mem (GB)'. Specific cells in the final row of this table are highlighted with red rectangular outlines to emphasize performance gains. Below this main table, two smaller sub-tables are positioned side-by-side. The left sub-table (e) is titled 'Transition layer intervals' and the right sub-table (f) is titled 'Transition ratio'. Both sub-tables use light gray row highlighting to indicate the best-performing configurations. At the bottom of the slide, a single line of centered text provides a summary conclusion, with the phrase 'every 3 layers' highlighted in red for emphasis. The overall text density is moderate, focusing on quantitative data presented in a clean, white-background tabular format."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "results",
+      "t_start": 255.0,
+      "t_end": 294.0,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 255.0,
+          "image": "slide_26_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 257.0,
+          "image": "slide_26_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 261.0,
+          "image": "slide_26_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 265.0,
+          "image": "slide_26_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "DenseNet201 to RDNet-T",
+        "layout_description": "The slide features a prominent title in a black serif font located at the top-left. The main content is a large, detailed table centered on the slide that outlines an ablation study or architectural evolution. The table consists of six columns: 'Elements', 'Top-1 Acc (%)', 'Param (M)', 'FLOPs (G)', 'Lat (ms) (b1, Infer)', and 'Mem (GB) (Train)'. Rows are labeled (a) through (h), showing incremental changes from a baseline DenseNet-201 to the final RDNet-T model. Numerical values in the table are accompanied by delta values in parentheses, with many of these deltas highlighted in red. Red rectangular boxes are used to draw attention to the final row's modification, 'Channel re-scaling', and its resulting accuracy improvement. Below the table, the text 'RDNet-T' is written in a larger red font, centered under the final row. The background is a clean, solid white, and the text density is moderate, primarily consisting of tabular data."
+      }
+    },
+    {
+      "slide_id": 27,
+      "slide_section": "results",
+      "t_start": 294.0,
+      "t_end": 300.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 294.0,
+          "image": "slide_27_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "horizontal comparison layout",
+        "title_text": "ImageNet-1K CKA",
+        "layout_description": "The slide features a large title 'ImageNet-1K CKA' in a serif font at the top-left. Below the title, three square heatmaps are arranged horizontally in a single row. Each heatmap represents Centered Kernel Alignment (CKA) similarity scores. The first heatmap on the left is labeled '(a) RDNet-T' and shows internal layer similarity for that model. The middle heatmap is labeled '(b) ConvNeXt-T' and shows its internal layer similarity. The third heatmap on the right is labeled '(c) vs. ConvNeXt-T' and compares layers between RDNet-T (y-axis) and ConvNeXt-T (x-axis). A vertical color bar is located on the far right, indicating a scale from 0.0 (dark purple/black) to 1.0 (bright yellow/white). The overall text density is light, with the focus entirely on the visual comparison of the three charts against a plain white background."
+      }
+    },
+    {
+      "slide_id": 28,
+      "slide_section": "results",
+      "t_start": 300.0,
+      "t_end": 312.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 300.0,
+          "image": "slide_28_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "three-column figure layout",
+        "title_text": "ImageNet-1K CKA",
+        "layout_description": "The slide features a large title 'ImageNet-1K CKA' positioned at the top-left in a serif font. Below the title, three square heatmaps are arranged horizontally in a single row, occupying the majority of the slide's space. Each heatmap represents Centered Kernel Alignment (CKA) similarity scores between different model layers. The first heatmap on the left is labeled '(a) RDNet-T' and shows the internal similarity of the RDNet-T model. The middle heatmap is labeled '(b) ConvNeXt-T' and shows the internal similarity of the ConvNeXt-T model. The third heatmap on the right is labeled '(c) vs. ConvNeXt-T' and compares RDNet-T (y-axis) against ConvNeXt-T (x-axis). A vertical color scale bar is positioned on the far right, indicating values from 0.0 (dark purple) to 1.0 (bright yellow). Each plot includes numerical axis labels for layer indices. The overall text density is light, with a clean white background and a focus on visual data comparison."
+      }
+    },
+    {
+      "slide_id": 29,
+      "slide_section": "results",
+      "t_start": 312.0,
+      "t_end": 315.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 312.0,
+          "image": "slide_29_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with three-chart row",
+        "title_text": "ImageNet-1K Comparison with SOTAs",
+        "layout_description": "The slide features a large, plain-text title positioned at the top-left. Below the title, the main content consists of three side-by-side line charts arranged in a single horizontal row. Each chart shares the same y-axis, 'Top-1 Accuracy (%)', but evaluates performance against different x-axis metrics: 'Latency (1 batch, ms)' on the left, 'Latency (128 batch, ms)' in the center, and 'Memory (G)' on the right. Each chart contains multiple colored lines representing different neural network architectures, with a legend placed to the right of each individual plot. The proposed method, 'RDNet (Ours)', is highlighted with a distinct pink line and square markers to stand out from the other SOTA models. The overall design is clean with a white background and light text density, focusing entirely on quantitative performance comparisons."
+      }
+    },
+    {
+      "slide_id": 30,
+      "slide_section": "results",
+      "t_start": 315.0,
+      "t_end": 318.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 315.0,
+          "image": "slide_30_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and horizontal chart row",
+        "title_text": "ImageNet-1K Comparison with SOTAs",
+        "layout_description": "The slide features a large, serif-font title positioned at the top-left against a plain white background. Below the title, three line charts are arranged side-by-side in a single horizontal row, occupying the majority of the slide's area. All three charts share a common y-axis labeled 'Top-1 Accuracy (%)' with a scale from 82.5 to 85.5. The left chart plots accuracy against 'Latency (1 batch, ms)', the middle chart against 'Latency (128 batch, ms)', and the right chart against 'Memory (G)'. Each chart includes a legend in the bottom-right corner identifying several models: RDNet (Ours) in pink, HorNet in purple, NAT in dark blue, MogaNet in light blue, VAN in medium blue, SMT in blue-gray, and BiFormer in teal. The visual style is clean with light grid lines and distinct markers for data points. The text density is light, focusing entirely on the graphical comparison of model performance."
+      }
+    },
+    {
+      "slide_id": 31,
+      "slide_section": "conclusion",
+      "t_start": 318.0,
+      "t_end": 330.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 318.0,
+          "image": "slide_31_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Conclusion",
+        "layout_description": "The slide features a minimalist, single-column layout on a plain white background. The title 'Conclusion' is located at the top-left in a large, black serif font. Below the title, the main content is organized as a numbered list with three items, each consisting of a short paragraph of text. The text is left-aligned and uses a mix of regular, italicized, and bold styles. Specifically, section references like '\u00a75.1', '\u00a73.2', and '\u00a74.1' are bolded, while certain terms like 'concatenations', 'RDNets', and model names are italicized. The slide has a very light text density with generous white space between the numbered points and no additional visual elements such as images, logos, or page numbers."
+      }
+    },
+    {
+      "slide_id": 32,
+      "slide_section": "conclusion",
+      "t_start": 330.0,
+      "t_end": 341.57,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 330.0,
+          "image": "slide_32_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Conclusion",
+        "layout_description": "The slide follows a minimalist, single-column layout on a plain white background. A large, black serif-font title 'Conclusion' is positioned at the top-left corner. The main body of the slide consists of a numbered list with three items, each starting with a bolded number. The text is left-aligned and uses a mix of regular and italicized fonts for emphasis, particularly for model names and key findings. Specific section references (e.g., \u00a75.1, \u00a73.2, \u00a74.1) are included in bold within the sentences to link back to the main paper. The text density is light, with significant white space between the numbered points, ensuring high readability. There are no visual elements such as images, charts, logos, or page numbers."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 792,
+    "gemini_layout_calls": 775,
+    "total_gemini_calls": 1567,
+    "total_frames_sampled": 342,
+    "batch_size": 15
+  }
+}

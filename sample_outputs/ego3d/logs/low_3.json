@@ -1,0 +1,21 @@
+{
+    "title": "Data Collection and Processing Pipeline",
+    "audio_content": "Using HoloLens 2, we capture depth and RGB streams guided by a holographic alignment frame. The pipeline syncs these multi-rate sensors to generate oriented 3D point clouds. Each point includes spatial coordinates, RGB color, and surface normals.",
+    "duration_sec": 15.2,
+    "bullets": [
+        "HoloLens 2 setup with depth and RGB sensors",
+        "Holographic guidance for sensor frustum alignment",
+        "Multi-rate stream synchronization and RGB-D projection",
+        "Oriented point clouds with spatial, color, and normal data"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 1",
+        "caption": "Overview of the IKEA Ego 3D dataset capture and processing pipeline"
+    },
+    "source": [
+        "Figure 1",
+        "Section 3.1"
+    ],
+    "prompt": "A slide showing the data collection pipeline. On the left is Figure 1 from the paper, highlighting the 'Capture' and 'Process' steps. On the right are bullet points describing the HoloLens 2 hardware, holographic guidance, and the synchronization of RGB and depth streams into oriented 3D point clouds."
+}

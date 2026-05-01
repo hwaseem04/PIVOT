@@ -1,0 +1,55 @@
+{
+    "paper_title": "Attention Is All You Need",
+    "authors": [
+        {
+            "name": "Ashish Vaswani",
+            "affiliation_id": 1
+        },
+        {
+            "name": "Noam Shazeer",
+            "affiliation_id": 1
+        },
+        {
+            "name": "Niki Parmar",
+            "affiliation_id": 2
+        },
+        {
+            "name": "Jakob Uszkoreit",
+            "affiliation_id": 2
+        },
+        {
+            "name": "Llion Jones",
+            "affiliation_id": 2
+        },
+        {
+            "name": "Aidan N. Gomez",
+            "affiliation_id": 3
+        },
+        {
+            "name": "\u0141ukasz Kaiser",
+            "affiliation_id": 1
+        },
+        {
+            "name": "Illia Polosukhin",
+            "affiliation_id": 2
+        }
+    ],
+    "affiliations": [
+        {
+            "id": 1,
+            "name": "Google Brain",
+            "email_domain": "google.com"
+        },
+        {
+            "id": 2,
+            "name": "Google Research",
+            "email_domain": "google.com"
+        },
+        {
+            "id": 3,
+            "name": "University of Toronto",
+            "email_domain": "cs.toronto.edu"
+        }
+    ],
+    "venue": "NIPS 2017"
+}

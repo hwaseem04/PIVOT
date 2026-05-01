@@ -1,0 +1,217 @@
+{
+    "scene_id": 2,
+    "title": "The Transformer Architecture Overview",
+    "summary": "The Transformer follows an encoder-decoder structure. Both the encoder and decoder are composed of stacks of six identical layers. Each layer features two main sub-layers: a multi-head self-attention mechanism and a position-wise fully connected feed-forward network, connected via residual connections and layer normalization.",
+    "paper_section": "Method",
+    "narrative_role": "method",
+    "asset_video": null,
+    "duration_stat": {
+        "min": 10.0,
+        "max": 15.0,
+        "avg": 12.0
+    },
+    "extracted_content": "The Transformer employs an encoder-decoder structure where both components are composed of a stack of N = 6 identical layers. The encoder layers consist of two sub-layers: a multi-head self-attention mechanism and a position-wise fully connected feed-forward network. The decoder layers include these two sub-layers plus a third sub-layer that performs multi-head attention over the encoder stack's output. To facilitate deep training, each sub-layer is surrounded by a residual connection followed by layer normalization, ensuring a consistent output dimension of d_model = 512 throughout the model. The decoder also utilizes masking in its self-attention sub-layer to prevent positions from attending to subsequent positions, maintaining the auto-regressive property during generation.",
+    "layout": {
+        "template": "two-column layout: architecture diagram left, bullets and equation right",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.95,
+                "h": 0.1
+            },
+            "architecture_diagram": {
+                "x": 0.05,
+                "y": 0.2,
+                "w": 0.5,
+                "h": 0.75
+            },
+            "description_bullets": {
+                "x": 0.6,
+                "y": 0.2,
+                "w": 0.35,
+                "h": 0.5
+            },
+            "normalization_eq": {
+                "x": 0.6,
+                "y": 0.75,
+                "w": 0.35,
+                "h": 0.2
+            }
+        },
+        "spec": {
+            "version": 1,
+            "layout_type": "two-column layout: architecture diagram left, bullets and equation right",
+            "layout_tags": [
+                "two_col",
+                "figure_left",
+                "method",
+                "architecture"
+            ],
+            "layout_signature": "T|D-B",
+            "background_color": "#FFFFFF",
+            "elements": [
+                {
+                    "id": "title",
+                    "type": "T",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.05,
+                        "w": 0.95,
+                        "h": 0.1
+                    },
+                    "content_ref": "elements.title",
+                    "style": {
+                        "font_size": 36,
+                        "bold": true,
+                        "align": "left"
+                    }
+                },
+                {
+                    "id": "architecture_diagram",
+                    "type": "D",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.2,
+                        "w": 0.5,
+                        "h": 0.75
+                    },
+                    "content_ref": "elements.figure",
+                    "constraints": {
+                        "keep_aspect": true
+                    }
+                },
+                {
+                    "id": "description_bullets",
+                    "type": "B",
+                    "box": {
+                        "x": 0.6,
+                        "y": 0.2,
+                        "w": 0.35,
+                        "h": 0.5
+                    },
+                    "content_ref": "elements.bullets",
+                    "style": {
+                        "font_size": 22
+                    }
+                },
+                {
+                    "id": "normalization_eq",
+                    "type": "EQ",
+                    "box": {
+                        "x": 0.6,
+                        "y": 0.75,
+                        "w": 0.35,
+                        "h": 0.2
+                    },
+                    "content_ref": "elements.equations",
+                    "style": {
+                        "font_size": 20
+                    }
+                }
+            ],
+            "global_constraints": {
+                "no_overlap": true,
+                "no_overflow": true,
+                "min_font_size": 14
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "The Encoder-Decoder Transformer Architecture",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 1",
+            "caption": "The Transformer - model architecture overview"
+        },
+        "equations": [
+            "Eq. 1: \\mathrm{LayerNorm}(x + \\mathrm{Sublayer}(x))"
+        ],
+        "bullets": [
+            "Stacked encoder and decoder with six identical layers",
+            "Multi-head self-attention and position-wise feed-forward networks",
+            "Residual connections and layer normalization stabilize training",
+            "Decoder masking maintains the auto-regressive property"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                },
+                {
+                    "type": "show",
+                    "target": "equation"
+                }
+            ],
+            "audio_segment": "The Transformer employs a stacked encoder-decoder architecture",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.04,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "with six layers each.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 6.08,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "Every layer integrates multi-head self-attention and feed-forward networks.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 9.12,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "Residual connections and layer normalization stabilize the deep stack,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 12.16,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "while decoder masking ensures the model generates tokens auto-regressively.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 15.2,
+    "source": [
+        "Figure 1",
+        "Section 3.1"
+    ],
+    "audio_content": "The Transformer employs a stacked encoder-decoder architecture with six layers each. Every layer integrates multi-head self-attention and feed-forward networks. Residual connections and layer normalization stabilize the deep stack, while decoder masking ensures the model generates tokens auto-regressively.",
+    "prompt": "A split-screen layout showing the detailed Transformer architecture diagram from Figure 1 on the left. The right side displays concise bullet points about the encoder-decoder stacks and the layer normalization equation in a clean, academic style."
+}

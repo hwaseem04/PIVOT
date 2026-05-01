@@ -1,0 +1,62 @@
+{
+    "scene_id": 0,
+    "title": "Attention Is All You Need",
+    "summary": "Title page for: Attention Is All You Need",
+    "paper_section": "Title",
+    "narrative_role": "title",
+    "time_allocation_sec": 5,
+    "style": "Slides",
+    "layout": {
+        "template": "title_page",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.2,
+                "w": 0.9,
+                "h": 0.25
+            },
+            "authors": {
+                "x": 0.1,
+                "y": 0.5,
+                "w": 0.8,
+                "h": 0.15
+            },
+            "affiliations": {
+                "x": 0.1,
+                "y": 0.68,
+                "w": 0.8,
+                "h": 0.12
+            },
+            "venue": {
+                "x": 0.3,
+                "y": 0.85,
+                "w": 0.4,
+                "h": 0.08
+            }
+        }
+    },
+    "elements": {
+        "title": "Attention Is All You Need",
+        "authors": "Ashish Vaswani\u00b9, Noam Shazeer\u00b9, Niki Parmar\u00b2, Jakob Uszkoreit\u00b2, Llion Jones\u00b2, Aidan N. Gomez\u00b3, \u0141ukasz Kaiser\u00b9, Illia Polosukhin\u00b2",
+        "affiliations": "\u00b9Google Brain  \u00b2Google Research  \u00b3University of Toronto",
+        "venue": "NIPS 2017"
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "all"
+                }
+            ],
+            "audio_segment": "This paper, titled Attention Is All You Need, is by Ashish Vaswani and colleagues. Presented at NIPS 2017."
+        }
+    ],
+    "expected_build_steps": 1,
+    "time_cost": "5",
+    "audio_content": "This paper, titled Attention Is All You Need, is by Ashish Vaswani and colleagues. Presented at NIPS 2017.",
+    "prompt": "Title page showing paper title, authors, and logos for: Attention Is All You Need"
+}

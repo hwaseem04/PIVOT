@@ -1,0 +1,477 @@
+{
+  "video_id": "Find Any Part in 3D",
+  "duration": 309.93,
+  "fps_sampled": 1.0,
+  "total_slides": 20,
+  "slides_with_builds": 5,
+  "total_build_steps": 36,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 11.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Find Any Part in 3D",
+        "layout_description": "The slide follows a centered title slide layout on a plain white background. The main title, 'Find Any Part in 3D', is written in a large, bold, black sans-serif font and positioned in the upper-middle section. Directly below the title, the authors' names are listed in a smaller font, followed by their affiliation, 'California Institute of Technology', and the conference name, 'ICCV 2025 (Highlight)'. The top-left corner contains the 'Caltech' logo in orange, while the top-right corner features the 'ICCV' conference logo with dates and location ('HONOLULU HAWAII'). In the lower section, three circular headshots of the authors are arranged in a horizontal row. To the right of these headshots is a square QR code. A live video feed of the presenter is inset in the bottom-right corner of the frame. The overall text density is light, focusing on key identifying information."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 11.0,
+      "t_end": 15.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 11.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central illustration",
+        "title_text": "Semantic localization: bringing intelligence to the physical world",
+        "layout_description": "The slide features a large, black title positioned at the top left on a plain white background. The main body of the slide contains a visual demonstration of the title's concept. On the left side, there is a framed photograph of a wooden cabinet with an open drawer; a red bounding box highlights the drawer's knob, and a red arrow points from the central character toward this box. In the center, there is a cartoon illustration of a small, white, round robot with large blue eyes. To the right of the robot, a speech bubble contains the command 'Find the drawer knob'. In the bottom right corner, a circular video inset shows the presenter speaking. The slide has a very light text density and uses a simple color palette dominated by white, with red used for emphasis."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 15.0,
+      "t_end": 37.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 35.0,
+          "image": "slide_3_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "illustrative layout with title",
+        "title_text": "Semantic localization: bringing intelligence to the physical world",
+        "layout_description": "The slide features a large, left-aligned title at the top in a black sans-serif font. The background is plain white. The central focus is a large cartoon robot character positioned in the middle. To the left of the robot is a framed photograph of a wooden cabinet with an open drawer; a red bounding box highlights the drawer knob, and a red arrow points from the robot toward this specific feature. The robot has a large speech bubble above it containing the text 'Find the drawer knob'. To the right of the robot, there are two smaller images: a pair of black smart glasses at the top and a computer monitor displaying design software below it. In the bottom right corner, there is a circular video inset showing the presenter. The slide has a light text density and uses a mix of illustrations and real-world photographs to explain a concept."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 37.0,
+      "t_end": 45.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 37.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and bullet points",
+        "title_text": "Open-world part segmentation in 3D",
+        "layout_description": "The slide uses a minimalist single-column layout on a plain white background. The main title is located at the top left, featuring a multi-colored font style where 'Open-world' is orange, 'part' is blue, and '3D' is purple. Below the title, a sub-header 'But:' introduces a list of challenges. There are two bullet points: the first states 'No large-scale data' followed by a red 'X' icon, and the second states 'Collecting human annotations for 3D is difficult' followed by a worried face emoji. The text is left-aligned, leaving a large amount of empty white space in the center and bottom of the slide. A circular video inset of the presenter is positioned in the bottom right corner. The text density is light, focusing on high-level motivation and problem statements."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "introduction",
+      "t_start": 45.0,
+      "t_end": 73.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 45.0,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and speaker inset",
+        "title_text": "Open-world part segmentation in 3D",
+        "layout_description": "The slide uses a simple single-column layout on a plain white background. The title is located at the top left and is distinctive for its multi-colored text: 'Open-world' is orange, 'part' is blue, 'segmentation in' is black, and '3D' is purple. Below the title, the content is structured as a short list introduced by the word 'But:'. There are two bullet points describing challenges: the first states 'No large-scale data' followed by a red 'X' mark, and the second states 'Collecting human annotations for 3D is difficult' followed by a worried face emoji. The text density is very light, leaving significant white space in the center and bottom. A circular video inset of the presenter is positioned in the bottom right corner of the frame."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 73.0,
+      "t_end": 75.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 73.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "How do we get large-scale annotated data?",
+        "layout_description": "The slide features a centered title at the top, placed inside a light blue rounded rectangular box. The main body of the slide is largely empty white space. On the left side, there is a small graphic of a snowman, with a text label directly below it that reads 'unlabeled, online 3D assets from Objaverse'. In the bottom right corner, there is a circular video inset of the presenter. The overall design is minimalist with very light text density, focusing on a central question regarding data acquisition."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 75.0,
+      "t_end": 96.0,
+      "num_builds": 5,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 75.0,
+          "image": "slide_7_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 80.0,
+          "image": "slide_7_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 82.0,
+          "image": "slide_7_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 86.0,
+          "image": "slide_7_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 88.0,
+          "image": "slide_7_build_4.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and flowchart",
+        "title_text": "How do we get large-scale annotated data?",
+        "layout_description": "The slide features a centered title at the top, enclosed within a light blue rounded rectangular box. The main body of the slide is occupied by a horizontal flowchart that details a data processing pipeline. On the far left, an unlabeled 3D snowman asset from Objaverse is shown. A blue arrow labeled 'multiview render' leads to two parallel rows of 2D snowman renders. These renders are overlaid with a grid of points, labeled 'gridpoint prompt', and then pass through green boxes labeled 'SAM'. The output of this stage is '2D masks', where specific parts of the snowman are highlighted in purple. These masks are then processed by yellow boxes labeled 'Gemini' with the instruction 'query part name'. A final arrow labeled 'unproject' leads to the rightmost section, which displays the resulting 3D annotated parts labeled with mathematical notation such as T(base) and T(snowball). A circular video inset of the presenter is located in the bottom right corner. The slide has a white background and moderate text density, primarily consisting of labels for the diagram's components."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "experiments",
+      "t_start": 96.0,
+      "t_end": 105.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 96.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and grid",
+        "title_text": "How do we get large-scale annotated data?",
+        "layout_description": "The slide features a centered title at the top, enclosed within a light blue rounded rectangle. Directly below the title is a prominent line of text providing dataset statistics: '2.1 million parts, 761 categories, >1500x # unique parts in existing datasets combined', with the '>1500x' highlighted in red. The main body of the slide is occupied by a large grid of 3D model visualizations. This grid is organized into rows where the leftmost image shows a complete object (e.g., a milkshake, hair dryer, chicken, machine gun) and subsequent images in the same row show individual parts of that object highlighted in bright purple. Each image in the grid has a small text label underneath it. A circular video inset of the presenter is positioned in the bottom right corner of the slide. The overall background is white, and the text density is moderate due to the numerous labels in the image grid."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "experiments",
+      "t_start": 105.0,
+      "t_end": 114.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 105.0,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title box and grid figure",
+        "title_text": "How do we get large-scale annotated data?",
+        "layout_description": "The slide follows a top-down single-column structure. At the top, the main title is centered within a light blue rounded rectangular box. Below this, a bold sub-heading provides key statistics about a dataset, with the text '>1500x' highlighted in red for emphasis. The central and largest portion of the slide is a dense grid of images showing 3D object models. These models are rendered in grey, with specific segments highlighted in purple to illustrate part-level annotations. Each small image has a corresponding text label directly underneath it. The grid is organized by object category (e.g., milkshake, hair dryer, tripod, chicken, etc.), showing the full object followed by its individual parts. In the bottom right corner, there is a circular video overlay of the presenter. The background is plain white, and the overall text density is moderate due to the numerous labels in the image grid."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 114.0,
+      "t_end": 120.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 114.0,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "Method",
+        "layout_description": "The slide has a clean, minimalist layout with a large, bold black title 'Method' at the top-left. The primary content is a single diagram contained within a light-gray rounded box, positioned on the left side of the slide below the title. This diagram depicts an 'inference' workflow: it starts with a grayscale snowman on the left, which passes through a yellow rectangular block labeled 'Find3D transformer', resulting in a colorful, point-cloud-like snowman on the right. Next to the output snowman is a yellow bar and a small mathematical expression 'f \u2208 R^d'. The majority of the slide is empty white space. A circular video inset of the presenter is visible in the bottom-right corner. The overall text density is very light, focusing on a single visual representation of the proposed method."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 120.0,
+      "t_end": 172.0,
+      "num_builds": 6,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 120.0,
+          "image": "slide_11_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 139.0,
+          "image": "slide_11_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 146.0,
+          "image": "slide_11_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 158.0,
+          "image": "slide_11_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 161.0,
+          "image": "slide_11_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 164.0,
+          "image": "slide_11_build_5.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "methodology diagram layout",
+        "title_text": "Method",
+        "layout_description": "The slide features a large, bold title 'Method' positioned at the top-left. The main body of the slide is dominated by a horizontal flowchart-style diagram. On the left, two primary components are stacked: a grey box labeled 'inference' showing a 'Find3D transformer' processing a 3D snowman model, and a pink box labeled 'Data Engine'. These components feed into a contrastive learning framework on the right. This framework shows pairs of snowman images with specific parts highlighted (like the base or hat) being mapped to corresponding feature vectors, represented by yellow and pink vertical bars. These are labeled as 'positive pair' and grouped together by a large bracket at the bottom labeled 'Contrastive loss'. Below this diagram, there is a list of three key features, each marked with a green checkmark icon: 'Simple model, simple training recipe', 'Handles ambiguity', and 'Scalable'. A circular video feed of the presenter is visible in the bottom-right corner of the slide."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "results",
+      "t_start": 172.0,
+      "t_end": 180.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 172.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "Title with left-aligned vertical grid",
+        "title_text": "Qualitative examples",
+        "layout_description": "The slide features a large, bold title 'Qualitative examples' positioned at the top-left. The primary content is organized into a vertical two-column table on the left side of the slide. The first column, titled 'Input', displays four rows of 3D object models (a street lamp, a fire hydrant, a garment sleeve, and a toy vehicle). The second column, titled 'Query', lists corresponding part names for each object, with each word highlighted in a different color (red, green, blue, or yellow). The right half of the slide is mostly empty white space, which accommodates a circular video overlay of the presenter in the bottom-right corner. The overall text density is light, focusing on visual examples and their associated labels."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "results",
+      "t_start": 180.0,
+      "t_end": 209.0,
+      "num_builds": 6,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 180.0,
+          "image": "slide_13_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 185.0,
+          "image": "slide_13_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 186.0,
+          "image": "slide_13_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 187.0,
+          "image": "slide_13_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 190.0,
+          "image": "slide_13_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 193.0,
+          "image": "slide_13_build_5.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison grid layout",
+        "title_text": "Qualitative examples",
+        "layout_description": "The slide features a large, bold title 'Qualitative examples' positioned at the top-left. The main content is organized into a complex grid comparing 3D object segmentation results across different methods. The layout is split into two main horizontal sections. The left section contains a table with six columns: 'Input' (raw 3D model), 'Query' (colored text labels for parts), and four columns for different algorithms ('OpenMask3D', 'PointCLIPV2', 'PartSLIP++', and 'Ours'). This section has four rows of examples. The right section is more compact, featuring three columns ('Input', 'Query', and 'Ours') for six additional examples. In the 'Query' columns, part names are written in specific colors that correspond to the segmented regions in the 3D visualizations. For the bottom two examples on the right, a small 'iPhone photo' label and a real-world photograph are included next to the 3D models. The background is plain white, and a circular video inset of the presenter is visible in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "results",
+      "t_start": 209.0,
+      "t_end": 210.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 209.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and chart",
+        "title_text": "Quantitative results",
+        "layout_description": "The slide has a minimalist layout with a large, bold title 'Quantitative results' at the top-left. The primary content is a bar chart titled 'ZeroShot mIoU' positioned on the left side. The chart features four orange bars representing different methods: 'Ours', 'PointCLIPV2', 'PartSLIP++', and 'OpenMask3D', with 'Ours' being the tallest. An orange vertical arrow to the left of the chart points upwards. Directly below the chart, the phrase '260% improvement' is written in red text. The right half of the slide is largely empty white space, and a circular video feed of the presenter is located in the bottom-right corner. The text density is light, emphasizing the graphical data representation."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "results",
+      "t_start": 210.0,
+      "t_end": 246.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 210.0,
+          "image": "slide_15_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 221.0,
+          "image": "slide_15_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column comparison layout",
+        "title_text": "Quantitative results",
+        "layout_description": "The slide features a large, bold title 'Quantitative results' positioned at the top-left. The main body is organized into two side-by-side columns, each containing a bar chart. The left column displays a chart titled 'ZeroShot mIoU' with orange bars comparing four models: 'Ours', 'PointCLIPV2', 'PartSLIP++', and 'OpenMask3D'. Below this chart, a red text label highlights a '260% improvement'. The right column contains a similar chart titled 'mIoU on ShapeNetPart-Rotated' with teal bars for the same four models. Below the right chart, there is a brief text explanation regarding the zero-shot nature of the model compared to PointCLIPV2, followed by a red label indicating a '176% improvement'. A circular video inset of the presenter is visible in the bottom-right corner. The background is plain white, and the text density is light, focusing on visual data comparison."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "results",
+      "t_start": 246.0,
+      "t_end": 255.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 246.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "Scaling analysis",
+        "layout_description": "The slide features a large, bold title 'Scaling analysis' positioned in the top-left corner. The main content is a large line graph centered on the slide. The graph's y-axis is labeled 'Zero-shot mIoU' and the x-axis is labeled 'Training Object Categories'. The graph shows a blue line connecting several data points represented by circles. One data point at the lower end of the scale is highlighted in red with a corresponding red text label 'N Categories = Existing Datasets Combined'. The final data point at the highest end of the scale is highlighted in green with a green text label 'N Categories = Ours'. In the bottom-right corner, there is a circular inset video of the presenter. The slide has a clean white background with light text density, focusing entirely on the scaling trend shown in the chart."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "results",
+      "t_start": 255.0,
+      "t_end": 271.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 255.0,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "Scaling analysis",
+        "layout_description": "The slide has a clean, minimalist layout with a large title 'Scaling analysis' positioned at the top-left. The main content is a large line chart centered below the title, occupying most of the slide's area. The chart plots 'Zero-shot mIoU' on the vertical axis against 'Training Object Categories' on the horizontal axis. The data is represented by blue circular markers connected by a line, showing a clear upward trend as the number of categories increases. Two specific data points are emphasized with color-coded labels: a red point at the lower end of the scale labeled 'N Categories = Existing Datasets Combined' and a green point at the highest end labeled 'N Categories = Ours'. The background is plain white with light gray grid lines on the chart. A circular video overlay of the presenter is located in the bottom-right corner. The text density is light, prioritizing the visual data analysis."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "experiments",
+      "t_start": 271.0,
+      "t_end": 279.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 271.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Evaluation \u2013 a new benchmark",
+        "layout_description": "The slide follows a two-column structure under a large, left-aligned title at the top. The left column is dedicated to a figure titled 'Objaverse-General,' which showcases several 3D point cloud models of diverse objects like a dragonfly, a playground set, a boat, a bird, and a teapot. These models are annotated with color-coded text labels identifying specific parts (e.g., 'wing', 'hull', 'handle'). Below this figure, a short text block summarizes the dataset as having '100 categories, general objects, hand-annotated.' The right column contains a radar chart (spider plot) that visualizes the distribution of these categories across various domains such as 'Tools/Toys,' 'Furniture,' and 'Transportation,' with percentage values marked on each axis. The overall text density is moderate, and the background is a clean white. A circular video inset of the presenter is visible in the bottom right corner."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "conclusion",
+      "t_start": 279.0,
+      "t_end": 285.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 279.0,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and video overlay",
+        "title_text": "Takeaways",
+        "layout_description": "The slide follows a simple single-column layout on a plain white background. The title 'Takeaways' is located at the top-left in a large, bold, black font. Below the title, there are two bullet points, each marked with a green square icon containing a white checkmark. These bullets highlight key lessons learned. In the middle-to-lower section of the slide, there is a centered block of text that describes a solution for 'open-world part segmentation in 3D'. This solution is presented as a linear process flow using arrows: 'Automatic data engine \u2192 scaleup \u2192 generalization!'. A circular video inset of the presenter is positioned in the bottom-right corner of the frame. The slide has a light text density, focusing on high-level summary points and a final takeaway message."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "conclusion",
+      "t_start": 285.0,
+      "t_end": 309.93,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 285.0,
+          "image": "slide_20_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Takeaways",
+        "layout_description": "The slide follows a minimalist single-column layout on a plain white background. The title 'Takeaways' is located at the top-left in a large, black, sans-serif font. Below the title, there are two bullet points marked with green checkmark icons: 'Bitter lesson' and 'Internet data is hitting a ceiling'. In the lower middle section of the slide, a summary statement is presented, followed by a centered flow-like sequence of text: 'Automatic data engine \u2192 scaleup \u2192 generalization!'. In the bottom-right corner, there is a circular inset containing a video feed of the presenter. The slide has a very light text density, focusing on high-level summary points and a logical progression of the proposed solution."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 272,
+    "gemini_layout_calls": 261,
+    "total_gemini_calls": 533,
+    "total_frames_sampled": 310,
+    "batch_size": 15
+  }
+}

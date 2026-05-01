@@ -1,0 +1,38 @@
+{
+    "paper_title": "IKEA Ego 3D Dataset: Understanding furniture assembly actions from ego-view 3D Point Clouds",
+    "authors": [
+        {
+            "name": "Yizhak Ben-Shabat",
+            "affiliation_id": 1
+        },
+        {
+            "name": "Jonathan Paul",
+            "affiliation_id": 2
+        },
+        {
+            "name": "Eviatar Segev",
+            "affiliation_id": 2
+        },
+        {
+            "name": "Oren Shrout",
+            "affiliation_id": 2
+        },
+        {
+            "name": "Stephen Gould",
+            "affiliation_id": 1
+        }
+    ],
+    "affiliations": [
+        {
+            "id": 1,
+            "name": "Australian National University",
+            "email_domain": "anu.edu.au"
+        },
+        {
+            "id": 2,
+            "name": "Technion, Israel Institute of Technology",
+            "email_domain": "gmail.com"
+        }
+    ],
+    "venue": "WACV 2023"
+}

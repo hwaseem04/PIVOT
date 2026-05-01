@@ -1,0 +1,85 @@
+{
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "Unique Dataset Challenges",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 4",
+            "caption": "Action occurrence distribution showing extreme class imbalance across the dataset."
+        },
+        "bullets": [
+            "Significant ego-view camera motion and sensor noise",
+            "Extreme class imbalance in action frequency and duration",
+            "Visual similarity of contextually distinct small components",
+            "Temporal ambiguity in fine-grained action boundaries"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "The ego-view perspective introduces significant camera motion and sensor noise",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.52,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "that must be distinguished from actual actions.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 7.04,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "We also face extreme class imbalance in action frequency and duration,",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 10.56,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "alongside the visual similarity of small components like screws.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 14.08,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "These factors, plus the temporal ambiguity of fine-grained assembly, make this a highly challenging benchmark.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 17.6
+}

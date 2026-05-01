@@ -1,0 +1,245 @@
+{
+  "papers": {
+    "ego3d": {
+      "pdf_path": "dataset/ego3d.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "category": "core_contribution",
+          "question": "How does the IKEA Ego 3D dataset specifically address the limitations of the previous IKEA ASM dataset regarding the scale of objects and action granularity?",
+          "answer": "The IKEA ASM dataset used a static Kinect sensor positioned at a distance, which made small fasteners indistinguishable (only 1\u20132 pixels) and required them to be pre-installed. In contrast, IKEA Ego 3D uses an ego-view (HoloLens 2) which, due to its proximity to the assembly, allows for the capture and labeling of fine-grained actions involving small components like screws and fasteners that were previously omitted.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 2,
+          "category": "core_contribution",
+          "question": "What is the purpose of the hierarchical verb-noun subdivision introduced in the dataset, and how does it assist in evaluating model performance?",
+          "answer": "The subdivision decouples spatio-temporal performance. Noun classes group objects with geometric similarities but temporal differences (testing spatial/geometric representation), while verb classes group actions with temporal similarities but geometric differences (testing the model's ability to capture motion and temporal semantics). This allows researchers to identify whether a model's weakness lies in its spatial understanding or its temporal representation.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 3,
+          "category": "methodology",
+          "question": "Describe the process and challenges of synchronizing the different data streams captured by the HoloLens 2 to create the final 3D point cloud sequences.",
+          "answer": "The HoloLens 2 captures depth at ~5 FPS and RGB at ~30 FPS. The streams are synced by matching RGB frames to the nearest depth time stamps. RGB is then projected onto the depth map to create RGB-D frames, from which oriented 3D point clouds are extracted. A significant challenge is that the RGB receptive field is smaller than the depth field, meaning not all points in the resulting cloud have corresponding color values.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 4,
+          "category": "methodology",
+          "question": "How did the researchers prepare the raw point cloud data to make it computationally manageable for training state-of-the-art action recognition models?",
+          "answer": "Because raw frames contain tens to hundreds of thousands of points, the researchers used Farthest Point Sampling (FPS) to downsample each frame to exactly 4096 points. They then subdivided the sequences into short, 32-frame clips and saved the data in a compact pickle format to allow for efficient loading of full clips during training.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 5,
+          "category": "experimental_results",
+          "question": "Based on the benchmark results, what was the impact of adding 'Temporal Smoothing' (TS) to per-frame architectures like PointNet++, and what does this suggest about the nature of the dataset?",
+          "answer": "Adding Temporal Smoothing (a learned convolutional layer over the temporal dimension) significantly boosted performance for all per-frame methods; for example, PointNet++ top-1 accuracy rose from 52.08 to 52.98 and macro recall improved. This suggests that temporal information is crucial for inferring actions in this dataset, as static geometric frames alone are insufficient to distinguish between complex assembly steps.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 6,
+          "category": "experimental_results",
+          "question": "Why did the 3DinAction method perform worse than PSTNet on this dataset, despite previously outperforming it on the IKEA ASM and DFAUST datasets?",
+          "answer": "The authors attribute this to the 't-patch' (temporal patch) construction used in 3DinAction. In IKEA Ego 3D, the ego-view introduces large camera motions from the user's head. These motions can cause temporal patches to collapse or become inconsistent, making it harder for the model to extract stable spatiotemporal representations compared to datasets with static cameras.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 7,
+          "category": "limitations",
+          "question": "What specific difficulties does the ego-view setup introduce regarding the interpretation of point motion within the sequences?",
+          "answer": "The ego-view introduces three distinct types of motion: action-related motion, noise-related motion, and camera-related (head) motion. Distinguishing between these is difficult because points are constantly appearing and disappearing within each frame due to the dynamic sensor, unlike static datasets where the camera remains fixed.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 8,
+          "category": "limitations",
+          "question": "How does the inherent nature of furniture assembly lead to class imbalance in the IKEA Ego 3D dataset?",
+          "answer": "Class imbalance arises because some actions are naturally longer or repeat more frequently. For example, 'spinning a leg' occurs four times per table and takes a long time, whereas 'spinning a drawer knob' is short and occurs once. Additionally, there are many 'NA' (unlabeled) frames representing transitions between distinct atomic actions, further skewing the distribution.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 9,
+          "category": "negative_traps",
+          "question": "Does the IKEA Ego 3D dataset provide a one-to-one correspondence of points across different frames in a sequence? Explain why or why not.",
+          "answer": "No, it does not. Unlike RGB videos where pixels have well-defined grid relationships, 3D point clouds in this dataset are unstructured and unordered. Because the sensor is moving and the number of points varies, there is no inherent one-to-one correspondence of points across time, which is one of the primary challenges the dataset presents to researchers.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 10,
+          "category": "negative_traps",
+          "question": "Is the IKEA Ego 3D dataset intended to be a human-centric dataset focusing on full-body skeletal motion like the NTU RGB+D datasets?",
+          "answer": "No. Unlike NTU RGB+D, which focuses on coarse, full-body daily actions, IKEA Ego 3D focuses on fine-grained, hand-object interactions from an ego-view. It contains very little of the surrounding environment or the full human body, making it specifically tailored for wearable-device scenarios rather than skeleton-based analysis.",
+          "difficulty": "medium"
+        }
+      ],
+      "num_questions": 10
+    },
+    "federated": {
+      "pdf_path": "dataset/federated.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "category": "core_contribution",
+          "question": "What specific 'double-blind' privacy constraints does the BlindFed framework aim to satisfy, and how do these constraints differ for the Learning Service Provider (LSP) versus the data owners?",
+          "answer": "The 'double-blind' constraint refers to protecting both model privacy and data privacy simultaneously. For the LSP (the server), the constraint is that data owners must not learn the parameters or architecture of the original Foundation Model (FM). For the data owners (the clients), the constraint is that the LSP must not see their sensitive local task data, and individual clients must not see each other's data. BlindFed achieves this by keeping the FM on the server while using Fully Homomorphic Encryption (FHE) to process client data.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 2,
+          "category": "core_contribution",
+          "question": "How does BlindFed's approach to model adaptation differ from standard Federated Learning (FedAvg) in terms of model ownership and distribution?",
+          "answer": "In standard FedAvg, the entire model is typically broadcast to all clients, who then perform local training and send updates back. In BlindFed, the core Foundation Model remains proprietary and is never shared with the clients. Instead, the framework uses a split-learning approach where the server handles the FM blocks and the clients only manage and update lightweight local parallel adapters and classification heads.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 3,
+          "category": "methodology",
+          "question": "Explain the necessity of the 'Offline Distillation' stage in the BlindFed framework and what specific architectural components are modified during this phase.",
+          "answer": "Offline distillation is necessary because standard Foundation Models contain non-linear operations (like GELU, Softmax, and LayerNorm) that are incompatible with the polynomial-only operations supported by FHE schemes like CKKS. During this stage, the LSP uses an auxiliary dataset to train an 'FHE-friendly' version of the FM where these non-linearities are replaced by low-degree polynomial approximations (e.g., quadratic functions for GELU and Taylor series for Softmax) while attempting to maintain the original model's performance.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 4,
+          "category": "methodology",
+          "question": "How does the 'Stochastic Block Sampling (SBS)' mechanism function to prevent model extraction attacks by clients?",
+          "answer": "SBS prevents a malicious client from observing the full sequence of intermediate representations, which could be used to reverse-engineer the FM blocks. The server only returns a subset of block outputs to the client and sets the rest to zero. To prevent similarity-based attacks, the sampling is structured so that consecutive blocks are never sampled together (if block l is sampled, l+1 is skipped), ensuring the client cannot easily map inputs to outputs for a single transformer block.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 5,
+          "category": "experimental_results",
+          "question": "Based on the results for CIFAR-10 and SVHN, how does BlindFed perform relative to 'Linear Probing' in scenarios with high data heterogeneity (e.g., Dirichlet alpha = 0.01)?",
+          "answer": "BlindFed significantly outperforms Linear Probing in highly heterogeneous settings. For example, on SVHN with alpha = 0.01, Linear Probing achieves an accuracy of only 0.3385, whereas BlindFed achieves 0.7431. This demonstrates that BlindFed's use of parallel adapters provides much more robust adaptation capabilities than simply training a final linear layer when data is non-IID.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 6,
+          "category": "experimental_results",
+          "question": "What do the experiments using the Fed-ISIC2019 dataset conclude about the requirement for the auxiliary dataset used in the distillation phase?",
+          "answer": "The experiments show that the auxiliary dataset does not need to be 'in-distribution' relative to the target task. Knowledge transfer from an out-of-distribution (OOD) dataset like Tiny-ImageNet was found to be effective for distilling the FHE-friendly FM, yielding performance (0.7127) comparable to using an in-distribution auxiliary dataset (0.7169). This suggests the LSP can use any large public dataset for the initial distillation.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 7,
+          "category": "limitations",
+          "question": "What are the primary computational and communication costs that make BlindFed challenging to implement for the LSP and the clients?",
+          "answer": "The LSP faces high computational complexity because it must perform inference on data encrypted with FHE, which is significantly slower than plaintext inference. The clients face a high communication overhead because they must exchange encrypted intermediate representations with the server after every transformer block in every federated learning round, rather than just exchanging model weights once per round.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 8,
+          "category": "limitations",
+          "question": "Under what specific conditions does the paper suggest that BlindFed's communication overhead becomes comparable to standard Federated Learning?",
+          "answer": "The communication overhead becomes comparable when the Foundation Model being adapted is extremely large (e.g., billions of parameters like ViT-Huge) and the local training datasets at the client sites are relatively small. In such cases, the cost of transmitting the massive model weights in standard FL can equal or exceed the cost of transmitting encrypted intermediate representations for a limited number of samples in BlindFed.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 9,
+          "category": "negative_traps",
+          "question": "Does the BlindFed framework require the data owners to perform backpropagation through the Foundation Model's backbone to update the adapters?",
+          "answer": "No. One of the key design choices in BlindFed is the use of parallel adapters (LoSA) and a split-learning approach. This allows the clients to update the adapter parameters using the intermediate representations provided by the server, eliminating the need for backpropagation through the frozen FM backbone, which would be computationally infeasible over encrypted data.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 10,
+          "category": "negative_traps",
+          "question": "Does the 'Sample-level Permutation' technique used in the online adaptation stage improve the final classification accuracy of the model?",
+          "answer": "No, the paper explicitly states that sample-level permutation does not have an impact on the accuracy of the adapted model. Its sole purpose is to boost model privacy by ensuring the client never sees corresponding pairs of inputs and outputs for a specific sample within a batch, thereby hindering model extraction attacks.",
+          "difficulty": "medium"
+        }
+      ],
+      "num_questions": 10
+    },
+    "greengard": {
+      "pdf_path": "dataset/greengard.pdf",
+      "questions": [
+        {
+          "id": 1,
+          "category": "core_contribution",
+          "question": "How does the Fast Multipole Method (FMM) differ from Particle-in-Cell (PIC) methods in terms of how they handle the computational domain and potential calculation?",
+          "answer": "PIC methods rely on a regular mesh to interpolate source density and use a 'fast Poisson solver' to obtain potential values, which can lose resolution and suffer from errors during numerical differentiation. In contrast, the FMM is 'gridless' in its evaluation (using the mesh only for spatial organization), employing multipole expansions to achieve high precision without numerical differentiation. Furthermore, FMM's performance does not degrade as significantly as PIC when dealing with highly nonuniform source distributions.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 2,
+          "category": "core_contribution",
+          "question": "What is the primary mathematical innovation that allows this algorithm to achieve O(N) complexity while maintaining high precision in an N-body problem?",
+          "answer": "The key innovation is the combination of a hierarchical tree structure with three specific translation operators: shifting the center of a multipole expansion, converting a multipole expansion into a local Taylor expansion, and shifting the center of a local expansion. These operators allow the algorithm to cluster particles and pass their collective far-field influence down the hierarchy, ensuring that each particle only performs a constant amount of work regardless of the total N.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 3,
+          "category": "methodology",
+          "question": "Explain the role of the 'Interaction List' in the downward pass of the algorithm and how it ensures efficiency.",
+          "answer": "For a given box at level l, the interaction list consists of boxes that are children of the nearest neighbors of the box's parent but are not themselves nearest neighbors of the current box. These boxes are 'well-separated,' meaning their potential can be accurately represented by converting their multipole expansions into a local expansion for the current box. This ensures that interactions are computed at the coarsest possible level where the well-separated condition holds, preventing redundant calculations at finer levels.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 4,
+          "category": "methodology",
+          "question": "How does the algorithm derive the force field from the potential without resorting to numerical differentiation?",
+          "answer": "The potential is represented analytically as a p-term polynomial (local expansion) or a multipole expansion. Because these are analytic functions, their derivatives can be calculated analytically. According to Lemma 2.1, if the potential is the real part of an analytic function w, the force field components are simply the real and negative imaginary parts of the derivative w'. This maintains the same error bounds as the potential calculation.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 5,
+          "category": "experimental_results",
+          "question": "Based on the numerical results in Table I, how does the scaling of the FMM compare to the direct O(N^2) method as the number of particles increases from 800 to 12,800?",
+          "answer": "The FMM demonstrates linear scaling; as N increases 16-fold (from 800 to 12,800), the CPU time increases from 3.8s to 60.9s (approximately 16x). In contrast, the direct method's time increases from 69s to an estimated 17,910s (approximately 260x). This confirms that for large N, the FMM is significantly more practical, being nearly 300 times faster at N=12,800.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 6,
+          "category": "experimental_results",
+          "question": "What was the observed relationship between the number of terms (p) in the expansions and the precision of the results in the authors' experiments?",
+          "answer": "The authors set p=20, which was chosen to guarantee approximately 5-digit accuracy (relative precision of 10^-5). The experimental results in Table I validated this choice, as the maximum relative error (d_alg) consistently remained in the 10^-5 to 10^-6 range across all tested particle counts, showing no evidence of accuracy degradation as N increased.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 7,
+          "category": "limitations",
+          "question": "Under what specific particle distribution scenario might the basic version of the algorithm show degraded performance, and how do the authors suggest addressing this?",
+          "answer": "The basic algorithm assumes a reasonably homogeneous distribution of particles. If the distribution is highly non-homogeneous (highly clustered), Step 6\u2014the direct calculation of interactions within a box and its nearest neighbors\u2014could become a computational bottleneck. The authors state that an 'adaptive version' of the algorithm, which refines the mesh only in regions where the particle density is high, is required to retain O(N) efficiency in such cases.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 8,
+          "category": "limitations",
+          "question": "What is the 'net charge' constraint for periodic boundary conditions, and how does the algorithm handle force calculations if this constraint is violated?",
+          "answer": "For the potential to be well-defined in a periodic system, there must be no net charge; otherwise, the logarithmic term in the expansion becomes unbounded as the distance goes to infinity. However, if the constraint is violated (e.g., in cosmological models), the algorithm can still calculate forces by using the derivatives of the expansions (which are pure inverse power series) rather than the potential expansions themselves, bypassing the logarithmic singularity.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 9,
+          "category": "negative_traps",
+          "question": "Does the algorithm achieve its speedup by truncating long-range interactions beyond a certain cutoff distance?",
+          "answer": "No. Unlike approximation methods that ignore interactions beyond a certain radius to save time, the FMM accounts for all pairwise interactions in the system. The speedup is achieved by grouping far-field interactions into multipole expansions and evaluating them collectively, rather than by truncating or omitting any interactions.",
+          "difficulty": "medium"
+        },
+        {
+          "id": 10,
+          "category": "negative_traps",
+          "question": "Is the hierarchical mesh used in the algorithm intended to serve as a grid for a finite-difference Poisson solver?",
+          "answer": "No. The mesh is used strictly as a spatial data structure to organize particles into clusters and to define 'well-separated' regions for the application of multipole and local expansions. The algorithm does not involve solving a partial differential equation on a grid; it remains a gridless method in terms of how the physics is evaluated.",
+          "difficulty": "medium"
+        }
+      ],
+      "num_questions": 10
+    }
+  },
+  "metadata": {
+    "difficulty": "medium",
+    "questions_per_paper": 10,
+    "total_papers": 3,
+    "total_questions": 30,
+    "category_distribution": {
+      "core_contribution": 2,
+      "methodology": 2,
+      "experimental_results": 2,
+      "limitations": 2,
+      "negative_traps": 2
+    }
+  }
+}

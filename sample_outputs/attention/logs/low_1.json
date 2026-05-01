@@ -1,0 +1,21 @@
+{
+    "title": "The Shift from Recurrence to Attention",
+    "subtitle": "Replacing Recurrence with Attention Mechanisms",
+    "audio_content": "Traditional RNNs are limited by sequential computation. The Transformer replaces recurrence with attention, enabling massive parallelization. This architecture achieves state-of-the-art translation quality while training in a fraction of the time.",
+    "duration_sec": 12.4,
+    "bullets": [
+        "RNNs are limited by sequential computation bottlenecks.",
+        "Transformers rely entirely on attention for global dependencies.",
+        "Architecture enables massive parallelization and faster training."
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 1",
+        "caption": "The Transformer model architecture"
+    },
+    "source": [
+        "Figure 1",
+        "Section 1"
+    ],
+    "prompt": "A slide showing the Transformer architecture diagram on the left and key points about the shift from recurrence to attention on the right."
+}

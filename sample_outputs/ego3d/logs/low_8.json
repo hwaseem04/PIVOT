@@ -1,0 +1,20 @@
+{
+    "title": "Noun and Verb Recognition Insights",
+    "audio_content": "Clustering actions into nouns and verbs shows that objects are easier to recognize than motions. Nouns rely on static geometry, while verbs require temporal sequences. This confirms that temporal modeling is the essential factor for distinguishing complex assembly actions.",
+    "duration_sec": 14.4,
+    "bullets": [
+        "Nouns are easily identified through static spatial geometry",
+        "Verbs are inherently harder, requiring temporal sequence accumulation",
+        "Temporal modeling is the critical driver for distinguishing assembly motions"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 5",
+        "caption": "Duration statistics for sequences and actions in the IKEA Ego 3D dataset"
+    },
+    "source": [
+        "Section 4.3",
+        "Figure 5"
+    ],
+    "prompt": "A slide with the title 'Noun and Verb Recognition Insights'. On the left, three bullet points explain that nouns are easier to recognize than verbs due to static geometry versus temporal sequences. On the right, Figure 5 from the paper shows the duration distributions of sequences and actions, providing context for the temporal complexity of assembly tasks."
+}

@@ -1,0 +1,32 @@
+{
+    "extracted_content": "The FHE-friendly architecture redesign transforms the original Foundation Model (FM) into a sequence of blocks $\\hat{B}_{\\hat{\\psi}_\\ell}$ that only utilize polynomial operations, as required by homomorphic encryption schemes like CKKS. The redesign focuses on three primary non-linearities: Softmax, GELU, and LayerNorm. Softmax is approximated by applying a Taylor series expansion to the exponential function, while the division operations necessary for both Softmax normalization and LayerNorm are implemented via Goldschmidt\u2019s algorithm, which replaces direct division with iterative multiplications. The final adapted model is structured as a composition $\\mathcal{M}_\\psi = (\\hat{\\mathcal{M}}_{\\hat{\\psi}} \\parallel A_\theta) \\circ H_\\eta$, where the approximated FM backbone runs in parallel with a lightweight adapter. This parallel configuration is a critical design choice; unlike sequential adapters (e.g., LoRA), it enables the client to perform local updates on the adapter and classification head using intermediate representations received from the server, completely bypassing the need for backpropagation through the massive, encrypted FM backbone.",
+    "key_figures": [
+        {
+            "ref": "Figure 4",
+            "caption": "Illustration of the parallel adapter design.",
+            "relevance": "This figure details how the parallel adapters ($g_1$ through $g_L$) are integrated with the transformer blocks, allowing for client-side training without backpropagating through the main model."
+        }
+    ],
+    "key_tables": [
+        {
+            "ref": "Table 5",
+            "caption": "Softmax approximation results.",
+            "relevance": "Demonstrates the trade-off between the polynomial degree ($d$) used in the Taylor approximation and the resulting model accuracy and computational latency."
+        }
+    ],
+    "key_equations": [
+        {
+            "ref": "Equation 3",
+            "content": "e^x = \\sum_{i=0}^{\\infty} \frac{x^i}{i!} \\approx \\sum_{i=0}^{d} \frac{x^i}{i!}",
+            "relevance": "The Taylor series approximation used to replace the exponential function in Softmax to make it FHE-compatible."
+        },
+        {
+            "ref": "Equation 5",
+            "content": "\frac{1}{x} = \frac{1}{1-(1-x)} = \\prod_{i=0}^{\\infty} (1 + (1-x)^{2^i}) \\approx \\prod_{i=0}^{d} (1 + (1-x)^{2^i})",
+            "relevance": "Goldschmidt\u2019s algorithm for approximating the inverse function, which is essential for performing division in LayerNorm and Softmax under FHE."
+        }
+    ],
+    "section_refs": [
+        "Section 4.1"
+    ]
+}

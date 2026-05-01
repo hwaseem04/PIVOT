@@ -1,0 +1,180 @@
+{
+    "scene_id": 9,
+    "title": "Model Variations and Generalization",
+    "summary": "Ablation studies showed that the number of attention heads and the size of the key/value dimensions are critical for performance. Furthermore, the Transformer demonstrated strong generalization capabilities by successfully performing English constituency parsing, even with limited training data.",
+    "paper_section": "Results",
+    "narrative_role": "results",
+    "asset_video": null,
+    "duration_stat": {
+        "min": 10.0,
+        "max": 15.0,
+        "avg": 12.0
+    },
+    "extracted_content": "Ablation studies on the Transformer architecture revealed that the number of attention heads and the dimensions of keys and values are critical for performance; while single-head attention is 0.9 BLEU worse than the best multi-head setting, quality also degrades if the number of heads is too high. Experiments showed that reducing the attention key size dk hurts model quality, suggesting that a more sophisticated compatibility function than simple dot product might be beneficial. Additionally, the model proved robust to the type of positional encoding, as sinusoidal and learned positional embeddings yielded nearly identical results. Beyond machine translation, the Transformer demonstrated strong generalization capabilities on English constituency parsing. Despite lacking task-specific tuning, a 4-layer Transformer outperformed the Berkeley Parser when trained only on the WSJ training set and achieved state-of-the-art results (92.7 F1) in a semi-supervised setting, surpassing most previously reported models.",
+    "layout": {
+        "template": "wide table with bullets below",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.95,
+                "h": 0.1
+            },
+            "ablation_table": {
+                "x": 0.05,
+                "y": 0.2,
+                "w": 0.9,
+                "h": 0.5
+            },
+            "results_bullets": {
+                "x": 0.05,
+                "y": 0.75,
+                "w": 0.9,
+                "h": 0.2
+            }
+        },
+        "spec": {
+            "version": 1,
+            "layout_type": "wide table with bullets below",
+            "layout_tags": [
+                "wide_table",
+                "results",
+                "ablation",
+                "generalization"
+            ],
+            "layout_signature": "T|TAB|B",
+            "background_color": "#FFFFFF",
+            "elements": [
+                {
+                    "id": "title",
+                    "type": "T",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.05,
+                        "w": 0.95,
+                        "h": 0.1
+                    },
+                    "content_ref": "elements.title",
+                    "style": {
+                        "font_size": 38,
+                        "bold": true,
+                        "align": "left"
+                    }
+                },
+                {
+                    "id": "ablation_table",
+                    "type": "TAB",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.2,
+                        "w": 0.9,
+                        "h": 0.5
+                    },
+                    "content_ref": "elements.figure",
+                    "constraints": {
+                        "keep_aspect": true
+                    }
+                },
+                {
+                    "id": "results_bullets",
+                    "type": "B",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.75,
+                        "w": 0.9,
+                        "h": 0.2
+                    },
+                    "content_ref": "elements.bullets",
+                    "style": {
+                        "font_size": 22,
+                        "min_font_size": 16
+                    }
+                }
+            ],
+            "global_constraints": {
+                "no_overlap": true,
+                "no_overflow": true,
+                "min_font_size": 14
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "Model Variations and Generalization",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Table 3",
+            "caption": "Ablation results for different Transformer architectural variations."
+        },
+        "bullets": [
+            "Attention head count and key dimensions are critical.",
+            "Robust to both sinusoidal and learned positional encodings.",
+            "Achieved state-of-the-art 92.7 F1 on English constituency parsing."
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "Ablation studies reveal that",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.7,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "attention head count and key dimensions are critical.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 7.4,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "The model is robust to positional encoding types, yielding identical results.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 11.1,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "Remarkably, the Transformer generalizes to English constituency parsing, achieving a state-of-the-art 92.7 F1 score.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 14.8,
+    "source": [
+        "Section 6.2",
+        "Section 6.3",
+        "Table 3",
+        "Table 4"
+    ],
+    "audio_content": "Ablation studies reveal that attention head count and key dimensions are critical. The model is robust to positional encoding types, yielding identical results. Remarkably, the Transformer generalizes to English constituency parsing, achieving a state-of-the-art 92.7 F1 score.",
+    "prompt": "A slide showing Table 3 from the paper, detailing ablation studies on the Transformer architecture, with bullet points below summarizing key findings on model variations and its generalization to parsing tasks."
+}

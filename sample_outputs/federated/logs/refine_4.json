@@ -1,0 +1,72 @@
+{
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "Two-Stage Split Learning Strategy",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 9",
+            "caption": "Layer-wise knowledge distillation between teacher and student models"
+        },
+        "bullets": [
+            "Offline distillation aligns FHE-friendly blocks with the original foundation model",
+            "Online adaptation enables private local training via block-by-block encrypted inference",
+            "Secure aggregation via MPC combines client updates without exposing local parameters"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "BlindFed uses a two-stage strategy to bridge the gap between models.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 4.6,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "First, offline distillation aligns the FHE-friendly student with the original teacher using auxiliary data.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 9.2,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "Then, online adaptation uses block-by-block encrypted inference for private local training.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 13.8,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "Finally, secure multi-party computation aggregates updates into a global model without exposing individual parameters.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 18.4
+}

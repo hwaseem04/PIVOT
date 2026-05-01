@@ -1,0 +1,34 @@
+{
+    "extracted_content": "The experimental setup utilizes a unified protocol for all baselines, involving Farthest Point Sampling (FPS) to reduce each frame to 4096 points and subdividing sequences into 32-frame clips for computational efficiency. Models are trained for 100 epochs using an Adam optimizer with an initial learning rate of $10^{-3}$ and a weighted random sampler to address the dataset's inherent class imbalance. Evaluation is conducted using standard metrics: top-1 and top-3 frame-wise accuracy, macro-recall, and mean average precision (mAP). The benchmark compares per-frame architectures (PointNet, PointNet++, Set Transformer) against their temporally smoothed counterparts (+TS) and specialized spatio-temporal methods (PSTNet, P4Transformer, 3DinAction). Results demonstrate that temporal smoothing provides a significant performance boost across all per-frame approaches. While PointNet++ with temporal smoothing achieves the highest top-1 accuracy (52.98%), PSTNet leads in mAP (0.4024). A secondary clustering experiment decouples spatial and temporal representation power by evaluating performance on 12 verb and 22 noun classes, revealing that verbs are inherently more difficult to recognize than nouns because they require the accumulation of sequence information.",
+    "key_figures": [
+        {
+            "ref": "Figure 1",
+            "caption": "Overview of the IKEA Ego 3D dataset. The dataset includes 174 assembly sequences captured using a Microsoft HoloLens 2. The captured RGB and Depth streams are labelled with 56 action labels per frame. The data is then aligned and synced to form 3D point cloud sequences that are the input to 3D action recognition algorithms.",
+            "relevance": "Illustrates the end-to-end data processing pipeline, from sensor capture to the synchronized 3D point cloud sequences that serve as the input for the benchmarked algorithms."
+        }
+    ],
+    "key_tables": [
+        {
+            "ref": "Table 2",
+            "caption": "Action recognition results on IKEA Ego 3D. Comparing between recent state-of-the-art approaches using frame accuracy (top1 and top3), macro recall and mAP metrics.",
+            "relevance": "The primary benchmark table showing the performance of various 3D action recognition methods on the new dataset."
+        },
+        {
+            "ref": "Table 3",
+            "caption": "Noun recognition results. We cluster the action classes by nouns and report the performance of state-of-the-art approaches. This experiment demonstrates the spatial quality of the methods (how well they capture objects).",
+            "relevance": "Evaluates the spatial representation capabilities of the models by measuring their ability to identify the assembly components (nouns)."
+        },
+        {
+            "ref": "Table 4",
+            "caption": "Verb recognition results. We cluster the action classes by verbs and report the performance of state-of-the-art approaches. This experiment demonstrates the temporal quality of the methods (how well they distinguish motions).",
+            "relevance": "Evaluates the temporal representation capabilities of the models by measuring their ability to distinguish different assembly motions (verbs)."
+        }
+    ],
+    "key_equations": [],
+    "section_refs": [
+        "Section 4. Benchmark and Experiments",
+        "Section 4.1 Experiment setup",
+        "Section 4.2 Benchmark results discussion",
+        "Section 4.3 Noun and Verb clustering experiment"
+    ]
+}

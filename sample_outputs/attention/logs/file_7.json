@@ -1,0 +1,231 @@
+{
+    "scene_id": 7,
+    "title": "Training Regime and Datasets",
+    "summary": "The models were trained on the WMT 2014 English-German and English-French datasets using 8 NVIDIA P100 GPUs. The training utilized the Adam optimizer with a custom learning rate schedule that includes a linear warmup followed by a decay proportional to the inverse square root of the step number.",
+    "paper_section": "Experiments",
+    "narrative_role": "experiments",
+    "asset_video": null,
+    "duration_stat": {
+        "min": 8.0,
+        "max": 12.0,
+        "avg": 10.0
+    },
+    "extracted_content": "The Transformer models were trained on the WMT 2014 English-German dataset, containing 4.5 million sentence pairs, and the English-French dataset, which consists of 36 million sentences. Training was conducted on a single machine equipped with 8 NVIDIA P100 GPUs. The base models were trained for 100,000 steps (approximately 12 hours), while the big models were trained for 300,000 steps (3.5 days). The authors utilized the Adam optimizer with a custom learning rate schedule that increases the rate linearly for the first 4,000 warmup steps and then decreases it proportionally to the inverse square root of the step number. Regularization techniques included residual dropout (rate of 0.1) applied to sub-layer outputs and embedding sums, as well as label smoothing (value of 0.1), which improves accuracy and BLEU scores by encouraging the model to be less certain in its predictions.",
+    "layout": {
+        "template": "wide table top, bullets and equation bottom",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.95,
+                "h": 0.05
+            },
+            "subtitle": {
+                "x": 0.05,
+                "y": 0.1,
+                "w": 0.95,
+                "h": 0.05
+            },
+            "table": {
+                "x": 0.05,
+                "y": 0.2,
+                "w": 0.9,
+                "h": 0.5
+            },
+            "bullets": {
+                "x": 0.05,
+                "y": 0.75,
+                "w": 0.5,
+                "h": 0.2
+            },
+            "equation": {
+                "x": 0.6,
+                "y": 0.75,
+                "w": 0.35,
+                "h": 0.2
+            }
+        },
+        "spec": {
+            "version": 1,
+            "layout_type": "wide table top, bullets and equation bottom",
+            "layout_tags": [
+                "training",
+                "hyperparameters",
+                "table_top",
+                "two_col_bottom"
+            ],
+            "layout_signature": "T|ST|TAB|B-EQ",
+            "background_color": "#FFFFFF",
+            "elements": [
+                {
+                    "id": "title",
+                    "type": "T",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.05,
+                        "w": 0.95,
+                        "h": 0.05
+                    },
+                    "content_ref": "elements.title",
+                    "style": {
+                        "font_size": 36,
+                        "bold": true,
+                        "align": "left"
+                    }
+                },
+                {
+                    "id": "subtitle",
+                    "type": "ST",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.1,
+                        "w": 0.95,
+                        "h": 0.05
+                    },
+                    "content_ref": "elements.subtitle",
+                    "style": {
+                        "font_size": 24,
+                        "align": "left"
+                    }
+                },
+                {
+                    "id": "table",
+                    "type": "TAB",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.2,
+                        "w": 0.9,
+                        "h": 0.5
+                    },
+                    "content_ref": "elements.figure",
+                    "constraints": {
+                        "keep_aspect": true
+                    }
+                },
+                {
+                    "id": "bullets",
+                    "type": "B",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.75,
+                        "w": 0.5,
+                        "h": 0.2
+                    },
+                    "content_ref": "elements.bullets",
+                    "style": {
+                        "font_size": 20,
+                        "min_font_size": 16
+                    }
+                },
+                {
+                    "id": "equation",
+                    "type": "EQ",
+                    "box": {
+                        "x": 0.6,
+                        "y": 0.75,
+                        "w": 0.35,
+                        "h": 0.2
+                    },
+                    "content_ref": "elements.equations"
+                }
+            ],
+            "global_constraints": {
+                "no_overlap": true,
+                "no_overflow": true,
+                "min_font_size": 14
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "Training Regime and Datasets",
+        "subtitle": "Efficient optimization on large-scale translation tasks",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Table 2",
+            "caption": "Training costs and BLEU scores for Transformer models."
+        },
+        "equations": [
+            "Eq. 3: \\mathrm{lrate} = d_{\\mathrm{model}}^{-0.5} \\cdot \\min(\\mathrm{step\\_num}^{-0.5}, \\mathrm{step\\_num} \\cdot \\mathrm{warmup\\_steps}^{-1.5})"
+        ],
+        "bullets": [
+            "Trained on WMT 2014 English-German and English-French datasets.",
+            "Utilized 8 NVIDIA P100 GPUs for parallel training.",
+            "Used residual dropout and label smoothing for regularization."
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "subtitle"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                },
+                {
+                    "type": "show",
+                    "target": "equation"
+                }
+            ],
+            "audio_segment": "We used the Adam optimizer with a custom learning rate schedule, as shown in the equation, to achieve the results in Table 2.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.0,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "Training was conducted on the standard WMT 2014 English-German and English-French datasets.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 6.0,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "We utilized eight NVIDIA P100 GPUs for parallel training to speed up the process.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 9.0,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "Finally, residual dropout and label smoothing provided the necessary regularization for better BLEU scores.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 12.0,
+    "source": [
+        "Section 5.1",
+        "Section 5.2",
+        "Section 5.3",
+        "Section 5.4",
+        "Table 2"
+    ],
+    "audio_content": "Training used WMT 2014 datasets on eight P100 GPUs. We used the Adam optimizer with a custom learning rate schedule. Dropout and label smoothing provided regularization for better BLEU scores.",
+    "prompt": "A slide showing Table 2 from the paper at the top, with training details in bullets on the bottom left and the learning rate equation on the bottom right."
+}

@@ -1,0 +1,72 @@
+{
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "Model Variations and Generalization",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Table 3",
+            "caption": "Ablation results for different Transformer architectural variations."
+        },
+        "bullets": [
+            "Attention head count and key dimensions are critical.",
+            "Robust to both sinusoidal and learned positional encodings.",
+            "Achieved state-of-the-art 92.7 F1 on English constituency parsing."
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "Ablation studies reveal that",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.7,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "attention head count and key dimensions are critical.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 7.4,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "The model is robust to positional encoding types, yielding identical results.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 11.1,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "Remarkably, the Transformer generalizes to English constituency parsing, achieving a state-of-the-art 92.7 F1 score.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 14.8
+}

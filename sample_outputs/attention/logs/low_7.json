@@ -1,0 +1,27 @@
+{
+    "title": "Training Regime and Datasets",
+    "subtitle": "Efficient optimization on large-scale translation tasks",
+    "audio_content": "Training used WMT 2014 datasets on eight P100 GPUs. We used the Adam optimizer with a custom learning rate schedule. Dropout and label smoothing provided regularization for better BLEU scores.",
+    "duration_sec": 12.0,
+    "bullets": [
+        "Trained on WMT 2014 English-German and English-French datasets.",
+        "Utilized 8 NVIDIA P100 GPUs for parallel training.",
+        "Used residual dropout and label smoothing for regularization."
+    ],
+    "equations": [
+        "Eq. 3: \\mathrm{lrate} = d_{\\mathrm{model}}^{-0.5} \\cdot \\min(\\mathrm{step\\_num}^{-0.5}, \\mathrm{step\\_num} \\cdot \\mathrm{warmup\\_steps}^{-1.5})"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Table 2",
+        "caption": "Training costs and BLEU scores for Transformer models."
+    },
+    "source": [
+        "Section 5.1",
+        "Section 5.2",
+        "Section 5.3",
+        "Section 5.4",
+        "Table 2"
+    ],
+    "prompt": "A slide showing Table 2 from the paper at the top, with training details in bullets on the bottom left and the learning rate equation on the bottom right."
+}

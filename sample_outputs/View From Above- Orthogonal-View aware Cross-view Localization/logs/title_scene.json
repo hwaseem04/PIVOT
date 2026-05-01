@@ -1,0 +1,88 @@
+{
+    "scene_id": 0,
+    "title": "View From Above: Orthogonal-View aware Cross-view Localization",
+    "summary": "Title page for: View From Above: Orthogonal-View aware Cross-view Localization",
+    "paper_section": "Title",
+    "narrative_role": "title",
+    "time_allocation_sec": 5,
+    "style": "Slides",
+    "layout": {
+        "template": "title_page",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "conference_logo": {
+                "x": 0.8,
+                "y": 0.05,
+                "w": 0.15,
+                "h": 0.1
+            },
+            "affiliation_logos": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.35,
+                "h": 0.1
+            },
+            "title": {
+                "x": 0.1,
+                "y": 0.25,
+                "w": 0.8,
+                "h": 0.2
+            },
+            "authors": {
+                "x": 0.1,
+                "y": 0.5,
+                "w": 0.8,
+                "h": 0.15
+            },
+            "affiliations": {
+                "x": 0.1,
+                "y": 0.68,
+                "w": 0.8,
+                "h": 0.1
+            },
+            "venue": {
+                "x": 0.3,
+                "y": 0.85,
+                "w": 0.4,
+                "h": 0.06
+            }
+        }
+    },
+    "elements": {
+        "title": "View From Above: Orthogonal-View aware Cross-view Localization",
+        "authors": "Shan Wang\u00b9, Chuong Nguyen\u00b9, Jiawei Liu\u00b2, Yanhao Zhang\u00b2, Sundaram Muthu\u00b9, Fahira Afzal Maken\u00b9, Kaihao Zhang\u00b2, Hongdong Li\u00b2",
+        "affiliations": "\u00b9Data61, CSIRO  \u00b2Australian National University",
+        "venue": "CVPR 2024",
+        "conference_logo": {
+            "type": "logo",
+            "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/dataset/asset_testing/View From Above- Orthogonal-View aware Cross-view Localization assets/figure3.png"
+        },
+        "affiliation_logos": [
+            {
+                "type": "logo",
+                "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/dataset/asset_testing/View From Above- Orthogonal-View aware Cross-view Localization assets/figure2.png"
+            },
+            {
+                "type": "logo",
+                "path": "/Users/hwaseem04/Desktop/_MBZUAI/research/Paper2VideoV2/dataset/asset_testing/View From Above- Orthogonal-View aware Cross-view Localization assets/figure.png"
+            }
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "all"
+                }
+            ],
+            "audio_segment": "This paper, titled View From Above: Orthogonal-View aware Cross-view Localization, is by Shan Wang and colleagues. Presented at CVPR 2024."
+        }
+    ],
+    "expected_build_steps": 1,
+    "time_cost": "5",
+    "audio_content": "This paper, titled View From Above: Orthogonal-View aware Cross-view Localization, is by Shan Wang and colleagues. Presented at CVPR 2024.",
+    "prompt": "Title page showing paper title, authors, and logos for: View From Above: Orthogonal-View aware Cross-view Localization"
+}

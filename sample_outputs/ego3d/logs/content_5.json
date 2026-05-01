@@ -1,0 +1,21 @@
+{
+    "extracted_content": "The IKEA Ego 3D dataset introduces several unique challenges at both the data and class levels. A primary difficulty is the ego-view perspective, which incorporates significant camera motion that must be distinguished from action-related motion and sensor noise. This is further complicated by the visual similarity of small components; for example, screws of different lengths are contextually distinct but visually nearly identical in 3D point clouds. Additionally, the dataset exhibits extreme class imbalance caused by two factors: the frequency of repetitions (e.g., 'spin leg' occurs multiple times per assembly) and the high variance in action durations (e.g., 'spin leg' is significantly longer than 'spin drawer knob'). Finally, the fine-grained nature of furniture assembly creates temporal ambiguity, making it difficult to define precise start and end boundaries for specific actions.",
+    "key_figures": [
+        {
+            "ref": "Figure 4",
+            "caption": "IKEA Ego 3D dataset action occurrence. A highly imbalanced dataset provides a challenge for learning-based algorithms. Note the y-axis is log scaled, therefore a small gap in this axis reflects a significant gap in proportions.",
+            "relevance": "Provides quantitative evidence of the extreme class imbalance mentioned as a core dataset challenge."
+        },
+        {
+            "ref": "Figure 5",
+            "caption": "Duration statistics. Sequence (a) and action (b) duration distributions in the IKEA Ego 3D dataset.",
+            "relevance": "Illustrates the high variance in action durations, which contributes to the dataset's inherent imbalance and complexity."
+        }
+    ],
+    "key_tables": [],
+    "key_equations": [],
+    "section_refs": [
+        "Section 3.3",
+        "Section 3.5"
+    ]
+}

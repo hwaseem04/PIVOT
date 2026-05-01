@@ -1,0 +1,85 @@
+{
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "Data Collection and Processing Pipeline",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 1",
+            "caption": "Overview of the IKEA Ego 3D dataset capture and processing pipeline"
+        },
+        "bullets": [
+            "HoloLens 2 setup with depth and RGB sensors",
+            "Holographic guidance for sensor frustum alignment",
+            "Multi-rate stream synchronization and RGB-D projection",
+            "Oriented point clouds with spatial, color, and normal data"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "Using HoloLens 2, we capture depth and RGB streams",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.04,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "guided by a holographic alignment frame.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 6.08,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "The pipeline syncs these multi-rate sensors",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 9.12,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "to generate oriented 3D point clouds.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 12.16,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "Each point includes spatial coordinates, RGB color, and surface normals.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 15.2
+}

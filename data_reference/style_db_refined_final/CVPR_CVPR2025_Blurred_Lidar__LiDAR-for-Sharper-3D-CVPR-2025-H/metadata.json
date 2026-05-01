@@ -1,0 +1,531 @@
+{
+  "video_id": "CVPR_CVPR2025_Blurred Lidar__LiDAR-for-Sharper-3D-CVPR-2025-H",
+  "duration": 524.93,
+  "fps_sampled": 1.0,
+  "total_slides": 26,
+  "slides_with_builds": 3,
+  "total_build_steps": 30,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 9.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide with summary figure",
+        "title_text": "Blurred LiDAR for Sharper 3D",
+        "layout_description": "The slide uses a dark blue-to-purple gradient background. At the top-left, there is a large, bold white title, followed by a white subtitle and a yellow highlight line identifying the paper as a CVPR 2025 Highlight Paper. The main body of the slide consists of a horizontal sequence of five labeled panels (a-e) that visualize the research workflow. Panel (a) illustrates the 'Capture' process with Diffuse LiDAR and RGB camera inputs. Panel (b) shows a 'Challenging Scene' with callout labels for attributes like 'Low light' and 'Textureless'. Panel (c) presents 'Our Outputs' including novel views and depth maps. Panel (d) displays a 'Reconstructed Mesh' of the scene. Panel (e) provides a 'Mesh Comparison' grid comparing the proposed method against Ground Truth, Sparse LiDAR, and RGB-only approaches. The bottom-left corner lists the authors' names in white text, while the bottom-right corner contains institutional logos for MIT and another entity."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 9.0,
+      "t_end": 15.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 9.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with bullet points and diagram",
+        "title_text": "LiDAR is widely used with RGB for 3D reconstruction and scanning",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold title at the top left, accompanied by a small camera/projector icon. Below the title, two bullet points provide context on 3D reconstruction challenges and the benefits of LiDAR. The bottom half of the slide is dominated by a flow diagram. On the left, two gray boxes are stacked vertically: the top box shows an 'RGB Camera' setup with a vase, and the bottom box shows a 'Sparse LiDAR' setup with a corresponding photon-time graph. These two boxes are joined by a plus sign. A large gray arrow points from this combined input toward the right side of the slide, where three stylized icons represent application domains: a handheld device ('Handheld'), a robotic arm ('Robotics'), and a person in a headset ('VR'). The background is white with a subtle blue and purple wavy gradient at the bottom."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 15.0,
+      "t_end": 72.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "LiDAR is widely used with RGB for 3D reconstruction and scanning",
+        "layout_description": "The slide follows a top-down structure starting with a bold, large title at the top-left, accompanied by a small camera-like icon. Below the title, there are two bullet points providing context on 3D reconstruction. The lower half of the slide is dominated by a flow diagram. On the left, two gray-bordered boxes are stacked vertically: the top box labeled 'RGB Camera' shows a camera icon and a 3D vase model; the bottom box labeled 'Sparse LiDAR' shows a photon-time graph and a diagram of a laser scanning a vase. These two boxes are joined by a plus sign. A large gray arrow points from this combination to the right side of the slide, where three line-art icons are arranged: a smartphone for 'Handheld', a robotic arm for 'Robotics', and a person in a headset for 'VR'. The background is white with a subtle blue-toned wavy graphic at the bottom edge."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 72.0,
+      "t_end": 75.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 72.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and multi-part figure",
+        "title_text": "In this work, we propose using RGB with an alternate, Diffuse LiDAR, for robust 3D reconstruction in challenging low-texture, low-light, low-albedo scenes",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold title that spans the width of the page, featuring a purple color accent on the key term 'Diffuse LiDAR'. A small circular icon is located to the left of the title. The main body of the slide is occupied by a large horizontal figure divided into five sub-panels labeled (a) through (e). Panel (a) on the left shows the 'Capture' setup with diagrams for LiDAR and RGB sensors. Panel (b) displays a 'Challenging Scene' with text labels pointing to specific visual properties like 'Low light' and 'Textureless'. A central arrow labeled 'Our method' connects the input scene to panel (c), which shows 'Our Outputs' (novel views and depth maps). Panel (d) presents a 'Reconstructed Mesh' of the scene. Panel (e) on the far right provides a 'Mesh Comparison' between four different methods, with the proposed method highlighted by a purple border. The background is plain white with a subtle blue and purple wavy graphic at the bottom edge."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "method",
+      "t_start": 75.0,
+      "t_end": 92.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 75.0,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and large multi-part figure",
+        "title_text": "In this work, we propose using RGB with an alternate, Diffuse LiDAR, for robust 3D reconstruction in challenging low-texture, low-light, low-albedo scenes",
+        "layout_description": "The slide features a large, bold, left-aligned title at the top, with the phrase 'Diffuse LiDAR' highlighted in purple. A small circular icon is positioned to the left of the title. The main content consists of a large horizontal figure divided into five sub-sections labeled (a) through (e), arranged from left to right. Section (a) 'Capture' shows diagrams of the Diffuse LiDAR and RGB Camera setup. Section (b) 'Challenging Scene' displays a photograph of a scene with callout labels for 'Low light', 'Textureless', 'Low albedo', and 'High-texture'. A central arrow labeled 'Our method 20 views' connects the scene to section (c) 'Our Outputs', which shows novel views and estimated depth maps. Section (d) 'Reconstructed Mesh' shows a 3D model of the scene with blue lines pointing to specific details. Section (e) 'Mesh Comparison' provides a grid of close-up mesh crops comparing Ground Truth (GT), the proposed method (Ours), Sparse LiDAR, and RGB. The slide has a clean white background with a decorative light blue and purple wavy graphic at the bottom."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "introduction",
+      "t_start": 92.0,
+      "t_end": 105.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 92.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with bullets and two-column images",
+        "title_text": "Diffuse LiDAR emits a diffuse flash, measuring returns with large pixel IFOV",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold title at the top left, accompanied by a small decorative geometric icon. Directly below the title are two bullet points that provide context on the technology's use and cost. The lower section of the slide is organized into two side-by-side visual components. On the left, there is a photograph of a physical 'TMF8828 LiDAR' sensor. On the right, a detailed diagram labeled 'Diffuse LiDAR' illustrates the sensor's operation; it includes a line graph of photon returns over time and a 3D schematic showing diffuse illumination hitting a vase through a wide IFOV grid. The overall background is white, accented by a subtle blue and purple wavy gradient at the bottom."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "introduction",
+      "t_start": 105.0,
+      "t_end": 124.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 105.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and two-column figure layout",
+        "title_text": "Diffuse LiDAR emits a diffuse flash, measuring returns with large pixel IFOV",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold title at the top left, accompanied by a small decorative cone-shaped icon. Directly below the title are two bullet points providing descriptive text about the technology. The lower portion of the slide is organized into two side-by-side visual components. The left component features a photograph of a physical 'TMF8828 LiDAR' sensor. The right component is a detailed diagram labeled 'Diffuse LiDAR' within a light green header. This diagram includes a line graph showing photon returns over time, a 3D illustration of a sensor emitting light rays (labeled 'Diffuse illum.'), and a vase object being measured through a 'Wide IFOV' grid. The overall background is white, accented by a subtle blue and purple wavy gradient at the bottom of the slide. The text density is light, focusing on visual explanations."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 124.0,
+      "t_end": 135.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 124.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Key Insight 1: Diffuse LiDAR improves spatial coverage over sparse LiDAR",
+        "layout_description": "The slide uses a two-column comparison layout to contrast two types of LiDAR technology. At the top, a bold title is left-aligned and accompanied by a lightbulb icon. The main content is divided into two side-by-side panels: 'Sparse LiDAR' on the left (marked with a pink icon) and 'Diffuse LiDAR' on the right (marked with a green icon). Each panel contains a vertical stack of three visual elements: a 3D diagram showing a sensor scanning a vase, a small line graph of photon counts over time, and a 2D cross-section diagram of a sensor scanning a wavy surface. The 'Sparse LiDAR' side uses thin red lines to represent narrow laser beams, while the 'Diffuse LiDAR' side uses wide green and purple shaded cones to represent diffuse illumination and a wide instantaneous field of view (IFOV). Below each panel, summary text with arrows highlights the trade-offs: the left side shows decreased spatial coverage and decreased depth ambiguity, while the right side shows increased spatial coverage and increased depth ambiguity. The background is clean white with a decorative light blue and purple wave pattern at the bottom."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 135.0,
+      "t_end": 175.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 135.0,
+          "image": "slide_9_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 151.0,
+          "image": "slide_9_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Key Insight 1: Diffuse LiDAR improves spatial coverage over sparse LiDAR",
+        "layout_description": "The slide uses a side-by-side comparison layout to contrast two LiDAR techniques. A bold title with a lightbulb icon is positioned at the top left. The main content is divided into two columns: 'Sparse LiDAR' on the left and 'Diffuse LiDAR' on the right. Each column contains a vertical stack of three visual elements: a line graph showing 'Photons' vs. 'time', a 3D illustration of a vase being scanned by light, and a 2D schematic showing light rays hitting a curved surface. In the right column, the line graph (showing two peaks) is highlighted with a purple circle, which is connected by a purple line to a text block on the far right explaining 'spatially mixed signals'. At the bottom of each column, summary text with arrows indicates the impact on 'Spatial coverage' and 'Depth ambiguity'. The slide has a clean white background with a subtle blue and purple wavy graphic at the bottom."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 175.0,
+      "t_end": 180.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 175.0,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with diagrams",
+        "title_text": "Key Insight 2: Spatial ambiguity of diffuse LiDAR can be resolved with RGB",
+        "layout_description": "The slide uses a clean, modern layout with a bold title at the top left, accompanied by a lightbulb icon. Below the title, two bullet points provide high-level context. The lower half of the slide is split into two main visual components. On the left, a vertical flow diagram labeled 'Capture' shows a Diffuse LiDAR sensor and its photon histogram at the top, which is combined (indicated by a plus sign) with an RGB Camera at the bottom. On the right, a comparison table contrasts 'Diffuse LiDAR' and 'RGB' across four rows: Spatial resolution, Depth resolution, Scene robustness, and Color Information. The table uses light purple background highlights to emphasize specific characteristics (e.g., 'Metric' depth for LiDAR and 'Dense' spatial resolution for RGB). The background is white with a subtle blue and purple wavy graphic at the bottom. The text density is moderate, effectively using visual aids to explain a technical concept."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 180.0,
+      "t_end": 205.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 180.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison and diagram layout",
+        "title_text": "Key Insight 2: Spatial ambiguity of diffuse LiDAR can be resolved with RGB",
+        "layout_description": "The slide features a bold title at the top left, preceded by a lightbulb icon. Below the title, there are two bullet points summarizing the core message. The main content area is split into two parts: a vertical diagram on the left and a comparison table on the right. The left diagram, titled 'Capture', shows two stacked boxes connected by a plus sign; the top box illustrates 'Diffuse LiDAR' with a photon histogram and a 3D scene, while the bottom box shows an 'RGB Camera' with a corresponding 2D image. To the right, a comparison table contrasts 'Diffuse LiDAR' and 'RGB' across four criteria: Spatial resolution, Depth resolution, Scene robustness, and Color Information. Key strengths in the table are highlighted with light purple backgrounds. The overall background is white with a subtle blue and purple wavy gradient at the bottom, maintaining a moderate text density."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "method",
+      "t_start": 205.0,
+      "t_end": 210.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 205.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "Title with left-aligned content block",
+        "title_text": "We leverage RGB & diffuse LiDAR in an analysis-by-synthesis reconstruction",
+        "layout_description": "The slide features a bold, black title at the top left, accompanied by a small 3D cube icon to its left. The content is organized into a single vertical block on the left side of the slide, while the right side remains empty. This left-aligned block is contained within a light green rounded rectangle labeled '(a) Inputs'. Inside this container, there are two sub-elements: a 'Histogram' plot at the top showing two sharp peaks on a time axis, and an 'RGB Image' at the bottom showing a cereal box and a white circular object on a wooden floor. A thin black line connects a small square selection on the white object in the image to the histogram above it, indicating that the data represents that specific region. The overall background is white with a decorative light blue and purple wavy gradient at the bottom. The text density is light."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "method",
+      "t_start": 210.0,
+      "t_end": 291.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 210.0,
+          "image": "slide_13_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 223.0,
+          "image": "slide_13_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "We leverage RGB & diffuse LiDAR in an analysis-by-synthesis reconstruction",
+        "layout_description": "The slide features a large, bold, left-aligned title at the top, accompanied by a small cube icon. The content is organized into two main sections. On the left, section '(a) Inputs' is enclosed in a light green vertical box and contains a line graph labeled 'Histogram' and a photograph labeled 'RGB Image'. On the right, section '(b) Analysis-by-synthesis Reconstruction' is set against a light grey background and occupies most of the slide. This section displays a large 3D point cloud visualization titled 'Representation with Gaussian Surfels'. Within this 3D scene, there are illustrative elements like colored rays, a legend for 'IFOV' and 'Histogram', and a small inset diagram at the bottom explaining 'Surfel-ray intersection' and 'Alpha-weighted differentiable binning'. Black arrows connect the input data from the left column to the reconstruction process on the right. The overall background is white with a decorative light blue wavy pattern at the bottom."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "method",
+      "t_start": 291.0,
+      "t_end": 300.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 291.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Diffuse LiDAR requires a new supervision strategy\u2014for this, we propose a scene-adaptive loss function to balance RGB and diffuse LiDAR signal",
+        "layout_description": "The slide uses a two-column layout with a prominent, bold title at the top, accompanied by a small balance scale icon on the far left. The left column is dedicated to mathematical definitions, organized into three sections with bold subheadings: 'Scene-adaptive Weight', 'Photometric Loss', and 'Transient Loss'. Each section contains centered LaTeX-style equations. The right column features a schematic diagram titled 'Scene Adaptive Loss' contained within a light green bordered box. This diagram includes an 'Input RGB' photograph and a 'Texture weight' grayscale map, both with red boxes highlighting specific areas. These inputs flow into a central circular node containing a sigmoid curve, which then points down to the 'Final Loss' label. The background is white with a decorative light blue gradient wave at the bottom. The text density is moderate, effectively balancing technical formulas with a visual flowchart."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "method",
+      "t_start": 300.0,
+      "t_end": 338.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 300.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Diffuse LiDAR requires a new supervision strategy\u2014for this, we propose a scene-adaptive loss function to balance RGB and diffuse LiDAR signal",
+        "layout_description": "The slide uses a two-column layout with a prominent bold title at the top, accompanied by a small balance scale icon on its left. The left column is dedicated to mathematical formulations, organized into three sections with bold subheadings: 'Scene-adaptive Weight', 'Photometric Loss', and 'Transient Loss'. Each section contains one or more complex equations. The right column features a schematic diagram titled 'Scene Adaptive Loss' enclosed in a light green box. This diagram uses a flowchart style to show how 'Input RGB', 'Texture weight', and 'SNR weight' are combined through a sigmoid-like function to produce the 'Final Loss'. The background is white with a decorative blue wavy pattern at the bottom. The text density is moderate, effectively balancing technical equations with a visual representation of the process."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "experiments",
+      "t_start": 338.0,
+      "t_end": 345.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 338.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and numbered list",
+        "title_text": "We evaluate the proposed RGB and diffuse LiDAR technique in three ways",
+        "layout_description": "The slide follows a clean, single-column layout with a light text density. At the top-left, a bold black title is preceded by a small black medal icon. Below the title, the main content is organized as a numbered list with three items, all left-aligned and set in a standard sans-serif font. The items describe different evaluation methods: recoverability analysis, quantitative empirical evaluations, and qualitative real-world experiments. The background is mostly white, featuring a decorative wavy gradient in shades of light blue and purple along the bottom edge. There are no figures, tables, or equations on the slide, resulting in a high amount of negative space."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "experiments",
+      "t_start": 345.0,
+      "t_end": 359.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 345.0,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and numbered list",
+        "title_text": "We evaluate the proposed RGB and diffuse LiDAR technique in three ways",
+        "layout_description": "The slide features a clean, minimalist layout with a white background and a subtle light blue and purple wavy gradient at the bottom. The title is located at the top left, rendered in a bold black font and preceded by a small black medal or ribbon icon. Below the title, the main content consists of a simple numbered list with three items, aligned to the left margin. The text for the list items is in a dark gray color, creating a clear hierarchy with the bold title. The slide has a very light text density, leaving a large amount of empty white space in the center and lower portions of the frame."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "results",
+      "t_start": 359.0,
+      "t_end": 360.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 359.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and large figure",
+        "title_text": "Recoverability analysis demonstrates that diffuse LiDAR can improve spatial coverage, and thus scene recoverability, on limited input views",
+        "layout_description": "The slide features a large, bold title at the top-left, accompanied by a small black zigzag icon to its left. The main content consists of a large composite figure centered below the title. On the left side of the figure, two small grid diagrams illustrate the difference between 'Diffuse LiDAR' (top, showing a wider purple footprint) and 'Sparse LiDAR' (bottom, showing a narrow red line). These diagrams are linked to a large line graph that occupies the central and right portions of the slide. The graph plots 'Rank (Recoverability)' on the y-axis against the 'Number of Single-Pixel Views' on the x-axis. It compares two data series: a blue line for 'Diffuse LiDAR' and a red line for 'Sparse LiDAR', with a light blue shaded region between them representing the performance gain. Text annotations with arrows highlight the 'Improvement in recoverability with diffuse LiDAR' and define two regions: one where 'Diffuse LiDAR is beneficial' and another, marked by a vertical dashed purple line, where 'Sparse Lidar is sufficient'. The background is clean white with a decorative light blue wavy pattern at the bottom."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "results",
+      "t_start": 360.0,
+      "t_end": 394.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 360.0,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and large figure",
+        "title_text": "Recoverability analysis demonstrates that diffuse LiDAR can improve spatial coverage, and thus scene recoverability, on limited input views",
+        "layout_description": "The slide features a large, bold title at the top-left, accompanied by a small black zigzag icon. The central content is a large line graph comparing two LiDAR methods. The graph's y-axis is labeled 'Rank (Recoverability)' and the x-axis is 'Number of Single-Pixel Views'. A blue line represents 'Diffuse LiDAR' and a red line represents 'Sparse LiDAR', with the area between them shaded in light blue. To the left of the main graph, two small grid diagrams illustrate the spatial coverage of each method: a wide purple diagonal band for diffuse and a thin red diagonal line for sparse. Several text annotations and arrows are placed directly on the graph to explain the findings, such as 'Improvement in recoverability with diffuse LiDAR' and 'Sparse Lidar is sufficient'. The background is white with a subtle, decorative blue and purple wavy gradient at the bottom. The text density is light, prioritizing visual data over bulleted text."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "results",
+      "t_start": 394.0,
+      "t_end": 401.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 394.0,
+          "image": "slide_20_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Quantitative evaluation demonstrates that RGB & diffuse LiDAR enables robust reconstruction in low and no-texture scenes",
+        "layout_description": "The slide features a large, bold title positioned at the top left, accompanied by a small black bar chart icon to its left. The main body of the slide is organized into a horizontal row of four comparison panels. Each panel consists of a label at the top with a small circular icon, followed by a square image container below. The labels from left to right are 'Full Texture', 'Textured Object', 'Textured Plane', and 'No Texture'. The images illustrate these concepts: the first shows a hotdog on a plate over a wooden surface; the second isolates the hotdog and plate on a white background; the third shows the wooden surface with a white cutout; and the fourth is a completely blank white square. The overall background is white, accented by a light blue and purple wavy gradient at the bottom. The text density is light, emphasizing the visual progression of texture removal."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "results",
+      "t_start": 401.0,
+      "t_end": 405.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 401.0,
+          "image": "slide_21_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid comparison layout",
+        "title_text": "Quantitative evaluation demonstrates that RGB & diffuse LiDAR enables robust reconstruction in low and no-texture scenes",
+        "layout_description": "The slide features a large, bold title at the top left, accompanied by a small bar chart icon. The main body is organized into a complex grid of qualitative comparison images divided into five distinct sections labeled (a) through (e). Section (a) on the far left presents a vertical column of four image pairs comparing 'Ground Truth' to 'Ours' under 'Full Texture' conditions. The central portion of the slide contains sections (b), (c), and (d) arranged in horizontal rows, with columns showing results for 'Ground Truth', 'Ours', 'Surfels', 'Monocular Depth', and 'Sparse LiDAR'. These rows correspond to 'Textured Object', 'Textured Plane', and 'No Texture' scenarios. Section (e) on the far right shows a vertical column comparing 'Input RGB' with 'Ours (Color-3D Mesh)'. Each section is accompanied by a descriptive caption at the bottom explaining the visual findings. The background is white with a subtle light blue wavy graphic at the bottom. The text density is moderate, focusing on labels and brief explanatory captions for the numerous image thumbnails."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "results",
+      "t_start": 405.0,
+      "t_end": 472.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 405.0,
+          "image": "slide_22_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 407.0,
+          "image": "slide_22_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 434.0,
+          "image": "slide_22_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid comparison layout",
+        "title_text": "Quantitative evaluation demonstrates that RGB & diffuse LiDAR enables robust reconstruction in low and no-texture scenes",
+        "layout_description": "The slide features a large, bold, left-aligned title at the top, accompanied by a small bar chart icon to its left. The main content is organized into a complex grid of qualitative comparison images, divided into five distinct sub-sections labeled (a) through (e). Section (a) on the far left shows a vertical column of image pairs comparing 'Ground Truth' and 'Ours'. The central portion of the slide contains sections (b), (c), and (d) stacked vertically; these sections use a horizontal row format to compare multiple methods including 'Ground Truth', 'Ours', 'Surfels', 'Monocular Depth', and 'Sparse LiDAR'. Section (d) at the bottom center is specifically highlighted with a thick black border to emphasize results in 'No Texture' conditions. Section (e) on the far right displays a 2x3 grid comparing 'Input RGB' images with 'Ours (Color-3D Mesh)' reconstructions. The background is white with a light blue gradient and decorative wavy shapes at the bottom. Text density is moderate, consisting primarily of column headers and descriptive captions for each sub-figure."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "results",
+      "t_start": 472.0,
+      "t_end": 480.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 472.0,
+          "image": "slide_23_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Quantitative evaluation demonstrates that RGB & diffuse LiDAR enables robust reconstruction in noisy, low-lighting scenes",
+        "layout_description": "The slide uses a two-column comparison layout under a prominent top-aligned title. The title is bold and black, preceded by a small three-bar chart icon on the far left. The left side of the slide is dominated by a line chart plotting 'Depth MAE' against 'Low Lighting SNR' (measured in dB), featuring four colored lines with a corresponding legend box. The right side contains a vertical stack of three rows of images. The top row shows 'Input RGB Samples' at two different noise levels (~40 dB and -\u221e dB). The middle row, highlighted with a thick purple border and labeled 'Ours', shows depth reconstruction results for those same noise levels. The bottom row shows results for 'RGB + Sparse LiDAR'. The background is white with a subtle, light blue and purple wavy gradient at the bottom edge. Text density is moderate, primarily consisting of labels for the chart and image grid."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "results",
+      "t_start": 480.0,
+      "t_end": 505.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 480.0,
+          "image": "slide_24_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Quantitative evaluation demonstrates that RGB & diffuse LiDAR enables robust reconstruction in noisy, low-lighting scenes",
+        "layout_description": "The slide features a large, bold, left-aligned title at the top, accompanied by a small bar chart icon to its left. The main body is organized into two primary columns. The left column is dominated by a large line chart that plots 'Depth MAE' on the y-axis against 'Low Lighting SNR' on the x-axis. This chart contains four colored lines (purple, red, green, and yellow) with a legend box positioned in the top-left area of the graph. The right column contains a 3x2 grid of images providing qualitative comparisons. The top row displays 'Input RGB Samples' at two different signal-to-noise ratios (~40 dB and -\u221e dB). The middle row, highlighted with a purple border and labeled 'Ours', shows the depth reconstruction results of the proposed method. The bottom row shows results for 'RGB + Sparse LiDAR'. The background is clean white with a subtle blue and purple wavy decorative element at the bottom. The overall text density is moderate, prioritizing visual data and image comparisons."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "results",
+      "t_start": 505.0,
+      "t_end": 510.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 505.0,
+          "image": "slide_25_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column comparison layout",
+        "title_text": "Qualitative, real-world evaluation demonstrates the strength of our proposed technique for 3D scanning in very challenging scenes",
+        "layout_description": "The slide features a large, bold title at the top, accompanied by a small black camera icon on its left. The main content is split into two distinct columns. The left column contains a large photograph of a physical 3D scanning apparatus, with several parts labeled using blue text and white arrows (e.g., 'Camera', 'LiDAR', 'Object', 'Azimuth Stage'). The right column consists of a comparison grid with three rows representing different objects ('Protein Jar', 'Football', 'Blundstone') and four columns showing different data types or methods: 'Scene (ideal lighting)', 'Input RGB (cropped)', 'Sparse LiDAR + RGB', and 'Ours'. The 'Ours' column is visually distinguished by a light purple background. The slide has a clean white background with a subtle blue wavy decorative element at the bottom. There are no bullet points or equations, and the text density is moderate, primarily consisting of labels and headers."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "results",
+      "t_start": 510.0,
+      "t_end": 524.93,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 510.0,
+          "image": "slide_26_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column comparison layout",
+        "title_text": "Qualitative, real-world evaluation demonstrates the strength of our proposed technique for 3D scanning in very challenging scenes",
+        "layout_description": "The slide features a large, bold title at the top-left, preceded by a small black camera icon. The main content is split into two columns. The left column displays a large photograph of a physical 3D scanning setup, with various parts labeled using blue text and thin white lines (e.g., Camera, LiDAR, Object, Ground Plane, Elevation Stage, Azimuth Stage). The right column contains a grid of images organized into three rows (Protein Jar, Football, Blundstone) and four columns (Scene (ideal lighting), Input RGB (cropped), Sparse LiDAR + RGB, and Ours). The 'Ours' column is visually distinguished by a light purple background. The slide has a clean white background with a subtle light blue wavy graphic at the bottom. Text density is moderate, focusing on labels and headers rather than long paragraphs."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 402,
+    "gemini_layout_calls": 403,
+    "total_gemini_calls": 805,
+    "total_frames_sampled": 525,
+    "batch_size": 15
+  }
+}

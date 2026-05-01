@@ -1,0 +1,21 @@
+{
+    "extracted_content": "Ablation studies on the Transformer architecture revealed that the number of attention heads and the dimensions of keys and values are critical for performance; while single-head attention is 0.9 BLEU worse than the best multi-head setting, quality also degrades if the number of heads is too high. Experiments showed that reducing the attention key size dk hurts model quality, suggesting that a more sophisticated compatibility function than simple dot product might be beneficial. Additionally, the model proved robust to the type of positional encoding, as sinusoidal and learned positional embeddings yielded nearly identical results. Beyond machine translation, the Transformer demonstrated strong generalization capabilities on English constituency parsing. Despite lacking task-specific tuning, a 4-layer Transformer outperformed the Berkeley Parser when trained only on the WSJ training set and achieved state-of-the-art results (92.7 F1) in a semi-supervised setting, surpassing most previously reported models.",
+    "key_figures": [],
+    "key_tables": [
+        {
+            "ref": "Table 3",
+            "caption": "Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are on the English-to-German translation development set, newstest2013.",
+            "relevance": "This table details the ablation study results, showing how varying the number of heads (h), dimensions (dk, dv), and model size (dmodel, dff) impacts PPL and BLEU scores."
+        },
+        {
+            "ref": "Table 4",
+            "caption": "The Transformer generalizes well to English constituency parsing (Results are on Section 23 of WSJ)",
+            "relevance": "This table provides the F1 scores for the Transformer on the English constituency parsing task, comparing its performance against several established parsers in both discriminative and semi-supervised settings."
+        }
+    ],
+    "key_equations": [],
+    "section_refs": [
+        "Section 6.2",
+        "Section 6.3"
+    ]
+}

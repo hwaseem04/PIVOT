@@ -1,0 +1,22 @@
+{
+    "title": "State-of-the-Art Performance and Robustness",
+    "audio_content": "Our method achieves a zero-point-two meter mean error on KITTI, a significant leap over the baseline. It maintains high precision under extreme noise and successfully completes one hundred percent of evaluation routes, whereas competing methods drift and fail early.",
+    "duration_sec": 15.2,
+    "bullets": [
+        "Achieves 0.20m mean location error on KITTI, a 90% improvement over PureACL",
+        "Maintains high precision and superior convergence under extreme initial noise",
+        "Completes 100% of evaluation routes where baselines suffer from severe drift"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 7",
+        "caption": "Trajectory tracking comparison over a 3676-meter route"
+    },
+    "source": [
+        "Section 5.2",
+        "Section 5.4",
+        "Figure 7",
+        "Table 3"
+    ],
+    "prompt": "A slide showing Figure 7 from the paper, which displays trajectory maps comparing the proposed method's tracking accuracy against PureACL and BoostAcc. Below the figure, three bullet points summarize the quantitative performance gains and robustness to noise."
+}

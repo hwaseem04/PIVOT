@@ -1,0 +1,23 @@
+{
+    "title": "Privacy-Boosting Mechanisms",
+    "audio_content": "BlindFed thwarts model extraction with two defenses. Sample-level permutations shuffle data at every block to hide sample mappings. Simultaneously, Stochastic Block Sampling reveals only a subset of non-consecutive outputs. This breaks representation continuity, making it computationally infeasible for clients to reconstruct the model.",
+    "duration_sec": 16.4,
+    "bullets": [
+        "Sample-level permutations shuffle data at every block to hide sample mappings",
+        "Stochastic Block Sampling (SBS) reveals only a subset of non-consecutive outputs",
+        "Defenses make model extraction computationally infeasible for malicious clients"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 5",
+        "caption": "Stochastic block sampling strategy to prevent model extraction."
+    },
+    "source": [
+        "Section 4.3",
+        "Section 4.3.1",
+        "Section 4.3.2",
+        "Figure 5",
+        "Figure 7"
+    ],
+    "prompt": "A two-column slide showing bullet points on the left and a diagram of the stochastic block sampling strategy on the right. The diagram illustrates a Markov-chain transition between sampled and non-sampled states for transformer blocks."
+}

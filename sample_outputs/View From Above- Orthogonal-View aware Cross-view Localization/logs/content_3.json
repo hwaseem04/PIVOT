@@ -1,0 +1,36 @@
+{
+    "extracted_content": "The Cycle Domain Adaptation (CycDA) loss is designed to mitigate representation gaps arising from differences in camera specifications (e.g., tone, hue, resolution) and environmental changes between ground and aerial views. It explicitly enforces view-invariant feature extraction by minimizing the L2 distance between features across three distinct spaces: the ground feature space, the satellite feature space, and a shared latent feature space. This bidirectional adaptation ensures that features extracted from one domain are effectively translatable to the other. The process utilizes projection functions $\\mathcal{E}(\\cdot)$ and $\\mathcal{D}(\\cdot)$, which are guided by the focal lengths of the satellite and vehicle cameras ($c_s$ and $c_g$) to maintain geometric consistency during the feature transformation.",
+    "key_figures": [
+        {
+            "ref": "Figure 2",
+            "caption": "Our method adopts PureACL [24] as the baseline model and introduces three novel components (highlighted in red): ... (2) CycDA Loss (Sec.4.2): explicitly enforces a view-invariant representation for the same object; ...",
+            "relevance": "The figure illustrates the integration of the CycDA Loss within the overall architecture, showing how it supervises the feature extraction process to ensure domain invariance."
+        }
+    ],
+    "key_tables": [],
+    "key_equations": [
+        {
+            "ref": "Equation 4",
+            "content": "\\mathcal{L}_{g} = \frac{1}{N} \\sum_{i=1}^{N} \\| F^{a}[p^{g}_{i}] - \\mathcal{D} ( \\mathcal{E} ( F^{s}[p^{s}_{i}(\\mathbf{P}_{gt})] \textcircled{c} c_{s} ) \textcircled{c} c_{g} ) \\|_{2}",
+            "relevance": "Defines the representation loss in the ground feature space, comparing aggregated ground features with projected satellite features."
+        },
+        {
+            "ref": "Equation 5",
+            "content": "\\mathcal{L}_{s} = \frac{1}{N} \\sum_{i=1}^{N} \\| F^{s}[p^{s}_{i}(\\mathbf{P}_{gt})] - \\mathcal{D} ( \\mathcal{E} ( F^{a}[p^{g}_{i}] \textcircled{c} c_{g} ) \textcircled{c} c_{s} ) \\|_{2}",
+            "relevance": "Defines the representation loss in the satellite feature space, comparing satellite features with projected ground features."
+        },
+        {
+            "ref": "Equation 6",
+            "content": "\\mathcal{L}_{m} = \frac{1}{N} \\sum_{i=1}^{N} \\| \\mathcal{E} ( F^{a}[p^{g}_{i}] \textcircled{c} c_{g}) - \\mathcal{E} ( F^{s}[p^{s}_{i}(\\mathbf{P}_{gt})] \textcircled{c} c_{s} ) \\|_{2}",
+            "relevance": "Defines the alignment loss in the shared latent feature space, ensuring both views map to a consistent representation."
+        },
+        {
+            "ref": "Equation 7",
+            "content": "\\mathcal{L}_{CycDA} = \\mathcal{L}_{g} + \\mathcal{L}_{s} + \\mathcal{L}_{m}",
+            "relevance": "The total Cycle Domain Adaptation loss, combining the three feature space discrepancies."
+        }
+    ],
+    "section_refs": [
+        "Section 4.2"
+    ]
+}

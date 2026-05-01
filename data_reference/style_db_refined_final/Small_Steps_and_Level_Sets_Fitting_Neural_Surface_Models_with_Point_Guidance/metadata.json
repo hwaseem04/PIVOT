@@ -1,0 +1,323 @@
+{
+  "video_id": "Small Steps and Level Sets Fitting Neural Surface Models with Point Guidance",
+  "duration": 299.58,
+  "fps_sampled": 1.0,
+  "total_slides": 14,
+  "slides_with_builds": 6,
+  "total_build_steps": 22,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 16.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Small Steps and Level Sets: Fitting Neural Surface Models with Point Guidance",
+        "layout_description": "The slide is a title slide with a clean, white background. At the top, there are three main visual elements: the Australian National University logo on the far left, the Technion Israel Institute of Technology logo to its right, and a CVPR 2024 logo featuring a blue Seattle skyline silhouette on the far right. The main title, 'Small Steps and Level Sets: Fitting Neural Surface Models with Point Guidance', is centered in a large, bold, blue serif font. Below the title, the names of the four authors are listed in a smaller, brown-colored font, also centered. At the bottom of the slide, there are four circular headshot photographs of the authors arranged in a single horizontal row, corresponding to the order of names listed above. The overall text density is light, focusing on branding, title, and author identification."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "method",
+      "t_start": 16.0,
+      "t_end": 30.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 16.0,
+          "image": "slide_2_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 29.0,
+          "image": "slide_2_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with figure and bullets",
+        "title_text": "Overview",
+        "layout_description": "The slide has a clean white background with a large serif title 'Overview' positioned at the top-left. The main body of the slide contains a visual diagram illustrating a process flow. On the far left, an 'Input Raw Point Cloud' is shown as a colorful 3D monster truck model. From this input, two horizontal black arrows point to the right. The top path, labeled 'Our PG-SDF approach', displays a sequence of five 3D models showing a progressive refinement from a coarse, rounded shape to a detailed mesh, culminating in a 'Final Output'. The bottom path, labeled 'SDF baseline', shows a single, less detailed reconstructed model for comparison. At the bottom of the slide, there are two bullet points that summarize the main contributions: the PG-SDF approach and the SION metric. Key terms within these bullets are emphasized in bold text. The slide has a light text density and uses a clear visual hierarchy to contrast the proposed method with a baseline."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "method",
+      "t_start": 30.0,
+      "t_end": 104.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 30.0,
+          "image": "slide_3_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 37.0,
+          "image": "slide_3_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 85.0,
+          "image": "slide_3_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column comparison layout",
+        "title_text": "Neural SDF methods",
+        "layout_description": "The slide features a large title positioned at the top-left corner. Below the title, the main content is organized into two side-by-side square figures. Each figure displays a 2D contour plot representing a signed distance field. The left figure shows a complex, snowflake-like shape outlined with black dots, surrounded by concentric contour lines that transition from green in the center to orange-red at the edges. The right figure shows a 'U' shape outlined with black dots, enclosed within a larger circular boundary, also featuring similar concentric contour lines. To the far right of the second figure, there is a vertical color scale bar ranging from -1 (dark green) to 1 (dark red), with 0 marked in a light yellow-green. The overall text density is very light, focusing primarily on the visual representation of the methods with no bullet points or equations."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "method",
+      "t_start": 104.0,
+      "t_end": 105.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 104.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Shape Reachability and SION",
+        "layout_description": "The slide uses a clean two-column layout on a white background. The title is located at the top-left in a large serif font. The left column contains a single bullet point that provides a textual definition of SION, mentioning a target surface 'S' and a surrounding surface 'R' in italicized mathematical notation. The right column features a large, minimalist diagram illustrating these concepts. The diagram shows two curved lines: a dark grey line labeled 'S' and a light teal line labeled 'R'. Black arrows are drawn along surface S, indicating normal directions or alignment vectors relative to surface R. Within a circular loop of surface S, red dashed lines radiate from a central point, terminating in red arrows that point towards the surface boundary. The overall text density is light, with the visual diagram serving as the primary focus to explain the geometric concept."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "method",
+      "t_start": 105.0,
+      "t_end": 140.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 105.0,
+          "image": "slide_5_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 114.0,
+          "image": "slide_5_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Shape Reachability and SION",
+        "layout_description": "The slide uses a clean two-column layout on a plain white background. A large, serif-font title is positioned at the top left. The left column contains two primary bullet points that define 'SION' as a measure of geometric alignment and explain its calculation as a percentage of self-intersecting outward normals, using mathematical notation for the surfaces S and R. The right column features a large, illustrative diagram. This diagram depicts two curved lines: a dark grey closed-loop-like curve labeled 'S' and a teal curve labeled 'R'. Outward-pointing arrows (normals) are drawn along curve S; some are black and point away, while others are red and have dashed extension lines that converge and intersect within the curve's concavity, visually demonstrating the concept of self-intersecting normals. The text density is light, focusing on a clear visual explanation of a technical definition."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 140.0,
+      "t_end": 150.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 140.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figure",
+        "title_text": "Our PG-SDF method",
+        "layout_description": "The slide follows a minimalist layout with a single title and a large central graphic. The title 'Our PG-SDF method' is positioned at the top-left in a black serif font. Below the title, a large square figure is centered on the slide. This figure displays a U-shaped pattern of black dots, which is overlaid on a color-coded contour plot. The plot features concentric rings transitioning from a pale green in the center to a light orange at the edges. A prominent green circular boundary, made of small dots, surrounds the central U-shape. The overall background of the slide is plain white, and there are no bullet points, equations, or additional text, making the text density very light."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 150.0,
+      "t_end": 192.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 150.0,
+          "image": "slide_7_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 167.0,
+          "image": "slide_7_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figure",
+        "title_text": "Our PG-SDF method",
+        "layout_description": "The slide follows a minimalist layout with a title positioned at the top-left and a large, square figure centered below it. The title 'Our PG-SDF method' is rendered in a black serif font. The central visual element is a square plot depicting a contour map with a color gradient transitioning from a pale green center to a light orange periphery. Within this plot, a U-shaped pattern of black dots is visible, surrounded by a green dotted boundary that roughly follows the shape of the U but with rounded corners. Concentric contour lines are layered over the gradient background. The slide has a plain white background with no other text, bullet points, or decorative elements, resulting in a very light text density focused entirely on the visual representation of the proposed method."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 192.0,
+      "t_end": 195.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 192.0,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figure",
+        "title_text": "Small Steps and Level Sets",
+        "layout_description": "The slide follows a simple, clean layout with a title at the top and a large central figure. The title, 'Small Steps and Level Sets', is written in a black serif font and aligned to the top-left. Below the title, a square graphic is centered on the slide. This graphic shows a contour plot with concentric circles that transition in color from a pale green in the center to a warm orange-brown at the edges. Within this plot, there is a prominent green dotted circle and a black dotted shape resembling a 'U' or a horseshoe. There are no bullet points, equations, or other text elements, resulting in a very light text density. The background of the slide is plain white, making the central figure the primary focus."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 195.0,
+      "t_end": 237.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 195.0,
+          "image": "slide_9_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 218.0,
+          "image": "slide_9_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Small Steps and Level Sets",
+        "layout_description": "The slide follows a minimalist layout with a title at the top and a large central figure. The title 'Small Steps and Level Sets' is aligned to the top-left in a black serif font. Occupying the majority of the slide's center is a square graphic illustrating a mathematical or geometric concept. This graphic shows a contour plot with concentric level sets transitioning from a light green center to a reddish-brown periphery. Overlaid on these contours is a U-shaped path defined by black dots, enclosed by a thicker green boundary. A few thin blue lines connect specific points on the U-shape to the outer green boundary. The slide has a plain white background and very low text density, prioritizing the visual diagram over textual explanation."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 237.0,
+      "t_end": 240.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 237.0,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and stacked diagrams",
+        "title_text": "Analysis as a homotopy method",
+        "layout_description": "The slide has a clean, minimalist design with a large title at the top left in a serif font. The main content consists of two large, horizontally-oriented rectangular boxes stacked vertically. The top box is labeled 'Problem Space' in its upper-left corner and contains a single black dot on the right side with the label 'Difficult Problem M(\u03b8)'. The bottom box is labeled 'Solution Space' in its upper-left corner. Inside this box, a black dot on the left is labeled 'Starting solution \u03b8\u2080', from which a curved arrow extends towards the upper right. Below the path of the arrow, on the right side, is another black dot labeled 'M(\u03b8)\u2019s solution \u03b8*\u2098'. The slide uses a simple black-and-white color scheme with mathematical notation for labels and has a light text density."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 240.0,
+      "t_end": 280.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 240.0,
+          "image": "slide_11_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 247.0,
+          "image": "slide_11_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 254.0,
+          "image": "slide_11_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and stacked figures",
+        "title_text": "Analysis as a homotopy method",
+        "layout_description": "The slide has a clean, minimalist design with a white background. A large title in a serif font is positioned at the top left. Below the title, two rectangular boxes are stacked vertically, each containing a diagram. The top box, labeled 'Problem Space' at its top-left corner, shows a straight horizontal line of black dots representing a path from an 'Easy Problem N(\u03b8)' on the left to a 'Difficult Problem M(\u03b8)' on the right. The bottom box, labeled 'Solution Space', illustrates the corresponding path in the solution domain. It begins at a 'Starting solution \u03b8\u2080', points with an arrow to 'N(\u03b8)'s solution \u03b8\u2099*', and then follows a curved, S-shaped sequence of black dots that terminates at 'M(\u03b8)'s solution \u03b8\u2098*'. Mathematical notation is used throughout the diagrams to label specific points and problems. The text density is light, focusing primarily on the visual analogy between the problem and solution spaces."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "results",
+      "t_start": 280.0,
+      "t_end": 285.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 280.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Results",
+        "layout_description": "The slide features a large, serif-font title 'Results' positioned at the top-left. The main content is organized into two side-by-side columns. The left column contains a line graph showing 'Mean IoU' versus 'SION Lower Bound' for several methods (DiGS, SAP, OG-SIREN, PG-SDF), with a green 'Ours' callout bubble pointing to the top-most line. Below this graph is a green rounded rectangular box with white text stating 'Stable performance as shape complexity increases'. The right column contains a scatter plot showing 'Runtime (min)' versus 'SION'. Beneath this plot is a similar green rounded rectangular box with white text stating 'Method runtime is adaptive'. The slide has a clean white background, light text density, and uses green as a primary accent color for highlighting key takeaways and the proposed method."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "results",
+      "t_start": 285.0,
+      "t_end": 293.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 285.0,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout",
+        "title_text": "Results",
+        "layout_description": "The slide uses a clean two-column layout on a plain white background. A large, black serif title 'Results' is positioned at the top-left. The main body of the slide contains two side-by-side charts. The left column features a line graph comparing 'Mean IoU' against 'SION Lower Bound' for four methods (DiGS, SAP, OG-SIREN, and PG-SDF), with a green 'Ours' badge pointing to the top-performing dashed line. Below this graph is a green rounded rectangular box with white text summarizing the finding: 'Stable performance as shape complexity increases'. The right column contains a scatter plot showing 'Runtime (min)' versus 'SION', followed by a similar green rounded rectangular box stating 'Method runtime is adaptive'. The visual design is minimalist, with light text density and a focus on quantitative data visualization."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "results",
+      "t_start": 293.0,
+      "t_end": 299.58,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 293.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison grid layout",
+        "title_text": "Results",
+        "layout_description": "The slide features a large title 'Results' in a serif font positioned at the top-left. The main content is organized into a 2x4 grid of 3D model reconstructions. There are two rows, each displaying a different object: a buggy-style vehicle in the top row and a complex spherical lamp structure in the bottom row. Each row compares four different reconstruction methods arranged in columns. Directly below each 3D model is a quantitative metric 'IoU' followed by a four-decimal numerical value. The first column, representing the proposed method, is highlighted with a green 'Ours' tag and labeled 'PG-SDF' at the bottom. The remaining three columns are labeled 'OG-SIREN', 'SAP', and 'DiGS' respectively. The slide has a clean white background with light text density, prioritizing visual qualitative and quantitative comparison between the methods."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 148,
+    "gemini_layout_calls": 124,
+    "total_gemini_calls": 272,
+    "total_frames_sampled": 300,
+    "batch_size": 15
+  }
+}

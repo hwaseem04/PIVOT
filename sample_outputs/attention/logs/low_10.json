@@ -1,0 +1,23 @@
+{
+    "title": "Visualizing Attention and Final Conclusions",
+    "subtitle": "Interpreting how the Transformer understands language",
+    "audio_content": "Attention heads learn specific tasks like anaphora resolution and long-distance dependencies. The Transformer is the first model to replace recurrence with self-attention, enabling massive parallelization and faster training. It achieves superior quality and generalizes well to other modalities like images and audio.",
+    "duration_sec": 15.2,
+    "bullets": [
+        "Heads learn specific syntactic and semantic tasks.",
+        "Resolves anaphora and captures long-distance dependencies.",
+        "First model relying entirely on self-attention.",
+        "Enables massive parallelization and faster training."
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 4",
+        "caption": "Attention heads involved in anaphora resolution"
+    },
+    "source": [
+        "Figure 4",
+        "Section 4",
+        "Section 7"
+    ],
+    "prompt": "A split-screen slide. On the left, Figure 4 from the paper shows attention heads resolving the pronoun 'its' to 'Law'. On the right, four concise bullets summarize the interpretability of attention and the paper's final conclusions regarding parallelization and future work."
+}

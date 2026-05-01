@@ -1,0 +1,31 @@
+{
+    "extracted_content": "The BlindFed framework utilizes a two-stage split learning strategy to bridge the gap between the original Foundation Model (FM) and its FHE-friendly counterpart. In the first stage, Offline Distillation, the server acts as a teacher to train the approximated student model using an auxiliary dataset. This process is split into two phases: first, aligning embeddings, attention matrices, and hidden states; and second, distilling the final prediction layer. In the second stage, Online Adaptation, a block-by-block interactive protocol is used to perform encrypted inference. Because FHE has limited multiplicative depth, the server processes one transformer block at a time, sending the encrypted output to the client for decryption and re-encryption before proceeding. This interaction provides clients with the plaintext intermediate representations necessary to train their local parallel adapters and classification heads. Finally, secure multi-party computation (MPC) is used for secure aggregation, allowing the server to compute the average of client updates without accessing individual local parameters.",
+    "key_figures": [
+        {
+            "ref": "Figure 9",
+            "caption": "Schematic illustration of the layer-wise knowledge distillation (Equations 17 and 18).",
+            "relevance": "Visualizes the teacher-student distillation process used in the offline stage to align the FHE-friendly student model's attention matrices and hidden representations with the original FM."
+        }
+    ],
+    "key_tables": [
+        {
+            "ref": "Table 7",
+            "caption": "Computational and memory overhead for encrypted inference and encryption using FHE with the Tile Tensors framework.",
+            "relevance": "Quantifies the practical costs of the online adaptation stage, showing the time and memory required for encryption, decryption, and encrypted inference per transformer block."
+        }
+    ],
+    "key_equations": [
+        {
+            "ref": "Equation 21",
+            "content": "\\mathcal{L} = \begin{cases} \\mathcal{L}_a + \\mathcal{L}_h & \triangleright \text{Stage I}, \\ \\mathcal{L}_p & \triangleright \text{Stage II}. \\end{cases}",
+            "relevance": "Defines the two-stage loss objective for the distillation process, where Stage I focuses on internal layer alignment and Stage II focuses on logit-based prediction alignment."
+        }
+    ],
+    "section_refs": [
+        "Section 4.2",
+        "Section 4.2.1",
+        "Section 4.2.2",
+        "Section 4.2.3",
+        "Appendix C"
+    ]
+}

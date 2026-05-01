@@ -1,0 +1,713 @@
+{
+  "video_id": "ICML_ICML-2025_Graph-Assisted-Stitching-for-Offline-Hierarchical-Rein__ICML-2025-Graph-Assisted-Stitching-for",
+  "duration": 637.73,
+  "fps_sampled": 1.0,
+  "total_slides": 34,
+  "slides_with_builds": 9,
+  "total_build_steps": 44,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 16.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "Graph-Assisted Stitching for Offline Hierarchical Reinforcement Learning",
+        "layout_description": "The slide is a clean title slide with a white background. The main title is presented in a large, bold, black sans-serif font, left-aligned in the upper-middle portion of the slide. Above the title, in the top-right corner, is a logo for the 'Computer Systems & Intelligence (CSI) LABoratory' which includes a circular green and blue emblem from Sungkyunkwan University. Below the title, the text 'ICML 2025' is followed by a list of five authors. Underneath the authors, the affiliation 'Sungkyunkwan University (SKKU)' is provided, along with an email address and a project website URL highlighted in purple. In the bottom-right corner, the official ICML logo is displayed, featuring a stylized head icon with colorful pixels and the text 'International Conference On Machine Learning'. The layout is spacious with light text density."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 16.0,
+      "t_end": 30.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 16.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Offline GCRL",
+        "layout_description": "The slide follows a minimalist single-column layout with a plain white background. A large, bold heading 'Offline GCRL' is located at the top-left. Below the title, there is a single bullet point containing a concise, one-sentence definition of the term. The text is left-aligned and rendered in a black sans-serif font. The rest of the slide is entirely blank, creating a very low text density and a clean, focused visual appearance. There are no additional visual elements such as logos, page numbers, or graphics."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 30.0,
+      "t_end": 73.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 30.0,
+          "image": "slide_3_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 32.0,
+          "image": "slide_3_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Offline GCRL",
+        "layout_description": "The slide follows a clean, minimalist layout with a white background. The title 'Offline GCRL' is prominently displayed in a large, bold font at the top-left corner. Directly below the title is a single bullet point that defines the goal of offline goal-conditioned reinforcement learning. The lower half of the slide features a conceptual diagram. On the left, there is a black-and-white icon of a globe representing the environment. A horizontal black arrow points from the globe to a gray-shaded cylinder on the right, which represents a database. Above the arrow, the text 'logged data from environment' describes the data flow. Inside the cylinder, a mathematical equation 'D = {(s, a, s')}' defines the dataset as a collection of state-action-next state transitions. Below the cylinder, the label 'Offline dataset' is centered. The slide has a light text density and uses simple visual elements to explain a foundational concept."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 73.0,
+      "t_end": 75.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 73.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "Challenges in Offline GCRL",
+        "layout_description": "The slide follows a clean, minimalist layout with a large, bold title positioned at the top-left. Directly below the title is a single bullet point that introduces the core problem. The bottom two-thirds of the slide are dedicated to a large, centered diagram illustrating a navigation task. The diagram shows a maze-like environment with dark blue obstacles, where a curved path connects a green circle (starting point) to a yellow star (goal). Below this main illustration, a simplified horizontal timeline-style arrow reinforces the concept, showing a direct path from a green circle labeled 'Current State' to a yellow star labeled 'Final Goal', with the phrase 'Long horizon' written in red text above the arrow. The background is plain white, and the overall text density is light, focusing on visual communication of the challenge."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "introduction",
+      "t_start": 75.0,
+      "t_end": 94.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 75.0,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "Challenges in Offline GCRL",
+        "layout_description": "The slide follows a clean, minimalist layout with a large, bold title positioned at the top-left. Directly below the title is a single bullet point that introduces the core problem. The bottom two-thirds of the slide are dedicated to a large, centered diagram illustrating a navigation task. The diagram shows a maze-like environment with dark blue obstacles, where a curved path connects a green circle (starting point) to a yellow star (goal). Below this main illustration, a simplified horizontal timeline-style arrow reinforces the concept, showing a direct path from a green circle labeled 'Current State' to a yellow star labeled 'Final Goal', with the phrase 'Long horizon' written in red text above the arrow. The background is plain white, and the overall text density is light, focusing on visual communication of the challenge."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "introduction",
+      "t_start": 94.0,
+      "t_end": 105.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 94.0,
+          "image": "slide_6_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figure",
+        "title_text": "Offline HRL",
+        "layout_description": "The slide follows a clean, single-column layout starting with a large, bold title 'Offline HRL' in the top-left corner. Directly beneath the title is a single bullet point that provides a high-level definition of the framework, using bold and orange text to emphasize key terms like 'high-level policy' and 'subgoals'. The middle and lower sections of the slide are dominated by a large, centered diagram within a dark frame. This diagram illustrates a 2D navigation environment with dark blue obstacles, showing a path from a green circle ('Current State') to a yellow star goal, mediated by several orange stars representing 'subgoals'. Below this main figure, a smaller explanatory graphic acts as a legend, showing a green circle connected to an orange star by an arrow labeled 'Short horizon', with text labels 'Current State' and 'Subgoal' underneath. The background is plain white, and the text density is light, focusing on visual conceptualization."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 105.0,
+      "t_end": 122.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 105.0,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figure",
+        "title_text": "Offline HRL",
+        "layout_description": "The slide has a clean, minimalist layout with a large bold title 'Offline HRL' positioned at the top-left. Below the title, a single bullet point provides a concise definition of the topic, with the term 'subgoals' emphasized in orange text. The central portion of the slide is occupied by a large diagram illustrating a navigation task within a 2D environment containing dark blue obstacles. This diagram shows a trajectory starting from a green circle (current state), moving through a sequence of orange stars (subgoals), and terminating at a yellow star (goal). Directly beneath the main diagram is a legend that defines the visual elements: a green circle is labeled 'Current State', an orange star is labeled 'Subgoal', and a black arrow connecting them is labeled 'Short horizon'. The slide uses a white background with a light text density, focusing on the visual representation of the hierarchical framework."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "introduction",
+      "t_start": 122.0,
+      "t_end": 135.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 122.0,
+          "image": "slide_8_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 129.0,
+          "image": "slide_8_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figure",
+        "title_text": "Motivation: Why is Trajectory Stitching Crucial in Offline HRL?",
+        "layout_description": "The slide follows a simple top-down structure on a plain white background. A large, bold title is positioned at the top left. Directly beneath it, a single bullet point provides a brief textual explanation. The middle and lower portions of the slide are dominated by a large, centered diagram of a maze. The maze is depicted with dark blue walls and white paths, containing three distinct trajectories represented by sequences of colored circles (light blue, grey, and purple) connected by arrows. Below this maze figure, a legend titled 'Original Trajectories:' displays the three colored circle-arrow icons used in the diagram. The slide has a light text density, prioritizing the visual diagram to illustrate the concept."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "introduction",
+      "t_start": 135.0,
+      "t_end": 188.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 135.0,
+          "image": "slide_9_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 145.0,
+          "image": "slide_9_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "Motivation: Why is Trajectory Stitching Crucial in Offline HRL?",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold title at the top left. Directly below the title is a single bullet point that provides a textual definition of trajectory stitching. The central and lower portion of the slide is dominated by a large illustrative figure. This figure is divided into three main parts: a maze on the left showing three different colored trajectories (blue, grey, and purple), and two zoomed-in panels on the right connected by a large arrow. These panels highlight 'stitching points' using red dashed circles to show how segments from different trajectories can be joined. Below the maze is a legend for the 'Original Trajectories', and below the zoomed panels is a legend for the 'Stitching Point'. A final descriptive caption is centered at the bottom of the slide. The background is plain white, and the text density is light, focusing on visual explanation."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 188.0,
+      "t_end": 195.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 188.0,
+          "image": "slide_10_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "GAS: Graph-Assisted Stitching",
+        "layout_description": "The slide follows a minimalist single-column layout on a plain white background. A large, bold title is aligned to the top-left corner. Directly below the title, there is a single bullet point containing a concise sentence that introduces the 'GAS' method. The text is black, left-aligned, and uses a sans-serif font. The slide has a very light text density, with the majority of the space below the initial bullet point remaining empty. There are no visual elements such as images, diagrams, equations, or page numbers."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 195.0,
+      "t_end": 208.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 195.0,
+          "image": "slide_11_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "GAS: Graph-Assisted Stitching",
+        "layout_description": "The slide follows a minimalist, single-column layout with a plain white background. A large, bold title is aligned to the top-left corner. Below the title, there is a single bullet point containing a brief text description of the proposed method. The text is left-aligned and uses a standard sans-serif font. The overall text density is very light, with the majority of the slide area remaining empty. There are no visual elements such as images, diagrams, equations, or logos."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "method",
+      "t_start": 208.0,
+      "t_end": 210.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 208.0,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "2x2 grid layout with title",
+        "title_text": "GAS: Graph-Assisted Stitching",
+        "layout_description": "The slide features a large, bold title at the top-left corner, followed by a single bullet point subtitle 'Overview of GAS'. The main body of the slide is organized into a 2x2 grid of four rectangular boxes, each defined by a dashed border and containing a numbered step of the process. Box 1 (top-left) describes 'Pre-Training Temporal Distance Representation' and shows a flow from a dataset icon to a graph visualization via a mathematical function. Box 2 (top-right) outlines 'TD-aware Graph Construction' in three sub-steps: filtering, clustering, and connecting nodes, each with its own diagram. Box 3 (bottom-left) focuses on 'Learning Low-level Policy', depicting a dataset leading to a policy equation represented by a robot icon. Box 4 (bottom-right) illustrates 'Task Planning and Execution' using a maze diagram, a graph path, and a final robot action step. The slide uses a clean white background with a moderate density of text, equations, and colorful diagrams to explain a technical workflow."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "method",
+      "t_start": 210.0,
+      "t_end": 266.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 210.0,
+          "image": "slide_13_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 213.0,
+          "image": "slide_13_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 237.0,
+          "image": "slide_13_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "GAS: Graph-Assisted Stitching",
+        "layout_description": "The slide follows a structured grid layout with a large, bold title at the top-left and a single explanatory bullet point immediately below it. The main body of the slide is divided into four numbered panels arranged in a 2x2 grid, each enclosed by a dashed border. Panels 1, 2, and 4 have a light grey background, while Panel 3 stands out with a white background. Panel 1 (top-left) shows a workflow from a dataset to a temporal distance representation. Panel 2 (top-right) illustrates a three-step graph construction process with sequential diagrams. Panel 3 (bottom-left) details the low-level policy learning using a dataset icon, data tuples, and a robot icon. Panel 4 (bottom-right) demonstrates task planning and execution within a maze environment, showing the path from start to goal. Mathematical equations and symbols are integrated into each panel to describe the underlying logic and policy functions."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "method",
+      "t_start": 266.0,
+      "t_end": 270.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 266.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and thumbnails",
+        "title_text": "Key Ideas",
+        "layout_description": "The slide features a large, bold title 'Key Ideas' positioned at the top-left. Below the title, there is a list of four bulleted items, each preceded by a small black square bullet. The items are: 'Temporal Distance Representation (TDR)', 'Temporal Efficiency (TE)', 'TD-aware Graph Construction', and 'TD-aware Subgoal Sampling'. To the right of each text item, there is a small, horizontally-oriented thumbnail image that appears to be a miniature version of a more complex diagram or slide. These thumbnails are vertically aligned with their corresponding text. The overall background is plain white, and the text density is light, leaving significant empty space on the right and bottom of the slide."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "method",
+      "t_start": 270.0,
+      "t_end": 272.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 270.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and thumbnails",
+        "title_text": "Key Ideas",
+        "layout_description": "The slide features a large, bold title 'Key Ideas' positioned at the top-left corner. Below the title, there is a vertical list of four bulleted items. Each bullet point consists of a text label on the left and a small, rectangular thumbnail image on the right. The text labels are 'Temporal Distance Representation (TDR)', 'Temporal Efficiency (TE)', 'TD-aware Graph Construction', and 'TD-aware Subgoal Sampling'. The thumbnails appear to be miniature versions of other slides or diagrams, serving as visual icons for each concept. The layout is clean and minimalist, using a plain white background with black text, resulting in a light text density."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "method",
+      "t_start": 272.0,
+      "t_end": 285.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 272.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and side-by-side figures",
+        "title_text": "Temporal Distance Representation (TDR)",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold title at the top-left. Directly below the title is a single bullet point that provides a textual and mathematical definition of the concept. The central part of the slide is occupied by a conceptual diagram consisting of two side-by-side square panels. The left panel, titled 'Raw State Space', depicts a yellow maze environment with colored dots and a dashed line representing a path, labeled 'Minimum Number of Steps'. A thick black arrow labeled with the mapping function 'psi: S -> H' points from the left panel to the right panel. The right panel, titled 'TDR Space', has a light purple background and shows the corresponding points in a latent space where dashed lines indicate 'Temporal Distance'. A citation for the source paper is located at the bottom-left, and small organizational logos are positioned in the bottom-right corner. The slide uses a clean white background with moderate text density, focusing on the visual mapping between the two spaces."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "method",
+      "t_start": 285.0,
+      "t_end": 322.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 285.0,
+          "image": "slide_17_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 296.0,
+          "image": "slide_17_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with two-column content",
+        "title_text": "Temporal Distance Representation (TDR)",
+        "layout_description": "The slide follows a structured layout with a large, bold title at the top left. Below the title, a single bullet point introduces the concept of TDR. The main content area is split into two columns. The left column features a visual diagram showing a transformation from a 'Raw State Space' (depicted as a yellow maze with a path) to a 'TDR Space' (a purple square with points and dashed lines), connected by a black arrow labeled with a mapping function. The right column contains three mathematical equations stacked vertically, each with a short explanatory label underneath: the TDR objective, the IQL-based goal-conditioned value function, and the asymmetric l2 loss definition. Two bibliographic references are listed in a small font at the bottom left corner. The slide uses a clean white background with moderate text density, effectively combining graphical illustrations with formal mathematical definitions."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "method",
+      "t_start": 322.0,
+      "t_end": 330.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 322.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Temporal Efficiency (TE)",
+        "layout_description": "The slide follows a minimalist single-column layout with a plain white background. A large, bold heading is aligned to the top-left corner. Directly below the title, there is a single bullet point containing a one-sentence definition. This sentence includes a mathematical variable, 'H_TD', with a subscript. The majority of the slide's vertical space is empty, leading to a very light text density. In the bottom-right corner, there is a small, faint set of icons or logos, which are likely institutional or conference-related watermarks. The color scheme is strictly black text on a white background."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "method",
+      "t_start": 330.0,
+      "t_end": 397.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 330.0,
+          "image": "slide_19_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 334.0,
+          "image": "slide_19_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Temporal Efficiency (TE)",
+        "layout_description": "The slide features a minimalist single-column layout with a large, bold title 'Temporal Efficiency (TE)' positioned at the top-left. Below the title, a primary bullet point provides a textual definition of the metric, incorporating mathematical notation such as H_TD. This is followed by two indented sub-bullets that define specific terms: 'Sreached' and 'Soptimal'. Each sub-bullet is preceded by a small colored square icon\u2014red for 'Sreached' and blue for 'Soptimal'\u2014and uses bold text for the term being defined. The content is concentrated in the upper-left quadrant of the slide, resulting in a light text density and significant empty white space across the middle and bottom. A small row of slide navigation thumbnails is visible in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "method",
+      "t_start": 397.0,
+      "t_end": 405.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 397.0,
+          "image": "slide_20_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "TD-aware Graph Construction",
+        "layout_description": "The slide features a large, bold title at the top-left. Below the title is a single bullet point of text that introduces the 'GAS' clustering method. The main body of the slide is occupied by a large diagram illustrating the 'TD-aware Clustering' process. On the left side of this diagram, a light purple rectangular area contains a complex graph labeled 'H', showing multiple trajectories represented by colored lines and dots, which are grouped into overlapping light blue circular clusters. A dashed line with an arrow leads from one of these clusters to a larger, zoomed-in circular representation on the right. This zoomed-in circle is light blue with a dashed border and contains three distinct symbols: a red circle, a blue star, and an orange star with a blue center. A horizontal dashed line within this circle indicates a radius labeled with the mathematical expression 'H_TD / 2'. The label 'TD-aware Clustering' is positioned centrally below the connecting dashed line. The overall text density is light, and the background is plain white, with small navigation thumbnails visible in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "method",
+      "t_start": 405.0,
+      "t_end": 448.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 405.0,
+          "image": "slide_21_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 407.0,
+          "image": "slide_21_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with mixed content (text, diagram, and pseudocode)",
+        "title_text": "TD-aware Graph Construction",
+        "layout_description": "The slide follows a structured layout with a large, bold title at the top-left. Immediately below the title is a single bullet point explaining the 'GAS' clustering process. The lower two-thirds of the slide are split into two main visual components. On the left, there is a diagram titled 'TD-aware Clustering' that shows a graph with nodes connected by edges, where groups of nodes are enclosed in light blue circular clusters. A dashed line connects one of these clusters to a larger, zoomed-in circular diagram that illustrates the spatial relationship between different state representations (represented by a red circle, a blue star, and an orange star) relative to a distance threshold labeled 'H_TD / 2'. On the right side, there is a light gray rounded rectangle containing the pseudocode for the 'TD-Aware Clustering' algorithm, which uses mathematical notation for nearest-neighbor search and distance-based conditional logic. The slide has a clean white background with moderate text density and a small set of thumbnail icons in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "method",
+      "t_start": 448.0,
+      "t_end": 450.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 448.0,
+          "image": "slide_22_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "TD-aware Subgoal Sampling",
+        "layout_description": "The slide follows a simple top-down structure. At the top-left, there is a large, bold title. Directly below it, a single bullet point provides a textual explanation of the concept. The middle and lower portions of the slide are dominated by a large, centered rectangular figure with a light purple background and a dark border. This figure contains a diagram of a trajectory with several nodes; a black node is labeled 's_t' and a blue node is labeled 's_sub'. Below the trajectory diagram, within the same purple box, is a mathematical equation that defines the relationship between the two labeled states. The overall background is white, and the text density is light. A small, indistinct logo or thumbnail is located in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "method",
+      "t_start": 450.0,
+      "t_end": 483.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 450.0,
+          "image": "slide_23_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 467.0,
+          "image": "slide_23_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column content with title and bullet",
+        "title_text": "TD-aware Subgoal Sampling",
+        "layout_description": "The slide has a clean, white background with a large, bold title positioned at the top-left. Directly below the title is a single bullet point that introduces the concept. The main content area is split into two side-by-side sections. The left section contains a diagram within a light purple box, illustrating a trajectory with several nodes; a black node is labeled 's_t' and a blue node is labeled 's_sub'. Below this diagram, a text line specifies the sampling condition for 's_sub'. The right section contains two mathematical equation blocks separated by horizontal lines. The top block shows the 'Low-level policy objective' and the bottom block defines the 'Transform subgoal into direction vector'. Each equation is followed by a descriptive label. A reference citation is located at the bottom-left, and small organizational logos are visible in the bottom-right corner."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "experiments",
+      "t_start": 483.0,
+      "t_end": 495.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 483.0,
+          "image": "slide_24_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and grid of figures",
+        "title_text": "Experiments",
+        "layout_description": "The slide follows a top-down structure starting with a large, bold title 'Experiments' at the top-left. Directly below the title is a single bullet point containing a sentence that introduces the benchmarks and dataset types. The central part of the slide features two rows of images. The first row consists of three images showing 3D simulation environments, labeled 'AntMaze', 'Scene', and 'Kitchen', with a collective 'Environments' label centered below them. The second row contains three top-down 2D visualizations of maze paths, labeled 'Locomotion', 'Stitching', and 'Exploratory', with a collective 'Dataset Types' label centered below them. At the bottom-left corner, there are two bibliographic references in a small font size. The slide uses a clean white background with black text, maintaining a moderate text density focused on visual examples."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "experiments",
+      "t_start": 495.0,
+      "t_end": 497.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 495.0,
+          "image": "slide_25_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and image grid",
+        "title_text": "Experiments",
+        "layout_description": "The slide features a large, bold title 'Experiments' positioned at the top-left. Below the title, a single bullet point contains text that introduces the benchmarks and dataset types used for evaluation. The central part of the slide is organized into two horizontal rows of images. The first row, titled 'Environments' centered below it, displays three images: a maze with a callout zoom ('AntMaze'), a robotic arm in a workspace ('Scene'), and a robotic arm in a kitchen setting ('Kitchen'). The second row, titled 'Dataset Types' centered below it, shows three maze diagrams with colored trajectory lines labeled 'Locomotion', 'Stitching', and 'Exploratory'. At the bottom-left corner, there are two numbered bibliographic references in a smaller font. The slide uses a clean white background with black text, maintaining a moderate text density focused on visual illustrations of the experimental environments."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "experiments",
+      "t_start": 497.0,
+      "t_end": 504.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 497.0,
+          "image": "slide_26_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Questions",
+        "layout_description": "The slide features a minimalist single-column layout on a plain white background. A large, bold title 'Questions' is positioned at the top-left. Below the title, there is a numbered list of four questions, labeled Q1 through Q4, which are left-aligned. Each question follows a consistent color-coding scheme: the initial part of the sentence is in black text, while the key technical concepts at the end of each question are highlighted in a dark red font. Specifically, the red text highlights 'long-horizon reasoning?', 'stitching ability?', 'suboptimal datasets?', and 'image-based tasks?'. The slide has a very light text density with a large amount of empty white space in the bottom half, and it contains no images, charts, or decorative elements."
+      }
+    },
+    {
+      "slide_id": 27,
+      "slide_section": "results",
+      "t_start": 504.0,
+      "t_end": 510.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 504.0,
+          "image": "slide_27_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title, table, and bottom image row",
+        "title_text": "Results on state-based environments",
+        "layout_description": "The slide follows a top-down vertical structure. At the top-left, there is a large, bold main title, followed by a sub-heading phrased as a question with the key term 'long-horizon reasoning' highlighted in red. The middle section contains a wide, detailed data table that compares eight different methods (GCBC, GCIQL, QRL, CRL, HGCBC, HHILP, HIQL, and GAS) across five datasets grouped into 'Locomotion' and 'Manipulation' categories. The table uses light pink horizontal shading to emphasize specific rows. At the bottom of the slide, there is a horizontal row of four small, square images representing the experimental environments: AntMaze, Scene, Kitchen, and Locomotion. Each image is accompanied by a centered text label directly beneath it. The background is plain white, and the text density is moderate, focusing on numerical performance data."
+      }
+    },
+    {
+      "slide_id": 28,
+      "slide_section": "results",
+      "t_start": 510.0,
+      "t_end": 564.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 510.0,
+          "image": "slide_28_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 529.0,
+          "image": "slide_28_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title, subtitle, table, and bottom image row",
+        "title_text": "Results on state-based environments",
+        "layout_description": "The slide is organized vertically starting with a large, bold title at the top-left. Directly beneath it is a subtitle phrased as a research question, 'Q2. Does GAS demonstrate effective stitching ability?', where the phrase 'stitching ability' is highlighted in red text. The central portion of the slide is dominated by a large, detailed table comparing the performance of various algorithms (GCBC, GCIQL, QRL, CRL, HGCBC, HHILP, HIQL, and GAS) across three categories of datasets: Locomotion, Stitching, and Manipulation. The 'Stitching' rows in the table are highlighted with a light pink background to draw attention to the primary research question. The final column, 'GAS (ours)', contains the results for the proposed method. At the bottom of the slide, there is a horizontal row of five square images with labels underneath: 'AntMaze', 'Scene', 'Kitchen', 'Locomotion', and 'Stitching'. These images provide visual context for the environments and tasks mentioned in the table. The slide uses a clean white background with a moderate text density focused on quantitative data."
+      }
+    },
+    {
+      "slide_id": 29,
+      "slide_section": "results",
+      "t_start": 564.0,
+      "t_end": 570.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 564.0,
+          "image": "slide_29_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title, table, and image row",
+        "title_text": "Results on state-based environments",
+        "layout_description": "The slide features a clean white background with a large, bold black title positioned at the top-left. Below the title is a subtitle phrased as a research question, 'Q3. Can GAS effectively learn from suboptimal datasets?', where the word 'suboptimal' is highlighted in red for emphasis. The middle section of the slide is dominated by a large, detailed data table that spans nearly the entire width. This table compares the performance of various methods (GCBC, GCIQL, QRL, CRL, HGCBC, HHILP, HIQL, and GAS) across four categories of datasets: Locomotion, Stitching, Exploratory, and Manipulation. The proposed method, 'GAS (ours)', is located in the final column and its values are bolded to indicate superior performance. At the bottom of the slide, there is a horizontal row of six small square images. The first three images show 3D renderings of the environments (AntMaze, Scene, Kitchen), while the remaining three show top-down path visualizations for the Locomotion, Stitching, and Exploratory dataset types. Each image has a corresponding text label centered directly beneath it. The text density is moderate, primarily concentrated within the numerical data of the table."
+      }
+    },
+    {
+      "slide_id": 30,
+      "slide_section": "results",
+      "t_start": 570.0,
+      "t_end": 593.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 570.0,
+          "image": "slide_30_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title, table, and image row",
+        "title_text": "Results on state-based environments",
+        "layout_description": "The slide follows a top-to-bottom hierarchical structure. At the top-left, there is a large bold title, followed by a subtitle phrased as a research question: 'Q3. Can GAS effectively learn from suboptimal datasets?', where the word 'suboptimal' is emphasized in red. The central portion of the slide contains a large, dense data table that compares the performance of several algorithms (GCBC, GCIQL, QRL, CRL, HGCBC, HHILP, HIQL, and GAS) across four dataset categories: Locomotion, Stitching, Exploratory, and Manipulation. The 'GAS (ours)' column is highlighted with a light pink background to emphasize the proposed method's results. At the bottom of the slide, there is a row of six small images providing visual context for the environments and tasks listed in the table, including 3D renders of 'AntMaze', 'Scene', and 'Kitchen', as well as top-down path visualizations for 'Locomotion', 'Stitching', and 'Exploratory' tasks. The slide uses a clean white background with black text and horizontal rules to separate table sections."
+      }
+    },
+    {
+      "slide_id": 31,
+      "slide_section": "results",
+      "t_start": 593.0,
+      "t_end": 600.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 593.0,
+          "image": "slide_31_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Results on pixel-based environments",
+        "layout_description": "The slide follows a top-down single-column structure. At the top-left, there is a large bold title, followed by a sub-heading question 'Q4. Can GAS effectively handle image-based tasks?' where the phrase 'image-based tasks' is highlighted in red. The middle section contains a large, detailed table that spans the width of the slide, presenting quantitative results across four categories: Locomotion, Stitching, Exploratory, and Manipulation. The table compares six different models, with the final column 'GAS (ours)' showing the best performance in bold. At the bottom of the slide, there is a horizontal row of five small square images providing visual examples of the environments (AntMaze, Scene, Locomotion, Stitching, Exploratory). The first image includes a zoomed-in callout detail. The slide has a clean white background and a moderate text density primarily concentrated within the data table."
+      }
+    },
+    {
+      "slide_id": 32,
+      "slide_section": "results",
+      "t_start": 600.0,
+      "t_end": 611.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 600.0,
+          "image": "slide_32_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title, table, and image row",
+        "title_text": "Results on pixel-based environments",
+        "layout_description": "The slide follows a top-down vertical structure. At the top-left, there is a large bold title, followed by a subtitle phrased as a question ('Q4. Can GAS effectively handle image-based tasks?') with the key phrase highlighted in red. The middle section contains a wide, detailed table that presents quantitative results across four categories: Locomotion, Stitching, Exploratory, and Manipulation. The table compares six different models, with the 'GAS (ours)' model positioned in the final column. At the bottom of the slide, there is a horizontal row of five square images illustrating the different environments and tasks (AntMaze, Scene, Locomotion, Stitching, Exploratory), each with a centered text label underneath. The background is plain white, and the text density is moderate, primarily concentrated within the data table."
+      }
+    },
+    {
+      "slide_id": 33,
+      "slide_section": "conclusion",
+      "t_start": 611.0,
+      "t_end": 615.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 611.0,
+          "image": "slide_33_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and bottom-right graphic",
+        "title_text": "Conclutions",
+        "layout_description": "The slide follows a clean, single-column layout with a large, bold title 'Conclutions' positioned at the top-left. The main body consists of two primary bullet points. The first bullet point introduces the proposed 'GAS' method and is supported by two sub-bullets marked with checkmark icons, which use a combination of black and grey text to emphasize specific technical components. The second primary bullet point highlights performance across four key abilities, which are listed in a numbered format (1-4) with further indentation. In the bottom-right corner, there is a prominent QR code enclosed in a purple border, accompanied by a purple text label that reads 'Project website (paper, code)'. The background is plain white, and the text density is light, making the information easy to digest."
+      }
+    },
+    {
+      "slide_id": 34,
+      "slide_section": "conclusion",
+      "t_start": 615.0,
+      "t_end": 637.73,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 615.0,
+          "image": "slide_34_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and bottom-right graphic",
+        "title_text": "Conclutions",
+        "layout_description": "The slide features a large, bold title 'Conclutions' positioned at the top-left. The main body of the slide consists of two primary bullet points. The first bullet point introduces the 'GAS' approach, followed by two sub-bullets marked with checkmark icons; these sub-bullets use a mix of black and grey text to highlight specific features. The second primary bullet point lists four key abilities of 'GAS' in a numbered list format (1-4). In the bottom-right corner, there is a prominent QR code enclosed in a purple border, accompanied by the purple heading 'Project website' and the parenthetical note '(paper, code)'. The background is a solid white, and the text density is moderate, maintaining a clean and organized appearance."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 108,
+    "gemini_layout_calls": 81,
+    "total_gemini_calls": 189,
+    "total_frames_sampled": 638,
+    "batch_size": 15
+  }
+}

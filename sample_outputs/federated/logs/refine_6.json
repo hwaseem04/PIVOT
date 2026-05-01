@@ -1,0 +1,85 @@
+{
+    "style": "Slides",
+    "expected_build_steps": 5,
+    "elements": {
+        "title": "Experimental Results and Accuracy",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Table 1",
+            "caption": "Accuracy comparison of BlindFed against baselines across CIFAR and SVHN datasets"
+        },
+        "bullets": [
+            "Achieves near-LoRA accuracy with double-blind privacy",
+            "Outperforms linear probing under extreme data heterogeneity",
+            "Scales effectively to 50 clients with stable performance",
+            "Robust to out-of-distribution auxiliary distillation data"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "BlindFed achieves accuracy comparable to LoRA",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.04,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "while maintaining double-blind privacy.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 6.08,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "It significantly outperforms linear probing, especially under extreme data heterogeneity.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 9.12,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "The framework scales reliably to fifty clients",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 4,
+            "time_offset_sec": 12.16,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[3]"
+                }
+            ],
+            "audio_segment": "and remains effective even when the auxiliary distillation data is out-of-distribution.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 15.2
+}

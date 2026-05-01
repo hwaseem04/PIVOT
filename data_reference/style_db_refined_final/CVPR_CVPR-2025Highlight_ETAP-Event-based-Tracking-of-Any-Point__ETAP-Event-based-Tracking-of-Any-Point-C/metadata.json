@@ -1,0 +1,834 @@
+{
+  "video_id": "CVPR_CVPR-2025Highlight_ETAP-Event-based-Tracking-of-Any-Point__ETAP-Event-based-Tracking-of-Any-Point-C",
+  "duration": 336.53,
+  "fps_sampled": 1.0,
+  "total_slides": 38,
+  "slides_with_builds": 10,
+  "total_build_steps": 57,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 6.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "ETAP: Event-based Tracking of Any Point",
+        "layout_description": "This is a title slide with a clean, centered layout on a white background. At the very top, a horizontal row of four institutional logos is displayed: Technische Universit\u00e4t Berlin (left), Science of Intelligence (left-center), Robotics Institute Germany (center), and Penn Engineering GRASP Laboratory (right). The main title is centered in a large, black, sans-serif font. Below it, the subtitle 'CVPR 2025' appears in a smaller, blue font. The lower half of the slide contains the author list, centered in a single line with superscript numbers for affiliations. Beneath the authors, the corresponding affiliations are listed in a centered block, numbered 1 through 4. The text density is light, focusing entirely on identifying the paper, its authors, and their institutions."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 6.0,
+      "t_end": 15.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 6.0,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with bottom title",
+        "title_text": "Tracking Any Point: Infer 2D positions over time of any start point in a video",
+        "layout_description": "The slide is dominated by a large, centered image showing a horse and rider jumping over a hurdle in an outdoor arena. The image contains numerous small, colored tracking dots overlaid on the horse and rider to demonstrate point tracking. Below the image, a single line of bold, centered text serves as the title and task description. Underneath this title, a smaller line of text provides the video source URL. The background is plain white, and the overall text density is very light, emphasizing the visual content."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 15.0,
+      "t_end": 31.0,
+      "num_builds": 5,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 15.0,
+          "image": "slide_3_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 17.0,
+          "image": "slide_3_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 22.0,
+          "image": "slide_3_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 25.0,
+          "image": "slide_3_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 28.0,
+          "image": "slide_3_build_4.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with bottom title",
+        "title_text": "Tracking Any Point: Infer 2D positions over time of any start point in a video",
+        "layout_description": "The slide is dominated by a large, full-width image at the top that takes up approximately 80% of the vertical space. This image shows a paraglider in flight over a scenic, hilly landscape with a small town, featuring colorful rainbow-colored motion tracking trails behind the paraglider and its pilot. Below this central figure, a bold, black title is centered horizontally. Directly underneath the title is a smaller line of text in a lighter font providing the video source URL. The slide uses a plain white background, resulting in a very light text density that emphasizes the visual content."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "introduction",
+      "t_start": 31.0,
+      "t_end": 45.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 31.0,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single figure with bottom text",
+        "title_text": "Problem: Fails in difficult conditions, like fast movements or low light.",
+        "layout_description": "The slide features a minimalist layout on a plain white background. A rectangular image is positioned in the upper-left quadrant, depicting a blue fidget spinner attached to a silver aluminum extrusion rail. Directly above the top-left corner of this image is a small label in red text that reads '30x slower'. At the bottom of the slide, there is a single, prominent line of black text that serves as the main message, stating a problem related to performance in difficult conditions. The right half of the slide is entirely empty, resulting in a very light text density and a focus on the visual example and its corresponding limitation."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "introduction",
+      "t_start": 45.0,
+      "t_end": 57.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 45.0,
+          "image": "slide_5_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 46.0,
+          "image": "slide_5_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 47.0,
+          "image": "slide_5_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "None",
+        "layout_description": "The slide follows a comparison layout with two images positioned side-by-side in the top half and explanatory text in the bottom half. The top-left image shows a standard color photograph of a blue fidget spinner, with a small red caption '30x slower' placed directly above it. The top-right image displays a corresponding grayscale visualization of the same scene, likely representing event camera data, with colored tracking points (red, green, blue, and pink) overlaid on the spinner's arms. Below these figures, there are two left-aligned lines of text. The first line starts with the bold label 'Problem:' followed by a description of failure conditions like fast movements or low light. The second line starts with the bold label 'Proposed Solution:' followed by the suggested use of an event camera. The slide has a plain white background and a very light text density, focusing primarily on the visual comparison."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "introduction",
+      "t_start": 57.0,
+      "t_end": 60.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 57.0,
+          "image": "slide_6_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 59.0,
+          "image": "slide_6_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and bottom image row",
+        "title_text": "Key Contributions",
+        "layout_description": "The slide follows a minimalist layout with a white background. A large, plain-text title 'Key Contributions' is located at the top-left. Directly below it, there is a single bullet point that introduces 'The first event-only TAP (ETAP) method', with the core technical term in bold. The middle section of the slide is mostly empty white space. At the bottom, there is a horizontal row of four images providing qualitative examples of the method's output. These images include a bird with colorful motion trails, a sparse event-based scene, a 3D-like visualization with trajectories, and a dense event-based scene with multi-colored tracking lines. The text density is very light, emphasizing a single primary contribution through visual demonstration."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "introduction",
+      "t_start": 60.0,
+      "t_end": 77.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 60.0,
+          "image": "slide_7_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 63.0,
+          "image": "slide_7_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 67.0,
+          "image": "slide_7_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and bottom image row",
+        "title_text": "Key Contributions",
+        "layout_description": "The slide features a clean, minimalist design with a white background and black text. A large, bold title 'Key Contributions' is positioned at the top-left. The main body of the slide consists of a hierarchical bulleted list with three primary points. The first point highlights the 'event-only TAP (ETAP) method' with bold emphasis. The second point describes a novel 'Loss' term, also in bold. The third point, 'New Data', is followed by two indented sub-bullets detailing synthetic and real-world datasets. At the bottom of the slide, there is a horizontal row of four images providing qualitative examples of the work. The leftmost image is larger and depicts a bird with colorful motion trajectories, while the three smaller images to its right show various event-based data visualizations with similar colorful motion tracks overlaid on different scenes. The overall text density is light, focusing on high-level summaries."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 77.0,
+      "t_end": 90.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 77.0,
+          "image": "slide_8_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 86.0,
+          "image": "slide_8_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "input-process-output pipeline layout",
+        "title_text": "Input: Events, (query points) Output: 2D Point tracks",
+        "layout_description": "The slide features a horizontal flow diagram illustrating a data processing pipeline. On the left side, under the heading 'Input: Events, (query points)', there is a 3D space-time volume plot showing a dense cloud of red and blue event points with axes labeled x, y, and t. Two specific query points, q0 and q1, are indicated with green and orange arrows. Below this plot, two callout boxes show pairs of images: a standard photograph of a fidget spinner and its corresponding event-based representation at two different time intervals. In the center of the slide, a blue hourglass-shaped icon containing the Greek letter Psi represents the transformation function or neural network. On the right side, under the heading 'Output: 2D Point tracks', a matching 3D space-time volume plot displays smooth, multi-colored trajectories representing the tracked points over time. The overall design is clean with a white background and light text density, emphasizing the visual transition from raw event data to structured point tracks."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 90.0,
+      "t_end": 93.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 90.0,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "input-output pipeline layout",
+        "title_text": "Input: Events, (query points) Output: 2D Point tracks",
+        "layout_description": "The slide features a horizontal flow diagram illustrating a data processing pipeline. On the left side, under the heading 'Input: Events, (query points)', there is a 3D space-time plot (x, y, t axes) showing a dense cloud of red and blue event points. Two specific query points, q0 and q1, are indicated with green and orange arrows. Below this plot, two callout boxes show real-world images of a fidget spinner paired with their corresponding event-camera visualizations. In the center of the slide, a blue hourglass-shaped icon containing the Greek letter Psi represents the transformation function or neural network. On the right side, under the heading 'Output: 2D Point tracks', a matching 3D space-time plot displays smooth, multi-colored curves representing the continuous trajectories of points over time. The background is white, and the visual elements are organized to show a clear progression from raw event data to refined point tracks."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 93.0,
+      "t_end": 105.0,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 93.0,
+          "image": "slide_10_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 101.0,
+          "image": "slide_10_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with left-aligned flowchart",
+        "title_text": "Method",
+        "layout_description": "The slide features a centered title 'Method' at the top in a clean, sans-serif font. The content is concentrated on the left side of the slide, while the right side remains entirely blank. The content consists of a vertical flowchart illustrating a data processing step. At the top left, there is a 3D plot showing a cloud of red and blue points representing 'Input: Events (sliding window)' within a coordinate system labeled with x, y, and t axes. A blue arrow points downwards from this plot to a second visualization. The bottom visualization depicts a series of 2D grayscale image slices, labeled as 'Voxelgrids', which are arranged sequentially along a time axis (t) with spatial axes x and y. The overall text density is very light, and the slide uses a minimalist white background."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 105.0,
+      "t_end": 151.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 105.0,
+          "image": "slide_11_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 108.0,
+          "image": "slide_11_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 114.0,
+          "image": "slide_11_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "diagram-centric layout",
+        "title_text": "Method",
+        "layout_description": "The slide features a centered title 'Method' at the top in a standard font. The main content is a sequential flowchart illustrating a data processing pipeline, moving from top-left to bottom-right. It begins at the top-left with a 3D visualization of 'Events (sliding window)' plotted on x, y, and t axes. A blue arrow points downwards to a series of 'Voxelgrids' represented as stacked 2D slices in a similar 3D coordinate system. From the voxelgrids, a horizontal blue arrow leads to a trapezoidal block representing a neural network component labeled 'Feature extraction \u03a6'. A final horizontal arrow points to the rightmost part of the diagram, which displays three sequential gray feature maps. These maps show small 3D voxel representations and are overlaid with red and green dots connected by lines, illustrating tracking or correspondence. Mathematical notation, specifically 'D_t^{s,i,m}' and '(x_t^{s,i,m}, v_t^{s,i,m})', is placed below these feature maps. The slide has a white background, light text density, and uses a clean, diagrammatic style to explain the methodology."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "method",
+      "t_start": 151.0,
+      "t_end": 165.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 151.0,
+          "image": "slide_12_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 156.0,
+          "image": "slide_12_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 161.0,
+          "image": "slide_12_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "flowchart layout",
+        "title_text": "Training Data Generation",
+        "layout_description": "The slide uses a flowchart layout to describe a data generation pipeline on a plain white background. The title 'Training Data Generation' is located at the top-left in a simple black font. The process starts at the top-right with a grey-bordered box labeled 'Physics-based Rendering (Kubric)'. A green L-shaped arrow connects this box to a purple-bordered box on the left side of the slide. This purple box contains a single RGB image of objects on sand, with the text '2s @ 48 fps' to its left and 'RGB' centered below the image. A vertical green arrow points down from this box to a grey-bordered box labeled 'Video Upsampling (FILM)'. Another vertical green arrow leads from the FILM box to a final purple-bordered box at the bottom-left. This bottom box displays a stack of overlapping RGB images to represent a video sequence, with the text 'High fps (adaptive)' to its left and 'RGB' centered below. The visual elements are organized in a clear top-to-bottom, right-to-left flow with light text density."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "method",
+      "t_start": 165.0,
+      "t_end": 191.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 165.0,
+          "image": "slide_13_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 170.0,
+          "image": "slide_13_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 175.0,
+          "image": "slide_13_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "flowchart diagram",
+        "title_text": "Training Data Generation",
+        "layout_description": "The slide illustrates a multi-stage data generation pipeline using a flowchart layout on a white background. At the top left, there is a simple black title 'Training Data Generation'. The process begins at the top center with a grey-bordered box labeled 'Physics-based Rendering (Kubric)'. Green arrows lead from this box down to a middle row of images enclosed in a purple frame. This row is labeled '2s @ 48 fps' on the left and contains one 'RGB' image followed by five 'Dense Annotations' images (showing depth, normals, optical flow, and segmentation maps). From the first RGB image, a green arrow points down to a grey box titled 'Video Upsampling (FILM)'. This leads to the bottom row, which starts with a stack of images labeled 'RGB' and 'High fps (adaptive)' on the left. A green arrow connects this stack to a grey box labeled 'Event Generation (ESIM)', which finally points to a single 'Events' image on the bottom right. The layout uses a clear hierarchical flow from top to bottom and left to right, with light text density and a focus on visual data representations."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "results",
+      "t_start": 191.0,
+      "t_end": 195.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 191.0,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "Evaluation",
+        "layout_description": "The slide follows a clean grid layout with a simple title 'Evaluation' located at the top-left corner. The main body of the slide is organized into two rows of three images each, totaling six visual panels. Each panel displays a grayscale visualization of event-based camera data with colorful point trajectories overlaid, representing motion tracking. Below each image is a centered text label identifying the dataset: the top row features 'EVIMO2', 'E2D2', and 'EventKubric', while the bottom row shows 'EDS', 'EC', and 'PennAviary'. The background is a solid white, and there are no bullet points or equations, resulting in a very light text density focused on qualitative visual results."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "results",
+      "t_start": 195.0,
+      "t_end": 211.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 195.0,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "Evaluation",
+        "layout_description": "The slide features a clean grid layout with a simple title 'Evaluation' positioned at the top-left corner. The main content consists of six images arranged in a 2x3 grid, showcasing qualitative results across different datasets. Each image displays a grayscale scene with vibrant, multi-colored trajectories or point tracks overlaid, representing motion or event-based data. Below each image is a centered text label identifying the dataset: the top row includes 'EVIMO2', 'E2D2', and 'EventKubric', while the bottom row includes 'EDS', 'EC', and 'PennAviary'. The background is a uniform light gray, and the overall text density is light, prioritizing visual data over descriptive text."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "results",
+      "t_start": 211.0,
+      "t_end": 215.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 211.0,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered title slide",
+        "title_text": "Results",
+        "layout_description": "The slide follows a minimalist section header layout. It features a single word, 'Results', positioned in the exact center of the frame both horizontally and vertically. The background is a solid, plain white with no decorative elements, logos, or page numbers. The text is set in a clean, black, sans-serif font of moderate weight and size. Due to the lack of any other content, the text density is extremely light, serving as a clear visual transition to the results section of the presentation."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "experiments",
+      "t_start": 215.0,
+      "t_end": 218.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 215.0,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered title and subtitle",
+        "title_text": "peanuts_running_2360_2460",
+        "layout_description": "The slide follows a minimalist, centered layout on a plain white background. The primary title, 'peanuts_running_2360_2460', is displayed in a large, black, sans-serif font in the middle of the frame. Directly beneath it, a smaller subtitle provides additional context: 'EDS Dataset \u2013 640 x 480 px'. There are no other visual elements such as bullet points, columns, images, or logos. The text density is very light, creating a clean and focused presentation of a specific dataset entry."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "results",
+      "t_start": 218.0,
+      "t_end": 225.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 218.0,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure",
+        "title_text": "",
+        "layout_description": "The slide consists of a single, large-scale figure centered on a plain white background, occupying nearly the entire slide area. The figure is a grayscale image that appears to be a visualization of feature points or a depth map of a physical scene. The scene contains three figurines of Peanuts characters and a desk lamp arranged on a flat surface. Overlaid on these objects are several small, multi-colored dots (red, orange, yellow, green, cyan, blue, and purple), likely representing detected keypoints or tracked features in a computer vision task. There is no title, header, footer, or any form of text on the slide, resulting in a zero text density. The overall presentation is purely visual, focusing on the qualitative demonstration of a method's output."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "results",
+      "t_start": 225.0,
+      "t_end": 228.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 225.0,
+          "image": "slide_19_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure",
+        "title_text": "none",
+        "layout_description": "The slide features a single, large figure centered on a white background, occupying the majority of the frame. There is no title, header, footer, or any textual content. The figure itself is a grayscale top-down image, likely an aerial view of a terrain or urban environment, which serves as a backdrop for numerous multi-colored curved lines. These lines, appearing in a variety of colors including red, yellow, green, blue, and purple, represent movement trajectories or paths. Many of these paths terminate in small, solid-colored dots that correspond to the color of the line. The trajectories are densely clustered and overlap significantly, particularly in the left and central regions of the image. The overall layout is purely visual, providing a qualitative representation of motion data without any explanatory text."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "experiments",
+      "t_start": 228.0,
+      "t_end": 231.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 228.0,
+          "image": "slide_20_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered title and subtitle",
+        "title_text": "ziggy_in_the_arena_1350_1650",
+        "layout_description": "The slide follows a minimalist, centered layout on a plain white background. The main title, 'ziggy_in_the_arena_1350_1650', is positioned in the middle of the frame in a standard black sans-serif font. Directly beneath it is a subtitle, 'EDS Dataset \u2013 640 x 480 px', which provides technical details about the data being referenced. There are no bullet points, columns, figures, or decorative elements. The text density is very light, focusing the viewer's attention entirely on the centered text block."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "results",
+      "t_start": 231.0,
+      "t_end": 240.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 231.0,
+          "image": "slide_21_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure",
+        "title_text": "",
+        "layout_description": "The slide consists of a single, large grayscale figure centered on a plain white background. The figure displays a 3D-like visualization, possibly a depth map or a surface scan, of two distinct objects that resemble anatomical structures. Overlaid on these structures are several small, colored circular markers or landmarks in various colors including red, cyan, blue, and magenta. There is no title, heading, bullet points, or any form of text present on the slide. The layout is minimalist, focusing entirely on the visual data presented in the central image. The text density is zero, and there are no other decorative elements, logos, or page numbers."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "results",
+      "t_start": 240.0,
+      "t_end": 261.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 240.0,
+          "image": "slide_22_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure",
+        "title_text": "",
+        "layout_description": "The slide features a full-screen figure with no accompanying text, titles, or headers. The background of the figure is a dark grayscale image showing what appears to be anatomical or mechanical structures. Overlaid on this image are numerous thin, multi-colored lines in shades of red, cyan, blue, purple, and magenta. These lines form complex, overlapping paths or contours, suggesting motion tracking or structural analysis. Some of the lines include small circular markers at specific points. The overall layout is minimalist, focusing entirely on the visual data representation. There are no bullet points, columns, or equations, resulting in a zero text density."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "experiments",
+      "t_start": 261.0,
+      "t_end": 264.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 261.0,
+          "image": "slide_23_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "shapes_6dof_485_565",
+        "layout_description": "The slide features a minimalist, centered layout on a plain white background. The main title, 'shapes_6dof_485_565', is positioned in the center of the slide in a standard black font. Directly below the title is a subtitle that reads 'EC Dataset \u2013 240 x 180 px', providing specific details about the dataset being presented. There are no other visual elements, such as logos, page numbers, or graphics, resulting in a very low text density and a clean, focused appearance."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "results",
+      "t_start": 264.0,
+      "t_end": 270.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 264.0,
+          "image": "slide_24_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure",
+        "title_text": "",
+        "layout_description": "The slide features a single, large figure centered within the frame against a plain white background. The figure itself is a grayscale image depicting several dark geometric shapes\u2014including a star, circles, triangles, and rectangles\u2014distributed across a uniform gray field. Each shape is annotated with small, brightly colored dots and short trailing lines of the same color (red, orange, yellow, green, cyan, blue, purple, and pink), which appear to represent feature points and their corresponding motion vectors or trajectories. There are no titles, headers, bullet points, or any other text elements present on the slide. The visual focus is entirely on the qualitative demonstration of tracking or detection shown in the image."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "results",
+      "t_start": 270.0,
+      "t_end": 272.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 270.0,
+          "image": "slide_25_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single figure layout",
+        "title_text": "none",
+        "layout_description": "The slide features a single, centered rectangular figure against a plain white background. The figure is a grayscale image showing several small objects, each associated with a colorful, winding line that traces its movement path. These trajectories are rendered in various bright colors, including orange, yellow, green, cyan, blue, purple, and magenta. Small colored dots are positioned at the ends of these lines, indicating the current location of each tracked object. There is no title, text, or other decorative elements on the slide, making it a purely visual representation of qualitative tracking results. The layout is simple and focused, with a very low text density."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "experiments",
+      "t_start": 272.0,
+      "t_end": 275.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 272.0,
+          "image": "slide_26_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "shapes_translation_8_88",
+        "layout_description": "The slide features a minimalist, centered layout on a plain white background. The main title, 'shapes_translation_8_88', is positioned in the vertical and horizontal center of the slide in a clean, sans-serif font. Directly below this title is a subtitle that reads 'EC Dataset \u2013 240 x 180 px', providing specific details about the dataset being introduced. There are no bullet points, columns, images, or decorative elements, resulting in a very light text density. The overall design is simple and focused, serving as a section header or introductory slide for a specific experimental dataset."
+      }
+    },
+    {
+      "slide_id": 27,
+      "slide_section": "results",
+      "t_start": 275.0,
+      "t_end": 283.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 275.0,
+          "image": "slide_27_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure",
+        "title_text": "none",
+        "layout_description": "The slide features a single, large figure centered on a white background. The figure itself has a uniform gray background and displays several simple geometric shapes: an oval, a star, an L-shaped polygon, a hexagon, a triangle, and a rectangle. These shapes are outlined in a light gray or white color, suggesting they might be extracted from a noisy or low-contrast source. Each shape is annotated with one or two small, vibrant colored dots (red, orange, green, cyan, blue, and magenta), which likely represent detected keypoints or feature markers. There is no title, text, bullet points, or any other decorative elements present on the slide. The overall text density is zero, focusing entirely on the visual data."
+      }
+    },
+    {
+      "slide_id": 28,
+      "slide_section": "experiments",
+      "t_start": 283.0,
+      "t_end": 285.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 283.0,
+          "image": "slide_28_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered title with subtitle",
+        "title_text": "New Groundtruth!",
+        "layout_description": "The slide features a minimalist, centered layout on a plain white background. A small, green-colored heading 'New Groundtruth!' is positioned in the top-left corner. The primary content is centered vertically and horizontally, consisting of a large black title 'Fidget spinner' followed by a smaller subtitle 'E2D2 Dataset \u2013 640 x 480 px' directly underneath. There are no other visual elements like images, bullets, or logos, resulting in a very light text density. The slide appears to be introducing a specific dataset or category within an experimental setup."
+      }
+    },
+    {
+      "slide_id": 29,
+      "slide_section": "experiments",
+      "t_start": 285.0,
+      "t_end": 286.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 285.0,
+          "image": "slide_29_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered title with subtitle",
+        "title_text": "Fidget spinner",
+        "layout_description": "The slide has a minimalist, clean layout with a plain white background. In the top-left corner, there is a small heading in a green font that reads 'New Groundtruth!'. The primary focus of the slide is centered horizontally and vertically, featuring a large black title 'Fidget spinner'. Directly beneath this title is a smaller subtitle in black text that specifies the dataset and resolution: 'E2D2 Dataset \u2013 640 x 480 px'. There are no bullet points, images, tables, or other decorative elements, resulting in a very light text density."
+      }
+    },
+    {
+      "slide_id": 30,
+      "slide_section": "experiments",
+      "t_start": 286.0,
+      "t_end": 300.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 286.0,
+          "image": "slide_30_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and centered figure",
+        "title_text": "New Groundtruth!",
+        "layout_description": "The slide follows a minimalist layout with a title positioned at the top-left and a large, centered figure. The title 'New Groundtruth!' is rendered in a green, sans-serif font. Below the title, a large square image is centered on the white background. This image shows a grayscale fidget spinner against a dark gray backdrop, with several small, colored dots (red, green, blue, and pink) overlaid on its surface, likely representing keypoint annotations or ground truth data. There are no bullet points, columns, or equations, making the text density very light and focusing the viewer's attention entirely on the visual data presented in the central figure."
+      }
+    },
+    {
+      "slide_id": 31,
+      "slide_section": "results",
+      "t_start": 300.0,
+      "t_end": 301.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 300.0,
+          "image": "slide_31_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "New Groundtruth!",
+        "layout_description": "The slide has a minimalist layout with a plain white background. A single line of text, 'New Groundtruth!', serves as the title and is located in the top-left corner, rendered in a green sans-serif font. The primary content is a large, square image centered in the middle of the slide. This image shows a grayscale top-down view of a three-lobed object, resembling a fidget spinner, against a dark gray background. Overlaid on this object are numerous colorful, concentric, and overlapping circular trajectories in magenta, red, green, and blue. Small colored dots are placed along these paths, likely representing specific data points or tracked positions. There are no bullet points, columns, or equations, resulting in a very light text density that emphasizes the visual data."
+      }
+    },
+    {
+      "slide_id": 32,
+      "slide_section": "experiments",
+      "t_start": 301.0,
+      "t_end": 304.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 301.0,
+          "image": "slide_32_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered text layout",
+        "title_text": "New Groundtruth!",
+        "layout_description": "The slide has a clean, minimalist design with a plain white background. A short heading, 'New Groundtruth!', is positioned in the top-left corner in a green, sans-serif font. The primary content is centered in the middle of the slide, consisting of two lines of black text. The top line is larger and displays a scene identifier, 'scene13_dyn_test_00'. Directly below it is a smaller line of text providing dataset details: 'EVIMO2 Dataset \u2013 640 x 480 px'. There are no images, charts, or complex visual elements, resulting in a very light text density that emphasizes the specific test case information."
+      }
+    },
+    {
+      "slide_id": 33,
+      "slide_section": "results",
+      "t_start": 304.0,
+      "t_end": 314.0,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 304.0,
+          "image": "slide_33_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 306.0,
+          "image": "slide_33_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 308.0,
+          "image": "slide_33_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "New Groundtruth!",
+        "layout_description": "The slide follows a minimalist layout featuring a title at the top-left and a large central figure. The title 'New Groundtruth!' is rendered in a green, sans-serif font. Below the title, a large rectangular image is centered on the slide. This image displays a grayscale edge-detected scene, likely of a tabletop with various objects and large block letters. Overlaid on the grayscale background are numerous small, colored arrows that follow a vertical rainbow gradient: red arrows are at the top, transitioning through orange, yellow, green, cyan, and blue to purple arrows at the bottom. These arrows likely represent vector field data such as optical flow or surface normals. The overall background of the slide is plain white, and there are no additional text elements, bullet points, or logos, making the text density very light."
+      }
+    },
+    {
+      "slide_id": 34,
+      "slide_section": "experiments",
+      "t_start": 314.0,
+      "t_end": 315.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 314.0,
+          "image": "slide_34_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered text layout",
+        "title_text": "New Groundtruth!",
+        "layout_description": "The slide has a clean, minimalist design with a plain white background. A heading, 'New Groundtruth!', is positioned in the top-left corner in a green font. The primary content is centered both horizontally and vertically on the slide, consisting of two lines of black text. The top line is a larger identifier, 'scene14_dyn_test_03', and the line immediately below it provides context in a smaller font: 'EVIMO2 Dataset \u2013 640 x 480 px'. There are no other visual elements like images, charts, or bullet points, leading to a very light text density."
+      }
+    },
+    {
+      "slide_id": 35,
+      "slide_section": "experiments",
+      "t_start": 315.0,
+      "t_end": 317.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 315.0,
+          "image": "slide_35_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered text layout",
+        "title_text": "New Groundtruth!",
+        "layout_description": "The slide features a minimalist design on a plain white background. A small heading in a green font, 'New Groundtruth!', is positioned in the top-left corner. The primary content is centered in the middle of the slide, consisting of two lines of black text. The top line is a larger, sans-serif font displaying a scene identifier: 'scene14_dyn_test_03'. Directly below it is a subtitle in a smaller font providing dataset details: 'EVIMO2 Dataset \u2013 640 x 480 px'. There are no other visual elements, such as images, bullet points, or logos, resulting in a very light text density."
+      }
+    },
+    {
+      "slide_id": 36,
+      "slide_section": "results",
+      "t_start": 317.0,
+      "t_end": 327.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 317.0,
+          "image": "slide_36_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and figure",
+        "title_text": "New Groundtruth!",
+        "layout_description": "The slide features a minimalist layout on a plain white background. A single line of text serving as the title, 'New Groundtruth!', is located at the top-left corner in a green, sans-serif font. Below the title, a large rectangular figure is centered horizontally and occupies the majority of the slide's remaining space. The figure displays a grayscale, high-contrast image that appears to be an edge-map or event-based camera output of a scene with a checkerboard and a small toy vehicle. Overlaid on this image is a regular grid of small, colored circular markers. These markers follow a vertical rainbow color gradient, transitioning from red and orange at the top, through yellow and green in the middle, to blue and magenta at the bottom. There are no bullet points, additional text, or equations, resulting in a very light text density focused entirely on the visual qualitative result."
+      }
+    },
+    {
+      "slide_id": 37,
+      "slide_section": "other",
+      "t_start": 327.0,
+      "t_end": 330.0,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 327.0,
+          "image": "slide_37_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "closing slide",
+        "title_text": "Thanks for Watching!",
+        "layout_description": "The slide follows a minimalist, centered layout on a plain white background. At the top, a horizontal row of four institutional logos is displayed: the Technische Universit\u00e4t Berlin logo on the far left, the 'science of intelligence' logo, the 'RIG Robotics Institute Germany' logo, and the Penn Engineering GRASP LABORATORY logo on the far right. The main body of the slide features the centered text 'Thanks for Watching!' in a medium-sized black font. Below this, a single line of text provides the 'Project Page:' followed by a blue, underlined hyperlink to a GitHub repository. The slide has a very light text density, serving as a final contact and acknowledgment page."
+      }
+    },
+    {
+      "slide_id": 38,
+      "slide_section": "other",
+      "t_start": 330.0,
+      "t_end": 336.53,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 330.0,
+          "image": "slide_38_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered closing slide",
+        "title_text": "Thanks for Watching!",
+        "layout_description": "The slide follows a minimalist, centered layout on a plain white background. At the top, a horizontal row of four institutional logos is distributed across the width: Technische Universit\u00e4t Berlin on the far left, Science of Intelligence, Robotics Institute Germany, and Penn Engineering GRASP Laboratory on the far right. The middle of the slide features the primary text 'Thanks for Watching!' in a large, black, sans-serif font. Directly below this, a secondary line of text provides the 'Project Page:' followed by a blue, underlined hyperlink to a GitHub repository. The slide has a very light text density, serving as a concluding or Q&A slide for the presentation."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 502,
+    "gemini_layout_calls": 488,
+    "total_gemini_calls": 990,
+    "total_frames_sampled": 337,
+    "batch_size": 15
+  }
+}

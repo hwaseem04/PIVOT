@@ -1,0 +1,409 @@
+{
+  "video_id": "ICLR_ICLR-2025-I_Con-A-Unifying-Framework-for-Representation-Learning__ICLR-2025-A-New-Periodic-Table-in-Machine",
+  "duration": 345.51,
+  "fps_sampled": 1.0,
+  "total_slides": 13,
+  "slides_with_builds": 9,
+  "total_build_steps": 42,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 7.74,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "I-Con: A Unifying Framework for Representation Learning",
+        "layout_description": "The slide follows a horizontal split-screen design. The top half has a solid blue background and contains the main title in large, white, centered text, with a smaller subtitle 'ICLR 2025' centered below it. The bottom half has a light gray background and features a row of five circular author portraits. Each portrait is accompanied by the author's name and numerical superscripts for affiliations directly underneath. At the bottom of the slide, three institutional logos (MIT, Google, and Microsoft) are arranged horizontally, each preceded by its corresponding superscript number. The overall text density is light, creating a clean and professional appearance typical of a presentation opening."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 7.74,
+      "t_end": 14.51,
+      "num_builds": 7,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 7.74,
+          "image": "slide_2_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 8.71,
+          "image": "slide_2_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 9.68,
+          "image": "slide_2_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 10.64,
+          "image": "slide_2_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 11.61,
+          "image": "slide_2_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 12.58,
+          "image": "slide_2_build_5.jpg"
+        },
+        {
+          "build_id": 6,
+          "timestamp": 13.55,
+          "image": "slide_2_build_6.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "N/A",
+        "layout_description": "The slide is a dense collage or grid layout featuring snippets from the first pages of eleven different academic papers. These snippets are arranged across the entire slide in roughly three irregular rows. Each snippet typically includes the paper's title, author list, and abstract, and is accompanied by a bold text label indicating the publication venue and year (e.g., 'NeurIPS 2002', 'CVPR 2023', 'ICML 2021'). Some snippets also contain small figures, diagrams, or charts. There is no single overarching title for the slide itself. The background is plain white, and the overall text density is very high due to the multiple abstracts and headers displayed simultaneously."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "method",
+      "t_start": 14.51,
+      "t_end": 24.19,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 14.51,
+          "image": "slide_3_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 15.48,
+          "image": "slide_3_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 16.45,
+          "image": "slide_3_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 17.42,
+          "image": "slide_3_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "collage layout",
+        "title_text": "None",
+        "layout_description": "The slide is a dense collage of multiple academic paper snippets arranged in a roughly grid-like, overlapping fashion on a plain white background. Each snippet typically contains the paper's title, authors, and abstract, and some include figures, tables, or mathematical equations. Large, bold text labels indicating publication venues and years (e.g., 'ICLR 2023', 'CVPR 2022', 'JMLR 2014', 'arXiv 2025') are scattered throughout the slide, positioned near the corresponding paper excerpts to provide a chronological or thematic context. There is no single overarching title for the slide; instead, it serves as a visual bibliography or a map of foundational related work. The text density is extremely high due to the numerous abstracts and paper sections shown, creating a complex and information-rich visual field."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "method",
+      "t_start": 24.19,
+      "t_end": 28.06,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 24.19,
+          "image": "slide_4_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 25.16,
+          "image": "slide_4_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 26.13,
+          "image": "slide_4_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 27.09,
+          "image": "slide_4_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "Supervisory Signal",
+        "layout_description": "The slide features a large, color-coded grid layout that functions as a taxonomy for machine learning methods. The horizontal axis is labeled 'Supervisory Signal' at the top, while the vertical axis is labeled 'Learned Representation' on the far left. The grid is composed of 5 rows and 9 columns. Each cell is filled with a background color corresponding to a legend at the bottom: blue for Dimensionality Reduction, orange for Cluster Learning, pink for Unimodal SSL, purple for Multimodal SSL, green for Supervised Learning, and grey for Interpretation of Gaps. Within the cells, there are text labels for specific algorithms (e.g., 'PCA', 'Dual t-SNE', 't-CLIP') and small thumbnail images of academic papers, some of which are stacked or overlapping to indicate multiple works in that category. One specific cell in the bottom-middle is labeled 'InfoNCE Clustering [Ours]', indicating the context of the presenter's work. The text density is moderate to dense due to the numerous labels and small paper snippets."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "method",
+      "t_start": 28.06,
+      "t_end": 29.03,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 28.06,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "A Unified Framework for Representation Learning",
+        "layout_description": "The slide features a large, color-coded matrix that serves as a unified framework. The title is positioned at the top-left in a medium-weight grey font. The main content is a grid where the vertical axis on the left is labeled 'Learned Representation' and the horizontal axis at the top is labeled 'Supervisory Signal'. The rows and columns categorize various machine learning methods based on these two dimensions. Each cell in the grid contains the name of a specific algorithm or paper (e.g., SNE, PCA, CLIP, SimCLR) often accompanied by a small thumbnail image of the corresponding research paper. The cells are filled with different colors to indicate categories: blue for Dimensionality Reduction, orange for Cluster Learning, pink for Unimodal SSL, purple for Multimodal SSL, and green for Supervised Learning. Grey cells are labeled as 'Interpretation of Gaps'. At the bottom of the slide, a horizontal legend explains these color codes using small colored squares next to their respective labels. The overall text density is moderate, and the background is a clean white."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 29.03,
+      "t_end": 59.03,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 29.03,
+          "image": "slide_6_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 33.87,
+          "image": "slide_6_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 41.61,
+          "image": "slide_6_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with bullets and a large central table",
+        "title_text": "A Unified Framework for Representation Learning",
+        "layout_description": "The slide features a large bold title at the top-left, followed by two bullet points that introduce the 'I-Con' loss and the 'Periodic Table of Methods'. The central and largest element is a complex grid-based table titled 'Supervisory Signal' on the horizontal axis and 'Learned Representation' on the vertical axis. This table organizes various machine learning methods (e.g., SNE, PCA, CLIP, SimCLR) into cells, many of which are color-coded. The horizontal axis contains nine categories, while the vertical axis contains five. At the bottom of the slide, a horizontal legend explains the color coding: blue for Dimensionality Reduction, orange for Cluster Learning, pink for Unimodal SSL, purple for Multimodal SSL, green for Supervised Learning, and grey for Interpretation of Gaps. The overall text density is moderate to dense, with a clean, professional aesthetic using a light grey background and distinct colored blocks within the table."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "method",
+      "t_start": 59.03,
+      "t_end": 72.57,
+      "num_builds": 4,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 59.03,
+          "image": "slide_7_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 62.9,
+          "image": "slide_7_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 65.8,
+          "image": "slide_7_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 70.64,
+          "image": "slide_7_build_3.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "diagram-based flow layout",
+        "title_text": "Framework Overview",
+        "layout_description": "The slide features a large, bold title 'Framework Overview' positioned at the top-left corner. The main content consists of a horizontal flow diagram on a clean white background. On the left side, there is a 2x2 grid of four small images depicting a dog, a cat, and two different flowers. A black arrow points from these images toward the center, labeled with the text 'Supervisory Signal' and a smaller subtext listing examples like 'Gaussian, Paired Inputs and Classes, Augmentation Pairs'. In the center of the slide, there is a 4x4 grid titled 'Supervisory Conditional Distribution' with cells shaded in various intensities of green. To the right of this grid, a mathematical conditional probability expression is shown next to a bar chart. The bar chart features three green bars of varying heights, with small thumbnail images of a flower, a dog, and a cat aligned under the x-axis. The slide has a light text density and uses a simple color scheme of black, white, and shades of green."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 72.57,
+      "t_end": 118.05,
+      "num_builds": 5,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 72.57,
+          "image": "slide_8_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 73.54,
+          "image": "slide_8_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 77.41,
+          "image": "slide_8_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 79.35,
+          "image": "slide_8_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 85.15,
+          "image": "slide_8_build_4.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "schematic flow diagram",
+        "title_text": "Framework Overview",
+        "layout_description": "The slide features a large, bold title 'Framework Overview' at the top-left. The main content is a horizontal flow diagram illustrating a machine learning architecture. On the far left, a 2x2 grid of images (a dog, a cat, and two flowers) serves as the input. These images feed into a gray trapezoidal block labeled 'Mapper f_theta'. The output of this mapper is shown as 'Learned Representations,' represented by four vertical colored bars. From here, the diagram splits into two parallel horizontal paths. The top path, labeled 'Learned Conditional Distribution,' features a red-toned heatmap grid followed by a continuous probability distribution plot q(i|lotus). The bottom path, labeled 'Supervisory Conditional Distribution,' is preceded by a 'Supervisory Signal' text label with examples (Gaussian, Paired Inputs, etc.) and features a green-toned heatmap grid followed by a discrete bar chart p(i|lotus). On the far right, both paths converge into a mathematical expression for KL divergence, indicated by brackets and an integral symbol. The overall text density is moderate, and the background is a clean, solid white."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "method",
+      "t_start": 118.05,
+      "t_end": 130.63,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 118.05,
+          "image": "slide_9_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 128.7,
+          "image": "slide_9_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "Examples of methods as special cases of I-Con via different choices of p, q, and f_\u03b8",
+        "layout_description": "The slide uses a 2x2 grid layout to categorize different machine learning methods. At the top, a centered title introduces the concept of these methods being special cases of a framework called 'I-Con'. Below the title, four distinct quadrants are defined by colored header bars. The top-left quadrant features a blue bar labeled 't-SNE (Dimensionality Reduction)' and includes a scatter plot of 'High Dimensional Features' showing points arranged in a curved shape on a 2D axis. The top-right quadrant has a purple bar labeled 'SimCLR (Self-Supervised Learning)'. The bottom-left quadrant has an orange bar labeled 'K-Means (Clustering)', and the bottom-right quadrant has a green bar labeled 'Supervised Cross Entropy (Classification)'. Except for the top-left quadrant, the areas below the colored bars are currently empty, indicating a light text density and a focus on visual categorization. The background is plain white, providing a clean and structured appearance."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 130.63,
+      "t_end": 331.9,
+      "num_builds": 7,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 130.63,
+          "image": "slide_10_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 134.5,
+          "image": "slide_10_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 139.34,
+          "image": "slide_10_build_2.jpg"
+        },
+        {
+          "build_id": 3,
+          "timestamp": 141.27,
+          "image": "slide_10_build_3.jpg"
+        },
+        {
+          "build_id": 4,
+          "timestamp": 216.75,
+          "image": "slide_10_build_4.jpg"
+        },
+        {
+          "build_id": 5,
+          "timestamp": 231.26,
+          "image": "slide_10_build_5.jpg"
+        },
+        {
+          "build_id": 6,
+          "timestamp": 259.33,
+          "image": "slide_10_build_6.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "Examples of methods as special cases of I-Con via different choices of p, q, and f_\u03b8",
+        "layout_description": "The slide features a 2x2 grid layout organized around a central focal point. At the top, a large centered title introduces the theme. Below the title, four distinct quadrants represent different machine learning methods, each identified by a colored header bar: blue for t-SNE (top-left), purple for SimCLR (top-right), orange for K-Means (bottom-left), and green for Supervised Cross Entropy (bottom-right). In the center of the slide, a prominent white box with a black border contains a general KL-divergence loss equation that unifies these methods. Each quadrant contains a diagram illustrating a data flow: input features or images on the left, a blue trapezoidal block representing a mapping function f_\u03b8 (labeled 'Lookup' or 'Mapper'), and the resulting output space on the right. These diagrams include mathematical definitions for probability distributions p and q specific to each method. The SimCLR section uniquely includes small photographic images of a dog and a rose to demonstrate data augmentation. The bottom-right quadrant is notably less detailed than the others. The overall text density is moderate, effectively balancing complex diagrams, mathematical notation, and descriptive labels against a clean white background."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "method",
+      "t_start": 331.9,
+      "t_end": 333.83,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 331.9,
+          "image": "slide_11_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 332.87,
+          "image": "slide_11_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "More methods can be expressed similarly",
+        "layout_description": "The slide features a large, central grid layout that categorizes various machine learning methods. At the top left, there is a simple, medium-sized title. The main content is a table with a horizontal header labeled 'Supervisory Signal p' and a vertical header on the left labeled 'q Based on Learned Representations'. The table consists of nine columns and five rows of data cells. Each cell contains the name of a specific algorithm and its citation, such as 'SNE [Hinton 2002]' or 'CLIP [Radford 2021]'. The cells are color-coded according to their category. Below the table, a horizontal legend explains the color scheme: blue for Dimensionality Reduction, orange for Cluster Learning, pink for Unimodal SSL, purple for Multimodal SSL, green for Supervised Learning, and grey for Interpretation of Gaps. The text density is moderate, with a clean white background and a structured, academic appearance."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "method",
+      "t_start": 333.83,
+      "t_end": 336.74,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 333.83,
+          "image": "slide_12_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "grid layout",
+        "title_text": "More methods can be expressed similarly",
+        "layout_description": "The slide features a large, structured grid layout centered on a comprehensive table that categorizes various machine learning methods. At the top left, there is a simple black title. Below the title, a horizontal header labeled 'Supervisory Signal p' spans across nine columns, which include categories like Gaussian, Student-T, Identity, Graph Kernel Weights, and others. On the left side, a vertical header labeled 'q Based on Learned Representations' defines five rows, including Gaussian, Gaussian with varying sigma values, Student-T, and Uniform on Clusters. The cells within the table contain specific algorithm names and their corresponding citations (e.g., 'SNE [Hinton 2002]', 'CLIP [Radford 2021]'). These cells are color-coded to indicate their functional category. A horizontal legend at the bottom explains the color scheme: blue for Dimensionality Reduction, orange for Cluster Learning, pink for Unimodal SSL, purple for Multimodal SSL, green for Supervised Learning, and grey for Interpretation of Gaps. The overall text density is moderate to dense, presenting a structured taxonomy of related work on a clean white background."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "other",
+      "t_start": 336.74,
+      "t_end": 345.51,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 336.74,
+          "image": "slide_13_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "split layout with header and grid",
+        "title_text": "Thank you for watching!",
+        "layout_description": "The slide features a prominent blue header bar at the top containing the centered white text 'Thank you for watching!'. Below this header, the slide is divided into two main sections. On the left, there is a vertical column containing a call-to-action text, a short URL in pink, a large black-and-white QR code, and three small icons representing a paper, Google Colab, and GitHub. The right and central portion of the slide is occupied by a large, complex grid table. This table serves as a taxonomy, with 'Supervisory Signal p' as the horizontal axis and 'Learned Representations' as the vertical axis. The table cells are color-coded (blue, pink, purple, green, orange, and grey) and contain names of various machine learning algorithms and their corresponding citations. The overall background is white, creating a clean contrast with the colorful table and blue header."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 654,
+    "gemini_layout_calls": 627,
+    "total_gemini_calls": 1281,
+    "total_frames_sampled": 358,
+    "batch_size": 15
+  }
+}

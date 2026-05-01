@@ -1,0 +1,21 @@
+{
+    "title": "Conclusion and Future Directions",
+    "audio_content": "The IKEA Ego 3D dataset establishes a challenging new benchmark for fine-grained action recognition. This resource paves the way for future research in multi-modal fusion and action forecasting, ultimately supporting AR assistive systems that provide real-time feedback and error prevention during complex assembly tasks.",
+    "duration_sec": 11.2,
+    "bullets": [
+        "Challenging testbed for ego-view 3D action recognition",
+        "Enables research in multi-modal fusion and action forecasting",
+        "Foundation for AR assistive systems and real-time feedback"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 3",
+        "caption": "Visualizing RGB, 3D point clouds, and action labels for assembly tasks"
+    },
+    "source": [
+        "Section 5",
+        "Section 6",
+        "Figure 3"
+    ],
+    "prompt": "A concluding slide with a two-column layout. On the left, Figure 3 from the paper is displayed, showing the synchronization of RGB video, 3D point clouds, and action labels like 'spin screwdriver' and 'use drill'. On the right, bullet points summarize the dataset's role as a benchmark and its future applications in AR and multi-modal computer vision."
+}

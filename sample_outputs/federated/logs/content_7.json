@@ -1,0 +1,35 @@
+{
+    "extracted_content": "BlindFed achieves a favorable balance between efficiency and performance by significantly reducing the computational burden on clients. It requires 34x to 48x fewer trainable parameters than full fine-tuning and maintains a client-side memory footprint of approximately 9GB, which is nearly half that of full fine-tuning (~18GB). In terms of latency, BlindFed is remarkably efficient, operating at only a 4% increase over linear probing because it eliminates the need for backpropagation through the foundation model backbone. However, the framework's primary bottlenecks are server-side: encrypted inference for a single transformer block takes approximately 136 seconds per sample and requires over 22GB of server memory. Additionally, the use of Fully Homomorphic Encryption (FHE) results in a 2.8x data expansion, increasing the size of intermediate representations from 6.21MB to 17.33MB, which contributes to high communication overhead.",
+    "key_figures": [
+        {
+            "ref": "Figure 10",
+            "caption": "Comparison of the efficiency of different adaptation methods in terms of the number of parameters, latency, and memory usage across three datasets: CIFAR-10/SVHN, CIFAR-100, and Fed-ISIC2019.",
+            "relevance": "Visually demonstrates that BlindFed achieves near-optimal latency and low memory usage (comparable to linear probing) while providing significantly more adaptability than simple head-only tuning."
+        }
+    ],
+    "key_tables": [
+        {
+            "ref": "Table 4",
+            "caption": "Comparison of the efficiency of our method with baseline approaches in terms of the number of parameters, latency and the memory requirement across four datasets (CIFAR-10/SVHN, CIFAR-100, and Fed-ISIC2019).",
+            "relevance": "Provides the exact metrics for trainable parameters, latency per data point, and GPU memory requirements, highlighting BlindFed's efficiency for thin clients."
+        },
+        {
+            "ref": "Table 7",
+            "caption": "Computational and memory overhead for encrypted inference and encryption using FHE with the Tile Tensors framework.",
+            "relevance": "Details the specific costs associated with FHE, including the time taken for encryption/decryption and the expansion of ciphertext size compared to plaintext."
+        }
+    ],
+    "key_equations": [
+        {
+            "ref": "Communication Cost Formula",
+            "content": "Total Cost = (N_k * L * C)",
+            "relevance": "Defines the total communication overhead where $N_k$ is the local training dataset size, $L$ is the number of transformer blocks, and $C$ is the size of the encrypted intermediate representation."
+        }
+    ],
+    "section_refs": [
+        "Section 5.3",
+        "Section 6",
+        "Appendix D.2",
+        "Appendix D.5"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "version": 1,
+    "layout_type": "two-column layout: architecture diagram left, bullets right",
+    "layout_tags": [
+        "introduction",
+        "two_col",
+        "architecture",
+        "comparison"
+    ],
+    "layout_signature": "T|ST|D-B",
+    "background_color": "#FFFFFF",
+    "elements": [
+        {
+            "id": "title",
+            "type": "T",
+            "content_ref": "elements.title",
+            "box": {
+                "tl": "B01",
+                "br": "U03"
+            },
+            "style": {
+                "font_size": 40,
+                "bold": true,
+                "align": "left"
+            }
+        },
+        {
+            "id": "subtitle",
+            "type": "ST",
+            "content_ref": "elements.subtitle",
+            "box": {
+                "tl": "B03",
+                "br": "U04"
+            },
+            "style": {
+                "font_size": 28,
+                "italic": true,
+                "align": "left"
+            }
+        },
+        {
+            "id": "architecture_diagram",
+            "type": "D",
+            "content_ref": "elements.figure",
+            "box": {
+                "tl": "B05",
+                "br": "M19"
+            },
+            "constraints": {
+                "keep_aspect": true
+            }
+        },
+        {
+            "id": "key_points",
+            "type": "B",
+            "content_ref": "elements.bullets",
+            "box": {
+                "tl": "N05",
+                "br": "T19"
+            },
+            "style": {
+                "font_size": 24,
+                "min_font_size": 16
+            }
+        }
+    ],
+    "global_constraints": {
+        "no_overlap": true,
+        "no_overflow": true,
+        "min_font_size": 14
+    }
+}

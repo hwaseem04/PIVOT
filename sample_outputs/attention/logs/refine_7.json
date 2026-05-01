@@ -1,0 +1,84 @@
+{
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "Training Regime and Datasets",
+        "subtitle": "Efficient optimization on large-scale translation tasks",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Table 2",
+            "caption": "Training costs and BLEU scores for Transformer models."
+        },
+        "equations": [
+            "Eq. 3: \\mathrm{lrate} = d_{\\mathrm{model}}^{-0.5} \\cdot \\min(\\mathrm{step\\_num}^{-0.5}, \\mathrm{step\\_num} \\cdot \\mathrm{warmup\\_steps}^{-1.5})"
+        ],
+        "bullets": [
+            "Trained on WMT 2014 English-German and English-French datasets.",
+            "Utilized 8 NVIDIA P100 GPUs for parallel training.",
+            "Used residual dropout and label smoothing for regularization."
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "subtitle"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                },
+                {
+                    "type": "show",
+                    "target": "equation"
+                }
+            ],
+            "audio_segment": "We used the Adam optimizer with a custom learning rate schedule, as shown in the equation, to achieve the results in Table 2.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.0,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "Training was conducted on the standard WMT 2014 English-German and English-French datasets.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 6.0,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "We utilized eight NVIDIA P100 GPUs for parallel training to speed up the process.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 9.0,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "Finally, residual dropout and label smoothing provided the necessary regularization for better BLEU scores.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 12.0
+}

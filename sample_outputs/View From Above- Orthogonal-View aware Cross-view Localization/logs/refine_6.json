@@ -1,0 +1,72 @@
+{
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "Robust Continual Pose Estimation",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Figure 7",
+            "caption": "Accumulated pose estimation performance showing stable trajectory and rapid recovery compared to baselines."
+        },
+        "bullets": [
+            "Maintains stability over 3.6km routes from a single initial pose",
+            "Resists significant drifts caused by dynamic objects and moving vehicles",
+            "Rapidly recovers and self-corrects upon encountering distinct landmarks"
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                }
+            ],
+            "audio_segment": "The system maintains stable navigation over three-point-six kilometers from just one initial pose.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.6,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "This stability is demonstrated over long routes, starting from only a single initial pose.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 7.2,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "It resists drifts from moving vehicles and dynamic objects that often compromise baseline methods.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 10.8,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "Furthermore, it uses a rapid recovery mechanism to self-correct at landmarks, ensuring reliable performance for GPS-denied autonomous driving.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 14.4
+}

@@ -1,0 +1,26 @@
+{
+    "extracted_content": "The clustering experiment decouples spatial and temporal representation power by grouping the 56 atomic actions into 12 verb and 22 noun classes. A primary insight is that nouns are significantly easier to recognize than verbs across all architectures, as assembly components (nouns) can often be identified from static spatial geometry. In contrast, verbs (motions) are inherently more difficult to recognize because they require the accumulation of temporal sequence information. Per-frame methods show a notable performance boost in noun recognition, indicating they are adept at capturing global geometric representations even without temporal context. The results suggest that while spatial features are sufficient for identifying objects, temporal modeling is the critical driver for distinguishing between different assembly motions.",
+    "key_figures": [
+        {
+            "ref": "Figure 5",
+            "caption": "Duration statistics. Sequence (a) and action (b) duration distributions in the IKEA Ego 3D dataset.",
+            "relevance": "Provides statistical context for the difficulty of verb recognition; the distribution of action durations (5b) supports the claim that verbs require accumulating sequence information over time."
+        }
+    ],
+    "key_tables": [
+        {
+            "ref": "Table 3",
+            "caption": "Noun recognition results. We cluster the action classes by nouns and report the performance of state-of-the-art approaches. This experiment demonstrates the spatial quality of the methods (how well they capture objects).",
+            "relevance": "Quantifies the models' spatial representation capabilities, showing that identifying the 'what' (object) is significantly easier than identifying the full atomic action."
+        },
+        {
+            "ref": "Table 4",
+            "caption": "Verb recognition results. We cluster the action classes by verbs and report the performance of state-of-the-art approaches. This experiment demonstrates the temporal quality of the methods (how well they distinguish motions).",
+            "relevance": "Serves as the primary evidence for the temporal quality of the methods, highlighting that motion-based classes are the main bottleneck in action recognition performance."
+        }
+    ],
+    "key_equations": [],
+    "section_refs": [
+        "Section 4.3"
+    ]
+}

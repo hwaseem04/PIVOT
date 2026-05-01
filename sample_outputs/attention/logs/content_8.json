@@ -1,0 +1,15 @@
+{
+    "extracted_content": "On the WMT 2014 English-to-German translation task, the Transformer (big) model achieved a BLEU score of 28.4, outperforming the previous best results, including ensembles, by more than 2.0 BLEU. For the WMT 2014 English-to-French task, the big model reached a state-of-the-art BLEU score of 41.8, surpassing previous single-model results while requiring less than 1/4 of the training cost of those models. The base Transformer model also demonstrated strong performance, achieving 27.3 BLEU on EN-DE and 38.1 BLEU on EN-FR, which exceeds many previously published models and ensembles at a significantly lower computational cost. These results establish the Transformer as a highly efficient and superior architecture for sequence transduction compared to recurrent and convolutional alternatives.",
+    "key_figures": [],
+    "key_tables": [
+        {
+            "ref": "Table 2",
+            "caption": "The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-German and English-to-French newstest2014 tests at a fraction of the training cost.",
+            "relevance": "This table provides the specific BLEU scores (28.4 for EN-DE and 41.8 for EN-FR) that define the state-of-the-art performance of the Transformer models compared to prior architectures."
+        }
+    ],
+    "key_equations": [],
+    "section_refs": [
+        "Section 6.1"
+    ]
+}

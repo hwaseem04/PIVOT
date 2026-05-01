@@ -1,0 +1,27 @@
+{
+    "title": "Scaled Dot-Product and Multi-Head Attention",
+    "audio_content": "Scaled Dot-Product Attention maps queries and key-value pairs to a weighted output. We scale scores by the inverse square root of the key dimension for stability. Multi-head attention runs eight parallel heads to attend to different representation subspaces simultaneously.",
+    "duration_sec": 16.4,
+    "bullets": [
+        "Maps queries and key-value pairs to weighted outputs",
+        "Scaling by 1/sqrt(d_k) maintains stable softmax gradients",
+        "Multi-head attention runs eight parallel attention layers",
+        "Jointly attends to information from different representation subspaces"
+    ],
+    "equations": [
+        "Eq. 1: \\mathrm{Attention}(Q, K, V) = \\mathrm{softmax}(\frac{QK^T}{\\sqrt{d_k}})V",
+        "Eq. 2: \\mathrm{MultiHead}(Q, K, V) = \\mathrm{Concat}(\\mathrm{head}_1, ..., \\mathrm{head}_h)W^O"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 2",
+        "caption": "Architectures of Scaled Dot-Product Attention (left) and Multi-Head Attention (right)."
+    },
+    "source": [
+        "Section 3.2",
+        "Section 3.2.1",
+        "Section 3.2.2",
+        "Figure 2"
+    ],
+    "prompt": "A two-column slide showing Figure 2 from the paper on the left, illustrating Scaled Dot-Product and Multi-Head Attention. On the right, bullet points describe the mechanism and scaling, followed by the mathematical equations for attention and multi-head concatenation."
+}

@@ -1,0 +1,679 @@
+{
+  "video_id": "View From Above- Orthogonal-View aware Cross-view Localization",
+  "duration": 308.14,
+  "fps_sampled": 1.0,
+  "total_slides": 33,
+  "slides_with_builds": 6,
+  "total_build_steps": 40,
+  "slides": [
+    {
+      "slide_id": 1,
+      "slide_section": "title",
+      "t_start": 0.0,
+      "t_end": 16.45,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 0.0,
+          "image": "slide_1_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title slide",
+        "title_text": "View From Above: Orthogonal-View aware Cross-view Localization",
+        "layout_description": "The slide follows a centered title slide layout on a plain white background. At the top-left corner, there is a blue logo for the CVPR 2024 conference, which includes a stylized skyline of Seattle. The main title is positioned in the upper-middle section, rendered in a large, bold, black sans-serif font. Below the title, the names of eight authors are arranged in two centered rows, with superscript numbers indicating their institutional affiliations. Underneath the author list, the two corresponding affiliations ('Data61, CSIRO' and 'Australian National University') are listed in a smaller font. At the bottom of the slide, the logos for CSIRO (a teal circular icon) and the Australian National University (a gold crest) are placed side-by-side, centered horizontally. The overall text density is light, maintaining a clean and professional aesthetic with ample white space."
+      }
+    },
+    {
+      "slide_id": 2,
+      "slide_section": "introduction",
+      "t_start": 16.45,
+      "t_end": 29.03,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 16.45,
+          "image": "slide_2_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "header-body layout",
+        "title_text": "Motivation",
+        "layout_description": "The slide features a clean, two-part horizontal split. The top half is a solid teal-colored rectangular block that serves as a header, containing the title 'Motivation' in a large, white, sans-serif font centered within the block. The bottom half of the slide has a plain white background. A single sentence of black text is centered horizontally in the upper portion of this white section, stating the core problem. In the bottom-left corner, there is a small text footer that reads 'Australia's National Science Agency'. The bottom-right corner contains two institutional logos: the Australian National University crest and name, and the CSIRO logo. The overall text density is very light, emphasizing a single motivational statement."
+      }
+    },
+    {
+      "slide_id": 3,
+      "slide_section": "introduction",
+      "t_start": 29.03,
+      "t_end": 77.41,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 29.03,
+          "image": "slide_3_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title block",
+        "title_text": "Motivation",
+        "layout_description": "The slide uses a horizontal split layout. The top third consists of a solid teal-colored rectangular block that serves as a header, with the title 'Motivation' centered in a large, white, sans-serif font. The bottom two-thirds of the slide has a plain white background. A single sentence of black serif text is left-aligned near the top of this white section, providing the core motivation for the research. The bottom margin contains institutional identifiers: 'Australia's National Science Agency' is printed in small grey text on the far left. On the far right, the logos for the Australian National University and CSIRO are placed side-by-side. The slide has a very light text density and a clean, minimalist aesthetic."
+      }
+    },
+    {
+      "slide_id": 4,
+      "slide_section": "method",
+      "t_start": 77.41,
+      "t_end": 80.31,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 77.41,
+          "image": "slide_4_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title",
+        "title_text": "Method",
+        "layout_description": "The slide features a clean, minimalist design divided into two horizontal sections. The top half is a solid teal-colored banner containing the title 'Method' in a large, white, sans-serif font, centered both horizontally and vertically within the colored block. The bottom half of the slide has a plain white background. A single sentence of black text, 'We propose three novel components to the geometry-alignment pipeline.', is positioned near the top of this white section, left-aligned. In the bottom-left corner, there is small grey text identifying 'Australia's National Science Agency'. The bottom-right corner contains two institutional logos: the Australian National University crest and text, and the CSIRO circular logo. The overall text density is very light, serving as an introductory slide for the methodology section."
+      }
+    },
+    {
+      "slide_id": 5,
+      "slide_section": "method",
+      "t_start": 80.31,
+      "t_end": 87.09,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 80.31,
+          "image": "slide_5_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "Overview",
+        "layout_description": "The slide has a clean, white background with a large, simple title 'Overview' positioned at the top-left. The central portion of the slide is dominated by a detailed architectural flowchart that illustrates a neural network pipeline. This diagram begins on the left with two input images\u2014a ground-level view and a satellite view\u2014which pass through a shared 'Feature Extractor'. The core of the proposed method is highlighted in a large red-outlined box labeled 'T2GA', showing internal components like MLP layers, Softmax, and attention operations. To the right of this module, the data flows into a 'Baseline Model' box containing four sub-components: a Confidence Map Generator, Keypoint Detector, Weighted Residual Calculator, and Pose Optimizer. The pipeline terminates on the far right with three loss functions, two of which are highlighted in red boxes. Below the diagram, on the bottom-left, is a 'Contributions:' section with three bullet points. Each bullet point describes a specific part of the method, with key terms ('T2GA', 'CycDA', and 'Equidistant') highlighted in red to match the diagram's visual cues. The text density is moderate, focusing on visual representation of the system architecture."
+      }
+    },
+    {
+      "slide_id": 6,
+      "slide_section": "method",
+      "t_start": 87.09,
+      "t_end": 98.7,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 87.09,
+          "image": "slide_6_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 95.8,
+          "image": "slide_6_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title, figure, and bullet points",
+        "title_text": "Overview",
+        "layout_description": "The slide features a large, bold title 'Overview' positioned at the top-left. The main body of the slide is occupied by a complex horizontal architectural diagram that illustrates a neural network pipeline. This diagram starts on the left with two input images (ground and satellite views) feeding into a 'Feature Extractor' block. The flow continues through a central, red-outlined 'T2GA' module highlighted in yellow, which details internal operations like MLP, Softmax, and feature map aggregation. To the right of this module, the data flows into a 'Baseline Model' box containing several sub-components such as a 'Confidence Map Generator' and 'Pose Optimizer'. The pipeline concludes on the far right with three distinct loss functions: 'Triplet Loss', 'CycDA Loss', and 'Equidistant Re-projection Loss'. Below the diagram, there is a 'Contributions:' section with three bullet points. These bullets correspond to the highlighted elements in the diagram above, using matching color-coding: yellow for 'T2GA' and red for the 'CycDA' and 'Equidistant Re-projection' losses. The overall design is clean with a white background and moderate text density, focusing on the visual flow of the proposed method."
+      }
+    },
+    {
+      "slide_id": 7,
+      "slide_section": "results",
+      "t_start": 98.7,
+      "t_end": 100.63,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 98.7,
+          "image": "slide_7_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and large figure",
+        "title_text": "Line-Wise Attention Visualization",
+        "layout_description": "The slide follows a minimalist single-column layout against a solid black background. At the top, the title 'Line-Wise Attention Visualization' is centered in a bold, white sans-serif font. Occupying the majority of the slide's lower half is a large, centered rectangular image. This image shows a first-person view of a street scene with houses and lush greenery on either side. A distinctive visual overlay of glowing blue horizontal lines is applied across the middle of the image, representing the model's 'attention' on specific spatial features. There are no bullet points, sidebars, or additional text, resulting in a very light text density that emphasizes the qualitative visual data."
+      }
+    },
+    {
+      "slide_id": 8,
+      "slide_section": "method",
+      "t_start": 100.63,
+      "t_end": 101.6,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 100.63,
+          "image": "slide_8_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with title",
+        "title_text": "Query pixels are positioned in a line that progresses towards the bottom of the image",
+        "layout_description": "The slide uses a minimalist design with a solid black background. A single line of white, sans-serif text is centered at the top, serving as a descriptive title or caption. Below this text, a large photographic image spans the width of the slide, showing a street-level view of a residential road lined with trees and fences under a clear sky. A prominent horizontal dashed white line is overlaid across the lower third of the image. Scattered throughout the scene, particularly concentrated along this dashed line and trailing into the distance, are glowing purple and blue light effects that represent the 'query pixels' mentioned in the title. The overall text density is light, prioritizing the visual demonstration over textual information."
+      }
+    },
+    {
+      "slide_id": 9,
+      "slide_section": "results",
+      "t_start": 101.6,
+      "t_end": 105.47,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 101.6,
+          "image": "slide_9_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with title",
+        "title_text": "Query pixels are positioned in a line that progresses towards the bottom of the image",
+        "layout_description": "The slide features a simple vertical layout divided into two main sections. The top section is a solid black bar containing a single line of centered white text that acts as a descriptive title or caption. The bottom section, occupying about two-thirds of the slide, is a full-width photograph of a residential street scene. This image includes graphical overlays: a prominent horizontal dashed white line near the bottom and several clusters of glowing purple and blue pixels scattered across the scene, particularly along the dashed line and on the surrounding foliage and walls. The overall text density is light, focusing the viewer's attention on the qualitative visual information presented in the annotated photograph."
+      }
+    },
+    {
+      "slide_id": 10,
+      "slide_section": "method",
+      "t_start": 105.47,
+      "t_end": 107.41,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 105.47,
+          "image": "slide_10_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 106.44,
+          "image": "slide_10_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with title",
+        "title_text": "Reference pixels are located directly above each query pixels",
+        "layout_description": "The slide has a minimalist design with a solid black background. A single line of white, bold text is centered at the top, acting as the title. The main content is a large, centered image showing a first-person view of a street in a residential area. Overlaid on this image are several explanatory annotations: a horizontal purple line runs across the bottom, with a small yellow square labeled 'query pixel' on its right side. A vertical dashed white line extends from this yellow square towards the top of the image. A label 'Reference pixels' with a white arrow points to this dashed line, illustrating the spatial relationship described in the title. The text density is very light, relying primarily on the annotated image to convey information."
+      }
+    },
+    {
+      "slide_id": 11,
+      "slide_section": "results",
+      "t_start": 107.41,
+      "t_end": 111.28,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 107.41,
+          "image": "slide_11_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 109.34,
+          "image": "slide_11_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with title",
+        "title_text": "Yellow represents high attention",
+        "layout_description": "The slide follows a simple vertical structure with a centered title at the top and a large figure below. The title is written in a bold yellow font against a solid black background. Occupying the majority of the slide is a darkened image showing a first-person perspective of a narrow residential street. A horizontal, glowing blue and purple band is overlaid across the center of the image, representing some form of data visualization. A white, hand-drawn arrow is placed in the lower-left area of the image, pointing towards the sidewalk. The overall design is minimalist with very light text density, intended to highlight the qualitative visual data."
+      }
+    },
+    {
+      "slide_id": 12,
+      "slide_section": "results",
+      "t_start": 111.28,
+      "t_end": 114.18,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 111.28,
+          "image": "slide_12_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 112.25,
+          "image": "slide_12_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with title",
+        "title_text": "Dark blue represents low attention",
+        "layout_description": "The slide uses a dark background with a single line of centered text at the top, written in a purple-blue font. The main content is a large, wide-aspect-ratio image centered below the text, showing a first-person view of a street scene with trees, houses, and a road. A semi-transparent dark blue overlay is applied to parts of the image, specifically across the road and along the right-side wall, to visualize 'low attention' areas. A white, hand-drawn arrow is placed in the bottom-right area of the image, pointing towards the blue-shaded region on the right. The slide has a very light text density, prioritizing the visual qualitative result."
+      }
+    },
+    {
+      "slide_id": 13,
+      "slide_section": "results",
+      "t_start": 114.18,
+      "t_end": 116.12,
+      "num_builds": 2,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 114.18,
+          "image": "slide_13_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 115.15,
+          "image": "slide_13_build_1.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "figure-based analysis layout",
+        "title_text": "On the roadsides, high attention is focused on the tops of walls and leaves, indicating that they substitute the information below for improved alignment with the view from above.",
+        "layout_description": "The slide features a multi-view layout designed for qualitative analysis. The bottom two-thirds of the slide is occupied by a large ground-level street view image. This image is overlaid with a horizontal purple line across the road and glowing blue and purple patches on the roadside walls and foliage, representing a visualization of model attention. The top third of the slide has a black background and contains three distinct elements: a central block of yellow text that serves as a descriptive heading, flanked by two small, identical aerial view images on the far left and far right. These aerial images are annotated with white circles and arrows pointing to specific features, providing a top-down reference for the ground-level scene below. The color scheme uses high contrast, with yellow text and vibrant purple/blue highlights against dark backgrounds to emphasize the analytical findings."
+      }
+    },
+    {
+      "slide_id": 14,
+      "slide_section": "results",
+      "t_start": 116.12,
+      "t_end": 125.79,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 116.12,
+          "image": "slide_14_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with text overlay and insets",
+        "title_text": "On the roadsides, high attention is focused on the tops of walls and leaves, indicating that they substitute the information below for improved alignment with the view from above.",
+        "layout_description": "The slide is dominated by a large, full-width image showing a first-person street view from a vehicle. At the top of the slide, a black horizontal bar contains a single paragraph of yellow text that explains the visual findings. Positioned at the top-left and top-right corners, overlapping the black bar and the main image, are two small square inset images showing a top-down satellite view of the same area. Each inset features a white circle and an arrow pointing to specific landmarks (trees and walls) to correlate the two perspectives. Overlaid on the main street-view image are glowing purple and blue horizontal lines and scattered points, which appear to be attention maps or feature visualizations, concentrated along the road and the tops of roadside structures. The layout is designed for qualitative analysis, with a light text density and a focus on visual comparison."
+      }
+    },
+    {
+      "slide_id": 15,
+      "slide_section": "results",
+      "t_start": 125.79,
+      "t_end": 130.63,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 125.79,
+          "image": "slide_15_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with inset and text overlay",
+        "title_text": "High attention is concentrated on the query pixels themselves or on the nearby on-ground pixels above, on the road surface, which are already well-aligned with the view from above.",
+        "layout_description": "The slide uses a dark background to showcase a large, wide-angle ground-level photograph of a residential street that fills the lower two-thirds of the frame. In the top-left corner, a small square inset displays a corresponding aerial satellite view of the same neighborhood. A prominent white arrow points from this aerial inset towards the main street-level image. To the right of the inset, a paragraph of yellow text serves as the primary heading/explanation. Overlaid across the middle of the ground-level image is a horizontal, glowing purple and blue line, which visually represents a model's attention map. The slide has a light text density, prioritizing qualitative visual analysis over dense information."
+      }
+    },
+    {
+      "slide_id": 16,
+      "slide_section": "results",
+      "t_start": 130.63,
+      "t_end": 140.31,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 130.63,
+          "image": "slide_16_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "full-screen figure with inset and text overlay",
+        "title_text": "High attention is concentrated on the query pixels themselves or on the nearby on-ground pixels above, on the road surface, which are already well-aligned with the view from above.",
+        "layout_description": "The slide uses a dark background to showcase a large, full-width image of a street-level view. This main image features blue highlights, likely representing an attention map, concentrated on the road and adjacent walls. In the top-left corner, a smaller inset image provides a top-down aerial view of the same neighborhood, with a white circle marking a specific area. A thick white arrow connects the inset aerial view to the corresponding location in the street-level view. To the right of the inset, a block of yellow text serves as a descriptive heading or caption, explaining the visual data. The layout is designed for qualitative analysis, emphasizing the spatial relationship between different camera perspectives. Text density is light, prioritizing the visual elements."
+      }
+    },
+    {
+      "slide_id": 17,
+      "slide_section": "results",
+      "t_start": 140.31,
+      "t_end": 142.24,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 140.31,
+          "image": "slide_17_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Confidence Map Visualization",
+        "layout_description": "The slide uses a vertical comparison layout set against a dark background. A centered white title, 'Confidence Map Visualization', is located at the top. The primary content is divided into two horizontal panels, each displaying a heatmap visualization overlaid on a low-light road scene. The top panel is labeled 'w/ T2GA' in the upper-left corner and shows a wide area of high confidence (indicated by yellow and red colors) across the road and roadside, with a white arrow pointing to a specific feature on the right. The bottom panel is labeled 'w/o T2GA' in its upper-left corner and shows a significantly more restricted confidence map that primarily highlights the lane markings. There are no bullet points, equations, or tables; the focus is entirely on the qualitative visual comparison. The text density is light."
+      }
+    },
+    {
+      "slide_id": 18,
+      "slide_section": "results",
+      "t_start": 142.24,
+      "t_end": 145.15,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 142.24,
+          "image": "slide_18_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "High confidence values are assigned not only to road markers but also landmarks like traffic poles and guardrails.",
+        "layout_description": "The slide uses a vertical comparison layout consisting of two stacked, full-width rectangular panels. Each panel displays a heatmap visualization of a road scene at night. The top panel is labeled 'w/ T2GA' in white text at the top-left, and it features a centered block of yellow text at the top that serves as the main descriptive heading. The bottom panel is labeled 'w/o T2GA' in white text at its top-left. The heatmaps utilize a color gradient where dark blue/purple represents low confidence and bright yellow/orange represents high confidence. In the top panel, the high-confidence areas are broader, covering road markers, guardrails, and distant vertical structures. In the bottom panel, the high-confidence areas are more narrowly focused on the immediate lane markings. The background of both images is a dark, low-visibility driving environment. The text density is light, prioritizing the qualitative visual comparison between the two states."
+      }
+    },
+    {
+      "slide_id": 19,
+      "slide_section": "results",
+      "t_start": 145.15,
+      "t_end": 156.76,
+      "num_builds": 3,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 145.15,
+          "image": "slide_19_build_0.jpg"
+        },
+        {
+          "build_id": 1,
+          "timestamp": 152.89,
+          "image": "slide_19_build_1.jpg"
+        },
+        {
+          "build_id": 2,
+          "timestamp": 155.79,
+          "image": "slide_19_build_2.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "vertical comparison layout",
+        "title_text": "High confidence values are assigned not only to road markers but also landmarks like traffic poles and guardrails.",
+        "layout_description": "The slide uses a vertical split to compare two qualitative visualization results. It is divided into two horizontal panels of equal size. The top panel is labeled 'w/ T2GA' in white text at the top-left, and the bottom panel is labeled 'w/o T2GA' at its top-left. Both panels display a nighttime road scene with a heatmap overlay (ranging from blue for low confidence to yellow/red for high confidence). A descriptive text block in yellow font is centered in the upper half of the top panel, serving as the main takeaway. The visual comparison highlights that the top image ('w/ T2GA') shows high confidence values on peripheral landmarks like guardrails and poles, whereas the bottom image ('w/o T2GA') primarily focuses on lane markings. The background is dark, and the overall text density is light, prioritizing the visual evidence."
+      }
+    },
+    {
+      "slide_id": 20,
+      "slide_section": "method",
+      "t_start": 156.76,
+      "t_end": 159.66,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 156.76,
+          "image": "slide_20_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and central diagram",
+        "title_text": "CycDA Loss",
+        "layout_description": "The slide features a large, bold title 'CycDA Loss' positioned at the top-left corner. The main content consists of a large, centered architectural diagram that illustrates a cyclic data flow. The diagram uses mathematical notation for its nodes, such as f_g, m_g, f_s, and m_s, connected by single-headed arrows representing transformations through an encoder (E) and a decoder (D). Small circles with a 'c' inside indicate concatenation or combination points. Vertical double-headed arrows connect corresponding top and bottom nodes, labeled with 'L2 loss' to indicate where loss functions are applied. The layout is clean and minimalist, using a black-and-white color scheme on a plain white background, with a light text density focused on the visual logic of the method."
+      }
+    },
+    {
+      "slide_id": 21,
+      "slide_section": "method",
+      "t_start": 159.66,
+      "t_end": 202.24,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 159.66,
+          "image": "slide_21_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and diagram",
+        "title_text": "CycDA Loss",
+        "layout_description": "The slide features a large, centered diagram illustrating the 'CycDA Loss' architecture against a plain white background. A simple, black title is positioned at the top-left corner. The diagram itself is a structured flowchart with two parallel horizontal paths (top and bottom) connected by vertical double-headed arrows. The top path flows from left to right, starting with 'f_g', passing through a concatenation node 'c', an encoder 'E', a latent representation 'm_g', another concatenation node 'c', a decoder 'D', and ending at 'f_g2s'. The bottom path flows from right to left, starting with 'f_s', and follows a symmetric structure through 'c', 'E', 'm_s', 'c', and 'D' to reach 'f_s2g'. Three vertical double-headed arrows labeled 'L2 loss' connect corresponding nodes between the top and bottom paths: 'f_g' to 'f_s2g', 'm_g' to 'm_s', and 'f_g2s' to 'f_s'. Additional vertical arrows point from central labels 'c_g' and 'c_s' to the concatenation nodes in both paths. The overall text density is light, focusing primarily on the symbolic representation of the model's components and loss functions."
+      }
+    },
+    {
+      "slide_id": 22,
+      "slide_section": "method",
+      "t_start": 202.24,
+      "t_end": 203.2,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 202.24,
+          "image": "slide_22_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "title with figure and bullet points",
+        "title_text": "Overview",
+        "layout_description": "The slide features a large, bold title 'Overview' at the top-left. The central area is occupied by a detailed horizontal flowchart illustrating a neural network architecture. This diagram begins on the left with two input images (ground and satellite views) passing through a 'Feature Extractor'. The flow proceeds into a red-outlined box labeled 'T2GA' (Top-to-Ground feature Aggregation), which contains internal components like MLPs and a Softmax operation. To the right of this module is a 'Baseline Model' box listing four internal components: Confidence Map Generator, Keypoint Detector, Weighted Residual Calculator, and Pose Optimizer. On the far right, three loss functions are displayed in separate boxes: 'Triplet Loss', 'CycDA Loss' (outlined in red), and 'Equidistant Re-projection Loss' (highlighted with a yellow background). Below the main diagram on the left, there is a 'Contributions:' section with three bullet points. These bullets use color-coded text (red for T2GA and CycDA, yellow for Equidistant Re-projection) to create a visual link with the corresponding highlighted elements in the architecture diagram above. The background is plain white, and the text density is moderate, focusing on the visual representation of the proposed method."
+      }
+    },
+    {
+      "slide_id": 23,
+      "slide_section": "method",
+      "t_start": 203.2,
+      "t_end": 211.91,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 203.2,
+          "image": "slide_23_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and large diagram",
+        "title_text": "Overview",
+        "layout_description": "The slide features a large, plain-text title 'Overview' positioned at the top-left. The central portion of the slide is dominated by a complex architectural flowchart that illustrates a machine learning pipeline. This diagram flows from left to right, starting with input images (ground and satellite views) that pass through a 'Feature Extractor'. A prominent red-bordered box in the center, labeled 'T2GA', details a feature aggregation mechanism using MLPs and attention. To its right, a 'Baseline Model' box lists several internal components like a 'Keypoint Detector' and 'Pose Optimizer'. The diagram concludes on the far right with three distinct loss function boxes. Below this diagram, a 'Contributions:' section contains three bullet points that are color-coded to match specific elements in the flowchart: 'T2GA' and 'CycDA Loss' are in red, while 'Equidistant Re-projection Loss' is highlighted with a yellow background. The slide uses a clean white background with moderate text density, focusing primarily on the visual representation of the proposed method's architecture."
+      }
+    },
+    {
+      "slide_id": 24,
+      "slide_section": "results",
+      "t_start": 211.91,
+      "t_end": 217.72,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 211.91,
+          "image": "slide_24_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout with title",
+        "title_text": "Equidistant Re-projection Loss",
+        "layout_description": "The slide follows a simple comparison layout on a plain white background. A large, black, sans-serif title is aligned to the top-left. The main content consists of two side-by-side photographic images centered horizontally in the middle of the slide. Both images show a first-person view of a residential street with numerous red dots overlaid on the ground and walls, representing re-projected points. Below the left image is the label 'wo/ Equidistant' (without), and below the right image is the label 'w/ Equidistant' (with), facilitating a direct qualitative comparison of the proposed loss function's effect. The overall text density is light, prioritizing visual evidence over textual explanation."
+      }
+    },
+    {
+      "slide_id": 25,
+      "slide_section": "results",
+      "t_start": 217.72,
+      "t_end": 236.1,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 217.72,
+          "image": "slide_25_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Equidistant Re-projection Loss",
+        "layout_description": "The slide follows a simple comparison layout on a plain white background. A large, black, sans-serif title is aligned to the top-left. The main content consists of two side-by-side rectangular images showing a first-person view of a road with red point clouds projected onto the ground. Below each image is a centered text label: 'wo/ Equidistant' on the left and 'w/ Equidistant' on the right, facilitating a qualitative comparison of the proposed method's effect. There are no bullet points, equations, or decorative elements, resulting in a very light text density that emphasizes the visual data."
+      }
+    },
+    {
+      "slide_id": 26,
+      "slide_section": "experiments",
+      "t_start": 236.1,
+      "t_end": 238.04,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 236.1,
+          "image": "slide_26_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "section header slide",
+        "title_text": "Experiments",
+        "layout_description": "The slide uses a minimalist horizontal split-screen layout. The top half of the slide has a solid teal background, featuring the word 'Experiments' centered horizontally and vertically within that section in a white, sans-serif font. The bottom half of the slide is solid white and contains institutional branding. In the bottom-left corner, the phrase 'Australia's National Science Agency' is printed in a small, light-grey font. In the bottom-right corner, two logos are positioned side-by-side: the Australian National University crest and name, followed by the CSIRO logo, which consists of a teal circular icon with white vertical bars and the text 'CSIRO' underneath. The slide has a very light text density and serves as a clear transition to the experimental section of the presentation."
+      }
+    },
+    {
+      "slide_id": 27,
+      "slide_section": "results",
+      "t_start": 238.04,
+      "t_end": 246.75,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 238.04,
+          "image": "slide_27_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Comparison under (\u00b145\u00b0,\u00b120m)",
+        "layout_description": "The slide consists of a large, complex data table positioned below a top-left aligned title. The title, 'Comparison under (\u00b145\u00b0,\u00b120m)', is presented in a large, standard font. The table is the central focus, organized into four distinct horizontal sections labeled on the far left as 'K-Same', 'K-Cross', 'F-1C', and 'F-4C'. Each section compares several models, including the authors' proposed method labeled as 'Ours'. The table columns are grouped into six major performance metric categories: Lateral error (meters and percentage), Longitudinal error (meters and percentage), and Orientation error (degrees and percentage). Within these categories, specific metrics like Mean, Median, and recall rates at different thresholds (e.g., r@0.25m, r@1\u00b0) are listed. The 'Ours' row in every section is highlighted in bold to draw attention to the results. The slide has a high text density due to the large volume of numerical data. The visual style is minimalist, using a white background with black text and thin lines to delineate the table's grid structure."
+      }
+    },
+    {
+      "slide_id": 28,
+      "slide_section": "results",
+      "t_start": 246.75,
+      "t_end": 255.46,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 246.75,
+          "image": "slide_28_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "single column with title and table",
+        "title_text": "Comparison under (\u00b145\u00b0,\u00b120m)",
+        "layout_description": "The slide features a large, detailed quantitative results table centered below a top-left aligned title. The title, 'Comparison under (\u00b145\u00b0,\u00b120m)', is in a large, plain font. The table is the primary visual element, occupying most of the slide's area. It is structured into four main horizontal blocks labeled on the far left as 'K-Same', 'K-Cross', 'F-1C', and 'F-4C'. Each block compares several models, including the authors' proposed method ('Ours'), which is highlighted in bold text. The table columns are grouped into three major performance metric categories: 'Lateral', 'Longit' (Longitudinal), and 'Orient' (Orientation). Each category is further subdivided into 'Mean', 'Median', and recall rates at specific thresholds (e.g., r@0.25m, r@1\u00b0). Arrows next to column headers indicate whether lower or higher values are preferable. The overall text density is high due to the numerous numerical entries within the table. The background is plain white with black text and thin black lines for table borders."
+      }
+    },
+    {
+      "slide_id": 29,
+      "slide_section": "results",
+      "t_start": 255.46,
+      "t_end": 261.26,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 255.46,
+          "image": "slide_29_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column comparison layout",
+        "title_text": "Robust Convergence",
+        "layout_description": "The slide features a large, left-aligned title 'Robust Convergence' at the top. Below the title, the main content consists of two side-by-side bar charts labeled '(a) Location' and '(b) Orientation'. Each chart compares the performance of two methods, '[ PureACL ]' and '[ Ours ]', across three different initial error conditions shown as vertical text labels: (\u00b115\u00b0, \u00b15m), (\u00b130\u00b0, \u00b110m), and (\u00b145\u00b0, \u00b120m). The charts use stacked bars where blue represents the 'median' and red represents the 'mean', with a legend placed above each chart. The left chart (a) has a y-axis in meters (m) ranging from 0 to 6, while the right chart (b) has a y-axis in degrees (\u00b0) ranging from 0 to 12. The overall design is clean with a white background and minimal text, focusing on the visual comparison of data."
+      }
+    },
+    {
+      "slide_id": 30,
+      "slide_section": "results",
+      "t_start": 261.26,
+      "t_end": 270.94,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 261.26,
+          "image": "slide_30_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "comparison layout",
+        "title_text": "Robust Convergence",
+        "layout_description": "The slide features a large, bold title 'Robust Convergence' positioned at the top-left. The main body of the slide contains two side-by-side bar charts that compare quantitative performance. The left chart is labeled '(a) Location' and the right chart is labeled '(b) Orientation'. Each chart presents data for two methods, '[ PureACL ]' and '[ Ours ]', across three different noise levels indicated by vertical text on the x-axis. A legend above each chart identifies red bars as 'mean' and blue bars as 'median' values. The y-axis for the location chart is measured in meters ('m'), while the orientation chart uses degrees ('\u00b0'). The layout is clean with a white background and light text density, emphasizing the graphical comparison between the proposed method and the baseline."
+      }
+    },
+    {
+      "slide_id": 31,
+      "slide_section": "results",
+      "t_start": 270.94,
+      "t_end": 275.78,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 270.94,
+          "image": "slide_31_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column figure layout",
+        "title_text": "Continual Pose Estimation",
+        "layout_description": "The slide features a large, bold title positioned at the top-left against a plain white background. The main body of the slide is occupied by two side-by-side plots representing trajectory data. The left plot shows a large-scale path in dark blue on a coordinate system with axes labeled 'North(m)' and 'East(m)'. A small portion of this trajectory is highlighted with a dashed black box, and a gray arrow connects this box to the second plot on the right. The right plot provides a zoomed-in view of the highlighted area, displaying multiple overlapping trajectories in shades of green, cyan, and blue. Within the right plot, there are two small inset images: an aerial view of a wooded area with buildings and a ground-level perspective of a road. A thin gray arrow points from the ground-level image to a specific location on the zoomed-in trajectory. The overall text density is light, with the focus being on the qualitative visual comparison of the pose estimation results."
+      }
+    },
+    {
+      "slide_id": 32,
+      "slide_section": "results",
+      "t_start": 275.78,
+      "t_end": 305.77,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 275.78,
+          "image": "slide_32_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "two-column layout with title",
+        "title_text": "Continual Pose Estimation",
+        "layout_description": "The slide features a large, bold title positioned at the top-left against a plain white background. Below the title, the main content consists of two side-by-side figures representing trajectory data. The left figure shows a large-scale path plotted on a coordinate system with 'East(m)' and 'North(m)' axes; a small section of this path is enclosed in a dashed box, with an arrow pointing toward the right figure. The right figure provides a zoomed-in view of that specific section, displaying multiple overlapping trajectories in various shades of blue, green, and cyan. Within the right figure, there are two small inset images: an aerial view and a first-person street-level view. A thin gray arrow connects the street-level image to a specific location on the zoomed-in trajectory. The slide has a light text density, relying primarily on visual charts and images to convey information."
+      }
+    },
+    {
+      "slide_id": 33,
+      "slide_section": "other",
+      "t_start": 305.77,
+      "t_end": 308.14,
+      "num_builds": 1,
+      "builds": [
+        {
+          "build_id": 0,
+          "timestamp": 305.77,
+          "image": "slide_33_build_0.jpg"
+        }
+      ],
+      "layout_structure": {
+        "layout_type": "centered text layout",
+        "title_text": "Thank You!",
+        "layout_description": "The slide features a minimalist design with a plain white background. The only content is the phrase 'Thank You!' which is positioned exactly in the center of the frame. The text is rendered in a bold, black, sans-serif font. There are no other visual elements such as headers, footers, logos, page numbers, or decorative graphics. The overall text density is extremely light, focusing entirely on the central message."
+      }
+    }
+  ],
+  "processing_info": {
+    "gemini_batch_calls": 630,
+    "gemini_layout_calls": 614,
+    "total_gemini_calls": 1244,
+    "total_frames_sampled": 319,
+    "batch_size": 15
+  }
+}

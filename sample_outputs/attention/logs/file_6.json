@@ -1,0 +1,206 @@
+{
+    "scene_id": 6,
+    "title": "Computational Efficiency and Path Lengths",
+    "summary": "Self-attention layers offer significant advantages over recurrent and convolutional layers. They reduce the total computational complexity per layer and minimize the number of sequential operations to O(1), while also shortening the path length between long-range dependencies to a constant factor.",
+    "paper_section": "Method",
+    "narrative_role": "method",
+    "asset_video": null,
+    "duration_stat": {
+        "min": 10.0,
+        "max": 15.0,
+        "avg": 12.0
+    },
+    "extracted_content": "The authors motivate the use of self-attention by comparing it to recurrent and convolutional layers across three key dimensions: computational complexity, parallelizability, and the ability to learn long-range dependencies. Self-attention layers exhibit a total computational complexity per layer of O(n^2 \u00b7 d), which is often more efficient than recurrent layers (O(n \u00b7 d^2)) in machine translation where the sequence length n is smaller than the representation dimensionality d. Crucially, self-attention requires a constant number of sequential operations (O(1)), whereas recurrent layers require O(n), significantly limiting parallelization. Furthermore, self-attention minimizes the maximum path length between any two input and output positions to O(1), facilitating the learning of long-range dependencies compared to the O(n) path length in recurrent layers or O(log_k(n)) in convolutional layers.",
+    "layout": {
+        "template": "top-down: title, wide table, equation, bullets",
+        "background_color": "#FFFFFF",
+        "regions": {
+            "title": {
+                "x": 0.05,
+                "y": 0.05,
+                "w": 0.95,
+                "h": 0.1
+            },
+            "table": {
+                "x": 0.05,
+                "y": 0.2,
+                "w": 0.9,
+                "h": 0.5
+            },
+            "equations": {
+                "x": 0.05,
+                "y": 0.75,
+                "w": 0.95,
+                "h": 0.05
+            },
+            "bullets": {
+                "x": 0.05,
+                "y": 0.85,
+                "w": 0.9,
+                "h": 0.1
+            }
+        },
+        "spec": {
+            "version": 1,
+            "layout_type": "top-down: title, wide table, equation, bullets",
+            "layout_tags": [
+                "wide_table",
+                "method",
+                "complexity"
+            ],
+            "layout_signature": "T|TAB|EQ|B",
+            "background_color": "#FFFFFF",
+            "elements": [
+                {
+                    "id": "title",
+                    "type": "T",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.05,
+                        "w": 0.95,
+                        "h": 0.1
+                    },
+                    "content_ref": "elements.title",
+                    "style": {
+                        "font_size": 36,
+                        "bold": true,
+                        "align": "left"
+                    }
+                },
+                {
+                    "id": "table",
+                    "type": "TAB",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.2,
+                        "w": 0.9,
+                        "h": 0.5
+                    },
+                    "content_ref": "elements.figure",
+                    "constraints": {
+                        "keep_aspect": true
+                    }
+                },
+                {
+                    "id": "equations",
+                    "type": "EQ",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.75,
+                        "w": 0.95,
+                        "h": 0.05
+                    },
+                    "content_ref": "elements.equations",
+                    "style": {
+                        "font_size": 20,
+                        "align": "center"
+                    }
+                },
+                {
+                    "id": "bullets",
+                    "type": "B",
+                    "box": {
+                        "x": 0.05,
+                        "y": 0.85,
+                        "w": 0.9,
+                        "h": 0.1
+                    },
+                    "content_ref": "elements.bullets",
+                    "style": {
+                        "font_size": 22,
+                        "min_font_size": 16
+                    }
+                }
+            ],
+            "global_constraints": {
+                "no_overlap": true,
+                "no_overflow": true,
+                "min_font_size": 14
+            }
+        }
+    },
+    "style": "Slides",
+    "expected_build_steps": 4,
+    "elements": {
+        "title": "Efficiency and Long-Range Dependencies",
+        "figure": {
+            "type": "paper_figure",
+            "ref": "Table 1",
+            "caption": "Comparison of complexity, sequential operations, and path lengths."
+        },
+        "equations": [
+            "Eq. 1: \\mathrm{Complexity} = O(n^2 \\cdot d)",
+            "Eq. 2: \\mathrm{Sequential\\ Ops} = O(1)"
+        ],
+        "bullets": [
+            "Constant sequential operations enable maximum parallelization.",
+            "O(1) path length facilitates learning long-range dependencies.",
+            "More efficient than RNNs for typical sequence lengths."
+        ]
+    },
+    "builds": [
+        {
+            "step_index": 0,
+            "time_offset_sec": 0.0,
+            "actions": [
+                {
+                    "type": "show",
+                    "target": "title"
+                },
+                {
+                    "type": "show",
+                    "target": "figure"
+                },
+                {
+                    "type": "show",
+                    "target": "equation"
+                }
+            ],
+            "audio_segment": "Self-attention enables massive parallelization",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 1,
+            "time_offset_sec": 3.5,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[0]"
+                }
+            ],
+            "audio_segment": "with constant sequential operations.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 2,
+            "time_offset_sec": 7.0,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[1]"
+                }
+            ],
+            "audio_segment": "It also minimizes path lengths to O(1), facilitating long-range dependency learning.",
+            "visual_emphasis": []
+        },
+        {
+            "step_index": 3,
+            "time_offset_sec": 10.5,
+            "actions": [
+                {
+                    "type": "fade_in",
+                    "target": "bullets[2]"
+                }
+            ],
+            "audio_segment": "Compared to RNNs, it is often more efficient for standard sequence lengths.",
+            "visual_emphasis": []
+        }
+    ],
+    "time_allocation_sec": 14.0,
+    "source": [
+        "Table 1",
+        "Section 4"
+    ],
+    "audio_content": "Self-attention enables massive parallelization with constant sequential operations. It also minimizes path lengths to O(1), facilitating long-range dependency learning. Compared to RNNs, it is often more efficient for standard sequence lengths.",
+    "prompt": "The slide displays Table 1, comparing layer types. Below it, equations show self-attention's complexity and constant sequential operations. Three bullets at the bottom summarize the key efficiency and dependency advantages."
+}

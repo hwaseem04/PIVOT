@@ -1,0 +1,21 @@
+{
+    "title": "Two-Stage Split Learning Strategy",
+    "audio_content": "BlindFed uses a two-stage strategy to bridge the gap between models. First, offline distillation aligns the FHE-friendly student with the original teacher using auxiliary data. Then, online adaptation uses block-by-block encrypted inference for private local training. Finally, secure multi-party computation aggregates updates into a global model without exposing individual parameters.",
+    "duration_sec": 18.4,
+    "bullets": [
+        "Offline distillation aligns FHE-friendly blocks with the original foundation model",
+        "Online adaptation enables private local training via block-by-block encrypted inference",
+        "Secure aggregation via MPC combines client updates without exposing local parameters"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 9",
+        "caption": "Layer-wise knowledge distillation between teacher and student models"
+    },
+    "source": [
+        "Section 4.2",
+        "Figure 9",
+        "Equation 21"
+    ],
+    "prompt": "A diagram showing a two-stage process: Stage 1 (Offline) shows a teacher model transferring knowledge to a student model via layer-wise distillation; Stage 2 (Online) shows a server and client interacting block-by-block with encrypted data to train local adapters."
+}

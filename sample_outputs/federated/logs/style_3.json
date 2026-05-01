@@ -1,0 +1,27 @@
+{
+    "layout_template": "two_col_fig_left",
+    "background_color": "#FFFFFF",
+    "layout_regions": {
+        "title": {
+            "x": 0.05,
+            "y": 0.05,
+            "w": 0.9,
+            "h": 0.1
+        },
+        "figure": {
+            "x": 0.05,
+            "y": 0.2,
+            "w": 0.4,
+            "h": 0.75
+        },
+        "bullets": {
+            "x": 0.5,
+            "y": 0.2,
+            "w": 0.45,
+            "h": 0.75
+        }
+    },
+    "has_figure": true,
+    "has_video": false,
+    "style_rationale": "A two-column layout is chosen to accommodate the vertical orientation of Figure 4 (the architecture diagram) on the left. This allows the right column to provide detailed bullet points explaining the polynomial approximations and parallel adapter design, including the critical mathematical equations for FHE compatibility."
+}

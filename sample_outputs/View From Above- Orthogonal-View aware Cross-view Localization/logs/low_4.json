@@ -1,0 +1,22 @@
+{
+    "title": "Equidistant Re-projection (ERP) Loss",
+    "audio_content": "Standard re-projection losses bias keypoints toward the vehicle because distant errors are over-penalized. Our ERP loss normalizes error by distance, ensuring equitable impact across the scene. This promotes a dispersed distribution of landmarks, providing the geometric constraints needed to significantly improve orientation accuracy.",
+    "duration_sec": 15.2,
+    "bullets": [
+        "Normalizes re-projection error by distance to eliminate proximity bias",
+        "Promotes a dispersed keypoint distribution for robust geometric constraints",
+        "Significantly improves orientation precision in challenging scenarios"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 5",
+        "caption": "Comparison of keypoint distribution without ERP loss (left) and with ERP loss (right)."
+    },
+    "source": [
+        "Section 4.3",
+        "Figure 5",
+        "Table 4",
+        "Equation 9"
+    ],
+    "prompt": "A slide showing Figure 5 from the paper, which compares keypoint distributions. On the left, keypoints are clustered near the vehicle; on the right, they are widely dispersed across the scene. Below the figure, bullet points explain how the ERP loss normalizes error by distance to achieve this more robust distribution for orientation estimation."
+}

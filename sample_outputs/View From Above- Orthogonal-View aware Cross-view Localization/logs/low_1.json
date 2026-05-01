@@ -1,0 +1,20 @@
+{
+    "title": "Challenges in Cross-view Localization",
+    "audio_content": "Matching street-level images to aerial maps is difficult due to extreme viewpoint differences. Standard methods often ignore off-ground features and struggle with occlusions, compromising localization accuracy in complex scenes.",
+    "duration_sec": 11.6,
+    "bullets": [
+        "Extreme viewpoint differences create a significant domain gap",
+        "Neglect of off-ground features like streetlights and poles",
+        "Visual occlusions from trees compromise feature alignment"
+    ],
+    "figure": {
+        "type": "paper_figure",
+        "ref": "Figure 1",
+        "caption": "Visualizing viewpoint differences and occlusions"
+    },
+    "source": [
+        "Figure 1",
+        "Section 1"
+    ],
+    "prompt": "A slide showing the challenges of cross-view localization. On the left, bullet points describe viewpoint differences and occlusions. On the right, Figure 1 from the paper illustrates these issues by comparing ground and aerial views of streetlights and trees."
+}
